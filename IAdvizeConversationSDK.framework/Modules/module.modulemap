@@ -1,0 +1,11 @@
+framework module IAdvizeConversationSDK {
+  umbrella header "IAdvizeConversationSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module IAdvizeConversationSDK.Swift {
+    header "IAdvizeConversationSDK-Swift.h"
+    requires objc
+}

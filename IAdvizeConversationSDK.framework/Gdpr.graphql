@@ -1,0 +1,11 @@
+mutation sdkConsentSet($consent: Boolean!) {
+    sdkVisitorConsentSet(consent: $consent) {
+        consent
+    }
+}
+
+query sdkConsent {
+    sdkVisitorConsent {
+        consent
+    }
+}

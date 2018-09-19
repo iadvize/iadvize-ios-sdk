@@ -1,0 +1,39 @@
+PODS:
+  - Apollo (0.8.0):
+    - Apollo/Core (= 0.8.0)
+  - Apollo/Core (0.8.0)
+  - iAdvize (1.0.0):
+    - Apollo (= 0.8)
+    - JSONWebToken
+    - MessageKit
+  - JSONWebToken (2.2.0)
+  - MessageKit (1.0.0)
+
+DEPENDENCIES:
+  - "iAdvize (from `git@github.com:iadvize/mobile-ios-sdk-demo-app.git`, branch `master`)"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Apollo
+    - JSONWebToken
+    - MessageKit
+
+EXTERNAL SOURCES:
+  iAdvize:
+    :branch: master
+    :git: "git@github.com:iadvize/mobile-ios-sdk-demo-app.git"
+
+CHECKOUT OPTIONS:
+  iAdvize:
+    :commit: 3961b6094b06419271d42b30b905cd9d22595a42
+    :git: "git@github.com:iadvize/mobile-ios-sdk-demo-app.git"
+
+SPEC CHECKSUMS:
+  Apollo: 66e0f52289551545adb7ecdd994e713fdbae26eb
+  iAdvize: 946c7bdefba53ed960d8cbc714733ed77b8fa5c6
+  JSONWebToken: 6fae32489632658d563dd6952a5c34020ea813e4
+  MessageKit: 16160036b16476b04bd0e9f2c7ce67e662e503e4
+
+PODFILE CHECKSUM: bc812b8dfd035762480e584fea425f9b85eb0969
+
+COCOAPODS: 1.5.3

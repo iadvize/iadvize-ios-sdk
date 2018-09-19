@@ -1,0 +1,10 @@
+platform :ios, '9.3'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'IAdvizeSwiftExample' do
+    project 'IAdvizeSwiftExample'
+
+    pod 'iAdvize', :git => 'git@github.com:iadvize/mobile-ios-sdk-demo-app.git', :branch => 'master'
+end
+

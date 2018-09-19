@@ -1,0 +1,19 @@
+mutation SdkMobilePushTokenRegister($pushToken: String!, $platform: MobileDevicePlatform!, $mode: ApplicationMode) {
+    sdkMobilePushTokenRegister(pushToken : $pushToken, devicePlatform : $platform, mode: $mode) {
+        appId
+        externalId
+        pushToken
+    }
+}
+
+mutation SdkMobilePushTokenEnable($pushToken: String!, $platform: MobileDevicePlatform!) {
+	sdkMobilePushTokenEnable (pushToken : $pushToken, devicePlatform : $platform) {
+	    appId
+	}
+}
+
+mutation SdkMobilePushTokenDisable($pushToken: String!, $platform: MobileDevicePlatform!) {
+	sdkMobilePushTokenDisable (pushToken : $pushToken, devicePlatform : $platform) {
+	    appId
+	}
+}

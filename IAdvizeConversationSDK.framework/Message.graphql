@@ -1,0 +1,20 @@
+fragment MessageResource on SDKMessage {
+  author {
+    id
+  }
+  id
+  createdAt
+  content
+}
+
+mutation sdkMessageSend($content: String!, $createdAt: DateTime!, $name: String, $language: Language!) {
+sdkVisitorMessageSend(content: $content, createdAt: $createdAt, name: $name, language: $language) {
+	    id
+	}
+}
+
+query sdkMessages {
+    messages: sdkMessages {
+        ...MessageResource
+    }
+}
