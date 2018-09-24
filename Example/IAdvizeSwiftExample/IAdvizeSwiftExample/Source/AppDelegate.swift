@@ -20,6 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
+        // Be sure that the key window is properly displayed before we activate the iAdvize SDK.
+        // (Only if you use our default chat button with the default view and if you try to display
+        // it at app launch, in the AppDelegate).
+        window?.makeKeyAndVisible()
+
         iAdvizeSetup()
 
         pushNotificationsSetup()
