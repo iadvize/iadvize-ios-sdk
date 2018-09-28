@@ -24,7 +24,11 @@ extension AppDelegate {
         let pushToken = AppDelegate.stringPushTokenFromData(deviceToken)
 
         // Register the Push Token to the iAdvize SDK.
-        IAdvizeManager.shared.registerPushToken(pushToken)
+        #if DEBUG
+        IAdvizeManager.shared.registerPushToken(pushToken, applicationMode: .dev)
+        #else
+        IAdvizeManager.shared.registerPushToken(pushToken, applicationMode: .prod)
+        #endif
     }
 
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
