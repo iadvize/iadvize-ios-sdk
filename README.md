@@ -19,6 +19,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 - [Logging](#logging)
 - [Registering your application ID](#register)
 - [Activating the SDK](#activate)
+- [Register for SDK state change](#statechange)
 - [GDPR](#gdpr)
 - [Registering push token](#push)
 - [Chat button](#button)
@@ -158,6 +159,35 @@ IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "c
 
 
 
+<a name="statechange"></a>
+
+## Register for SDK state change
+
+A feature is available on the iAdvize administration website where your administrator can at any time enable or disable the SDK for a specific application. Each time you call the `activate()` method (see [Activating the SDK](#activate) above), we will also check for the application state. If the state is `disabled`, we will automatically remove the Chat Button (if you use the default one).
+
+If you implement your own way to display the Conversation View (through a custom Chat Button, for example) you will have to register to the application state change callbacks through a delegation process:
+
+
+
+```swift
+IAdvizeManager.shared.delegate = self
+```
+
+
+
+```swift
+extension YOURCLASS: IAdvizeManagerDelegate {
+    func applicationStateDidChange(state: ApplicationState) {
+        switch state {
+        case .enabled:
+            print("Show your custom button/action here if needed")
+        case .disabled:
+            print("Hide your custom button/action here if needed")
+        }
+    }
+}
+```
+
 
 
 <a name="gdpr"></a>
@@ -181,10 +211,26 @@ The GDPR process is now activated for your users and a default message will be p
 In order to allow your users to receive operators or experts answers in real time, you should register the current push token of the device:
 
 ```swift
-IAdvizeManager.shared.registerPushToken("pushtoken")
+IAdvizeManager.shared.registerPushToken("pushtoken", applicationMode: .prod)
 ```
 
 You can register it at any time after you activate the SDK (see [Activating the SDK](#activate) above).
+
+
+
+**N.B.**: If you are in `Debug` mode you must pass `applicationMode: .dev` to the `registerPushToken` call (to properly receive push notifications). You could easily add some preprocessor macros to manage both cases:
+
+
+
+e.g. with a `DEBUG` flag and preprocessor macro defined in your Build Settings for the `Debug` configuration:
+
+```
+        #if DEBUG
+        IAdvizeManager.shared.registerPushToken(pushToken, applicationMode: .dev)
+        #else
+        IAdvizeManager.shared.registerPushToken(pushToken, applicationMode: .prod)
+        #endif
+```
 
 
 

@@ -6,23 +6,23 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		xIs5XRfegP59s+U5p+NnYyDKtd4=
+		OxcD2TEgq9ValvelIXHBdHGrimU=
 		</data>
 		<key>ConversationErrorView.nib/objects-11.0+.nib</key>
 		<data>
-		LW1Gmkncf7oGFrAHiknB/2fsTtM=
+		DCyGPgYhFal6BmIkwJFktplh1nQ=
 		</data>
 		<key>ConversationErrorView.nib/runtime.nib</key>
 		<data>
-		cne/2kYz/XYQV1JlH/Dh3MZRdF0=
+		VI1N4vM+qTXn2A3BnDBj8MMWsHo=
 		</data>
 		<key>GDPRConsentCellContentView.nib/objects-11.0+.nib</key>
 		<data>
-		iwyD+Q2wQ1qOWjJQPFxmTT9lIcM=
+		55NIrHh6sSv/5qSzK1OelwJ2FGo=
 		</data>
 		<key>GDPRConsentCellContentView.nib/runtime.nib</key>
 		<data>
-		MKYfLFJhv+fuS8h5twMQWDfEtrE=
+		KwSzwWIWvdlJpCeEfjYhLI54YOE=
 		</data>
 		<key>Gdpr.graphql</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>IAdvizeChatButtonView.nib/objects-11.0+.nib</key>
 		<data>
-		QzvDOwrwveYMFGZ9UxaQpSDsEuY=
+		ZSCeFrHr8jF11S4Epzz2WGRl01k=
 		</data>
 		<key>IAdvizeChatButtonView.nib/runtime.nib</key>
 		<data>
-		C4k/zjXfXlG8T+LBsEE050DJ0po=
+		NWK9+Y1DfPhKicUcznb+w7du3Qw=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		ZIWHWEtThcrvMpVlPys6HlA62ww=
+		o+5RdZIRjl3HRDxDhE7OjHS5Vh8=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		szvV9DR0LnzEOHNZQ28G4QepPMU=
+		1o6uNIvJxGZHvGBu7ouBgPfu8Ec=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		lQp8jxv9cxBrbxexXnkyzjWlzZk=
+		xwKsNyN4XbUgSp79QR6U6TZNS7I=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		NRLv0y9I0hQaaGHHPet69DMaf1A=
+		vrxB8io0Mj1UN5dsOTqG0C2LGTQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -153,55 +153,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xIs5XRfegP59s+U5p+NnYyDKtd4=
+			OxcD2TEgq9ValvelIXHBdHGrimU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/0D61DotjMh2CQkHj9n3gYOF9lbNEhcCDp6PHDugkJA=
+			t2SGxF8B/+eR1I4mIqDdH8mb4LcbUJOBsM2aUagMIm4=
 			</data>
 		</dict>
 		<key>ConversationErrorView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LW1Gmkncf7oGFrAHiknB/2fsTtM=
+			DCyGPgYhFal6BmIkwJFktplh1nQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TN0YT/vbPCJE1Yg6RF8jkN0oy92dt6gtaU6koaXlsM0=
+			HZ0RdKBhS3HelLg1kTxUj/VOkRd5U3BYwb535QEBMNM=
 			</data>
 		</dict>
 		<key>ConversationErrorView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cne/2kYz/XYQV1JlH/Dh3MZRdF0=
+			VI1N4vM+qTXn2A3BnDBj8MMWsHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			i5aBU2YbYfMf/a70SVUkrUyQ0Fe3tgZ2nqsxYQPdyaA=
+			kLDqIXAWEx7o/IG86KxlOd5YYa+RTLwoeT9n1hxq9A4=
 			</data>
 		</dict>
 		<key>GDPRConsentCellContentView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iwyD+Q2wQ1qOWjJQPFxmTT9lIcM=
+			55NIrHh6sSv/5qSzK1OelwJ2FGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			y77qXwJjc/FGKaGTahxEuJRn76aG4qsYdAiw99evlao=
+			ySzMC/way9Vj60WYqZ7lhiqD9qw3s6lZHTihryku5sA=
 			</data>
 		</dict>
 		<key>GDPRConsentCellContentView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MKYfLFJhv+fuS8h5twMQWDfEtrE=
+			KwSzwWIWvdlJpCeEfjYhLI54YOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			H2Xb0bxgFHS/2wbT2ZVuMjPhJvEIGBI6/WBaHkGBxw0=
+			DNnq1q4upk5n7GVaW/gUjMRnheyPvftGeMKESwyVpOI=
 			</data>
 		</dict>
 		<key>Gdpr.graphql</key>
@@ -241,22 +241,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QzvDOwrwveYMFGZ9UxaQpSDsEuY=
+			ZSCeFrHr8jF11S4Epzz2WGRl01k=
 			</data>
 			<key>hash2</key>
 			<data>
-			HtbJYhOPoDpNlIa7JIXqTMDUC0w7o/gQLhxssXtrbJ4=
+			Adc95G6RlK65yNrJT7uS8xHlornDnN6asP5POPwgrhs=
 			</data>
 		</dict>
 		<key>IAdvizeChatButtonView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C4k/zjXfXlG8T+LBsEE050DJ0po=
+			NWK9+Y1DfPhKicUcznb+w7du3Qw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8mkzUMVw29L/zTMbbTDm80SXHg0zqY44xkpF792oyAw=
+			FTwjmOJhZ0pzslqy+uJo9FySJwQMro57xVzG+UUuTbM=
 			</data>
 		</dict>
 		<key>Message.graphql</key>
@@ -285,44 +285,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZIWHWEtThcrvMpVlPys6HlA62ww=
+			o+5RdZIRjl3HRDxDhE7OjHS5Vh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			d+4tkeZteEb2FRvKa+bMSiKbuWq+w4H6OB1fCJyMMHc=
+			/JcgxelTeUS1ydjT6xwEVS0rWngb4tvpsmMxYD5FYWY=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			szvV9DR0LnzEOHNZQ28G4QepPMU=
+			1o6uNIvJxGZHvGBu7ouBgPfu8Ec=
 			</data>
 			<key>hash2</key>
 			<data>
-			tKg7Q7nHO0wEEvxVxlT54K+Yq/WkEIvNTWVdaQaQnPw=
+			zZJD46p//FP1G4eciBlO5ElDGCLYWp+dTcJyhRvI/Ss=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lQp8jxv9cxBrbxexXnkyzjWlzZk=
+			xwKsNyN4XbUgSp79QR6U6TZNS7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			I5N7J5Mp9TC9BQMz7iVAVNLO3BoXvaNnNxQnwWOUm+Q=
+			y7PeplnBLZiEOqOn9HHdeIU40QAuQhTD6ylVhhJ0dOI=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NRLv0y9I0hQaaGHHPet69DMaf1A=
+			vrxB8io0Mj1UN5dsOTqG0C2LGTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			lj5DZSacHshyETDRaoMsOExdTfjnExzO+CTxUjSt6sc=
+			yW7I90kPwrsOOQk8UA7tnL1Yiy0X+LE/S0GyGdzMFxI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
