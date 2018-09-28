@@ -5,5 +5,5 @@ inhibit_all_warnings!
 target 'IAdvizeSwiftExample' do
     project 'IAdvizeSwiftExample'
 
-    pod 'iAdvize', :git => 'git@github.com:iadvize/iadvize-ios-sdk.git', :branch => 'master'
+    pod 'iAdvize'
 end
