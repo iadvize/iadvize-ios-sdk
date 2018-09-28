@@ -25,7 +25,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   iAdvize:
-    :commit: 458fc73c37efaa74ec75705effb0a23b9c472fbc
+    :commit: 99048dd82eccc0ae14ba25a5ab665910f8be781e
     :git: "git@github.com:iadvize/iadvize-ios-sdk.git"
 
 SPEC CHECKSUMS:
