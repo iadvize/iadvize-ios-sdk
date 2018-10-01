@@ -78,26 +78,6 @@ pod 'iAdvize'
 
 then run `pod install` to fetch the dependency.
 
-### Carthage
-
-Using Carthage, add this line to your Cartfile:
-
-```
-github "iAdvize/IAdvizeConversationSDK"
-```
-
-then copy the `IAdvizeConversationSDK.framework` in your project/workspace.
-
-### Direct import
-
-Download the [IAdvizeConversationSDK.framework](https://github.com/iadvize/iadvize-ios-sdk/tree/master/IAdvizeConversationSDK.framework) from the Github repository (take the latest tag that fits to your Swift version) and then copy the `IAdvizeConversationSDK.framework` in your project/workspace (a drag & drop in the `Embedded Binaries` of your app target is the easiest way).
-
-Now you should be able to `import IAdvizeConversationSDK` in any file you want to use it.
-
-
-
-N.B. Due to an [Xcode bug](http://www.openradar.me/radar?id=6409498411401216), you will have to create a new `Run Script Phase` in your `Build Phases` configuration of your app target, and copy/paste the shell script which you can find at this location: `IAdvizeConversationSDK.framework/strip-frameworks.sh`.
-
 
 
 <a name="logging"></a>
