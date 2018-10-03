@@ -19,7 +19,6 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 - [Logging](#logging)
 - [Registering your application ID](#register)
 - [Activating the SDK](#activate)
-- [Register for SDK state change](#statechange)
 - [GDPR](#gdpr)
 - [Registering push token](#push)
 - [Chat button](#button)
@@ -139,34 +138,7 @@ IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "c
 
 
 
-<a name="statechange"></a>
-
-## Register for SDK state change
-
-A feature is available on the iAdvize administration website where your administrator can at any time enable or disable the SDK for a specific application. Each time you call the `activate()` method (see [Activating the SDK](#activate) above), we will also check for the application state. If the state is `disabled`, we will automatically remove the Chat Button (if you use the default one).
-
-If you implement your own way to display the Conversation View (through a custom Chat Button, for example) you will have to register to the application state change callbacks through a delegation process:
-
-
-
-```swift
-IAdvizeManager.shared.delegate = self
-```
-
-
-
-```swift
-extension YOURCLASS: IAdvizeManagerDelegate {
-    func applicationStateDidChange(state: ApplicationState) {
-        switch state {
-        case .enabled:
-            print("Show your custom button/action here if needed")
-        case .disabled:
-            print("Hide your custom button/action here if needed")
-        }
-    }
-}
-```
+N.B. You have to check if the activation succeeds before you try to show a Chat Button (the default or a custom one).
 
 
 

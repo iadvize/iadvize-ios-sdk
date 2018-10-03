@@ -14,10 +14,6 @@ extension AppDelegate {
         // Choose the log level of the SDK from `.verbose` to `.success`.
         IAdvizeManager.shared.logLevel = .verbose
 
-        // If you don't use our default Chat Button and you use a custom way to display the
-        // Conversation View, you will have to listen to the SDK state changes for this application.
-        IAdvizeManager.shared.delegate = self
-
         customiseIAdvizeUI()
 
         // Register your application ID.
@@ -87,17 +83,6 @@ extension AppDelegate {
                 // or later by showing the chat button.
                 IAdvizeConversationManager.shared.showChatButton()
             }
-        }
-    }
-}
-
-extension AppDelegate: IAdvizeManagerDelegate {
-    func applicationStateDidChange(state: ApplicationState) {
-        switch state {
-        case .enabled:
-            print("Show your custom button/action here if needed")
-        case .disabled:
-            print("Hide your custom button/action here if needed")
         }
     }
 }
