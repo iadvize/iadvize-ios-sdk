@@ -1,11 +1,11 @@
 PODS:
-  - Apollo (0.8.0):
-    - Apollo/Core (= 0.8.0)
-  - Apollo/Core (0.8.0)
-  - iAdvize (1.0.1):
-    - Apollo (= 0.8)
-    - JSONWebToken
-    - MessageKit
+  - Apollo (0.9.3):
+    - Apollo/Core (= 0.9.3)
+  - Apollo/Core (0.9.3)
+  - iAdvize (1.0.2):
+    - Apollo (~> 0.9.3)
+    - JSONWebToken (~> 2.2.0)
+    - MessageKit (~> 1.0.0)
   - JSONWebToken (2.2.0)
   - MessageKit (1.0.0)
 
@@ -20,8 +20,8 @@ SPEC REPOS:
     - MessageKit
 
 SPEC CHECKSUMS:
-  Apollo: 66e0f52289551545adb7ecdd994e713fdbae26eb
-  iAdvize: df34b374fa406ff24f79155f01254fb98dafee2e
+  Apollo: 38270f8bdc031ac07d4de3ec068a2289d7d287e0
+  iAdvize: 19bde5594758c114eb8a60185e372ecb4d7dce4c
   JSONWebToken: 6fae32489632658d563dd6952a5c34020ea813e4
   MessageKit: 16160036b16476b04bd0e9f2c7ce67e662e503e4
 
