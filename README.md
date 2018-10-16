@@ -8,7 +8,18 @@ Embed the iAdvize Conversation SDK in your app and connect your visitors with yo
 
 You will find an example of integration in the ` Example/IAdvizeSwiftExample` folder of this repository.
 
-Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the project.
+Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the project. You can copy and paste the `Podfile` into your project to easily test it into your app.
+
+
+
+## Compatibility
+
+| Version | Minimum iOS Version | Swift Version |
+| :-----: | :-----------------: | :-----------: |
+|  1.1.0  |       iOS 9.3       |   Swift 4.2   |
+|  1.0.2  |       iOS 9.3       |    Swift 4    |
+|  1.0.1  |       iOS 9.3       |    Swift 4    |
+|  1.0.0  |       iOS 9.3       |    Swift 4    |
 
 
 
