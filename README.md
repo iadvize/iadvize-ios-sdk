@@ -16,6 +16,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 | Version | Minimum iOS Version | Swift Version |
 | :-----: | :-----------------: | :-----------: |
+|  1.2.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.1.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.0.2  |       iOS 9.3       |    Swift 4    |
 |  1.0.1  |       iOS 9.3       |    Swift 4    |
@@ -73,6 +74,7 @@ To do so, simply run in your Terminal :
 then  `cat Cert.pem` and you can copy/paste the certificate and the private key and provide it as printed in the Terminal.
 
 
+You can register your application to the `SDKStatusDelegate` in `IAdvizeManager` to be informed when the SDK is enabled or disabled in the iAdvize administration website.
 
 <a name="dependency"></a>
 
@@ -132,6 +134,8 @@ IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "c
 
 The `externalId` is a unique identifier you can provide to identify your connected user across sessions and devices. It should not contain any private information (should not be an email, a phone number, a name...) of the user and should be opaque and unforgeable (e.g. a dynamic UUID). If your user isn’t logged-in you can pass a void value for this parameter (`nil` in Swift).
 
+The `ruleId` allow to target visitors proactively or reactively, based on their browsing behaviour, their profile or their business criteria (e.g. basket amount, scoring, etc). Ask your iAdvize Admin to give you this identifier.
+
 Once the iAdvize Conversation SDK is successfully activated, you should see a message like this in the IDE console:
 
 ```
@@ -143,7 +147,7 @@ iAdvize Conversation: ✅ iAdvize conversation activated, the version is x.x.x.
 A completion handler is available in order to know if the SDK has been successfully activated (and to retry later if the activation fails):
 
 ```
-IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil") { success in
+IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", ruleId: UUID(uuidString: "targetingruleid")) { success in
 }
 ```
 
@@ -160,7 +164,7 @@ N.B. You have to check if the activation succeeds before you try to show a Chat 
 By default when you activate the SDK, the GDPR will be disabled. You can activate the GDPR feature by passing a new parameter to the activate method and provide a mandatory Legal Information URL link with it:
 
 ```swift
-IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", gdprOption: .enabled(URL("https://www.iadvize.com/en/legal-notice/")))
+IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", gdprOption: .enabled(URL("https://www.iadvize.com/en/legal-notice/")), ruleId: UUID(uuidString: "targetingruleid")
 ```
 
 The GDPR process is now activated for your users and a default message will be provided to collect the user consent. Please check the [Customise](#customise) section below if you want to customise this message.

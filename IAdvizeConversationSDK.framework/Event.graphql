@@ -1,0 +1,5 @@
+mutation sdkEventTrack($input: SDKEventInput!) {
+    sdkEventTrack(input: $input) {
+        eventId
+    }
+}

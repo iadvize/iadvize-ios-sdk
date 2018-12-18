@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                     = 'iAdvize'
-  spec.version                  = '1.1.0'
+  spec.version                  = '1.2.0'
   spec.license                  = { :type => 'Proprietary', :file => 'LICENSE.md' }
   spec.homepage                 = 'https://github.com/iadvize/iadvize-ios-sdk'
   spec.authors                  = { 'iAdvize' => 'sdk-integration@iadvize.com' }
@@ -13,7 +13,9 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks  = 'IAdvizeConversationSDK.framework'
 
-  spec.dependency 'MessageKit', '~> 1.0.0'
+  spec.dependency 'MessageKit', '~> 2.0.0'
   spec.dependency 'Apollo', '~> 0.9.3'
-  spec.dependency 'JSONWebToken', '~> 2.2.0'
+  spec.dependency 'JWT', '~> 3.0.0-beta.11'
+  spec.dependency 'SwiftGraylog', '~> 1.0'
 end
+
