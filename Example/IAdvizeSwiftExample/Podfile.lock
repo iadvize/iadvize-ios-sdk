@@ -1,13 +1,19 @@
 PODS:
-  - Apollo (0.9.3):
-    - Apollo/Core (= 0.9.3)
-  - Apollo/Core (0.9.3)
-  - iAdvize (1.0.2):
+  - Apollo (0.9.4):
+    - Apollo/Core (= 0.9.4)
+  - Apollo/Core (0.9.4)
+  - Base64 (1.1.2)
+  - iAdvize (1.2.0):
     - Apollo (~> 0.9.3)
-    - JSONWebToken (~> 2.2.0)
-    - MessageKit (~> 1.0.0)
-  - JSONWebToken (2.2.0)
-  - MessageKit (1.0.0)
+    - JWT (~> 3.0.0-beta.11)
+    - MessageKit (~> 2.0.0)
+    - SwiftGraylog (~> 1.0)
+  - JWT (3.0.0-beta.11):
+    - Base64 (~> 1.1.2)
+  - MessageInputBar/Core (0.4.1)
+  - MessageKit (2.0.0):
+    - MessageInputBar/Core
+  - SwiftGraylog (1.0.0)
 
 DEPENDENCIES:
   - iAdvize
@@ -15,16 +21,22 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Apollo
+    - Base64
     - iAdvize
-    - JSONWebToken
+    - JWT
+    - MessageInputBar
     - MessageKit
+    - SwiftGraylog
 
 SPEC CHECKSUMS:
-  Apollo: 38270f8bdc031ac07d4de3ec068a2289d7d287e0
-  iAdvize: 19bde5594758c114eb8a60185e372ecb4d7dce4c
-  JSONWebToken: 6fae32489632658d563dd6952a5c34020ea813e4
-  MessageKit: 16160036b16476b04bd0e9f2c7ce67e662e503e4
+  Apollo: 450856adbdebcdf28c3c671f81732ac3f9944065
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  iAdvize: 32e9286f0bbbaf1378ea9ccb3faa5c89441e0753
+  JWT: 05028b9624591bba9681bb57df2c5f95fa258bad
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
+  MessageKit: 29c1c87e5a396d2ca7a3f712e5171dc9aba42a1e
+  SwiftGraylog: 888c984d99186b62c9109751de48235412f5ecde
 
 PODFILE CHECKSUM: 6954ad3411334d77113bf90ee84bffc929543e48
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2

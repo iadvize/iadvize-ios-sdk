@@ -58,7 +58,8 @@ extension AppDelegate {
         // accross installations and devices.
         //
         // Your `iAdvizeSecret` is available on your app on the iAdvize Administration website.
-        IAdvizeManager.shared.activate(jwtOption: .secret(iAdvizeSecret), externalId: "ConnectedUserIdentifier") { success in
+        // TODO: replace YOURTARGETINGRULEUUID by your own rule.
+        IAdvizeManager.shared.activate(jwtOption: .secret(iAdvizeSecret), externalId: "ConnectedUserIdentifier", ruleId: UUID(uuidString: "YOURTARGETINGRULEUUID")!) { success in
             guard success else {
                 // Activation fails. You need to retry later to be able to properly activate the iAdvize Conversation SDK.
                 return
@@ -73,7 +74,8 @@ extension AppDelegate {
     func iAdvizeActivateWithGDPR() {
         // To activate GDPR, you have to provide a legal information URL.
         if let legalInfoURL = URL(string: "http://yourlegalinformationurl.com/legal") {
-            IAdvizeManager.shared.activate(jwtOption: .secret(iAdvizeSecret), externalId: "ConnectedUserIdentifier", gdprOption: .enabled(legalInformationURL: legalInfoURL)) { success in
+            // TODO: replace YOURTARGETINGRULEUUID by your own rule.
+            IAdvizeManager.shared.activate(jwtOption: .secret(iAdvizeSecret), externalId: "ConnectedUserIdentifier", gdprOption: .enabled(legalInformationURL: legalInfoURL), ruleId: UUID(uuidString: "YOURTARGETINGRULEUUID")!) { success in
                 guard success else {
                     // Activation fails. You need to retry later to be able to properly activate the iAdvize Conversation SDK.
                     return
