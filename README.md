@@ -16,6 +16,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 | Version | Minimum iOS Version | Swift Version |
 | :-----: | :-----------------: | :-----------: |
+|  1.2.1  |       iOS 9.3       |   Swift 4.2   |
 |  1.2.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.1.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.0.2  |       iOS 9.3       |    Swift 4    |
@@ -147,14 +148,12 @@ iAdvize Conversation: ✅ iAdvize conversation activated, the version is x.x.x.
 A completion handler is available in order to know if the SDK has been successfully activated (and to retry later if the activation fails):
 
 ```
-IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", ruleId: UUID(uuidString: "targetingruleid")) { success in
+IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", ruleId: UUID(uuidString: "targetingruleid")) { success, isEnabled in
 }
 ```
 
 
-
-N.B. You have to check if the activation succeeds before you try to show a Chat Button (the default or a custom one).
-
+N.B. You have to check if the activation succeeds before you try to show a Chat Button (the default or a custom one). You also have to check the `isEnabled` flag which indicates you if the SDK is currently enabled or disabled by the SDK Administrator.
 
 
 <a name="gdpr"></a>
