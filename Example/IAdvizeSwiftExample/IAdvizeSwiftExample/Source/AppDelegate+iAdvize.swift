@@ -31,6 +31,10 @@ extension AppDelegate {
 
         // Register user information which will be displayed to your operators or ibbü experts.
         IAdvizeManager.shared.registerUser(User(name: "Alexandra"))
+
+        // Register a status delegate to be notified when the SDK was disabled/enabled on the iAdvize
+        // Administration website.
+        IAdvizeManager.shared.statusDelegate = self
     }
 
     func customiseIAdvizeUI() {
@@ -59,9 +63,15 @@ extension AppDelegate {
         //
         // Your `iAdvizeSecret` is available on your app on the iAdvize Administration website.
         // TODO: replace YOURTARGETINGRULEUUID by your own rule.
-        IAdvizeManager.shared.activate(jwtOption: .secret(iAdvizeSecret), externalId: "ConnectedUserIdentifier", ruleId: UUID(uuidString: "YOURTARGETINGRULEUUID")!) { success in
+        IAdvizeManager.shared.activate(jwtOption: .secret(iAdvizeSecret), externalId: "ConnectedUserIdentifier", ruleId: UUID(uuidString: "7a45cb38-1864-436e-935d-9720c6aed031")!) { success, isEnabled in
             guard success else {
                 // Activation fails. You need to retry later to be able to properly activate the iAdvize Conversation SDK.
+                print("Activation failure.")
+                return
+            }
+
+            guard isEnabled else {
+                print("SDK disabled")
                 return
             }
 
@@ -75,9 +85,15 @@ extension AppDelegate {
         // To activate GDPR, you have to provide a legal information URL.
         if let legalInfoURL = URL(string: "http://yourlegalinformationurl.com/legal") {
             // TODO: replace YOURTARGETINGRULEUUID by your own rule.
-            IAdvizeManager.shared.activate(jwtOption: .secret(iAdvizeSecret), externalId: "ConnectedUserIdentifier", gdprOption: .enabled(legalInformationURL: legalInfoURL), ruleId: UUID(uuidString: "YOURTARGETINGRULEUUID")!) { success in
+            IAdvizeManager.shared.activate(jwtOption: .secret(iAdvizeSecret), externalId: "0afeaf77-a32f-4ce7-aead-d4723662eab9", gdprOption: .enabled(legalInformationURL: legalInfoURL), ruleId: UUID(uuidString: "7a45cb38-1864-436e-935d-9720c6aed031")!) { success, isEnabled in
                 guard success else {
                     // Activation fails. You need to retry later to be able to properly activate the iAdvize Conversation SDK.
+                    print("Activation failure.")
+                    return
+                }
+
+                guard isEnabled else {
+                    print("SDK disabled")
                     return
                 }
 
@@ -86,5 +102,19 @@ extension AppDelegate {
                 IAdvizeConversationManager.shared.showChatButton()
             }
         }
+    }
+}
+
+extension AppDelegate: SDKStatusDelegate {
+    /// Called when the SDK become disable from the Admin.
+    func sdkDidDisabled() {
+        // If you use the default Chat Button, it will automatically be hidden.
+        print("SDK DISABLED")
+    }
+
+    /// Called when the SDK become enable from the Admin.
+    func sdkDidEnabled() {
+        IAdvizeConversationManager.shared.showChatButton()
+        print("SDK ENABLED")
     }
 }
