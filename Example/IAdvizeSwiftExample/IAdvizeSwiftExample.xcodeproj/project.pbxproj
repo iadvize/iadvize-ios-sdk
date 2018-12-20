@@ -216,8 +216,8 @@
 				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftGraylog/SwiftGraylog.framework",
-				"${PODS_ROOT}/../../../../mobile-ios-sdk-conversation-library/IAdvizeConversationSDK.framework",
-				"${PODS_ROOT}/../../../../mobile-ios-sdk-conversation-library/IAdvizeConversationSDK.framework.dSYM",
+				"${PODS_ROOT}/iAdvize/IAdvizeConversationSDK.framework",
+				"${PODS_ROOT}/iAdvize/IAdvizeConversationSDK.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

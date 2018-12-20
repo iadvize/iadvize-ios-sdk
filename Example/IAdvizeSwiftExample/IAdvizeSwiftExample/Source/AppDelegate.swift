@@ -14,8 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    let iAdvizeApplicationID = "f7174837-9f7b-4ec8-ba50-f30fb65a332a"
-    let iAdvizeSecret = "U1/A6SMMYQoPJrI/8z7Kv5hfK4lTlbhzAxhc9jJMf8U="
+    let iAdvizeApplicationID = "_YOUR_APPLICATION_ID_"
+    let iAdvizeSecret = "_YOUR_SECRET_"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

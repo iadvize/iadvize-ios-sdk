@@ -16,30 +16,27 @@ PODS:
   - SwiftGraylog (1.0.0)
 
 DEPENDENCIES:
-  - iAdvize (from `../../../mobile-ios-sdk-conversation-library`)
+  - iAdvize
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Apollo
     - Base64
+    - iAdvize
     - JWT
     - MessageInputBar
     - MessageKit
     - SwiftGraylog
 
-EXTERNAL SOURCES:
-  iAdvize:
-    :path: "../../../mobile-ios-sdk-conversation-library"
-
 SPEC CHECKSUMS:
   Apollo: 450856adbdebcdf28c3c671f81732ac3f9944065
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
-  iAdvize: 5d11d51355ed852f53956201dca481973fa567e8
+  iAdvize: e1cb0c5d14e7b740e5f516fc491e6f33bf001be6
   JWT: 05028b9624591bba9681bb57df2c5f95fa258bad
   MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
   MessageKit: 29c1c87e5a396d2ca7a3f712e5171dc9aba42a1e
   SwiftGraylog: 888c984d99186b62c9109751de48235412f5ecde
 
-PODFILE CHECKSUM: 024d06b6fcb22e3b5a952d346720a924255f156a
+PODFILE CHECKSUM: 6954ad3411334d77113bf90ee84bffc929543e48
 
 COCOAPODS: 1.6.0.beta.2
