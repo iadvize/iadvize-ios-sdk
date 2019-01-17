@@ -1,3 +1,10 @@
+# 1.2.2
+
+### Release date 2019/01/17
+
+- Bug Fix: management of dates in the conversation.
+- UI Fix: avatar position in the conversation.
+
 # 1.2.1
 
 ### Release date 2018/12/19
