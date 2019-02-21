@@ -16,6 +16,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 | Version | Minimum iOS Version | Swift Version |
 | :-----: | :-----------------: | :-----------: |
+|  1.3.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.2.2  |       iOS 9.3       |   Swift 4.2   |
 |  1.2.1  |       iOS 9.3       |   Swift 4.2   |
 |  1.2.0  |       iOS 9.3       |   Swift 4.2   |
@@ -31,6 +32,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 - [App creation](#creation)
 - [SDK dependency](#dependency)
 - [Logging](#logging)
+- [Language](#language)
 - [Registering your application ID](#register)
 - [Activating the SDK](#activate)
 - [GDPR](#gdpr)
@@ -50,6 +52,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 - [Font](#customisefont)
 - [Automatic message](#customisemessage)
 - [GDPR message](#customisegdpr)
+- [Brand avatar](#avatar)
 
 
 
@@ -101,6 +104,16 @@ then run `pod install` to fetch the dependency.
 By default, the SDK will only log Warnings and Errors in the Xcode console. You can make it more verbose and choose between multiple levels of log for a better integration experience:
 
 `IAdvizeManager.shared.logLevel = .verbose`
+
+
+
+<a name="language"></a>
+
+## Language
+
+By default, the SDK will use the device language for targeting a conversation. With this variable you can specify the language you want to use for targetting:
+
+`IAdvizeManager.shared.language = SDKLanguageOption.custom(value: .fr)`
 
 
 
@@ -389,6 +402,25 @@ Once the GDPR is activated, you can easily customise the GDPR message you want t
 ```swift
 // Update the GDPR message
 configuration.gdprMessage = "Your own GDPR message."
+```
+
+
+
+<a name="avatar"></a>
+
+## Brand avatar
+
+You can update the brand avatar displayed for the incoming messages. You can specify an URL or a Drawable. Gifs are not supported. You can set an avatar through the Conversation configuration:
+
+
+```swift
+// Update the incoming message avatar with a UIImage
+configuration.incomingMessageAvatar = IncomingMessageAvatar.image(image: UIImage(named: "BrandAvatar"))
+
+// Update the incoming message avatar with an URL
+if let avatarUrl = URL(string: "your-url") {
+    configuration.incomingMessageAvatar = IncomingMessageAvatar.url(url: avatarUrl)
+}
 ```
 
 

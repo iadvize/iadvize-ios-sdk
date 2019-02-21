@@ -35,6 +35,9 @@ extension AppDelegate {
         // Register a status delegate to be notified when the SDK was disabled/enabled on the iAdvize
         // Administration website.
         IAdvizeManager.shared.statusDelegate = self
+
+        // By default, the iAdvize Conversation SDK take the device language
+        IAdvizeManager.shared.language = SDKLanguageOption.custom(value: .fr)
     }
 
     func customiseIAdvizeUI() {
@@ -49,6 +52,10 @@ extension AppDelegate {
         configuration.font = UIFont(name: "HelveticaNeue", size: 11.0)!
         configuration.automaticMessage = NSLocalizedString("Any question? Say Hello to Smart and we will answer you as soon as possible! 😊", comment: "")
         configuration.gdprMessage = NSLocalizedString("As part of the GDPR, we have to ask you to consent to our legal information.", comment: "")
+        // Update avatar for the incoming messages
+        if let image = UIImage(named: "AppIcon") {
+            configuration.incomingMessageAvatar = IncomingMessageAvatar.image(image: image)
+        }
 
         IAdvizeConversationManager.shared.setupConversationView(configuration: configuration)
 

@@ -1,3 +1,11 @@
+# 1.3.0
+
+### Release date 2019/02/21
+
+- Add a property in the ConversationViewConfiguration to update the avatar displayed for the incoming messages.
+- Add a property in the IAdvizeManger to update the language of the Conversation targeting.
+
+
 # 1.2.2
 
 ### Release date 2019/01/17

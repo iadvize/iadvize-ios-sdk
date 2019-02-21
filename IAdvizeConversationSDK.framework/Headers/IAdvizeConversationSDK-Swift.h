@@ -183,7 +183,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class UIAlertAction;
+@class NSBundle;
 @class NSCoder;
+
+/// UIAlertController subclass applying app custom colors to action text titles.
+/// Actions with <code>default</code> or <code>cancel</code> style will use <code>blueLink</code> color.
+/// Actions with <code>destructive</code> style will use <code>redError</code> color.
+SWIFT_CLASS("_TtC22IAdvizeConversationSDK21CustomAlertController")
+@interface CustomAlertController : UIAlertController
+- (void)addAction:(UIAlertAction * _Nonnull)action;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 /// Describes a User Transaction.
 /// date:

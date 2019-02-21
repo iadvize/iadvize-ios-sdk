@@ -1,9 +1,9 @@
 PODS:
-  - Apollo (0.9.4):
-    - Apollo/Core (= 0.9.4)
-  - Apollo/Core (0.9.4)
+  - Apollo (0.9.5):
+    - Apollo/Core (= 0.9.5)
+  - Apollo/Core (0.9.5)
   - Base64 (1.1.2)
-  - iAdvize (1.2.1):
+  - iAdvize (1.2.2):
     - Apollo (~> 0.9.3)
     - JWT (~> 3.0.0-beta.11)
     - MessageKit (~> 2.0.0)
@@ -29,9 +29,9 @@ SPEC REPOS:
     - SwiftGraylog
 
 SPEC CHECKSUMS:
-  Apollo: 450856adbdebcdf28c3c671f81732ac3f9944065
+  Apollo: 19caf3246d292bbb69ecad1bd098661f78222aba
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
-  iAdvize: e1cb0c5d14e7b740e5f516fc491e6f33bf001be6
+  iAdvize: 9abbf2950c36b6fb7243e451ca9d3ed3b957c452
   JWT: 05028b9624591bba9681bb57df2c5f95fa258bad
   MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
   MessageKit: 29c1c87e5a396d2ca7a3f712e5171dc9aba42a1e
