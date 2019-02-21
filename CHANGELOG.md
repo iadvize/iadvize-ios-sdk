@@ -1,3 +1,10 @@
+# 1.3.1
+
+### Release date 2019/02/21
+
+- Bug Fix: Update in the input bar in the conversation
+
+
 # 1.3.0
 
 ### Release date 2019/02/21
