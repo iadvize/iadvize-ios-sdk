@@ -1,0 +1,6 @@
+mutation sdkUpdateCustomData($datas: [SDKCustomDataInput!]!) {
+    sdkUpdateCustomData(data: $datas) {
+        key
+        value
+    }
+}

@@ -16,6 +16,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 | Version | Minimum iOS Version | Swift Version |
 | :-----: | :-----------------: | :-----------: |
+|  1.3.2  |       iOS 9.3       |   Swift 4.2   |
 |  1.3.1  |       iOS 9.3       |   Swift 4.2   |
 |  1.3.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.2.2  |       iOS 9.3       |   Swift 4.2   |
@@ -383,7 +384,7 @@ configuration.font = UIFont(name: "AmericanTypewriter-Condensed", size: 11.0)
 
 ## Automatic message
 
-A first automatic message can be setup to be displayed as an operator message in the Conversation View. By default, no message will be displayed. You can set an automatic message through the Conversation configuration:
+A first automatic message can be setup to be displayed as an operator message in the Conversation View. By default, no message will be displayed. This message will also be used and displayed when the user accepts the GDPR. You can set an automatic message through the Conversation configuration:
 
 ```swift
 // Update the automatic message
