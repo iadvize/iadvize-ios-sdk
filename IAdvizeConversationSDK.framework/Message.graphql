@@ -1,20 +1,44 @@
 fragment MessageResource on SDKMessage {
-  author {
-    id
-  }
-  id
-  createdAt
-  content
-}
-
-mutation sdkMessageSend($content: String!, $createdAt: DateTime!, $name: String, $language: Language!, $targetingRule: UUID!) {
-sdkVisitorMessageSend(content: $content, createdAt: $createdAt, name: $name, language: $language, targetingRule: $targetingRule) {
     author {
         id
     }
     id
     createdAt
     content
+    attachments {
+        ... on Image {
+            url
+            fileName
+            mimeType
+        }
+        ... on File {
+            url
+            fileName
+            mimeType
+        }
+    }
+}
+
+mutation sdkMessageSend($content: String!, $createdAt: DateTime!, $name: String, $language: Language!, $targetingRule: UUID!, $attachments: [MessageAttachmentInput!]!) {
+    sdkVisitorMessageSend(content: $content, createdAt: $createdAt, name: $name, language: $language, targetingRule: $targetingRule, attachments: $attachments) {
+        author {
+            id
+        }
+        id
+        createdAt
+        content
+        attachments {
+            ... on Image {
+                url
+                fileName
+                mimeType
+            }
+            ... on File {
+                url
+                fileName
+                mimeType
+            }
+        }
     }
 }
 
