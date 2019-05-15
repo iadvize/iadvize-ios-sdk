@@ -1,3 +1,10 @@
+# 1.4.0
+
+### Release date 2019/05/14
+
+- Added the possibility to send and receive attachments (files or images) in conversation.
+- Update the documentation to precise that the SDK must be activated before registering a User (`IAdvizeManager.shared.registerUser(User(name: "Antoine"))`).
+
 # 1.3.2
 
 ### Release date 2019/03/19

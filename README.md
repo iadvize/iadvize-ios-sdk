@@ -16,6 +16,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 | Version | Minimum iOS Version | Swift Version |
 | :-----: | :-----------------: | :-----------: |
+|  1.4.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.3.2  |       iOS 9.3       |   Swift 4.2   |
 |  1.3.1  |       iOS 9.3       |   Swift 4.2   |
 |  1.3.0  |       iOS 9.3       |   Swift 4.2   |
@@ -33,12 +34,14 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 - [App creation](#creation)
 - [SDK dependency](#dependency)
+- [Permissions](#permissions)
 - [Logging](#logging)
 - [Language](#language)
 - [Registering your application ID](#register)
 - [Activating the SDK](#activate)
 - [GDPR](#gdpr)
 - [Registering push token](#push)
+* [Registering user](#user)
 - [Chat button](#button)
 - [Push notification](#notification)
 - [Registering a transaction](#transaction)
@@ -96,6 +99,14 @@ pod 'iAdvize'
 ```
 
 then run `pod install` to fetch the dependency.
+
+
+
+<a name="permissions"></a>
+
+## Permissions
+
+You must add `Privacy - Camera Usage Description` and `Privacy - Photo Library Usage Description` to your `plist` in order to be able to send images in a conversation.
 
 
 
@@ -213,6 +224,20 @@ e.g. with a `DEBUG` flag and preprocessor macro defined in your Build Settings f
         IAdvizeManager.shared.registerPushToken(pushToken, applicationMode: .prod)
         #endif
 ```
+
+
+
+<a name="user"></a>
+
+## Registering user
+
+You can register User information which will be displayed in the profile section of the ChatBox on the operator Desk. To do so just call the `registerUser()` method on the `IAdvizeManager` object:
+
+```swift
+IAdvizeManager.shared.registerUser(User(name: "Antoine"))
+```
+
+Note: You need to activate the SDK (see step 4) before registering the User.
 
 
 

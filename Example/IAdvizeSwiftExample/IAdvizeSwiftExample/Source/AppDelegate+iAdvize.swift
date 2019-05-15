@@ -28,10 +28,6 @@ extension AppDelegate {
         } else {
             iAdvizeActivate()
         }
-
-        // Register user information which will be displayed to your operators or ibbü experts.
-        IAdvizeManager.shared.registerUser(User(name: "Alexandra"))
-
         // Register a status delegate to be notified when the SDK was disabled/enabled on the iAdvize
         // Administration website.
         IAdvizeManager.shared.statusDelegate = self
@@ -85,6 +81,9 @@ extension AppDelegate {
             // Activation succeeds. You are now able to provide a chat experience to your users now
             // or later by showing the chat button.
             IAdvizeConversationManager.shared.showChatButton()
+
+            // Register user information which will be displayed to your operators or ibbü experts.
+            IAdvizeManager.shared.registerUser(User(name: "Alexandra"))
         }
     }
 
@@ -107,6 +106,9 @@ extension AppDelegate {
                 // Activation succeeds. You are now able to provide a chat experience to your users now
                 // or later by showing the chat button.
                 IAdvizeConversationManager.shared.showChatButton()
+
+                // Register user information which will be displayed to your operators or ibbü experts.
+                IAdvizeManager.shared.registerUser(User(name: "Alexandra"))
             }
         }
     }

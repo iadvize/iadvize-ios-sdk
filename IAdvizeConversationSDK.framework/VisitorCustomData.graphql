@@ -1,0 +1,20 @@
+mutation sdkVisitorCustomDataSet($datas: [VisitorCustomDataInput!]!) {
+    sdkVisitorCustomDataSet(data: $datas) {
+        ... on VisitorCustomDataInt {
+            key
+            intValue
+        }
+        ... on VisitorCustomDataString {
+            key
+            stringValue
+        }
+        ... on VisitorCustomDataFloat {
+            key
+            floatValue
+        }
+        ... on VisitorCustomDataBoolean {
+            key
+            booleanValue
+        }
+    }
+}

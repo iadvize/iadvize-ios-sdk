@@ -164,6 +164,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import Foundation;
+@import Gifu;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -198,6 +199,10 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK21CustomAlertController")
 @end
 
 
+
+
+
+
 /// Describes a User Transaction.
 /// date:
 /// Date of the transaction.
@@ -219,6 +224,10 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK11Transaction")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
+
+
+
+
 
 
 

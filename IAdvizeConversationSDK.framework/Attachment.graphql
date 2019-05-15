@@ -1,0 +1,7 @@
+query sdkUploadUrls($contentType: String!) {
+    sdkUploadUrls(contentType: $contentType){
+        writeUrl,
+        readUrl
+    }
+}
+
