@@ -1,3 +1,11 @@
+# 1.5.0
+
+### Release date 2019/07/10
+
+- Added a GDPR delegate to handle in a custom way the "More Information" action of the user.
+- Upgrade SDK and dependencies for Xcode 10.2
+
+
 # 1.4.0
 
 ### Release date 2019/05/14

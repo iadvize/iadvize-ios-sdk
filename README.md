@@ -16,6 +16,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 | Version | Minimum iOS Version | Swift Version |
 | :-----: | :-----------------: | :-----------: |
+|  1.5.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.4.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.3.2  |       iOS 9.3       |   Swift 4.2   |
 |  1.3.1  |       iOS 9.3       |   Swift 4.2   |
@@ -187,10 +188,14 @@ N.B. You have to check if the activation succeeds before you try to show a Chat 
 
 ## GDPR
 
-By default when you activate the SDK, the GDPR will be disabled. You can activate the GDPR feature by passing a new parameter to the activate method and provide a mandatory Legal Information URL link with it:
+By default when you activate the SDK, the GDPR will be disabled. You can activate the GDPR feature by passing a new parameter to the activate method and provide a mandatory Legal Information URL link or a delegate to manage your own action on the tap on `More information` button with it:
 
 ```swift
-IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", gdprOption: .enabled(URL("https://www.iadvize.com/en/legal-notice/")), ruleId: UUID(uuidString: "targetingruleid")
+IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", gdprOption: .enabled(gdprEnabledOption: .legalInformation(legalUrl: URL("https://www.iadvize.com/en/legal-notice/"))), ruleId: UUID(uuidString: "targetingruleid")
+```
+
+```swift
+IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", gdprOption: .enabled(option: .delegate(delegate: self)), ruleId: UUID(uuidString: "targetingruleid")
 ```
 
 The GDPR process is now activated for your users and a default message will be provided to collect the user consent. Please check the [Customise](#customise) section below if you want to customise this message.
