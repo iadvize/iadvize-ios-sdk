@@ -1,3 +1,9 @@
+# 1.6.0
+
+### Release date 2019/10/01
+
+- Upgrade SDK and dependencies for Xcode 11.0 & Swift 5
+
 # 1.5.0
 
 ### Release date 2019/07/10
