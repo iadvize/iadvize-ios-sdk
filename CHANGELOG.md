@@ -1,3 +1,9 @@
+# 1.6.1
+
+### Release date 2019/10/02
+
+- Fix a "modal swipe" issue on iOS 13
+
 # 1.6.0
 
 ### Release date 2019/10/01
