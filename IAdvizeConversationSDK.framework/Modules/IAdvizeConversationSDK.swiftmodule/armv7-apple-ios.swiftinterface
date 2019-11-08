@@ -1,0 +1,2007 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)
+// swift-module-flags: -target armv7-apple-ios9.3 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IAdvizeConversationSDK
+import AVFoundation
+import Alamofire
+import AlamofireImage
+import Apollo
+import Foundation
+import Gifu
+@_exported import IAdvizeConversationSDK
+import InputBarAccessoryView
+import JWT
+import MapKit
+import MessageKit
+import MobileCoreServices
+import Photos
+import SafariServices
+import Security
+import Swift
+import SwiftGraylog
+import SystemConfiguration
+import UIKit
+import UserNotifications
+open class ChatMessageSizeCalculator : MessageKit.TextMessageSizeCalculator {
+  override public init(layout: MessageKit.MessagesCollectionViewFlowLayout?)
+  @objc deinit
+}
+public enum GDPREnabledOption {
+  case legalInformation(url: Foundation.URL)
+  case delegate(delegate: IAdvizeConversationSDK.GDPRDelegate)
+}
+public enum SDKLanguageOption {
+  case custom(value: IAdvizeConversationSDK.GraphQL.Language)
+  case `default`
+}
+@objc open class CustomAlertController : UIKit.UIAlertController {
+  @objc override dynamic open func addAction(_ action: UIKit.UIAlertAction)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol SDKStatusDelegate : AnyObject {
+  func sdkDidDisabled()
+  func sdkDidEnabled()
+}
+extension Double {
+  public func parseTimeIntervalString(_ timeInterval: Swift.String) -> Foundation.TimeInterval!
+}
+public protocol IAdvizeConversationManagerDelegate : AnyObject {
+  func didUpdateUnreadMessagesCount(unreadMessagesCount: Swift.Int)
+  func didReceiveNewMessage(content: Swift.String)
+}
+public typealias DateTime = Swift.String
+public typealias Long = Swift.Int64
+public enum VisitorCustomData {
+  case visitorCustomDataInt(Swift.Int)
+  case visitorCustomDataString(Swift.String)
+  case visitorCustomDataBoolean(Swift.Bool)
+  case visitorCustomDataDouble(Swift.Double)
+}
+public struct Logger {
+  public enum LogLevel : Swift.String {
+    case verbose
+    case info
+    case warning
+    case error
+    case success
+    public func intValue() -> Swift.Int
+    public static func >= (lhs: IAdvizeConversationSDK.Logger.LogLevel, rhs: IAdvizeConversationSDK.Logger.LogLevel) -> Swift.Bool
+    public static func == (lhs: IAdvizeConversationSDK.Logger.LogLevel, rhs: IAdvizeConversationSDK.Logger.LogLevel) -> Swift.Bool
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public protocol JWTTokenDelegate : AnyObject {
+  func jwtTokenDidExpired()
+}
+public struct AttachmentUrls {
+  public var readUrl: Swift.String
+  public var writeUrl: Swift.String
+  public init(readUrl: Swift.String, writeUrl: Swift.String)
+}
+extension Date {
+  public static func parseDateString(_ dateTimeString: Swift.String) -> Foundation.Date?
+}
+final public class IAdvizeManager {
+  public static let shared: IAdvizeConversationSDK.IAdvizeManager
+  final public var language: IAdvizeConversationSDK.SDKLanguageOption
+  weak final public var jwtTokenDelegate: IAdvizeConversationSDK.JWTTokenDelegate?
+  weak final public var statusDelegate: IAdvizeConversationSDK.SDKStatusDelegate?
+  final public var logLevel: IAdvizeConversationSDK.Logger.LogLevel
+  @discardableResult
+  final public func registerApplicationId(_ applicationId: Swift.String) -> Swift.Bool
+  final public func registerPushToken(_ pushToken: Swift.String, applicationMode: IAdvizeConversationSDK.GraphQL.ApplicationMode)
+  @discardableResult
+  final public func registerUser(_ user: IAdvizeConversationSDK.User) -> Swift.Bool
+  final public func activate(jwtOption: IAdvizeConversationSDK.JWTOption, externalId: Swift.String?, gdprOption: IAdvizeConversationSDK.GDPROption = .disabled, ruleId: Foundation.UUID, completion: ((Swift.Bool, Swift.Bool) -> Swift.Void)? = nil)
+  final public func enablePushNotifications(completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  final public func disablePushNotifications(completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  final public func isIAdvizePushNotification(with userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
+  @discardableResult
+  final public func handlePushNotification(with userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
+  final public func setVisitorCustomData(visitorCustomData: [Swift.String : IAdvizeConversationSDK.VisitorCustomData], completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc deinit
+}
+extension UUID : Apollo.JSONDecodable, Apollo.JSONEncodable {
+  public var jsonValue: Apollo.JSONValue {
+    get
+  }
+  public init(jsonValue value: Apollo.JSONValue) throws
+}
+extension Array {
+  public subscript(safe index: Swift.Int) -> Element? {
+    get
+  }
+}
+public enum UIColorName : Swift.String {
+  case malachite
+  case galleryDimmed
+  case gallery
+  case shadowColor
+  case celeste
+  case gainsboro
+  case azure
+  case mountainMist
+  case firebrick
+  case selectiveYellow
+  case cloudBurst
+  case elephant
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol GDPRDelegate : AnyObject {
+  func didTapMoreInformation()
+}
+public enum IncomingMessageAvatar {
+  case url(url: Foundation.URL)
+  case image(image: UIKit.UIImage)
+}
+@objc public class Transaction : ObjectiveC.NSObject, Foundation.NSCoding {
+  public init(externalTransactionId: Swift.String, date: Foundation.Date, amount: Swift.Double, currency: IAdvizeConversationSDK.GraphQL.Currency)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc public func encode(with aCoder: Foundation.NSCoder)
+  @objc required public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic public init()
+  @objc deinit
+}
+final public class IAdvizeTransactionManager {
+  public static let shared: IAdvizeConversationSDK.IAdvizeTransactionManager
+  final public func registerTransaction(_ transaction: IAdvizeConversationSDK.Transaction)
+  @objc deinit
+}
+public enum GraphQL {
+  public struct SDKEventInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(sdkMoreInformationTouchedInput: Swift.Optional<IAdvizeConversationSDK.GraphQL.SDKMoreInformationTouchedInput?> = nil, sdkConversationReducedInput: Swift.Optional<IAdvizeConversationSDK.GraphQL.SDKConversationReducedInput?> = nil, sdkChatButtonTouchedInput: Swift.Optional<IAdvizeConversationSDK.GraphQL.SDKChatButtonTouchedInput?> = nil, sdkNotificationTouchedInput: Swift.Optional<IAdvizeConversationSDK.GraphQL.SDKNotificationTouchedInput?> = nil)
+    public var sdkMoreInformationTouchedInput: Swift.Optional<IAdvizeConversationSDK.GraphQL.SDKMoreInformationTouchedInput?> {
+      get
+      set
+    }
+    public var sdkConversationReducedInput: Swift.Optional<IAdvizeConversationSDK.GraphQL.SDKConversationReducedInput?> {
+      get
+      set
+    }
+    public var sdkChatButtonTouchedInput: Swift.Optional<IAdvizeConversationSDK.GraphQL.SDKChatButtonTouchedInput?> {
+      get
+      set
+    }
+    public var sdkNotificationTouchedInput: Swift.Optional<IAdvizeConversationSDK.GraphQL.SDKNotificationTouchedInput?> {
+      get
+      set
+    }
+  }
+  public struct SDKMoreInformationTouchedInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(eventId: Swift.String, eventTime: Swift.String)
+    public var eventId: Swift.String {
+      get
+      set
+    }
+    public var eventTime: Swift.String {
+      get
+      set
+    }
+  }
+  public struct SDKConversationReducedInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(eventId: Swift.String, eventTime: Swift.String)
+    public var eventId: Swift.String {
+      get
+      set
+    }
+    public var eventTime: Swift.String {
+      get
+      set
+    }
+  }
+  public struct SDKChatButtonTouchedInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(eventId: Swift.String, eventTime: Swift.String, unreadCount: Swift.Int)
+    public var eventId: Swift.String {
+      get
+      set
+    }
+    public var eventTime: Swift.String {
+      get
+      set
+    }
+    public var unreadCount: Swift.Int {
+      get
+      set
+    }
+  }
+  public struct SDKNotificationTouchedInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(eventId: Swift.String, eventTime: Swift.String)
+    public var eventId: Swift.String {
+      get
+      set
+    }
+    public var eventTime: Swift.String {
+      get
+      set
+    }
+  }
+  public enum Language : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+    public typealias RawValue = Swift.String
+    case aa
+    case ab
+    case ae
+    case af
+    case ak
+    case am
+    case an
+    case ar
+    case `as`
+    case av
+    case ay
+    case az
+    case ba
+    case be
+    case bg
+    case bh
+    case bi
+    case bm
+    case bn
+    case bo
+    case br
+    case bs
+    case ca
+    case ce
+    case ch
+    case co
+    case cr
+    case cs
+    case cu
+    case cv
+    case cy
+    case da
+    case de
+    case dv
+    case dz
+    case ee
+    case el
+    case en
+    case eo
+    case es
+    case et
+    case eu
+    case fa
+    case ff
+    case fi
+    case fj
+    case fo
+    case fr
+    case fy
+    case ga
+    case gd
+    case gl
+    case gn
+    case gu
+    case gv
+    case ha
+    case he
+    case hi
+    case ho
+    case hr
+    case ht
+    case hu
+    case hy
+    case hz
+    case ia
+    case id
+    case ie
+    case ig
+    case ii
+    case ik
+    case `in`
+    case io
+    case `is`
+    case it
+    case iu
+    case iw
+    case ja
+    case ji
+    case jv
+    case ka
+    case kg
+    case ki
+    case kj
+    case kk
+    case kl
+    case km
+    case kn
+    case ko
+    case kr
+    case ks
+    case ku
+    case kv
+    case kw
+    case ky
+    case la
+    case lb
+    case lg
+    case li
+    case ln
+    case lo
+    case lt
+    case lu
+    case lv
+    case mg
+    case mh
+    case mi
+    case mk
+    case ml
+    case mn
+    case mo
+    case mr
+    case ms
+    case mt
+    case my
+    case na
+    case nb
+    case nd
+    case ne
+    case ng
+    case nl
+    case nn
+    case no
+    case nr
+    case nv
+    case ny
+    case oc
+    case oj
+    case om
+    case or
+    case os
+    case pa
+    case pi
+    case pl
+    case ps
+    case pt
+    case qu
+    case rm
+    case rn
+    case ro
+    case ru
+    case rw
+    case sa
+    case sc
+    case sd
+    case se
+    case sg
+    case si
+    case sk
+    case sl
+    case sm
+    case sn
+    case so
+    case sq
+    case sr
+    case ss
+    case st
+    case su
+    case sv
+    case sw
+    case ta
+    case te
+    case tg
+    case th
+    case ti
+    case tk
+    case tl
+    case tn
+    case to
+    case tr
+    case ts
+    case tt
+    case tw
+    case ty
+    case ug
+    case uk
+    case ur
+    case uz
+    case ve
+    case vi
+    case vo
+    case wa
+    case wo
+    case xh
+    case yi
+    case yo
+    case za
+    case zh
+    case zu
+    case __unknown(IAdvizeConversationSDK.GraphQL.Language.RawValue)
+    public init?(rawValue: IAdvizeConversationSDK.GraphQL.Language.RawValue)
+    public var rawValue: IAdvizeConversationSDK.GraphQL.Language.RawValue {
+      get
+    }
+    public static func == (lhs: IAdvizeConversationSDK.GraphQL.Language, rhs: IAdvizeConversationSDK.GraphQL.Language) -> Swift.Bool
+    public static var allCases: [IAdvizeConversationSDK.GraphQL.Language] {
+      get
+    }
+    public typealias AllCases = [IAdvizeConversationSDK.GraphQL.Language]
+  }
+  public struct MessageAttachmentInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(image: Swift.Optional<IAdvizeConversationSDK.GraphQL.ImageInput?> = nil, offer: Swift.Optional<IAdvizeConversationSDK.GraphQL.OfferInput?> = nil, link: Swift.Optional<IAdvizeConversationSDK.GraphQL.LinkInput?> = nil, product: Swift.Optional<IAdvizeConversationSDK.GraphQL.ProductInput?> = nil, file: Swift.Optional<IAdvizeConversationSDK.GraphQL.FileInput?> = nil, quickReplyMenu: Swift.Optional<IAdvizeConversationSDK.GraphQL.QuickReplyMenuInput?> = nil, unsupported: Swift.Optional<IAdvizeConversationSDK.GraphQL.UnsupportedInput?> = nil)
+    public var image: Swift.Optional<IAdvizeConversationSDK.GraphQL.ImageInput?> {
+      get
+      set
+    }
+    public var offer: Swift.Optional<IAdvizeConversationSDK.GraphQL.OfferInput?> {
+      get
+      set
+    }
+    public var link: Swift.Optional<IAdvizeConversationSDK.GraphQL.LinkInput?> {
+      get
+      set
+    }
+    public var product: Swift.Optional<IAdvizeConversationSDK.GraphQL.ProductInput?> {
+      get
+      set
+    }
+    public var file: Swift.Optional<IAdvizeConversationSDK.GraphQL.FileInput?> {
+      get
+      set
+    }
+    public var quickReplyMenu: Swift.Optional<IAdvizeConversationSDK.GraphQL.QuickReplyMenuInput?> {
+      get
+      set
+    }
+    public var unsupported: Swift.Optional<IAdvizeConversationSDK.GraphQL.UnsupportedInput?> {
+      get
+      set
+    }
+  }
+  public struct ImageInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(fileName: Swift.String, mimeType: Swift.String, url: Swift.String)
+    public var fileName: Swift.String {
+      get
+      set
+    }
+    public var mimeType: Swift.String {
+      get
+      set
+    }
+    public var url: Swift.String {
+      get
+      set
+    }
+  }
+  public struct OfferInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(title: Swift.String, imageUrl: Swift.String, url: Swift.String, description: Swift.String)
+    public var title: Swift.String {
+      get
+      set
+    }
+    public var imageUrl: Swift.String {
+      get
+      set
+    }
+    public var url: Swift.String {
+      get
+      set
+    }
+    public var description: Swift.String {
+      get
+      set
+    }
+  }
+  public struct LinkInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(url: Swift.String, title: Swift.String)
+    public var url: Swift.String {
+      get
+      set
+    }
+    public var title: Swift.String {
+      get
+      set
+    }
+  }
+  public struct ProductInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(title: Swift.String, productUrl: Swift.String, isAvailable: Swift.Bool, imageUrl: Swift.String, catalogPrice: Swift.String, promotionPrice: Swift.Optional<Swift.String?> = nil)
+    public var title: Swift.String {
+      get
+      set
+    }
+    public var productUrl: Swift.String {
+      get
+      set
+    }
+    public var isAvailable: Swift.Bool {
+      get
+      set
+    }
+    public var imageUrl: Swift.String {
+      get
+      set
+    }
+    public var catalogPrice: Swift.String {
+      get
+      set
+    }
+    public var promotionPrice: Swift.Optional<Swift.String?> {
+      get
+      set
+    }
+  }
+  public struct FileInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(fileName: Swift.String, mimeType: Swift.String, url: Swift.String)
+    public var fileName: Swift.String {
+      get
+      set
+    }
+    public var mimeType: Swift.String {
+      get
+      set
+    }
+    public var url: Swift.String {
+      get
+      set
+    }
+  }
+  public struct QuickReplyMenuInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(message: Swift.String, choices: [Swift.String])
+    public var message: Swift.String {
+      get
+      set
+    }
+    public var choices: [Swift.String] {
+      get
+      set
+    }
+  }
+  public struct UnsupportedInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(unusedField: Swift.Optional<Swift.Bool?> = nil)
+    public var unusedField: Swift.Optional<Swift.Bool?> {
+      get
+      set
+    }
+  }
+  public enum MobileDevicePlatform : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+    public typealias RawValue = Swift.String
+    case apple
+    case google
+    case __unknown(IAdvizeConversationSDK.GraphQL.MobileDevicePlatform.RawValue)
+    public init?(rawValue: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform.RawValue)
+    public var rawValue: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform.RawValue {
+      get
+    }
+    public static func == (lhs: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform, rhs: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform) -> Swift.Bool
+    public static var allCases: [IAdvizeConversationSDK.GraphQL.MobileDevicePlatform] {
+      get
+    }
+    public typealias AllCases = [IAdvizeConversationSDK.GraphQL.MobileDevicePlatform]
+  }
+  public enum ApplicationMode : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+    public typealias RawValue = Swift.String
+    case dev
+    case prod
+    case __unknown(IAdvizeConversationSDK.GraphQL.ApplicationMode.RawValue)
+    public init?(rawValue: IAdvizeConversationSDK.GraphQL.ApplicationMode.RawValue)
+    public var rawValue: IAdvizeConversationSDK.GraphQL.ApplicationMode.RawValue {
+      get
+    }
+    public static func == (lhs: IAdvizeConversationSDK.GraphQL.ApplicationMode, rhs: IAdvizeConversationSDK.GraphQL.ApplicationMode) -> Swift.Bool
+    public static var allCases: [IAdvizeConversationSDK.GraphQL.ApplicationMode] {
+      get
+    }
+    public typealias AllCases = [IAdvizeConversationSDK.GraphQL.ApplicationMode]
+  }
+  public struct SDKTransactionInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(externalTransactionId: Swift.String, visitorDate: IAdvizeConversationSDK.DateTime, amount: Swift.Double, currency: IAdvizeConversationSDK.GraphQL.Currency)
+    public var externalTransactionId: Swift.String {
+      get
+      set
+    }
+    public var visitorDate: IAdvizeConversationSDK.DateTime {
+      get
+      set
+    }
+    public var amount: Swift.Double {
+      get
+      set
+    }
+    public var currency: IAdvizeConversationSDK.GraphQL.Currency {
+      get
+      set
+    }
+  }
+  public enum Currency : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+    public typealias RawValue = Swift.String
+    case adp
+    case aed
+    case afa
+    case afn
+    case all
+    case amd
+    case ang
+    case aoa
+    case ars
+    case ats
+    case aud
+    case awg
+    case aym
+    case azm
+    case azn
+    case bam
+    case bbd
+    case bdt
+    case bef
+    case bgl
+    case bgn
+    case bhd
+    case bif
+    case bmd
+    case bnd
+    case bob
+    case bov
+    case brl
+    case bsd
+    case btn
+    case bwp
+    case byb
+    case byn
+    case byr
+    case bzd
+    case cad
+    case cdf
+    case che
+    case chf
+    case chw
+    case clf
+    case clp
+    case cny
+    case cop
+    case cou
+    case crc
+    case csd
+    case cuc
+    case cup
+    case cve
+    case cyp
+    case czk
+    case dem
+    case djf
+    case dkk
+    case dop
+    case dzd
+    case eek
+    case egp
+    case ern
+    case esp
+    case etb
+    case eur
+    case fim
+    case fjd
+    case fkp
+    case frf
+    case gbp
+    case gel
+    case ghc
+    case ghs
+    case gip
+    case gmd
+    case gnf
+    case grd
+    case gtq
+    case gwp
+    case gyd
+    case hkd
+    case hnl
+    case hrk
+    case htg
+    case huf
+    case idr
+    case iep
+    case ils
+    case inr
+    case iqd
+    case irr
+    case isk
+    case itl
+    case jmd
+    case jod
+    case jpy
+    case kes
+    case kgs
+    case khr
+    case kmf
+    case kpw
+    case krw
+    case kwd
+    case kyd
+    case kzt
+    case lak
+    case lbp
+    case lkr
+    case lrd
+    case lsl
+    case ltl
+    case luf
+    case lvl
+    case lyd
+    case mad
+    case mdl
+    case mga
+    case mgf
+    case mkd
+    case mmk
+    case mnt
+    case mop
+    case mro
+    case mru
+    case mtl
+    case mur
+    case mvr
+    case mwk
+    case mxn
+    case mxv
+    case myr
+    case mzm
+    case mzn
+    case nad
+    case ngn
+    case nio
+    case nlg
+    case nok
+    case npr
+    case nzd
+    case omr
+    case pab
+    case pen
+    case pgk
+    case php
+    case pkr
+    case pln
+    case pte
+    case pyg
+    case qar
+    case rol
+    case ron
+    case rsd
+    case rub
+    case rur
+    case rwf
+    case sar
+    case sbd
+    case scr
+    case sdd
+    case sdg
+    case sek
+    case sgd
+    case shp
+    case sit
+    case skk
+    case sll
+    case sos
+    case srd
+    case srg
+    case ssp
+    case std
+    case stn
+    case svc
+    case syp
+    case szl
+    case thb
+    case tjs
+    case tmm
+    case tmt
+    case tnd
+    case top
+    case tpe
+    case trl
+    case `try`
+    case ttd
+    case twd
+    case tzs
+    case uah
+    case ugx
+    case usd
+    case usn
+    case uss
+    case uyi
+    case uyu
+    case uzs
+    case veb
+    case vef
+    case ves
+    case vnd
+    case vuv
+    case wst
+    case xaf
+    case xag
+    case xau
+    case xba
+    case xbb
+    case xbc
+    case xbd
+    case xcd
+    case xdr
+    case xfo
+    case xfu
+    case xof
+    case xpd
+    case xpf
+    case xpt
+    case xsu
+    case xts
+    case xua
+    case xxx
+    case yer
+    case yum
+    case zar
+    case zmk
+    case zmw
+    case zwd
+    case zwl
+    case zwn
+    case zwr
+    case __unknown(IAdvizeConversationSDK.GraphQL.Currency.RawValue)
+    public init?(rawValue: IAdvizeConversationSDK.GraphQL.Currency.RawValue)
+    public var rawValue: IAdvizeConversationSDK.GraphQL.Currency.RawValue {
+      get
+    }
+    public static func == (lhs: IAdvizeConversationSDK.GraphQL.Currency, rhs: IAdvizeConversationSDK.GraphQL.Currency) -> Swift.Bool
+    public static var allCases: [IAdvizeConversationSDK.GraphQL.Currency] {
+      get
+    }
+    public typealias AllCases = [IAdvizeConversationSDK.GraphQL.Currency]
+  }
+  public struct VisitorCustomDataInput : Apollo.GraphQLMapConvertible {
+    public var graphQLMap: Apollo.GraphQLMap
+    public init(key: Swift.String, stringValue: Swift.Optional<Swift.String?> = nil, intValue: Swift.Optional<Swift.Int?> = nil, floatValue: Swift.Optional<Swift.Double?> = nil, booleanValue: Swift.Optional<Swift.Bool?> = nil)
+    public var key: Swift.String {
+      get
+      set
+    }
+    public var stringValue: Swift.Optional<Swift.String?> {
+      get
+      set
+    }
+    public var intValue: Swift.Optional<Swift.Int?> {
+      get
+      set
+    }
+    public var floatValue: Swift.Optional<Swift.Double?> {
+      get
+      set
+    }
+    public var booleanValue: Swift.Optional<Swift.Bool?> {
+      get
+      set
+    }
+  }
+  final public class SdkUploadUrlsQuery : Apollo.GraphQLQuery {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var contentType: Swift.String
+    public init(contentType: Swift.String)
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkUploadUrls: IAdvizeConversationSDK.GraphQL.SdkUploadUrlsQuery.Data.SdkUploadUrl? = nil)
+      public var sdkUploadUrls: IAdvizeConversationSDK.GraphQL.SdkUploadUrlsQuery.Data.SdkUploadUrl? {
+        get
+        set
+      }
+      public struct SdkUploadUrl : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(writeUrl: Swift.String, readUrl: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var writeUrl: Swift.String {
+          get
+          set
+        }
+        public var readUrl: Swift.String {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkEventTrackMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var input: IAdvizeConversationSDK.GraphQL.SDKEventInput
+    public init(input: IAdvizeConversationSDK.GraphQL.SDKEventInput)
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkEventTrack: IAdvizeConversationSDK.GraphQL.SdkEventTrackMutation.Data.SdkEventTrack? = nil)
+      public var sdkEventTrack: IAdvizeConversationSDK.GraphQL.SdkEventTrackMutation.Data.SdkEventTrack? {
+        get
+        set
+      }
+      public struct SdkEventTrack : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(eventId: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var eventId: Swift.String {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkConsentSetMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var consent: Swift.Bool
+    public init(consent: Swift.Bool)
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkVisitorConsentSet: IAdvizeConversationSDK.GraphQL.SdkConsentSetMutation.Data.SdkVisitorConsentSet? = nil)
+      public var sdkVisitorConsentSet: IAdvizeConversationSDK.GraphQL.SdkConsentSetMutation.Data.SdkVisitorConsentSet? {
+        get
+        set
+      }
+      public struct SdkVisitorConsentSet : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(consent: Swift.Bool)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var consent: Swift.Bool {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkConsentQuery : Apollo.GraphQLQuery {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    public init()
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkVisitorConsent: IAdvizeConversationSDK.GraphQL.SdkConsentQuery.Data.SdkVisitorConsent? = nil)
+      public var sdkVisitorConsent: IAdvizeConversationSDK.GraphQL.SdkConsentQuery.Data.SdkVisitorConsent? {
+        get
+        set
+      }
+      public struct SdkVisitorConsent : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(consent: Swift.Bool)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var consent: Swift.Bool {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkMessageSendMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var content: Swift.String
+    final public var createdAt: IAdvizeConversationSDK.DateTime
+    final public var name: Swift.String?
+    final public var language: IAdvizeConversationSDK.GraphQL.Language
+    final public var targetingRule: Foundation.UUID
+    final public var attachments: [IAdvizeConversationSDK.GraphQL.MessageAttachmentInput]
+    public init(content: Swift.String, createdAt: IAdvizeConversationSDK.DateTime, name: Swift.String? = nil, language: IAdvizeConversationSDK.GraphQL.Language, targetingRule: Foundation.UUID, attachments: [IAdvizeConversationSDK.GraphQL.MessageAttachmentInput])
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkVisitorMessageSend: IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend? = nil)
+      public var sdkVisitorMessageSend: IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend? {
+        get
+        set
+      }
+      public struct SdkVisitorMessageSend : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(author: IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Author, id: Swift.String, createdAt: IAdvizeConversationSDK.DateTime, content: Swift.String, attachments: [IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment])
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var author: IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Author {
+          get
+          set
+        }
+        public var id: Swift.String {
+          get
+          set
+        }
+        public var createdAt: IAdvizeConversationSDK.DateTime {
+          get
+          set
+        }
+        public var content: Swift.String {
+          get
+          set
+        }
+        public var attachments: [IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment] {
+          get
+          set
+        }
+        public struct Author : Apollo.GraphQLSelectionSet {
+          public static let possibleTypes: [Swift.String]
+          public static let selections: [Apollo.GraphQLSelection]
+          public var resultMap: Apollo.ResultMap {
+            get
+            }
+          public init(unsafeResultMap: Apollo.ResultMap)
+          public init(id: Swift.String)
+          public var __typename: Swift.String {
+            get
+            set
+          }
+          public var id: Swift.String {
+            get
+            set
+          }
+        }
+        public struct Attachment : Apollo.GraphQLSelectionSet {
+          public static let possibleTypes: [Swift.String]
+          public static let selections: [Apollo.GraphQLSelection]
+          public var resultMap: Apollo.ResultMap {
+            get
+            }
+          public init(unsafeResultMap: Apollo.ResultMap)
+          public static func makeOffer() -> IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment
+          public static func makeLink() -> IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment
+          public static func makeProduct() -> IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment
+          public static func makeQuickReplyMenu() -> IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment
+          public static func makeUnsupported() -> IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment
+          public static func makeImage(url: Swift.String, fileName: Swift.String, mimeType: Swift.String) -> IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment
+          public static func makeFile(url: Swift.String, fileName: Swift.String, mimeType: Swift.String) -> IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment
+          public var __typename: Swift.String {
+            get
+            set
+          }
+          public var asImage: IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment.AsImage? {
+            get
+            set
+          }
+          public struct AsImage : Apollo.GraphQLSelectionSet {
+            public static let possibleTypes: [Swift.String]
+            public static let selections: [Apollo.GraphQLSelection]
+            public var resultMap: Apollo.ResultMap {
+              get
+              }
+            public init(unsafeResultMap: Apollo.ResultMap)
+            public init(url: Swift.String, fileName: Swift.String, mimeType: Swift.String)
+            public var __typename: Swift.String {
+              get
+              set
+            }
+            public var url: Swift.String {
+              get
+              set
+            }
+            public var fileName: Swift.String {
+              get
+              set
+            }
+            public var mimeType: Swift.String {
+              get
+              set
+            }
+          }
+          public var asFile: IAdvizeConversationSDK.GraphQL.SdkMessageSendMutation.Data.SdkVisitorMessageSend.Attachment.AsFile? {
+            get
+            set
+          }
+          public struct AsFile : Apollo.GraphQLSelectionSet {
+            public static let possibleTypes: [Swift.String]
+            public static let selections: [Apollo.GraphQLSelection]
+            public var resultMap: Apollo.ResultMap {
+              get
+              }
+            public init(unsafeResultMap: Apollo.ResultMap)
+            public init(url: Swift.String, fileName: Swift.String, mimeType: Swift.String)
+            public var __typename: Swift.String {
+              get
+              set
+            }
+            public var url: Swift.String {
+              get
+              set
+            }
+            public var fileName: Swift.String {
+              get
+              set
+            }
+            public var mimeType: Swift.String {
+              get
+              set
+            }
+          }
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkMessagesQuery : Apollo.GraphQLQuery {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var queryDocument: Swift.String {
+      get
+    }
+    public init()
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(messages: [IAdvizeConversationSDK.GraphQL.SdkMessagesQuery.Data.Message]? = nil)
+      public var messages: [IAdvizeConversationSDK.GraphQL.SdkMessagesQuery.Data.Message]? {
+        get
+        set
+      }
+      public struct Message : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var fragments: IAdvizeConversationSDK.GraphQL.SdkMessagesQuery.Data.Message.Fragments {
+          get
+          set
+        }
+        public struct Fragments {
+          public var resultMap: Apollo.ResultMap {
+            get
+            }
+          public init(unsafeResultMap: Apollo.ResultMap)
+          public var messageResource: IAdvizeConversationSDK.GraphQL.MessageResource {
+            get
+            set
+          }
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkMobileApplicationQuery : Apollo.GraphQLQuery {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    public init()
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkMobileApplication: IAdvizeConversationSDK.GraphQL.SdkMobileApplicationQuery.Data.SdkMobileApplication? = nil)
+      public var sdkMobileApplication: IAdvizeConversationSDK.GraphQL.SdkMobileApplicationQuery.Data.SdkMobileApplication? {
+        get
+        set
+      }
+      public struct SdkMobileApplication : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(isEnabled: Swift.Bool)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var isEnabled: Swift.Bool {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkMobilePushTokenRegisterMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var pushToken: Swift.String
+    final public var platform: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform
+    final public var mode: IAdvizeConversationSDK.GraphQL.ApplicationMode?
+    public init(pushToken: Swift.String, platform: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform, mode: IAdvizeConversationSDK.GraphQL.ApplicationMode? = nil)
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkMobilePushTokenRegister: IAdvizeConversationSDK.GraphQL.SdkMobilePushTokenRegisterMutation.Data.SdkMobilePushTokenRegister? = nil)
+      public var sdkMobilePushTokenRegister: IAdvizeConversationSDK.GraphQL.SdkMobilePushTokenRegisterMutation.Data.SdkMobilePushTokenRegister? {
+        get
+        set
+      }
+      public struct SdkMobilePushTokenRegister : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(appId: Swift.String, externalId: Swift.String? = nil, pushToken: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var appId: Swift.String {
+          get
+          set
+        }
+        public var externalId: Swift.String? {
+          get
+          set
+        }
+        public var pushToken: Swift.String {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkMobilePushTokenEnableMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var pushToken: Swift.String
+    final public var platform: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform
+    public init(pushToken: Swift.String, platform: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform)
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkMobilePushTokenEnable: IAdvizeConversationSDK.GraphQL.SdkMobilePushTokenEnableMutation.Data.SdkMobilePushTokenEnable? = nil)
+      public var sdkMobilePushTokenEnable: IAdvizeConversationSDK.GraphQL.SdkMobilePushTokenEnableMutation.Data.SdkMobilePushTokenEnable? {
+        get
+        set
+      }
+      public struct SdkMobilePushTokenEnable : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(appId: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var appId: Swift.String {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkMobilePushTokenDisableMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var pushToken: Swift.String
+    final public var platform: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform
+    public init(pushToken: Swift.String, platform: IAdvizeConversationSDK.GraphQL.MobileDevicePlatform)
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkMobilePushTokenDisable: IAdvizeConversationSDK.GraphQL.SdkMobilePushTokenDisableMutation.Data.SdkMobilePushTokenDisable? = nil)
+      public var sdkMobilePushTokenDisable: IAdvizeConversationSDK.GraphQL.SdkMobilePushTokenDisableMutation.Data.SdkMobilePushTokenDisable? {
+        get
+        set
+      }
+      public struct SdkMobilePushTokenDisable : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(appId: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var appId: Swift.String {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkTransactionConcludedRegisterMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var input: IAdvizeConversationSDK.GraphQL.SDKTransactionInput
+    public init(input: IAdvizeConversationSDK.GraphQL.SDKTransactionInput)
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkTransactionConcludedRegister: IAdvizeConversationSDK.GraphQL.SdkTransactionConcludedRegisterMutation.Data.SdkTransactionConcludedRegister? = nil)
+      public var sdkTransactionConcludedRegister: IAdvizeConversationSDK.GraphQL.SdkTransactionConcludedRegisterMutation.Data.SdkTransactionConcludedRegister? {
+        get
+        set
+      }
+      public struct SdkTransactionConcludedRegister : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(externalTransactionId: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var externalTransactionId: Swift.String {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkVisitorCustomDataSetMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var datas: [IAdvizeConversationSDK.GraphQL.VisitorCustomDataInput]
+    public init(datas: [IAdvizeConversationSDK.GraphQL.VisitorCustomDataInput])
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkVisitorCustomDataSet: [IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet]? = nil)
+      public var sdkVisitorCustomDataSet: [IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet]? {
+        get
+        set
+      }
+      public struct SdkVisitorCustomDataSet : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public static func makeVisitorCustomDataInt(key: Swift.String, intValue: Swift.Int) -> IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet
+        public static func makeVisitorCustomDataString(key: Swift.String, stringValue: Swift.String) -> IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet
+        public static func makeVisitorCustomDataFloat(key: Swift.String, floatValue: Swift.Double) -> IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet
+        public static func makeVisitorCustomDataBoolean(key: Swift.String, booleanValue: Swift.Bool) -> IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var asVisitorCustomDataInt: IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet.AsVisitorCustomDataInt? {
+          get
+          set
+        }
+        public struct AsVisitorCustomDataInt : Apollo.GraphQLSelectionSet {
+          public static let possibleTypes: [Swift.String]
+          public static let selections: [Apollo.GraphQLSelection]
+          public var resultMap: Apollo.ResultMap {
+            get
+            }
+          public init(unsafeResultMap: Apollo.ResultMap)
+          public init(key: Swift.String, intValue: Swift.Int)
+          public var __typename: Swift.String {
+            get
+            set
+          }
+          public var key: Swift.String {
+            get
+            set
+          }
+          public var intValue: Swift.Int {
+            get
+            set
+          }
+        }
+        public var asVisitorCustomDataString: IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet.AsVisitorCustomDataString? {
+          get
+          set
+        }
+        public struct AsVisitorCustomDataString : Apollo.GraphQLSelectionSet {
+          public static let possibleTypes: [Swift.String]
+          public static let selections: [Apollo.GraphQLSelection]
+          public var resultMap: Apollo.ResultMap {
+            get
+            }
+          public init(unsafeResultMap: Apollo.ResultMap)
+          public init(key: Swift.String, stringValue: Swift.String)
+          public var __typename: Swift.String {
+            get
+            set
+          }
+          public var key: Swift.String {
+            get
+            set
+          }
+          public var stringValue: Swift.String {
+            get
+            set
+          }
+        }
+        public var asVisitorCustomDataFloat: IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet.AsVisitorCustomDataFloat? {
+          get
+          set
+        }
+        public struct AsVisitorCustomDataFloat : Apollo.GraphQLSelectionSet {
+          public static let possibleTypes: [Swift.String]
+          public static let selections: [Apollo.GraphQLSelection]
+          public var resultMap: Apollo.ResultMap {
+            get
+            }
+          public init(unsafeResultMap: Apollo.ResultMap)
+          public init(key: Swift.String, floatValue: Swift.Double)
+          public var __typename: Swift.String {
+            get
+            set
+          }
+          public var key: Swift.String {
+            get
+            set
+          }
+          public var floatValue: Swift.Double {
+            get
+            set
+          }
+        }
+        public var asVisitorCustomDataBoolean: IAdvizeConversationSDK.GraphQL.SdkVisitorCustomDataSetMutation.Data.SdkVisitorCustomDataSet.AsVisitorCustomDataBoolean? {
+          get
+          set
+        }
+        public struct AsVisitorCustomDataBoolean : Apollo.GraphQLSelectionSet {
+          public static let possibleTypes: [Swift.String]
+          public static let selections: [Apollo.GraphQLSelection]
+          public var resultMap: Apollo.ResultMap {
+            get
+            }
+          public init(unsafeResultMap: Apollo.ResultMap)
+          public init(key: Swift.String, booleanValue: Swift.Bool)
+          public var __typename: Swift.String {
+            get
+            set
+          }
+          public var key: Swift.String {
+            get
+            set
+          }
+          public var booleanValue: Swift.Bool {
+            get
+            set
+          }
+        }
+      }
+    }
+    @objc deinit
+  }
+  final public class SdkVisitorTokenRequestMutation : Apollo.GraphQLMutation {
+    final public let operationDefinition: Swift.String
+    final public let operationName: Swift.String
+    final public var vuid: Foundation.UUID?
+    public init(vuid: Foundation.UUID? = nil)
+    final public var variables: Apollo.GraphQLMap? {
+      get
+    }
+    public struct Data : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(sdkVisitorTokenRequest: IAdvizeConversationSDK.GraphQL.SdkVisitorTokenRequestMutation.Data.SdkVisitorTokenRequest? = nil)
+      public var sdkVisitorTokenRequest: IAdvizeConversationSDK.GraphQL.SdkVisitorTokenRequestMutation.Data.SdkVisitorTokenRequest? {
+        get
+        set
+      }
+      public struct SdkVisitorTokenRequest : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(visitorToken: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var visitorToken: Swift.String {
+          get
+          set
+        }
+      }
+    }
+    @objc deinit
+  }
+  public struct MessageResource : Apollo.GraphQLFragment {
+    public static let fragmentDefinition: Swift.String
+    public static let possibleTypes: [Swift.String]
+    public static let selections: [Apollo.GraphQLSelection]
+    public var resultMap: Apollo.ResultMap {
+      get
+      }
+    public init(unsafeResultMap: Apollo.ResultMap)
+    public init(author: IAdvizeConversationSDK.GraphQL.MessageResource.Author, id: Swift.String, createdAt: IAdvizeConversationSDK.DateTime, content: Swift.String, attachments: [IAdvizeConversationSDK.GraphQL.MessageResource.Attachment])
+    public var __typename: Swift.String {
+      get
+      set
+    }
+    public var author: IAdvizeConversationSDK.GraphQL.MessageResource.Author {
+      get
+      set
+    }
+    public var id: Swift.String {
+      get
+      set
+    }
+    public var createdAt: IAdvizeConversationSDK.DateTime {
+      get
+      set
+    }
+    public var content: Swift.String {
+      get
+      set
+    }
+    public var attachments: [IAdvizeConversationSDK.GraphQL.MessageResource.Attachment] {
+      get
+      set
+    }
+    public struct Author : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public init(id: Swift.String)
+      public var __typename: Swift.String {
+        get
+        set
+      }
+      public var id: Swift.String {
+        get
+        set
+      }
+    }
+    public struct Attachment : Apollo.GraphQLSelectionSet {
+      public static let possibleTypes: [Swift.String]
+      public static let selections: [Apollo.GraphQLSelection]
+      public var resultMap: Apollo.ResultMap {
+        get
+        }
+      public init(unsafeResultMap: Apollo.ResultMap)
+      public static func makeOffer() -> IAdvizeConversationSDK.GraphQL.MessageResource.Attachment
+      public static func makeLink() -> IAdvizeConversationSDK.GraphQL.MessageResource.Attachment
+      public static func makeProduct() -> IAdvizeConversationSDK.GraphQL.MessageResource.Attachment
+      public static func makeQuickReplyMenu() -> IAdvizeConversationSDK.GraphQL.MessageResource.Attachment
+      public static func makeUnsupported() -> IAdvizeConversationSDK.GraphQL.MessageResource.Attachment
+      public static func makeImage(url: Swift.String, fileName: Swift.String, mimeType: Swift.String) -> IAdvizeConversationSDK.GraphQL.MessageResource.Attachment
+      public static func makeFile(url: Swift.String, fileName: Swift.String, mimeType: Swift.String) -> IAdvizeConversationSDK.GraphQL.MessageResource.Attachment
+      public var __typename: Swift.String {
+        get
+        set
+      }
+      public var asImage: IAdvizeConversationSDK.GraphQL.MessageResource.Attachment.AsImage? {
+        get
+        set
+      }
+      public struct AsImage : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(url: Swift.String, fileName: Swift.String, mimeType: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var url: Swift.String {
+          get
+          set
+        }
+        public var fileName: Swift.String {
+          get
+          set
+        }
+        public var mimeType: Swift.String {
+          get
+          set
+        }
+      }
+      public var asFile: IAdvizeConversationSDK.GraphQL.MessageResource.Attachment.AsFile? {
+        get
+        set
+      }
+      public struct AsFile : Apollo.GraphQLSelectionSet {
+        public static let possibleTypes: [Swift.String]
+        public static let selections: [Apollo.GraphQLSelection]
+        public var resultMap: Apollo.ResultMap {
+          get
+          }
+        public init(unsafeResultMap: Apollo.ResultMap)
+        public init(url: Swift.String, fileName: Swift.String, mimeType: Swift.String)
+        public var __typename: Swift.String {
+          get
+          set
+        }
+        public var url: Swift.String {
+          get
+          set
+        }
+        public var fileName: Swift.String {
+          get
+          set
+        }
+        public var mimeType: Swift.String {
+          get
+          set
+        }
+      }
+    }
+  }
+}
+extension UIColor {
+  convenience public init(named name: IAdvizeConversationSDK.UIColorName)
+}
+public typealias SynchronisedDataResponseHandler = ((Foundation.Data?) -> Swift.Void)
+public class AlamofireUnifiedDataDownloader {
+  public static let sharedInstance: IAdvizeConversationSDK.AlamofireUnifiedDataDownloader
+  public func requestData(_ urlString: Swift.String, completion: @escaping IAdvizeConversationSDK.SynchronisedDataResponseHandler)
+  public class func request(_ urlString: Swift.String, completion: @escaping IAdvizeConversationSDK.SynchronisedDataResponseHandler)
+  @objc deinit
+}
+extension UIWindow {
+  public static var key: UIKit.UIWindow? {
+    get
+  }
+}
+public struct KeychainSwiftConstants {
+  public static var accessGroup: Swift.String {
+    get
+  }
+  public static var accessible: Swift.String {
+    get
+  }
+  public static var attrAccount: Swift.String {
+    get
+  }
+  public static var attrSynchronizable: Swift.String {
+    get
+  }
+  public static var klass: Swift.String {
+    get
+  }
+  public static var matchLimit: Swift.String {
+    get
+  }
+  public static var returnData: Swift.String {
+    get
+  }
+  public static var valueData: Swift.String {
+    get
+  }
+}
+public enum KeychainSwiftAccessOptions {
+  case accessibleWhenUnlocked
+  case accessibleWhenUnlockedThisDeviceOnly
+  case accessibleAfterFirstUnlock
+  case accessibleAfterFirstUnlockThisDeviceOnly
+  case accessibleAlways
+  case accessibleWhenPasscodeSetThisDeviceOnly
+  case accessibleAlwaysThisDeviceOnly
+  public static func == (a: IAdvizeConversationSDK.KeychainSwiftAccessOptions, b: IAdvizeConversationSDK.KeychainSwiftAccessOptions) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public struct ConversationViewConfiguration {
+  public var mainColor: UIKit.UIColor
+  public var automaticMessage: Swift.String?
+  public var gdprMessage: Swift.String?
+  public var font: UIKit.UIFont?
+  public var navigationBarBackgroundColor: UIKit.UIColor
+  public var navigationBarMainColor: UIKit.UIColor
+  public var navigationBarTitle: Swift.String?
+  public var incomingMessageAvatar: IAdvizeConversationSDK.IncomingMessageAvatar?
+}
+extension ConversationViewConfiguration {
+  public init()
+}
+final public class IAdvizeConversationManager {
+  public static let shared: IAdvizeConversationSDK.IAdvizeConversationManager
+  weak final public var delegate: IAdvizeConversationSDK.IAdvizeConversationManagerDelegate?
+  final public var unreadMessageCount: Swift.Int {
+    get
+  }
+  final public func setupConversationView(configuration: IAdvizeConversationSDK.ConversationViewConfiguration)
+  final public func setChatButtonPosition(leftMargin: Swift.Double, bottomMargin: Swift.Double)
+  final public func showChatButton(viewOrWindow view: UIKit.UIView? = UIWindow.key)
+  final public func hideChatButton()
+  final public func presentConversationViewModal(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  final public func dismissConversationViewModal(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  final public func isConversationViewPresented() -> Swift.Bool
+  @objc deinit
+}
+public enum JWTOption {
+  case secret(Swift.String)
+  case token(Swift.String)
+}
+public enum AttachmentFileCellStatus {
+  case retry
+  case `default`
+  public static func == (a: IAdvizeConversationSDK.AttachmentFileCellStatus, b: IAdvizeConversationSDK.AttachmentFileCellStatus) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum GDPROption {
+  case enabled(option: IAdvizeConversationSDK.GDPREnabledOption)
+  case disabled
+}
+extension GIFImageView {
+  public func af_setAnimatedImage(withURL url: Foundation.URL, placeholderImage: UIKit.UIImage? = nil)
+  public func af_setAnimatedImage(withData data: Foundation.Data, placeholderImage: UIKit.UIImage? = nil)
+}
+extension TimeZone {
+  public static func timeZoneWithString(_ dateString: Swift.String) -> Foundation.TimeZone!
+}
+public enum AttachmenImageCellStatus {
+  case retry
+  case `default`
+  public static func == (a: IAdvizeConversationSDK.AttachmenImageCellStatus, b: IAdvizeConversationSDK.AttachmenImageCellStatus) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum Model : Swift.String {
+  case simulator, iPod1, iPod2, iPod3, iPod4, iPod5, iPad2, iPad3, iPad4, iPhone4, iPhone4S, iPhone5, iPhone5S, iPhone5C, iPadMini1, iPadMini2, iPadMini3, iPadAir1, iPadAir2, iPadPro9_7, iPadPro9_7_cell, iPadPro10_5, iPadPro10_5_cell, iPadPro12_9, iPadPro12_9_cell, iPhone6, iPhone6plus, iPhone6S, iPhone6Splus, iPhoneSE, iPhone7, iPhone7plus, iPhone8, iPhone8plus, iPhoneX, iPhoneXS, iPhoneXSmax, iPhoneXR, iPhone11, iPhone11Pro, iPhone11ProMax, unrecognized
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UIDevice {
+  public var type: IAdvizeConversationSDK.Model {
+    get
+  }
+}
+open class GDPRConsentMessageSizeCalculator : IAdvizeConversationSDK.ChatMessageSizeCalculator {
+  override open func messageContainerSize(for message: MessageKit.MessageType) -> CoreGraphics.CGSize
+  override public init(layout: MessageKit.MessagesCollectionViewFlowLayout?)
+  @objc deinit
+}
+public struct User {
+  public var name: Swift.String
+  public init(name: Swift.String)
+  public static func name() -> Swift.String
+}
+public enum ReachabilityError : Swift.Error {
+  case FailedToCreateWithAddress(Darwin.sockaddr_in)
+  case FailedToCreateWithHostname(Swift.String)
+  case UnableToSetCallback
+  case UnableToSetDispatchQueue
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public let ReachabilityChangedNotification: Foundation.NSNotification.Name
+extension NSNotification.Name {
+  public static let reachabilityChanged: Foundation.Notification.Name
+}
+public class Reachability {
+  public typealias NetworkReachable = (IAdvizeConversationSDK.Reachability) -> ()
+  public typealias NetworkUnreachable = (IAdvizeConversationSDK.Reachability) -> ()
+  @available(*, unavailable, renamed: "Connection")
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: IAdvizeConversationSDK.Reachability.NetworkStatus, b: IAdvizeConversationSDK.Reachability.NetworkStatus) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public enum Connection : Swift.CustomStringConvertible {
+    case none, wifi, cellular
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: IAdvizeConversationSDK.Reachability.Connection, b: IAdvizeConversationSDK.Reachability.Connection) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public var whenReachable: IAdvizeConversationSDK.Reachability.NetworkReachable?
+  public var whenUnreachable: IAdvizeConversationSDK.Reachability.NetworkUnreachable?
+  @available(*, deprecated, renamed: "allowsCellularConnection")
+  final public let reachableOnWWAN: Swift.Bool
+  public var allowsCellularConnection: Swift.Bool
+  public var notificationCenter: Foundation.NotificationCenter
+  @available(*, deprecated, renamed: "connection.description")
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: IAdvizeConversationSDK.Reachability.Connection {
+    get
+  }
+  public var connection: IAdvizeConversationSDK.Reachability.Connection {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, usingHostname: Swift.Bool = false)
+  convenience public init?(hostname: Swift.String)
+  convenience public init?()
+  @objc deinit
+}
+extension Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  @available(*, deprecated, message: "Please use `connection != .none`")
+  public var isReachable: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .cellular`")
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .wifi`")
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+extension IAdvizeConversationSDK.Logger.LogLevel : Swift.Equatable {}
+extension IAdvizeConversationSDK.Logger.LogLevel : Swift.Hashable {}
+extension IAdvizeConversationSDK.Logger.LogLevel : Swift.RawRepresentable {}
+extension IAdvizeConversationSDK.UIColorName : Swift.Equatable {}
+extension IAdvizeConversationSDK.UIColorName : Swift.Hashable {}
+extension IAdvizeConversationSDK.UIColorName : Swift.RawRepresentable {}
+extension IAdvizeConversationSDK.KeychainSwiftAccessOptions : Swift.Equatable {}
+extension IAdvizeConversationSDK.KeychainSwiftAccessOptions : Swift.Hashable {}
+extension IAdvizeConversationSDK.AttachmentFileCellStatus : Swift.Equatable {}
+extension IAdvizeConversationSDK.AttachmentFileCellStatus : Swift.Hashable {}
+extension IAdvizeConversationSDK.AttachmenImageCellStatus : Swift.Equatable {}
+extension IAdvizeConversationSDK.AttachmenImageCellStatus : Swift.Hashable {}
+extension IAdvizeConversationSDK.Model : Swift.Equatable {}
+extension IAdvizeConversationSDK.Model : Swift.Hashable {}
+extension IAdvizeConversationSDK.Model : Swift.RawRepresentable {}
+@available(*, unavailable, renamed: "Connection")
+extension IAdvizeConversationSDK.Reachability.NetworkStatus : Swift.Equatable {}
+@available(*, unavailable, renamed: "Connection")
+extension IAdvizeConversationSDK.Reachability.NetworkStatus : Swift.Hashable {}
+extension IAdvizeConversationSDK.Reachability.Connection : Swift.Hashable {}
