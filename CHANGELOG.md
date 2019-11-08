@@ -1,3 +1,9 @@
+# 1.6.2
+
+### Release date 2019/11/08
+
+- Build SDK with Xcode 11 "Build libraries for distribution" flag set to Yes (which includes the .swiftinterface files)
+
 # 1.6.1
 
 ### Release date 2019/10/02
