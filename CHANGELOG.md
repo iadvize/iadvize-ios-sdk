@@ -1,3 +1,9 @@
+# 1.6.3
+
+### Release date 2019/12/20
+
+- Upgrade SwiftGraylog library
+
 # 1.6.2
 
 ### Release date 2019/11/08
