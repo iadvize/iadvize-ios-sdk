@@ -1,3 +1,10 @@
+# 1.6.4
+
+### Release date 2020/03/06
+
+- Fix an issue on message input view being unproperly dismissed
+- Add the possibility to configure the way the Conversation View is presented
+
 # 1.6.3
 
 ### Release date 2019/12/20
