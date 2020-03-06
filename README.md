@@ -2,7 +2,7 @@
 
 Take your app to the next step and provide a unique conversational experience to your users!
 
-Embed the iAdvize Conversation SDK in your app and connect your visitors with your professional agents or ibbü experts through a fully customised chat experience. Visitors can ask a question and will receive answers directly on their devices with push notifications, in or outside your app.
+Embed the iAdvize Conversation SDK in your app and connect your visitors with your professional operators or ibbü experts through a fully customised chat experience. Visitors can ask a question and will receive answers directly on their devices with push notifications, in or outside your app.
 
 
 
@@ -44,12 +44,14 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 - [Language](#language)
 - [Registering your application ID](#register)
 - [Activating the SDK](#activate)
+- [Conversation View](#conversationview)
 - [GDPR](#gdpr)
 - [Registering push token](#push)
-* [Registering user](#user)
+- [Registering user](#user)
 - [Chat button](#button)
 - [Push notification](#notification)
 - [Registering a transaction](#transaction)
+- [Be notified about incoming messages](#incomingmessages)
 
 
 
@@ -57,6 +59,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 - [Chat button](#customisebutton)
 - [Conversation view](#customiseconversation)
+- [Presentation](#customisepresentation)
 - [Main color](#customisecolor)
 - [Navigation bar](#customisenavigation)
 - [Font](#customisefont)
@@ -188,6 +191,30 @@ IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "c
 N.B. You have to check if the activation succeeds before you try to show a Chat Button (the default or a custom one). You also have to check the `isEnabled` flag which indicates you if the SDK is currently enabled or disabled by the SDK Administrator.
 
 
+
+<a name="conversationview"></a>
+
+## Present the iAdvize Conversation View
+
+If you use the provided iAdvize Chat Button we will automatically present the Conversation View when your user taps on it.
+
+If you want to implement your own way to display the iAdvize Conversation View we provide you two methods to present/dismiss the iAdvize Conversation View:
+
+
+```swift
+IAdvizeConversationManager.shared.presentConversationViewModal()
+
+IAdvizeConversationManager.shared.dismissConversationViewModal()
+
+```
+
+You also have a utils method to know if the Conversation View is already displayed:
+
+```swift
+IAdvizeConversationManager.shared.isConversationViewPresented()
+```
+
+
 <a name="gdpr"></a>
 
 ## GDPR
@@ -315,11 +342,35 @@ IAdvizeTransactionManager.shared.registerTransaction(transaction)
 To customise the SDK, check the next section.
 
 
+<a name="incomingmessages"></a>
+
+## Be notified about incoming messages
+
+You can setup a delegate to be able to be informed when a new operator message has been received and to know how many of them are actually unread.
+
+
+```swift
+extension YourObject: IAdvizeConversationManagerDelegate {
+    func didUpdateUnreadMessagesCount(unreadMessagesCount: Int) {
+
+    }
+
+    func didReceiveNewMessage(content: String) {
+
+    }
+}
+
+class YourObject {
+    func setupDelegate() {
+        IAdvizeConversationManager.shared.delegate = self
+    }
+}
+```
+
 
 <a name="customise"></a>
 
 # Customisation
-
 
 
 <a name="customisebutton"></a>
@@ -331,6 +382,48 @@ By default, the SDK provides you a Chat button which you can integrate as-is. Yo
 ```swift
 IAdvizeConversationManager.shared.presentConversationViewModal()
 IAdvizeConversationManager.shared.dismissConversationViewModal()
+```
+
+You can also update the Chat Button position:
+
+```
+    /// Set the chat button (the default one) position. Use this method if you use the iAdvize
+    /// default chat button and you use showChatButton()/hideChatButton() methods to display/hide it.
+    ///
+    /// We use autolayout constraints to place the chat button in the designated view (the main
+    /// window by default) and to move it.
+    ///
+    /// The default chat button is aligned to the bottom-left of the screen with a default
+    /// margin to (left: 10, bottom: 10). Increasing the bottom margin value will move the chat
+    /// button up and increasing the left margin value will move the chat button left.
+    ///
+    ///                 Container view (default = main window)
+    ///                    +----------------------------------+
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |                                  |
+    ///                    |             chatButtonView       |
+    ///           leftMargin = 10   +----+                    |
+    ///                    <------> |    |                    |
+    ///                    |        |    |                    |
+    ///                    |        +--^-+                    |
+    ///                    |            |                     |
+    ///                    |            | bottomMargin = 10   |
+    ///                    +------------v---------------------+
+
+
+IAdvizeConversationManager.shared.setChatButtonPosition(leftMargin: leftMargin, bottomMargin: bottomMargin)
 ```
 
 
@@ -354,6 +447,17 @@ IAdvizeConversationManager.shared.setupConversationView(configuration: configura
 
 For the next steps, we will only show you the different attributes that you can setup on this “configuration” object.
 
+<a name="customisepresentation"></a>
+
+## Presentation style
+
+You can customise the presentation style of the Conversation View:
+
+
+```swift
+// Update the Conversation View presentation style.
+configuration.presentationStyle = .fullScreen
+```
 
 
 <a name="customisecolor"></a>
