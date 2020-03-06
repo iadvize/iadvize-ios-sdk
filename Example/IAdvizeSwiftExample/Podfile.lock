@@ -1,31 +1,31 @@
 PODS:
-  - Alamofire (4.9.0)
+  - Alamofire (4.9.1)
   - AlamofireImage (3.5.2):
     - Alamofire (~> 4.8)
-  - Apollo (0.16.0):
-    - Apollo/Core (= 0.16.0)
-  - Apollo/Core (0.16.0)
+  - Apollo (0.16.1):
+    - Apollo/Core (= 0.16.1)
+  - Apollo/Core (0.16.1)
   - Base64 (1.1.2)
   - Gifu (3.2.0)
-  - iAdvize (1.6.1):
+  - iAdvize (1.6.4):
     - AlamofireImage (~> 3.5.2)
     - Apollo (~> 0.16.0)
     - Gifu (~> 3.2.0)
     - JWT (~> 3.0.0-beta.11)
     - MessageKit (~> 3.0.0)
-    - SwiftGraylog (~> 1.1.0)
+    - SwiftGraylog (~> 1.1.1)
   - InputBarAccessoryView (4.2.2)
-  - JWT (3.0.0-beta.11):
+  - JWT (3.0.0-beta.12):
     - Base64 (~> 1.1.2)
   - MessageKit (3.0.0):
     - InputBarAccessoryView (~> 4.2.2)
-  - SwiftGraylog (1.1.0)
+  - SwiftGraylog (1.1.1)
 
 DEPENDENCIES:
-  - iAdvize
+  - iAdvize (= 1.6.4)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - AlamofireImage
     - Apollo
@@ -38,17 +38,17 @@ SPEC REPOS:
     - SwiftGraylog
 
 SPEC CHECKSUMS:
-  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
-  Apollo: ad9ce2008f88fce57c062aa4853364b7927355c8
+  Apollo: 2b08fca48664d25e1dc8635f0ad128483ccba43b
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
-  iAdvize: a02a2535c560649661b3755dcdf18e804724ab15
+  iAdvize: 1425509fda6b9b078f1e70bc0f2d8b181f195526
   InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
-  JWT: 05028b9624591bba9681bb57df2c5f95fa258bad
+  JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
   MessageKit: e892a9ca49ebe6d82684d3a93ad84021fa23e2c6
-  SwiftGraylog: 366fa72ea8d37a2b9794221a519c6c2a2427acbe
+  SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
 
-PODFILE CHECKSUM: 6954ad3411334d77113bf90ee84bffc929543e48
+PODFILE CHECKSUM: 312edc691b205d1a09b2fbf70ff334ec09421f4c
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.8.4

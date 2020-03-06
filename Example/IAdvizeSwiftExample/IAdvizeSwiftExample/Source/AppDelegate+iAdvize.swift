@@ -53,6 +53,8 @@ extension AppDelegate {
             configuration.incomingMessageAvatar = IncomingMessageAvatar.image(image: image)
         }
 
+        configuration.presentationStyle = .fullScreen
+
         IAdvizeConversationManager.shared.setupConversationView(configuration: configuration)
 
 
