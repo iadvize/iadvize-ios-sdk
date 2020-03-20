@@ -1,3 +1,9 @@
+# 1.6.5
+
+### Release date 2020/03/20
+
+- Fix an issue when retrying a GraphQL query after a token expiration
+
 # 1.6.4
 
 ### Release date 2020/03/06
