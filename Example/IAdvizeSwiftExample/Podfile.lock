@@ -7,7 +7,7 @@ PODS:
   - Apollo/Core (0.16.1)
   - Base64 (1.1.2)
   - Gifu (3.2.0)
-  - iAdvize (1.6.4):
+  - iAdvize (1.6.5):
     - AlamofireImage (~> 3.5.2)
     - Apollo (~> 0.16.0)
     - Gifu (~> 3.2.0)
@@ -22,7 +22,7 @@ PODS:
   - SwiftGraylog (1.1.1)
 
 DEPENDENCIES:
-  - iAdvize (= 1.6.4)
+  - iAdvize (= 1.6.5)
 
 SPEC REPOS:
   trunk:
@@ -43,12 +43,12 @@ SPEC CHECKSUMS:
   Apollo: 2b08fca48664d25e1dc8635f0ad128483ccba43b
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
-  iAdvize: 1425509fda6b9b078f1e70bc0f2d8b181f195526
+  iAdvize: f59b359e4c8a312a0c67398ea443cd4d1f7954b2
   InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
   JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
   MessageKit: e892a9ca49ebe6d82684d3a93ad84021fa23e2c6
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
 
-PODFILE CHECKSUM: 312edc691b205d1a09b2fbf70ff334ec09421f4c
+PODFILE CHECKSUM: dab83d92d27a4cde7e513f365c20913a05f89997
 
 COCOAPODS: 1.8.4
