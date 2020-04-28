@@ -16,12 +16,13 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 | Version | Minimum iOS Version | Swift Version |
 | :-----: | :-----------------: | :-----------: |
-|  1.6.5  |       iOS 9.3       |   Swift 5     |
-|  1.6.4  |       iOS 9.3       |   Swift 5     |
-|  1.6.3  |       iOS 9.3       |   Swift 5     |
-|  1.6.2  |       iOS 9.3       |   Swift 5     |
-|  1.6.1  |       iOS 9.3       |   Swift 5     |
-|  1.6.0  |       iOS 9.3       |   Swift 5     |
+|  1.7.0  |       iOS 9.3       |    Swift 5    |
+|  1.6.5  |       iOS 9.3       |    Swift 5    |
+|  1.6.4  |       iOS 9.3       |    Swift 5    |
+|  1.6.3  |       iOS 9.3       |    Swift 5    |
+|  1.6.2  |       iOS 9.3       |    Swift 5    |
+|  1.6.1  |       iOS 9.3       |    Swift 5    |
+|  1.6.0  |       iOS 9.3       |    Swift 5    |
 |  1.5.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.4.0  |       iOS 9.3       |   Swift 4.2   |
 |  1.3.2  |       iOS 9.3       |   Swift 4.2   |

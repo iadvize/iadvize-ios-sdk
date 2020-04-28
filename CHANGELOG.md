@@ -1,3 +1,9 @@
+# 1.7.0
+
+### Release date 2020/04/28
+
+- Add Lithuanian localization.
+
 # 1.6.5
 
 ### Release date 2020/03/20
