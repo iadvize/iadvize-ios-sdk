@@ -1,8 +1,14 @@
+# 1.7.1
+
+### Release date 2020/04/29
+
+- Fix missing Simulator architectures
+
 # 1.7.0
 
 ### Release date 2020/04/28
 
-- Add Lithuanian localization.
+- Add Lithuanian localization
 
 # 1.6.5
 
