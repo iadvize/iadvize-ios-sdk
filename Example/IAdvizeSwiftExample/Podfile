@@ -5,5 +5,5 @@ inhibit_all_warnings!
 target 'IAdvizeSwiftExample' do
     project 'IAdvizeSwiftExample'
 
-   pod 'iAdvize', '1.7.0'
+   pod 'iAdvize', '1.7.1'
 end
