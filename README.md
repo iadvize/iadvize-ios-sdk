@@ -331,6 +331,17 @@ You can easily modify the title of the push notification by adding this key in y
 
 We provides you translations which you can directly add to your Localizable.strings file if you don't want to customise it: https://github.com/iadvize/iadvize-ios-sdk/tree/master/translations/
 
+
+If you need, you can enable or disable the push notifications (there are enabled by default)
+```swift
+IAdvizeManager.shared.enablePushNotifications { success in 
+ // ...
+}
+IAdvizeManager.shared.disablePushNotifications { success in 
+ // ...
+}
+```
+
 <a name="transaction"></a>
 
 ## Registering a transaction
