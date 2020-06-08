@@ -45,7 +45,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 - [SDK dependency](#dependency)
 - [Permissions](#permissions)
 - [Logging](#logging)
-- [Language](#language)
+- [Targeting Language](#targeting-language)
 - [Registering your application ID](#register)
 - [Activating the SDK](#activate)
 - [Conversation View](#conversationview)
@@ -132,15 +132,15 @@ By default, the SDK will only log Warnings and Errors in the Xcode console. You 
 
 
 
-<a name="language"></a>
+<a name="targeting-language"></a>
 
-## Language
+## Targeting Language
 
-By default, the SDK will use the device language for targeting a conversation. With this variable you can specify the language you want to use for targetting:
+By default, the SDK will use the device language for **targeting a conversation**. With this variable you can specify the language you want to use for targetting:
 
 `IAdvizeManager.shared.language = SDKLanguageOption.custom(value: .fr)`
 
-
+> :warning: The `IAdvizeManager.shared.language` property is NOT intended to change the language displayed in the SDK.
 
 <a name="register"></a>
 
