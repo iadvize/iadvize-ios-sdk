@@ -1,3 +1,9 @@
+# 1.8.0
+
+### Release date 2020/06/15
+
+- Add Portuguese localization
+
 # 1.7.1
 
 ### Release date 2020/04/29
