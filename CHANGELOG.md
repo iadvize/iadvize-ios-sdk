@@ -1,3 +1,9 @@
+# 1.9.0
+
+### Release date 2020/07/08
+
+- Add Objective-C compatibility
+
 # 1.8.0
 
 ### Release date 2020/06/15
