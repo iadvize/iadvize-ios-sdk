@@ -96,7 +96,7 @@ To do so, simply run in your Terminal :
 
  `openssl pkcs12 -in AppProductionPushCertificate.p12 -out Cert.pem -nodes -clcerts`
 
-then  `cat Cert.pem` and you can copy/paste the certificate and the private key and provide it as printed in the Terminal.
+then  `cat Cert.pem` and you can copy/paste the certificate and the private key (with their separators `-----BEGIN ...-----` and `-----END ...-----`) and provide it as printed in the Terminal.
 
 
 You can register your application to the `SDKStatusDelegate` in `IAdvizeManager` to be informed when the SDK is enabled or disabled in the iAdvize administration website.
