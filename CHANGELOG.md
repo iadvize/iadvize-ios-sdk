@@ -1,3 +1,10 @@
+# 1.10.0
+
+### Release date 2020/08/10
+
+- Update dependency from Alamofire 4 to Alamofire 5
+- Update iOS deployment target from iOS 9.3 to iOS 10.0 (as required by Alamofire 5)
+
 # 1.9.0
 
 ### Release date 2020/07/08
