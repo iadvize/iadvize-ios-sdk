@@ -608,7 +608,7 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK16JWTTokenDelegate_")
 @end
 
 /// Defines the level of the logged message.
-typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", closed) {
   LoggerLogLevelVerbose = 0,
   LoggerLogLevelInfo = 1,
   LoggerLogLevelWarning = 2,
@@ -721,14 +721,14 @@ SWIFT_CLASS_NAMED("ObjcGDPROption")
 
 /// An enumeration representing the mode of the push token. It is only used for iOS
 /// to handle Prod/Dev. Android can use both without any difference.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", closed) {
   GraphQLApplicationModeDev = 0,
   GraphQLApplicationModeProd = 1,
   GraphQLApplicationMode__unknown = 2,
 };
 
 /// ISO4217 currency code.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", closed) {
 /// Andorran Peseta (ADP ADP)
   GraphQLCurrencyAdp = 0,
 /// United Arab Emirates Dirham (AED AED)
@@ -1190,7 +1190,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", open
 };
 
 /// ISO639-1 language.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", closed) {
 /// Afar (aa)
   GraphQLLanguageAa = 0,
 /// Abkhazian (ab)
@@ -2304,7 +2304,7 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK16JWTTokenDelegate_")
 @end
 
 /// Defines the level of the logged message.
-typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", closed) {
   LoggerLogLevelVerbose = 0,
   LoggerLogLevelInfo = 1,
   LoggerLogLevelWarning = 2,
@@ -2417,14 +2417,14 @@ SWIFT_CLASS_NAMED("ObjcGDPROption")
 
 /// An enumeration representing the mode of the push token. It is only used for iOS
 /// to handle Prod/Dev. Android can use both without any difference.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", closed) {
   GraphQLApplicationModeDev = 0,
   GraphQLApplicationModeProd = 1,
   GraphQLApplicationMode__unknown = 2,
 };
 
 /// ISO4217 currency code.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", closed) {
 /// Andorran Peseta (ADP ADP)
   GraphQLCurrencyAdp = 0,
 /// United Arab Emirates Dirham (AED AED)
@@ -2886,7 +2886,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", open
 };
 
 /// ISO639-1 language.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", closed) {
 /// Afar (aa)
   GraphQLLanguageAa = 0,
 /// Abkhazian (ab)
@@ -4003,7 +4003,7 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK16JWTTokenDelegate_")
 @end
 
 /// Defines the level of the logged message.
-typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", closed) {
   LoggerLogLevelVerbose = 0,
   LoggerLogLevelInfo = 1,
   LoggerLogLevelWarning = 2,
@@ -4116,14 +4116,14 @@ SWIFT_CLASS_NAMED("ObjcGDPROption")
 
 /// An enumeration representing the mode of the push token. It is only used for iOS
 /// to handle Prod/Dev. Android can use both without any difference.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", closed) {
   GraphQLApplicationModeDev = 0,
   GraphQLApplicationModeProd = 1,
   GraphQLApplicationMode__unknown = 2,
 };
 
 /// ISO4217 currency code.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", closed) {
 /// Andorran Peseta (ADP ADP)
   GraphQLCurrencyAdp = 0,
 /// United Arab Emirates Dirham (AED AED)
@@ -4585,7 +4585,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", open
 };
 
 /// ISO639-1 language.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", closed) {
 /// Afar (aa)
   GraphQLLanguageAa = 0,
 /// Abkhazian (ab)
@@ -5699,7 +5699,7 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK16JWTTokenDelegate_")
 @end
 
 /// Defines the level of the logged message.
-typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", closed) {
   LoggerLogLevelVerbose = 0,
   LoggerLogLevelInfo = 1,
   LoggerLogLevelWarning = 2,
@@ -5812,14 +5812,14 @@ SWIFT_CLASS_NAMED("ObjcGDPROption")
 
 /// An enumeration representing the mode of the push token. It is only used for iOS
 /// to handle Prod/Dev. Android can use both without any difference.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", closed) {
   GraphQLApplicationModeDev = 0,
   GraphQLApplicationModeProd = 1,
   GraphQLApplicationMode__unknown = 2,
 };
 
 /// ISO4217 currency code.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", closed) {
 /// Andorran Peseta (ADP ADP)
   GraphQLCurrencyAdp = 0,
 /// United Arab Emirates Dirham (AED AED)
@@ -6281,7 +6281,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLCurrency, "ObjcGraphQLCurrency", open
 };
 
 /// ISO639-1 language.
-typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", open) {
+typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", closed) {
 /// Afar (aa)
   GraphQLLanguageAa = 0,
 /// Abkhazian (ab)
