@@ -237,6 +237,7 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK12GDPRDelegate_")
 
 
 @protocol IAdvizeConversationManagerDelegate;
+@class UIViewController;
 
 /// Will manage all conversation related stuff (list of messages,
 /// display/hide the chat button, display/hide the conversation view etc.).
@@ -310,8 +311,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeConve
 /// You can use this method to display manually the Conversation View to the user (if you don’t
 /// want to use the Chat Button behavior and use, for example, a custom element in a view to allow
 /// the user to enter in the Conversation View).
+/// By default, the Conversation View will be presented by the key window root view controller. If you specify a
+/// <code>presentingViewController</code>, it will be used to present the Conversation View.
 /// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
-- (void)presentConversationViewModalWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+- (void)presentConversationViewModalWithAnimated:(BOOL)animated presentingViewController:(UIViewController * _Nullable)presentingViewController completion:(void (^ _Nullable)(void))completion;
 /// Dismiss the Conversation View modal.
 /// By default, the user can dismiss the Conversation View modal by touching the “Reduce” button
 /// in the navigation bar.
@@ -380,6 +383,9 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK34IAdvizeConversationManagerDelegate
 /// \param content Text content of the message.
 ///
 - (void)didReceiveNewMessageWithContent:(NSString * _Nonnull)content;
+/// Called on the delegate to inform it that the conversation was opened.
+/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+- (void)didOpenConversation;
 @end
 
 @protocol JWTTokenDelegate;
@@ -690,6 +696,9 @@ SWIFT_CLASS_NAMED("ObjcConversationViewConfiguration")
 /// By setting this property, you will update the way the Conversation view will be presented.
 /// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic) UIModalPresentationStyle presentationStyle;
+/// If specified, this view controller will be used to present the Conversation View, when the chat button is tapped.
+/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+@property (nonatomic, strong) UIViewController * _Nullable presentingViewController;
 @end
 
 
@@ -1933,6 +1942,7 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK12GDPRDelegate_")
 
 
 @protocol IAdvizeConversationManagerDelegate;
+@class UIViewController;
 
 /// Will manage all conversation related stuff (list of messages,
 /// display/hide the chat button, display/hide the conversation view etc.).
@@ -2006,8 +2016,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeConve
 /// You can use this method to display manually the Conversation View to the user (if you don’t
 /// want to use the Chat Button behavior and use, for example, a custom element in a view to allow
 /// the user to enter in the Conversation View).
+/// By default, the Conversation View will be presented by the key window root view controller. If you specify a
+/// <code>presentingViewController</code>, it will be used to present the Conversation View.
 /// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
-- (void)presentConversationViewModalWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+- (void)presentConversationViewModalWithAnimated:(BOOL)animated presentingViewController:(UIViewController * _Nullable)presentingViewController completion:(void (^ _Nullable)(void))completion;
 /// Dismiss the Conversation View modal.
 /// By default, the user can dismiss the Conversation View modal by touching the “Reduce” button
 /// in the navigation bar.
@@ -2076,6 +2088,9 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK34IAdvizeConversationManagerDelegate
 /// \param content Text content of the message.
 ///
 - (void)didReceiveNewMessageWithContent:(NSString * _Nonnull)content;
+/// Called on the delegate to inform it that the conversation was opened.
+/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+- (void)didOpenConversation;
 @end
 
 @protocol JWTTokenDelegate;
@@ -2386,6 +2401,9 @@ SWIFT_CLASS_NAMED("ObjcConversationViewConfiguration")
 /// By setting this property, you will update the way the Conversation view will be presented.
 /// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic) UIModalPresentationStyle presentationStyle;
+/// If specified, this view controller will be used to present the Conversation View, when the chat button is tapped.
+/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+@property (nonatomic, strong) UIViewController * _Nullable presentingViewController;
 @end
 
 
@@ -3632,6 +3650,7 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK12GDPRDelegate_")
 
 
 @protocol IAdvizeConversationManagerDelegate;
+@class UIViewController;
 
 /// Will manage all conversation related stuff (list of messages,
 /// display/hide the chat button, display/hide the conversation view etc.).
@@ -3705,8 +3724,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeConve
 /// You can use this method to display manually the Conversation View to the user (if you don’t
 /// want to use the Chat Button behavior and use, for example, a custom element in a view to allow
 /// the user to enter in the Conversation View).
+/// By default, the Conversation View will be presented by the key window root view controller. If you specify a
+/// <code>presentingViewController</code>, it will be used to present the Conversation View.
 /// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
-- (void)presentConversationViewModalWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+- (void)presentConversationViewModalWithAnimated:(BOOL)animated presentingViewController:(UIViewController * _Nullable)presentingViewController completion:(void (^ _Nullable)(void))completion;
 /// Dismiss the Conversation View modal.
 /// By default, the user can dismiss the Conversation View modal by touching the “Reduce” button
 /// in the navigation bar.
@@ -3775,6 +3796,9 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK34IAdvizeConversationManagerDelegate
 /// \param content Text content of the message.
 ///
 - (void)didReceiveNewMessageWithContent:(NSString * _Nonnull)content;
+/// Called on the delegate to inform it that the conversation was opened.
+/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+- (void)didOpenConversation;
 @end
 
 @protocol JWTTokenDelegate;
@@ -4085,6 +4109,9 @@ SWIFT_CLASS_NAMED("ObjcConversationViewConfiguration")
 /// By setting this property, you will update the way the Conversation view will be presented.
 /// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic) UIModalPresentationStyle presentationStyle;
+/// If specified, this view controller will be used to present the Conversation View, when the chat button is tapped.
+/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+@property (nonatomic, strong) UIViewController * _Nullable presentingViewController;
 @end
 
 
@@ -5328,6 +5355,7 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK12GDPRDelegate_")
 
 
 @protocol IAdvizeConversationManagerDelegate;
+@class UIViewController;
 
 /// Will manage all conversation related stuff (list of messages,
 /// display/hide the chat button, display/hide the conversation view etc.).
@@ -5401,8 +5429,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeConve
 /// You can use this method to display manually the Conversation View to the user (if you don’t
 /// want to use the Chat Button behavior and use, for example, a custom element in a view to allow
 /// the user to enter in the Conversation View).
+/// By default, the Conversation View will be presented by the key window root view controller. If you specify a
+/// <code>presentingViewController</code>, it will be used to present the Conversation View.
 /// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
-- (void)presentConversationViewModalWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+- (void)presentConversationViewModalWithAnimated:(BOOL)animated presentingViewController:(UIViewController * _Nullable)presentingViewController completion:(void (^ _Nullable)(void))completion;
 /// Dismiss the Conversation View modal.
 /// By default, the user can dismiss the Conversation View modal by touching the “Reduce” button
 /// in the navigation bar.
@@ -5471,6 +5501,9 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK34IAdvizeConversationManagerDelegate
 /// \param content Text content of the message.
 ///
 - (void)didReceiveNewMessageWithContent:(NSString * _Nonnull)content;
+/// Called on the delegate to inform it that the conversation was opened.
+/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+- (void)didOpenConversation;
 @end
 
 @protocol JWTTokenDelegate;
@@ -5781,6 +5814,9 @@ SWIFT_CLASS_NAMED("ObjcConversationViewConfiguration")
 /// By setting this property, you will update the way the Conversation view will be presented.
 /// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic) UIModalPresentationStyle presentationStyle;
+/// If specified, this view controller will be used to present the Conversation View, when the chat button is tapped.
+/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+@property (nonatomic, strong) UIViewController * _Nullable presentingViewController;
 @end
 
 

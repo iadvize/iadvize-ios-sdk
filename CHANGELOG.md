@@ -1,3 +1,10 @@
+# 1.11.0
+
+### Release date 2020/09/23
+
+- Add optional `presentingViewController` parameter when presenting Conversation View, to specify the controller that should perform the presentation.
+- Add `didOpenConversation` callback on `IAdvizeConversationManagerDelegate`.
+
 # 1.10.0
 
 ### Release date 2020/08/10
