@@ -19,4 +19,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'SwiftGraylog', '~> 1.1.1'
   spec.dependency 'AlamofireImage', '~> 4.1.0'
   spec.dependency 'Gifu', '~> 3.3.0'
+
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
