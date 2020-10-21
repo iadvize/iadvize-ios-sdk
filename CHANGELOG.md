@@ -1,3 +1,11 @@
+# 1.12.0
+
+### Release date 2020/10/21
+
+- Add compatibility with Swift 5.3 / Xcode 12.
+- Add Dark Mode support.
+- Update dependencies.
+
 # 1.11.0
 
 ### Release date 2020/09/23
