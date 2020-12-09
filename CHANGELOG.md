@@ -1,3 +1,9 @@
+# 1.13.1
+
+### Release date 2020/12/09
+
+- Fix the way we check the attachement upload response which causes an issue on the latest version of Swift
+
 # 1.13.0
 
 ### Release date 2020/11/19
