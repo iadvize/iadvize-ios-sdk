@@ -1,8 +1,14 @@
+# 1.14.0
+
+### Release date 2021/01/26
+
+- Modify the behaviour of the application deactivation which is now only defined by the administration flag: activated or deactivated. We don't take into account if the visitor has already chatted.
+
 # 1.13.1
 
 ### Release date 2020/12/09
 
-- Fix the way we check the attachement upload response which causes an issue on the latest version of Swift
+- Fix the way we check the attachement upload response which causes an issue on the latest version of Swift.
 
 # 1.13.0
 

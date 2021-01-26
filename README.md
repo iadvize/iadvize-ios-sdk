@@ -16,6 +16,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 |     Version      | Minimum iOS Version | Swift Version |
 | :--------------: | :-----------------: | :-----------: |
+|      1.14.0      |      iOS 10.0       |  Swift 5.3.1  |
 |      1.13.1      |      iOS 10.0       |  Swift 5.3.1  |
 |      1.13.0      |      iOS 10.0       |  Swift 5.3.1  |
 |      1.12.0      |      iOS 10.0       |   Swift 5.3   |
@@ -145,6 +146,35 @@ IAdvizeManager.shared.registerApplicationId("your-own-application-identifier-uui
 
 ## Activating the SDK
 
+⚠️⚠️⚠️ N.B. You have to check if the activation succeeds before you try to show a Chat Button (the default or a custom one). You also have to check the `isEnabled` flag which indicates you if the SDK is currently enabled or disabled by the SDK Administrator.
+
+
+A completion handler is available in order to know if the SDK has been successfully activated (and to retry later if the activation fails):
+
+```
+IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", ruleId: UUID(uuidString: "targetingruleid")) { success, isEnabled in
+}
+```
+
+You also have to set your controller as a `StatusDelegate`:
+
+
+```
+IAdvizeManager.shared.statusDelegate = self
+```
+
+and implement both delegate functions:
+
+```
+    func sdkDidDisabled() {
+        // Hide or disable your custom chat button
+    }
+
+    func sdkDidEnabled() {
+        // Show or enable your custom chat button
+    }
+```
+
 You have two ways to activate the iAdvize Conversation SDK depending on the security model you choose.
 
 - For the in-app security model:
@@ -168,19 +198,6 @@ Once the iAdvize Conversation SDK is successfully activated, you should see a me
 ```
 iAdvize Conversation: ✅ iAdvize conversation activated, the version is x.x.x.
 ```
-
-
-
-A completion handler is available in order to know if the SDK has been successfully activated (and to retry later if the activation fails):
-
-```
-IAdvizeManager.shared.activate(jwtOption: .token("yourjwttoken"), externalId: "connecteduseruniqueidentifierornil", ruleId: UUID(uuidString: "targetingruleid")) { success, isEnabled in
-}
-```
-
-
-N.B. You have to check if the activation succeeds before you try to show a Chat Button (the default or a custom one). You also have to check the `isEnabled` flag which indicates you if the SDK is currently enabled or disabled by the SDK Administrator.
-
 
 
 <a name="conversationview"></a>
