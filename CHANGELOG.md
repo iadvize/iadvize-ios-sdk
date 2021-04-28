@@ -1,3 +1,9 @@
+# 1.15.0
+
+### Release date 2021/04/28
+
+- Add compatibility with Swift 5.4 / Xcode 12.5.
+
 # 1.14.0
 
 ### Release date 2021/01/26
