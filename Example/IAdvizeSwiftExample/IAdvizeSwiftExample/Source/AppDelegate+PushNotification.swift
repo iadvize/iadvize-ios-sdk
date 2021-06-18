@@ -24,19 +24,14 @@ extension AppDelegate {
 
         // Register the Push Token to the iAdvize SDK.
         #if DEBUG
-        IAdvizeManager.shared.registerPushToken(pushToken, applicationMode: .dev)
+        IAdvizeSDK.shared.notificationController.registerPushToken(pushToken, applicationMode: GraphQL.ApplicationMode.dev)
         #else
-        IAdvizeManager.shared.registerPushToken(pushToken, applicationMode: .prod)
+        IAdvizeSDK.shared.notificationController.registerPushToken(pushToken, applicationMode: .prod)
         #endif
     }
 
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         print("Error registering for push notifications: \(error.localizedDescription)")
-    }
-
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        print("Receive: \(userInfo)")
-        IAdvizeManager.shared.handlePushNotification(with: userInfo)
     }
 
     /// Converts the device token from NSData to an hex String.

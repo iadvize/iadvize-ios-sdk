@@ -1,30 +1,48 @@
 PODS:
   - Alamofire (5.4.3)
-  - AlamofireImage (4.1.0):
-    - Alamofire (~> 5.1)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - Apollo (0.36.0):
     - Apollo/Core (= 0.36.0)
   - Apollo/Core (0.36.0)
   - Base64 (1.1.2)
-  - Gifu (3.3)
-  - iAdvize (1.15.0):
-    - AlamofireImage (~> 4.1.0)
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaLumberjack (3.7.2):
+    - CocoaLumberjack/Core (= 3.7.2)
+  - CocoaLumberjack/Core (3.7.2)
+  - CocoaLumberjack/Swift (3.7.2):
+    - CocoaLumberjack/Core
+  - Gifu (3.3.1)
+  - iAdvize (2.0.0-beta1):
+    - AlamofireImage (~> 4.2.0)
     - Apollo (~> 0.36.0)
     - Gifu (~> 3.3.0)
     - JWT (~> 3.0.0-beta.12)
-    - MessageKit (~> 3.1.0)
     - SwiftGraylog (~> 1.1.1)
-  - InputBarAccessoryView (4.3.3):
-    - InputBarAccessoryView/Core (= 4.3.3)
-  - InputBarAccessoryView/Core (4.3.3)
-  - JWT (3.0.0-beta.12):
+    - XMPPFramework/Swift (~> 4.0.0)
+  - JWT (3.0.0-beta.14):
     - Base64 (~> 1.1.2)
-  - MessageKit (3.1.0):
-    - InputBarAccessoryView (~> 4.3.0)
+  - KissXML (5.3.1):
+    - KissXML/All (= 5.3.1)
+  - KissXML/Additions (5.3.1):
+    - KissXML/Core
+  - KissXML/All (5.3.1):
+    - KissXML/Additions
+    - KissXML/Core
+  - KissXML/Core (5.3.1)
+  - libidn (1.35)
   - SwiftGraylog (1.1.1)
+  - XMPPFramework/default (4.0.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack
+    - KissXML (~> 5.2)
+    - libidn (~> 1.35)
+  - XMPPFramework/Swift (4.0.0):
+    - CocoaLumberjack/Swift
+    - XMPPFramework/default
 
 DEPENDENCIES:
-  - iAdvize
+  - iAdvize (from `https://github.com/iadvize/iadvize-ios-sdk.git`, tag `2.0.0-beta1`)
 
 SPEC REPOS:
   trunk:
@@ -32,25 +50,40 @@ SPEC REPOS:
     - AlamofireImage
     - Apollo
     - Base64
+    - CocoaAsyncSocket
+    - CocoaLumberjack
     - Gifu
-    - iAdvize
-    - InputBarAccessoryView
     - JWT
-    - MessageKit
+    - KissXML
+    - libidn
     - SwiftGraylog
+    - XMPPFramework
+
+EXTERNAL SOURCES:
+  iAdvize:
+    :git: https://github.com/iadvize/iadvize-ios-sdk.git
+    :tag: 2.0.0-beta1
+
+CHECKOUT OPTIONS:
+  iAdvize:
+    :git: https://github.com/iadvize/iadvize-ios-sdk.git
+    :tag: 2.0.0-beta1
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
-  Gifu: 97c2a3c3865fbc834ab13f797e2e8e7729a1853c
-  iAdvize: 838ff5a4b7921772f5c9f2b6bfa576adb8dbd39c
-  InputBarAccessoryView: 8e7fc09e9cba75e0fee5da13450e15c194806f69
-  JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
-  MessageKit: 3beb578737a5aa2bba25cc27c7b6d6faa09af5a7
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  iAdvize: 97fc68d6f299a6b2fb2d06363bacaa9f768a3d36
+  JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
+  KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
+  libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: c38f1b392fe06f7c905a5860df2b0e8415cb8ca7
+PODFILE CHECKSUM: 217762b9c34922086073a61cff0a49191b5a4736
 
 COCOAPODS: 1.10.1

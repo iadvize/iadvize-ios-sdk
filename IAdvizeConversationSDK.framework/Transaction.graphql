@@ -1,5 +1,0 @@
-mutation sdkTransactionConcludedRegister($input: SDKTransactionInput!){
-    sdkTransactionConcludedRegister(input: $input){
-        externalTransactionId
-    }
-}

@@ -1,3 +1,10 @@
+# 2.0.0-beta1
+
+### Release date 2021/06/18
+
+- Add new conversation workflow to manage real time conversation & targeting
+- Revamp SDK Architecture
+
 # 1.15.0
 
 ### Release date 2021/04/28

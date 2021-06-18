@@ -1,6 +1,0 @@
-# Request a visitor token for this visitor (visitorID). If a visitor token was already generated it returns the previously generated one.
-query sdkMobileApplication {
-    sdkMobileApplication {
-        isEnabled
-    }
-}
