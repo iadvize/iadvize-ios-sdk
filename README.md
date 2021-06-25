@@ -9,127 +9,94 @@ You will find an example of integration in the ` Example/IAdvizeSwiftExample` fo
 
 Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the project. You can copy and paste the `Podfile` into your project to easily test it into your app.
 
+## Requirements
 
+The iAdvize iOS SDK requires iOS 12.0 or higher.
 
-## Compatibility
-
-|     Version      | Minimum iOS Version | Swift Version |
-| :--------------: | :-----------------: | :-----------: |
-|      2.0.0-beta1      |      iOS 12.0       |   Swift 5.4   |
-
-
-
-## Table of contents
-* [Setup](#setup)
-	* [App creation](#creation)
-	* [SDK dependencies](#dependencies)
-	* [SDK Activation](#activation)
-	* [GDPR](#gdpr)
-	* [SDK cleanup](#cleanup)
-	* [Logging](#logging)
-* [Targeting](#targeting)
-	* [Targeting Language](#language)
-	* [Activate a targeting rule](#rule)
-	* [Targeting rule availability](#availability)
-	* [Follow user navigation](#navigation)
-* [Conversation](#conversation)
-	* [Ongoing conversation](#ongoing)
-* [Push notifications](#notification)
-	* [Configuration](#push-register)
-	* [Reception](#push-receive)
-* [Chatbox](#chatbox)
-	* [Chat button](#button)
-	* [Customization](#config)
-		* [Main color](#color)
-		* [Navigation bar](#navbar)
-		* [Font](#font)
-		* [Automatic message](#automaticmessage)
-		* [GDPR message](#gdprmessage)
-		* [Brand avatar](#avatar)	
-* [Transaction](#transaction)
-
-<a name="setup"></a>
 ## Setup
 
-<a name="creation"></a>
 ### App creation
 
-1. Ask your iAdvize Admin to create a **Mobile App** on the administration website. *If you want to enable the iAdvize SDK push notifications for your user you have to provide your GCM API key when you create your app on the administration website.*
+1. Ask your iAdvize Admin to create a **Mobile App** on the administration website. *If you want to enable the iAdvize SDK push notifications for your user you have to provide your APNS push certificate when you create your app on the administration website.*
 
 2. Ask your iAdvize Admin to create a new **Web & Mobile App** targeting campaign on the administration website and to give you the following information:
     - **projectId**: id of your project
-    - **targetingRuleId(s)**: one or multiple rules which you will be able to activate by code during the user navigation (see #Targeting section)
+    - **targetingRuleId(s)**: one or multiple rules which you will be able to activate in code during the user navigation (see [Targeting](#Targeting)).
 
-<a name="dependencies"></a>
-### SDK dependencies
+## Installation
 
-### Cocoapods
+### CocoaPods
 
-Using Cocoapods, add this line to your Podfile:
+The SDK is distributed as an XCFramework, therefore **you are required to use CocoaPods 1.9.0 or newer**.
 
+Add this line to your Podfile, inside the target section:
+
+```ruby
+pod 'iAdvize', '2.0.0-beta1'
 ```
-pod 'iAdvize'
+
+Add the following to the bottom of your Podfile:
+
+```ruby
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+    end
+end
 ```
 
-then run `pod install` to fetch the dependency.
+> This post_install hook is required because the iAdvize SDK supports [module stability](https://swift.org/blog/abi-stability-and-more/). Therefore, all its dependencies must be built using the "Build Libraries for Distribution" option.
 
-<a name="activation"></a>
-### SDK Activation
+## Usage
 
-#### Activate
+### Activation
 
-To activate the SDK you can use the **activate** function. You also have access to a asynchronous callback in order to know if the SDK has been successfully activated (and to retry later if the activation fails):
+To activate the SDK you must use the **activate** function. You also have access to a asynchronous callback in order to know if the SDK has been successfully activated (and to retry later if the activation fails):
 
 ```swift
-            IAdvizeSDK.shared.activate(projectId: projectId,
-                                       authenticationOption: .simple(userId: userId),
-                                       gdprOption: .enabled(option: .legalInformation(url: legalInfoURL))) { success in
-            }
+IAdvizeSDK.shared.activate(projectId: projectId,
+                           authenticationOption: .simple(userId: userId),
+                           gdprOption: .enabled(option: .legalInformation(url: legalInfoURL))) { success in
+    if success {
+        ...      
+    }
+}
 ```
 
-Once the iAdvize Conversation SDK is successfully activated, you should see a success message in the IDE console:
+Once the iAdvize Conversation SDK is successfully activated, you should see a success message in the console:
 
 ```
 ✅ iAdvize conversation activated, the version is x.x.x.
 ```
 
-<a name="gdpr"></a>
-### GDPR
+Do not forget to [logout](#Logout) when the user is no longer connected in your app.
+
+##### GDPR
 
 By default, when you activate the SDK, the GDPR will be disabled. 
 
 To enable it, you can pass a GDPR option while activating the SDK. This GDPROption dictates how the SDK behaves when the user taps on the “More information” button:
 
 1. `GDPROption.enabled(option: .legalInformation(url: URL))`: will open the given URL containing GDPR information
-2. `GDPROption.enabled(option: .delegate(delegate: GDPRDelegate))`: will call the given listener so that your app can show the relevant GDPR information
+2. `GDPROption.enabled(option: .delegate(delegate: GDPRDelegate))`: will call the given delegate so that your app can show the relevant GDPR information
 
-The GDPR process is now activated for your users and a default message will be provided to collect the user consent. Please check the [Customise](#customise) section below if you want to customise this message.
+The GDPR process is now activated for your users and a default message will be provided to collect the user consent. Please check the [Customization](#Customization) section below if you want to customise this message.
 
-<a name="cleanup"></a>
-### SDK Cleanup
+#### Logging
 
-When you first activate the SDK with a connected user, using the `AuthenticationOption.simple(userId: String)` mode, you also have to logout the user from the iAdvize SDK when the user logs out from your app, in orderto preserve the confidentiality of his conversation:
-
-```swift
-IAdvizeSDK.shared.logout()
-```
-
-<a name="logging"></a>
-### Logging
-
-By default, the SDK will **only log Warnings and Errors** in the Android Studio console. You can make it more verbose and choose between multiple levels of log for a better integration experience:
+By default, the SDK will **only log Warnings and Errors** in the Xcode console. You can make it more verbose and choose between multiple levels of log for a better integration experience:
 
 ```swift
  IAdvizeSDK.shared.logLevel = .verbose
 ```
 
-<a name="targeting"></a>
-## Targeting
+### Targeting
 
 The targeting process is managed by the `IAdvizeSDK.shared.targetingController`
 
-<a name="language"></a>
-### Targeting Language
+#### Targeting Language
 
 By default, the SDK will use the device language for **targeting a conversation**. With this variable you can specify the language you want to use for targetting:
 
@@ -139,8 +106,7 @@ IAdvizeSDK.shared.targetingController.language = .custom(value: .fr)
 
 > :warning: This `language` property is NOT intended to change the language displayed in the SDK.
 
-<a name="rule"></a>
-### Activate a targeting rule
+#### Activate a targeting rule
 
 For the iAdvize SDK to work, you have to setup an active targeting rule. To do so, you can call the following method:
 
@@ -148,8 +114,7 @@ For the iAdvize SDK to work, you have to setup an active targeting rule. To do s
 IAdvizeSDK.shared.targetingController.activateTargetingRule(targetingRuleId: UUID)
 ```
 
-<a name="availability"></a>
-### Targeting rule availability
+#### Targeting rule availability
 
 The targeting rule availability check will be triggered when you update the active targeting rule (see [Activate a targeting rule](#rule))
 
@@ -168,22 +133,19 @@ extension IntegrationApp: TargetingControllerDelegate {
 }
 ```
 
-<a name="navigation"></a>
-### Follow user navigation
+#### Follow user navigation
 
-To allow iAdvize statitics to be processed you need to inform the SDK when the user navigates through your app. To do so, just call:
+To allow iAdvize statistics to be processed you need to inform the SDK when the user navigates through your app. To do so, just call:
 
 ```swift
 IAdvizeSDK.shared.targetingController.registerUserNavigation()
 ```
 
-<a name="conversation"></a>
-## Conversation
+### Conversation
 
-The lifecycle of the conversation is managed by the `IAdvizeSDK.shared.conversationController`
+The lifecycle of the conversation is managed by the `IAdvizeSDK.shared.conversationController`.
 
-<a name="ongoing"></a>
-### Ongoing conversation
+#### Ongoing conversation
 
 To know and to observe the evolution of the conversation state, you will have access to a variable:
 
@@ -191,29 +153,13 @@ To know and to observe the evolution of the conversation state, you will have ac
 IAdvizeSDK.shared.conversationController.hasOngoingConversation
 ```
 
-You can also add a listener to be informed in real time about conversation events:
+You can also add a delegate to be informed in real time about conversation events:
 
 ```swift
-IAdvizeSDK.conversationController.listeners.add(object : ConversationListener {
-  override fun onOngoingConversationStatusChanged(hasOngoingConversation: Boolean) {
-    // SDK ongoing conversation status changed to $hasOngoingConversation
-  }
-
-  override fun onNewMessageReceived(content: String) {
-    // A new message was received via the SDK
-  }
-
-  override fun handleClickedUrl(uri: Uri): Boolean {
-    // A message link was clicked, return true if you want your app to handle it
-    return false
-  }
-})
-
 extension IntegrationApp: ConversationControllerDelegate {
     func ongoingConversationStatusDidChange(hasOngoingConversation: Bool) {
         // SDK ongoing conversation status changed to hasOngoingConversation
     }
-
 
     func didReceiveNewMessage(content: String) {
         // A new message was received via the SDK
@@ -225,63 +171,62 @@ extension IntegrationApp: ConversationControllerDelegate {
 }
 ```
 
-<a name="notification"></a>
-## Notification
+### Push notifications
 
-The entry point for notifications is the `IAdvizeSDK.shared.notificationController`
+The entry point for push notifications is the `IAdvizeSDK.shared.notificationController`
 
-SDK Messages are received internally when the SDK is activated, however your user may kill your app before a conversation has ended. In that case you will receive push notifications.
+#### Configuration
 
-<a name="push-register"></a>
-### Configuration
-
-If you want to be informed of SDK messages received when your app is not running you should register the current **push token** of the device:
+To receive push notification when a message is sent to the visitor, you must register the current **push token** of the device:
 
 ```swift
-IAdvizeSDK.shared.notificationController.registerPushToken(String, applicationMode: GraphQL.ApplicationMode)
+IAdvizeSDK.shared.notificationController.registerPushToken("the_device_push_token", applicationMode: .prod)
 ```
 You can register your push token at any time.
 
 By default, push notifications are activated if you have setup the push notifications information for your app on the iAdvize administration website. You can manually enable/disable them at any time using:
 
 ```swift
-        IAdvizeSDK.shared.notificationController.enablePushNotifications { success in
+IAdvizeSDK.shared.notificationController.enablePushNotifications { success in
+	...
+}
 
-        }
-
-        IAdvizeSDK.shared.notificationController.disablePushNotifications { success in
-
-        }
+IAdvizeSDK.shared.notificationController.disablePushNotifications { success in
+	...
+}
 ```
 
-<a name="push-receive"></a>
-### Reception
+#### Reception
 
 Once you receive a push notification, you can easily verify that this notification concerns the SDK:
 
 ```swift
-IAdvizeSDK.shared.notificationController.isIAdvizePushNotification(with: [AnyHashable : Any])
+func application(_ application: UIApplication,
+                 didReceiveRemoteNotification userInfo: [AnyHashable: Any],
+                 fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    if IAdvizeSDK.shared.notificationController.isIAdvizePushNotification(with: userInfo) {
+        // ...
+    }
+}
 ```
-where `[AnyHashable : Any]` is the dictionary object representing the push notification.
+### Chatbox
 
-<a name="chatbox"></a>
-## Chatbox
+The Chatbox is where the conversation takes place. The visitor can open the Chatbox by touching the Chat button.
 
-In order to invite your users to enter in a conversational experience, you will need to use the `IAdvizeSDK.shared.chatboxController`.
+You can control the appearance and behavior of the Chatbox and Chat button using the `ChatboxController`, that you can access using `IAdvizeSDK.shared.chatboxController`.
 
-<a name="button"></a>
-### Chat button
+#### Chat button
 
 When the active targeting rule is available, a chat button is displayed to invite the user to chat.
 
 You can decide to let the SDK manage the chat button visibility or control it yourself using the following flag:
 
-```kotlin
+```swift
 IAdvizeSDK.shared.chatboxController.useDefaultChatButton = true
 ```
 
-#### Default chat button
-If `useDefaultChatButton = true` the SDK will use the iAdvize default chat button, manage its visibility, and open the chatbox when user presses it.
+##### Default chat button
+If `useDefaultChatButton == true` the SDK will use the iAdvize default chat button, manage its visibility, and open the chatbox when user presses it.
 
 The default chat button is anchored to the bottom-left of your screen, you can change its position using:
 
@@ -289,23 +234,22 @@ The default chat button is anchored to the bottom-left of your screen, you can c
 IAdvizeSDK.shared.chatboxController.setChatButtonPosition(leftMargin: Double, bottomMargin: Double)
 ```
 
-#### Custom chat button
-If `useDefaultChatButton = false` this default button will not show and it is your responsability to:
+##### Custom chat button
+If `useDefaultChatButton == false` this default button will not be displayed and it is your responsibility to:
 
 - design your own custom floating or fixed button to invite your user to chat
-- hide/show your button following the active [Targeting rule availability](#availability)
+- hide/show your button following the active [Targeting rule availability](#Targeting rule availability)
 - open the chatbox when the user presses your button, using the following method:
 
 ```swift
-        IAdvizeSDK.shared.conversationController.presentConversationViewModal(animated: Bool, presentingViewController: UIViewController?) {
-
-        }
+IAdvizeSDK.shared.conversationController.presentConversationViewModal(animated: Bool, presentingViewController: UIViewController?) {
+    // ...
+}
 ```
 
-<a name="config"></a>
-### Customization
+#### Customization
 
-You can customize the chatbox UI by calling hte following method:
+You can customize the chatbox UI by calling the following method:
 
 ```swift
 IAdvizeSDK.shared.chatboxController.setupChatbox(configuration: ChatboxConfiguration)
@@ -314,14 +258,13 @@ IAdvizeSDK.shared.chatboxController.setupChatbox(configuration: ChatboxConfigura
 A simple snippet to only change one value:
 
 ```swift
-        let configuration = ChatboxConfiguration()
-        configuration.mainColor = UIColor.blue
+var configuration = ChatboxConfiguration()
+configuration.mainColor = .blue
 ```
 
-The ChatboxConfiguration allow you to customize the following attributes:
+The `ChatboxConfiguration` allow you to customize the following attributes:
 
-<a name="color"></a>
-#### Main color
+##### Main color
 
 You can setup a main color on the SDK which will be applied to the color of:
 
@@ -330,12 +273,11 @@ You can setup a main color on the SDK which will be applied to the color of:
 - the blinking text cursor in the “new message” input in the Conversation View
 - the background color of the message bubbles (only for sent messages)
 
-```kotlin
-configuration.mainColor = UIColor.red
+```swift
+configuration.mainColor = .red
 ```
 
-<a name="navbar"></a>
-#### Navigation bar
+##### Navigation bar
 
 You can configure the Toolbar of the Chatbox and modify:
 
@@ -344,13 +286,12 @@ You can configure the Toolbar of the Chatbox and modify:
 - the title
 
 ```swift
-configuration.navigationBarBackgroundColor = UIColor.black
-configuration.navigationBarMainColor = UIColor.white
+configuration.navigationBarBackgroundColor = .black
+configuration.navigationBarMainColor = .white
 configuration.navigationBarTitle = "Conversation"
 ```
 
-<a name="font"></a>
-#### Font
+##### Font
 
 You can update the font used in the UI of the IAdvize Conversation SDK. You just have to call this method to setup your own font:
 
@@ -358,43 +299,37 @@ You can update the font used in the UI of the IAdvize Conversation SDK. You just
 configuration.font = UIFont(name: "AmericanTypewriter-Condensed", size: 11.0)
 ```
 
-<a name="automaticmessage"></a>
-#### Automatic message
+##### Automatic message
 
 A first automatic message can be setup to be displayed as an operator message in the Chatbox. By default, no message will be displayed. This message will also be used and displayed when the user accepts the GDPR. You can set an automatic message through:
 
 ```swift
 configuration.automaticMessage = "Hello! Please ask your question :)"
-``` 
+```
 
-<a name="gdprmessage"></a>
-#### GDPR message
+##### GDPR message
 
 If you want to activate the GDPR consent collect feature through the iAdvize Conversation SDK, please refer to the [GDPR section](#gdpr).
 
 Once the GDPR is activated, you can easily customise the GDPR message you want to display to your users to collect their consent:
 
-```kotlin
+```swift
 configuration.gdprMessage = "Your own GDPR message."
-```     
+```
 
-<a name="avatar"></a>
-#### Brand avatar
+##### Brand avatar
 
 You can update the brand avatar displayed for the incoming messages. You can specify an URL or a Drawable. Gifs are not supported.
 
-```kotlin
-// Update the incoming message avatar with a UIImage
-configuration.incomingMessageAvatar = IncomingMessageAvatar.image(image: UIImage(named: "BrandAvatar"))
+```swift
+// Update the incoming message avatar with a `UIImage`.
+configuration.incomingMessageAvatar = .image(image: UIImage(named: "BrandAvatar"))
 
-// Update the incoming message avatar with an URL
-if let avatarUrl = URL(string: "your-url") {
-    configuration.incomingMessageAvatar = IncomingMessageAvatar.url(url: avatarUrl)
-}
+// Update the incoming message avatar with a `URL`.
+configuration.incomingMessageAvatar = .url(url: avatarUrl)
 ```
 
-<a name="transaction"></a>
-## Transaction
+### Transaction
 
 You can register a transaction within your application using the `IAdvizeSDK.shared.transactionController`:
 
@@ -403,6 +338,16 @@ let transaction = Transaction(externalTransactionId: "transactionId", date: Date
 
 IAdvizeSDK.shared.transactionController.registerTransaction(Transaction)
 ```
+
+### Logout
+
+When the user is logged out in your app, you need to log out in the iAdvize SDK as well to ensure the privacy of the user data and conversations.
+
+```swift
+IAdvizeSDK.shared.logout()
+```
+
+This will clear all the locally stored visitor data.
 
 ## And you’re done! 💪
 
