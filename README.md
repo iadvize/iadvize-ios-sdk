@@ -4,6 +4,7 @@ Take your app to the next step and provide a unique conversational experience to
 
 Embed the iAdvize Conversation SDK in your app and connect your visitors with your professional operators or ibbü experts through a fully customised chat experience. Visitors can ask a question and will receive answers directly on their devices with push notifications, in or outside your app.
 
+![iAdvize_SDK](iAdvize_SDK.png)
 
 You will find an example of integration in the ` Example/IAdvizeSwiftExample` folder of this repository.
 
@@ -11,7 +12,11 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 ## Requirements
 
-The iAdvize iOS SDK requires iOS 12.0 or higher.
+The iAdvize iOS SDK requires iOS 12.0 or higher, and Xcode 12.5.
+
+## Documentation
+
+The API reference is available [here](https://iadvize.github.io/iadvize-ios-sdk/).
 
 ## Setup
 

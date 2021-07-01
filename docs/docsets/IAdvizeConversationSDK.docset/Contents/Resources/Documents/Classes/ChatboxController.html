@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChatboxController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ChatboxController" class="dashAnchor"></a>
+    <a title="ChatboxController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">IAdvizeConversationSDK 1.15.0 Docs</a></p>
+        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">IAdvizeConversationSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ChatboxController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../iAdvize%20SDK.html">iAdvize SDK</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/IAdvizeSDK.html">IAdvizeSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AuthenticationOption.html">AuthenticationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GDPROption.html">GDPROption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GDPREnabledOption.html">GDPREnabledOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GDPRDelegate.html">GDPRDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Logger/LogLevel.html">– LogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Conversation.html">Conversation</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ConversationController.html">ConversationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConversationControllerDelegate.html">ConversationControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Targeting.html">Targeting</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TargetingController.html">TargetingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TargetingControllerDelegate.html">TargetingControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKLanguageOption.html">SDKLanguageOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Language.html">Language</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Chatbox%20and%20Chat%20button.html">Chatbox and Chat button</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ChatboxController.html">ChatboxController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ChatboxConfiguration.html">ChatboxConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/IncomingMessageAvatar.html">IncomingMessageAvatar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Push%20Notifications.html">Push Notifications</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationController.html">NotificationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ApplicationMode.html">ApplicationMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Transactions.html">Transactions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionController.html">TransactionController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Transaction.html">Transaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Currency.html">Currency</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ChatboxController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ChatboxController</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>An object that controls the chatbox, which is where the conversation is displayed, and the chat button.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)ChatboxController(py)useDefaultChatButton"></a>
+                    <a name="//apple_ref/swift/Property/useDefaultChatButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)ChatboxController(py)useDefaultChatButton">useDefaultChatButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value that determines whether the default iAdvize SDK chat button is used.</p>
+
+<p>When the active targeting rule is available, a chat button is displayed to invite the user to chat.
+To let the SDK manage and display its default chat button, set this value to <code>true</code>.
+To use a custom chat button instead, set this value to <code>false</code>.</p>
+
+<p>The default value is <code>true</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">useDefaultChatButton</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK17ChatboxControllerC05setupD013configurationyAA0D13ConfigurationV_tF"></a>
+                    <a name="//apple_ref/swift/Method/setupChatbox(configuration:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK17ChatboxControllerC05setupD013configurationyAA0D13ConfigurationV_tF">setupChatbox(configuration:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Configure the chatbox by setting some appearance properties (e.g.: the main color).</p>
+
+<p>You should setup the configuration before you display the chat button or the chatbox for the first time.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setupChatbox</span><span class="p">(</span><span class="nv">configuration</span><span class="p">:</span> <span class="kt"><a href="../Structs/ChatboxConfiguration.html">ChatboxConfiguration</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>configuration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A struct that you can pass to override the default appearance of the chatbox.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)ChatboxController(im)setChatButtonPositionWithLeftMargin:bottomMargin:"></a>
+                    <a name="//apple_ref/swift/Method/setChatButtonPosition(leftMargin:bottomMargin:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)ChatboxController(im)setChatButtonPositionWithLeftMargin:bottomMargin:">setChatButtonPosition(leftMargin:<wbr>bottomMargin:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the chat button (the default one) position. Use this method if you use the iAdvize
+default chat button by setting the <code><a href="../Classes/ChatboxController.html#/c:@M@IAdvizeConversationSDK@objc(cs)ChatboxController(py)useDefaultChatButton">useDefaultChatButton</a></code> to <code>true</code>.</p>
+
+<p>We use autolayout constraints to place the chat button in the designated view (the main
+window by default) and to move it.</p>
+
+<p>The default chat button is aligned to the bottom-left of the screen with a default
+margin to (left: 10, bottom: 10). Increasing the bottom margin value will move the chat
+button up and increasing the left margin value will move the chat button left.</p>
+<pre class="highlight swift"><code>            <span class="kt">Container</span> <span class="nf">view</span> <span class="p">(</span><span class="k">default</span> <span class="o">=</span> <span class="n">main</span> <span class="n">window</span><span class="p">)</span>
+               <span class="o">+----------------------------------+</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>                                  <span class="o">|</span>
+               <span class="o">|</span>             <span class="n">chatButtonView</span>       <span class="o">|</span>
+      <span class="n">leftMargin</span> <span class="o">=</span> <span class="mi">10</span>   <span class="o">+----+</span>                    <span class="o">|</span>
+               <span class="o">&lt;------&gt;</span> <span class="o">|</span>    <span class="o">|</span>                    <span class="o">|</span>
+               <span class="o">|</span>        <span class="o">|</span>    <span class="o">|</span>                    <span class="o">|</span>
+               <span class="o">|</span>        <span class="o">+--^-+</span>                    <span class="o">|</span>
+               <span class="o">|</span>            <span class="o">|</span>                     <span class="o">|</span>
+               <span class="o">|</span>            <span class="o">|</span> <span class="n">bottomMargin</span> <span class="o">=</span> <span class="mi">10</span>   <span class="o">|</span>
+               <span class="o">+------------</span><span class="n">v</span><span class="o">---------------------+</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setChatButtonPosition</span><span class="p">(</span><span class="nv">leftMargin</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="nv">bottomMargin</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>leftMargin</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Left margin between the left edge of the chat button view and the trailing
+edge of its container view (default = main window). Increase it to move the button left.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>bottomMargin</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Bottom margin between the bottom edge of the chat button view and the
+bottom edge of its container view (default = main window). Increase it to move the button up.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external">iAdvize</a>. All rights reserved. (Last updated: 2021-07-01)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
