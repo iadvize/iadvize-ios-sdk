@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks  = 'IAdvizeConversationSDK.framework'
 
-  spec.dependency 'MessageKit', '~> 3.1.0'
+  spec.dependency 'MessageKit', '3.1.0'
   spec.dependency 'Apollo', '~> 0.36.0'
   spec.dependency 'JWT', '~> 3.0.0-beta.12'
   spec.dependency 'SwiftGraylog', '~> 1.1.1'
