@@ -1,23 +1,23 @@
 PODS:
-  - Alamofire (5.4.0)
+  - Alamofire (5.4.3)
   - AlamofireImage (4.1.0):
     - Alamofire (~> 5.1)
   - Apollo (0.36.0):
     - Apollo/Core (= 0.36.0)
   - Apollo/Core (0.36.0)
   - Base64 (1.1.2)
-  - Gifu (3.3)
-  - iAdvize (1.13.0):
+  - Gifu (3.3.1)
+  - iAdvize (1.15.1):
     - AlamofireImage (~> 4.1.0)
     - Apollo (~> 0.36.0)
     - Gifu (~> 3.3.0)
     - JWT (~> 3.0.0-beta.12)
-    - MessageKit (~> 3.1.0)
+    - MessageKit (= 3.1.0)
     - SwiftGraylog (~> 1.1.1)
   - InputBarAccessoryView (4.3.3):
     - InputBarAccessoryView/Core (= 4.3.3)
   - InputBarAccessoryView/Core (4.3.3)
-  - JWT (3.0.0-beta.12):
+  - JWT (3.0.0-beta.14):
     - Base64 (~> 1.1.2)
   - MessageKit (3.1.0):
     - InputBarAccessoryView (~> 4.3.0)
@@ -40,17 +40,17 @@ SPEC REPOS:
     - SwiftGraylog
 
 SPEC CHECKSUMS:
-  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
   Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
-  Gifu: 97c2a3c3865fbc834ab13f797e2e8e7729a1853c
-  iAdvize: 42e729e73b74d539c183289a715a4ee235b158c1
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  iAdvize: d3ce866d4ed8cb0d71f646bbcef20a4e81445070
   InputBarAccessoryView: 8e7fc09e9cba75e0fee5da13450e15c194806f69
-  JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
+  JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
   MessageKit: 3beb578737a5aa2bba25cc27c7b6d6faa09af5a7
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
 
 PODFILE CHECKSUM: c38f1b392fe06f7c905a5860df2b0e8415cb8ca7
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
