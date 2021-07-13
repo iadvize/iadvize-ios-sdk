@@ -1,3 +1,9 @@
+# 1.15.1
+
+### Release date 2021/07/13
+
+- Fix crash caused by updated MessageKit dependency.
+
 # 1.15.0
 
 ### Release date 2021/04/28
