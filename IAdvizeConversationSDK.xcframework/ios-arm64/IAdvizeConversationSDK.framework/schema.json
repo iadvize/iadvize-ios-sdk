@@ -10789,7 +10789,7 @@
         "fields": [
           {
             "name": "ongoingConversationsCount",
-            "description": "The number of ongoing conversations for this user",
+            "description": "Current number of ongoing conversations assigned to user",
             "args": [],
             "type": {
               "kind": "NON_NULL",
@@ -10799,6 +10799,30 @@
                 "name": "Int",
                 "ofType": null
               }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "customerSatisfactionScore",
+            "description": "CSAT score of the user in the given interval (null if interval is missing)",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "closedConversationsCount",
+            "description": "How many conversations have been closed by the user in the given interval (null if interval is missing)",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Int",
+              "ofType": null
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -10925,6 +10949,24 @@
                 "ofType": {
                   "kind": "SCALAR",
                   "name": "LegacyId",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "channels",
+            "description": "Filter on channel (used for CSAT fields)",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "ENUM",
+                  "name": "Channel",
                   "ofType": null
                 }
               }
@@ -12955,10 +12997,102 @@
             },
             "isDeprecated": false,
             "deprecationReason": null
+          },
+          {
+            "name": "proactiveBotMessages",
+            "description": "Messages of a proactive bot",
+            "args": [
+              {
+                "name": "before",
+                "description": "Returns the elements in the list that come before the specified cursor.",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "String",
+                  "ofType": null
+                },
+                "defaultValue": null
+              },
+              {
+                "name": "after",
+                "description": "Returns the elements in the list that come after the specified cursor.",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "String",
+                  "ofType": null
+                },
+                "defaultValue": null
+              },
+              {
+                "name": "first",
+                "description": "Returns the first n elements from the list.",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Int",
+                  "ofType": null
+                },
+                "defaultValue": null
+              },
+              {
+                "name": "last",
+                "description": "Returns the last n elements from the list.",
+                "type": {
+                  "kind": "SCALAR",
+                  "name": "Int",
+                  "ofType": null
+                },
+                "defaultValue": null
+              }
+            ],
+            "type": {
+              "kind": "OBJECT",
+              "name": "ConversationMessageConnection",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
           }
         ],
         "inputFields": null,
         "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "INPUT_OBJECT",
+        "name": "ConversationsVisitorMessagesInput",
+        "description": "Information required to fetch a proactive chatbot messages.",
+        "fields": null,
+        "inputFields": [
+          {
+            "name": "targetingRuleId",
+            "description": "Id of a targetingRule.",
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "UUID",
+                "ofType": null
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "language",
+            "description": "Language into which the bot should talk.",
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            },
+            "defaultValue": null
+          }
+        ],
+        "interfaces": null,
         "enumValues": null,
         "possibleTypes": null
       },
@@ -16292,6 +16426,16 @@
                   "ofType": null
                 },
                 "defaultValue": null
+              },
+              {
+                "name": "interval",
+                "description": "Interval of time",
+                "type": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "Interval",
+                  "ofType": null
+                },
+                "defaultValue": null
               }
             ],
             "type": {
@@ -16797,7 +16941,18 @@
           {
             "name": "conversationsVisitorMessages",
             "description": "Get conversations visitor messages",
-            "args": [],
+            "args": [
+              {
+                "name": "conversationsVisitorMessagesInput",
+                "description": "Defines if proactive bot message should be fetch",
+                "type": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "ConversationsVisitorMessagesInput",
+                  "ofType": null
+                },
+                "defaultValue": null
+              }
+            ],
             "type": {
               "kind": "OBJECT",
               "name": "ConversationsVisitorMessages",
@@ -20468,6 +20623,22 @@
           {
             "name": "currentConversationCount",
             "description": null,
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "maxConversationCount",
+            "description": "Maximum number of conversations that can be handled on the channel",
             "args": [],
             "type": {
               "kind": "NON_NULL",

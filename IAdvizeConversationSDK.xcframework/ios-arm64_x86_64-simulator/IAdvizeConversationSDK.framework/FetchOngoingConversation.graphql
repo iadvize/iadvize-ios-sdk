@@ -1,7 +1,0 @@
-query FetchOngoingConversation {
-    conversationsVisitorMessages {
-        ongoingConversation {
-            id
-        }
-    }
-}

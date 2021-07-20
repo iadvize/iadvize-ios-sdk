@@ -12,7 +12,7 @@ PODS:
   - CocoaLumberjack/Core (3.7.2)
   - CocoaLumberjack/Swift (3.7.2):
     - CocoaLumberjack/Core
-  - Gifu (3.3.1)
+  - Gifu (3.3)
   - iAdvize (2.0.0-beta1):
     - AlamofireImage (~> 4.2.0)
     - Apollo (~> 0.36.0)
@@ -20,7 +20,7 @@ PODS:
     - JWT (~> 3.0.0-beta.12)
     - SwiftGraylog (~> 1.1.1)
     - XMPPFramework/Swift (~> 4.0.0)
-  - JWT (3.0.0-beta.14):
+  - JWT (3.0.0-beta.12):
     - Base64 (~> 1.1.2)
   - KissXML (5.3.1):
     - KissXML/All (= 5.3.1)
@@ -76,9 +76,9 @@ SPEC CHECKSUMS:
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
-  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  Gifu: 97c2a3c3865fbc834ab13f797e2e8e7729a1853c
   iAdvize: 97fc68d6f299a6b2fb2d06363bacaa9f768a3d36
-  JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
+  JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
