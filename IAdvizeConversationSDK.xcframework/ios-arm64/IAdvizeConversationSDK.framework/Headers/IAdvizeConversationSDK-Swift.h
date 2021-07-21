@@ -210,11 +210,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSNumber;
 
+/// An object that controls the chatbox, which is where the conversation is displayed, and the chat button.
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK17ChatboxController")
 @interface ChatboxController : NSObject
+/// A Boolean value that determines whether the default iAdvize SDK chat button is used.
 /// When the active targeting rule is available, a chat button is displayed to invite the user to chat.
-/// You can decide to let the SDK manage the chat button visibility or control it yourself using this variable.
-/// If useDefaultChatButton = true the SDK will use the iAdvize default chat button, manage its visibility, and open the chatbox when user presses it.
+/// To let the SDK manage and display its default chat button, set this value to <code>true</code>.
+/// To use a custom chat button instead, set this value to <code>false</code>.
+/// The default value is <code>true</code>.
 @property (nonatomic) BOOL useDefaultChatButton;
 /// Set the chat button (the default one) position. Use this method if you use the iAdvize
 /// default chat button by setting the <code>useDefaultChatButton</code> to <code>true</code>.
@@ -249,8 +252,7 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK17ChatboxController")
 ///                |            | bottomMargin = 10   |
 ///                +------------v---------------------+
 ///
-/// \endcodePlease visit https://github.com/iadvize/iadvize-ios-sdk for further information.
-/// \param leftMargin Left margin between the left edge of the chat button view and the trailing
+/// \endcode\param leftMargin Left margin between the left edge of the chat button view and the trailing
 /// edge of its container view (default = main window). Increase it to move the button left.
 ///
 /// \param bottomMargin Bottom margin between the bottom edge of the chat button view and the
@@ -269,55 +271,37 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK17ChatboxController")
 @protocol ConversationControllerDelegate;
 @class UIViewController;
 
+/// An object that allows to monitor the conversation.
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK22ConversationController")
 @interface ConversationController : NSObject
-/// Set a delegate if you want to be informed when new messages are received or if the unread message
-/// count counter changes.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+/// The object notified of events related to the conversation such as new messages received.
 @property (nonatomic, weak) id <ConversationControllerDelegate> _Nullable delegate;
 /// A boolean to track if there is an ongoing conversation.
-/// This boolean is set to <code>true</code> each time the user starts a new conversation and set to <code>false</code> when the operator closes the ongoing conversation.
-@property (nonatomic) BOOL hasOngoingConversation;
-/// Display the Conversation View as a modal (will appear on top of your current view hierarchy).
-/// By default, if the Chat Button is displayed and the user tap on it, we will show the Conversation
-/// View modal automatically.
-/// You can use this method to display manually the Conversation View to the user (if you don’t
-/// want to use the Chat Button behavior and use, for example, a custom element in a view to allow
-/// the user to enter in the Conversation View).
-/// By default, the Conversation View will be presented by the key window root view controller. If you specify a
-/// <code>presentingViewController</code>, it will be used to present the Conversation View.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
-- (void)presentConversationViewModalWithAnimated:(BOOL)animated presentingViewController:(UIViewController * _Nullable)presentingViewController completion:(void (^ _Nullable)(void))completion;
-/// Dismiss the Conversation View modal.
-/// By default, the user can dismiss the Conversation View modal by touching the “Reduce” button
-/// in the navigation bar.
-/// You can use this method to dismiss manually the Conversation View (if you have another important
-/// modal of your app to present for example).
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
-/// \param animated <code>true</code> if you want dismiss the Conversation View with an animation.
+@property (nonatomic, readonly) BOOL hasOngoingConversation;
+/// Manually present the chatbox as a modal view controller.
+/// If you use the default chat button, the iAdvize SDK automatically takes care of presenting the chatbox when the
+/// user taps on it. But if you use a custom chat button, you can use this method to present the chatbox when the
+/// button is tapped.
+/// By default, the chatbox will be presented by the key window root view controller. If you specify a
+/// <code>presentingViewController</code>, it will be used to present the chatbox.
+/// \param animated Pass <code>true</code> to animate the transition.
 ///
-/// \param completion called when the Conversation View is fully dismissed.
+/// \param presentingViewController The controller that will perform the presentation.
 ///
-- (void)dismissConversationViewModalWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+/// \param completion The block to execute after the presentation finishes.
 ///
-/// returns:
-/// <code>true</code> if the Conversation View is actually presented.
-- (BOOL)isConversationViewPresented SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-
-SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK27TargetingControllerDelegate_")
-@protocol TargetingControllerDelegate
-- (void)activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:(BOOL)isActiveTargetingRuleAvailable;
-@end
-
-
-@interface ConversationController (SWIFT_EXTENSION(IAdvizeConversationSDK)) <TargetingControllerDelegate>
-- (void)activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:(BOOL)isActiveTargetingRuleAvailable;
+- (void)presentChatboxWithAnimated:(BOOL)animated presentingViewController:(UIViewController * _Nullable)presentingViewController completion:(void (^ _Nullable)(void))completion;
+/// Manually dismiss the chatbox.
+/// The visitor can dismiss the chatbox themselves by touching the dedicated button in the navigation bar.
+/// You can use this method to manually dismiss the chatbox.
+/// \param animated Pass <code>true</code> to animate the transition.
+///
+/// \param completion The block to execute after the chatbox is dismissed.
+///
+- (void)dismissChatboxWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+/// Return <code>true</code> if the chatbox is currently presented.
+- (BOOL)isChatboxPresented SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -326,20 +310,17 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK27TargetingControllerDelegate_")
 @class NSString;
 @class NSURL;
 
-/// Delegate methods to be informed of the SDK activity.
+/// An object that is notified about the ongoing conversation.
 SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK30ConversationControllerDelegate_")
 @protocol ConversationControllerDelegate
 @optional
-/// Called on the delegate to inform it that a new incoming message has been received.
-/// Text content of the message is available if you want to display it in your custom
-/// Chat Button view for example.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+/// Called when a new incoming message has been received.
+/// Text content of the message is available if you want to display it in your custom chat button view for example.
 /// \param content Text content of the message.
 ///
 - (void)didReceiveNewMessageWithContent:(NSString * _Nonnull)content;
 @required
-/// Called on the delegate to inform it each time a visitor is entering in a new or existing ongoing conversation.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+/// Called each time a visitor is entering in a new or existing ongoing conversation.
 - (void)ongoingConversationStatusDidChangeWithHasOngoingConversation:(BOOL)hasOngoingConversation;
 @optional
 /// Called on the delegate when the user has tapped on a link to ask whether the URL should be opened.
@@ -355,53 +336,66 @@ SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK30ConversationControllerDelegate_")
 - (BOOL)conversationController:(ConversationController * _Nonnull)controller shouldOpen:(NSURL * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class UIAlertAction;
-@class NSBundle;
-@class NSCoder;
-
-/// UIAlertController subclass applying app custom colors to action text titles.
-/// Actions with <code>default</code> or <code>cancel</code> style will use <code>blueLink</code> color.
-/// Actions with <code>destructive</code> style will use <code>redError</code> color.
-SWIFT_CLASS("_TtC22IAdvizeConversationSDK21CustomAlertController")
-@interface CustomAlertController : UIAlertController
-- (void)addAction:(UIAlertAction * _Nonnull)action;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 
-
+/// An object that is notified about visitor interaction with the GDRP message.
 SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK12GDPRDelegate_")
 @protocol GDPRDelegate
-/// Called when the user tap on ‘More information’ in the GDPR message.
+/// Called when the visitor tap on ‘More information’ in the GDPR message.
 - (void)didTapMoreInformation;
 @end
 
-
-@protocol JWTTokenDelegate;
 @class TargetingController;
 @class NotificationController;
 @class TransactionController;
 
-/// Manage all the iAdvize Conversation SDK setup and initialization.
+/// The iAdvize SDK lets you provide a unique conversational experience to your users.
+/// You access the SDK through the <code>shared</code> instance.
+/// Start by activating the SDK using <code>activate(projectId:authenticationOption:gdprOption:completion:)</code>.
+/// You can then rely on the provided controllers to configure and monitor the various parts of the conversational
+/// experience:
+/// <ul>
+///   <li>
+///     The <code>targetingController</code> lets you control the targeting process.
+///   </li>
+///   <li>
+///     The <code>chatboxController</code> lets you to configure the chatbox and the chat button.
+///   </li>
+///   <li>
+///     The <code>notificationController</code> lets you configure push notifications.
+///   </li>
+///   <li>
+///     The <code>conversationController</code> lets you monitor the ongoing conversation.
+///   </li>
+///   <li>
+///     The <code>transactionController</code> lets you register transactions.
+///   </li>
+/// </ul>
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK10IAdvizeSDK")
 @interface IAdvizeSDK : NSObject
-/// Shared instance used when you want to setup or initialize the iAdvize Conversation SDK.
+/// The shared <code>IAdvizeSDK</code> instance.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeSDK * _Nonnull shared;)
 + (IAdvizeSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-/// JWT Token delegate to inform the integrator that his JWT token is expired.
-@property (nonatomic, weak) id <JWTTokenDelegate> _Nullable jwtTokenDelegate;
+/// An object that allows to configure and monitor the targeting process.
 @property (nonatomic, readonly, strong) TargetingController * _Nonnull targetingController;
+/// An object that allows to monitor the conversation.
 @property (nonatomic, readonly, strong) ConversationController * _Nonnull conversationController;
+/// An object that allows to configure the push notifications.
 @property (nonatomic, readonly, strong) NotificationController * _Nonnull notificationController;
+/// An object that allows to register transactions.
 @property (nonatomic, readonly, strong) TransactionController * _Nonnull transactionController;
+/// An object that controls the chatbox and the chat button.
 @property (nonatomic, readonly, strong) ChatboxController * _Nonnull chatboxController;
-/// Logout the user from the SDK. This hides the chat button & disables push notifications.
+/// Logout the visitor from the iAdvize SDK.
+/// This hides the chat button, disables push notifications and clears all the locally stored visitor data.
 /// You will need to call activate again if the user needs to start a new conversation.
 - (void)logout;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
 
 
 
@@ -412,93 +406,30 @@ enum LoggerLogLevel : NSInteger;
 @class GDPROption;
 
 @interface IAdvizeSDK (SWIFT_EXTENSION(IAdvizeConversationSDK))
-/// Get the log level of the iAdvize Conversation SDK console logger.
-/// By default, the iAdvize Conversation SDK will log only the <code>warning</code> and the <code>error</code> message
-/// in the console. You can change this value to have more feedbacks on the iAdvize Conversation
-/// SDK activity.
 - (enum LoggerLogLevel)getLogLevel SWIFT_WARN_UNUSED_RESULT;
-/// Set the log level of the iAdvize Conversation SDK console logger.
-/// By default, the iAdvize Conversation SDK will log only the <code>warning</code> and the <code>error</code> message
-/// in the console. You can change this value to have more feedbacks on the iAdvize Conversation
-/// SDK activity.
 - (void)setLogLevel:(enum LoggerLogLevel)logLevel;
-/// Activate the iAdvize Conversation SDK by registering the device (push token) and the user
-/// information (visitor identifier and extra information provided).
-/// Once this call succeeded, the iAdvize Conversation SDK is activated.
-/// IAdvizeConversationManager object can be used to display the Chat Button to the user
-/// and the user can start a conversation.
-/// \param jwtOption Object which let you specify either a JWT secret key or an already
-/// signed JWT token regarding the “Security Model” you choose. Options are described below:
-/// <ul>
-///   <li>
-///     JWTOption.secret: A unique Secret Key that has been generated for your app
-///     (for both iOS and Android) on the iAdvize Administration Panel and which has to be
-///     provided if you use the In-App Security model only.
-///     You can find this JWT Secret Key in the listing of your apps in the iAdvize
-///     Administration Panel.
-///     We will use this JWT Secret Key to sign locally a JWT token to ensure the integrity of the data
-///     sent between the iAdvize Conversation SDK embeded into your app and our servers. For a stronger
-///     security model, please see the “Server Side Security Model” in the documentation:
-///     https://github.com/iadvize/iadvize-ios-sdk
-///   </li>
-///   <li>
-///     JWTOption.token: If you use the Server-Side security model, you can directly provide
-///     a JWT token that you created and signed on your server.
-///   </li>
-/// </ul>
-///
-/// \param gdprOption By default when you activate the SDK, the GDPR will be disabled.
-/// You can activate the GDPR feature by passing <code>[[GDPROption alloc] initWithGdprEnabledOption:...]</code>
-/// and provide a mandatory Legal Information URL link or a delegate to manage your own action on the tap on
-/// <code>More information</code> button.
-///
-/// \param ruleId A targeting rule allows to target visitors proactively or reactively, based on
-/// their browsing behaviour, their profile or their business criterias (e.g. basket amount, scoring, etc).
-/// You can find this id in the details of a targeting rule in the iAdvize
-/// Administration Panel.
-///
-/// \param completion Completion handler called when the activation process is done. You can check
-/// the <code>success</code> value to know if the SDK has been successfully activated. You also have to check
-/// the <code>isEnabled</code> flag which indicates you if the SDK is currently enabled or disabled by the SDK
-/// Administrator.
-///
 - (void)activateWithProjectId:(NSInteger)projectId authenticationOption:(AuthenticationOption * _Nonnull)authenticationOption gdprOption:(GDPROption * _Nonnull)gdprOption completion:(void (^ _Nullable)(BOOL))completion;
 @end
 
 
 
-SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK16JWTTokenDelegate_")
-@protocol JWTTokenDelegate
-/// Called when the JWT token is expired on server-side configuration.
-- (void)jwtTokenDidExpired;
-@end
-
-
+/// An object that allows to configure push notifications.
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK22NotificationController")
 @interface NotificationController : NSObject
-/// Enable push notifications for the current user on this device.
-/// This method has an effect only if the push notifications were disabled before by
-/// calling IAdvizeSDK.shared.notificationController.disablePushNotifications().
-/// The user will be able to receive again push notifications from new incoming messages.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
+/// Enable push notifications for the current visitor on this device.
+/// You only need to call this method if you previously disabled push notification using
+/// <code>IAdvizeSDK.shared.notificationController.disablePushNotifications()</code>.
+/// The user will again be able to receive push notifications for new incoming messages.
 - (void)enablePushNotificationsWithCompletion:(void (^ _Nullable)(BOOL))completion;
-/// Disable push notifications for the current user on this device.
-/// This method has an effect only if the push notifications were disabled before by
-/// calling IAdvizeSDK.shared.notificationController.disablePushNotifications().
+/// Disable push notifications for the current visitor on this device.
 /// The user will not be able to receive push notifications from new incoming messages anymore.
-/// It will not hide or disable the Chat Button or the Conversation View.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 - (void)disablePushNotificationsWithCompletion:(void (^ _Nullable)(BOOL))completion;
-/// Analyse the notification “user information” (<code>userInfo</code>) to check if it’s a push notification
-/// coming from the iAdvize Conversation SDK. If yes it returns <code>true</code>, otherwise <code>false</code>.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
-/// \param userInfo <code>userInfo</code> dictionary which are provided when the app
-/// receives a push notification.
+/// Indicates if a received push notification is related to the iAdvize SDK.
+/// \param userInfo dictionary which are provided when the app receives a push notification.
 ///
 ///
 /// returns:
-/// <code>true</code> if it’s a notification coming from the iAdvize Conversation SDK, <code>false</code>
-/// otherwise.
+/// <code>true</code> if it’s a notification coming from the iAdvize Conversation SDK, <code>false</code> otherwise.
 - (BOOL)isIAdvizePushNotificationWith:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -509,8 +440,6 @@ enum GraphQLApplicationMode : NSInteger;
 - (void)registerPushToken:(NSString * _Nonnull)pushToken applicationMode:(enum GraphQLApplicationMode)applicationMode;
 @end
 
-
-/// Defines the level of the logged message.
 typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", open) {
   LoggerLogLevelVerbose = 0,
   LoggerLogLevelInfo = 1,
@@ -520,19 +449,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", open) 
 };
 
 
-/// Object which let you specify either a JWT secret key or an already signed JWT token regarding the
-/// “Security Model” you choose. Check the <code>activate()</code> method for further information.
-/// <ul>
-///   <li>
-///     secret: A unique Secret Key that has been generated for your app
-///     (for both iOS and Android) on the iAdvize Administration Panel and which has to be
-///     provided if you use the In-App Security model only.
-///   </li>
-///   <li>
-///     token: A JWT Token that should have been signed on your server and has to be provided
-///     if you use the Server-Side security model.
-///   </li>
-/// </ul>
 SWIFT_CLASS_NAMED("ObjcAuthenticationOption")
 @interface AuthenticationOption : NSObject
 - (void)initWithAnonymous SWIFT_METHOD_FAMILY(none);
@@ -545,78 +461,18 @@ SWIFT_CLASS_NAMED("ObjcAuthenticationOption")
 @class UIFont;
 @class IncomingMessageAvatar;
 
-/// Used to customise the conversation view. Instantiate a default configuration:
-/// <code>ChatboxConfiguration* configuration = [[ChatboxConfiguration alloc] init];</code>
-/// and override the properties you want:
-/// <code>configuration.mainColor = [UIColor whiteColor];</code>
 SWIFT_CLASS_NAMED("ObjcChatboxConfiguration")
 @interface ChatboxConfiguration : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Main color of the Conversation View.
-/// The main color will be used, in the Chat Button, for:
-/// <ul>
-///   <li>
-///     The color of the default Chat Button (if not overrided)
-///   </li>
-/// </ul>
-/// in the Conversation View, for:
-/// <ul>
-///   <li>
-///     The color of the outgoing message bubble
-///   </li>
-///   <li>
-///     The color of the send button in the message composition bar
-///   </li>
-///   <li>
-///     The color of the links in the incoming messages
-///   </li>
-/// </ul>
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic, strong) UIColor * _Nonnull mainColor;
-/// Content of the first automatic message that invites your user to start asking a question.
-/// Should be localized.
-/// By default, this property is <code>nil</code> and no automatic message will be displayed in the Conversation View.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic, copy) NSString * _Nullable automaticMessage;
-/// Content of the first GDPR message which invites your user to accept or decline the GDPR consent.
-/// Should be localized.
-/// By default, we will use a default GDPR consent message (if the GDPR feature is activated).
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic, copy) NSString * _Nullable gdprMessage;
-/// Font that will be used to display text in all UI elements of the iAdvize Conversation SDK.
-/// We will use the font with the same name but adapt the size according to the element in which
-/// the font is used.
-/// By default, we will use the system font provided by iOS.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic, strong) UIFont * _Nullable font;
-/// Background color of the Navigation Bar of the Conversation View.
-/// By setting this property, you will update the background color of the Navigation Bar so the
-/// Conversation view will fit your navigation experience.
-/// By default, we will use a white color.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic, strong) UIColor * _Nonnull navigationBarBackgroundColor;
-/// Color of the elements which are contained in the Navigation Bar.
-/// By setting this property, you will update the color of all the elements which are in the
-/// Navigation Bar of the Conversation View: buttons and labels.
-/// By default, we will use a black color.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic, strong) UIColor * _Nonnull navigationBarMainColor;
-/// Localized title of the Conversation Navigation Bar.
-/// By setting this property, you will update the title in the Navigation Bar of the Conversation
-/// view.
-/// By default, we will use the “Conversation” string.
 @property (nonatomic, copy) NSString * _Nullable navigationBarTitle;
-/// Incoming message (chat operator message) avatar.
-/// By setting this property, you will update the avatar displayed for the incoming messages. You can set an Url or a local
-/// image.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic, strong) IncomingMessageAvatar * _Nullable incomingMessageAvatar;
-/// Presentation style of the Conversation view.
-/// By setting this property, you will update the way the Conversation view will be presented.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic) UIModalPresentationStyle presentationStyle;
-/// If specified, this view controller will be used to present the Conversation View, when the chat button is tapped.
-/// Please visit https://github.com/iadvize/iadvize-ios-sdk for further information.
 @property (nonatomic, strong) UIViewController * _Nullable presentingViewController;
 @end
 
@@ -630,15 +486,6 @@ SWIFT_CLASS_NAMED("ObjcGDPREnabledOption")
 @end
 
 
-/// Object which indicates if the GDPR should be enabled or not.
-/// <ul>
-///   <li>
-///     enabled: GDPR should be enabled. You will have to provide a mandatory option with url or delegate.
-///   </li>
-///   <li>
-///     disabled: GDPR should be disabled.
-///   </li>
-/// </ul>
 SWIFT_CLASS_NAMED("ObjcGDPROption")
 @interface GDPROption : NSObject
 - (nonnull instancetype)initWithGdprEnabledOption:(GDPREnabledOption * _Nonnull)gdprEnabledOption OBJC_DESIGNATED_INITIALIZER;
@@ -647,8 +494,6 @@ SWIFT_CLASS_NAMED("ObjcGDPROption")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-/// An enumeration representing the mode of the push token. It is only used for iOS
-/// to handle Prod/Dev. Android can use both without any difference.
 typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLApplicationMode, "ObjcGraphQLApplicationMode", open) {
   GraphQLApplicationModeDev = 0,
   GraphQLApplicationModeProd = 1,
@@ -1501,7 +1346,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, GraphQLLanguage, "ObjcGraphQLLanguage", open
 
 @class UIImage;
 
-/// Object to specify the image to use for the incoming messages avatar.
 SWIFT_CLASS_NAMED("ObjcIncomingMessageAvatar")
 @interface IncomingMessageAvatar : NSObject
 - (nonnull instancetype)initWithUrl:(NSURL * _Nonnull)url OBJC_DESIGNATED_INITIALIZER;
@@ -1511,21 +1355,10 @@ SWIFT_CLASS_NAMED("ObjcIncomingMessageAvatar")
 @end
 
 
-/// Object to specify the language to use for the targeting.
 SWIFT_CLASS_NAMED("ObjcSDKLanguageOption")
 @interface SDKLanguageOption : NSObject
 + (SDKLanguageOption * _Nonnull)customWithValue:(enum GraphQLLanguage)value SWIFT_WARN_UNUSED_RESULT;
 + (SDKLanguageOption * _Nonnull)default SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-/// Object that will hold actual user information.
-SWIFT_CLASS_NAMED("ObjcUser")
-@interface User : NSObject
-- (nonnull instancetype)initWithName:(NSString * _Nonnull)name OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, copy) NSString * _Nonnull name;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1541,68 +1374,56 @@ SWIFT_CLASS_NAMED("ObjcVisitorCustomData")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@protocol TargetingControllerDelegate;
 @class NSUUID;
 
+/// An object that controls the targeting process, i.e. the workflow leading to the display or not of the chat button.
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
 @interface TargetingController : NSObject
+/// The object notified about the targeting process.
 @property (nonatomic, weak) id <TargetingControllerDelegate> _Nullable delegate;
+/// Indicates if the targeting rule that was activated is available, meaning that a respondent associated to the
+/// rule is available to answer.
 @property (nonatomic, readonly) BOOL isActiveTargetingRuleAvailable;
-/// Register the id of the targeting rule, so that messages sent via the SDK are targeted
-/// to the right targeting rule.
-/// <ul>
-///   <li>
-///     ruleId: A targeting rule allows to target visitors proactively or reactively, based on
-///     their browsing behaviour, their profile or their business criterias (e.g. basket amount, scoring, etc).
-///     You can find this id in the details of a targeting rule in the iAdvize
-///     Administration Panel.
-///   </li>
-/// </ul>
+/// Activate the specified targeting rule.
+/// When you activate a targeting rule, it allows the iAdvize SDK to target the visitor. If one of the respondents
+/// associated with the targeting rule is available, the chat button will be displayed so the visitor can start a
+/// conversation.
+/// You can retrieve your targeting rule IDs in the “Engagement” section in the iAdvize administration.
+/// \param targetingRuleId The ID of the targeting rule to activate.
+///
 - (void)activateTargetingRuleWithTargetingRuleId:(NSUUID * _Nonnull)targetingRuleId;
-/// Register a user navigation through the app. This will refresh the current screen identifier (usually used to compute stats).
+/// Register the visitor navigation through the app.
+/// You should call this method each time the visitor navigates to another screen. The iAdvize SDK uses this
+/// information to compute stats.
 - (void)registerUserNavigation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-@interface TargetingController (SWIFT_EXTENSION(IAdvizeConversationSDK)) <ConversationControllerDelegate>
-- (void)ongoingConversationStatusDidChangeWithHasOngoingConversation:(BOOL)hasOngoingConversation;
-@end
-
-
-
 @interface TargetingController (SWIFT_EXTENSION(IAdvizeConversationSDK))
-/// Get the log level of the iAdvize Conversation SDK console logger.
-/// By default, the iAdvize Conversation SDK will log only the <code>warning</code> and the <code>error</code> message
-/// in the console. You can change this value to have more feedbacks on the iAdvize Conversation
-/// SDK activity.
 - (SDKLanguageOption * _Nonnull)getLanguage SWIFT_WARN_UNUSED_RESULT;
-/// Set the log level of the iAdvize Conversation SDK console logger.
-/// By default, the iAdvize Conversation SDK will log only the <code>warning</code> and the <code>error</code> message
-/// in the console. You can change this value to have more feedbacks on the iAdvize Conversation
-/// SDK activity.
 - (void)setLanguage:(SDKLanguageOption * _Nonnull)language;
 @end
 
 
+/// An object that is notified about the targeting process.
+SWIFT_PROTOCOL("_TtP22IAdvizeConversationSDK27TargetingControllerDelegate_")
+@protocol TargetingControllerDelegate
+/// Called when the availability of the active targeting rule changed.
+- (void)activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:(BOOL)isActiveTargetingRuleAvailable;
+@end
 
-/// Describes a User Transaction.
-/// date:
-/// Date of the transaction.
-/// <ul>
-///   <li>
-///     externalTransactionId: Your transaction identifier.
-///   </li>
-///   <li>
-///     amount: Amount of the transaction.
-///   </li>
-///   <li>
-///     currency: Currency of the transaction.
-///   </li>
-/// </ul>
+@class NSCoder;
+
+/// Describes a visitor transaction.
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK11Transaction")
 @interface Transaction : NSObject <NSCoding>
+/// :nodoc:
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+/// :nodoc:
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+/// :nodoc:
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -1615,16 +1436,15 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK11Transaction")
 @end
 
 
-/// Manage transaction tracking through the iAdvize Conversation SDK.
+/// An object that allows to register transactions.
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK21TransactionController")
 @interface TransactionController : NSObject
 /// Register a new transaction concluded by your visitor.
-/// \param transaction transaction to register.
+/// \param transaction The transaction to register.
 ///
 - (void)registerTransaction:(Transaction * _Nonnull)transaction;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 

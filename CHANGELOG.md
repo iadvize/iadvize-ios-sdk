@@ -1,3 +1,11 @@
+# 2.1.0-beta1
+
+### Release date 2021/07/20
+
+- Add pro-actives bots
+- Hide sensitives information from chatbox
+- Bug fixes & performance improvements
+
 # 2.0.0-beta1
 
 ### Release date 2021/06/18
