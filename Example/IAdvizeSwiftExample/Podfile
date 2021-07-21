@@ -5,7 +5,7 @@ inhibit_all_warnings!
 target 'IAdvizeSwiftExample' do
     project 'IAdvizeSwiftExample'
 
-    pod 'iAdvize', :git => "https://github.com/iadvize/iadvize-ios-sdk.git", :tag => "2.0.0-beta1"
+    pod 'iAdvize', '2.1.0-beta1'
 end
 
 post_install do |installer|

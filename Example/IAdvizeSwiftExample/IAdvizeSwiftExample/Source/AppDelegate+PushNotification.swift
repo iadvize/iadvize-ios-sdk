@@ -24,7 +24,7 @@ extension AppDelegate {
 
         // Register the Push Token to the iAdvize SDK.
         #if DEBUG
-        IAdvizeSDK.shared.notificationController.registerPushToken(pushToken, applicationMode: GraphQL.ApplicationMode.dev)
+        IAdvizeSDK.shared.notificationController.registerPushToken(pushToken, applicationMode: ApplicationMode.dev)
         #else
         IAdvizeSDK.shared.notificationController.registerPushToken(pushToken, applicationMode: .prod)
         #endif

@@ -19,15 +19,15 @@ extension AppDelegate {
         // Switch to false to test without GDPR.
         let shouldActivateGDPR = true
 
+        // By default, the iAdvize Conversation SDK take the device language
+        IAdvizeSDK.shared.targetingController.language = SDKLanguageOption.custom(value: .en)
+
         if shouldActivateGDPR {
             iAdvizeActivateWithGDPR()
 
         } else {
             iAdvizeActivate()
         }
-
-        // By default, the iAdvize Conversation SDK take the device language
-        IAdvizeSDK.shared.targetingController.language = SDKLanguageOption.custom(value: .fr)
     }
 
     func customiseIAdvizeUI() {
