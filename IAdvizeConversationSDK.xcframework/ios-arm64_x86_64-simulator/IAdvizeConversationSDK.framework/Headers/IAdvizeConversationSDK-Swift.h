@@ -401,8 +401,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeSDK *
 
 
 
-
-
 enum LoggerLogLevel : NSInteger;
 @class AuthenticationOption;
 @class GDPROption;
@@ -412,6 +410,8 @@ enum LoggerLogLevel : NSInteger;
 - (void)setLogLevel:(enum LoggerLogLevel)logLevel;
 - (void)activateWithProjectId:(NSInteger)projectId authenticationOption:(AuthenticationOption * _Nonnull)authenticationOption gdprOption:(GDPROption * _Nonnull)gdprOption completion:(void (^ _Nullable)(BOOL))completion;
 @end
+
+
 
 
 
@@ -1401,6 +1401,7 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
 - (void)registerUserNavigation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 @interface TargetingController (SWIFT_EXTENSION(IAdvizeConversationSDK))
@@ -1867,8 +1868,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeSDK *
 
 
 
-
-
 enum LoggerLogLevel : NSInteger;
 @class AuthenticationOption;
 @class GDPROption;
@@ -1878,6 +1877,8 @@ enum LoggerLogLevel : NSInteger;
 - (void)setLogLevel:(enum LoggerLogLevel)logLevel;
 - (void)activateWithProjectId:(NSInteger)projectId authenticationOption:(AuthenticationOption * _Nonnull)authenticationOption gdprOption:(GDPROption * _Nonnull)gdprOption completion:(void (^ _Nullable)(BOOL))completion;
 @end
+
+
 
 
 
@@ -2867,6 +2868,7 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
 - (void)registerUserNavigation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 @interface TargetingController (SWIFT_EXTENSION(IAdvizeConversationSDK))

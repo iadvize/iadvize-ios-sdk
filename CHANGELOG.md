@@ -1,3 +1,12 @@
+# 2.2.0
+
+### Release date 2021/09/10
+
+- Add anonymous authentication
+- Add continuous targeting workflow when a targeting rule is activated
+- Add the ability to load past conversations
+- Bug fixes & performance improvements
+
 # 2.1.0-beta1
 
 ### Release date 2021/07/20
