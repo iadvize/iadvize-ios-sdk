@@ -43,6 +43,7 @@ public typealias ActionHandler = (ConversationUI.Action) -> Swift.Void
   weak public var messagesDataSource: ConversationUI.MessagesDataSource?
   weak public var messageDelegate: ConversationUI.MessagesDelegate?
   public func scrollToLastItem(at position: UIKit.UITableView.ScrollPosition = .bottom, animated: Swift.Bool = true)
+  public func reload(scrollingToLastItem: Swift.Bool)
   @objc override dynamic public init(frame: CoreGraphics.CGRect, style: UIKit.UITableView.Style)
   @objc deinit
 }
@@ -318,11 +319,25 @@ public enum L10n {
   public static let continueWithGoogleButton: Swift.String
   public static func conversationItemNewMessageCount(_ p1: Swift.Int, _ p2: Swift.Int) -> Swift.String
   public static let conversationLoadPastConversation: Swift.String
+  public static let conversationPlusButtonAccessibility: Swift.String
+  public static let conversationSendFile: Swift.String
+  public static let conversationSendPictureFromCamera: Swift.String
+  public static let conversationSendPictureFromLibrary: Swift.String
+  public static let conversationSendVideoInvitation: Swift.String
   public static let conversationTagAlreadyExistsErrorMessage: Swift.String
   public static let conversationTagsAddTitle: Swift.String
   public static let conversationTagsTitle: Swift.String
   public static let conversationTagsTitleMandatory: Swift.String
+  public static let conversationVideoEscalationAccepted: Swift.String
+  public static let conversationVideoEscalationEndedDeclinedOperator: Swift.String
+  public static let conversationVideoEscalationEndedDeclinedVisitor: Swift.String
+  public static let conversationVideoEscalationEndedHangUpOperator: Swift.String
+  public static let conversationVideoEscalationEndedHangUpVisitor: Swift.String
+  public static let conversationVideoEscalationInvitationJoin: Swift.String
+  public static let conversationVideoEscalationInvitationSubtitle: Swift.String
+  public static let conversationVideoEscalationInvitationTitle: Swift.String
   public static let conversationVideoIndicator: Swift.String
+  public static let conversationVideoVisitorWillJoin: Swift.String
   public static let dayShort: Swift.String
   public static let dialogConnectionConflictButtonLogout: Swift.String
   public static let dialogConnectionConflictButtonReconnect: Swift.String
@@ -363,6 +378,8 @@ public enum L10n {
   public static let globalRequestFailedError: Swift.String
   public static let globalRequestFailedShortError: Swift.String
   public static let hourShort: Swift.String
+  public static let iadvizeAcademy: Swift.String
+  public static let ibbuAcademy: Swift.String
   public static let ibbuEditProfileDescriptionHint: Swift.String
   public static let ibbuEditProfileDescriptionPrivate: Swift.String
   public static let ibbuEditProfileLastnamePrivate: Swift.String
@@ -895,9 +912,11 @@ public enum L10n {
   public static let uploadPopupGallery: Swift.String
   public static let uploadPopupTitle: Swift.String
   public static let videoAvailability: Swift.String
+  public static let videoCallHangUp: Swift.String
+  public static let videoCallRefuseExplanation: Swift.String
   public static let videoInvitationAccept: Swift.String
-  public static let videoInvitationCallExplanation: Swift.String
   public static let videoInvitationDecline: Swift.String
+  public static let videoInvitationJoinVideoCall: Swift.String
   public static let videoInvitationNewCall: Swift.String
   public static let videoInvitationPermissionExplanation: Swift.String
   public static let videoInvitationPermissionLink: Swift.String
@@ -912,8 +931,22 @@ public enum L10n {
   public static let walkthroughTitle2: Swift.String
   public static let walkthroughTitle3: Swift.String
 }
+public enum LoadPreviousConversationButtonState {
+  case hidden
+  case idle
+  case loading
+  public static func == (a: ConversationUI.LoadPreviousConversationButtonState, b: ConversationUI.LoadPreviousConversationButtonState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc open class ConversationViewController : UIKit.UIViewController {
   final public let messagesTableView: ConversationUI.MessagesTableView
+  public var loadPreviousConversationButtonState: ConversationUI.LoadPreviousConversationButtonState {
+    get
+    set
+  }
   final public let inputBar: ConversationUI.InputBar
   public var baseFont: UIKit.UIFont {
     get
@@ -1022,6 +1055,7 @@ public protocol MessagesDelegate : AnyObject {
   func didTapOnAvatar(in message: ConversationUI.Message)
   func didTap(on url: Foundation.URL, in message: ConversationUI.Message)
   func didTap(on quickReplyMenuChoice: Swift.String, in message: ConversationUI.Message)
+  func didTapOnLoadPreviousMessages()
   func contextMenuElements(for message: ConversationUI.Message) -> [ConversationUI.MenuElement]
 }
 extension MessagesDelegate {
@@ -1029,6 +1063,7 @@ extension MessagesDelegate {
   public func didTapOnAvatar(in message: ConversationUI.Message)
   public func didTap(on url: Foundation.URL, in message: ConversationUI.Message)
   public func didTap(on quickReplyMenuChoice: Swift.String, in message: ConversationUI.Message)
+  public func didTapOnLoadPreviousMessages()
   public func contextMenuElements(for message: ConversationUI.Message) -> [ConversationUI.MenuElement]
 }
 public enum IncomingMessageComposingState {
@@ -1079,5 +1114,7 @@ extension ConversationUI.SenderAlignment : Swift.Hashable {}
 extension ConversationUI.MessageState : Swift.Equatable {}
 extension ConversationUI.MessageState : Swift.Hashable {}
 extension ConversationUI.MessageState : Swift.RawRepresentable {}
+extension ConversationUI.LoadPreviousConversationButtonState : Swift.Equatable {}
+extension ConversationUI.LoadPreviousConversationButtonState : Swift.Hashable {}
 extension ConversationUI.CardActionType : Swift.Equatable {}
 extension ConversationUI.CardActionType : Swift.Hashable {}

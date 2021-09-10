@@ -37,7 +37,7 @@ The SDK is distributed as an XCFramework, therefore **you are required to use Co
 Add this line to your Podfile, inside the target section:
 
 ```ruby
-pod 'iAdvize', '2.0.0-beta1'
+pod 'iAdvize', '2.2.0'
 ```
 
 Add the following to the bottom of your Podfile:
@@ -53,6 +53,29 @@ end
 ```
 
 > This post_install hook is required because the iAdvize SDK supports [module stability](https://swift.org/blog/abi-stability-and-more/). Therefore, all its dependencies must be built using the "Build Libraries for Distribution" option.
+
+Final shape of your Podfile should be:
+
+```ruby
+platform :ios, '12.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'YOUR_TARGET' do
+    project 'YOUR_PROJECT'
+
+    pod 'iAdvize', '2.2.0'
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+    end
+end
+```
+
 
 ## Usage
 
@@ -251,6 +274,8 @@ IAdvizeSDK.shared.conversationController.presentConversationViewModal(animated: 
     // ...
 }
 ```
+
+N.B. Before showing your custom chat button, you have to ensure that there is operator availability first. Please check the [Targeting rule availability](#targeting-rule-availability) section in the [Targeting](#targeting) chapter.
 
 #### Customization
 

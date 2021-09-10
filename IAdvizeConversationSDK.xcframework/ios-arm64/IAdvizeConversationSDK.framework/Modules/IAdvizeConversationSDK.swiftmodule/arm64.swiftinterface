@@ -44,9 +44,21 @@ extension Transaction {
   @objc func ongoingConversationStatusDidChange(hasOngoingConversation: Swift.Bool)
   @objc optional func conversationController(_ controller: IAdvizeConversationSDK.ConversationController, shouldOpen url: Foundation.URL) -> Swift.Bool
 }
-public enum AuthenticationOption {
+@_inheritsConvenienceInitializers @objc final public class TargetingController : ObjectiveC.NSObject {
+  final public var language: IAdvizeConversationSDK.SDKLanguageOption
+  @objc weak final public var delegate: IAdvizeConversationSDK.TargetingControllerDelegate?
+  @objc final public var isActiveTargetingRuleAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc final public func activateTargetingRule(targetingRuleId: Foundation.UUID)
+  @objc final public func registerUserNavigation()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum AuthenticationOption : Swift.Equatable {
   case anonymous
   case simple(userId: Swift.String)
+  public static func == (lhs: IAdvizeConversationSDK.AuthenticationOption, rhs: IAdvizeConversationSDK.AuthenticationOption) -> Swift.Bool
 }
 @objc(GraphQLCurrency) public enum ObjcGraphQLCurrency : Swift.Int {
   case adp
@@ -484,7 +496,7 @@ public enum SDKLanguageOption {
     get
   }
 }
-public struct Logger {
+public enum Logger {
   public enum LogLevel : Swift.String {
     case verbose
     case info
@@ -974,6 +986,9 @@ public enum Currency : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, 
   }
   public typealias AllCases = [IAdvizeConversationSDK.Currency]
 }
+@objc public protocol TargetingControllerDelegate {
+  @objc func activeTargetingRuleAvailabilityDidUpdate(isActiveTargetingRuleAvailable: Swift.Bool)
+}
 @objc(GraphQLApplicationMode) public enum ObjcGraphQLApplicationMode : Swift.Int {
   case dev
   case prod
@@ -1058,9 +1073,6 @@ extension IAdvizeSDK {
   @available(swift, obsoleted: 1.0)
   @objc final public func activate(projectId: Swift.Int, authenticationOption: IAdvizeConversationSDK.ObjcAuthenticationOption, gdprOption: IAdvizeConversationSDK.ObjcGDPROption, completion: ((Swift.Bool) -> Swift.Void)? = nil)
 }
-@objc public protocol TargetingControllerDelegate {
-  @objc func activeTargetingRuleAvailabilityDidUpdate(isActiveTargetingRuleAvailable: Swift.Bool)
-}
 @_inheritsConvenienceInitializers @objc(ChatboxConfiguration) public class ObjcChatboxConfiguration : ObjectiveC.NSObject {
   @available(swift, obsoleted: 1.0)
   @objc override dynamic public init()
@@ -1138,17 +1150,6 @@ extension IAdvizeSDK {
   @objc public init(legalInformationURL: Foundation.URL)
   @available(swift, obsoleted: 1.0)
   @objc public init(delegate: IAdvizeConversationSDK.GDPRDelegate)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc final public class TargetingController : ObjectiveC.NSObject {
-  final public var language: IAdvizeConversationSDK.SDKLanguageOption
-  @objc weak final public var delegate: IAdvizeConversationSDK.TargetingControllerDelegate?
-  @objc final public var isActiveTargetingRuleAvailable: Swift.Bool {
-    @objc get
-  }
-  @objc final public func activateTargetingRule(targetingRuleId: Foundation.UUID)
-  @objc final public func registerUserNavigation()
   @objc override dynamic public init()
   @objc deinit
 }

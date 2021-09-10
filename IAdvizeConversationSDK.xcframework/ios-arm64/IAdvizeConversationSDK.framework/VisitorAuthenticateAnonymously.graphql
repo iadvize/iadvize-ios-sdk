@@ -1,0 +1,10 @@
+mutation visitorAuthenticateAnonymously($projectId: LegacyId!, $vuid: String){
+    visitorAuthenticateAnonymously(input: {
+        projectId: $projectId
+        vuid: $vuid
+    }){
+        visitorSessionToken{
+            accessToken
+        }
+    }
+}
