@@ -270,7 +270,7 @@ If `useDefaultChatButton == false` this default button will not be displayed and
 - open the chatbox when the user presses your button, using the following method:
 
 ```swift
-IAdvizeSDK.shared.conversationController.presentConversationViewModal(animated: Bool, presentingViewController: UIViewController?) {
+IAdvizeSDK.shared.conversationController.presentChatbox(animated: Bool, presentingViewController: UIViewController?) {
     // ...
 }
 ```
