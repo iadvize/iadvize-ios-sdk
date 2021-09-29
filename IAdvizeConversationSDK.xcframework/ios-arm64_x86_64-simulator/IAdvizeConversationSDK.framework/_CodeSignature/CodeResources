@@ -10,11 +10,11 @@
 		</data>
 		<key>ConversationErrorView.nib</key>
 		<data>
-		qFiu6CgvykPHh2JN5bD01YrvuQ4=
+		+fivfwJW/v1WoPt/OQNJbpU53KU=
 		</data>
 		<key>GDPRConsentCellContentView.nib</key>
 		<data>
-		4+CA35Ti02z56tNvPsmPWTkGl18=
+		T/sGIeCZc/Fr1Jrgja7VAw7vnQE=
 		</data>
 		<key>Headers/IAdvizeConversationSDK-Swift.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>IAdvizeChatButtonView.nib</key>
 		<data>
-		FJNDmbT6I1+TjaH0IwDkkIVyQBs=
+		eMtuVXGT03CC2EYBvJ19cSL8Lks=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DtGtzdI6hBskdPaGu0yBo9Vvc3Q=
+		0hxYdUw0BqqczoJ786lK+n/byKc=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sOBtBrk2wdNZ2OI4lr0olqKgMsM=
+		vOw5YD/cNxH3ADndDDEe32j6128=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		sOBtBrk2wdNZ2OI4lr0olqKgMsM=
+		vOw5YD/cNxH3ADndDDEe32j6128=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VJhGY3t9qcoWXhBWjy+W3eYfjkI=
+		Iurnh5a0AL1XUdtXGxeSTSlLwTc=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		VJhGY3t9qcoWXhBWjy+W3eYfjkI=
+		Iurnh5a0AL1XUdtXGxeSTSlLwTc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -178,14 +178,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			41aw7MhBrUmhkGdeIjAyZChXlnWRS4rtuX/DJTxRx3Y=
+			iPa8eMaH9RratUL1lIQZxA7PXTd/uVVIsHgWtNGhaHg=
 			</data>
 		</dict>
 		<key>GDPRConsentCellContentView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QCBAzZvQODKhBdEB+QfKKJWFR95n1PZSTLXuAb0ZrCE=
+			UOgJ1mUdB3jg5gCqEeRQ7aX55YWZbZoQdClIa247WtA=
 			</data>
 		</dict>
 		<key>Headers/IAdvizeConversationSDK-Swift.h</key>
@@ -206,7 +206,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/a5jRF3r1gWgp6NZNQjpE7T7nP30ev7JtdwZ0UqvaPQ=
+			QjzV5xNEQDFQ458FM1m01olPwoEUcnAzRM2xiV/FBSE=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -227,7 +227,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jttvncYVNVI8NkzAdIOJl5uND3mMgAGQaQFdTqC7d1Q=
+			Pjk7xgLXKPcNtNlvcex32vOqObCGYCtF4dE77rvzW9w=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
@@ -248,7 +248,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jttvncYVNVI8NkzAdIOJl5uND3mMgAGQaQFdTqC7d1Q=
+			Pjk7xgLXKPcNtNlvcex32vOqObCGYCtF4dE77rvzW9w=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -269,7 +269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UaTBASc38HVSo9r0XzW3UHD4vUSWtFNE4pOkLipFrvM=
+			7/OwXvlJ5CFhtq1ZoY+zOFTYGbRB9yWyv5XX7jlp9hw=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -290,7 +290,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UaTBASc38HVSo9r0XzW3UHD4vUSWtFNE4pOkLipFrvM=
+			7/OwXvlJ5CFhtq1ZoY+zOFTYGbRB9yWyv5XX7jlp9hw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -37,7 +37,7 @@ The SDK is distributed as an XCFramework, therefore **you are required to use Co
 Add this line to your Podfile, inside the target section:
 
 ```ruby
-pod 'iAdvize', '2.2.0'
+pod 'iAdvize', '2.2.1'
 ```
 
 Add the following to the bottom of your Podfile:
@@ -64,7 +64,7 @@ inhibit_all_warnings!
 target 'YOUR_TARGET' do
     project 'YOUR_PROJECT'
 
-    pod 'iAdvize', '2.2.0'
+    pod 'iAdvize', '2.2.1'
 end
 
 post_install do |installer|
@@ -270,7 +270,7 @@ If `useDefaultChatButton == false` this default button will not be displayed and
 - open the chatbox when the user presses your button, using the following method:
 
 ```swift
-IAdvizeSDK.shared.conversationController.presentChatbox(animated: Bool, presentingViewController: UIViewController?) {
+IAdvizeSDK.shared.conversationController.presentConversationViewModal(animated: Bool, presentingViewController: UIViewController?) {
     // ...
 }
 ```
