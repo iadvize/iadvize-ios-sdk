@@ -1,3 +1,9 @@
+# 2.2.1
+
+### Release date 2021/09/29
+
+- Small UI fixes (iOS 15)
+
 # 2.2.0
 
 ### Release date 2021/09/10
