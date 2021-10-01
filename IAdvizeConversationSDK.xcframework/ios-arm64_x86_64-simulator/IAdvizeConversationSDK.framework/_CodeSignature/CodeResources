@@ -10,11 +10,11 @@
 		</data>
 		<key>ConversationErrorView.nib</key>
 		<data>
-		+fivfwJW/v1WoPt/OQNJbpU53KU=
+		6YTmr0GJEv36FySA5ElGIh7VCF4=
 		</data>
 		<key>GDPRConsentCellContentView.nib</key>
 		<data>
-		T/sGIeCZc/Fr1Jrgja7VAw7vnQE=
+		Yf9riBQbP2FJ3V/gYYHnFkb9GGY=
 		</data>
 		<key>Headers/IAdvizeConversationSDK-Swift.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>IAdvizeChatButtonView.nib</key>
 		<data>
-		eMtuVXGT03CC2EYBvJ19cSL8Lks=
+		4HmnMElewk6mTuuVWrV7ykDhkR8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0hxYdUw0BqqczoJ786lK+n/byKc=
+		HHd7AZcCb42nF9zPNsnhV7qKTag=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -178,14 +178,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iPa8eMaH9RratUL1lIQZxA7PXTd/uVVIsHgWtNGhaHg=
+			e0IzXzrxA6fU4D0qGpE0VSHkreXyZzMF3/FqHONVdpQ=
 			</data>
 		</dict>
 		<key>GDPRConsentCellContentView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UOgJ1mUdB3jg5gCqEeRQ7aX55YWZbZoQdClIa247WtA=
+			ydOxlNyK4Tg7WbCBfSIWr+4GppbneU0Ko26hkBMBz9E=
 			</data>
 		</dict>
 		<key>Headers/IAdvizeConversationSDK-Swift.h</key>
@@ -206,7 +206,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QjzV5xNEQDFQ458FM1m01olPwoEUcnAzRM2xiV/FBSE=
+			eSPgTAw8TkSVciR3hF0moY+npl9Mx+iB0WT4gn/UZ7k=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
