@@ -1,3 +1,10 @@
+# 2.2.2
+
+### Release date 2021/10/01
+
+- Logout issue when no push notification are setup
+- NavigationBar tintColor and "load previous messages" button color now following the color setup on the theme
+
 # 2.2.1
 
 ### Release date 2021/09/29
