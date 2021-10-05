@@ -1,3 +1,9 @@
+# 2.2.3
+
+### Release date 2021/10/05
+
+- Conversation creation issue on multiple users switch
+
 # 2.2.2
 
 ### Release date 2021/10/01
