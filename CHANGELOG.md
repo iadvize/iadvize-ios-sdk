@@ -1,3 +1,9 @@
+# 2.2.4
+
+### Release date 2021/10/06
+
+- Fix conversation join after logout and then login of the same user
+
 # 2.2.3
 
 ### Release date 2021/10/05

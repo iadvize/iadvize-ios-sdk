@@ -6,31 +6,31 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		QeKGlcMv9DgSnFfFfzn9SNF1YbQ=
+		PFUhCZGW59tC1O7Fpr5BDfqDoGk=
 		</data>
 		<key>ConversationSnoozedMessageContentView.nib/objects-13.0+.nib</key>
 		<data>
-		w6+X4novJQje5NBm46uraWmWlqU=
+		X8iPmEWPWIxjRHL7dBDbMz+RqR4=
 		</data>
 		<key>ConversationSnoozedMessageContentView.nib/runtime.nib</key>
 		<data>
-		ehJdeyXVAQQaNFmB3eFvyPgyv8k=
+		tmlTMoU4h7ba2oKGBggfvPZL9+M=
 		</data>
 		<key>FileMessageContentView.nib/objects-13.0+.nib</key>
 		<data>
-		L9PZX0V0lSlDv7C0qwIVSvfy4iQ=
+		lY4NPM1/yEfkPBd3VocR0/UJhnc=
 		</data>
 		<key>FileMessageContentView.nib/runtime.nib</key>
 		<data>
-		sGon8OfyonrVerBE03Hy1YPZiwU=
+		+LPx0gHkLcttFxa72KH1jRKEREU=
 		</data>
 		<key>GenericCardView.nib/objects-13.0+.nib</key>
 		<data>
-		KNIykQYUEGM6Ad0MJ1ek+5WQhKc=
+		0Iau9w7auX7Tn/8nOl2Cwfe1wZM=
 		</data>
 		<key>GenericCardView.nib/runtime.nib</key>
 		<data>
-		Mj5YK9yU9pgbZDGUPW9N+lEZKfE=
+		SEC718ZgAubw8Bi2VQkdcZSP2jU=
 		</data>
 		<key>Headers/ConversationUI-Swift.h</key>
 		<data>
@@ -42,15 +42,15 @@
 		</data>
 		<key>ImageMessageContentView.nib</key>
 		<data>
-		r+OwFkDIOpGFctA19x/JvB5GFXg=
+		8O70E6iwvHAUAalW7U0NDQ1zMx4=
 		</data>
 		<key>IncomingMessagePreviewCell.nib/objects-13.0+.nib</key>
 		<data>
-		2YYHEtDHHW41E2NZEDa6ZXg6qWY=
+		QtKoewpFOg5pkYQia/eBVgDrzO8=
 		</data>
 		<key>IncomingMessagePreviewCell.nib/runtime.nib</key>
 		<data>
-		Sg5Ls8gdx4IbjMK5wrWfQnnp5/k=
+		qYkvPTskHQ7lrmi50koqbvbbcVc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -58,35 +58,35 @@
 		</data>
 		<key>InputBar.nib/objects-13.0+.nib</key>
 		<data>
-		Zd4qxBiqKfT0YEvO0ymaVe6FWQs=
+		42Dfws3LxdPuIttbtCLgNhb06Z4=
 		</data>
 		<key>InputBar.nib/runtime.nib</key>
 		<data>
-		PNV93Mx/hZoU0R64qDviViExFFg=
+		aJvuHVk+rv61pRlqqxxl80fJqxg=
 		</data>
 		<key>LinkPreviewView.nib/objects-13.0+.nib</key>
 		<data>
-		EvnMIZggTwrNHZz5woHVuWAGnnE=
+		cipMqhM6B4jr5JmeQPcNlgOtDD8=
 		</data>
 		<key>LinkPreviewView.nib/runtime.nib</key>
 		<data>
-		Qj05XV9NCna+FMpliFQ8YxzjZtE=
+		Nfa5QeVbL+KrUHjb2zu62mREmHs=
 		</data>
 		<key>LoadPastConversationTableHeaderView.nib/objects-13.0+.nib</key>
 		<data>
-		ZQZM27FS70cghS5CnDWlLu9LPEk=
+		E9XEeEM6zFckUlQWXU+BweEN3q8=
 		</data>
 		<key>LoadPastConversationTableHeaderView.nib/runtime.nib</key>
 		<data>
-		1UWMneqorJoJ3abdugjosmM6jlM=
+		Q+8pgIwTF6Q2WkwwrISwVFZGsdg=
 		</data>
 		<key>MessagesDayHeaderView.nib/objects-13.0+.nib</key>
 		<data>
-		M149SkF5czJKjMS7qGSluTox73c=
+		PVr8cOBkkejIH4ZLJ5L824zGsZk=
 		</data>
 		<key>MessagesDayHeaderView.nib/runtime.nib</key>
 		<data>
-		ycJkPGtknrWj5pDD8oT8xgFJJtI=
+		z9PvcXZ+1uyC7y0ykvC+hlc796A=
 		</data>
 		<key>Modules/ConversationUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -142,31 +142,31 @@
 		</data>
 		<key>QuickReplyMenuMessageChoiceView.nib/objects-13.0+.nib</key>
 		<data>
-		a6v3hbG28DM/KrF7El4D3kl89so=
+		nOsbD8mGWmgK+SfN+kCCs0qz95s=
 		</data>
 		<key>QuickReplyMenuMessageChoiceView.nib/runtime.nib</key>
 		<data>
-		Uio/p7wmTUxCuNwgCQVvgVoSCs4=
+		F4wisfhGMbsLg3OJbwFT9QuXWeA=
 		</data>
 		<key>QuickReplyMenuMessageContentView.nib/objects-13.0+.nib</key>
 		<data>
-		wBB7rHKubutBnBHS4B1JM6dPTzQ=
+		iiSxwLeUOrxgdCacCvRKbZQkOf8=
 		</data>
 		<key>QuickReplyMenuMessageContentView.nib/runtime.nib</key>
 		<data>
-		sXsMosPZIQGN/wgaXv/tkkxp7eY=
+		sCbYA08SIgqdLsnBh6jjb9SbLFQ=
 		</data>
 		<key>TextMessageContentView.nib</key>
 		<data>
-		3cAdXQS4tUZZ1UQ/Uo3UxzboUro=
+		FijTCqH07B7aptiTo25g53QyNTU=
 		</data>
 		<key>TransferMessageContentView.nib/objects-13.0+.nib</key>
 		<data>
-		SY+jzjB7v5xNRdIBa8DH/SCsA2I=
+		hDwN18L9aq3/BgpzlOGYYV4lFxA=
 		</data>
 		<key>TransferMessageContentView.nib/runtime.nib</key>
 		<data>
-		wC+L8J/q9V4Jf7A/9UFjhw1PwIg=
+		oZe8Tyid0fdvm5erm8XzdrA1EYs=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -238,49 +238,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nd7Gp0yFxd1ga6pUTEdY7b//d3O4odMlDwh7dlKbG34=
+			ofAsof63quPCQKNKtXscD9EY58QnVAO1plmdade7vyo=
 			</data>
 		</dict>
 		<key>ConversationSnoozedMessageContentView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wkwDJmmi+CG41w3oZiWrZdlaxhAV6jSV8gdyIdKYwyM=
+			YT1WK8BYRpRIkHlPv0DShU1fz9qhPVKyPaD8ZZ2HGeI=
 			</data>
 		</dict>
 		<key>ConversationSnoozedMessageContentView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NieyKqFIM4cHVYDRLcTsqP7/lRR0cWNZNfrVR84ErOM=
+			j+AcUW63M9AUxA+qk7k71xRJfn5qe9kiFdHVpja3/cU=
 			</data>
 		</dict>
 		<key>FileMessageContentView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			64FdwAus9/5qMH2DMobXp7OpI3LOf8AEDGzd5kqOTV4=
+			NLtlTmaQI5MBryl3/PERyHDBT5qBSfW7UWfQvQYyrrg=
 			</data>
 		</dict>
 		<key>FileMessageContentView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JJgV5YEspqkkkt+jtAhYgc0PZdZ+NPUTEXjkRoZ7XTo=
+			ZX1F+X29CY9/flJ6bZHMAT4G7HorCWT0eelg6R1Z7dU=
 			</data>
 		</dict>
 		<key>GenericCardView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0D+49GlgwC+SGTMbFrKYYUOrqEFSyI2dLzvRssmunK4=
+			tpgrafl4LebPTZ08/5QxA6cAsu7TvJrMoZVaLLZL5+A=
 			</data>
 		</dict>
 		<key>GenericCardView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0HRNwO+X8d6VwV1PfNi117Qpf7m92q6u+7gd8iSVwLQ=
+			qVyP2TPpwPhtWS8V5KD/w93aaDLjcu7UyjkdlnsKk4k=
 			</data>
 		</dict>
 		<key>Headers/ConversationUI-Swift.h</key>
@@ -301,77 +301,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/aRGma3c8Kz9n4GjMdxD1Q0K9EXZ2fx7rfe8FUo6x5I=
+			X+RdbJxDgYxeu5tMilSB+zLJ+raWg8uhmXJK/BXOpeU=
 			</data>
 		</dict>
 		<key>IncomingMessagePreviewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			skwdWoWt9+s+l/nzd6eI9GKOZIsdLLlZc1r740oa7dA=
+			k3Iodzyct9Du0TU8GF28YZVo+ixym3zI4wRJe6K1Zyw=
 			</data>
 		</dict>
 		<key>IncomingMessagePreviewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oRT//wu6kfLtxfphCC+4FAhgnIvNDKEeFjWP/zkntEw=
+			hwLwQmAcxjJmwW/rsJ4aiKyQtIytOJ5mUyR5DIMt+1w=
 			</data>
 		</dict>
 		<key>InputBar.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J1hx1T3tHsZ2D2Vt6FK8ruhWPLY135qEO+ZrXmN2Zqg=
+			r/R6yrZhH3qHHb2ttGvOyHjsILwIF6+6z8AKRP1m7Z4=
 			</data>
 		</dict>
 		<key>InputBar.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RGDm2ocdKvUQrhkt8xRuNkYyRAhOJDM3umvsa0PkpSo=
+			OEbFRHb8Lz/jZh0qb1gpKBGLt4fFFLgrxvTC/uU+GNo=
 			</data>
 		</dict>
 		<key>LinkPreviewView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j9C4qIEbDFlkC5NiR5x6fQhvV4naP6U9o6i3jHJWkfg=
+			7CZkJRPfBCI0NzlNDLsJhzb71S+/OvtmV1Pw6FBWS0g=
 			</data>
 		</dict>
 		<key>LinkPreviewView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FF6Ml33sWfIIvu2XGjabCWSFPN4ITb8G1CE1r1EsWxg=
+			F1D2mgD7Po6KCzBzNou8NkKPavRveQPY+3FFNo0Ps6U=
 			</data>
 		</dict>
 		<key>LoadPastConversationTableHeaderView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2suL5mqIQZNzgy06Oa5gMG4VzEwFDm9Y/Ggrne/kQJk=
+			SK0+/noW7oWQfuFCpQc3+2bnPffKSTcy6WZ71YbZYuA=
 			</data>
 		</dict>
 		<key>LoadPastConversationTableHeaderView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rC5b3vQq4S+Ak04zk3JCoaHAwG8UwYxFdgL/gk7fv6s=
+			ZPl3D/8Lg7ABCh6ovV7XPE5RPncaaQLmyxPU7l2if+8=
 			</data>
 		</dict>
 		<key>MessagesDayHeaderView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YLBBDxLCW+UfZcNly+5SP1e7ZkPFsHhK5FFRM6w3PiY=
+			NLxeLKdccJuv4ulsMKfsTRK5757HxhVth4AIPfNGIAE=
 			</data>
 		</dict>
 		<key>MessagesDayHeaderView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nZpdWTUKXXF8FkklrwjrTRmVWnhEZCMHJJeb46i3kdg=
+			V2GVEiB4NTZrNUzSm9EVe53yj7bvTN+9mZum1nL0CP0=
 			</data>
 		</dict>
 		<key>Modules/ConversationUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -469,49 +469,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/iIBPb9USBP0Azm/dUI1w44SwihOMnUT0aFeUCP6SA=
+			3oaeW5sNZgKPUaCtNfcwr2kYhk/C/V85234FUmXK36Q=
 			</data>
 		</dict>
 		<key>QuickReplyMenuMessageChoiceView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XyZMiLsLnqJSUYist/Xgb9eugefMGabit1If1BIk0oA=
+			n3yckhjZsdsaxw37MLeTdLqMqAfpU7yOF0UBLPLNCt8=
 			</data>
 		</dict>
 		<key>QuickReplyMenuMessageContentView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIHJHN/q1sCvEfKYJ8a4w+BbN6iGVSTRLOIhtLvwk2Y=
+			XuOI2S2j0TGoO1pWMB6hmo+GXrrEOboZzj9UEev/pT8=
 			</data>
 		</dict>
 		<key>QuickReplyMenuMessageContentView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sls0i7Gz++4RCj2NNDoUIQSedKvo4fJKwJH2OgfleYY=
+			t/txAnJWBDjlZsYnV1SJHbvc2dp+QbfTu72HNWTgTZ4=
 			</data>
 		</dict>
 		<key>TextMessageContentView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQRbk95ktYBlPeDRtW/+XAtaSgqoOpf54n8j5Cbn5V8=
+			p6Q+PhlMVc5S71Issqi4ZnJYXzgo6JVmZuv4vDcZsZU=
 			</data>
 		</dict>
 		<key>TransferMessageContentView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s6GvW/P3IpGMnAagRr5Zaxx1JAe4OTWbmd+R5jAhdPA=
+			1wE46R7KGx048kAiDtEZc45DBSuG8uuMJkY1/XGQV9s=
 			</data>
 		</dict>
 		<key>TransferMessageContentView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jhxesxE8VoPVXrk3+22FEOWOoXyZ7/xymJl2GSanq1s=
+			w9OYcYEHybtFecJfJaOhcjNoq4Gen0iFvmY4xDZaC/8=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>
