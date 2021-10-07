@@ -37,7 +37,7 @@ The SDK is distributed as an XCFramework, therefore **you are required to use Co
 Add this line to your Podfile, inside the target section:
 
 ```ruby
-pod 'iAdvize', '2.2.4'
+pod 'iAdvize', '2.2.5'
 ```
 
 Add the following to the bottom of your Podfile:
@@ -64,7 +64,7 @@ inhibit_all_warnings!
 target 'YOUR_TARGET' do
     project 'YOUR_PROJECT'
 
-    pod 'iAdvize', '2.2.4'
+    pod 'iAdvize', '2.2.5'
 end
 
 post_install do |installer|

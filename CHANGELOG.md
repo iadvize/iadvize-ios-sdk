@@ -1,3 +1,9 @@
+# 2.2.5
+
+### Release date 2021/10/07
+
+- Xcode 13 support
+
 # 2.2.4
 
 ### Release date 2021/10/06

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ConversationUI
 import Alamofire
 import AlamofireImage
@@ -9,6 +9,7 @@ import LinkPresentation
 import MobileCoreServices
 import Swift
 import UIKit
+import _Concurrency
 public protocol Sender {
   var senderId: Swift.String { get }
   var displayName: Swift.String { get }
@@ -39,12 +40,11 @@ public typealias ActionHandler = (ConversationUI.Action) -> Swift.Void
   public init(title: Swift.String = "", image: UIKit.UIImage? = nil, handler: @escaping ConversationUI.ActionHandler)
   @objc deinit
 }
-@objc @_hasMissingDesignatedInitializers public class MessagesTableView : UIKit.UITableView {
-  weak public var messagesDataSource: ConversationUI.MessagesDataSource?
-  weak public var messageDelegate: ConversationUI.MessagesDelegate?
-  public func scrollToLastItem(at position: UIKit.UITableView.ScrollPosition = .bottom, animated: Swift.Bool = true)
-  public func reload(scrollingToLastItem: Swift.Bool)
-  @objc override dynamic public init(frame: CoreGraphics.CGRect, style: UIKit.UITableView.Style)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MessagesTableView : UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) weak public var messagesDataSource: ConversationUI.MessagesDataSource?
+  @_Concurrency.MainActor(unsafe) weak public var messageDelegate: ConversationUI.MessagesDelegate?
+  @_Concurrency.MainActor(unsafe) public func scrollToLastItem(at position: UIKit.UITableView.ScrollPosition = .bottom, animated: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public func reload(scrollingToLastItem: Swift.Bool)
   @objc deinit
 }
 public protocol Message {
@@ -63,7 +63,7 @@ public protocol InputBarDelegate : AnyObject {
   func inputBarTextViewDidBeginEditing(_ inputBar: ConversationUI.InputBar)
   func inputBarTextViewDidChange(_ inputBar: ConversationUI.InputBar, with text: Swift.String)
 }
-extension InputBarDelegate {
+extension ConversationUI.InputBarDelegate {
   public func inputBar(_ inputBar: ConversationUI.InputBar, didTapSendButtonWith text: Swift.String)
   public func inputBar(_ inputBar: ConversationUI.InputBar, didTapUploadImageButton button: UIKit.UIButton)
   public func inputBar(_ inputBar: ConversationUI.InputBar, didTapUploadDocumentButton button: UIKit.UIButton)
@@ -72,26 +72,26 @@ extension InputBarDelegate {
   public func inputBarTextViewDidBeginEditing(_ inputBar: ConversationUI.InputBar)
   public func inputBarTextViewDidChange(_ inputBar: ConversationUI.InputBar, with text: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InputBar : ConversationUI.XibView {
-  public var text: Swift.String? {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class InputBar : ConversationUI.XibView {
+  @_Concurrency.MainActor(unsafe) public var text: Swift.String? {
     get
     set
   }
-  public func dismissKeyboard()
-  weak public var delegate: ConversationUI.InputBarDelegate?
-  @objc override dynamic public var bounds: CoreGraphics.CGRect {
-    @objc get
-    @objc set
+  @_Concurrency.MainActor(unsafe) public func dismissKeyboard()
+  @_Concurrency.MainActor(unsafe) weak public var delegate: ConversationUI.InputBarDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var bounds: CoreGraphics.CGRect {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @objc deinit
 }
-extension InputBar : UIKit.UITextViewDelegate {
-  @objc dynamic public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
-  @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
+extension ConversationUI.InputBar : UIKit.UITextViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
 }
-@objc @_inheritsConvenienceInitializers open class XibView : UIKit.UIView {
-  @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class XibView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
 public protocol MessagesDataSource : AnyObject {
@@ -941,42 +941,41 @@ public enum LoadPreviousConversationButtonState {
     get
   }
 }
-@objc open class ConversationViewController : UIKit.UIViewController {
-  final public let messagesTableView: ConversationUI.MessagesTableView
-  public var loadPreviousConversationButtonState: ConversationUI.LoadPreviousConversationButtonState {
+@objc @_Concurrency.MainActor(unsafe) open class ConversationViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public let messagesTableView: ConversationUI.MessagesTableView
+  @_Concurrency.MainActor(unsafe) public var loadPreviousConversationButtonState: ConversationUI.LoadPreviousConversationButtonState {
     get
     set
   }
-  final public let inputBar: ConversationUI.InputBar
-  public var baseFont: UIKit.UIFont {
+  @_Concurrency.MainActor(unsafe) final public let inputBar: ConversationUI.InputBar
+  @_Concurrency.MainActor(unsafe) public var baseFont: UIKit.UIFont {
     get
     set
   }
-  public var mainColor: UIKit.UIColor {
+  @_Concurrency.MainActor(unsafe) public var mainColor: UIKit.UIColor {
     get
     set
   }
-  public var incomingMessageComposingState: ConversationUI.IncomingMessageComposingState {
+  @_Concurrency.MainActor(unsafe) public var incomingMessageComposingState: ConversationUI.IncomingMessageComposingState {
     get
     set
   }
   @objc dynamic public init()
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc override dynamic open func viewDidLoad()
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @objc deinit
 }
-extension ConversationViewController : UIKit.UITableViewDataSource {
-  @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+extension ConversationUI.ConversationViewController : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
 }
-extension ConversationViewController : UIKit.UITableViewDelegate {
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
-  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+extension ConversationUI.ConversationViewController : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
 }
 public enum MessageKind {
   case text(Swift.String)
@@ -1058,7 +1057,7 @@ public protocol MessagesDelegate : AnyObject {
   func didTapOnLoadPreviousMessages()
   func contextMenuElements(for message: ConversationUI.Message) -> [ConversationUI.MenuElement]
 }
-extension MessagesDelegate {
+extension ConversationUI.MessagesDelegate {
   public func didTapOnContent(in message: ConversationUI.Message)
   public func didTapOnAvatar(in message: ConversationUI.Message)
   public func didTap(on url: Foundation.URL, in message: ConversationUI.Message)
@@ -1071,7 +1070,7 @@ public enum IncomingMessageComposingState {
   case composing(Swift.String?)
   case paused(Swift.String?)
 }
-extension UIColor {
+extension UIKit.UIColor {
   public static var azure: UIKit.UIColor {
     get
   }
