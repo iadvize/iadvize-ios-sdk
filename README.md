@@ -16,6 +16,7 @@ Just run `pod install`, open the `IAdvizeSwiftExample.xcworkspace` and run the p
 
 |     Version      | Minimum iOS Version | Swift Version |
 | :--------------: | :-----------------: | :-----------: |
+|      1.15.2      |      iOS 10.0       |  Swift 5.5    |
 |      1.15.1      |      iOS 10.0       |  Swift 5.4.2  |
 |      1.15.0      |      iOS 10.0       |   Swift 5.4   |
 |      1.14.0      |      iOS 10.0       |  Swift 5.3.1  |

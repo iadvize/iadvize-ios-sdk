@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (5.4.3)
+  - Alamofire (5.4.4)
   - AlamofireImage (4.1.0):
     - Alamofire (~> 5.1)
   - Apollo (0.36.0):
@@ -7,7 +7,7 @@ PODS:
   - Apollo/Core (0.36.0)
   - Base64 (1.1.2)
   - Gifu (3.3.1)
-  - iAdvize (1.15.1):
+  - iAdvize (1.15.2):
     - AlamofireImage (~> 4.1.0)
     - Apollo (~> 0.36.0)
     - Gifu (~> 3.3.0)
@@ -24,7 +24,7 @@ PODS:
   - SwiftGraylog (1.1.1)
 
 DEPENDENCIES:
-  - iAdvize
+  - iAdvize (from `../../../mobile-ios-sdk-conversation-library`)
 
 SPEC REPOS:
   trunk:
@@ -33,24 +33,27 @@ SPEC REPOS:
     - Apollo
     - Base64
     - Gifu
-    - iAdvize
     - InputBarAccessoryView
     - JWT
     - MessageKit
     - SwiftGraylog
 
+EXTERNAL SOURCES:
+  iAdvize:
+    :path: "../../../mobile-ios-sdk-conversation-library"
+
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
   Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
-  iAdvize: d3ce866d4ed8cb0d71f646bbcef20a4e81445070
+  iAdvize: 92ee154fc0f8eee9a88a3547999e3c81f136d20b
   InputBarAccessoryView: 8e7fc09e9cba75e0fee5da13450e15c194806f69
   JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
   MessageKit: 3beb578737a5aa2bba25cc27c7b6d6faa09af5a7
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
 
-PODFILE CHECKSUM: c38f1b392fe06f7c905a5860df2b0e8415cb8ca7
+PODFILE CHECKSUM: 468d1d68eea0cc6f207bfb87b6332c1c6f73ffa2
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.1
