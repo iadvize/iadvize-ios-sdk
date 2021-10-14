@@ -5,7 +5,7 @@ inhibit_all_warnings!
 target 'IAdvizeSwiftExample' do
     project 'IAdvizeSwiftExample'
 
-    pod 'iAdvize', '2.2.4'
+    pod 'iAdvize', '2.2.7'
 end
 
 post_install do |installer|
