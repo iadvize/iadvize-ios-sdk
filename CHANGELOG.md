@@ -1,3 +1,9 @@
+# 2.2.7
+
+### Release date 2021/10/14
+
+- Update minimum deployment target to 12.0
+
 # 2.2.6
 
 ### Release date 2021/10/13
