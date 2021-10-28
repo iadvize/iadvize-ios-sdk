@@ -1,3 +1,9 @@
+# 2.2.8
+
+### Release date 2021/10/28
+
+- Fix an issue where user messages where sometimes stucked in "Sending"
+
 # 2.2.7
 
 ### Release date 2021/10/14

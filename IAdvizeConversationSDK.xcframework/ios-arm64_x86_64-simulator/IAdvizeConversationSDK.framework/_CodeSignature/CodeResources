@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e5hdkv5Ume/7eZEbQMWBCaK56R4=
+		+U7uG0DgZRzvgbM614RzDxMgHAg=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		K+otZOsjGXZ6sjqGbMkSI2pHbRU=
+		kJPK+9W1/t0X1CFvHouvskqbRJw=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		K+otZOsjGXZ6sjqGbMkSI2pHbRU=
+		kJPK+9W1/t0X1CFvHouvskqbRJw=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gVO32q7H2FzVV40oJA2PJqu+twM=
+		lgla5nVAGBs4kXfXJdaL7Ax3mdY=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		gVO32q7H2FzVV40oJA2PJqu+twM=
+		lgla5nVAGBs4kXfXJdaL7Ax3mdY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,7 +227,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BxwVvgcp3qirzcymHpUA6zTqAeU7DK/BeiAD/ykLTVw=
+			uGO5IirzRotb/vpEJWGC74URjtnB0UmjIZ95t2saxQI=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
@@ -248,7 +248,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BxwVvgcp3qirzcymHpUA6zTqAeU7DK/BeiAD/ykLTVw=
+			uGO5IirzRotb/vpEJWGC74URjtnB0UmjIZ95t2saxQI=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -269,7 +269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P0sMFTFbpbYPsjWZ/y/NMnV+rVO2SKI1x/Ku1mLpB28=
+			yYSzc6hmgZMYRoIsMmOGCNt2bTxrnGfSC6x5DLPLpdI=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -290,7 +290,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P0sMFTFbpbYPsjWZ/y/NMnV+rVO2SKI1x/Ku1mLpB28=
+			yYSzc6hmgZMYRoIsMmOGCNt2bTxrnGfSC6x5DLPLpdI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
