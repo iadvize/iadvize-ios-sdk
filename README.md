@@ -24,6 +24,12 @@ The API reference is available [here](https://iadvize.github.io/iadvize-ios-sdk/
 
 1. Ask your iAdvize Admin to create a **Mobile App** on the administration website. *If you want to enable the iAdvize SDK push notifications for your user you have to provide your APNS push certificate when you create your app on the administration website.*
 
+Having your push certificate .p12 file (a Production one, which we can use for both Sandbox and Production environment), you have to extract the Certificate and the Private key in clear text. To do so, simply run in your Terminal :
+
+`openssl pkcs12 -in AppProductionPushCertificate.p12 -out Cert.pem -nodes -clcerts`
+
+then cat Cert.pem and you can copy/paste the certificate and the private key (with their separators -----BEGIN ...----- and -----END ...-----) and provide it in the iAdvize admin web app form as printed in the Terminal.
+
 2. Ask your iAdvize Admin to create a new **Web & Mobile App** targeting campaign on the administration website and to give you the following information:
     - **projectId**: id of your project
     - **targetingRuleId(s)**: one or multiple rules which you will be able to activate in code during the user navigation (see [Targeting](#Targeting)).
@@ -81,7 +87,7 @@ end
 
 ### Activation
 
-To activate the SDK you must use the **activate** function. You also have access to a asynchronous callback in order to know if the SDK has been successfully activated (and to retry later if the activation fails):
+To activate the SDK you must use the **activate** function. You also have access to an asynchronous callback in order to know if the SDK has been successfully activated (and to retry later if the activation fails):
 
 ```swift
 IAdvizeSDK.shared.activate(projectId: projectId,
@@ -93,13 +99,19 @@ IAdvizeSDK.shared.activate(projectId: projectId,
 }
 ```
 
+You can choose between multiple authentication options:
+
+- anonymous: when you have an unidentified user browsing your app
+- simple(userId: String): when you have a logged in user in your app, you can pass a unique identifier so he will retrieve his conversation history accross multiple devices and platforms
+
+N.B. for the `simple(userId:)` authentication mode, you have to pass a unique and non-discoverable identifier for each different logged in user. Do not forget to [logout](#Logout) when the user is no longer connected in your app.
+
+
 Once the iAdvize Conversation SDK is successfully activated, you should see a success message in the console:
 
 ```
 ✅ iAdvize conversation activated, the version is x.x.x.
 ```
-
-Do not forget to [logout](#Logout) when the user is no longer connected in your app.
 
 ##### GDPR
 
@@ -122,7 +134,7 @@ By default, the SDK will **only log Warnings and Errors** in the Xcode console. 
 
 ### Targeting
 
-The targeting process is managed by the `IAdvizeSDK.shared.targetingController`
+The targeting setup is managed by the `IAdvizeSDK.shared.targetingController`
 
 #### Targeting Language
 
@@ -161,6 +173,15 @@ extension IntegrationApp: TargetingControllerDelegate {
 }
 ```
 
+This schema describes the process when you activate a targeting rule on the iAdvize SDK:
+
+![iAdvize_SDK](iAdvize_SDK_Targeting.png)
+
+You can find here a full example implementation of a custom chat button behaviour regarding the ongoing conversation and the active targeting rule status:
+
+https://gist.github.com/alexandrekarst/74da3ce5a9eaf68f7bd83eaf77c6d3dc
+
+
 #### Follow user navigation
 
 To allow iAdvize statistics to be processed you need to inform the SDK when the user navigates through your app. To do so, just call:
@@ -168,6 +189,15 @@ To allow iAdvize statistics to be processed you need to inform the SDK when the 
 ```swift
 IAdvizeSDK.shared.targetingController.registerUserNavigation()
 ```
+
+### Deactivation
+
+At any time you can deactivate the iAdvize SDK depending on your needs:
+
+- **scoped deactivation**: deactivate one or more specific targeting rules you use in your integration to disable the iAdvize SDK on specific parts of your app
+- **full deactivation**: deactivate all targeting rules you use in your integration to disable the iAdvize SDK from your app
+
+You can use the iAdvize Administration website to deactivate rule(s).
 
 ### Conversation
 
@@ -237,6 +267,23 @@ func application(_ application: UIApplication,
     }
 }
 ```
+
+#### Localization
+
+By default, the title of the notification will contain the key `iadvize_notification_title`.
+
+To localize the title, simply add the `iadvize_notification_title` key in your `Localizable.strings` file:
+
+```
+"iadvize_notification_title" = "You have received a new message";
+```
+
+#### Push notification general setup
+
+If you want to know how to setup your push notifications in your app you can follow this great tutorial:
+
+https://www.raywenderlich.com/11395893-push-notifications-tutorial-getting-started
+
 ### Chatbox
 
 The Chatbox is where the conversation takes place. The visitor can open the Chatbox by touching the Chat button.

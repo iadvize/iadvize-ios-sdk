@@ -13,7 +13,7 @@ PODS:
   - CocoaLumberjack/Swift (3.7.2):
     - CocoaLumberjack/Core
   - Gifu (3.3.1)
-  - iAdvize (2.2.7):
+  - iAdvize (2.2.8):
     - AlamofireImage (~> 4.2.0)
     - Apollo (~> 0.36.0)
     - Gifu (~> 3.3.0)
@@ -42,7 +42,7 @@ PODS:
     - XMPPFramework/default
 
 DEPENDENCIES:
-  - iAdvize (= 2.2.7)
+  - iAdvize (= 2.2.8)
 
 SPEC REPOS:
   trunk:
@@ -68,13 +68,13 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
-  iAdvize: bd8addb041e431cf0aeb2d841adcb0921e7ec7b3
+  iAdvize: d918ccd859b16af1f35bb49064f1ba1ea5dc5697
   JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: 0bb41e6ede1f2021083f68e25568da0e4b772e11
+PODFILE CHECKSUM: 98dfa2d98cc6f04ac970e7e650591cbc2dda19a5
 
 COCOAPODS: 1.11.2
