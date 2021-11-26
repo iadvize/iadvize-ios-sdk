@@ -43,7 +43,7 @@ The SDK is distributed as an XCFramework, therefore **you are required to use Co
 Add this line to your Podfile, inside the target section:
 
 ```ruby
-pod 'iAdvize', '2.2.8'
+pod 'iAdvize', '2.3.0'
 ```
 
 Add the following to the bottom of your Podfile:
@@ -70,7 +70,7 @@ inhibit_all_warnings!
 target 'YOUR_TARGET' do
     project 'YOUR_PROJECT'
 
-    pod 'iAdvize', '2.2.8'
+    pod 'iAdvize', '2.3.0'
 end
 
 post_install do |installer|
@@ -425,6 +425,23 @@ IAdvizeSDK.shared.logout()
 ```
 
 This will clear all the locally stored visitor data.
+
+## Visitor Custom Data
+
+You can save data related to the visitor conversation with the help of the `IAdvizeSDK.shared.visitorController`.
+
+```swift
+IAdvizeSDK.shared.visitorController.registerCustomData(customData:
+                                                        ["Test": .customDataString("Test"),
+                                                        "Test2": .customDataBoolean(false),
+                                                        "Test3": .customDataDouble(2.0),
+                                                        "Test4": .customDataInt(3)]) { success in
+    // completion handler
+}
+```
+
+> :warning: As those data are related to the conversation they cannot be sent if there is no ongoing conversation. Custom data registered before the start of a conversation are stored and the SDK try to send them when the converation starts.
+
 
 ## And you’re done! 💪
 

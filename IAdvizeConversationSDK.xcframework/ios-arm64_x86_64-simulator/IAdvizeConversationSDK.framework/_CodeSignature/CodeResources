@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		KdJOEq5UnWrsKas31YKKca0mKD8=
+		/p8wrKx5wR/tJd8tsqmshjGAFJw=
 		</data>
 		<key>ConversationErrorView.nib</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/IAdvizeConversationSDK-Swift.h</key>
 		<data>
-		x68jTvW8xohsHpwdH7mi/JpYBgo=
+		aPv+WYHLITnCFcm6w/+Zco/2MhM=
 		</data>
 		<key>Headers/IAdvizeConversationSDK.h</key>
 		<data>
@@ -30,55 +30,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+U7uG0DgZRzvgbM614RzDxMgHAg=
+		XIHW0bwypouZBYOkhR9R0O89AeQ=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Y8OSu06qCEhJFJOzH/zYCb6ctbg=
+		8A3FDdXnoeT+EVg7XqsUFx2fTdU=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dpefIqRbNcbhI83fMZyDZKoDQe4=
+		XjsYGu11ObNYQxvrQ944Co8Cty4=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kJPK+9W1/t0X1CFvHouvskqbRJw=
+		auahJ6UdoJDH0h7vV/yQRBUoDBE=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		Y8OSu06qCEhJFJOzH/zYCb6ctbg=
+		8A3FDdXnoeT+EVg7XqsUFx2fTdU=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		dpefIqRbNcbhI83fMZyDZKoDQe4=
+		XjsYGu11ObNYQxvrQ944Co8Cty4=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		kJPK+9W1/t0X1CFvHouvskqbRJw=
+		auahJ6UdoJDH0h7vV/yQRBUoDBE=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9KVJ1pD4Xki0aenW99lai6cEZSs=
+		qB85aR+42shCLyABemnPXZPIHZ8=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HuAjffQIaFPmLSz3dUeEqxps4zc=
+		Q18qS0WfyAwgC1qy5wfb5ScY4P8=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lgla5nVAGBs4kXfXJdaL7Ax3mdY=
+		EGHBeRyZirVYyaGlahOtMPEwig0=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		9KVJ1pD4Xki0aenW99lai6cEZSs=
+		qB85aR+42shCLyABemnPXZPIHZ8=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		HuAjffQIaFPmLSz3dUeEqxps4zc=
+		Q18qS0WfyAwgC1qy5wfb5ScY4P8=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		lgla5nVAGBs4kXfXJdaL7Ax3mdY=
+		EGHBeRyZirVYyaGlahOtMPEwig0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -162,7 +162,7 @@
 		</dict>
 		<key>schema.json</key>
 		<data>
-		6h9EM11PRU3px+jnG5LI3SnBBYU=
+		4/Un63CC9wwDqkEQPIQyq3pociE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2+wjhnt4LbPIaA83yo/3J4Efcqy4J1KWoL3lOEsCNgM=
+			yTIT8tDcR7OXFXJFNjRR3K+vWzI58jPMRc6eHJ6dmXQ=
 			</data>
 		</dict>
 		<key>ConversationErrorView.nib</key>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLNN9SNjT3xTBbTfZ0eFp69xQqf/3rhA9YVDcUc/Mew=
+			0rNJ2Bn3+BPXz1YL0aWIxESmIhUKXmDTmwKktKhP7Vg=
 			</data>
 		</dict>
 		<key>Headers/IAdvizeConversationSDK.h</key>
@@ -213,84 +213,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G5+qPxyDgVpb9uG+Aq0U+tepbPb8DD0Eoy8uxs18D6Y=
+			p8GoZg16kqEWStTCb0q0qUIwXh6NcOw1si7yjyupBDI=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MKcKdb7/Kfh5P0K0e81ZbSfETqBXUyzX0aqR+9yNT14=
+			jZ0S/41XouD1WZ5alh86u72x/cTJQY4HME05YdGtZuQ=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGO5IirzRotb/vpEJWGC74URjtnB0UmjIZ95t2saxQI=
+			nFkj43bQj2nr1Cy+FudggqqID7wZVhX46+F64IolhEQ=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G5+qPxyDgVpb9uG+Aq0U+tepbPb8DD0Eoy8uxs18D6Y=
+			p8GoZg16kqEWStTCb0q0qUIwXh6NcOw1si7yjyupBDI=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MKcKdb7/Kfh5P0K0e81ZbSfETqBXUyzX0aqR+9yNT14=
+			jZ0S/41XouD1WZ5alh86u72x/cTJQY4HME05YdGtZuQ=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGO5IirzRotb/vpEJWGC74URjtnB0UmjIZ95t2saxQI=
+			nFkj43bQj2nr1Cy+FudggqqID7wZVhX46+F64IolhEQ=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S37paBYwxx4UxIbDEaO+PnVorVNDX1mA5RCo8KupzHU=
+			+qOJb/f2j9c5gmBy5aHXI/vjFEOPCjYmhfhNSul+FuM=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1t1iMzM5DLRDfNonxOP4mstl3/1iMYOKPxAhLCkvQ8c=
+			m0ZNs0OKznQApchaYYEIEy9qL2s4HBDZlyP3CpcEQA4=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yYSzc6hmgZMYRoIsMmOGCNt2bTxrnGfSC6x5DLPLpdI=
+			vw3BgZhtI2Xgn8jgIGxRzzRy/3kXAk90HGzC3+5gxYc=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S37paBYwxx4UxIbDEaO+PnVorVNDX1mA5RCo8KupzHU=
+			+qOJb/f2j9c5gmBy5aHXI/vjFEOPCjYmhfhNSul+FuM=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1t1iMzM5DLRDfNonxOP4mstl3/1iMYOKPxAhLCkvQ8c=
+			m0ZNs0OKznQApchaYYEIEy9qL2s4HBDZlyP3CpcEQA4=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yYSzc6hmgZMYRoIsMmOGCNt2bTxrnGfSC6x5DLPLpdI=
+			vw3BgZhtI2Xgn8jgIGxRzzRy/3kXAk90HGzC3+5gxYc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -383,7 +383,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SPXlwj7U5b59VKV8b8OOGFgwg/JyH+iZDhQJL4KNI50=
+			LrVlkR1OpXVrV4QWsT6+DkhxyHidkzQi0Up/TCdjZXw=
 			</data>
 		</dict>
 	</dict>

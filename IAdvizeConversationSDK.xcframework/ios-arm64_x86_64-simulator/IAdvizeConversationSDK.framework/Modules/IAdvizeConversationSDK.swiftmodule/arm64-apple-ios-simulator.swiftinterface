@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IAdvizeConversationSDK
 import AVFoundation
 import Alamofire
@@ -24,6 +24,7 @@ import XMPPFramework
 import _Concurrency
 @_inheritsConvenienceInitializers @objc final public class ConversationController : ObjectiveC.NSObject {
   @objc weak final public var delegate: IAdvizeConversationSDK.ConversationControllerDelegate?
+  @objc deinit
   @objc final public var hasOngoingConversation: Swift.Bool {
     @objc get
   }
@@ -34,7 +35,6 @@ import _Concurrency
   #warning("Should be moved to ChatboxController")
   @objc final public func isChatboxPresented() -> Swift.Bool
   @objc override dynamic public init()
-  @objc deinit
 }
 extension IAdvizeConversationSDK.Transaction {
   @available(swift, obsoleted: 1.0)
@@ -42,6 +42,7 @@ extension IAdvizeConversationSDK.Transaction {
 }
 @objc public protocol ConversationControllerDelegate {
   @objc optional func didReceiveNewMessage(content: Swift.String)
+  @objc optional func chatboxDidClose()
   @objc func ongoingConversationStatusDidChange(hasOngoingConversation: Swift.Bool)
   @objc optional func conversationController(_ controller: IAdvizeConversationSDK.ConversationController, shouldOpen url: Foundation.URL) -> Swift.Bool
 }
@@ -300,6 +301,12 @@ public enum AuthenticationOption : Swift.Equatable {
 public enum SDKLanguageOption {
   case custom(value: IAdvizeConversationSDK.Language)
   case `default`
+}
+public enum CustomData {
+  case customDataInt(Swift.Int)
+  case customDataString(Swift.String)
+  case customDataBoolean(Swift.Bool)
+  case customDataDouble(Swift.Double)
 }
 @objc(GraphQLLanguage) public enum ObjcGraphQLLanguage : Swift.Int {
   case aa
@@ -731,6 +738,27 @@ public enum Language : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, 
   }
   public typealias AllCases = [IAdvizeConversationSDK.Language]
 }
+public enum Source : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+  public typealias RawValue = Swift.String
+  case appleBusinessChat
+  case facebook
+  case facebookBusinessOnMessenger
+  case mobileApp
+  case onsite
+  case sms
+  case twitter
+  case whatsapp
+  case __unknown(IAdvizeConversationSDK.Source.RawValue)
+  public init?(rawValue: IAdvizeConversationSDK.Source.RawValue)
+  public var rawValue: IAdvizeConversationSDK.Source.RawValue {
+    get
+  }
+  public static func == (lhs: IAdvizeConversationSDK.Source, rhs: IAdvizeConversationSDK.Source) -> Swift.Bool
+  public static var allCases: [IAdvizeConversationSDK.Source] {
+    get
+  }
+  public typealias AllCases = [IAdvizeConversationSDK.Source]
+}
 public enum ApplicationMode : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case dev
@@ -1000,7 +1028,20 @@ public enum Currency : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, 
     get
   }
 }
+public enum ActivationStatus {
+  case off
+  case activating
+  case activated
+  public static func == (a: IAdvizeConversationSDK.ActivationStatus, b: IAdvizeConversationSDK.ActivationStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_inheritsConvenienceInitializers @objc final public class IAdvizeSDK : ObjectiveC.NSObject {
+  final public var activationStatus: IAdvizeConversationSDK.ActivationStatus {
+    get
+  }
   @objc public static let shared: IAdvizeConversationSDK.IAdvizeSDK
   @objc final public var targetingController: IAdvizeConversationSDK.TargetingController {
     @objc get
@@ -1017,9 +1058,12 @@ public enum Currency : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, 
   @objc final public var chatboxController: IAdvizeConversationSDK.ChatboxController {
     @objc get
   }
+  @objc final public var visitorController: IAdvizeConversationSDK.VisitorController {
+    @objc get
+  }
   final public var logLevel: IAdvizeConversationSDK.Logger.LogLevel
   final public func activate(projectId: Swift.Int, authenticationOption: IAdvizeConversationSDK.AuthenticationOption, gdprOption: IAdvizeConversationSDK.GDPROption = .disabled, completion: ((_ success: Swift.Bool) -> Swift.Void)? = nil)
-  @objc final public func logout()
+  @objc final public func logout(completion: (() -> Swift.Void)? = nil)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1183,6 +1227,11 @@ public enum IncomingMessageAvatar {
   @objc public init(double: Swift.Double)
   @objc deinit
 }
+@_inheritsConvenienceInitializers @objc final public class VisitorController : ObjectiveC.NSObject {
+  final public func registerCustomData(customData: [Swift.String : IAdvizeConversationSDK.CustomData], completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc final public class NotificationController : ObjectiveC.NSObject {
   final public func registerPushToken(_ pushToken: Swift.String, applicationMode: IAdvizeConversationSDK.ApplicationMode)
   @objc final public func enablePushNotifications(completion: ((Swift.Bool) -> Swift.Void)? = nil)
@@ -1229,3 +1278,5 @@ extension IAdvizeConversationSDK.ObjCLoggerLogLevel : Swift.RawRepresentable {}
 extension IAdvizeConversationSDK.ObjcGraphQLApplicationMode : Swift.Equatable {}
 extension IAdvizeConversationSDK.ObjcGraphQLApplicationMode : Swift.Hashable {}
 extension IAdvizeConversationSDK.ObjcGraphQLApplicationMode : Swift.RawRepresentable {}
+extension IAdvizeConversationSDK.ActivationStatus : Swift.Equatable {}
+extension IAdvizeConversationSDK.ActivationStatus : Swift.Hashable {}
