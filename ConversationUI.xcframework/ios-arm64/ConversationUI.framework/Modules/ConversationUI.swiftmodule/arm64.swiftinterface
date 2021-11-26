@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ConversationUI
 import Alamofire
 import AlamofireImage
@@ -61,6 +61,7 @@ public protocol InputBarDelegate : AnyObject {
   func inputBar(_ inputBar: ConversationUI.InputBar, didTranslateButton button: UIKit.UIButton)
   func inputBar(_ inputBar: ConversationUI.InputBar, didUpdateBounds: CoreGraphics.CGRect)
   func inputBarTextViewDidBeginEditing(_ inputBar: ConversationUI.InputBar)
+  func inputBarTextViewDidEndEditing(_ inputBar: ConversationUI.InputBar)
   func inputBarTextViewDidChange(_ inputBar: ConversationUI.InputBar, with text: Swift.String)
 }
 extension ConversationUI.InputBarDelegate {
@@ -70,6 +71,7 @@ extension ConversationUI.InputBarDelegate {
   public func inputBar(_ inputBar: ConversationUI.InputBar, didTranslateButton button: UIKit.UIButton)
   public func inputBar(_ inputBar: ConversationUI.InputBar, didUpdateBounds: CoreGraphics.CGRect)
   public func inputBarTextViewDidBeginEditing(_ inputBar: ConversationUI.InputBar)
+  public func inputBarTextViewDidEndEditing(_ inputBar: ConversationUI.InputBar)
   public func inputBarTextViewDidChange(_ inputBar: ConversationUI.InputBar, with text: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class InputBar : ConversationUI.XibView {
@@ -87,6 +89,7 @@ extension ConversationUI.InputBarDelegate {
 }
 extension ConversationUI.InputBar : UIKit.UITextViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidEndEditing(_ textView: UIKit.UITextView)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class XibView : UIKit.UIView {
