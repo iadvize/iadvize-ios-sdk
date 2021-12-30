@@ -1,3 +1,10 @@
+# 2.3.1
+
+### Release date 2021/12/20
+
+- Allow to keep the current targeting rule while registering a user navigation
+- Bug fixes & performance improvements
+
 # 2.3.0
 
 ### Release date 2021/11/26

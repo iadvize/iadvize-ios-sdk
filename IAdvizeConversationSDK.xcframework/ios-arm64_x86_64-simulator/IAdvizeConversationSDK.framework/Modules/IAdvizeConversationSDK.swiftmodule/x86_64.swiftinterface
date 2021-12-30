@@ -53,7 +53,7 @@ extension IAdvizeConversationSDK.Transaction {
     @objc get
   }
   @objc final public func activateTargetingRule(targetingRuleId: Foundation.UUID)
-  @objc final public func registerUserNavigation()
+  final public func registerUserNavigation(navigationOption: IAdvizeConversationSDK.NavigationOption = .clearActiveRule)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -520,6 +520,11 @@ public enum Logger {
       get
     }
   }
+}
+public enum NavigationOption {
+  case clearActiveRule
+  case keepActiveRule
+  case activateNewRule(targetinRuleId: Foundation.UUID)
 }
 @objc(LoggerLogLevel) public enum ObjCLoggerLogLevel : Swift.Int {
   case verbose
@@ -1201,6 +1206,8 @@ extension IAdvizeConversationSDK.TargetingController {
   @objc final public func getLanguage() -> IAdvizeConversationSDK.ObjcSDKLanguageOption
   @available(swift, obsoleted: 1.0)
   @objc final public func setLanguage(_ language: IAdvizeConversationSDK.ObjcSDKLanguageOption)
+  @available(swift, obsoleted: 1.0)
+  @objc final public func registerUserNavigation(navigationOption: IAdvizeConversationSDK.ObjCNavigationOption? = nil)
 }
 public enum IncomingMessageAvatar {
   case url(url: Foundation.URL)
@@ -1230,6 +1237,19 @@ public enum IncomingMessageAvatar {
 @_inheritsConvenienceInitializers @objc final public class VisitorController : ObjectiveC.NSObject {
   final public func registerCustomData(customData: [Swift.String : IAdvizeConversationSDK.CustomData], completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(NavigationOption) public class ObjCNavigationOption : ObjectiveC.NSObject {
+  @available(swift, obsoleted: 1.0)
+  @objc public func initWithClearActiveRule()
+  @available(swift, obsoleted: 1.0)
+  @objc public func initWithKeepActiveRule()
+  @available(swift, obsoleted: 1.0)
+  @objc public init(withNewTargetingRuleId targetingRuleId: Foundation.UUID)
+  @available(swift, obsoleted: 1.0)
+  @objc override dynamic public init()
+  @available(swift, obsoleted: 1.0)
+  @objc public init(navigationOption: IAdvizeConversationSDK.ObjCNavigationOption)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc final public class NotificationController : ObjectiveC.NSObject {

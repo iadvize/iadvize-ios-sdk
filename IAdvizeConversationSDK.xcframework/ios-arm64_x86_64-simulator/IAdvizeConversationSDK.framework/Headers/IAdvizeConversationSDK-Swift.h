@@ -453,6 +453,17 @@ typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", open) 
   LoggerLogLevelSuccess = 4,
 };
 
+@class NSUUID;
+
+SWIFT_CLASS_NAMED("ObjCNavigationOption")
+@interface NavigationOption : NSObject
+- (void)initWithClearActiveRule SWIFT_METHOD_FAMILY(none);
+- (void)initWithKeepActiveRule SWIFT_METHOD_FAMILY(none);
+- (nonnull instancetype)initWithNewTargetingRuleId:(NSUUID * _Nonnull)targetingRuleId OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNavigationOption:(NavigationOption * _Nonnull)navigationOption OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS_NAMED("ObjcAuthenticationOption")
 @interface AuthenticationOption : NSObject
@@ -1380,7 +1391,6 @@ SWIFT_CLASS_NAMED("ObjcVisitorCustomData")
 @end
 
 @protocol TargetingControllerDelegate;
-@class NSUUID;
 
 /// An object that controls the targeting process, i.e. the workflow leading to the display or not of the chat button.
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
@@ -1398,10 +1408,6 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
 /// \param targetingRuleId The ID of the targeting rule to activate.
 ///
 - (void)activateTargetingRuleWithTargetingRuleId:(NSUUID * _Nonnull)targetingRuleId;
-/// Register the visitor navigation through the app.
-/// You should call this method each time the visitor navigates to another screen. The iAdvize SDK uses this
-/// information to compute stats.
-- (void)registerUserNavigation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1410,6 +1416,7 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
 @interface TargetingController (SWIFT_EXTENSION(IAdvizeConversationSDK))
 - (SDKLanguageOption * _Nonnull)getLanguage SWIFT_WARN_UNUSED_RESULT;
 - (void)setLanguage:(SDKLanguageOption * _Nonnull)language;
+- (void)registerUserNavigationWithNavigationOption:(NavigationOption * _Nullable)navigationOption;
 @end
 
 
@@ -1928,6 +1935,17 @@ typedef SWIFT_ENUM_NAMED(NSInteger, LoggerLogLevel, "ObjCLoggerLogLevel", open) 
   LoggerLogLevelSuccess = 4,
 };
 
+@class NSUUID;
+
+SWIFT_CLASS_NAMED("ObjCNavigationOption")
+@interface NavigationOption : NSObject
+- (void)initWithClearActiveRule SWIFT_METHOD_FAMILY(none);
+- (void)initWithKeepActiveRule SWIFT_METHOD_FAMILY(none);
+- (nonnull instancetype)initWithNewTargetingRuleId:(NSUUID * _Nonnull)targetingRuleId OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNavigationOption:(NavigationOption * _Nonnull)navigationOption OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS_NAMED("ObjcAuthenticationOption")
 @interface AuthenticationOption : NSObject
@@ -2855,7 +2873,6 @@ SWIFT_CLASS_NAMED("ObjcVisitorCustomData")
 @end
 
 @protocol TargetingControllerDelegate;
-@class NSUUID;
 
 /// An object that controls the targeting process, i.e. the workflow leading to the display or not of the chat button.
 SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
@@ -2873,10 +2890,6 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
 /// \param targetingRuleId The ID of the targeting rule to activate.
 ///
 - (void)activateTargetingRuleWithTargetingRuleId:(NSUUID * _Nonnull)targetingRuleId;
-/// Register the visitor navigation through the app.
-/// You should call this method each time the visitor navigates to another screen. The iAdvize SDK uses this
-/// information to compute stats.
-- (void)registerUserNavigation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -2885,6 +2898,7 @@ SWIFT_CLASS("_TtC22IAdvizeConversationSDK19TargetingController")
 @interface TargetingController (SWIFT_EXTENSION(IAdvizeConversationSDK))
 - (SDKLanguageOption * _Nonnull)getLanguage SWIFT_WARN_UNUSED_RESULT;
 - (void)setLanguage:(SDKLanguageOption * _Nonnull)language;
+- (void)registerUserNavigationWithNavigationOption:(NavigationOption * _Nullable)navigationOption;
 @end
 
 
