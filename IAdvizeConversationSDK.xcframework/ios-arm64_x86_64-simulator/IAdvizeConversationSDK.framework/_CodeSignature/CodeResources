@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/IAdvizeConversationSDK-Swift.h</key>
 		<data>
-		aPv+WYHLITnCFcm6w/+Zco/2MhM=
+		/aMiW6IcxfFuL6S+9gUmyb3RwQ4=
 		</data>
 		<key>Headers/IAdvizeConversationSDK.h</key>
 		<data>
@@ -30,55 +30,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XIHW0bwypouZBYOkhR9R0O89AeQ=
+		nQKQlpfV3dSyfDu2Szr09cQCJiM=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8A3FDdXnoeT+EVg7XqsUFx2fTdU=
+		PtBMZsMhSaBnmy6ONJ7NuYMYB04=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XjsYGu11ObNYQxvrQ944Co8Cty4=
+		N4y2lx63i9aocd5fHDJqT/utjew=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		auahJ6UdoJDH0h7vV/yQRBUoDBE=
+		xePvIKHsutzfhYIy0/0SGpnU5gg=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		8A3FDdXnoeT+EVg7XqsUFx2fTdU=
+		PtBMZsMhSaBnmy6ONJ7NuYMYB04=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		XjsYGu11ObNYQxvrQ944Co8Cty4=
+		N4y2lx63i9aocd5fHDJqT/utjew=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		auahJ6UdoJDH0h7vV/yQRBUoDBE=
+		xePvIKHsutzfhYIy0/0SGpnU5gg=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qB85aR+42shCLyABemnPXZPIHZ8=
+		3O4tr+08e1DH1GBGZJpNLg+6ih4=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Q18qS0WfyAwgC1qy5wfb5ScY4P8=
+		eSSjz31CCaP6UZd9noXkLCQ1Mjw=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EGHBeRyZirVYyaGlahOtMPEwig0=
+		nCSVeyaDHqh2RQOOH3Efuwh5bS8=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		qB85aR+42shCLyABemnPXZPIHZ8=
+		3O4tr+08e1DH1GBGZJpNLg+6ih4=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		Q18qS0WfyAwgC1qy5wfb5ScY4P8=
+		eSSjz31CCaP6UZd9noXkLCQ1Mjw=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		EGHBeRyZirVYyaGlahOtMPEwig0=
+		nCSVeyaDHqh2RQOOH3Efuwh5bS8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0rNJ2Bn3+BPXz1YL0aWIxESmIhUKXmDTmwKktKhP7Vg=
+			9uvcDlVwktJGHKMa1ztHyJJS7qN9C9R2wrL5rDCPKfM=
 			</data>
 		</dict>
 		<key>Headers/IAdvizeConversationSDK.h</key>
@@ -213,84 +213,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p8GoZg16kqEWStTCb0q0qUIwXh6NcOw1si7yjyupBDI=
+			82nLocvq12p6WVghjurVtsUSzFDXk0R7FGtRpAosEvY=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZ0S/41XouD1WZ5alh86u72x/cTJQY4HME05YdGtZuQ=
+			v7ilxW9hnwdUAvqJnezoWtkbuJdbNO8sXq0reh5drak=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nFkj43bQj2nr1Cy+FudggqqID7wZVhX46+F64IolhEQ=
+			tMqbp0OiQs5wsq3Mzqon+lJPwBE8h5ZNqWcskaTNHPg=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p8GoZg16kqEWStTCb0q0qUIwXh6NcOw1si7yjyupBDI=
+			82nLocvq12p6WVghjurVtsUSzFDXk0R7FGtRpAosEvY=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZ0S/41XouD1WZ5alh86u72x/cTJQY4HME05YdGtZuQ=
+			v7ilxW9hnwdUAvqJnezoWtkbuJdbNO8sXq0reh5drak=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nFkj43bQj2nr1Cy+FudggqqID7wZVhX46+F64IolhEQ=
+			tMqbp0OiQs5wsq3Mzqon+lJPwBE8h5ZNqWcskaTNHPg=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qOJb/f2j9c5gmBy5aHXI/vjFEOPCjYmhfhNSul+FuM=
+			2ShCI8LwdznAskIYtCsr6lPqOA0NiHKxpOGIwpBEfPw=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m0ZNs0OKznQApchaYYEIEy9qL2s4HBDZlyP3CpcEQA4=
+			r7huJ42P2MdcJ6tK8LzNrSDFrCbpukQlcAwoK3MxncA=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vw3BgZhtI2Xgn8jgIGxRzzRy/3kXAk90HGzC3+5gxYc=
+			T8Ep7k1mC9lgwHml5jBiym+TrVSwOAoV5V+VPqdfZ6I=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qOJb/f2j9c5gmBy5aHXI/vjFEOPCjYmhfhNSul+FuM=
+			2ShCI8LwdznAskIYtCsr6lPqOA0NiHKxpOGIwpBEfPw=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m0ZNs0OKznQApchaYYEIEy9qL2s4HBDZlyP3CpcEQA4=
+			r7huJ42P2MdcJ6tK8LzNrSDFrCbpukQlcAwoK3MxncA=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vw3BgZhtI2Xgn8jgIGxRzzRy/3kXAk90HGzC3+5gxYc=
+			T8Ep7k1mC9lgwHml5jBiym+TrVSwOAoV5V+VPqdfZ6I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
