@@ -1,27 +1,25 @@
 PODS:
-  - Alamofire (5.4.4)
+  - Alamofire (5.5.0)
   - AlamofireImage (4.2.0):
     - Alamofire (~> 5.4)
   - Apollo (0.36.0):
     - Apollo/Core (= 0.36.0)
   - Apollo/Core (0.36.0)
-  - Base64 (1.1.2)
   - CocoaAsyncSocket (7.6.5)
-  - CocoaLumberjack (3.7.2):
-    - CocoaLumberjack/Core (= 3.7.2)
-  - CocoaLumberjack/Core (3.7.2)
-  - CocoaLumberjack/Swift (3.7.2):
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - CocoaLumberjack/Swift (3.7.4):
     - CocoaLumberjack/Core
   - Gifu (3.3.1)
-  - iAdvize (2.2.8):
+  - iAdvize (2.4.0):
     - AlamofireImage (~> 4.2.0)
     - Apollo (~> 0.36.0)
     - Gifu (~> 3.3.0)
-    - JWT (~> 3.0.0-beta.12)
+    - JWTDecode (~> 2.6.3)
     - SwiftGraylog (~> 1.1.1)
     - XMPPFramework/Swift (~> 4.0.0)
-  - JWT (3.0.0-beta.14):
-    - Base64 (~> 1.1.2)
+  - JWTDecode (2.6.3)
   - KissXML (5.3.1):
     - KissXML/All (= 5.3.1)
   - KissXML/Additions (5.3.1):
@@ -42,39 +40,37 @@ PODS:
     - XMPPFramework/default
 
 DEPENDENCIES:
-  - iAdvize (= 2.2.8)
+  - iAdvize (= 2.4.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
     - Apollo
-    - Base64
     - CocoaAsyncSocket
     - CocoaLumberjack
     - Gifu
     - iAdvize
-    - JWT
+    - JWTDecode
     - KissXML
     - libidn
     - SwiftGraylog
     - XMPPFramework
 
 SPEC CHECKSUMS:
-  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
-  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
-  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
-  iAdvize: d918ccd859b16af1f35bb49064f1ba1ea5dc5697
-  JWT: ef71dfb03e1f842081e64dc42eef0e164f35d251
+  iAdvize: 1d8ab1a567950df70912b6e580eb36257cb939b5
+  JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: 98dfa2d98cc6f04ac970e7e650591cbc2dda19a5
+PODFILE CHECKSUM: 942c6453a46674ab6f07f65afce84acf4a3bfdfa
 
 COCOAPODS: 1.11.2
