@@ -44,7 +44,7 @@ public typealias ActionHandler = (ConversationUI.Action) -> Swift.Void
   @_Concurrency.MainActor(unsafe) weak public var messagesDataSource: ConversationUI.MessagesDataSource?
   @_Concurrency.MainActor(unsafe) weak public var messageDelegate: ConversationUI.MessagesDelegate?
   @_Concurrency.MainActor(unsafe) public func scrollToLastItem(at position: UIKit.UITableView.ScrollPosition = .bottom, animated: Swift.Bool = true)
-  @_Concurrency.MainActor(unsafe) public func reload(scrollingToLastItem: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func reload(scrollingToLastItem: Swift.Bool, animated: Swift.Bool)
   @objc deinit
 }
 public protocol Message {
@@ -80,6 +80,7 @@ extension ConversationUI.InputBarDelegate {
     set
   }
   @_Concurrency.MainActor(unsafe) public func dismissKeyboard()
+  @_Concurrency.MainActor(unsafe) public func openKeyboard()
   @_Concurrency.MainActor(unsafe) weak public var delegate: ConversationUI.InputBarDelegate?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var bounds: CoreGraphics.CGRect {
     @_Concurrency.MainActor(unsafe) @objc get
@@ -976,8 +977,10 @@ extension ConversationUI.ConversationViewController : UIKit.UITableViewDataSourc
 extension ConversationUI.ConversationViewController : UIKit.UITableViewDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
 }
 public enum MessageKind {
