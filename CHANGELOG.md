@@ -1,3 +1,11 @@
+# 2.4.0
+
+### Release date 2022/02/24
+
+- Add satisfaction flow
+- Fix some UI glitches in conversation view
+- Fix ProductOffer messages not showing
+
 # 2.3.1
 
 ### Release date 2021/12/20

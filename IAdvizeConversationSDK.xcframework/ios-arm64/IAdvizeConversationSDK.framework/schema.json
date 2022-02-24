@@ -6495,7 +6495,7 @@
               },
               {
                 "name": "conversationId",
-                "description": "Id of the conversion",
+                "description": "Id of the conversation",
                 "type": {
                   "kind": "NON_NULL",
                   "name": null,
@@ -12116,6 +12116,65 @@
       },
       {
         "kind": "OBJECT",
+        "name": "ChannelGroupAvailabilityStatus",
+        "description": "Number of connected users for chat availability status",
+        "fields": [
+          {
+            "name": "available",
+            "description": "Number of users currently available on chat channel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "busy",
+            "description": "Number of users currently busy on chat channel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "toggleOff",
+            "description": "Number of users currently toggled off on chat channel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
         "name": "Client",
         "description": null,
         "fields": [
@@ -12432,6 +12491,16 @@
             "defaultValue": null
           },
           {
+            "name": "answeredByHuman",
+            "description": "Filter by human answered conversations",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "defaultValue": null
+          },
+          {
             "name": "categoryIds",
             "description": "Filter by category ids",
             "type": {
@@ -12538,9 +12607,213 @@
               }
             },
             "defaultValue": null
+          },
+          {
+            "name": "routingGroupIds",
+            "description": "Filter on conversation routing group ids",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "UUID",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "roles",
+            "description": "Filter on roles (operator, manager, admin, expert, bot)",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "String",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "humanHandlingTimeUpperLimit",
+            "description": "Filter on a maximum human handling time in seconds",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Int",
+              "ofType": null
+            },
+            "defaultValue": null
           }
         ],
         "interfaces": null,
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "INPUT_OBJECT",
+        "name": "ConnectedUserFilters",
+        "description": "Criteria available to filter a list of connected users.",
+        "fields": null,
+        "inputFields": [
+          {
+            "name": "projectIds",
+            "description": "Project ids to search into.",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "LegacyId",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "routingGroupIds",
+            "description": "Filter by routing group ids",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "UUID",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "groupIds",
+            "description": "Filter by users group ids",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "LegacyId",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "userIds",
+            "description": "Filter by users ids",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "LegacyId",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "roles",
+            "description": "Filter by role (operator, manager, admin, expert, bot)",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "String",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "chatAvailability",
+            "description": "User chat availability",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "ENUM",
+                  "name": "StatsAvailabilityStatus",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          }
+        ],
+        "interfaces": null,
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "ConnectedUsersIndicator",
+        "description": "Global connected users indicators",
+        "fields": [
+          {
+            "name": "connectedUsersCount",
+            "description": "Number of users currently connected to the desk",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "countByChatAvailabilityStatus",
+            "description": "Number of users currently connected and available on by availability",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "ChannelGroupAvailabilityStatus",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
         "enumValues": null,
         "possibleTypes": null
       },
@@ -14669,9 +14942,32 @@
         "possibleTypes": null
       },
       {
+        "kind": "ENUM",
+        "name": "ConversionSource",
+        "description": "The source of the conversion",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "MOBILE_APP",
+            "description": "The conversion comes from a mobile app",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ONSITE",
+            "description": "The conversion comes from a browser",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "possibleTypes": null
+      },
+      {
         "kind": "OBJECT",
         "name": "Conversions",
-        "description": null,
+        "description": "A Conversion attributed to a conversation",
         "fields": [
           {
             "name": "transactions",
@@ -17352,6 +17648,117 @@
         "possibleTypes": null
       },
       {
+        "kind": "INPUT_OBJECT",
+        "name": "OpenConversationFilters",
+        "description": "Filters on the open conversation resource (indexed conversation)",
+        "fields": null,
+        "inputFields": [
+          {
+            "name": "projectIds",
+            "description": "Filter on iAdvize projects",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "LegacyId",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "routingGroupIds",
+            "description": "Filter by routing group ids",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "UUID",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "channels",
+            "description": "Filter on conversation channels",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "ENUM",
+                  "name": "Channel",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "groupIds",
+            "description": "Filter by user group ids",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "LegacyId",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "userIds",
+            "description": "Filter by user ids",
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "LegacyId",
+                  "ofType": null
+                }
+              }
+            },
+            "defaultValue": null
+          },
+          {
+            "name": "assigned",
+            "description": "Filter by assigned conversations",
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "defaultValue": null
+          }
+        ],
+        "interfaces": null,
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
         "kind": "ENUM",
         "name": "OrderBy",
         "description": "Order of search results",
@@ -17630,8 +18037,8 @@
               "name": "Int",
               "ofType": null
             },
-            "isDeprecated": false,
-            "deprecationReason": null
+            "isDeprecated": true,
+            "deprecationReason": "Use connectedUsersIndicator.connectedUsersCount instead"
           }
         ],
         "inputFields": null,
@@ -17656,6 +18063,18 @@
                 "name": "LegacyId",
                 "ofType": null
               }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "settings",
+            "description": "Project settings",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "ProjectSettings",
+              "ofType": null
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -17847,6 +18266,29 @@
       },
       {
         "kind": "OBJECT",
+        "name": "ProjectSettings",
+        "description": "A list of project's scoped configuration keys",
+        "fields": [
+          {
+            "name": "isSatisfactionSurveyEnabled",
+            "description": "When this option is enabled, closing of a conversation will trigger a satisfaction survey, sent to the visitor of the conversation, on compatible channels.",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
         "name": "Query",
         "description": null,
         "fields": [
@@ -17963,6 +18405,29 @@
             "type": {
               "kind": "OBJECT",
               "name": "ClientConnection",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "connectedUsersIndicator",
+            "description": "Connected users KPI",
+            "args": [
+              {
+                "name": "resourceFilters",
+                "description": "Parameters used to filter the set of connected users",
+                "type": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "ConnectedUserFilters",
+                  "ofType": null
+                },
+                "defaultValue": null
+              }
+            ],
+            "type": {
+              "kind": "OBJECT",
+              "name": "ConnectedUsersIndicator",
               "ofType": null
             },
             "isDeprecated": false,
@@ -18553,6 +19018,16 @@
                   }
                 },
                 "defaultValue": null
+              },
+              {
+                "name": "resourceFilters",
+                "description": "Parameters used to filter the set of open conversations (not closed)",
+                "type": {
+                  "kind": "INPUT_OBJECT",
+                  "name": "OpenConversationFilters",
+                  "ofType": null
+                },
+                "defaultValue": null
               }
             ],
             "type": {
@@ -18813,6 +19288,16 @@
                 "type": {
                   "kind": "SCALAR",
                   "name": "String",
+                  "ofType": null
+                },
+                "defaultValue": null
+              },
+              {
+                "name": "channel",
+                "description": "Channel used",
+                "type": {
+                  "kind": "ENUM",
+                  "name": "Channel",
                   "ofType": null
                 },
                 "defaultValue": null
@@ -19079,7 +19564,7 @@
               },
               {
                 "name": "resourceFilters",
-                "description": "Filters to limit search results",
+                "description": "WARNING: This is a work in progress, please do not rely on this argument yet, as it may be removed in future versions. Filters to limit search results",
                 "type": {
                   "kind": "INPUT_OBJECT",
                   "name": "ClosedConversationFilters",
@@ -19417,7 +19902,7 @@
             "args": [
               {
                 "name": "conversationId",
-                "description": "Id of the conversion",
+                "description": "Id of the conversation",
                 "type": {
                   "kind": "NON_NULL",
                   "name": null,
@@ -21758,6 +22243,35 @@
         "possibleTypes": null
       },
       {
+        "kind": "ENUM",
+        "name": "StatsAvailabilityStatus",
+        "description": "User availability",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "AVAILABLE",
+            "description": "Agent online and available (green).",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "BUSY",
+            "description": "Agent online but busy (orange).",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "TOGGLE_OFF",
+            "description": "Agent unavailable (red).",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "possibleTypes": null
+      },
+      {
         "kind": "OBJECT",
         "name": "TargetingRule",
         "description": null,
@@ -21819,11 +22333,43 @@
       {
         "kind": "OBJECT",
         "name": "Transaction",
-        "description": null,
+        "description": "A transaction such as a purchase",
         "fields": [
           {
-            "name": "externalConversionId",
-            "description": "Id of the conversion",
+            "name": "id",
+            "description": "Id of the transaction",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "UUID",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "project",
+            "description": "The transaction's project",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "OBJECT",
+                "name": "Project",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "platformId",
+            "description": "The transaction's platform (HA or SD)",
             "args": [],
             "type": {
               "kind": "NON_NULL",
@@ -21838,8 +22384,72 @@
             "deprecationReason": null
           },
           {
+            "name": "externalConversionId",
+            "description": "Client-side id for the transaction",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sourceVisitorId",
+            "description": "Visitor id linked to the source (vuid for example)",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "source",
+            "description": "Source of the transaction (ONSITE for example)",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "ConversionSource",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "visitorDate",
+            "description": "Date and time of the transaction in the website",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "receivedAt",
-            "description": "Received date of the transaction",
+            "description": "DEPRECATED (use visitorDate): Date and time of the transaction in the website",
             "args": [],
             "type": {
               "kind": "NON_NULL",
@@ -21871,11 +22481,87 @@
           },
           {
             "name": "currency",
-            "description": "Currency of the transaction",
+            "description": "ISO Code of the currency used for the payment",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "conversationId",
+            "description": "Id of the conversation linked to the transaction, if any",
             "args": [],
             "type": {
               "kind": "SCALAR",
-              "name": "String",
+              "name": "UUID",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "eventDate",
+            "description": "Date and time of the event",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "createdAt",
+            "description": "Date and time of the registration of the transaction in iAdvize's system",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "updatedAt",
+            "description": "Date and time of the update of the transaction in iAdvize's system",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isAuthenticated",
+            "description": "Flag that indicates whether or not the transaction was concluded by an authenticated visitor",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
               "ofType": null
             },
             "isDeprecated": false,

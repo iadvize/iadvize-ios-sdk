@@ -10,13 +10,14 @@ import CoreServices
 import Foundation
 import Gifu
 @_exported import IAdvizeConversationSDK
-import JWT
+import JWTDecode
 import MobileCoreServices
 import Photos
 import SafariServices
 import Security
 import Swift
 import SwiftGraylog
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import UserNotifications
