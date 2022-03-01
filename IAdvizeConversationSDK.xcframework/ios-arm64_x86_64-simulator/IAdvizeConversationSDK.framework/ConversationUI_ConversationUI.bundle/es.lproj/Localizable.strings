@@ -1,0 +1,1717 @@
+"account_avatar_accessibility" = "Tu imagen. Puedes pulsar encima para editar tu perfil.";
+
+/* If the user "first name", "pseudo" or "name" is missing, we want to display a default one. */
+"account_user_default_name" = "Experto";
+
+"activity_tab_bar_title" = "Actividad";
+
+"add_conversation_tag_dialog_hint" = "Nombre de la etiqueta";
+
+"add_conversation_tag_dialog_title" = "Crear una etiqueta";
+
+"all_missions" = "Todas las tareas";
+
+"already_have_an_account_message" = "¿Ya tienes una cuenta?";
+
+/* To be updated in: Swedish, Japanese and Chinese (Taiwan) */
+"android_cty_play_store_description" = "Embajador de marca o operador profesional, que estés en casa, viajando en autobús, durante un momento tranquilo en la tienda o en desplazamiento profesional, ahora puedes compartir tus conocimientos y consejos con otros internautas estés donde estés en cualquier momento. \n\nCon iAdvize, puedes: \n- Chatear con los internautas que están navegando en el sitio web de una marca\n- Recibir notificaciones cuando recibes un nuevo mensaje o se inicie una conversación \n - Navegar por todas las conversaciones activas\n- Conocer el impacto de tu trabajo a nivel de la satisfacción de los internautas y seguir la evolución del número de conversaciones gestionadas por chat\n- Si eres un miembro de la comunidad de una marca, también puedes interactuar en tiempo real con los otros embajadores a través del livefeed\n\niAdvize es una aplicación de mensajería instantánea que permite a los operadores profesionales o a los miembros de una comunidad de marca chatear con los visitantes del sitio web en tiempo real y ayudarles en su búsqueda. \nPara utilizar esta app, la marca debe aceptar o invitar previamente a los miembros o operadores.";
+
+"android_cty_play_store_description_small" = "Aconseja a los visitantes de un sitio web en cualquier momento";
+
+"android_ibbu_play_store_description_small" = "¡Únete a la comunidad de los mejores expertos ibbü y gana dinero!";
+
+"assessment_cancel_dialog_message" = "¿Estás seguro de que deseas salir de la prueba? Tus respuestas no se guardarán pero podrás volver a hacer esta prueba más tarde.";
+
+"assessment_cancel_dialog_quit" = "Salir";
+
+"assessment_ending_brand_message" = "Gracias por tu tiempo. Ahora puedes enviarnos la prueba a %@ Nos pondremos en contacto contigo en los próximos días. Hasta pronto!";
+
+"assessment_ending_visitor_bonus_message" = "¡Gracias por tus respuestas!";
+
+"assessment_ending_visitor_message" = "¡Muchas gracias por tus valiosos consejos!";
+
+"assessment_introduction_brand_bonus_message_2" = "El objetivo de este test es evaluar tu conocimiento de la marca para la que deseas convertirte en experto.";
+
+"assessment_introduction_brand_bonus_message_3" = "Podrás responder a preguntas cerradas y preguntas abiertas como en una auténtica conversación con un visitante.";
+
+"assessment_introduction_brand_message_1" = "¡Hola!";
+
+/* The %@ matches the mission skills of the quiz */
+"assessment_introduction_brand_message_2" = "El objetivo de esta prueba es evaluar tus conocimientos sobre %@.";
+
+"assessment_introduction_brand_message_3" = "Para ponerte en situación, vas a ayudar a un visitante ficticio.";
+
+"assessment_introduction_brand_message_4" = "¿Preparado?";
+
+"assessment_introduction_message_cancel_choice" = "Más tarde (cancela la prueba)";
+
+"assessment_introduction_message_confirm_choice" = "Sí, allá vamos %@";
+
+"assessment_introduction_visitor_message" = "¡Hola!";
+
+"assessment_next_question_button" = "Siguiente pregunta";
+
+"assessment_popup_button_take_the_quizz" = "Hacer la prueba";
+
+"assessment_popup_details" = "Desde ibbü queremos asegurarnos de que eres la persona adecuada para la misión. ¡Haz el test y preséntate!";
+
+"assessment_popup_title" = "¿Eres un experto?";
+
+"assessment_submit_button" = "Enviar la prueba";
+
+"assessment_thanks_visitor_message_1" = "¡Gracias!";
+
+"assessment_thanks_visitor_message_2" = "Vale, gracias.";
+
+"assessment_thanks_visitor_message_3" = "Me ha quedado más claro, ¡gracias!";
+
+"assessment_toolbar_subtitle" = "Paso %1$d de %2$d";
+
+"assessment_transfer_message" = "%@ acaba de transferirte un visitante ficticio";
+
+"asynchronous_conversation_explanation_content_1" = "¿El visitante tarda demasiado tiempo en responderte o no está en línea? ¿Quieres liberar espacio para recibir nuevas conversaciones? ¿Necesitas buscar información con otro servicio?";
+
+"asynchronous_conversation_explanation_content_1_expert" = "¿El visitante tarda demasiado en contestar o no está en línea? ¿Quieres liberar espacio para recibir nuevas conversaciones?";
+
+"asynchronous_conversation_explanation_content_2" = "No hay ningún problema, utiliza la funcionalidad de puesta en pausa. \nSe puede acceder a ella directamente con el botón de pausa.\nLa conversación desaparecerá de tu escritorio y volverá a aparecer en el de un asesor disponible en cuanto el visitante envíe un nuevo mensaje o cuando finalice el plazo que establezcas.";
+
+"asynchronous_conversation_explanation_content_2_expert" = "No hay ningún problema, utiliza la funcionalidad de puesta en pausa.\nSe puede acceder a ella directamente con el botón de pausa.\nLa conversación desaparecerá de tu escritorio y volverá a aparecer cuando el visitante envíe un nuevo mensaje o cuando finalice el plazo que hayas establecido.";
+
+"asynchronous_conversation_explanation_dialog_content_part_1" = "Este chat es asincrónico: el visitante puede haber salido del sitio web de la marca y probablemente tardará en responderte. No hay problema, puedes utilizar la función de pausa.";
+
+"asynchronous_conversation_explanation_dialog_content_part_2" = "Después de haber pulsado el botón \"Poner en pausa durante %@ h\", la conversación desaparecerá de tu lista y volverá a aparecer en la lista de un asesor que esté disponible cuando el visitante envíe un mensaje nuevo o %@ h después de haberla puesto en pausa.";
+
+"asynchronous_conversation_explanation_dialog_content_part_2_expert" = "Después de haber pulsado el botón \"Poner en pausa durante %@ h\", la conversación desaparecerá de tu lista. Cuando el visitante envíe un mensaje nuevo o %@ h después de haber puesto la conversación en pausa, esta volverá a aparecer en tu lista para tratarla y cerrarla o volverla a poner en pausa si es necesario.";
+
+"asynchronous_conversation_explanation_dialog_title" = "¿Quieres poner en pausa esta conversación?";
+
+"asynchronous_conversation_explanation_title" = "Puedes poner esta conversación en pausa.";
+
+"asynchronous_conversation_tutorial_dialog_content_1" = "Esto significa que el visitante puede haber salido del sitio web de la marca y probablemente tardará en contestarte, aquí tienes algunos consejos:";
+
+"asynchronous_conversation_tutorial_dialog_content_2" = "¿El visitante tarda demasiado en contestarte o está desconectado? ¿Quieres liberar espacio para recibir nuevas conversaciones?";
+
+"asynchronous_conversation_tutorial_dialog_content_3" = "No hay ningún problema, utiliza la función de pausa.\nPuedes acceder directamente a esta función desde el menú de cierre.\nDespués de haber pulsado el botón \"Poner en pausa durante %@ h\", la conversación desaparecerá de tu lista y volverá a aparecer en la lista de un asesor que esté disponible cuando el visitante envíe un mensaje nuevo o %@ h después de haberla puesto en pausa.";
+
+"asynchronous_conversation_tutorial_dialog_content_3_expert" = "No hay ningún problema, utiliza la función de pausa.\nPuedes acceder directamente a esta función desde el menú de cierre.\nDespués de haber pulsado el botón \"Poner en pausa durante %@ h\", la conversación desaparecerá de tu lista. Cuando el visitante envíe un mensaje nuevo o %@ h después de haber puesto la conversación en pausa, esta volverá a aparecer en tu lista para tratarla y cerrarla o volverla a poner en pausa si es necesario.";
+
+"asynchronous_conversation_tutorial_dialog_title" = "Chat asincrónico";
+
+"background_availability_offsite" = "Cuando la aplicación funciona en un segundo plano, sigues estando disponible durante 30 minutos. Sigues pudiendo recibir conversaciones nuevas.";
+
+"background_availability_onsite" = "Cuando la aplicación pasa a un segundo plano, sigues estando disponible durante 30 minutos. Si recibes una conversación, tienes 30 segundos para volver a la aplicación. De lo contrario, se reasigna y pasas a no estar disponible.";
+
+"background_availability_onsite_offsite" = "Cuando la aplicación pasa a un segundo plano, sigues estando disponible durante 30 minutos. Si recibes una conversación, tienes 30 segundos para volver a la aplicación. De lo contrario, se reasigna y pasas a no estar disponible.\nLas conversaciones que vienen de la aplicación móvil no se reasignan.";
+
+"badges_thumb_accessibility" = "Imagen del distintivo %@ que has obtenido al utilizar la solución de Community Messaging.";
+
+"badges_title" = "Todas las medallas";
+
+"badges_unlock_headline" = "Has ganado la medalla %@";
+
+"camera_usage_description" = "Esta aplicación utilizará la cámara para compartir fotos y durante las videollamadas.";
+
+"campaign_contract_status_approved" = "Solicitud aceptada";
+
+"campaign_contract_status_declined" = "Solicitud rechazada";
+
+/* Status that indicates that an expert has applied to a campaign and his appliance is still pending */
+"campaign_contract_status_sent" = "Pendiente";
+
+"campaign_contract_status_terminated" = "Terminado";
+
+"campaign_skills_auto_car" = "Coches y camiones";
+
+"campaign_skills_auto_moto" = "Motos";
+
+/* title of a category of skills */
+"campaign_skills_clothing_accessories" = "Accesorios";
+
+"campaign_skills_clothing_beauty" = "Belleza";
+
+"campaign_skills_clothing_childrens" = "Ropa de niño";
+
+"campaign_skills_clothing_glasses" = "Gafas";
+
+"campaign_skills_clothing_health" = "Salud";
+
+"campaign_skills_clothing_jewelry" = "Joyas";
+
+"campaign_skills_clothing_men" = "Ropa de hombre";
+
+"campaign_skills_clothing_perfumes" = "Perfumes";
+
+"campaign_skills_clothing_shoes" = "Zapatos";
+
+"campaign_skills_clothing_watches" = "Relojes";
+
+"campaign_skills_clothing_women" = "Ropa de mujer";
+
+"campaign_skills_collection_antiques" = "Antigüedades";
+
+"campaign_skills_collection_art" = "Arte";
+
+"campaign_skills_collection_coins" = "Monedas";
+
+"campaign_skills_collection_stamps" = "Sellos";
+
+"campaign_skills_collection_toys" = "Juguetes";
+
+"campaign_skills_DIY" = "Renovación";
+
+"campaign_skills_DIY1" = "Bricolaje";
+
+"campaign_skills_Fashion" = "Moda";
+
+"campaign_skills_Fashion1" = "Personal Shopper";
+
+"campaign_skills_hightTech_Audio" = "Sonido";
+
+"campaign_skills_hightTech_electronics" = "Informática y electrónica";
+
+/* title of a category of skills */
+"campaign_skills_hightTech_multimedia" = "Multimedia";
+
+"campaign_skills_hightTech_Phones" = "Teléfonos";
+
+"campaign_skills_hightTech_videoGames" = "Videojuegos";
+
+"campaign_skills_home_baby" = "Bebé";
+
+"campaign_skills_home_beer" = "Cerveza";
+
+"campaign_skills_home_deco" = "Hogar";
+
+/* title of a category of skills */
+"campaign_skills_home_electricity" = "Electricidad";
+
+/* title of a category of skills */
+"campaign_skills_home_energy" = "Energía";
+
+"campaign_skills_home_food" = "Comida";
+
+"campaign_skills_home_garden" = "Jardín";
+
+"campaign_skills_home_hobbies" = "Aficiones";
+
+/* title of a category of skills */
+"campaign_skills_home_householdelectrical" = "Electrodomésticos ";
+
+"campaign_skills_home_pet" = "Productos para mascotas";
+
+/* title of a category of skills */
+"campaign_skills_home_plumbing" = "Fontanería";
+
+"campaign_skills_home_tools" = "Bricolaje";
+
+"campaign_skills_home_wine" = "Vino";
+
+"campaign_skills_instruments_keyboard" = "Pianos y teclados eléctricos";
+
+"campaign_skills_instruments_percussion" = "Instrumentos de percusión";
+
+"campaign_skills_instruments_string" = "Instrumentos de cuerda";
+
+"campaign_skills_instruments_wind" = "Instrumentos de viento";
+
+"campaign_skills_media_books" = "Libros";
+
+"campaign_skills_media_movies" = "Películas";
+
+"campaign_skills_media_music" = "Música";
+
+/* title of a category of skills */
+"campaign_skills_other_services" = "Servicios";
+
+"campaign_skills_other_tourism" = "Turismo";
+
+/* title of a category of skills */
+"campaign_skills_other_training" = "Formación";
+
+"campaign_skills_running" = "Correr";
+
+"campaign_skills_running1" = "Trail";
+
+"campaign_skills_sport_cycling" = "Ciclismo";
+
+"campaign_skills_sport_fishing" = "Pesca";
+
+"campaign_skills_sport_hunting" = "Caza";
+
+"campaign_skills_sport_matial" = "Artes marciales";
+
+"campaign_skills_sport_outdoors" = "Deportes al aire libre";
+
+"campaign_skills_sport_racquet" = "Deportes de raqueta";
+
+"campaign_skills_sport_team" = "Deportes de equipo";
+
+"campaign_skills_sport_water" = "Deportes acuáticos";
+
+"campaign_skills_sport_winter" = "Deportes de invierno";
+
+"campaign_skills_video_games" = "Videojuegos";
+
+"campaign_skills_video_games1" = "Consola";
+
+/* Button to apply to a campaign */
+"campaigndetail_apply_now_button" = "Enviar candidatura";
+
+/* The status of the campaign (open, in progress...) */
+"campaigndetail_campaign_status_deleted" = "Borrada";
+
+/* The status of the campaign (open, in progress...) */
+"campaigndetail_campaign_status_inprogress" = "En curso";
+
+"campaigndetail_campaign_status_open" = "{\"one\"=>\"Empieza mañana\", \"other\"=>\"Empieza en %d días\"}";
+
+/* Inform the user that the campaign starts today */
+"campaigndetail_campaign_status_open_today" = "Empieza hoy";
+
+/* The status of the campaign (open, in progress...) */
+"campaigndetail_campaign_status_suspended" = "Suspendida";
+
+"campaigndetail_full_button" = "La campaña está completa";
+
+/* 'Campaigns List' tab title in the tab bar */
+"campaigns_list_tab_bar_title" = "Campañas";
+
+"canned_answer_categories_footer" = "Las categorías te permiten organizar tus respuestas predeterminadas.";
+
+"canned_answer_create_category" = "Crear una nueva categoría";
+
+"canned_answers" = "Respuestas pregrabadas ";
+
+"canned_answers_add_to_canned_answers" = "Añadir a las respuestas predeterminadas";
+
+"canned_answers_canned_answer" = "Respuesta predeterminada";
+
+"canned_answers_canned_answer_already_exists_error_message" = "Ya existe una respuesta predeterminada con el mismo mensaje.";
+
+"canned_answers_canned_answer_placeholder" = "Hola, ¿cómo puedo ayudarte?";
+
+"canned_answers_category" = "Categoría";
+
+"canned_answers_category_already_exists_error_message" = "Ya existe una categoría con el mismo nombre.";
+
+"canned_answers_category_placeholder" = "Nombre";
+
+"canned_answers_create_category_alert_action_create" = "Crear";
+
+"canned_answers_create_category_alert_message" = "Introduce un nombre para esta categoría.";
+
+"canned_answers_create_category_alert_title" = "Crear una categoría";
+
+"canned_answers_delete_canned_answer_alert_message" = "¿Seguro que quieres eliminar esta respuesta predeterminada?";
+
+"canned_answers_delete_canned_answer_alert_title" = "Eliminar la respuesta predeterminada";
+
+"canned_answers_delete_category_alert_message" = "Todas las respuestas predeterminadas pertenecientes a esta categoría también se eliminarán.";
+
+"canned_answers_delete_category_alert_title" = "Eliminar la categoría";
+
+"canned_answers_footer" = "Las respuestas que creas te permiten ser más eficaz al chatear con un visitante. Aparecen automáticamente en la parte superior del teclado cuando empiezas a escribir un mensaje.";
+
+"canned_answers_new_canned_answer" = "Nueva respuesta predeterminada";
+
+"canned_answers_rename_alert_action_rename" = "Renombrar";
+
+"canned_answers_rename_alert_message" = "Introduce un nuevo nombre para esta categoría.";
+
+"canned_answers_rename_alert_title" = "Renombrar la categoría";
+
+"chat_block_visitor_button_text" = "Bloquear el visitante";
+
+"chat_block_visitor_message" = "Si el comportamiento de un visitante es inapropiado (insultas, acoso), puedes bloquear su visita. Esto cerrará la conversación y el visitante ya no tendrá acceso al chat. ";
+
+"chat_close_button_text" = "Cerrar la conversación";
+
+"chat_close_message" = "¿Estás seguro de que quieres finalizar esta conversación?";
+
+/* Send button title when you compose a chat message and you want to send it */
+"chat_compose_button_send" = "Enviar";
+
+"chat_compose_hint" = "Escribe tu mensaje";
+
+"chat_item_expert_message_status" = "Enviando…";
+
+"chat_item_system_user_back" = "El internauta ha vuelto al sitio web.";
+
+"chat_item_system_user_chat_close" = "El internauta acaba de cerrar el cuadro de diálogo.";
+
+/* This is a message displayed to the expert in the chat to inform that the visitor has left the website */
+"chat_item_system_user_left" = "El visitante ha abandonado la página.";
+
+/* Menu for opening the visitor current page */
+"chat_menu_open_current_page" = "Abrir el sitio web del visitante";
+
+"chat_snooze_button_text" = "Poner en pausa durante %@ h";
+
+"chat_snooze_message" = "%@ ha puesto en pausa esta conversación";
+
+"chat_title" = "Conversación activa";
+
+"chat_transfer_message" = "%@ acaba de transferirle una visita";
+
+"chat_transfer_reason_message" = "Nota: %@";
+
+"chat_upload_expert" = "Has compartido un archivo";
+
+"chat_upload_visitor" = "Un archivo compartido contigo";
+
+"chatlist_empty_headline" = "Todavía no hay conversaciones";
+
+"chatlist_empty_subline" = "Te informaremos cuando alguien necesite tu ayuda :)";
+
+/* Displayed when user has reached its maximum number of chats allowed */
+"chatlist_max_chats" = "Has alcanzado el límite de chats simultáneos.";
+
+"chatlist_menu_popup_available" = "Disponible para chatear";
+
+"chatlist_menu_popup_available_offsite" = "Social and 3rd party apps";
+
+"chatlist_menu_popup_available_onsite" = "Website and mobile app";
+
+"chatlist_menu_popup_available_video" = "Videollamadas";
+
+"chatlist_menu_popup_logout" = "Cerrar sesión";
+
+"close" = "Cerrar";
+
+"close_conversation_title" = "Cerrar la conversación";
+
+"common_button_ok" = "Aceptar";
+
+"common_cancel" = "Cancelar";
+
+/* Chat section title where the user is able to chat */
+"common_chat_section_title" = "Chats";
+
+"common_copy" = "Copiar";
+
+"common_create" = "Crear";
+
+"common_delete_action" = "Eliminar";
+
+"common_edit_action" = "Modificar";
+
+/* Title used on action button to allow the user to filter something */
+"common_filter_title" = "Filtrar";
+
+"common_more_info" = "Saber más";
+
+"common_n_hours" = "{\"one\"=>\"%@ hora\", \"other\"=>\"%@ horas\", \"zero\"=>\"%@ horas\"}";
+
+"common_next" = "Siguiente";
+
+"common_or" = "o";
+
+"common_previous" = "Anterior";
+
+/* User Profile section title */
+"common_profile_section_title" = "Perfil";
+
+"common_reset" = "Restablecer";
+
+"common_settings" = "Ajustes";
+
+"common_skip" = "Saltar";
+
+"common_submit" = "Confirmar";
+
+"compose_file_accessibility" = "Botón para elegir un archivo para enviarlo.";
+
+"compose_image_accessibility" = "Botón para enviar una imagen desde tu cámara de fotos o desde tu galería de imágenes.";
+
+"continue_with_apple_button" = "Continuar con Apple";
+
+"continue_with_facebook_button" = "Continuar con Facebook";
+
+"continue_with_google_button" = "Continuar con Google";
+
+"conversation_item_new_message_count" = "{\"one\"=>\"%d mensaje nuevo\", \"other\"=>\"%d mensajes nuevos\"}";
+
+"conversation_load_past_conversation" = "Cargar antigua conversación";
+
+"conversation_plus_button_accessibility" = "Show more options";
+
+"conversation_send_file" = "Send file";
+
+"conversation_send_picture_from_camera" = "Take a picture";
+
+"conversation_send_picture_from_library" = "Send from library";
+
+"conversation_send_video_invitation" = "Send video invitation";
+
+"conversation_tag_already_exists_error_message" = "Ya existe una etiqueta con ese nombre.";
+
+"conversation_tags_add_title" = "Añadir una etiqueta";
+
+"conversation_tags_title" = "ETIQUETAR LA CONVERSACIÓN";
+
+"conversation_tags_title_mandatory" = "ETIQUETAR LA CONVERSACIÓN (obligatorio)";
+
+"conversation_video_escalation_accepted" = "The visitor has accepted the invitation to start a video call.";
+
+"conversation_video_escalation_ended_declined_operator" = "You have cancelled the invitation to start a video call.";
+
+"conversation_video_escalation_ended_declined_visitor" = "The visitor has declined the video call invitation.";
+
+"conversation_video_escalation_ended_hang_up_operator" = "You left the video call.";
+
+"conversation_video_escalation_ended_hang_up_visitor" = "The visitor has left the video call.";
+
+"conversation_video_escalation_invitation_join" = "Join";
+
+"conversation_video_escalation_invitation_subtitle" = "Please note that you can only send one video invitation at a time.";
+
+"conversation_video_escalation_invitation_title" = "You have sent a video invitation.";
+
+"conversation_video_indicator" = "VÍDEO";
+
+"conversation_video_visitor_will_join" = "The visitor will join you as soon as they are ready";
+
+"day_short" = "d";
+
+"dialog_connection_conflict_button_logout" = "Salir";
+
+"dialog_connection_conflict_button_reconnect" = "Volver a conectar";
+
+"dialog_connection_conflict_error_message" = "Estás conectado a otro dispositivo con la misma cuenta. Por favor, cierra la sesión anterior antes de volver a iniciar sesión en la app.";
+
+"dont_have_an_account_yet_message" = "¿Todavía no tienes una cuenta?";
+
+"edit_profile_birthdate" = "Año de nacimiento";
+
+"edit_profile_birthdate_verify" = "Debemos asegurarnos de que tienes la edad exigida para ser experto.";
+
+"edit_profile_change_picture" = "Cambiar imagen";
+
+"edit_profile_city" = "Ciudad";
+
+"edit_profile_description" = "Descripción";
+
+"edit_profile_description_hint" = "Preséntate a la comunidad y cuéntales tus aficiones.";
+
+"edit_profile_description_private" = "Tu descripción es privada y no será visible para los visitantes. ";
+
+"edit_profile_firstname" = "Nombre";
+
+"edit_profile_firstname_private" = "Solo se muestran al visitante tu nombre y tu avatar";
+
+"edit_profile_lastname" = "Apellidos";
+
+"edit_profile_lastname_private" = "Tus apellidos son privados y no serán visibles para los visitantes. ";
+
+"edit_profile_optional" = "(opcional)";
+
+"edit_profile_phone" = "Número de teléfono";
+
+"edit_profile_phone_private" = "Tu número de teléfono es privado y no será visible para los visitantes.";
+
+"expert_avatar_accessibility" = "El avatar de un experto es la imagen del perfil que le representa y que hace que la comunidad le reconozca más fácilmente.";
+
+"expert_avatar_click_accessibility" = "El avatar de un experto es la imagen del perfil que le representa y que hace que la comunidad le reconozca más fácilmente. Pulsa encima para ver su perfil.";
+
+"expert_profile_title" = "Perfil";
+
+"expertise_category_header" = "Elige uno o varios campos de especialización para que podamos enviarte misiones que se correspondan con tus capacidades.";
+
+"expertise_category_title" = "¿Cuál es tu especialidad?";
+
+"expertise_count" = "%d campos de especialidad";
+
+"expertise_header" = "Elige la especialidad que mejor describa tus capacidades. Se trata de una selección múltiple. Nos permite enviarte las asignaciones apropiadas.";
+
+"forgot_already_member_link" = "Conéctate";
+
+"forgot_already_member_message" = "¿Ya miembro?";
+
+"forgot_back_login" = "Volver a login";
+
+"forgot_headline" = "No recuerdo mi contraseña";
+
+"forgot_send_link" = "Reiniciar";
+
+"forgot_subline" = "Indica la dirección de correo electrónico asociada a tu cuenta y te enviaremos un enlace para restablecer tu contraseña.";
+
+"forgot_success_headline" = "Exito";
+
+"forgot_success_subline" = "Hemos enviado un email a %@ con las instrucciones.";
+
+"global_action_retry" = "Vuelve a intentarlo";
+
+/* A slide down banner to inform the user that he lost his internet connection and his currently offline. */
+"global_banner_no_internet_connection" = "Sin conexión a Internet";
+
+/* Banner displayed when user has an internet connection but is trying to reconnect to the solution */
+"global_banner_reconnection" = "Conectando de nuevo...";
+
+/* When they were an unknown error while processing the user's request */
+"global_request_failed_error" = "¡Ups! Ha ocurrido un error. Inténtalo de nuevo.";
+
+"global_request_failed_short_error" = "Ups, se ha producido un error...";
+
+"hour_short" = "h";
+
+"iadvize_academy" = "iAdvize Academy";
+
+"ibbu_academy" = "ibbü Academy";
+
+"ibbu_edit_profile_description_hint" = "Preséntate al equipo de ibbü y cuéntales tu experiencia.";
+
+"ibbu_edit_profile_description_private" = "Tu descripción se mostrará en el Livefeed para presentarte a los otros expertos.";
+
+"ibbu_edit_profile_lastname_private" = "Tu nombre aparece en el Livefeed y será utilizado para generar las facturas bajo tu nombre.";
+
+"ibbu_expertises_beautyAndHealth_bodyCareProducts" = "Productos de cuidado corporal";
+
+"ibbu_expertises_beautyAndHealth_cosmetics" = "Cosméticos";
+
+"ibbu_expertises_beautyAndHealth_nutritionAndDietetics" = "Nutrición y dietética";
+
+"ibbu_expertises_beautyAndHealth_wellBeingAndnaturopathy" = "Bienestar y naturopatía";
+
+"ibbu_expertises_category_beautyAndHealth" = "Belleza y salud";
+
+"ibbu_expertises_category_childhood" = "Infancia";
+
+"ibbu_expertises_category_diy" = "DIY";
+
+"ibbu_expertises_category_entertainment" = "Entretenimiento";
+
+"ibbu_expertises_category_fashion" = "Moda";
+
+"ibbu_expertises_category_highTech" = "Alta tecnología";
+
+"ibbu_expertises_category_house" = "Hogar";
+
+"ibbu_expertises_category_lifeStyle" = "Estilo de vida";
+
+"ibbu_expertises_category_sportAndOutdoorActivities" = "Deporte y actividades al aire libre";
+
+"ibbu_expertises_category_travel" = "Viajes";
+
+"ibbu_expertises_category_vehicles" = "Vehículos";
+
+"ibbu_expertises_childhood_childcare" = "Cuidado de niños";
+
+"ibbu_expertises_childhood_kidsFashion" = "Moda de niños";
+
+"ibbu_expertises_childhood_toysAndGames" = "Juguetes y juegos";
+
+"ibbu_expertises_diy_carpentry" = "Carpintería";
+
+"ibbu_expertises_diy_electricity" = "Electricidad";
+
+"ibbu_expertises_diy_painting" = "Pintura";
+
+"ibbu_expertises_diy_plumbing" = "Fontanería";
+
+"ibbu_expertises_diy_structuralWork" = "Trabajo estructural";
+
+"ibbu_expertises_diy_toolsAndHardware" = "Herramientas y equipos";
+
+"ibbu_expertises_entertainment_arts" = "Arte";
+
+"ibbu_expertises_entertainment_consolesVideoGames" = "Videoconsolas y videojuegos";
+
+"ibbu_expertises_entertainment_literature" = "Literatura";
+
+"ibbu_expertises_entertainment_music" = "Música";
+
+"ibbu_expertises_entertainment_onlineGambling" = "Apuestas en línea";
+
+"ibbu_expertises_fashion_jewelryAndAccessories" = "Joyas y accesorios";
+
+"ibbu_expertises_fashion_leatherGoodsAndLuggage" = "Artículos de cuero y equipaje";
+
+"ibbu_expertises_fashion_mensFashion" = "Moda de hombre";
+
+"ibbu_expertises_fashion_shoes" = "Calzado";
+
+"ibbu_expertises_fashion_womensFashion" = "Moda de mujer";
+
+"ibbu_expertises_highTech_audioAndHiFi" = "Audio y hi-fi";
+
+"ibbu_expertises_highTech_computing" = "Informática";
+
+"ibbu_expertises_highTech_electronicCigarette" = "Cigarrillo electrónico";
+
+"ibbu_expertises_highTech_photoAndCamcorders" = "Cámaras de fotos y de vídeo";
+
+"ibbu_expertises_highTech_smartHome" = "Hogar inteligente";
+
+"ibbu_expertises_highTech_smartphonesAndTablets" = "Smartphones y tablets";
+
+"ibbu_expertises_highTech_tvAndHomeCinema" = "TV y home cinema";
+
+"ibbu_expertises_house_bedding" = "Ropa de cama";
+
+"ibbu_expertises_house_furniture" = "Muebles (muebles del hogar)";
+
+"ibbu_expertises_house_gardening" = "Jardinería";
+
+"ibbu_expertises_house_householdAppliances" = "Electrodomésticos";
+
+"ibbu_expertises_house_interiorDecoration" = "Decoración de interiores";
+
+"ibbu_expertises_house_pets" = "Mascotas";
+
+"ibbu_expertises_house_tableware" = "Vajilla";
+
+"ibbu_expertises_lifeStyle_experiencesToOffer" = "Experiencias que ofrecer";
+
+"ibbu_expertises_lifeStyle_food" = "Comida";
+
+"ibbu_expertises_lifeStyle_luxury" = "Lujo";
+
+"ibbu_expertises_lifeStyle_spirits" = "Licores";
+
+"ibbu_expertises_lifeStyle_wine" = "Vino";
+
+"ibbu_expertises_sportAndOutdoorActivities_boating" = "Navegación";
+
+"ibbu_expertises_sportAndOutdoorActivities_climbing" = "Escalada";
+
+"ibbu_expertises_sportAndOutdoorActivities_combatSports" = "Deportes de combate";
+
+"ibbu_expertises_sportAndOutdoorActivities_fitnessStrengthTraining" = "Fitness - Entrenamiento de fuerza";
+
+"ibbu_expertises_sportAndOutdoorActivities_hiking" = "Senderismo";
+
+"ibbu_expertises_sportAndOutdoorActivities_horsebackRiding" = "Equitación";
+
+"ibbu_expertises_sportAndOutdoorActivities_racquetSports" = "Deportes de raqueta";
+
+"ibbu_expertises_sportAndOutdoorActivities_running" = "Running";
+
+"ibbu_expertises_sportAndOutdoorActivities_teamSports" = "Deportes de equipo";
+
+"ibbu_expertises_sportAndOutdoorActivities_waterSports" = "Deportes acuáticos";
+
+"ibbu_expertises_sportAndOutdoorActivities_winterSports" = "Deportes de invierno";
+
+"ibbu_expertises_travel_airlines" = "Aerolíneas";
+
+"ibbu_expertises_travel_camping" = "Camping";
+
+"ibbu_expertises_travel_cruises" = "Cruceros";
+
+"ibbu_expertises_travel_hotelsAndClubs" = "Hoteles y clubs";
+
+"ibbu_expertises_travel_publicTransportation" = "Transporte público";
+
+"ibbu_expertises_travel_travelAgencies" = "Agencias de viajes";
+
+"ibbu_expertises_vehicles_bikes" = "Bicicletas";
+
+"ibbu_expertises_vehicles_campers" = "Autocaravanas";
+
+"ibbu_expertises_vehicles_cars" = "Coches";
+
+"ibbu_expertises_vehicles_motorcycles" = "Motocicletas";
+
+"ibbu_expertises_vehicles_urbanMobility" = "Movilidad urbana";
+
+/* Error message to inform the user that his username or password is not valid */
+"ibbu_login_error_message_invalid_information" = "Error en la dirección de correo electrónico o en la contraseña. Por favor, vuelve a intentarlo.";
+
+"ibbu_login_join_us_link" = "¡Encuéntranos aquí!";
+
+"ibbu_login_join_us_title" = "¿Quieres unirte a nosotros y saber más sobre ibbü?";
+
+/* Email text field placeholder to inform the user that he must fill this field with his email address */
+"ibbu_login_textfield_email" = "Tu dirección de correo electrónico";
+
+/* Password text field placeholder to inform the user that he must fill this field with his password */
+"ibbu_login_textfield_password" = "Tu contraseña";
+
+"ibbu_login_title" = "Tu autenticidad al servicio de los internautas";
+
+/* iOS App Store ibbü application description */
+"ios_ibbu_app_store_description" = "¡Únete a la comunidad de los mejores expertos y gana dinero!\n\nTrabaja cuando quieras y desde donde quieras chateando con los internautas que necesitan ayuda. Conéctate cuando puedas y gana hasta 25€/hora respondiendo a las preguntas y dudas de los usuarios. \n\nCon ibbü para iOS, puedes: \n- Elegir tus campañas y ser seleccionado/a por tu especialización.\n- Unirte a la comunidad ibbü y chatear cuando quieras. \n- Recibir automáticamente las preguntas de los internautas que necesiten tu ayuda cuando estés conectado/a. \n- Hacer un seguimiento del impacto de tu trabajo, de la satisfacción de los clientes y de la evolución de tu remuneración. \n\nibbü es la primera comunidad de expertos remunerados por llevar a cabo un servicio de atención al cliente de las marcas. Cualquier experto o apasionado  de algún tema puede sacar partido de su afición y ganar dinero compartiendo sus conocimientos con los internautas que buscan asesoramiento en tiempo rea";
+
+"join_ibbu" = "Unirse a ibbü";
+
+"latest_available_missions" = "Las últimas tareas disponibles";
+
+/* Abbreviation for "Conversations", should be kept to 5 characters max */
+"leaderboard_conversations_abbreviation" = "Conv.";
+
+"leaderboard_date_range" = "Del %@ al %@ ";
+
+"leaderboard_no_ranking_available" = "No hay clasificación disponible para esta misión.";
+
+"leaderboard_points_explanation_details" = "1 punto por conversación\n3 puntos por satisfacción recibida de 4 o 5\n6 puntos por felicitación recibida";
+
+"leaderboard_points_explanation_title" = "Los puntos se atribuyen según las siguientes modalidades:";
+
+"leaderboard_position_current" = "Tu posición actual es: %d ";
+
+"leaderboard_position_empty" = "No has participado esta semana :(";
+
+"leaderboard_position_past" = "Tu posición era: %d ";
+
+"leaderboard_satisfaction_abbreviation" = "Sat. ≥ 4";
+
+"leaderboard_week_current" = "Esta semana";
+
+"leaderboard_week_last" = "La semana pasada";
+
+"leaderboard_week_past" = "Hace %d semanas";
+
+"leaderboards" = "Clasificaciones";
+
+"legal_documents_identity_proof" = "Documento de identidad, pasaporte o carnet de conducir en periodo de validez";
+
+"legal_information_billing_address" = "Dirección";
+
+"legal_information_billing_address_header" = "Dirección de la estructura";
+
+/* Need to be a localized address */
+"legal_information_billing_address_placeholder" = "Ronda de valencia 5";
+
+"legal_information_billing_city" = "Ciudad";
+
+/* Need to be a localized city */
+"legal_information_billing_city_placeholder" = "Madrid";
+
+"legal_information_billing_information_detail" = "Necesitamos esa información para poder pagarte y generar tus facturas mensuales.";
+
+"legal_information_billing_information_title" = "Información de facturación";
+
+"legal_information_billing_name" = "Nombre y apellido";
+
+"legal_information_billing_name_footer" = "Esta información aparecerá en tus facturas";
+
+/* Need to be a localized name */
+"legal_information_billing_name_placeholder" = "Francisco Pérez";
+
+"legal_information_billing_registration_number" = "Número de SIRET";
+
+/* No need to be translated */
+"legal_information_billing_registration_number_placeholder" = "732 829 320 00074";
+
+"legal_information_billing_vat_number" = "Número de IVA";
+
+"legal_information_billing_vat_number_footer" = "Estás sujeto a IVA, indica el número de IVA. Es obligatorio indicarlo en tu factura.";
+
+/* No need to be translated */
+"legal_information_billing_vat_number_placeholder" = "FR 40932000074";
+
+"legal_information_billing_vat_rate" = "Tasa de IVA";
+
+"legal_information_billing_zip" = "Código postal";
+
+/* Need to be a localized zip */
+"legal_information_billing_zip_placeholder" = "28012";
+
+"legal_information_country" = "País de registro de la condición";
+
+"legal_information_country_detail" = "Indica el país en el que está registrada (o lo estará) tu condición jurídica. Se te pagará en la moneda del país.";
+
+"legal_information_date_of_birth" = "Fecha de nacimiento";
+
+"legal_information_document_status_failed" = "Documento no válido";
+
+"legal_information_document_status_in_progress" = "Verificación en curso...";
+
+"legal_information_document_status_succeeded" = "Confirmado";
+
+"legal_information_document_upload_button" = "Descargar";
+
+"legal_information_document_upload_confirmation" = "Una vez enviado, el documento no se puede modificar, ¿estás seguro de querer enviarlo?";
+
+"legal_information_documents_detail" = "Carga los documentos legales imprescindibles para empezar a ayudar a los visitantes y recibir remuneración.";
+
+"legal_information_documents_header" = "Carga los documentos legales imprescindibles para empezar a ayudar a los visitantes y recibir remuneración.";
+
+"legal_information_documents_title" = "Documentos";
+
+/* it is a button on which the user clicks to access a form and to complete the form with the right info. */
+"legal_information_fill_in_button" = "Rellenar";
+
+"legal_information_general_information_confirm" = "Confirmar";
+
+"legal_information_general_information_confirm_alert" = "Confirmo que el país de registro indicado es correcto y entiendo que esta información no podrá modificarse posteriormente.";
+
+"legal_information_general_information_detail" = "La primera información necesaria para la creación definitiva de tu cuenta ibbü.";
+
+"legal_information_general_information_header" = "La primera información necesaria para la creación definitiva de tu cuenta ibbü.";
+
+"legal_information_general_information_title" = "Información general";
+
+"legal_information_header_detail" = "Para convertirte en experto ibbü en misiones remuneradas, la ley te obliga a tener una estructura jurídica vinculada con esta actividad.\nRellena las siguientes tarjetas y déjate guiar.";
+
+"legal_information_header_title" = "Bienvenido/a, %@:";
+
+"legal_information_identity_proof" = "Documento de identidad, pasaporte o carnet de conducir en periodo de validez.";
+
+"legal_information_identity_proof_footer" = "El documento de identidad debe aparecer por las dos caras en un solo documento.";
+
+"legal_information_identity_proof_header" = "DOCUMENTOS DEFINITIVOS (obligatorio si depones de una condición jurídica)";
+
+"legal_information_legal_type" = "Tipo de condición";
+
+"legal_information_legal_type_business" = "Empresa";
+
+/* Keep the acronyms like in French or English examples! */
+"legal_information_legal_type_business_detail" = "Este tipo se corresponde con las condiciones de empresa, EURL, SL, SA, SAS, SC...";
+
+"legal_information_legal_type_detail" = "Selecciona el tipo de condición bajo la que ejerces tu actividad de experto ibbü.";
+
+"legal_information_legal_type_footer" = "¿Tienes dudas sobre el tipo de condición? Consulta la base de conocimientos, allí encontrarás información que te servirá de guía.";
+
+"legal_information_legal_type_header" = "Elige el tipo de condición que vas a utilizar para ejercer tu nueva actividad en ibbü. No olvides que tu estructura debe estar vinculada con la actividad de ibbü.";
+
+"legal_information_legal_type_natural" = "Persona física";
+
+"legal_information_legal_type_organization" = "Organización";
+
+"legal_information_legal_type_soletrader" = "Empresario";
+
+"legal_information_legal_type_soletrader_detail" = "Elegir si eres autoempleado.";
+
+"legal_information_nationality" = "Nacionalidad";
+
+"legal_information_non_french_button" = "Finalizar mi perfil legal";
+
+"legal_information_non_french_message" = "Parece que tu condición jurídica está registrada en un país diferente a Francia. Te invitamos a continuar con la inscripción a través de un formulario en línea.\nPodrás chatear y podremos pagarte cuando hayas completado este proceso.";
+
+"legal_information_non_soletrader_message" = "Parece que tu condición jurídica se corresponde con una empresa. Te invitamos a continuar la inscripción a través de un formulario en línea.\nPodrás chatear y podemos pagarte en cuanto hayas completado este proceso.";
+
+"legal_information_payment_detail" = "Te pagaremos cada semana por transferencia a tu cuenta bancaria.";
+
+"legal_information_payment_footer" = "Podremos pagarte en cuanto nos hayas enviado los documentos necesarios.";
+
+"legal_information_payment_header" = "Te pagaremos cada semana por transferencia a tu cuenta bancaria.";
+
+"legal_information_payment_iban" = "IBAN";
+
+"legal_information_payment_iban_error" = "El IBAN introducido es incorrecto.";
+
+"legal_information_payment_iban_placeholder" = "FR7630004000031234567890143";
+
+"legal_information_payment_title" = "Recibir mi remuneración";
+
+"legal_information_registration_proof" = "Prueba de registro legal";
+
+"legal_information_registration_proof_footer" = "El documento definitivo de registro legal con fecha de hace menos de tres meses.";
+
+"legal_information_registration_receipt" = "Resguardo de la solicitud de registro legal";
+
+"legal_information_registration_receipt_footer" = "Este documento es necesario para empezar a ayudar a los visitantes mientras obtienes tu condición definitiva.";
+
+"legal_information_registration_receipt_header" = "DOCUMENTO TEMPORAL (obligatorio si tu condición jurídica se está creando)";
+
+"licenses_title" = "Licencias";
+
+/* Displayed when they were new publications and a refresh is needed */
+"livefeed_banner_see_news" = "Publicaciones nuevas";
+
+/* E.g.: "Ryan Powers on Nike" */
+"livefeed_category_prefix" = "en";
+
+"livefeed_comment_header_text" = "Cargar comentarios";
+
+"livefeed_comments_count" = "{\"one\"=>\"%d comentario\", \"other\"=>\"%d comentarios\", \"zero\"=>\"Ningún comentario\"}";
+
+"livefeed_comments_empty_subtitle" = "Parece que todavía no se han publicado comentarios. ¡Empieza una conversación!";
+
+"livefeed_comments_empty_title" = "¡Todavía no hay comentarios!";
+
+"livefeed_content_edited" = "Modificado";
+
+"livefeed_delete_comment_confirmation_message" = "¿Seguro que quieres eliminar este comentario?";
+
+"livefeed_delete_publication_confirmation_message" = "¿Seguro que quieres eliminar esta publicación?";
+
+"livefeed_edit_comment_compose_title" = "Modificar el comentario";
+
+"livefeed_edit_publication_title" = "Modificar la publicación";
+
+/* livefeed */
+"livefeed_elapsed_time_days" = "{\"one\"=>\"Ayer\", \"other\"=>\"Hace %dd\", \"zero\"=>\"Hoy\"}";
+
+"livefeed_elapsed_time_hours" = "{\"one\"=>\"Hace %dh\", \"other\"=>\"Hace %dh\", \"zero\"=>\"Hace %dh\"}";
+
+"livefeed_elapsed_time_minutes" = "{\"one\"=>\"Hace %dm\", \"other\"=>\"Hace %dm\", \"zero\"=>\"Hace %dm \"}";
+
+"livefeed_elapsed_time_seconds" = "{\"one\"=>\"Hace %ds \", \"other\"=>\"Hace %ds \", \"zero\"=>\"Hace %ds \"}";
+
+"livefeed_empty_publications_message" = "Hasta ahora no hay nada";
+
+"livefeed_empty_publications_subline" = "¿A qué esperas? Preséntate en el Livefeed :) ";
+
+"livefeed_filter_all" = "Todas las campañas";
+
+"livefeed_followers_community_manager" = "Community manager";
+
+"livefeed_important_publication_message" = "Publicación importante";
+
+"livefeed_liked_by_me" = "Te gusta";
+
+"livefeed_liked_by_me_and_someone" = "Te gusta a ti y a %@ ";
+
+"livefeed_liked_by_me_someone_and_others" = "{\"one\"=>\"Te gusta a ti, %1$@ y %2$d \", \"other\"=>\"Te gusta a ti, %1$@ y %2$d otros\"}";
+
+"livefeed_liked_by_someone" = "Moderado por %@";
+
+"livefeed_liked_by_someone_and_others" = "{\"one\"=>\"Le gusta a %1$@ y %2$d\", \"other\"=>\"Le gusta a %1$@ y %2$d otros\"}";
+
+/* We keep the word "Like" in all languages */
+"livefeed_likes_count" = "{\"one\"=>\"%d me gusta\", \"other\"=>\"%d me gusta\", \"zero\"=>\"%d me gusta\"}";
+
+"livefeed_likes_me" = "Cuenta";
+
+"livefeed_likes_me_and_someone" = "Tú y %@";
+
+"livefeed_likes_me_someone_and_others" = "{\"one\"=>\"Tú, %1$@ y %2$d persona más \", \"other\"=>\"Tú, %1$@ y %2$d personas más\"}";
+
+"livefeed_likes_someone_and_others" = "{\"one\"=>\"%1$@ y %2$d otra persona\", \"other\"=>\"%1$@ y %2$d otras personas\"}";
+
+"livefeed_likes_title" = "Likes";
+
+"livefeed_new_button" = "Nuevo";
+
+"livefeed_new_comment_button_post" = "Publicar";
+
+"livefeed_new_comment_placeholder" = "Escribir un comentario...";
+
+"livefeed_new_publication_cancel_discard" = "Descartar";
+
+"livefeed_new_publication_cancel_message" = "¿Seguro que deseas descartar esta publicación?";
+
+"livefeed_new_publication_now" = "Ahora";
+
+/* Title of the view which allow the user to choose a livefeed name on which he wants to post his new publication */
+"livefeed_new_publication_on_simple_title" = "Publicar en";
+
+"livefeed_new_publication_placeholder" = "¿Qué hay de nuevo?";
+
+"livefeed_new_publication_share_title" = "Compartir en";
+
+"livefeed_new_publication_title" = "Nueva publicación";
+
+"livefeed_no_website_publications_message" = "No hay datos disponibles por el momento. Aplica a tu primera campaña.";
+
+/* The variable means that the expert post a message on a specific campaign. */
+"livefeed_publication_on" = "%@ en %@";
+
+"livefeed_publication_title" = "Publicación";
+
+"livefeed_see_more_button" = "ver más";
+
+"livefeed_tab_bar_title" = "Livefeed";
+
+"livefeed_upload_failed" = "Error al enviar";
+
+"login_button_connect" = "iniciar sesión";
+
+"login_button_forgot" = "¿Has olvidado la contraseña?";
+
+"login_error_message_connection_problem" = "Verifica tu conexión a internet. ";
+
+"login_error_message_invalid_email" = "Ups! Esta dirección de email no existe.";
+
+"login_error_message_invalid_information" = "¡Ups! La combinación de dirección de correo electrónico/ contraseña no es correcta.";
+
+/* Inform the user that his session has expired */
+"login_error_message_session_expired" = "Tu sesión ha caducado. Vuelve a iniciar sesión.";
+
+"login_error_title" = "Error de conexión";
+
+"login_invalid_credentials" = "Tu correo electrónico y contraseña no coinciden. ¿Quieres restablecer tu contraseña?";
+
+"login_textfield_email" = "Dirección de correo electrónico";
+
+"login_textfield_password" = "Contraseña";
+
+"login_title" = "Iniciar sesión";
+
+"max_chat_footer_message" = "Para una buena práctica: te aconsejamos no tratar más de dos chats simultáneamente en el móvil. Esta modificación se aplicará también a la versión web.";
+
+"max_chat_title" = "Chats simultáneos";
+
+"max_chat_value" = "{\"one\"=>\"%d chat\", \"other\"=>\"%d chats\", \"zero\"=>\"%d chat\"}";
+
+"media_close_button_accessibility" = "Cruz para cerrar una imagen en modo pantalla completa.";
+
+"media_fullscreen_accessibility" = "Imagen mostrada en modo pantalla completa en tu dispositivo.";
+
+"media_thumb_accessibility" = "Una imagen mostrada en tu pantalla.";
+
+"microphone_usage_description" = "Esta aplicación utilizará el micrófono durante las videollamadas.";
+
+"minute_short" = "m";
+
+/* Describe a mission that is not paid. Instead, experts may receive gifts (incentive). */
+"mission_bonus" = "Bonus";
+
+"mission_detail_banner_accessibility" = "La imagen que representa el contexto de la misión aparece detallada en la página.";
+
+"mission_detail_logo_accessibility" = "Logo elegido para la misión detallado en la página.";
+
+"mission_list_empty_headline" = "¡No hay ninguna misión activa!";
+
+"mission_payment_per_chat" = "%@ por chat";
+
+"mission_payment_per_transaction" = "%@ por transacción";
+
+"missions_contracts_status_declined" = "Rechazado";
+
+"missions_contracts_status_in_progress" = "En curso";
+
+"missions_contracts_status_terminated" = "terminado";
+
+"missions_contracts_status_waiting_for_results" = "pendiente";
+
+"missions_status_live" = "En vivo";
+
+"missions_status_soon" = "Pronto";
+
+"my_applications" = "Mis candidaturas";
+
+"my_latest_missions" = "Mis tareas recientes";
+
+"my_missions" = "Mis misiones";
+
+"navigation_livefeed_title" = "Community";
+
+"notification_campaign_channel" = "Campañas";
+
+"notification_conversation_channel" = "Conversaciones";
+
+"notification_conversation_service" = "En funcionamiento. Tocar para abrir.";
+
+"notification_livefeed_channel" = "Livefeed";
+
+"notification_new_chat" = "Nueva conversación";
+
+"notification_new_chat_message" = "Nuevo mensaje";
+
+"notification_other_channel" = "Otros";
+
+"notification_preferences_application_accepted_refused_parent" = "Respuestas a tus candidaturas ";
+
+"notification_preferences_badge_parent" = "Nuevas medallas";
+
+"notification_preferences_email_title" = "Por email";
+
+"notification_preferences_empty_headline" = "No hay ningún parámetro para las notificaciones";
+
+"notification_preferences_empty_subline" = "Vuelve más tarde por favor :)";
+
+"notification_preferences_mobile_title" = "En móvil";
+
+"notification_preferences_publication_commented" = "Comentarios en tus publicaciones";
+
+"notification_preferences_publication_created" = "Publicaciones de la marca";
+
+"notification_preferences_publication_liked" = "Tus publicaciones con \"Me gusta\"";
+
+"notification_preferences_satisfaction" = "Satisfacción del visitante";
+
+"notification_preferences_title" = "Notificaciones";
+
+"notification_satisfaction_channel" = "Satisfacción";
+
+"notification_transferred_conversation_body" = "%@ te ha transferido una conversación";
+
+"notification_transferred_conversation_title" = "Has recibido un nuevo mensaje";
+
+"notification_video_call_channel" = "Videollamada";
+
+"off_site_conversation_chatlist_max_chats_message" = "Puedes continuar recibiendo conversaciones de aplicaciones móviles.";
+
+"off_site_conversation_close_cancel_button" = "Guardar";
+
+"off_site_conversation_close_message" = "Eh, ¡espera un segundo!\n\nEste visitante te envía mensajes desde una aplicación móvil y probablemente no contestará enseguida. ¿Por qué no guardas esta conversación para más tarde? Puede que te responda en unas horas.";
+
+"off_site_conversation_close_message_new" = "Eh, ¡espera un segundo!\n\nEste visitante te envía mensajes desde una aplicación móvil y probablemente no contestará enseguida. ¿Por qué no suspendes la conversación mientras responde?";
+
+"off_site_conversation_explanation_dialog_content" = "Esto significa que el visitante puede tardar en contestarte. Aquí tienes algunos trucos para gestionar mejor este tipo de conversaciones:";
+
+"off_site_conversation_explanation_dialog_content_part_1" = "Puedes atender otras conversaciones mientras esperas una respuesta del visitante. Tómate tu tiempo y guarda la conversación que estás teniendo con el visitante para después. Si el visitante no responde en 12 horas, finalizaremos automáticamente la conversación.";
+
+"off_site_conversation_explanation_dialog_content_part_1_new" = "Si el visitante no te responde rápidamente, puedes suspender la conversación y encargarte de otros mensajes. La conversación desaparecerá de tu aplicación y volverá a aparecer cuando el visitante envíe un mensaje nuevo.";
+
+"off_site_conversation_explanation_dialog_content_part_2" = "El límite de conversaciones simultáneas no afecta a las conversaciones que provienen de aplicaciones móviles, por eso puedes guardar estas conversaciones siempre que quieras.";
+
+"off_site_conversation_explanation_dialog_title" = "Esta conversación viene de la aplicación móvil %@ ";
+
+"off_site_conversation_explanation_dialog_title_part_1" = "Guarda esta conversación un poco más de lo normal";
+
+"off_site_conversation_explanation_dialog_title_part_1_new" = "Mantén esta conversación un poco más de tiempo de lo habitual para darle tiempo al visitante para que responda";
+
+"off_site_conversation_explanation_dialog_title_part_2" = "Contesta a otros visitantes";
+
+"off_site_conversation_from_the_app_message" = "Enviado desde la aplicación %@ ";
+
+"off_site_conversation_max_chat_footer_message" = "El límite no afecta a las conversaciones que provienen de aplicaciones móviles.";
+
+"off_site_conversation_tutorial_dialog_button" = "Entendido";
+
+"off_site_conversation_tutorial_dialog_content" = "Ahora puedes recibir conversaciones de las aplicaciones móviles de las marcas con las que colaboras. Los visitantes pueden tardar un poco más en contestarte. Por eso ahora puedes guardar estas conversaciones mientras que esperas una respuesta :)";
+
+"off_site_conversation_tutorial_dialog_content_new" = "Ahora puedes recibir conversaciones de las aplicaciones móviles de las marcas con las que colaboras. Los visitantes pueden tardar un poco más en contestarte. Por eso ahora puedes suspender esas conversaciones mientras que esperas una respuesta :)";
+
+"off_site_conversation_tutorial_dialog_new_feature_message" = "Novedad";
+
+"off_site_conversation_tutorial_dialog_title" = "Los visitantes te escriben desde una aplicación móvil";
+
+"onboarding_success_lets_go" = "Empecemos";
+
+"onboarding_success_next_step_1" = "Preséntate a tu primera misión";
+
+"onboarding_success_next_step_2" = "Haz el test y sigue nuestra formación";
+
+"onboarding_success_next_step_3" = "¡Empieza a dar consejo a gente!";
+
+"onboarding_success_subtitle" = "Se ha creado tu cuenta ibbü.";
+
+"onboarding_success_title" = "¡Gracias!";
+
+"onboarding_success_whats_next" = "¿Qué es lo siguiente?";
+
+"password_10_characters_message" = "10 caracteres mínimo";
+
+"password_1_lowercase_message" = "1 minúscula";
+
+"password_1_number_message" = "1 número";
+
+"password_1_special_character_message" = "1 carácter especial";
+
+"password_1_uppercase_message" = "1 mayúscula";
+
+"payment_detail_chat_number" = "Número de chats";
+
+"payment_detail_chat_unit_amount" = "Remuneración por chat";
+
+"payment_detail_earnings" = "Beneficios %@";
+
+"payment_detail_summary" = "Resumen de los beneficios tras la retención de la comisión de iAdvize.";
+
+"payment_detail_transaction_commission" = "Comisión por venta";
+
+"payment_detail_transaction_number" = "Número de ventas";
+
+"payment_detail_turnover_generated" = "facturación generada";
+
+"payment_download_customer_invoices_title" = "Facturas enviadas a los clientes";
+
+"payment_download_iadvize_invoice_title" = "Factura enviada por iAdvize";
+
+"payment_download_invoices_title" = "Descarga de las facturas";
+
+"payment_history_empty_headline" = "No hay ningún resumen disponible";
+
+"payment_history_empty_subline" = "Recibirás tu primer resumen de beneficios el lunes siguiente a tu primer chat :)";
+
+"payment_history_title" = "Historial de ingresos";
+
+"payment_invoices_detail_iadvize_commission" = "La comisión de iAdvize";
+
+"payment_invoices_detail_invoice" = "Factura %@";
+
+"payment_invoices_detail_summary" = "La comisión de iAdvize se aplica de manera transparente entre tú y la marca.";
+
+"personal_information" = "Información personal";
+
+"personal_information_company" = "Tengo mi propia empresa";
+
+"personal_information_country" = "País de residencia";
+
+"personal_information_country_footer" = "Dependiendo de dónde vivas, tendrás acceso a diferentes misiones";
+
+"personal_information_displayed_name" = "Nombre mostrado";
+
+"personal_information_displayed_name_footer" = "Este es el único nombre que podrán ver los visitantes cuando chateen contigo.";
+
+"personal_information_displayed_name_placeholder" = "Francisco";
+
+"personal_information_first_name" = "Nombre";
+
+"personal_information_first_name_placeholder" = "Francisco";
+
+"personal_information_header" = "El equipo de ibbü necesitará esta información para ofrecerte misiones relevantes.";
+
+"personal_information_invalid_field_error" = "Vaya, tu número de teléfono no parece válido.";
+
+"personal_information_last_name" = "Apellido";
+
+"personal_information_last_name_placeholder" = "Pérez";
+
+"personal_information_legal_type" = "Tipo de estado";
+
+"personal_information_phone_number" = "Número de teléfono";
+
+"personal_information_phone_number_country" = "País";
+
+"personal_information_phone_number_footer" = "Tu número de teléfono no se compartirá y será estrictamente confidencial.";
+
+"personal_information_phone_number_placeholder" = "Introduce tu número de teléfono";
+
+"photo_library_access_alert_message" = "La aplicación no puede acceder a tu biblioteca de fotos. Por favor, entra en tus ajustes de iOS y autoriza el acceso a tus fotos.";
+
+"photo_library_access_alert_title" = "No se puede acceder a las fotos";
+
+"photo_library_usage_description" = "Esta aplicación utilizará las fotos que has seleccionado para compartir.";
+
+"placeholder_example_prefix" = "p. ej.: %@ ";
+
+"points_count_abbreviation" = "{\"one\"=>\"%d pto.\", \"other\"=>\"%d ptos.\", \"zero\"=>\"%d ptos.\"}";
+
+"points_explanation_conversations" = "Conversaciones";
+
+"points_explanation_conversations_count" = "(1 pto.)";
+
+"points_explanation_rewards" = "Felicidades";
+
+"points_explanation_rewards_count" = "(6 ptos.)";
+
+"points_explanation_satisfaction" = "Satisfacción de 4 y 5";
+
+"points_explanation_satisfaction_count" = "(3 ptos.)";
+
+"product_list_product_available" = "En stock";
+
+"product_list_product_unavailable" = "No disponible";
+
+"profile_view_conversations" = "{\"one\"=>\"Conversación\", \"other\"=>\"Conversaciones\", \"zero\"=>\"Conversaciones\"}";
+
+"profile_view_conversations_temporality" = "(desde el principio)";
+
+"profile_view_level" = "Nivel %@ ";
+
+"profile_view_member_since" = "Miembro desde el %@ ";
+
+"profile_view_satisfaction" = "Satisfacción";
+
+"profile_view_satisfaction_temporality" = "(30 últimos días)";
+
+"profile_view_status_ambassador" = "Embajador";
+
+"profile_view_status_beginner" = "Nuevo";
+
+"profile_view_status_experienced" = "Confirmado";
+
+"profile_view_status_inspiring" = "Superexperto";
+
+"profile_view_total_score" = "{\"one\"=>\"%d punto\", \"other\"=>\"%d puntos\", \"zero\"=>\"%d puntos\"}";
+
+"report_issue_chooser_dialog_message" = "Enviar tu correo electrónico con:";
+
+"report_issue_no_mail_application" = "Aplicación de correo electrónico no instalada";
+
+"required_field_explanation" = "(*) indica que el campo es obligatorio.";
+
+"screenshot_store_apply" = "Elegir una misión y solicitar la participación";
+
+"screenshot_store_campaigns" = "Descubrir todas las misiones";
+
+"screenshot_store_chat" = "Iniciar conversación";
+
+"screenshot_store_livefeed" = "Compartir con tu comunidad.";
+
+"screenshot_store_stats" = "Realiza un seguimiento de tu actividad";
+
+/* Do not translate. */
+"screenshots_campaign_brand1" = "Cooktoys";
+
+/* Do not translate. */
+"screenshots_campaign_brand2" = "Repair Tools";
+
+/* Do not translate. */
+"screenshots_campaign_brand3" = "Smart.";
+
+/* Do not translate. */
+"screenshots_campaign_brand4" = "Sportt";
+
+/* Do not translate. */
+"screenshots_campaign_brand5" = "Home";
+
+/* Not to be translated */
+"screenshots_campaign_brand6" = "Eare";
+
+"screenshots_campaign_description1" = "¿Te espera una hora de transporte público? ¿Estás libre esta noche? ¿No tienes nada planeado para este fin de semana? Con Ibbü, tú decides cuando trabajas. Puedes acceder a una lista de marcas que necesitan expertos para ayudar a sus clientes y así podrás organizar tu propio horario de trabajo.";
+
+"screenshots_campaign_description2" = "¿Te espera una hora de transporte público? ¿Estás libre esta noche? ¿No tienes nada planeado para este fin de semana? Con Ibbü, tú decides cuando trabajas. Puedes acceder a una lista de marcas que necesitan expertos para ayudar a sus clientes y así podrás organizar tu propio horario de trabajo.";
+
+/* in order to illustrate screenshots for the Playstore */
+"screenshots_campaign_name1" = "Experto en cocina";
+
+"screenshots_campaign_name2" = "Manitas con talento";
+
+"screenshots_campaign_name3" = "Jugador experimentado";
+
+"screenshots_campaign_name4" = "Adicto a correr";
+
+"screenshots_campaign_name5" = "Entusiasta del bricolaje";
+
+"screenshots_campaign_name6" = "Amante de la moda";
+
+"screenshots_campaign_teaser1" = "Ibbü quiere que las personas formen parte del eCommerce. ¿Te apasiona algo? Otros tendrán preguntas sobre ello. Responde y gana dinero.";
+
+"screenshots_campaign_teaser2" = "Ibbü quiere que las personas formen parte del e-commerce. ¿Te apasiona algo? Otros tendrán preguntas al respecto. Responde y gana dinero.";
+
+"screenshots_campaign_teaser3" = "¿Conoces Epic Games, Electronic Arts, Ubisoft Bethesda o Guerrilla Games? ¿O no solo todas estas empresas de videojuegos sino que además muchas más? ¡Eres el experto que necesitamos! Ayúdanos a sumergir a los internautas en la aventura que buscan.";
+
+/* Ecrire les 4 premières lettres du mot "Merci" >> "Merc" */
+"screenshots_canned_answer" = "Grac";
+
+/* English: text should contain "welc". French: text should contain "merc". */
+"screenshots_canned_answer_1" = "¡De nada!";
+
+/* English: text should contain "welc". French: text should contain "merc". */
+"screenshots_canned_answer_2" = "Gracias, adiós.";
+
+"screenshots_chat1_message1" = "Hola, me gustaría solicitar más información acerca de los gastos de envío.";
+
+"screenshots_chat1_message2" = "Hola, ¿qué información estás buscando?";
+
+"screenshots_chat1_message3" = "¿Hay gastos de envío en pedidos superiores a 20 €?";
+
+"screenshots_chat1_message4" = "No hay gastos de envío en pedidos superiores a los 15 €.";
+
+"screenshots_chat1_message5" = "¿Tienes más preguntas?";
+
+"screenshots_chat1_message6" = "Estoy buscando un regalo para una amiga a la que le encanta la repostería, especialmente los cupcakes. Ya tiene muchos libros de cocina así que busco algo más original...";
+
+"screenshots_chat1_message7" = "¿Una fan de los cupcakes? ¡Yo también!\nPuedo enseñarte un regalo que le encantará, haz clic en el enlace:\nwww.cooktoys.com/cupcakes/boxes";
+
+"screenshots_chat1_message8" = "Son cajas de cupcakes personalizables. Hace poco me regalaron una con el nombre de mi blog de cocina impreso. ¡Una monada!";
+
+"screenshots_chat1_message9" = "¡Genial! Le encantará, es justo lo que estaba buscando. ¡Muchísimas gracias!";
+
+"screenshots_chat2_message1" = "Hola, ¿cuáles son los mejores cuchillos de cocina?";
+
+"screenshots_chat2_message2" = "¡Hola! Yo te ayudaré a elegir. Hay mucho tipos de cuchillos, ¿para qué los necesitas?";
+
+"screenshots_chat2_message3" = "Necesito un cuchillo que sirva tanto para cortar verdura como carne...";
+
+"screenshots_chat2_message4" = "En ese caso, te recomiendo los cuchillos universales. Son bastante eficaces para lo que buscas.";
+
+"screenshots_chat2_message5" = "Vale, ¡gracias! Estaba un poco perdido con tantas opciones. ¿Debería comprarlos de cerámica?";
+
+"screenshots_chat2_message6" = "Sí, los cuchillos de cerámica son los mejores. Yo solo uso esos. Sin embargo, son bastante frágiles, a la menor caída la hoja se rompe.";
+
+"screenshots_chat2_message7" = "¡Perfecto! Como soy bastante torpe, los compraré de acero. De todos modos, muchas gracias por la ayuda, ¡ahora ya sé lo que necesito!";
+
+"screenshots_chat2_message8" = "De nada, ha sido un placer. Hasta pronto, pásalo bien cocinando ;)";
+
+"screenshots_chat3_message1" = "Hola, soy padre de dos hijos y mi mujer y yo queremos comprar una videoconsola nueva para poder jugar en familia, ¿nos recomiendas alguna?";
+
+"screenshots_chat3_message2" = "¡Hola! Claro, ¿qué edad tienen tus hijos? ";
+
+"screenshots_chat3_message3" = "10 y 13 años.";
+
+"screenshots_chat3_message4" = "La Nintendo Switch puede ser una buena opción para tu familia. Podéis jugar en familia en el salón o en cualquier lugar. También se la podéis dejar a vuestros hijos para que jueguen durante los viajes en coche, por ejemplo. ";
+
+"screenshots_chat3_message5" = "¡Genial! ¿Qué tipo de videojuegos hay ya para la Switch?";
+
+"screenshots_chat3_message6" = "Snipperclips, Super Mario Odyssey (elegido el mejor juego familiar el año pasado) o Mario Party 9. Puedes jugar a todos estos juegos con tus hijos sin problema. Yo ahora mismo estoy jugando a Legend of Zelda: Breath of the Wild y me encanta. 🙂 ";
+
+"screenshots_chat3_message7" = "¿En serio? ¡De pequeño me encantaba jugar al Zelda! Gracias por los consejos. ";
+
+"screenshots_chat3_message8" = "De nada. 🙂 ¡Disfruta de la Switch con tu familia! ";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName1" = "Francisco";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName10" = "Hugo";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName11" = "David";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName12" = "Mario";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName13" = "Paula";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName14" = "Daniela";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName15" = "Julia";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName2" = "Alicia";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName3" = "Jaime";
+
+/* Choose a plausible first name that can be used in your language */
+"screenshots_livefeed_author_firstName4" = "Juan";
+
+"screenshots_livefeed_author_firstName5" = "María";
+
+"screenshots_livefeed_author_firstName6" = "Álvaro";
+
+"screenshots_livefeed_author_firstName7" = "Laura";
+
+"screenshots_livefeed_author_firstName8" = "Alejandro";
+
+"screenshots_livefeed_author_firstName9" = "Sofía";
+
+/* Choose a plausible name that can be used in your language */
+"screenshots_livefeed_author_name1" = "Pérez";
+
+/* Choose a plausible name that can be used in your language */
+"screenshots_livefeed_author_name2" = "Hernández";
+
+/* Choose a plausible name that can be used in your language */
+"screenshots_livefeed_author_name3" = "Salinas";
+
+/* Choose a plausible name that can be used in your language */
+"screenshots_livefeed_author_name4" = "Blanco";
+
+/* Fake texts to simulate a livefeed and make screenshots of the app */
+"screenshots_livefeed_message1" = "¡Hola expertos!\nEspero que hayáis pasado un buen fin de semana...\nMe alegra volver a encontraros a todos y poder chatear con vosotros esta mañana.";
+
+/* Fake texts to simulate a livefeed and make screenshots of the app */
+"screenshots_livefeed_message2" = "¿Alguien sabe si la batidora 34500 está en rojo?";
+
+"screenshots_livefeed_message2_comment1" = "Solo puedo encontrarla en negro en la página web y es el único color disponible. Yo tengo ese modelo, ¡es una apuesta segura!";
+
+/* Fake texts to simulate a livefeed and make screenshots of the app */
+"screenshots_livefeed_message2_comment2" = "Vale, muchas gracias. ¿Qué opinas de la función para picar hielo? ¿Es suficientemente potente?";
+
+/* Fake texts to simulate a livefeed and make screenshots of the app */
+"screenshots_livefeed_message3" = "¡Hola comunidad! ¿Conocéis algún libro de recetas de dulces? Hay un visitante que me está preguntando y creo que es un regalo bastante original para los más gourmet.";
+
+/* Fake texts to simulate a livefeed and make screenshots of the app */
+"screenshots_livefeed_message4" = "¿Alguien conoce el plazo de reembolso cuando devuelves un artículo a la tienda? No logro encontrarlo entre las preguntas frecuentes...";
+
+/* Fake texts to simulate a livefeed and make screenshots of the app */
+"screenshots_livefeed_message4_comment1" = "Depende de la cantidad pero, por lo general, es de unas dos semanas.\nHay más información sobre eso en los términos y condiciones de uso.";
+
+/* Fake texts to simulate a livefeed and make screenshots of the app */
+"screenshots_livefeed_message4_comment2" = "¡Gracias!";
+
+"screenshots_livefeed_message5" = "¡Hola! \n¿Seguiste las conferencias del E3 2018? ¡Tengo muchísimas ganas de jugar a  Ghost of Tsushima, el trailer es increíble! ";
+
+/* C'est le nome de la marque, donc ça sera toujours "Cooktoys" */
+"screenshots_livefeed_website1" = "Cooktoys";
+
+"screenshots_livefeed_website2" = "Reparar herramientas";
+
+"second_short" = "s";
+
+"see_all_missions" = "Ver todas las tareas";
+
+"selected_expertise_count" = "(%d seleccionados)";
+
+"settings_activate_canned_answers_desc" = "Activar las respuestas pregrabadas para que aparezcan en la parte superior del teclado";
+
+"settings_all_rewards" = "Todas las valoraciones";
+
+/* Button to allow the user to rate the application in the store. */
+"settings_app_rating" = "Evaluar la aplicación";
+
+"settings_badges" = "Medallas";
+
+"settings_badges_count" = "Medallas (%d)";
+
+"settings_badges_error" = "Ups, parece imposible cargar las medallas";
+
+"settings_badges_see_all" = "Ver todas las medallas";
+
+"settings_beta_tester" = "Conviértete en Beta tester";
+
+"settings_beta_tester_body" = "Hola, \n\nQuería ser Beta tester para descubrir las nuevas funcionalidades en exclusiva.";
+
+"settings_beta_tester_subject" = "Solicitud para ser un Beta tester";
+
+/* Button to allow the user to share features ideas for the future of the application */
+"settings_feature_suggestion" = "Sugerir una función";
+
+"settings_feature_suggestion_mail_subject" = "Sugerencia de función";
+
+/* Not translated, keep English in all languages */
+"settings_help_center" = "Help Center";
+
+"settings_legal_information" = "Información legal";
+
+"settings_manage_canned_answers" = "Gestionar las respuestas predeterminadas";
+
+"settings_night_mode_title" = "Modo noche";
+
+"settings_rewards" = "Valoraciones";
+
+"settings_rewards_error" = "Estamos teniendo problemas para cargar tus valoraciones. No te preocupes, no se han perdido.";
+
+"settings_send_crash_report" = "Enviar informe de errores";
+
+"settings_support_title" = "Asistencia & Feedback";
+
+"sign_in_button" = "Iniciar sesión";
+
+"sign_up_account_already_exists" = "Parece que ya tienes una cuenta de ibbü. ¡Bienvenido/a de vuelta/ ¿Te gustaría ir a la página de inicio de sesión?";
+
+"sign_up_account_already_exists_title" = "La cuenta ya existe";
+
+"sign_up_as_an_expert_button" = "Continuar";
+
+"sign_up_button" = "Registrarse";
+
+"sign_up_invalid_credentials" = "¡Vaya! Parece que tu dirección de correo electrónico no es válida.";
+
+"sign_up_step" = "%d %d pasos";
+
+"sign_up_title" = "Registrarse";
+
+"snooze_custom_date_title" = "Fecha y hora";
+
+"snooze_header_content" = "Al poner la conversación en pausa, desaparecerá y volverá a aparecer al final del plazo establecido, o cuando el visitante responda.";
+
+"snooze_keep_conversation_switch_title" = "Mantener esta conversación cuando termine el periodo de suspensión";
+
+"snooze_non_valid_time_message" = "La fecha y la hora deben ser posteriores a las actuales.";
+
+"snooze_success_message" = "La conversación se ha puesto en pausa";
+
+"snooze_title" = "Poner en pausa";
+
+"spoken_languages" = "Idiomas hablados";
+
+"spoken_languages_header" = "No tienes que hablar estos idiomas a la perfección, simplemente desenvolverte lo suficiente como para ayudar a otras personas.";
+
+"statistics" = "Estadísticas";
+
+"stats_carousel_chats" = "{\"one\"=>\"chat\", \"other\"=>\"chats\", \"zero\"=>\"chats\"}";
+
+"stats_carousel_income" = "Remuneración";
+
+"stats_carousel_satisfaction" = "Satisfacción";
+
+"stats_carousel_transaction" = "{\"one\"=>\"Venta\", \"other\"=>\"Ventas\", \"zero\"=>\"Ventas\"}";
+
+"stats_chart_chat" = "{\"one\"=>\"%d chat\", \"other\"=>\"%d chats\", \"zero\"=>\"%d chats\"}";
+
+"stats_chart_month_title" = "Este mes";
+
+"stats_chart_transaction" = "{\"one\"=>\"%d venta\", \"other\"=>\"%d ventas\", \"zero\"=>\"%d ventas\"}";
+
+"stats_chart_week_title" = "Esta semana";
+
+"stats_empty_text" = "No hay estadísticas disponibles. Aplica a tu primera campaña.";
+
+"terms_of_service_message" = "Al seleccionar \"Continuar\", acepto la Política de Privacidad <a href=\"%1$@\"> de ibbü </a> y el contrato de servicio <a href=\"%2$@\"> de ibbü</a>.";
+
+"transfer_button_available" = "Enviar";
+
+"transfer_button_not_available" = "Enviar de todos modos";
+
+"transfer_empty_subtitle" = "Lo sentimos, no hay nadie disponible en este momento.";
+
+"transfer_empty_title" = "Agentes no conectados";
+
+"transfer_header_message" = "Envías la conversación a";
+
+"transfer_item_status_available" = "Disponible";
+
+"transfer_item_status_unavailable" = "No disponible";
+
+"transfer_not_available_explanation" = "Si el siguiente destinatario no se ocupa de la conversación en 24 horas, esta se atribuirá a otro operador.";
+
+"transfer_not_available_explanation_legacy" = "%@ no está disponible por ahora. Puedes realizar el envío pero la conversación se tratará más tarde.";
+
+"transfer_reason_hint" = "¿Tienes algo que añadir relacionado con esta conversación?";
+
+"transfer_role_bot" = "Bot";
+
+"transfer_role_expert" = "Experto";
+
+"transfer_role_professional" = "Profesional";
+
+"transfer_search_hint" = "Nombre o competencia...";
+
+"transfer_success_message" = "La conversación se ha enviado correctamente.";
+
+"transfer_title" = "Enviar";
+
+"translation_action_sheet_title" = "Traducir \"%@\"";
+
+"translation_action_sheet_translation_settings" = "Ajustes de traducción";
+
+"translation_settings_automatic_translation_explanation_text" = "Todos los mensajes recibidos del nuevo visitante se traducirán.";
+
+"translation_settings_automatic_translation_switch_title" = "Traducir automáticamente los mensajes del visitante";
+
+"translation_settings_automatic_translation_title" = "Traducción automática";
+
+"translation_settings_languages_explanation_text" = "Para traducir tu mensaje antes de enviarlo, pulsa en el icono de traducción situado a la izquierda de tu mensaje.\nPara traducir un mensaje de un visitante, mantén el dedo sobre el mensaje que quieres traducir y selecciona la opción de traducción.";
+
+"translation_settings_languages_title" = "Idiomas";
+
+"translation_settings_my_language_title" = "Mi idioma";
+
+"translation_settings_title" = "Traducción";
+
+"translation_settings_visitor_language_title" = "Idioma del visitante";
+
+/* Accessibility label for the button allowing to translate a message */
+"translation_translate_button_accessibility_label" = "Traducir";
+
+"update_needed_popup_message" = "Actualiza la aplicación %1$@ para poder utilizarla.";
+
+"update_needed_popup_title" = "Actualización requerida";
+
+"update_popup_button_later" = "Más tarde";
+
+"update_popup_button_update" = "Descargar";
+
+"update_popup_message" = "Hay una nueva versión de la aplicación disponible.";
+
+"update_popup_title" = "Actualización disponible";
+
+"upload_popup_camera" = "Hacer una foto";
+
+"upload_popup_files" = "Seleccionar en los archivos";
+
+"upload_popup_gallery" = "Seleccionar en la galería";
+
+"upload_popup_title" = "Selecciona una acción:";
+
+"video_availability" = "Disponible para videollamada";
+
+"video_call_hang_up" = "Hang up";
+
+"video_call_refuse_explanation" = "If you leave this call, you will not be able to relaunch the video mode for this conversation";
+
+"video_invitation_accept" = "Ir";
+
+"video_invitation_decline" = "Rechazar";
+
+"video_invitation_join_video_call" = "Join video call";
+
+"video_invitation_new_call" = "Tienes una videollamada entrante";
+
+"video_invitation_permission_explanation" = "Permitir el acceso a tu cámara y micrófono para aceptar la videollamada";
+
+"video_invitation_permission_link" = "Actualizar permisos";
+
+"video_invitation_pursue_call" = "Seguir con la videollamada";
+
+"video_notification_new_call" = "Videollamada entrante";
+
+"video_visitor_camera_disabled" = "El visitante ha apagado la cámara";
+
+"video_visitor_end_call" = "El visitante ha finalizado la videollamada";
+
+"walkthrough_subtitle_1" = "¡Asesora a los clientes sobre tus marcas favoritas y gana dinero!";
+
+"walkthrough_subtitle_2" = "¡Asesora a los clientes desde donde estés y cuando te apetezca!";
+
+"walkthrough_subtitle_3" = "¡Regístrate, demuestra tus conocimientos, prepárate y estarás listo!";
+
+"walkthrough_title_1" = "¿Te apasiona algo?";
+
+"walkthrough_title_2" = "Chatea cuando quieras";
+
+"walkthrough_title_3" = "Súbete a bordo";
+

@@ -1,3 +1,10 @@
+# 2.4.1
+
+### Release date 2022/03/01
+
+- Remove Alamofire and AlamofireImage dependencies
+- Build SDK with Xcode 13.2.1
+
 # 2.4.0
 
 ### Release date 2022/02/24
