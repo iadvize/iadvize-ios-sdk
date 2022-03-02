@@ -1,7 +1,4 @@
 PODS:
-  - Alamofire (5.5.0)
-  - AlamofireImage (4.2.0):
-    - Alamofire (~> 5.4)
   - Apollo (0.36.0):
     - Apollo/Core (= 0.36.0)
   - Apollo/Core (0.36.0)
@@ -12,8 +9,7 @@ PODS:
   - CocoaLumberjack/Swift (3.7.4):
     - CocoaLumberjack/Core
   - Gifu (3.3.1)
-  - iAdvize (2.4.0):
-    - AlamofireImage (~> 4.2.0)
+  - iAdvize (2.4.2):
     - Apollo (~> 0.36.0)
     - Gifu (~> 3.3.0)
     - JWTDecode (~> 2.6.3)
@@ -40,37 +36,42 @@ PODS:
     - XMPPFramework/default
 
 DEPENDENCIES:
-  - iAdvize (= 2.4.0)
+  - iAdvize (from `https://github.com/iadvize/iadvize-ios-sdk.git`, branch `release/2.4.1`)
 
 SPEC REPOS:
   trunk:
-    - Alamofire
-    - AlamofireImage
     - Apollo
     - CocoaAsyncSocket
     - CocoaLumberjack
     - Gifu
-    - iAdvize
     - JWTDecode
     - KissXML
     - libidn
     - SwiftGraylog
     - XMPPFramework
 
+EXTERNAL SOURCES:
+  iAdvize:
+    :branch: release/2.4.1
+    :git: https://github.com/iadvize/iadvize-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  iAdvize:
+    :commit: 6bbed1421d81c354ec5073f3f5f1d01a589b6c3f
+    :git: https://github.com/iadvize/iadvize-ios-sdk.git
+
 SPEC CHECKSUMS:
-  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
-  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
-  iAdvize: 1d8ab1a567950df70912b6e580eb36257cb939b5
+  iAdvize: d5928c9b40c8a6f627d8832daf3adb3171dfcc13
   JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: 942c6453a46674ab6f07f65afce84acf4a3bfdfa
+PODFILE CHECKSUM: d03d59628985ba495cc98dcb562846eee7d1c03e
 
 COCOAPODS: 1.11.2
