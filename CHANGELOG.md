@@ -1,3 +1,10 @@
+# 2.5.0
+
+### Release date 2022/03/30
+
+- Add the in-app Video call feature
+- Rework public API to be more consistent
+
 # 2.4.2
 
 ### Release date 2022/03/30

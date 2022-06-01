@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+e2NPm6ab4nks4yGSkccjNCX9B4=
+		zsOSFpuY6MxAevYrlehkxcDzk2s=
 		</data>
 		<key>ConversationErrorView.nib</key>
 		<data>
@@ -18,81 +18,145 @@
 		</data>
 		<key>Headers/IAdvizeConversationSDK-Swift.h</key>
 		<data>
-		FYEpcvLAVkj8jQBat9iYZmC6vBc=
+		S1J/97pc8HLd4Dlc3AhHJmwGlss=
 		</data>
 		<key>Headers/IAdvizeConversationSDK.h</key>
 		<data>
 		BGBcsBImRurQL4fx23OwvGeYqTg=
 		</data>
-		<key>IAdvizeChatButtonView.nib</key>
-		<data>
-		QIDV+5jg5Fid9ky0WqlAhhSAfHI=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		ywiQIt/4qXOnBZPRruUJvScAg8A=
+		yTZUg0usCxWzgYxhFdAo4eqmXJo=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kBSL5z1ECNqGT29s4wTWjyAKhTs=
+		TeDvZCHfUoaLKXFZfYoI+9A47xo=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4k7Ivxy0cALWigd6YmUn8FsPfNg=
+		PqlDi6FTjc9QSxVspPeN4ELVCeA=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iZt1/wAMvqptepoOR9GSVibST1g=
-		</data>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		kBSL5z1ECNqGT29s4wTWjyAKhTs=
-		</data>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		4k7Ivxy0cALWigd6YmUn8FsPfNg=
-		</data>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		iZt1/wAMvqptepoOR9GSVibST1g=
+		EaXXtwjLLz4d5uRCJo1LnS6jPK4=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FYNo1VRGgbU8HwrA7Q5EiMuXaM8=
+		FeCwFj3iqZF7uKbRpViUNk6FEEM=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		y8SluGoU60h95547v0XROJQ16dI=
+		6Aoy9LXa7EDaL1vIB05w26E7UOc=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bQqR5BFN7Xki91G3P8B11DJEsxI=
-		</data>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		FYNo1VRGgbU8HwrA7Q5EiMuXaM8=
-		</data>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		y8SluGoU60h95547v0XROJQ16dI=
-		</data>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		bQqR5BFN7Xki91G3P8B11DJEsxI=
+		6vA+21Gea7TXTxx/Ef8V2cSg6mM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		3D2a+wKgXbpKvIY5RMbvY5W0Q6g=
 		</data>
+		<key>Ringtone.caf</key>
+		<data>
+		ZWmb9R4HpCcUaI8A9O9551VmusU=
+		</data>
+		<key>VideoCall.storyboardc/DeniedLobbyVideoCallViewController.nib/objects-13.0+.nib</key>
+		<data>
+		qBLM9I/70Zwl59BxwNuNnXbHH/0=
+		</data>
+		<key>VideoCall.storyboardc/DeniedLobbyVideoCallViewController.nib/runtime.nib</key>
+		<data>
+		qBLM9I/70Zwl59BxwNuNnXbHH/0=
+		</data>
+		<key>VideoCall.storyboardc/Info.plist</key>
+		<data>
+		blz7YlMbt31a1AxQbYibHr0OgPM=
+		</data>
+		<key>VideoCall.storyboardc/KPX-qA-lvq-view-hIi-4O-tSU.nib/objects-13.0+.nib</key>
+		<data>
+		XtS7wWqaztSzH5Sqp0FSLdJiX3M=
+		</data>
+		<key>VideoCall.storyboardc/KPX-qA-lvq-view-hIi-4O-tSU.nib/runtime.nib</key>
+		<data>
+		B7gz1Fqvialvfi53DuAyf7HM0U8=
+		</data>
+		<key>VideoCall.storyboardc/LoadedLobbyVideoCallViewController.nib/objects-13.0+.nib</key>
+		<data>
+		hxomltET3dL2fGD3Irtp58zQ89Q=
+		</data>
+		<key>VideoCall.storyboardc/LoadedLobbyVideoCallViewController.nib/runtime.nib</key>
+		<data>
+		hxomltET3dL2fGD3Irtp58zQ89Q=
+		</data>
+		<key>VideoCall.storyboardc/LobbyVideoCallViewController.nib/objects-13.0+.nib</key>
+		<data>
+		WFysPSDu63XZIla9mUfzSIaMiEU=
+		</data>
+		<key>VideoCall.storyboardc/LobbyVideoCallViewController.nib/runtime.nib</key>
+		<data>
+		WFysPSDu63XZIla9mUfzSIaMiEU=
+		</data>
+		<key>VideoCall.storyboardc/VideoFullScreenViewController.nib/objects-13.0+.nib</key>
+		<data>
+		PeWsY2PyZyf0J39poQ+0LR5FmWk=
+		</data>
+		<key>VideoCall.storyboardc/VideoFullScreenViewController.nib/runtime.nib</key>
+		<data>
+		PeWsY2PyZyf0J39poQ+0LR5FmWk=
+		</data>
+		<key>VideoCall.storyboardc/VideoThumbnailViewController.nib/objects-13.0+.nib</key>
+		<data>
+		tUlmecJPDiQ2FOByyTO1KihihEk=
+		</data>
+		<key>VideoCall.storyboardc/VideoThumbnailViewController.nib/runtime.nib</key>
+		<data>
+		tUlmecJPDiQ2FOByyTO1KihihEk=
+		</data>
+		<key>VideoCall.storyboardc/YHT-fz-XA1-view-8Z5-lH-rcF.nib/objects-13.0+.nib</key>
+		<data>
+		VL1Q5vi+7iM2QhNdnFUCrOTm/Mw=
+		</data>
+		<key>VideoCall.storyboardc/YHT-fz-XA1-view-8Z5-lH-rcF.nib/runtime.nib</key>
+		<data>
+		SbTubHI6KmiAbLSIVtzOtHLaLgE=
+		</data>
+		<key>VideoCall.storyboardc/jXy-7i-P3y-view-Gyg-LT-Zzq.nib/objects-13.0+.nib</key>
+		<data>
+		R+gmhF6z8kdGYD3sgZ+q0CpHtiQ=
+		</data>
+		<key>VideoCall.storyboardc/jXy-7i-P3y-view-Gyg-LT-Zzq.nib/runtime.nib</key>
+		<data>
+		9y8QiD3TtdSUjXVAhYj7c9e/iTQ=
+		</data>
+		<key>VideoCall.storyboardc/yfV-Nm-F8K-view-X7C-pF-rOY.nib/objects-13.0+.nib</key>
+		<data>
+		sm229ZpAS5roRwKW7z02tK6Zjys=
+		</data>
+		<key>VideoCall.storyboardc/yfV-Nm-F8K-view-X7C-pF-rOY.nib/runtime.nib</key>
+		<data>
+		IyCU0Zt6k/+UwmdOLghp7TR9+BI=
+		</data>
+		<key>VideoCall.storyboardc/ymW-sx-4hS-view-KOX-j9-Em8.nib/objects-13.0+.nib</key>
+		<data>
+		N8dlDC7Ew4u5LUhq58HzvKkDktA=
+		</data>
+		<key>VideoCall.storyboardc/ymW-sx-4hS-view-KOX-j9-Em8.nib/runtime.nib</key>
+		<data>
+		N8dlDC7Ew4u5LUhq58HzvKkDktA=
+		</data>
 		<key>VisitorAuthenticateAnonymously.graphql</key>
 		<data>
 		Wo2PUPvf5lDEjNTdcf9m4uh22d0=
+		</data>
+		<key>VisitorVideoToken.graphql</key>
+		<data>
+		z/cHc2vo49Bwb7cjuv96ZO6BYy0=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NE7Nz5QJ6Nuy1etWbv9XyolksF0=
+			KZtxmzdu+eV9AtUPdfzsvxSfcds=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -101,7 +165,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/qEMpp2Y0FFEgO2YffqYT9zi8HU=
+			6VmPQhPOXNg4fw27NCQyW/rr4y0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -110,7 +174,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DajXNPM7msOhw1YTKi16UAhagpw=
+			5miBMOTS7Y/IfCrVMZxkRiEXVPA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -119,16 +183,20 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qZcy1ZLlDnjG2/i/mo2su//qWSE=
+			kaj4JQGc0W+00ae75BxWeKXR4n0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>iAdvizeNotificationView.nib</key>
+		<data>
+		K90PtDQ4RxlOmON7VLRRm4aNKio=
+		</data>
 		<key>it.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			koTW7v6X0uyGcRrm8mDVvX/ix+c=
+			mMPyfHYgADxUEkhnMOHrhffS2po=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -137,7 +205,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q1qhz5kDmqCgm2J6ev3CAmeMY44=
+			kdHeVZinGJhmy9tzTOVihPMtu7o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -146,7 +214,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V9jei00fyTutfd9X5wP8xOWpQzU=
+			raPgxRqsI1/uIYCrrURijRSEICg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -155,14 +223,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jmgUOy3BcAh+CogH7IhCyGGIsfI=
+			5JrVZXnargElDNLqe+eQ8CS35Os=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>schema.json</key>
 		<data>
-		Y9/iyEFoZN7owyA0/cqsH/V7aDU=
+		Nn5MibMWxRnj+6yH79nt4BWjQqw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -171,7 +239,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kJC7xyV+ZCHAOW7MPp5cnOHpmC44OaoYGtJYJYyh8Ko=
+			x6Pcu6iNnrgd8de2dYu6OyjXo8geavW1X2zHhYNIeQ0=
 			</data>
 		</dict>
 		<key>ConversationErrorView.nib</key>
@@ -192,7 +260,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1XdrQ9IDA+lV5VrnAaUgzUhipVxVib66yMmHTIuFdPE=
+			ytiIlXTUXj1m1WwQeoFugq32X/jfV6KzVuf4CxWJ+7Y=
 			</data>
 		</dict>
 		<key>Headers/IAdvizeConversationSDK.h</key>
@@ -202,95 +270,46 @@
 			PNsbdGYPDkd03TT2I0pJpgl+xDh7YT5nNmCZjSfa1W0=
 			</data>
 		</dict>
-		<key>IAdvizeChatButtonView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7eihaisgpJ6AV7ikxI5/LcesmHDaAdd90wm6aYVa5XY=
-			</data>
-		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2EVpGSFi7nbsgJfFiqC1clIqoP48yd2/5iLK0EQ4/Ks=
+			o9QIfoGbfsfRVind9Iz74jfFJ3g3KZHavQX1mTzPzl8=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RIFx/dJyfBb+QG9aHDaREGBJSWerOxIjuvVxfVZCUe4=
+			SXgWE5gn62UnMlK+kSyLaBJE5W9KLH4TY2Y4/nm4A1A=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0r5Tzt5AZmLLlvRim5bDESuwupyrjq7m4ERi21x042w=
-			</data>
-		</dict>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2EVpGSFi7nbsgJfFiqC1clIqoP48yd2/5iLK0EQ4/Ks=
-			</data>
-		</dict>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RIFx/dJyfBb+QG9aHDaREGBJSWerOxIjuvVxfVZCUe4=
-			</data>
-		</dict>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0r5Tzt5AZmLLlvRim5bDESuwupyrjq7m4ERi21x042w=
+			JGCMloNY5pxzqYN0KE4Q2SehuKiXzXAvipUCJM852OQ=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bQ4RhG01fKKBTkfXflzv0aqoC2qarf5hfJYFrAUt8w8=
+			ABleWT6cNJy61RicMSQEpzcISm8vVmcLeLwE/BrzL9g=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+xtxrlJks4S3fz6loXOmfyJ2d4E1BodeCLVKQY28zCk=
+			nLDll3XArqG0NIPrJaiP+qdRarUEUnxTIKSZw1x+2FU=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pDr4dAmXXddnxHkb/zxibRDJPe5pnJU8sY1OUsGMOHo=
-			</data>
-		</dict>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bQ4RhG01fKKBTkfXflzv0aqoC2qarf5hfJYFrAUt8w8=
-			</data>
-		</dict>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+xtxrlJks4S3fz6loXOmfyJ2d4E1BodeCLVKQY28zCk=
-			</data>
-		</dict>
-		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pDr4dAmXXddnxHkb/zxibRDJPe5pnJU8sY1OUsGMOHo=
+			b0i5Jz1OlVdOw9zaSPc2wScG434GOMI7nMNHL32jUco=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -300,6 +319,160 @@
 			QLl1oegpKqdMONgl69ltFK/BCeYEojaGbq/joL9+c0g=
 			</data>
 		</dict>
+		<key>Ringtone.caf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YiYBRrAtjJ++Da1uIduEQe76+obzozlNo+aZnZJ1RbE=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/DeniedLobbyVideoCallViewController.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sOT7v1cb0K8GaNFekOi+z0hlFHFbkZ+ujiev/TA4/ok=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/DeniedLobbyVideoCallViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sOT7v1cb0K8GaNFekOi+z0hlFHFbkZ+ujiev/TA4/ok=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GUPCE3mvtM2asHP49vRk4+kmQ+YIDC7eRexY/39R27Q=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/KPX-qA-lvq-view-hIi-4O-tSU.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3jWJVb/EzDvqv4USHQZb6pcnJNB0/rrV3O2Ls8b1BOY=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/KPX-qA-lvq-view-hIi-4O-tSU.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			57vVEokWtVqzYTnix9E94NnYKm3KIbpeoo7F35Rl3jQ=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/LoadedLobbyVideoCallViewController.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LBlPlWFetV4xsxU5qgBUGryinoBxjvAbSwbhQu07Vpg=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/LoadedLobbyVideoCallViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LBlPlWFetV4xsxU5qgBUGryinoBxjvAbSwbhQu07Vpg=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/LobbyVideoCallViewController.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dmus88ninujMONlPMVwn03tM95BgQelBO7XIOP+nxHE=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/LobbyVideoCallViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dmus88ninujMONlPMVwn03tM95BgQelBO7XIOP+nxHE=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/VideoFullScreenViewController.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A5SNp3pDS9+r31VnTCuynDh9LzuiJ9W7lSEdfvCpLDc=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/VideoFullScreenViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A5SNp3pDS9+r31VnTCuynDh9LzuiJ9W7lSEdfvCpLDc=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/VideoThumbnailViewController.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			My+GPKnBJ0BwdSzUnN0Tnqv08h2FlOEFKG82D8hvx/U=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/VideoThumbnailViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			My+GPKnBJ0BwdSzUnN0Tnqv08h2FlOEFKG82D8hvx/U=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/YHT-fz-XA1-view-8Z5-lH-rcF.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qm0y6/1CpRD6H4f9z9WEH32M4o0erpoRYbO/C+uNAOw=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/YHT-fz-XA1-view-8Z5-lH-rcF.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fy0UCFkVFrKXagFz9k3HCV/nDiS33sMF9v9SQzxKss8=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/jXy-7i-P3y-view-Gyg-LT-Zzq.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HwslblgWZt+I6GTI3hmW1StVtdwK7OntnG6IiNhPyVg=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/jXy-7i-P3y-view-Gyg-LT-Zzq.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qsTJ4Y71mPykiBA7JZQ/c5VwnKkxt7YVilaK+1+0Ohs=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/yfV-Nm-F8K-view-X7C-pF-rOY.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xh2UGOwVA6Z1R21eHhJ4mTGEShVsPTKBcW6x0f0yXeE=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/yfV-Nm-F8K-view-X7C-pF-rOY.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EVR6+CbaT8Ih0kRrVsMZFwpi3SdKttwjkl92y2sGqzY=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/ymW-sx-4hS-view-KOX-j9-Em8.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l1i5ejiBONeFssWTLUBOnJPf/67EZFX7FjtYS/gU/nE=
+			</data>
+		</dict>
+		<key>VideoCall.storyboardc/ymW-sx-4hS-view-KOX-j9-Em8.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l1i5ejiBONeFssWTLUBOnJPf/67EZFX7FjtYS/gU/nE=
+			</data>
+		</dict>
 		<key>VisitorAuthenticateAnonymously.graphql</key>
 		<dict>
 			<key>hash2</key>
@@ -307,11 +480,18 @@
 			WF+f+Uq8mAaywqVeFSSoN0vDZcl/lkKX9GBP/rTAq+U=
 			</data>
 		</dict>
+		<key>VisitorVideoToken.graphql</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uj0JaBvXh9pb5TiXWHvqeZCdbiOQYZzzBPrvIqoub48=
+			</data>
+		</dict>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QubcNokbYrn66SC5EC04wgIJGEgWrF/GPfZ0mMCF2J0=
+			xhvLOWpj0Yur/w4w7NcBvihyT4oEbfKJdyjC9ya4duc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -320,7 +500,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MGRGVUdwzoe9+onXMhbrTwznwVSF1Kg9e6JrS1xACWA=
+			Ya7p+6JGRYy80L58v946mw1aaBkOgrBhTeMdWfh7r9s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -329,7 +509,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			areJY1hmrxoJLbxk7mezpfP1clFRYEeG8d+ZQLDNGOY=
+			KMl+FK7xJrNNaBsePUaMPey1lHTW9y0Vt10c2+RAzCU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -338,16 +518,23 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eiz8QPFHTj0NS6DvxXcF9td6HIicbeZsqzDiMeK2G7g=
+			A2qQORv43/ZceLsBTbVPgKgtLcJB0KJBL+97m1smstQ=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>iAdvizeNotificationView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hK/YUhcay/2W8GFsBlkOPHZV2bvXx8WbiUYY+jOBj+A=
+			</data>
 		</dict>
 		<key>it.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HA+Gdj9pVHXtN58m0QSNT6rjY4hIr1YNnAK7FW9KjVk=
+			fda+wumm8loKIOYDVbdHHEYaIUJKVbsLdzeL4OlHAV8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -356,7 +543,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVlpkxOnFxl48tOR0PD6b1ZqZexEhRsHO3/OZadC6V8=
+			dpnVgVPjNgak4/XW8rCCpF8vNnS5Zgh8EKx9/xgyj7U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -365,7 +552,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p5O1dReewag/3ccMIw/wL9xUsO3m7750mYZ0Uiw/+iA=
+			njkTOvp2sADCzhdNCV40rYAd40y1gMbz4IfsuFcpxeI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -374,7 +561,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H75AjU/KUgwWSPs5cZsB7S0DS8F6XmZxtSx3VFKU5Is=
+			/9aQEZk2/UtFASBL9E1VObGi1uXUtqYyjHZDaHwGSak=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -383,7 +570,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ssIUng/hnPTM8Yc/B+Sd4tY/nL3uSeYn0uGjhRzvZaY=
+			s8PDYWkpF+eHEIktQb4iglmPuTF1pkkTheOyl1TN6X0=
 			</data>
 		</dict>
 	</dict>
