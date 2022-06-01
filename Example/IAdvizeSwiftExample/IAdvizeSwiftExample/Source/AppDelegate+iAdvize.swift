@@ -51,7 +51,7 @@ extension AppDelegate {
 
         IAdvizeSDK.shared.chatboxController.setupChatbox(configuration: configuration)
 
-        IAdvizeSDK.shared.chatboxController.setChatButtonPosition(leftMargin: 15.0, bottomMargin: 15.0)
+        IAdvizeSDK.shared.chatboxController.setFloatingButtonPosition(leftMargin: 15.0, bottomMargin: 15.0)
     }
 
     func iAdvizeActivate() {
@@ -66,7 +66,7 @@ extension AppDelegate {
                 return
             }
 
-            IAdvizeSDK.shared.targetingController.activateTargetingRule(targetingRuleId: self.iAdvizeTargetingRule)
+            IAdvizeSDK.shared.targetingController.activateTargetingRule(targetingRule: self.iAdvizeTargetingRule)
         }
     }
 
@@ -82,7 +82,7 @@ extension AppDelegate {
                     return
                 }
 
-                IAdvizeSDK.shared.targetingController.activateTargetingRule(targetingRuleId: self.iAdvizeTargetingRule)
+                IAdvizeSDK.shared.targetingController.activateTargetingRule(targetingRule: self.iAdvizeTargetingRule)
             }
         }
     }
