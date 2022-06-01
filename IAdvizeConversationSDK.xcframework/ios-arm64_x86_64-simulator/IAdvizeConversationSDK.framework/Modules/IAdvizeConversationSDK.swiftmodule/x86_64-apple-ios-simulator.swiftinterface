@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IAdvizeConversationSDK
+import AVFAudio
 import AVFoundation
 import Apollo
 import CoreServices
@@ -16,33 +17,33 @@ import Swift
 import SwiftGraylog
 import SwiftUI
 import SystemConfiguration
+import TwilioVideo
 import UIKit
 import UserNotifications
 import XMPPFramework
 import _Concurrency
-@_inheritsConvenienceInitializers @objc final public class ConversationController : ObjectiveC.NSObject {
-  @objc weak final public var delegate: IAdvizeConversationSDK.ConversationControllerDelegate?
-  @objc deinit
-  @objc final public var hasOngoingConversation: Swift.Bool {
-    @objc get
-  }
-  #warning("Should be moved to ChatboxController")
-  @objc final public func presentChatbox(animated: Swift.Bool = true, presentingViewController: UIKit.UIViewController? = nil, completion: (() -> Swift.Void)? = nil)
-  #warning("Should be moved to ChatboxController")
-  @objc final public func dismissChatbox(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
-  #warning("Should be moved to ChatboxController")
-  @objc final public func isChatboxPresented() -> Swift.Bool
-  @objc override dynamic public init()
-}
 extension IAdvizeConversationSDK.Transaction {
   @available(swift, obsoleted: 1.0)
   @objc convenience dynamic public init(externalTransactionId: Swift.String, date: Foundation.Date, amount: Swift.Double, currency: IAdvizeConversationSDK.ObjcGraphQLCurrency)
 }
-@objc public protocol ConversationControllerDelegate {
-  @objc optional func didReceiveNewMessage(content: Swift.String)
-  @objc optional func chatboxDidClose()
-  @objc func ongoingConversationStatusDidChange(hasOngoingConversation: Swift.Bool)
-  @objc optional func conversationController(_ controller: IAdvizeConversationSDK.ConversationController, shouldOpen url: Foundation.URL) -> Swift.Bool
+@_inheritsConvenienceInitializers @objc final public class ConversationController : ObjectiveC.NSObject {
+  @objc weak final public var delegate: IAdvizeConversationSDK.ConversationControllerDelegate?
+  @objc final public var hasOngoingConversation: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(ConversationChannel) public class ObjcConversationChannel : ObjectiveC.NSObject {
+  @available(swift, obsoleted: 1.0)
+  @objc public func initWithChat()
+  @available(swift, obsoleted: 1.0)
+  @objc public func initWithVideo()
+  @available(swift, obsoleted: 1.0)
+  @objc override dynamic public init()
+  @available(swift, obsoleted: 1.0)
+  @objc public init(conversationChannel: IAdvizeConversationSDK.ObjcConversationChannel)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc final public class TargetingController : ObjectiveC.NSObject {
   final public var language: IAdvizeConversationSDK.SDKLanguageOption
@@ -50,7 +51,7 @@ extension IAdvizeConversationSDK.Transaction {
   @objc final public var isActiveTargetingRuleAvailable: Swift.Bool {
     @objc get
   }
-  @objc final public func activateTargetingRule(targetingRuleId: Foundation.UUID)
+  @objc final public func activateTargetingRule(targetingRule: IAdvizeConversationSDK.TargetingRule)
   final public func registerUserNavigation(navigationOption: IAdvizeConversationSDK.NavigationOption = .clearActiveRule)
   @objc override dynamic public init()
   @objc deinit
@@ -59,6 +60,11 @@ public enum AuthenticationOption : Swift.Equatable {
   case anonymous
   case simple(userId: Swift.String)
   public static func == (lhs: IAdvizeConversationSDK.AuthenticationOption, rhs: IAdvizeConversationSDK.AuthenticationOption) -> Swift.Bool
+}
+@objc public protocol ConversationControllerDelegate {
+  @objc func ongoingConversationStatusDidChange(hasOngoingConversation: Swift.Bool)
+  @objc optional func didReceiveNewMessage(content: Swift.String)
+  @objc optional func conversationController(_ controller: IAdvizeConversationSDK.ConversationController, shouldOpen url: Foundation.URL) -> Swift.Bool
 }
 @objc(GraphQLCurrency) public enum ObjcGraphQLCurrency : Swift.Int {
   case adp
@@ -296,6 +302,30 @@ public enum AuthenticationOption : Swift.Equatable {
     get
   }
 }
+public enum ConversationChannel : Swift.String {
+  case chat
+  case video
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol KeyboardObserverDelegate : AnyObject {
+  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardDidChangeFrame keyboardFrame: CoreGraphics.CGRect)
+  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillShowWith keyboardFrame: CoreGraphics.CGRect)
+  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillHideWith keyboardFrame: CoreGraphics.CGRect)
+}
+extension IAdvizeConversationSDK.KeyboardObserverDelegate {
+  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardDidChangeFrame keyboardFrame: CoreGraphics.CGRect)
+  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillShowWith keyboardFrame: CoreGraphics.CGRect)
+  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillHideWith keyboardFrame: CoreGraphics.CGRect)
+}
+public class KeyboardObserver {
+  weak public var delegate: IAdvizeConversationSDK.KeyboardObserverDelegate?
+  public init(contextView: UIKit.UIView)
+  @objc deinit
+}
 public enum SDKLanguageOption {
   case custom(value: IAdvizeConversationSDK.Language)
   case `default`
@@ -522,7 +552,7 @@ public enum Logger {
 public enum NavigationOption {
   case clearActiveRule
   case keepActiveRule
-  case activateNewRule(targetinRuleId: Foundation.UUID)
+  case activateNewRule(targetingRule: IAdvizeConversationSDK.TargetingRule)
 }
 @objc(LoggerLogLevel) public enum ObjCLoggerLogLevel : Swift.Int {
   case verbose
@@ -539,6 +569,30 @@ public enum NavigationOption {
 public enum GDPROption {
   case enabled(option: IAdvizeConversationSDK.GDPREnabledOption)
   case disabled
+}
+public enum Channel : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+  public typealias RawValue = Swift.String
+  case appleBusinessChat
+  case call
+  case chat
+  case facebook
+  case facebookBusinessOnMessenger
+  case instagram
+  case mobileApp
+  case sms
+  case twitter
+  case video
+  case whatsapp
+  case __unknown(IAdvizeConversationSDK.Channel.RawValue)
+  public init?(rawValue: IAdvizeConversationSDK.Channel.RawValue)
+  public var rawValue: IAdvizeConversationSDK.Channel.RawValue {
+    get
+  }
+  public static func == (lhs: IAdvizeConversationSDK.Channel, rhs: IAdvizeConversationSDK.Channel) -> Swift.Bool
+  public static var allCases: [IAdvizeConversationSDK.Channel] {
+    get
+  }
+  public typealias AllCases = [IAdvizeConversationSDK.Channel]
 }
 public enum Language : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
   public typealias RawValue = Swift.String
@@ -1085,18 +1139,48 @@ public struct ChatboxConfiguration {
 extension IAdvizeConversationSDK.ChatboxConfiguration {
   public init()
 }
+@objc public protocol ChatboxControllerDelegate {
+  @objc optional func chatboxDidClose()
+}
 @_inheritsConvenienceInitializers @objc final public class ChatboxController : ObjectiveC.NSObject {
-  @objc final public var useDefaultChatButton: Swift.Bool {
+  @objc final public var useDefaultFloatingButton: Swift.Bool {
     @objc get
     @objc set
   }
+  @objc weak final public var delegate: IAdvizeConversationSDK.ChatboxControllerDelegate?
   final public func setupChatbox(configuration: IAdvizeConversationSDK.ChatboxConfiguration)
-  @objc final public func setChatButtonPosition(leftMargin: Swift.Double, bottomMargin: Swift.Double)
+  @objc final public func setFloatingButtonPosition(leftMargin: Swift.Double, bottomMargin: Swift.Double)
+  @objc final public func presentChatbox(animated: Swift.Bool = true, presentingViewController: UIKit.UIViewController? = nil, completion: (() -> Swift.Void)? = nil)
+  @objc final public func dismissChatbox(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
+  @objc final public func isChatboxPresented() -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public protocol GDPRDelegate {
   @objc func didTapMoreInformation()
+}
+public enum AppFont : Swift.String {
+  case proximaNova
+  case proximaNovaItalic
+  case proximaNovaSemibold
+  case proximaNovaSemiboldItalic
+  case montLight
+  case montBook
+  case montHeavy
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UIKit.UIFont {
+  public class func preferredAppFont(forTextStyle style: UIKit.UIFont.TextStyle) -> UIKit.UIFont
+  convenience public init(appFont: IAdvizeConversationSDK.AppFont, fontSize: CoreGraphics.CGFloat)
+}
+extension UIKit.UIFont.TextStyle {
+  public static var allStyles: [UIKit.UIFont.TextStyle] {
+    get
+  }
 }
 extension Foundation.UUID : Apollo.JSONDecodable, Apollo.JSONEncodable {
   public var jsonValue: Apollo.JSONValue {
@@ -1192,6 +1276,18 @@ extension IAdvizeConversationSDK.IAdvizeSDK {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class GradientView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var colors: [UIKit.UIColor] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open class var layerClass: Swift.AnyClass {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc(GDPREnabledOption) public class ObjcGDPREnabledOption : ObjectiveC.NSObject {
   @available(swift, obsoleted: 1.0)
   @objc public init(legalInformationURL: Foundation.URL)
@@ -1218,11 +1314,39 @@ public enum IncomingMessageAvatar {
   @objc public static func `default`() -> IAdvizeConversationSDK.ObjcSDKLanguageOption
   @objc deinit
 }
+@objc public class TargetingRule : ObjectiveC.NSObject {
+  public init(id: Foundation.UUID, conversationChannel: IAdvizeConversationSDK.ConversationChannel)
+  @objc public init(id: Foundation.UUID, objcConversationChannel: IAdvizeConversationSDK.ObjcConversationChannel)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @objc(GDPROption) public class ObjcGDPROption : ObjectiveC.NSObject {
   @available(swift, obsoleted: 1.0)
   @objc public init(gdprEnabledOption: IAdvizeConversationSDK.ObjcGDPREnabledOption)
   @available(swift, obsoleted: 1.0)
   @objc public static func disabled() -> IAdvizeConversationSDK.ObjcGDPROption
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class Label : UIKit.UILabel {
+  @_Concurrency.MainActor(unsafe) public var textStyle: UIKit.UIFont.TextStyle? {
+    get
+    set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var lineHeightMultiple: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var lineBreakMode: UIKit.NSLineBreakMode {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
   @objc deinit
 }
 @objc(VisitorCustomData) public class ObjcVisitorCustomData : ObjectiveC.NSObject {
@@ -1243,11 +1367,23 @@ public enum IncomingMessageAvatar {
   @available(swift, obsoleted: 1.0)
   @objc public func initWithKeepActiveRule()
   @available(swift, obsoleted: 1.0)
-  @objc public init(withNewTargetingRuleId targetingRuleId: Foundation.UUID)
+  @objc public init(withNewTargetingRuleId targetingRule: IAdvizeConversationSDK.TargetingRule)
   @available(swift, obsoleted: 1.0)
   @objc override dynamic public init()
   @available(swift, obsoleted: 1.0)
   @objc public init(navigationOption: IAdvizeConversationSDK.ObjCNavigationOption)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class Button : UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) public var textStyle: UIKit.UIFont.TextStyle? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func setTitle(_ title: Swift.String?, for state: UIKit.UIControl.State)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc final public class NotificationController : ObjectiveC.NSObject {
@@ -1263,6 +1399,14 @@ public enum IncomingMessageAvatar {
   @objc public init(url: Foundation.URL)
   @available(swift, obsoleted: 1.0)
   @objc public init(image: UIKit.UIImage)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class XibView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var contentView: UIKit.UIView? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
 extension IAdvizeConversationSDK.NotificationController {
@@ -1281,9 +1425,15 @@ public enum GDPREnabledOption {
 extension IAdvizeConversationSDK.ChatboxController {
   @objc final public func setupChatbox(configuration: IAdvizeConversationSDK.ObjcChatboxConfiguration)
 }
+extension UIKit.UIWindow {
+  @_Concurrency.MainActor(unsafe) public func setRootViewController(_ viewController: UIKit.UIViewController, animated: Swift.Bool)
+}
 extension IAdvizeConversationSDK.ObjcGraphQLCurrency : Swift.Equatable {}
 extension IAdvizeConversationSDK.ObjcGraphQLCurrency : Swift.Hashable {}
 extension IAdvizeConversationSDK.ObjcGraphQLCurrency : Swift.RawRepresentable {}
+extension IAdvizeConversationSDK.ConversationChannel : Swift.Equatable {}
+extension IAdvizeConversationSDK.ConversationChannel : Swift.Hashable {}
+extension IAdvizeConversationSDK.ConversationChannel : Swift.RawRepresentable {}
 extension IAdvizeConversationSDK.ObjcGraphQLLanguage : Swift.Equatable {}
 extension IAdvizeConversationSDK.ObjcGraphQLLanguage : Swift.Hashable {}
 extension IAdvizeConversationSDK.ObjcGraphQLLanguage : Swift.RawRepresentable {}
@@ -1298,3 +1448,6 @@ extension IAdvizeConversationSDK.ObjcGraphQLApplicationMode : Swift.Hashable {}
 extension IAdvizeConversationSDK.ObjcGraphQLApplicationMode : Swift.RawRepresentable {}
 extension IAdvizeConversationSDK.ActivationStatus : Swift.Equatable {}
 extension IAdvizeConversationSDK.ActivationStatus : Swift.Hashable {}
+extension IAdvizeConversationSDK.AppFont : Swift.Equatable {}
+extension IAdvizeConversationSDK.AppFont : Swift.Hashable {}
+extension IAdvizeConversationSDK.AppFont : Swift.RawRepresentable {}

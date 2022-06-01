@@ -1049,11 +1049,62 @@
             },
             "isDeprecated": false,
             "deprecationReason": null
+          },
+          {
+            "name": "actionType",
+            "description": "Infered type for the actions of every cards",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "CardBundleAttachmentActionType",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "title",
+            "description": "Optional title for the bundle",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
           }
         ],
         "inputFields": null,
         "interfaces": [],
         "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "CardBundleAttachmentActionType",
+        "description": "Type of action in a card bundle",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "LINK",
+            "description": "Link action type",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "SELECT",
+            "description": "Select action type",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
         "possibleTypes": null
       },
       {
@@ -1156,6 +1207,16 @@
               }
             },
             "defaultValue": null
+          },
+          {
+            "name": "channel",
+            "description": "The targeted channel of the conversation. Default to CHAT.",
+            "type": {
+              "kind": "ENUM",
+              "name": "Channel",
+              "ofType": null
+            },
+            "defaultValue": "CHAT"
           },
           {
             "name": "language",
@@ -1345,6 +1406,16 @@
           },
           {
             "kind": "OBJECT",
+            "name": "PickedUpAttachment",
+            "ofType": null
+          },
+          {
+            "kind": "OBJECT",
+            "name": "HungUpAttachment",
+            "ofType": null
+          },
+          {
+            "kind": "OBJECT",
             "name": "UnsupportedAttachment",
             "ofType": null
           }
@@ -1362,6 +1433,11 @@
           {
             "kind": "OBJECT",
             "name": "ConversationMessageAttachmentLinkAction",
+            "ofType": null
+          },
+          {
+            "kind": "OBJECT",
+            "name": "ConversationMessageAttachmentSelectAction",
             "ofType": null
           }
         ]
@@ -1433,6 +1509,33 @@
           {
             "name": "title",
             "description": "Title of the link",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "ConversationMessageAttachmentSelectAction",
+        "description": "Conversation Select Action type",
+        "fields": [
+          {
+            "name": "title",
+            "description": "Title of the select",
             "args": [],
             "type": {
               "kind": "NON_NULL",
@@ -1537,6 +1640,23 @@
         "inputFields": null,
         "interfaces": [],
         "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "ConversationSessionType",
+        "description": "Type of session",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "VIDEO",
+            "description": "Video session",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
         "possibleTypes": null
       },
       {
@@ -3895,6 +4015,49 @@
             "ofType": null
           }
         ],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HungUpAttachment",
+        "description": "Hung up session",
+        "fields": [
+          {
+            "name": "type",
+            "description": "Type of session",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "ConversationSessionType",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "correlationId",
+            "description": "Correlation Id that allows to link PickedUp and HungUp events",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "UUID",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
         "enumValues": null,
         "possibleTypes": null
       },
@@ -6564,6 +6727,18 @@
             },
             "isDeprecated": false,
             "deprecationReason": null
+          },
+          {
+            "name": "visitorVideoToken",
+            "description": "Generate a JWT that the visitor can use to connect to a video stream. Useful for video conversation.",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "VisitorVideoTokenPayload",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
           }
         ],
         "inputFields": null,
@@ -7163,6 +7338,49 @@
         "fields": null,
         "inputFields": null,
         "interfaces": null,
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PickedUpAttachment",
+        "description": "Picked up session",
+        "fields": [
+          {
+            "name": "type",
+            "description": "Type of session",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "ConversationSessionType",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "correlationId",
+            "description": "Correlation Id that allows to link PickedUp and hungUp events",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "UUID",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
         "enumValues": null,
         "possibleTypes": null
       },
@@ -10296,6 +10514,16 @@
               }
             },
             "defaultValue": null
+          },
+          {
+            "name": "channel",
+            "description": "The targeted channel",
+            "type": {
+              "kind": "ENUM",
+              "name": "Channel",
+              "ofType": null
+            },
+            "defaultValue": "CHAT"
           }
         ],
         "interfaces": null,
@@ -11966,6 +12194,172 @@
         "possibleTypes": null
       },
       {
+        "kind": "OBJECT",
+        "name": "VisitorVideoTokenPayload",
+        "description": "Response of the visitorVideoToken query",
+        "fields": [
+          {
+            "name": "visitorVideoToken",
+            "description": "A token that a visitor can use to join a video stream. Use this token for video conversation",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "AnswersAssistanceSettings",
+        "description": "Answers assistance settings",
+        "fields": [
+          {
+            "name": "isCannedAnswersAutocompleteEnabled",
+            "description": "Set to true if the autocomplete is enabled for canned answers as the operator types",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isSmartAnswersEnabled",
+            "description": "Set to true is smart answers are enabled for this project",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isStartMessageEnabled",
+            "description": "Set to true to automatically send a message on conversation starts",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isEndMessageEnabled",
+            "description": "Set to true to automatically send a message when the conversation ends",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isStartMessageVisioEnabled",
+            "description": "Set to true to automatically send a message on video conversation starts",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isEndMessageVisioEnabled",
+            "description": "Set to true to automatically send a message when the video conversation ends",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "cannedAnswersOrder",
+            "description": "Defines the order canned answers are displayed in the desktop conversation panel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "CannedAnswersSortingOrder",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "cannedAnswersCategoryOrder",
+            "description": "Defines the order canned answer categories are displayed in the desktop conversation panel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "CannedAnswersCategorySortingOrder",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
         "kind": "ENUM",
         "name": "AutomationLevel",
         "description": "Level of automation of a conversation",
@@ -11988,6 +12382,58 @@
           {
             "name": "PARTIALLY_AUTOMATED",
             "description": null,
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "CannedAnswersCategorySortingOrder",
+        "description": "Canned answers category sorting order",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "ALPHABETICAL_CATEGORY_ORDER",
+            "description": "Alphabetical order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "DATE_OF_CREATION_CATEGORY_ORDER",
+            "description": "Date of creation order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "MANUAL_CATEGORY_ORDER",
+            "description": "Manual order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "CannedAnswersSortingOrder",
+        "description": "Canned answers sorting order",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "ALPHABETICAL_ORDER",
+            "description": "Alphabetical order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "DATE_OF_CREATION_ORDER",
+            "description": "Date of creation order",
             "isDeprecated": false,
             "deprecationReason": null
           }
@@ -12660,6 +13106,61 @@
         "possibleTypes": null
       },
       {
+        "kind": "OBJECT",
+        "name": "CommunitySettings",
+        "description": "Community settings",
+        "fields": [
+          {
+            "name": "isCommunityEnabled",
+            "description": "True if the community is enabled for this project",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isCommunityStartMessageEnabled",
+            "description": "Set to true to automatically send a message on conversation starts",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "communityFaqUrl",
+            "description": "The url used for the community FAQ",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
         "kind": "INPUT_OBJECT",
         "name": "ConnectedUserFilters",
         "description": "Criteria available to filter a list of connected users.",
@@ -12806,6 +13307,18 @@
             "type": {
               "kind": "OBJECT",
               "name": "ChannelGroupAvailabilityStatus",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "usersInProductionChatOccupancy",
+            "description": "Average chat occupancy for users currently in production",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "UsersInProductionOccupancy",
               "ofType": null
             },
             "isDeprecated": false,
@@ -14062,6 +14575,30 @@
             "deprecationReason": null
           },
           {
+            "name": "routingEvents",
+            "description": "Timeline of the conversation represented by the routing events that took place",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "OBJECT",
+                    "name": "RoutingEvent",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "conversions",
             "description": "Conversions associated to the conversation",
             "args": [],
@@ -14258,12 +14795,133 @@
             },
             "isDeprecated": false,
             "deprecationReason": null
+          },
+          {
+            "name": "distributionStatus",
+            "description": "Represents the current status of the conversation, with extra information depending on the status",
+            "args": [],
+            "type": {
+              "kind": "UNION",
+              "name": "ConversationDistributionStatus",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
           }
         ],
         "inputFields": null,
         "interfaces": [],
         "enumValues": null,
         "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "ConversationAssignment",
+        "description": "An assigned conversation can only be pushed to the agent it is assigned to",
+        "fields": [
+          {
+            "name": "assignedAt",
+            "description": "The date the conversation has been assigned at",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "assignedTo",
+            "description": "The agent the conversation has been assigned to",
+            "args": [],
+            "type": {
+              "kind": "INTERFACE",
+              "name": "User",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "ConversationClosedStatus",
+        "description": "A closed conversation has been closed by an agent after being handled",
+        "fields": [
+          {
+            "name": "closedBy",
+            "description": "The agent that closed the conversation",
+            "args": [],
+            "type": {
+              "kind": "INTERFACE",
+              "name": "User",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "closedAt",
+            "description": "The date the conversation has been closed at",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "UNION",
+        "name": "ConversationDistributionStatus",
+        "description": "Represents a conversation status",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": null,
+        "possibleTypes": [
+          {
+            "kind": "OBJECT",
+            "name": "ConversationPendingStatus",
+            "ofType": null
+          },
+          {
+            "kind": "OBJECT",
+            "name": "ConversationPushedStatus",
+            "ofType": null
+          },
+          {
+            "kind": "OBJECT",
+            "name": "ConversationSnoozedStatus",
+            "ofType": null
+          },
+          {
+            "kind": "OBJECT",
+            "name": "ConversationClosedStatus",
+            "ofType": null
+          }
+        ]
       },
       {
         "kind": "INTERFACE",
@@ -14379,6 +15037,151 @@
                 "name": "String",
                 "ofType": null
               }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "ConversationPendingStatus",
+        "description": "A pending conversation is ready to be pushed as soon as there is an agent available on its routing group",
+        "fields": [
+          {
+            "name": "pendingSince",
+            "description": "The date the conversation has been pending since",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "assignment",
+            "description": "Valued when the conversation is assigned to a specific agent",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "ConversationAssignment",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "ConversationPushedStatus",
+        "description": "A pushed conversation is currently being handled by an agent",
+        "fields": [
+          {
+            "name": "pushedAt",
+            "description": "The date the conversation has been pushed at",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pushedTo",
+            "description": "The agent te conversation has been pushed to",
+            "args": [],
+            "type": {
+              "kind": "INTERFACE",
+              "name": "User",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "ConversationSnoozedStatus",
+        "description": "A snoozed conversation will not be pushed before the visitor sends a new message, or the snoozed delay expires",
+        "fields": [
+          {
+            "name": "snoozedUntil",
+            "description": "Maximum date after which the snooze will automatically expire",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "snoozedBy",
+            "description": "The agent the conversation has been snoozed by",
+            "args": [],
+            "type": {
+              "kind": "INTERFACE",
+              "name": "User",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "snoozedAt",
+            "description": "The date the conversation was snoozed",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "assignment",
+            "description": "Valued when the agent that snoozed the conversation wants to get the conversation back after the snooze ends",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "ConversationAssignment",
+              "ofType": null
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -16383,6 +17186,101 @@
       },
       {
         "kind": "ENUM",
+        "name": "LinkCategorySortingOrder",
+        "description": "Link category sorting order",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "ALPHABETICAL_CATEGORY_ORDER",
+            "description": "Alphabetical order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "DATE_OF_CREATION_CATEGORY_ORDER",
+            "description": "Date of creation order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "MANUAL_CATEGORY_ORDER",
+            "description": "Manual order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "LinkSettings",
+        "description": "Link settings",
+        "fields": [
+          {
+            "name": "linkOrder",
+            "description": "Defines the order links are displayed in the desktop conversation panel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "LinkSortingOrder",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "linkCategoryOrder",
+            "description": "Defines the order link categories are displayed in the desktop conversation panel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "LinkCategorySortingOrder",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "LinkSortingOrder",
+        "description": "Link sorting order",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "ALPHABETICAL_ORDER",
+            "description": "Alphabetical order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "DATE_OF_CREATION_ORDER",
+            "description": "Date of creation order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
         "name": "Locale",
         "description": "BCP47 language tags (with underscores)",
         "fields": null,
@@ -17519,6 +18417,65 @@
       },
       {
         "kind": "OBJECT",
+        "name": "MirroringSettings",
+        "description": "Mirroring settings",
+        "fields": [
+          {
+            "name": "isMirroringEnabled",
+            "description": "Set to true to enable the mirroring",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isCobrowsingEnabled",
+            "description": "Set to true to enable the cobrowsing",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isCobrowsingClickEnabled",
+            "description": "Set to true to enable cobrowsing with operator inputs, otherwise the operator can only scroll and point areas on the visitor page",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
         "name": "MobileSDKConfiguration",
         "description": "Describe the SDKs configurations for the specified project.",
         "fields": [
@@ -17562,6 +18519,77 @@
               "kind": "OBJECT",
               "name": "Project",
               "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "NotificationSettings",
+        "description": "Notification settings",
+        "fields": [
+          {
+            "name": "notificationSoundFile",
+            "description": "The sound file to play when a conversation is received",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isChatVisualNotificationEnabled",
+            "description": "Set to true to enable visual notification for new chat conversation",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isVideoVisualNotificationEnable",
+            "description": "Set to true to enable visual notification for new video conversation",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isCallVisualNotificationEnabled",
+            "description": "Set to true to enable visual notification for new call conversation",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -17645,6 +18673,101 @@
         "inputFields": null,
         "interfaces": [],
         "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "OfferCategorySortingOrder",
+        "description": "Offer category sorting order",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "ALPHABETICAL_CATEGORY_ORDER",
+            "description": "Alphabetical order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "DATE_OF_CREATION_CATEGORY_ORDER",
+            "description": "Date of creation order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "MANUAL_CATEGORY_ORDER",
+            "description": "Manual order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "OfferSettings",
+        "description": "Offer settings",
+        "fields": [
+          {
+            "name": "offerOrder",
+            "description": "Defines the order offers are displayed in the desktop conversation panel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "OfferSortingOrder",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "offerCategoryOrder",
+            "description": "Defines the order offer categories are displayed in the desktop conversation panel",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "OfferCategorySortingOrder",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "OfferSortingOrder",
+        "description": "Offer sorting order",
+        "fields": null,
+        "inputFields": null,
+        "interfaces": null,
+        "enumValues": [
+          {
+            "name": "ALPHABETICAL_ORDER",
+            "description": "Alphabetical order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "DATE_OF_CREATION_ORDER",
+            "description": "Date of creation order",
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
         "possibleTypes": null
       },
       {
@@ -18068,12 +19191,108 @@
             "deprecationReason": null
           },
           {
+            "name": "url",
+            "description": "Project url",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "settings",
             "description": "Project settings",
             "args": [],
             "type": {
               "kind": "OBJECT",
               "name": "ProjectSettings",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "linkSettings",
+            "description": "Link settings",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "LinkSettings",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "offerSettings",
+            "description": "Offer settings",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "OfferSettings",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "answersAssistanceSettings",
+            "description": "Answers assistance settings",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "AnswersAssistanceSettings",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "notificationSettings",
+            "description": "Notification settings",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "NotificationSettings",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mirroringSettings",
+            "description": "Mirroring settings",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "MirroringSettings",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "communitySettings",
+            "description": "Community settings",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "CommunitySettings",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "deskIdentifier",
+            "description": "Project identifier used in the desk stateboxes",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
               "ofType": null
             },
             "isDeprecated": false,
@@ -18091,18 +19310,6 @@
                 "name": "String",
                 "ofType": null
               }
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "url",
-            "description": "Project url",
-            "args": [],
-            "type": {
-              "kind": "SCALAR",
-              "name": "String",
-              "ofType": null
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -18267,16 +19474,20 @@
       {
         "kind": "OBJECT",
         "name": "ProjectSettings",
-        "description": "A list of project's scoped configuration keys",
+        "description": "Project settings",
         "fields": [
           {
             "name": "isSatisfactionSurveyEnabled",
             "description": "When this option is enabled, closing of a conversation will trigger a satisfaction survey, sent to the visitor of the conversation, on compatible channels.",
             "args": [],
             "type": {
-              "kind": "SCALAR",
-              "name": "Boolean",
-              "ofType": null
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Boolean",
+                "ofType": null
+              }
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -20033,6 +21244,57 @@
                   }
                 }
               }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "RoutingEvent",
+        "description": "A routing-event in the timeline of the conversation",
+        "fields": [
+          {
+            "name": "createdAt",
+            "description": "Date and time of the event",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "DateTime",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "routingRule",
+            "description": "The routing-rule applied for the conversation transfer/assignment",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "RoutingRule",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "routingGroup",
+            "description": "Group of operators the conversation was routed to",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "RoutingGroup",
+              "ofType": null
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -22352,22 +23614,6 @@
             "deprecationReason": null
           },
           {
-            "name": "project",
-            "description": "The transaction's project",
-            "args": [],
-            "type": {
-              "kind": "NON_NULL",
-              "name": null,
-              "ofType": {
-                "kind": "OBJECT",
-                "name": "Project",
-                "ofType": null
-              }
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
             "name": "platformId",
             "description": "The transaction's platform (HA or SD)",
             "args": [],
@@ -22562,6 +23808,18 @@
             "type": {
               "kind": "SCALAR",
               "name": "Boolean",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "project",
+            "description": "Engagement campaign project",
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "Project",
               "ofType": null
             },
             "isDeprecated": false,
@@ -23011,6 +24269,53 @@
                 "name": "String",
                 "ofType": null
               }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "UsersInProductionOccupancy",
+        "description": "Average chat occupancy for users currently in production",
+        "fields": [
+          {
+            "name": "maximumSimultaneousConversationAverage",
+            "description": "Average maximum simultaneous conversation number for users currently in production",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "simultaneousConversationAverage",
+            "description": "Average simultaneous conversations number for users currently in production",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "occupancyRate",
+            "description": "Occupancy rate for users currently connected to the desk",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Float",
+              "ofType": null
             },
             "isDeprecated": false,
             "deprecationReason": null
