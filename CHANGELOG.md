@@ -1,3 +1,9 @@
+# 2.5.1
+
+### Release date 2022/07/04
+
+- new release built with Xcode 13.4
+
 # 2.5.0
 
 ### Release date 2022/03/30

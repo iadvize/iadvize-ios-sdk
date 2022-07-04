@@ -8,6 +8,7 @@ Embed the iAdvize Conversation SDK in your app and connect your visitors with yo
 
 | Version | Min iOS Version | Swift Version | Xcode Version |
 | ------- | ------------------- | -------------- | -------------- |
+| 2.5.1   | iOS 12.0             | 5        | 13.4.X      |
 | 2.5.0   | iOS 12.0             | 5        | 13.X        |
 | 2.4.2   | iOS 12.0             | 5        | 13.X        |
 | 2.4.1   | iOS 12.0             | 5        | 13.X        |
