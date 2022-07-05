@@ -1,3 +1,10 @@
+# 2.6.0
+
+### Release date 2022/07/05
+
+- Add support for secured authentication mode
+- Add support for georouting cards
+
 # 2.5.1
 
 ### Release date 2022/07/04
