@@ -74,7 +74,7 @@ extension AppDelegate {
         // To activate GDPR, you have to provide a legal information URL.
         if let legalInfoURL = URL(string: "http://yourlegalinformationurl.com/legal") {
             IAdvizeSDK.shared.activate(projectId: iAdvizeProjectID,
-                                       authenticationOption: .simple(userId: "UserIdentifier"),
+                                       authenticationOption: .simple(userId: YOUR_USER_IDENTIFIER),
                                        gdprOption: .enabled(option: .legalInformation(url: legalInfoURL))) { success in
                 guard success else {
                     // Activation fails. You need to retry later to be able to properly activate the iAdvize Conversation SDK.
