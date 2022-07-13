@@ -430,6 +430,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeSDK *
 
 
 
+
 enum LoggerLogLevel : NSInteger;
 @class AuthenticationOption;
 @class GDPROption;
@@ -1986,6 +1987,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeSDK *
 - (void)logoutWithCompletion:(void (^ _Nullable)(void))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

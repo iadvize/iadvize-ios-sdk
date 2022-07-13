@@ -428,6 +428,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IAdvizeSDK *
 
 
 
+
 enum LoggerLogLevel : NSInteger;
 @class AuthenticationOption;
 @class GDPROption;

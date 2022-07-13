@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/IAdvizeConversationSDK-Swift.h</key>
 		<data>
-		n+cdNZibVH3Z47cxDA6Us+tsZSc=
+		2xGx8slvaFKNmnAMHsyd30MAUoc=
 		</data>
 		<key>Headers/IAdvizeConversationSDK.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y7I2pX4LjRQvUSa/Rc7MkoBoWig=
+		5N7kK7ScTFGkdFY9r+byq51ZFrI=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QXSMXeHpRWFpBSr3nDj/bysRhBg=
+		KdzLrrRwFj+Nf6iwPTnzAaJ1bGg=
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		329zApRmSjBr8cZjTePtmfBBko8=
+		zn3F96/ZZbQHtT9KIFQBvQbi3fw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -264,7 +264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZHQyCIhaCu1r1HdeE/FB4qFyND3JTu/8WZlrMU2QeOo=
+			qL8sX2ca/tAOSSxn9lgo2DAMsroDA2oZKPZ+sB5jmt0=
 			</data>
 		</dict>
 		<key>Headers/IAdvizeConversationSDK.h</key>
@@ -292,7 +292,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LjF1R/2d5qfNNC3mv0CMFBQXgTMIOBgiI6GK47yOz0I=
+			0XlmT6BwPD/LJcnx3pE2LYuRrUyHXY26JIwzMcDu158=
 			</data>
 		</dict>
 		<key>Modules/IAdvizeConversationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -313,7 +313,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cLzV9PrPMhzfAWjn/mZSqpvI5PBFrf/Hxwrnz1XPZ7k=
+			xoo4v2+aEycrLMI+ReAthiOjs7+SqkM6l6Npam59aBs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
