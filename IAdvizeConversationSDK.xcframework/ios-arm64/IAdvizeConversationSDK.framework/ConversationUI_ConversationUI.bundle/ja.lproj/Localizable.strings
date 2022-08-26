@@ -1,0 +1,29 @@
+/* Send button title when you compose a chat message and you want to send it */
+"chat_compose_button_send" = "送信";
+
+"chat_compose_hint" = "メッセージを書く…";
+
+"chat_item_expert_message_status" = "送信中…";
+
+"chat_snooze_message" = "%@ がこの会話を一時停止しました";
+
+"chat_transfer_message" = "%@ ビジターを転送しました";
+
+"chat_transfer_reason_message" = "備考：%@";
+
+"common_cancel" = "キャンセル";
+
+"common_copy" = "コピーする";
+
+"conversation_load_past_conversation" = "過去の会話をロードする";
+
+"conversation_video_escalation_invitation_join" = "参加";
+
+"conversation_video_escalation_invitation_subtitle" = "ビデオセッションへの招待は一つづつしか送れません。";
+
+"conversation_video_escalation_invitation_title" = "ビデオセッションに招待しました。";
+
+"product_list_product_available" = "在庫あり";
+
+"product_list_product_unavailable" = "在庫切れ";
+

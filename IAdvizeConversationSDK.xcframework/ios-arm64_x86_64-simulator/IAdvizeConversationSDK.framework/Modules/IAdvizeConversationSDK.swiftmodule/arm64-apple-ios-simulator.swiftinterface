@@ -16,6 +16,7 @@ import Security
 import Swift
 import SwiftGraylog
 import SwiftUI
+import SwiftyMarkdown
 import SystemConfiguration
 import TwilioVideo
 import UIKit
@@ -578,6 +579,7 @@ public enum Channel : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, S
   case chat
   case facebook
   case facebookBusinessOnMessenger
+  case googleBusinessMessages
   case instagram
   case mobileApp
   case sms
@@ -801,6 +803,7 @@ public enum Source : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Sw
   case appleBusinessChat
   case facebook
   case facebookBusinessOnMessenger
+  case googleBusinessMessages
   case mobileApp
   case onsite
   case sms
