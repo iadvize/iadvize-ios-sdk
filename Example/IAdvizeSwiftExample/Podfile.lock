@@ -12,12 +12,13 @@ PODS:
   - CocoaLumberjack/Swift (3.7.4):
     - CocoaLumberjack/Core
   - Gifu (3.3.1)
-  - iAdvize (2.6.0):
+  - iAdvize (2.7.1):
     - Apollo (~> 0.36.0)
     - Apollo/SQLite
     - Gifu (~> 3.3.0)
     - JWTDecode (~> 2.6.3)
     - SwiftGraylog (~> 1.1.1)
+    - SwiftyMarkdown (~> 1.2.4)
     - TwilioVideo (~> 4.6)
     - XMPPFramework/Swift (~> 4.0.0)
   - JWTDecode (2.6.3)
@@ -34,6 +35,7 @@ PODS:
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
   - SwiftGraylog (1.1.1)
+  - SwiftyMarkdown (1.2.4)
   - TwilioVideo (4.6.3)
   - XMPPFramework/default (4.0.0):
     - CocoaAsyncSocket (~> 7.6)
@@ -45,7 +47,7 @@ PODS:
     - XMPPFramework/default
 
 DEPENDENCIES:
-  - iAdvize (= 2.6.0)
+  - iAdvize (from `../../../mobile-ios-sdk-conversation-library`)
 
 SPEC REPOS:
   trunk:
@@ -53,29 +55,34 @@ SPEC REPOS:
     - CocoaAsyncSocket
     - CocoaLumberjack
     - Gifu
-    - iAdvize
     - JWTDecode
     - KissXML
     - libidn
     - SQLite.swift
     - SwiftGraylog
+    - SwiftyMarkdown
     - TwilioVideo
     - XMPPFramework
+
+EXTERNAL SOURCES:
+  iAdvize:
+    :path: "../../../mobile-ios-sdk-conversation-library"
 
 SPEC CHECKSUMS:
   Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
-  iAdvize: 3c5b3882cc3deca2f5754a807f94503192b5ff71
+  iAdvize: 911f5e5967b3df33c58450a2d04d1461f9567f80
   JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   SwiftGraylog: 4fffb151492baa199e708548ece16f4cf1c75413
+  SwiftyMarkdown: 7cdec87c6ab5cd9ea0e22ced288e889960649ba5
   TwilioVideo: 4afaac028c5886f2f3b313a9fcc146a6b7ca34e2
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: 0d51958f7f95909afe6f744f23f581e622847db3
+PODFILE CHECKSUM: 59df7d6698165407a7580c809daafb630d1fb321
 
 COCOAPODS: 1.11.2

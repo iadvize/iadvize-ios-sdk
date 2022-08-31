@@ -1,0 +1,11 @@
+framework module ConversationUI {
+  umbrella header "ConversationUI.h"
+
+  export *
+  module * { export * }
+}
+
+module ConversationUI.Swift {
+    header "ConversationUI-Swift.h"
+    requires objc
+}

@@ -5,7 +5,11 @@ inhibit_all_warnings!
 target 'IAdvizeSwiftExample' do
     project 'IAdvizeSwiftExample'
 
-    pod 'iAdvize', '2.6.0'
+    # pod 'iAdvize', '2.6.0'
+
+    pod 'iAdvize', :path => '../../../mobile-ios-sdk-conversation-library'
+
+    # pod 'iAdvize', :git => "https://github.com/iadvize/iadvize-ios-sdk.git", :branch => "release/2.7.0"
 end
 
 post_install do |installer|

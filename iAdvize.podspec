@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version            = '5.0'
 
-  spec.ios.vendored_frameworks  = 'IAdvizeConversationSDK.xcframework'
+  spec.ios.vendored_frameworks  = 'IAdvizeConversationSDK.xcframework', 'ConversationUI.xcframework'
 
   spec.dependency 'Apollo', '~> 0.36.0'
   spec.dependency 'Apollo/SQLite'
