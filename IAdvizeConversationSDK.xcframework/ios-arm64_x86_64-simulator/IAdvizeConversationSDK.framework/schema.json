@@ -8131,6 +8131,79 @@
       },
       {
         "kind": "OBJECT",
+        "name": "RoutingSegmentUserDynamic",
+        "description": "Routing group segment used to dynamically match agents based on their skills.",
+        "fields": [
+          {
+            "name": "skills",
+            "description": "Match agents based on these skills.",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "LIST",
+                "name": null,
+                "ofType": {
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "SCALAR",
+                    "name": "LegacyId",
+                    "ofType": null
+                  }
+                }
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "geoSkill",
+            "description": "Match agents based on these location skill.",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "LegacyId",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "logicalOperator",
+            "description": "The operator determines if any, all, or none of the values of the segment must match.",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "ENUM",
+                "name": "RoutingSegmentLogicalOperator",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [
+          {
+            "kind": "INTERFACE",
+            "name": "RoutingSegment",
+            "ofType": null
+          }
+        ],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
         "name": "RoutingSegmentUserGroups",
         "description": "Routing group segment used to match agents based on their groups.",
         "fields": [
@@ -11336,67 +11409,73 @@
         "enumValues": [
           {
             "name": "APPLE_BUSINESS_CHAT",
-            "description": null,
+            "description": "Apple Business Chat channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "CALL",
-            "description": null,
+            "description": "Call channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "CHAT",
-            "description": null,
+            "description": "Chat channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "FACEBOOK",
-            "description": null,
+            "description": "Facebook channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "FACEBOOK_BUSINESS_ON_MESSENGER",
-            "description": null,
+            "description": "Facebook Business On Messenger channel",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "GOOGLE_BUSINESS_MESSAGES",
+            "description": "Google Business Messages channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "INSTAGRAM",
-            "description": null,
+            "description": "Facebook channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "MOBILE_APP",
-            "description": null,
+            "description": "Mobile App  channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "SMS",
-            "description": null,
+            "description": "SMS channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "TWITTER",
-            "description": null,
+            "description": "Twitter channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "VIDEO",
-            "description": null,
+            "description": "Video channel",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "WHATSAPP",
-            "description": null,
+            "description": "WhatsApp channel",
             "isDeprecated": false,
             "deprecationReason": null
           }
@@ -21916,6 +21995,11 @@
             "kind": "OBJECT",
             "name": "RoutingModeCustom",
             "ofType": null
+          },
+          {
+            "kind": "OBJECT",
+            "name": "RoutingModeDynamic",
+            "ofType": null
           }
         ]
       },
@@ -21985,6 +22069,33 @@
               "ofType": {
                 "kind": "SCALAR",
                 "name": "Int",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "RoutingModeDynamic",
+        "description": "When a routing rule is using the dynamic mode, conversations are distributed dynamically according to the skills of its users.",
+        "fields": [
+          {
+            "name": "type",
+            "description": "GraphQL objects must contain at least one field. Returning the type of this routingMode.",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
                 "ofType": null
               }
             },
@@ -22626,6 +22737,11 @@
         "interfaces": [],
         "enumValues": null,
         "possibleTypes": [
+          {
+            "kind": "OBJECT",
+            "name": "RoutingSegmentUserDynamic",
+            "ofType": null
+          },
           {
             "kind": "OBJECT",
             "name": "RoutingSegmentUserGroups",
@@ -23892,22 +24008,6 @@
             "deprecationReason": null
           },
           {
-            "name": "userCount",
-            "description": "Number of users that have the given skill",
-            "args": [],
-            "type": {
-              "kind": "NON_NULL",
-              "name": null,
-              "ofType": {
-                "kind": "SCALAR",
-                "name": "Int",
-                "ofType": null
-              }
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
             "name": "parent",
             "description": "The parent of this skill",
             "args": [],
@@ -23930,6 +24030,22 @@
             },
             "isDeprecated": false,
             "deprecationReason": null
+          },
+          {
+            "name": "userCount",
+            "description": "Number of users that have the given skill",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "Int",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
           }
         ],
         "inputFields": null,
@@ -23947,49 +24063,55 @@
         "enumValues": [
           {
             "name": "APPLE_BUSINESS_CHAT",
-            "description": null,
+            "description": "Apple Business Chat source",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "FACEBOOK",
-            "description": null,
+            "description": "Facebook source",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "FACEBOOK_BUSINESS_ON_MESSENGER",
-            "description": null,
+            "description": "Facebook Business On Messenger source",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "GOOGLE_BUSINESS_MESSAGES",
+            "description": "Google Business Messages source",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "MOBILE_APP",
-            "description": null,
+            "description": "Mobile App source",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "ONSITE",
-            "description": null,
+            "description": "Onsite source",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "SMS",
-            "description": null,
+            "description": "SMS source",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "TWITTER",
-            "description": null,
+            "description": "Twitter source",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "WHATSAPP",
-            "description": null,
+            "description": "WhatsApp source",
             "isDeprecated": false,
             "deprecationReason": null
           }

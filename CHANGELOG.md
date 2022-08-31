@@ -1,3 +1,14 @@
+# 2.7.0
+
+### Release date 2022/08/26
+
+**Features**
+- Basic Markdown support in messages
+
+**Bug fixes**
+- Image were uploaded and sent twice
+
+
 # 2.6.0
 
 ### Release date 2022/07/05

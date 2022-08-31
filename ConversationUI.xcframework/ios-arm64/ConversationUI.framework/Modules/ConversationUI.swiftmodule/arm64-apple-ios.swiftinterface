@@ -1,0 +1,412 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ConversationUI
+import AudioToolbox
+@_exported import ConversationUI
+import Foundation
+import LinkPresentation
+import MobileCoreServices
+import Swift
+import UIKit
+import _Concurrency
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MessagesTableView : UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) weak public var messagesDataSource: ConversationUI.MessagesDataSource?
+  @_Concurrency.MainActor(unsafe) weak public var messageDelegate: ConversationUI.MessagesDelegate?
+  @_Concurrency.MainActor(unsafe) public func scrollToLastItem(at position: UIKit.UITableView.ScrollPosition = .bottom, animated: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public var isPenultimateItemVisible: Swift.Bool? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var isLastItemVisible: Swift.Bool? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func reload(scrollingToLastItem: Swift.Bool, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func imageViewForMessage(at index: Swift.Int) -> UIKit.UIImageView?
+  @objc deinit
+}
+@objc @_Concurrency.MainActor(unsafe) open class ConversationViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public let messagesTableView: ConversationUI.MessagesTableView
+  @_Concurrency.MainActor(unsafe) final public let inputBar: ConversationUI.InputBar
+  @_Concurrency.MainActor(unsafe) public var baseFont: UIKit.UIFont {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var mainColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var incomingMessageComposingState: ConversationUI.IncomingMessageComposingState {
+    get
+    set
+  }
+  @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public func increaseUnreadMessageCount()
+  public enum LoadPastConversationButtonState {
+    case hidden
+    case idle
+    case loading
+    public static func == (a: ConversationUI.ConversationViewController.LoadPastConversationButtonState, b: ConversationUI.ConversationViewController.LoadPastConversationButtonState) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public var loadPastConversationButtonState: ConversationUI.ConversationViewController.LoadPastConversationButtonState {
+    get
+    set
+  }
+  public enum SoundType {
+    case incomingMessage
+    case outgoingMessage
+    public static func == (a: ConversationUI.ConversationViewController.SoundType, b: ConversationUI.ConversationViewController.SoundType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public func playSound(for type: ConversationUI.ConversationViewController.SoundType)
+  @objc deinit
+}
+extension ConversationUI.ConversationViewController : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension ConversationUI.ConversationViewController : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+}
+extension UIKit.UIColor {
+  public static var conversationAzure: UIKit.UIColor {
+    get
+  }
+  public static var conversationGainsboro: UIKit.UIColor {
+    get
+  }
+  public static var conversationBackground: UIKit.UIColor {
+    get
+  }
+  public static var conversationLabel: UIKit.UIColor {
+    get
+  }
+  public static var conversationPlaceholderText: UIKit.UIColor {
+    get
+  }
+  public static var conversationSeparator: UIKit.UIColor {
+    get
+  }
+  public static var firebrick: UIKit.UIColor {
+    get
+  }
+  public static var incomingMessageBackground: UIKit.UIColor {
+    get
+  }
+  public static var incomingMessageText: UIKit.UIColor {
+    get
+  }
+  public static var malachite: UIKit.UIColor {
+    get
+  }
+  public static var outgoingMessageText: UIKit.UIColor {
+    get
+  }
+  public static var secondaryConversationBackground: UIKit.UIColor {
+    get
+  }
+  public static var secondaryConversationLabel: UIKit.UIColor {
+    get
+  }
+}
+public protocol InputBarDelegate : AnyObject {
+  func inputBarDidTapSendButton(_ inputBar: ConversationUI.InputBar)
+  func inputBarDidBeginEditing(_ inputBar: ConversationUI.InputBar)
+  func inputBarDidEndEditing(_ inputBar: ConversationUI.InputBar)
+  func inputBarDidUpdateText(_ inputBar: ConversationUI.InputBar)
+}
+extension ConversationUI.InputBarDelegate {
+  public func inputBarDidTapSendButton(_ inputBar: ConversationUI.InputBar)
+  public func inputBarDidBeginEditing(_ inputBar: ConversationUI.InputBar)
+  public func inputBarDidEndEditing(_ inputBar: ConversationUI.InputBar)
+  public func inputBarDidUpdateText(_ inputBar: ConversationUI.InputBar)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class InputBar : ConversationUI.XibView {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: ConversationUI.InputBarDelegate?
+  @_Concurrency.MainActor(unsafe) public var text: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var bounds: CoreGraphics.CGRect {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public func appendText(_ text: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func openKeyboard()
+  @_Concurrency.MainActor(unsafe) public func dismissKeyboard()
+  @_Concurrency.MainActor(unsafe) public func setTopView(_ view: UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) public func setMiddleView(_ view: UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) public func setLeftButtons(_ buttons: [UIKit.UIButton])
+  @_Concurrency.MainActor(unsafe) public func setRightButtons(_ buttons: [UIKit.UIButton])
+  @objc deinit
+}
+extension ConversationUI.InputBar : UIKit.UITextViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidEndEditing(_ textView: UIKit.UITextView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
+}
+public protocol MessagesDataSource : AnyObject {
+  func numberOfMessages() -> Swift.Int
+  func message(at index: Swift.Int) -> ConversationUI.Message
+  func currentSender() -> ConversationUI.Sender
+  func avatar(forMessageAt index: Swift.Int) -> ConversationUI.Avatar?
+}
+@_hasMissingDesignatedInitializers public class MenuElement {
+  public var title: Swift.String
+  public var image: UIKit.UIImage?
+  @objc deinit
+}
+public typealias ActionHandler = (ConversationUI.Action) -> Swift.Void
+@_hasMissingDesignatedInitializers public class Action : ConversationUI.MenuElement {
+  public init(title: Swift.String = "", image: UIKit.UIImage? = nil, handler: @escaping ConversationUI.ActionHandler)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Menu : ConversationUI.MenuElement {
+  public init(children: [ConversationUI.MenuElement])
+  @objc deinit
+}
+public struct Avatar {
+  public init(picture: ConversationUI.Avatar.Picture, presence: ConversationUI.Avatar.Presence?, channel: ConversationUI.Avatar.Channel?)
+  public enum Picture {
+    case url(Foundation.URL)
+    case image(UIKit.UIImage)
+  }
+  public enum Presence {
+    case unknown
+    case available
+    case unavailable
+    public static func == (a: ConversationUI.Avatar.Presence, b: ConversationUI.Avatar.Presence) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Channel {
+    case appleBusinessChat
+    case call
+    case chat
+    case facebook
+    case facebookBusinessOnMessenger
+    case instagram
+    case mobileApp
+    case sms
+    case twitter
+    case video
+    case whatsApp
+    public static func == (a: ConversationUI.Avatar.Channel, b: ConversationUI.Avatar.Channel) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public protocol Message {
+  var sender: ConversationUI.Sender { get }
+  var messageId: Swift.String { get }
+  var sentDate: Foundation.Date { get }
+  var kind: ConversationUI.MessageKind { get }
+  var messageState: ConversationUI.MessageState { get }
+}
+public protocol MessagesDelegate : AnyObject {
+  func didTapOnContent(in message: ConversationUI.Message)
+  func didTapOnAvatar(in message: ConversationUI.Message)
+  func didTap(on url: Foundation.URL, in message: ConversationUI.Message)
+  func didTap(on action: ConversationUI.CardAction, from card: ConversationUI.Card, in message: ConversationUI.Message)
+  func didTap(on action: ConversationUI.CardAction, from productOffer: ConversationUI.ProductOffer, in message: ConversationUI.Message)
+  func didTap(on quickReplyMenuChoice: Swift.String, in message: ConversationUI.Message)
+  func didTapOnLoadPreviousMessages()
+  func contextMenuElements(for message: ConversationUI.Message) -> [ConversationUI.MenuElement]
+  func escalationInvitationSentShouldBeInteractive(_ escalationInvitationSent: ConversationUI.EscalationInvitationSent) -> Swift.Bool
+  func escalationInvitationSentDidTapOnJoin(_ escalationInvitationSent: ConversationUI.EscalationInvitationSent)
+  func escalationInvitationSentDidTapOnCancel(_ escalationInvitationSent: ConversationUI.EscalationInvitationSent)
+}
+extension ConversationUI.MessagesDelegate {
+  public func didTapOnContent(in message: ConversationUI.Message)
+  public func didTapOnAvatar(in message: ConversationUI.Message)
+  public func didTap(on url: Foundation.URL, in message: ConversationUI.Message)
+  public func didTap(on action: ConversationUI.CardAction, from card: ConversationUI.Card, in message: ConversationUI.Message)
+  public func didTap(on action: ConversationUI.CardAction, from productOffer: ConversationUI.ProductOffer, in message: ConversationUI.Message)
+  public func didTap(on quickReplyMenuChoice: Swift.String, in message: ConversationUI.Message)
+  public func didTapOnLoadPreviousMessages()
+  public func contextMenuElements(for message: ConversationUI.Message) -> [ConversationUI.MenuElement]
+  public func escalationInvitationSentShouldBeInteractive(_ escalationInvitationSent: ConversationUI.EscalationInvitationSent) -> Swift.Bool
+  public func escalationInvitationSentDidTapOnJoin(_ escalationInvitationSent: ConversationUI.EscalationInvitationSent)
+  public func escalationInvitationSentDidTapOnCancel(_ escalationInvitationSent: ConversationUI.EscalationInvitationSent)
+}
+public enum MessageState : Swift.Int, Swift.CaseIterable {
+  case sending
+  case sent
+  case failure
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [ConversationUI.MessageState]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [ConversationUI.MessageState] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol Sender {
+  var senderId: Swift.String { get }
+  var displayName: Swift.String { get }
+  var alignment: ConversationUI.SenderAlignment { get }
+}
+public enum SenderAlignment {
+  case left
+  case right
+  case auto
+  public static func == (a: ConversationUI.SenderAlignment, b: ConversationUI.SenderAlignment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class XibView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum IncomingMessageComposingState {
+  case inactive
+  case composing(Swift.String?)
+  case paused(Swift.String?)
+}
+public enum MessageKind {
+  case text(Swift.String)
+  case attributedText(Foundation.NSAttributedString)
+  case translation(ConversationUI.Translation)
+  case image(ConversationUI.Image)
+  case file(ConversationUI.File)
+  case quickReplyMenu(ConversationUI.QuickReplyMenu)
+  case escalationInvitationSent(ConversationUI.EscalationInvitationSent)
+  case information(Swift.String)
+  case conversationSnoozed(ConversationUI.ConversationSnoozed)
+  case transfer(ConversationUI.Transfer)
+  case card(ConversationUI.Card)
+  case productOffer(ConversationUI.ProductOffer)
+  case cardBundle(ConversationUI.CardBundle)
+  case productOfferBundle(ConversationUI.ProductOfferBundle)
+  case system(Swift.String)
+}
+public struct Translation {
+  public init(sourceText: Swift.String, destinationText: Swift.String, sourceLanguageCode: Swift.String, destinationLanguageCode: Swift.String)
+}
+public protocol Image {
+  var imageURL: Foundation.URL { get }
+  var mimeType: Swift.String { get }
+  var imageName: Swift.String? { get }
+}
+public protocol QuickReplyMenu {
+  var message: Swift.String { get }
+  var choices: [Swift.String] { get }
+}
+public protocol EscalationInvitationSent {
+  var escalationType: ConversationUI.EscalationType { get }
+  var correlationId: Foundation.UUID { get }
+}
+public enum EscalationType {
+  case video
+  case voice
+  case unknown
+  public static func == (a: ConversationUI.EscalationType, b: ConversationUI.EscalationType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol File {
+  var fileName: Swift.String { get }
+  var mimeType: Swift.String { get }
+  var fileURL: Foundation.URL { get }
+}
+public protocol ConversationSnoozed {
+  var participantName: Swift.String { get }
+}
+public protocol Transfer {
+  var participantName: Swift.String { get }
+  var reason: Swift.String? { get }
+}
+public protocol Card {
+  var imageLink: ConversationUI.ImageLink? { get }
+  var title: Swift.String? { get }
+  var text: Swift.String? { get }
+  var cardActions: [ConversationUI.CardAction] { get }
+}
+public protocol ImageLink {
+  var cardImageURL: Foundation.URL { get }
+  var cardImageDescription: Swift.String { get }
+}
+public protocol CardAction {
+  var cardActionType: ConversationUI.CardActionType { get }
+}
+public enum CardActionType {
+  case link(ConversationUI.Link)
+  case select(ConversationUI.Select)
+}
+public enum CardBundleActionType {
+  case link
+  case select
+  public static func == (a: ConversationUI.CardBundleActionType, b: ConversationUI.CardBundleActionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Link {
+  public let title: Swift.String
+  public let url: Foundation.URL
+  public init(title: Swift.String, url: Foundation.URL)
+}
+public struct Select {
+  public let title: Swift.String
+  public init(title: Swift.String)
+}
+public protocol ProductOffer {
+  var imageLink: ConversationUI.ImageLink? { get }
+  var name: Swift.String { get }
+  var price: Swift.String { get }
+  var offerPrice: Swift.String? { get }
+  var productIsAvailable: Swift.Bool? { get }
+  var description: Swift.String? { get }
+  var productOfferActions: [ConversationUI.CardAction] { get }
+}
+public protocol CardBundle {
+  var title: Swift.String? { get }
+  var cardBundleCards: [ConversationUI.Card] { get }
+  var cardBundleActionType: ConversationUI.CardBundleActionType { get }
+}
+public protocol ProductOfferBundle {
+  var bundleProductOffers: [ConversationUI.ProductOffer] { get }
+}
+extension ConversationUI.ConversationViewController.LoadPastConversationButtonState : Swift.Equatable {}
+extension ConversationUI.ConversationViewController.LoadPastConversationButtonState : Swift.Hashable {}
+extension ConversationUI.ConversationViewController.SoundType : Swift.Equatable {}
+extension ConversationUI.ConversationViewController.SoundType : Swift.Hashable {}
+extension ConversationUI.Avatar.Presence : Swift.Equatable {}
+extension ConversationUI.Avatar.Presence : Swift.Hashable {}
+extension ConversationUI.Avatar.Channel : Swift.Equatable {}
+extension ConversationUI.Avatar.Channel : Swift.Hashable {}
+extension ConversationUI.MessageState : Swift.Equatable {}
+extension ConversationUI.MessageState : Swift.Hashable {}
+extension ConversationUI.MessageState : Swift.RawRepresentable {}
+extension ConversationUI.SenderAlignment : Swift.Equatable {}
+extension ConversationUI.SenderAlignment : Swift.Hashable {}
+extension ConversationUI.EscalationType : Swift.Equatable {}
+extension ConversationUI.EscalationType : Swift.Hashable {}
+extension ConversationUI.CardBundleActionType : Swift.Equatable {}
+extension ConversationUI.CardBundleActionType : Swift.Hashable {}
