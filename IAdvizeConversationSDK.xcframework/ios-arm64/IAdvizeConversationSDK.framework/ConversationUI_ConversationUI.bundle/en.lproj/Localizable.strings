@@ -1,0 +1,29 @@
+/* Send button title when you compose a chat message and you want to send it */
+"chat_compose_button_send" = "Send";
+
+"chat_compose_hint" = "Type your message...";
+
+"chat_item_expert_message_status" = "Sending...";
+
+"chat_snooze_message" = "%@ snoozed this conversation";
+
+"chat_transfer_message" = "%@ has forwarded you a visitor";
+
+"chat_transfer_reason_message" = "Note: %@";
+
+"common_cancel" = "Cancel";
+
+"common_copy" = "Copy";
+
+"conversation_load_past_conversation" = "Load past conversation";
+
+"conversation_video_escalation_invitation_join" = "Join";
+
+"conversation_video_escalation_invitation_subtitle" = "Please note that you can only send one video invitation at a time.";
+
+"conversation_video_escalation_invitation_title" = "You have sent a video invitation.";
+
+"product_list_product_available" = "In stock";
+
+"product_list_product_unavailable" = "Out of stock";
+

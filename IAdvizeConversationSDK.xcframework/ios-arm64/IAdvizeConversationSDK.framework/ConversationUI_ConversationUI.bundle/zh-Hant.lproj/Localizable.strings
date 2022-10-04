@@ -1,0 +1,29 @@
+/* Send button title when you compose a chat message and you want to send it */
+"chat_compose_button_send" = "傳送";
+
+"chat_compose_hint" = "鍵入訊息……";
+
+"chat_item_expert_message_status" = "傳送中……";
+
+"chat_snooze_message" = "%@暫停了此會話";
+
+"chat_transfer_message" = "%@ 給您轉移了一位訪客";
+
+"chat_transfer_reason_message" = "註釋：%@";
+
+"common_cancel" = "取消";
+
+"common_copy" = "複製";
+
+"conversation_load_past_conversation" = "加載歷史對話";
+
+"conversation_video_escalation_invitation_join" = "加入";
+
+"conversation_video_escalation_invitation_subtitle" = "請注意，您一次只能發送一個視訊會話邀請。";
+
+"conversation_video_escalation_invitation_title" = "您發出了一個視訊會話的邀請。";
+
+"product_list_product_available" = "有貨";
+
+"product_list_product_unavailable" = "沒貨";
+
