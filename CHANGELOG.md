@@ -1,3 +1,10 @@
+# 2.8.0
+
+### Release date 2022/10/04
+
+**Features**
+- Users have now access to video invitations which allows them to jump from a chat conversation to a video one
+
 # 2.7.0
 
 ### Release date 2022/08/26

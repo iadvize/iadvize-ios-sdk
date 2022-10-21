@@ -1091,6 +1091,36 @@ public enum CardBundleAttachmentActionType : Swift.RawRepresentable, Swift.Equat
   }
   public typealias AllCases = [IAdvizeConversationSDK.CardBundleAttachmentActionType]
 }
+public enum EscalationType : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+  public typealias RawValue = Swift.String
+  case video
+  case voice
+  case __unknown(IAdvizeConversationSDK.EscalationType.RawValue)
+  public init?(rawValue: IAdvizeConversationSDK.EscalationType.RawValue)
+  public var rawValue: IAdvizeConversationSDK.EscalationType.RawValue {
+    get
+  }
+  public static func == (lhs: IAdvizeConversationSDK.EscalationType, rhs: IAdvizeConversationSDK.EscalationType) -> Swift.Bool
+  public static var allCases: [IAdvizeConversationSDK.EscalationType] {
+    get
+  }
+  public typealias AllCases = [IAdvizeConversationSDK.EscalationType]
+}
+public enum EscalationEndReason : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+  public typealias RawValue = Swift.String
+  case declined
+  case hungUp
+  case __unknown(IAdvizeConversationSDK.EscalationEndReason.RawValue)
+  public init?(rawValue: IAdvizeConversationSDK.EscalationEndReason.RawValue)
+  public var rawValue: IAdvizeConversationSDK.EscalationEndReason.RawValue {
+    get
+  }
+  public static func == (lhs: IAdvizeConversationSDK.EscalationEndReason, rhs: IAdvizeConversationSDK.EscalationEndReason) -> Swift.Bool
+  public static var allCases: [IAdvizeConversationSDK.EscalationEndReason] {
+    get
+  }
+  public typealias AllCases = [IAdvizeConversationSDK.EscalationEndReason]
+}
 @objc public protocol TargetingControllerDelegate {
   @objc func activeTargetingRuleAvailabilityDidUpdate(isActiveTargetingRuleAvailable: Swift.Bool)
 }

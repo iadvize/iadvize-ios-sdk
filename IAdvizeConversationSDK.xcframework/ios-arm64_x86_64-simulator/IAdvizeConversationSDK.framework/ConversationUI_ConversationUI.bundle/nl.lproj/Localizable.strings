@@ -1,0 +1,29 @@
+/* Send button title when you compose a chat message and you want to send it */
+"chat_compose_button_send" = "Verzenden";
+
+"chat_compose_hint" = "Schrijf uw bericht...";
+
+"chat_item_expert_message_status" = "Verzenden...";
+
+"chat_snooze_message" = "%@ heeft dit gesprek gepauzeerd";
+
+"chat_transfer_message" = "%@ heeft u een bezoeker doorgestuurd";
+
+"chat_transfer_reason_message" = "Opmerking: %@";
+
+"common_cancel" = "Annuleren";
+
+"common_copy" = "Kopiëren";
+
+"conversation_load_past_conversation" = "Een eerder gesprek laden";
+
+"conversation_video_escalation_invitation_join" = "Sessie volgen";
+
+"conversation_video_escalation_invitation_subtitle" = "U kunt slechts één video-uitnodiging tegelijk verzenden.";
+
+"conversation_video_escalation_invitation_title" = "U stuurde een uitnodiging voor een videosessie.";
+
+"product_list_product_available" = "Op voorraad";
+
+"product_list_product_unavailable" = "Niet beschikbaar";
+
