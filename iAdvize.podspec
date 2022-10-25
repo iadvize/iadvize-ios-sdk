@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                     = 'iAdvize'
-  spec.version                  = '2.8.0'
+  spec.version                  = '2.8.1'
   spec.license                  = { :type => 'Proprietary', :file => 'LICENSE.md' }
   spec.homepage                 = 'https://github.com/iadvize/iadvize-ios-sdk'
   spec.authors                  = { 'iAdvize' => 'mobile@iadvize.com' }
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version            = '5.0'
 
-  spec.ios.vendored_frameworks  = 'IAdvizeConversationSDK.xcframework', 'ConversationUI.xcframework'
+  spec.ios.vendored_frameworks  = 'IAdvizeConversationSDK.xcframework'
 
   spec.dependency 'Apollo', '~> 0.36.0'
   spec.dependency 'Apollo/SQLite'

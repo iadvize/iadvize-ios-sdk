@@ -6,6 +6,6 @@ framework module IAdvizeConversationSDK {
 }
 
 module IAdvizeConversationSDK.Swift {
-    header "IAdvizeConversationSDK-Swift.h"
-    requires objc
+  header "IAdvizeConversationSDK-Swift.h"
+  requires objc
 }
