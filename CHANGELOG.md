@@ -1,3 +1,14 @@
+# 2.8.1
+
+### Release date 2022/10/25
+
+**Features**
+- expose ongoingConversation attribute
+
+**Bug fixes**
+- default floating button wasn't dismiss after logout
+- presentChatbox() has no effect until an active targeting rule is available
+
 # 2.8.0
 
 ### Release date 2022/10/04

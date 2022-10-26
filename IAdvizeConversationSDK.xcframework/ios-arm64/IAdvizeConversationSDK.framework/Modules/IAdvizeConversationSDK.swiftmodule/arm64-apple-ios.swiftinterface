@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IAdvizeConversationSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFAudio
 import AVFoundation
 import Apollo
@@ -23,15 +24,19 @@ import UIKit
 import UserNotifications
 import XMPPFramework
 import _Concurrency
+import _StringProcessing
 extension IAdvizeConversationSDK.Transaction {
   @available(swift, obsoleted: 1.0)
   @objc convenience dynamic public init(externalTransactionId: Swift.String, date: Foundation.Date, amount: Swift.Double, currency: IAdvizeConversationSDK.ObjcGraphQLCurrency)
 }
+@_hasMissingDesignatedInitializers @objc final public class OngoingConversation : ObjectiveC.NSObject {
+  final public var conversationId: Foundation.UUID
+  final public var conversationChannel: IAdvizeConversationSDK.ConversationChannel
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc final public class ConversationController : ObjectiveC.NSObject {
   @objc weak final public var delegate: IAdvizeConversationSDK.ConversationControllerDelegate?
-  @objc final public var hasOngoingConversation: Swift.Bool {
-    @objc get
-  }
+  @objc final public func ongoingConversation() -> IAdvizeConversationSDK.OngoingConversation?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -64,7 +69,7 @@ public enum AuthenticationOption : Swift.Equatable {
   public static func == (lhs: IAdvizeConversationSDK.AuthenticationOption, rhs: IAdvizeConversationSDK.AuthenticationOption) -> Swift.Bool
 }
 @objc public protocol ConversationControllerDelegate {
-  @objc func ongoingConversationStatusDidChange(hasOngoingConversation: Swift.Bool)
+  @objc func ongoingConversationUpdated(ongoingConversation: IAdvizeConversationSDK.OngoingConversation?)
   @objc optional func didReceiveNewMessage(content: Swift.String)
   @objc optional func conversationController(_ controller: IAdvizeConversationSDK.ConversationController, shouldOpen url: Foundation.URL) -> Swift.Bool
 }
@@ -314,14 +319,14 @@ public enum ConversationChannel : Swift.String {
   }
 }
 public protocol KeyboardObserverDelegate : AnyObject {
-  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardDidChangeFrame keyboardFrame: CoreGraphics.CGRect)
-  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillShowWith keyboardFrame: CoreGraphics.CGRect)
-  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillHideWith keyboardFrame: CoreGraphics.CGRect)
+  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardDidChangeFrame keyboardFrame: CoreFoundation.CGRect)
+  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillShowWith keyboardFrame: CoreFoundation.CGRect)
+  func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillHideWith keyboardFrame: CoreFoundation.CGRect)
 }
 extension IAdvizeConversationSDK.KeyboardObserverDelegate {
-  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardDidChangeFrame keyboardFrame: CoreGraphics.CGRect)
-  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillShowWith keyboardFrame: CoreGraphics.CGRect)
-  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillHideWith keyboardFrame: CoreGraphics.CGRect)
+  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardDidChangeFrame keyboardFrame: CoreFoundation.CGRect)
+  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillShowWith keyboardFrame: CoreFoundation.CGRect)
+  public func keyboardObserver(_ observer: IAdvizeConversationSDK.KeyboardObserver, keyboardWillHideWith keyboardFrame: CoreFoundation.CGRect)
 }
 public class KeyboardObserver {
   weak public var delegate: IAdvizeConversationSDK.KeyboardObserverDelegate?
@@ -1224,7 +1229,7 @@ public enum AppFont : Swift.String {
 }
 extension UIKit.UIFont {
   public class func preferredAppFont(forTextStyle style: UIKit.UIFont.TextStyle) -> UIKit.UIFont
-  convenience public init(appFont: IAdvizeConversationSDK.AppFont, fontSize: CoreGraphics.CGFloat)
+  convenience public init(appFont: IAdvizeConversationSDK.AppFont, fontSize: CoreFoundation.CGFloat)
 }
 extension UIKit.UIFont.TextStyle {
   public static var allStyles: [UIKit.UIFont.TextStyle] {
@@ -1331,9 +1336,9 @@ extension IAdvizeConversationSDK.IAdvizeSDK {
     set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open class var layerClass: Swift.AnyClass {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
@@ -1387,21 +1392,21 @@ public enum IncomingMessageAvatar {
     get
     set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var lineHeightMultiple: CoreGraphics.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var lineHeightMultiple: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var lineBreakMode: UIKit.NSLineBreakMode {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
   @objc deinit
 }
@@ -1435,9 +1440,9 @@ public enum IncomingMessageAvatar {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func awakeFromNib()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func setTitle(_ title: Swift.String?, for state: UIKit.UIControl.State)
   @objc deinit
@@ -1461,7 +1466,7 @@ public enum IncomingMessageAvatar {
   @_Concurrency.MainActor(unsafe) public var contentView: UIKit.UIView? {
     get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
