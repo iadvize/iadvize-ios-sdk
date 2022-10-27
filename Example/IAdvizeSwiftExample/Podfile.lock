@@ -12,7 +12,7 @@ PODS:
   - CocoaLumberjack/Swift (3.7.4):
     - CocoaLumberjack/Core
   - Gifu (3.3.1)
-  - iAdvize (2.7.0):
+  - iAdvize (2.8.1):
     - Apollo (~> 0.36.0)
     - Apollo/SQLite
     - Gifu (~> 3.3.0)
@@ -47,7 +47,7 @@ PODS:
     - XMPPFramework/default
 
 DEPENDENCIES:
-  - iAdvize (= 2.7.0)
+  - iAdvize
 
 SPEC REPOS:
   trunk:
@@ -70,7 +70,7 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
-  iAdvize: cd542ebb79b3c42e9a5d2be39467d89bbaa68fbe
+  iAdvize: df702bbc066fa854887c69ae3c548ac077af2f4e
   JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
@@ -80,6 +80,6 @@ SPEC CHECKSUMS:
   TwilioVideo: 4afaac028c5886f2f3b313a9fcc146a6b7ca34e2
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: eaa62688142320af06cbc2e90ef0051273f4ec0b
+PODFILE CHECKSUM: fb8ec719f7c96ab01831df86b163ac8e130ec4f7
 
 COCOAPODS: 1.11.2
