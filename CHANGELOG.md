@@ -1,3 +1,10 @@
+# 2.8.2
+
+### Release date 2022/11/18
+
+**Bug fixes**
+- fix build issue with Framework Bundle
+
 # 2.8.1
 
 ### Release date 2022/10/25
