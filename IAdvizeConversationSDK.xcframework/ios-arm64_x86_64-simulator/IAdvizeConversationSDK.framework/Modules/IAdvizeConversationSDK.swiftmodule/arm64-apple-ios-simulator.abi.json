@@ -33,6 +33,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "XMPPFramework",
+        "printedName": "XMPPFramework",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
         "name": "AVFAudio",
         "printedName": "AVFAudio",
         "declKind": "Import",
@@ -90,6 +104,20 @@
         "kind": "Import",
         "name": "MobileCoreServices",
         "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IAdvizeConversationSDK"
       },
@@ -153,6 +181,20 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
       },
       {
         "kind": "Import",
@@ -22167,6 +22209,20 @@
       },
       {
         "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -39875,6 +39931,46 @@
           },
           {
             "kind": "Var",
+            "name": "ved",
+            "printedName": "ved",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IAdvizeConversationSDK.Currency.Type) -> IAdvizeConversationSDK.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "IAdvizeConversationSDK.Currency",
+                    "usr": "s:22IAdvizeConversationSDK8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IAdvizeConversationSDK.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "IAdvizeConversationSDK.Currency",
+                        "usr": "s:22IAdvizeConversationSDK8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22IAdvizeConversationSDK8CurrencyO3vedyA2CmF",
+            "mangledName": "$s22IAdvizeConversationSDK8CurrencyO3vedyA2CmF",
+            "moduleName": "IAdvizeConversationSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "vef",
             "printedName": "vef",
             "children": [
@@ -44262,6 +44358,20 @@
       },
       {
         "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -47328,6 +47438,20 @@
       },
       {
         "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -48168,6 +48292,147 @@
       },
       {
         "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthErrorInterceptor",
+        "printedName": "AuthErrorInterceptor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "interceptAsync",
+            "printedName": "interceptAsync(chain:request:response:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RequestChain",
+                "printedName": "Apollo.RequestChain",
+                "usr": "s:6Apollo12RequestChainC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPRequest",
+                "printedName": "Apollo.HTTPRequest<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:6Apollo11HTTPRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Apollo.HTTPResponse<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPResponse",
+                    "printedName": "Apollo.HTTPResponse<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:6Apollo12HTTPResponseC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Apollo.GraphQLResult<τ_0_0.Data>, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Apollo.GraphQLResult<τ_0_0.Data>, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GraphQLResult",
+                        "printedName": "Apollo.GraphQLResult<τ_0_0.Data>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DependentMember",
+                            "printedName": "τ_0_0.Data"
+                          }
+                        ],
+                        "usr": "s:6Apollo13GraphQLResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22IAdvizeConversationSDK20AuthErrorInterceptorC14interceptAsync5chain7request8response10completiony6Apollo12RequestChainC_AI11HTTPRequestCyxGAI12HTTPResponseCyxGSgys6ResultOyAI13GraphQLResultVy4DataQzGs0E0_pGctAI0S11QLOperationRzlF",
+            "mangledName": "$s22IAdvizeConversationSDK20AuthErrorInterceptorC14interceptAsync5chain7request8response10completiony6Apollo12RequestChainC_AI11HTTPRequestCyxGAI12HTTPResponseCyxGSgys6ResultOyAI13GraphQLResultVy4DataQzGs0E0_pGctAI0S11QLOperationRzlF",
+            "moduleName": "IAdvizeConversationSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Apollo.GraphQLOperation>",
+            "sugared_genericSig": "<Operation where Operation : Apollo.GraphQLOperation>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22IAdvizeConversationSDK20AuthErrorInterceptorC",
+        "mangledName": "$s22IAdvizeConversationSDK20AuthErrorInterceptorC",
+        "moduleName": "IAdvizeConversationSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ApolloInterceptor",
+            "printedName": "ApolloInterceptor",
+            "usr": "s:6Apollo0A11InterceptorP",
+            "mangledName": "$s6Apollo0A11InterceptorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -48745,6 +49010,20 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IAdvizeConversationSDK"
       },
       {
         "kind": "Import",
@@ -53836,6 +54115,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/Conversation\/XMPP\/Events\/SystemEvents\/VisitorBlockedXmppEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 17,
+      "value": "\"visitor_blocked\""
+    },
+    {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/Video\/Lobby Video Call\/UserStreamLoader.swift",
       "kind": "BooleanLiteral",
       "offset": 5244,
@@ -53845,63 +54131,63 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 288,
-      "length": 1042,
+      "offset": 280,
+      "length": 934,
       "value": "\"mutation visitorConversationCustomDataSet($sourceVisitorId: String!, $projectId: Int!, $source: Source!, $conversationId: UUID!, $customData: [VisitorConversationCustomDataInput!]!) {\n  visitorConversationCustomDataSet(sourceVisitorId: $sourceVisitorId, projectId: $projectId, source: $source, conversationId: $conversationId, customData: $customData) {\n    __typename\n    id\n    conversationId\n    customData {\n      __typename\n      ... on VisitorConversationCustomDataEntryInt {\n        key\n        intValue\n      }\n      ... on VisitorConversationCustomDataEntryString {\n        key\n        stringValue\n      }\n      ... on VisitorConversationCustomDataEntryFloat {\n        key\n        floatValue\n      }\n      ... on VisitorConversationCustomDataEntryBoolean {\n        key\n        booleanValue\n      }\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1246,
       "length": 34,
       "value": "\"visitorConversationCustomDataSet\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "Array",
-      "offset": 2176,
+      "offset": 2017,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "Array",
-      "offset": 3720,
+      "offset": 3459,
       "length": 33,
       "value": "[\"VisitorConversationCustomData\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "Array",
-      "offset": 5988,
+      "offset": 5384,
       "length": 173,
       "value": "[\"VisitorConversationCustomDataEntryString\", \"VisitorConversationCustomDataEntryInt\", \"VisitorConversationCustomDataEntryFloat\", \"VisitorConversationCustomDataEntryBoolean\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "Array",
-      "offset": 9250,
+      "offset": 8254,
       "length": 41,
       "value": "[\"VisitorConversationCustomDataEntryInt\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "Array",
-      "offset": 11792,
+      "offset": 10252,
       "length": 44,
       "value": "[\"VisitorConversationCustomDataEntryString\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "Array",
-      "offset": 14368,
+      "offset": 12284,
       "length": 43,
       "value": "[\"VisitorConversationCustomDataEntryFloat\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationCustomData.graphql.swift",
       "kind": "Array",
-      "offset": 16945,
+      "offset": 14317,
       "length": 45,
       "value": "[\"VisitorConversationCustomDataEntryBoolean\"]"
     },
@@ -53922,35 +54208,35 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateAnonymously.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 286,
-      "length": 335,
+      "offset": 278,
+      "length": 295,
       "value": "\"mutation visitorAuthenticateAnonymously($projectId: LegacyId!, $vuid: String) {\n  visitorAuthenticateAnonymously(input: {projectId: $projectId, vuid: $vuid}) {\n    __typename\n    visitorSessionToken {\n      __typename\n      accessToken\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateAnonymously.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 655,
+      "offset": 605,
       "length": 32,
       "value": "\"visitorAuthenticateAnonymously\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateAnonymously.graphql.swift",
       "kind": "Array",
-      "offset": 1031,
+      "offset": 958,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateAnonymously.graphql.swift",
       "kind": "Array",
-      "offset": 2370,
+      "offset": 2195,
       "length": 41,
       "value": "[\"VisitorAuthenticateAnonymouslyPayload\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateAnonymously.graphql.swift",
       "kind": "Array",
-      "offset": 3836,
+      "offset": 3452,
       "length": 23,
       "value": "[\"VisitorSessionToken\"]"
     },
@@ -54230,35 +54516,35 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCustomerUserId.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 293,
-      "length": 391,
+      "offset": 285,
+      "length": 351,
       "value": "\"mutation visitorAuthenticateFromCustomerUserId($projectId: LegacyId!, $userId: String!, $vuid: String) {\n  visitorAuthenticateFromCustomerUserId(input: {projectId: $projectId, userId: $userId, currentVuid: $vuid}) {\n    __typename\n    visitorSessionToken {\n      __typename\n      accessToken\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCustomerUserId.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 668,
       "length": 39,
       "value": "\"visitorAuthenticateFromCustomerUserId\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCustomerUserId.graphql.swift",
       "kind": "Array",
-      "offset": 1187,
+      "offset": 1108,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCustomerUserId.graphql.swift",
       "kind": "Array",
-      "offset": 2671,
+      "offset": 2490,
       "length": 48,
       "value": "[\"VisitorAuthenticateFromCustomerUserIdPayload\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCustomerUserId.graphql.swift",
       "kind": "Array",
-      "offset": 4151,
+      "offset": 3761,
       "length": 23,
       "value": "[\"VisitorSessionToken\"]"
     },
@@ -57834,15 +58120,8 @@
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/GraphQL\/GraphQLClient.swift",
-      "kind": "Array",
-      "offset": 4149,
-      "length": 480,
-      "value": "[\"application\/vnd.iadvize.mobile-sdk-preview+json\", \"application\/vnd.iadvize.search-closed-conversations-preview+json\", \"application\/vnd.iadvize.get-conversation-preview+json\", \"application\/vnd.iadvize.visitor-profile-preview+json\", \"application\/vnd.iadvize.unified-sdk-preview+json\", \"application\/vnd.iadvize.visitor-authenticate-preview+json\", \"application\/vnd.iadvize.visitor-conversation-custom-data-preview+json\"]"
-    },
-    {
-      "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/GraphQL\/GraphQLClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6219,
+      "offset": 4538,
       "length": 2,
       "value": "40"
     },
@@ -60929,35 +61208,35 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchOngoingConversation.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 274,
-      "length": 254,
+      "offset": 266,
+      "length": 210,
       "value": "\"query FetchOngoingConversation {\n  conversationsVisitorMessages {\n    __typename\n    ongoingConversation {\n      __typename\n      id\n      channel\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchOngoingConversation.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 508,
       "length": 26,
       "value": "\"FetchOngoingConversation\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchOngoingConversation.graphql.swift",
       "kind": "Array",
-      "offset": 689,
+      "offset": 630,
       "length": 9,
       "value": "[\"Query\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchOngoingConversation.graphql.swift",
       "kind": "Array",
-      "offset": 1891,
+      "offset": 1730,
       "length": 32,
       "value": "[\"ConversationsVisitorMessages\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchOngoingConversation.graphql.swift",
       "kind": "Array",
-      "offset": 3469,
+      "offset": 3093,
       "length": 16,
       "value": "[\"Conversation\"]"
     },
@@ -61041,805 +61320,805 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 288,
-      "length": 660,
+      "offset": 280,
+      "length": 584,
       "value": "\"fragment ParticipantConversationMessageAttachment on ConversationMessageAttachment {\n  __typename\n  ...CardAttachment\n  ...CardBundleAttachment\n  ...FileAttachment\n  ...FileBundleAttachment\n  ...ImageAttachment\n  ...LinkAttachment\n  ...OfferAttachment\n  ...ProductAttachment\n  ...ProductOfferAttachment\n  ...ProductOfferBundleAttachment\n  ...QuickReplyMenuAttachment\n  ...EscalationInvitationSentAttachment\n  ...EscalationEndedAttachment\n  ...EscalationAcceptedAttachment\n  ...UnsupportedAttachment\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 991,
-      "length": 887,
-      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"UnsupportedAttachment\"]"
+      "offset": 905,
+      "length": 919,
+      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"LiveAgentRequestedAttachment\", \"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 19897,
+      "offset": 18892,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 30773,
+      "offset": 28041,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 33385,
+      "offset": 30184,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 35883,
+      "offset": 32213,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 39722,
+      "offset": 35464,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 43763,
+      "offset": 38696,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 47218,
+      "offset": 41477,
       "length": 24,
       "value": "[\"CardBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 56882,
+      "offset": 49573,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 61516,
+      "offset": 53446,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 64392,
+      "offset": 55721,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 67154,
+      "offset": 57882,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 71281,
+      "offset": 61281,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 75666,
+      "offset": 64685,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 79361,
+      "offset": 67572,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 88989,
+      "offset": 75590,
       "length": 24,
       "value": "[\"FileBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 97799,
+      "offset": 82938,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 101042,
+      "offset": 85597,
       "length": 19,
       "value": "[\"ImageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 110644,
+      "offset": 93589,
       "length": 18,
       "value": "[\"LinkAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 119849,
+      "offset": 101237,
       "length": 19,
       "value": "[\"OfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 129838,
+      "offset": 109563,
       "length": 21,
       "value": "[\"ProductAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 140740,
+      "offset": 118696,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 151995,
+      "offset": 128171,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 154608,
+      "offset": 130315,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 157722,
+      "offset": 132945,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 160983,
+      "offset": 135563,
       "length": 32,
       "value": "[\"ProductOfferBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 169839,
+      "offset": 142957,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 174924,
+      "offset": 147208,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 177801,
+      "offset": 149484,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 181163,
+      "offset": 152242,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 184674,
+      "offset": 154976,
       "length": 28,
       "value": "[\"QuickReplyMenuAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 194065,
+      "offset": 162810,
       "length": 38,
       "value": "[\"EscalationInvitationSentAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 203508,
+      "offset": 170696,
       "length": 29,
       "value": "[\"EscalationEndedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 213381,
+      "offset": 178959,
       "length": 32,
       "value": "[\"EscalationAcceptedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 222798,
+      "offset": 186819,
       "length": 25,
       "value": "[\"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 231563,
-      "length": 238,
+      "offset": 194122,
+      "length": 214,
       "value": "\"fragment SystemConversationMessageAttachment on SystemConversationMessageAttachment {\n  __typename\n  ...AutomaticMessageSentSystemAttachment\n  ...UnsupportedSystemMessageAttachment\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 231844,
+      "offset": 194377,
       "length": 829,
       "value": "[\"EngagementRuleTriggeredSystemAttachment\", \"TransferredToUserSystemAttachment\", \"TransferredToRoutingRuleSystemAttachment\", \"VisitorBlockedSystemAttachment\", \"VisitorLeftSystemAttachment\", \"VisitorReturnedSystemAttachment\", \"NavigationChangedSystemAttachment\", \"SupervisorCommentSentSystemAttachment\", \"AutomaticMessageSentSystemAttachment\", \"ConversationClosedSystemAttachment\", \"ConversationPushedSystemAttachment\", \"ConversationSnoozedSystemAttachment\", \"ConversationReleasedSystemAttachment\", \"VisitorNotificationSettingsRequestedSystemAttachment\", \"VisitorNotificationSettingsSetSystemAttachment\", \"ResumeMessageSentSystemAttachment\", \"SurveyMultiChoiceQuestionSystemAttachment\", \"SurveyMessageSystemAttachment\", \"SurveyQuestionSystemAttachment\", \"OutboundMessageSentSystemAttachment\", \"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 240312,
+      "offset": 202518,
       "length": 40,
       "value": "[\"AutomaticMessageSentSystemAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 243379,
+      "offset": 205162,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 249534,
+      "offset": 210162,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 254905,
+      "offset": 214301,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 260256,
+      "offset": 218420,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 265606,
+      "offset": 222538,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 270912,
+      "offset": 226612,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 276224,
+      "offset": 230692,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 281599,
+      "offset": 234877,
       "length": 38,
       "value": "[\"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 284309,
-      "length": 532,
+      "offset": 237217,
+      "length": 452,
       "value": "\"fragment CardAttachment on CardAttachment {\n  __typename\n  image {\n    __typename\n    ...ConversationMessageAttachmentImageLink\n  }\n  optionalTitle: title\n  optionalText: text\n  style\n  video {\n    __typename\n    ...VideoAttachment\n  }\n  actions {\n    __typename\n    ...ConversationMessageAttachmentLinkAction\n    ...ConversationMessageAttachmentSelectAction\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 284884,
+      "offset": 237710,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 288023,
+      "offset": 240597,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 290371,
+      "offset": 242608,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 292605,
+      "offset": 244505,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 296156,
+      "offset": 247608,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 299853,
+      "offset": 250668,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 302721,
-      "length": 245,
+      "offset": 253036,
+      "length": 205,
       "value": "\"fragment CardBundleAttachment on CardBundleAttachment {\n  __typename\n  optionalTitle: title\n  actionType\n  cards {\n    __typename\n    ...CardAttachment\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 303009,
+      "offset": 253282,
       "length": 24,
       "value": "[\"CardBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 305062,
+      "offset": 255182,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 309276,
+      "offset": 258845,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 311888,
+      "offset": 260988,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 314386,
+      "offset": 263017,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 318225,
+      "offset": 266268,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 322266,
+      "offset": 269500,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 325394,
-      "length": 150,
+      "offset": 271996,
+      "length": 122,
       "value": "\"fragment FileAttachment on FileAttachment {\n  __typename\n  fileName\n  mimeType\n  url\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 325587,
+      "offset": 272159,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 327279,
-      "length": 199,
+      "offset": 273696,
+      "length": 167,
       "value": "\"fragment FileBundleAttachment on FileBundleAttachment {\n  __typename\n  attachments {\n    __typename\n    ...FileAttachment\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 327521,
+      "offset": 273904,
       "length": 24,
       "value": "[\"FileBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 328800,
+      "offset": 275096,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 331440,
-      "length": 152,
+      "offset": 277344,
+      "length": 124,
       "value": "\"fragment ImageAttachment on ImageAttachment {\n  __typename\n  fileName\n  mimeType\n  url\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 331635,
+      "offset": 277509,
       "length": 19,
       "value": "[\"ImageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 333326,
-      "length": 128,
+      "offset": 279045,
+      "length": 104,
       "value": "\"fragment LinkAttachment on LinkAttachment {\n  __typename\n  url\n  title\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 333497,
+      "offset": 279190,
       "length": 18,
       "value": "[\"LinkAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 334826,
-      "length": 171,
+      "offset": 280397,
+      "length": 139,
       "value": "\"fragment OfferAttachment on OfferAttachment {\n  __typename\n  title\n  imageUrl\n  url\n  description\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 335040,
+      "offset": 280577,
       "length": 19,
       "value": "[\"OfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 337066,
-      "length": 231,
+      "offset": 282415,
+      "length": 191,
       "value": "\"fragment ProductAttachment on ProductAttachment {\n  __typename\n  title\n  productUrl\n  isAvailable\n  imageUrl\n  priceText\n  promotionPriceText\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 337340,
+      "offset": 282647,
       "length": 21,
       "value": "[\"ProductAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 340181,
-      "length": 457,
+      "offset": 285234,
+      "length": 389,
       "value": "\"fragment ProductOfferAttachment on ProductOfferAttachment {\n  __typename\n  image {\n    __typename\n    ...ConversationMessageAttachmentImageLink\n  }\n  title\n  priceText\n  offerPriceText\n  optionalDescription: description\n  isAvailable\n  actions {\n    __typename\n    ...ConversationMessageAttachmentLinkAction\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 340681,
+      "offset": 285664,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 344167,
+      "offset": 288865,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 346516,
+      "offset": 290877,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 349382,
+      "offset": 293379,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 352024,
-      "length": 225,
+      "offset": 295552,
+      "length": 193,
       "value": "\"fragment ProductOfferBundleAttachment on ProductOfferBundleAttachment {\n  __typename\n  productOffers {\n    __typename\n    ...ProductOfferAttachment\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 352292,
+      "offset": 295786,
       "length": 32,
       "value": "[\"ProductOfferBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 353625,
+      "offset": 297032,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 358250,
+      "offset": 301053,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 360863,
+      "offset": 303197,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 363977,
+      "offset": 305827,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 366881,
-      "length": 154,
+      "offset": 308130,
+      "length": 130,
       "value": "\"fragment QuickReplyMenuAttachment on QuickReplyMenuAttachment {\n  __typename\n  message\n  choices\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 367078,
+      "offset": 308301,
       "length": 28,
       "value": "[\"QuickReplyMenuAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 368514,
-      "length": 135,
+      "offset": 309615,
+      "length": 115,
       "value": "\"fragment UnsupportedAttachment on UnsupportedAttachment {\n  __typename\n  _unusedField\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 368692,
+      "offset": 309771,
       "length": 25,
       "value": "[\"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 369909,
-      "length": 136,
+      "offset": 310899,
+      "length": 112,
       "value": "\"fragment VideoAttachment on VideoAttachment {\n  __typename\n  url\n  description\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 370088,
+      "offset": 311052,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 371492,
-      "length": 182,
+      "offset": 312334,
+      "length": 158,
       "value": "\"fragment ConversationMessageAttachmentImageLink on ConversationMessageAttachmentImageLink {\n  __typename\n  url\n  description\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 371717,
+      "offset": 312533,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 373168,
-      "length": 178,
+      "offset": 313862,
+      "length": 154,
       "value": "\"fragment ConversationMessageAttachmentLinkAction on ConversationMessageAttachmentLinkAction {\n  __typename\n  url\n  title\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 373389,
+      "offset": 314057,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 374794,
-      "length": 168,
+      "offset": 315340,
+      "length": 148,
       "value": "\"fragment ConversationMessageAttachmentSelectAction on ConversationMessageAttachmentSelectAction {\n  __typename\n  title\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 375005,
+      "offset": 315529,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 376126,
-      "length": 255,
+      "offset": 316561,
+      "length": 219,
       "value": "\"fragment AutomaticMessageSentSystemAttachment on AutomaticMessageSentSystemAttachment {\n  __typename\n  text\n  participant {\n    __typename\n    ...ConversationParticipant\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 376424,
+      "offset": 316821,
       "length": 40,
       "value": "[\"AutomaticMessageSentSystemAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 377983,
+      "offset": 318260,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 383606,
+      "offset": 322990,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 388513,
+      "offset": 326897,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 393400,
+      "offset": 330784,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 398286,
+      "offset": 334670,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 403128,
+      "offset": 338512,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 407976,
+      "offset": 342360,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 412548,
-      "length": 161,
+      "offset": 345996,
+      "length": 141,
       "value": "\"fragment UnsupportedSystemMessageAttachment on UnsupportedSystemMessageAttachment {\n  __typename\n  _unusedField\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 412752,
+      "offset": 346178,
       "length": 38,
       "value": "[\"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 414014,
-      "length": 177,
+      "offset": 347351,
+      "length": 153,
       "value": "\"fragment EscalationInvitationSentAttachment on EscalationInvitationSentAttachment {\n  __typename\n  correlationId\n  type\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 414234,
+      "offset": 347545,
       "length": 38,
       "value": "[\"EscalationInvitationSentAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 415781,
-      "length": 176,
+      "offset": 348970,
+      "length": 148,
       "value": "\"fragment EscalationEndedAttachment on EscalationEndedAttachment {\n  __typename\n  correlationId\n  type\n  reason\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 416000,
+      "offset": 349159,
       "length": 29,
       "value": "[\"EscalationEndedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 417916,
-      "length": 165,
+      "offset": 350920,
+      "length": 141,
       "value": "\"fragment EscalationAcceptedAttachment on EscalationAcceptedAttachment {\n  __typename\n  correlationId\n  type\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessageAttachment.graphql.swift",
       "kind": "Array",
-      "offset": 418124,
+      "offset": 351102,
       "length": 32,
       "value": "[\"EscalationAcceptedAttachment\"]"
     },
@@ -62203,35 +62482,35 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCredentials.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 290,
-      "length": 400,
+      "offset": 282,
+      "length": 360,
       "value": "\"mutation visitorAuthenticateFromCredentials($projectId: LegacyId!, $credentials: String!, $vuid: String) {\n  visitorAuthenticateFromCredentials(input: {projectId: $projectId, credentials: $credentials, currentVuid: $vuid}) {\n    __typename\n    visitorSessionToken {\n      __typename\n      accessToken\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCredentials.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 674,
       "length": 36,
       "value": "\"visitorAuthenticateFromCredentials\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCredentials.graphql.swift",
       "kind": "Array",
-      "offset": 1220,
+      "offset": 1141,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCredentials.graphql.swift",
       "kind": "Array",
-      "offset": 2665,
+      "offset": 2484,
       "length": 45,
       "value": "[\"VisitorAuthenticateFromCredentialsPayload\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorAuthenticateFromCredentials.graphql.swift",
       "kind": "Array",
-      "offset": 4139,
+      "offset": 3749,
       "length": 23,
       "value": "[\"VisitorSessionToken\"]"
     },
@@ -62252,70 +62531,70 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 274,
-      "length": 362,
+      "offset": 266,
+      "length": 322,
       "value": "\"mutation conversationCreate($channel: Channel, $targetingRuleId: UUID!, $language: Language!) {\n  conversationCreate(input: {channel: $channel, targetingRuleId: $targetingRuleId, language: $language}) {\n    __typename\n    conversation {\n      __typename\n      id\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 670,
+      "offset": 620,
       "length": 20,
       "value": "\"conversationCreate\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "Array",
-      "offset": 1184,
+      "offset": 1105,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "Array",
-      "offset": 2428,
+      "offset": 2247,
       "length": 29,
       "value": "[\"ConversationCreatePayload\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "Array",
-      "offset": 3898,
+      "offset": 3502,
       "length": 16,
       "value": "[\"Conversation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 5320,
-      "length": 367,
+      "offset": 4643,
+      "length": 327,
       "value": "\"mutation videoConversationCreate($channel: Channel, $targetingRuleId: UUID!, $language: Language!) {\n  conversationCreate(input: {channel: $channel, targetingRuleId: $targetingRuleId, language: $language}) {\n    __typename\n    conversation {\n      __typename\n      id\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 5721,
+      "offset": 5002,
       "length": 25,
       "value": "\"videoConversationCreate\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "Array",
-      "offset": 6240,
+      "offset": 5492,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "Array",
-      "offset": 7484,
+      "offset": 6634,
       "length": 29,
       "value": "[\"ConversationCreatePayload\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/Conversation.graphql.swift",
       "kind": "Array",
-      "offset": 8954,
+      "offset": 7889,
       "length": 16,
       "value": "[\"Conversation\"]"
     },
@@ -62497,882 +62776,882 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 267,
-      "length": 199,
+      "offset": 259,
+      "length": 171,
       "value": "\"fragment ConversationMessage on ConversationMessage {\n  __typename\n  createdAt\n  ...ParticipantConversationMessage\n  ...SystemMessage\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 509,
+      "offset": 471,
       "length": 51,
       "value": "[\"ParticipantConversationMessage\", \"SystemMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 4569,
+      "offset": 4174,
       "length": 34,
       "value": "[\"ParticipantConversationMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 9438,
+      "offset": 8400,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 15533,
+      "offset": 13340,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 20904,
+      "offset": 17479,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 26255,
+      "offset": 21598,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 31605,
+      "offset": 25716,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 36911,
+      "offset": 29790,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 42223,
+      "offset": 33870,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 47140,
+      "offset": 37639,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 53223,
+      "offset": 42567,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 58594,
+      "offset": 46706,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 63945,
+      "offset": 50825,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 69295,
+      "offset": 54943,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 74601,
+      "offset": 59017,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 79913,
+      "offset": 63097,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 84835,
-      "length": 887,
-      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"UnsupportedAttachment\"]"
+      "offset": 66871,
+      "length": 919,
+      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"LiveAgentRequestedAttachment\", \"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 104704,
+      "offset": 84538,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 118121,
+      "offset": 95135,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 121261,
+      "offset": 97542,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 124287,
+      "offset": 99835,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 128702,
+      "offset": 103382,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 133431,
+      "offset": 106958,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 137510,
+      "offset": 110051,
       "length": 24,
       "value": "[\"CardBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 149475,
+      "offset": 119475,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 154949,
+      "offset": 123768,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 158353,
+      "offset": 126307,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 161643,
+      "offset": 128732,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 166346,
+      "offset": 132427,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 171419,
+      "offset": 136175,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 175746,
+      "offset": 139378,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 187763,
+      "offset": 148768,
       "length": 24,
       "value": "[\"FileBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 198714,
+      "offset": 157364,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 202653,
+      "offset": 160371,
       "length": 19,
       "value": "[\"ImageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 214644,
+      "offset": 169735,
       "length": 18,
       "value": "[\"LinkAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 226158,
+      "offset": 178715,
       "length": 19,
       "value": "[\"OfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 238616,
+      "offset": 188453,
       "length": 21,
       "value": "[\"ProductAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 252147,
+      "offset": 199078,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 266023,
+      "offset": 210041,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 269164,
+      "offset": 212449,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 272774,
+      "offset": 215335,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 276659,
+      "offset": 218265,
       "length": 32,
       "value": "[\"ProductOfferBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 287656,
+      "offset": 226907,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 293661,
+      "offset": 231618,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 297066,
+      "offset": 234158,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 300924,
+      "offset": 237172,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 305067,
+      "offset": 240222,
       "length": 28,
       "value": "[\"QuickReplyMenuAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 316767,
+      "offset": 249388,
       "length": 38,
       "value": "[\"EscalationInvitationSentAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 328519,
+      "offset": 258606,
       "length": 29,
       "value": "[\"EscalationEndedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 340781,
+      "offset": 268241,
       "length": 32,
       "value": "[\"EscalationAcceptedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 352507,
+      "offset": 277433,
       "length": 25,
       "value": "[\"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 363692,
+      "offset": 286219,
       "length": 17,
       "value": "[\"SystemMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 367236,
+      "offset": 289279,
       "length": 829,
       "value": "[\"EngagementRuleTriggeredSystemAttachment\", \"TransferredToUserSystemAttachment\", \"TransferredToRoutingRuleSystemAttachment\", \"VisitorBlockedSystemAttachment\", \"VisitorLeftSystemAttachment\", \"VisitorReturnedSystemAttachment\", \"NavigationChangedSystemAttachment\", \"SupervisorCommentSentSystemAttachment\", \"AutomaticMessageSentSystemAttachment\", \"ConversationClosedSystemAttachment\", \"ConversationPushedSystemAttachment\", \"ConversationSnoozedSystemAttachment\", \"ConversationReleasedSystemAttachment\", \"VisitorNotificationSettingsRequestedSystemAttachment\", \"VisitorNotificationSettingsSetSystemAttachment\", \"ResumeMessageSentSystemAttachment\", \"SurveyMultiChoiceQuestionSystemAttachment\", \"SurveyMessageSystemAttachment\", \"SurveyQuestionSystemAttachment\", \"OutboundMessageSentSystemAttachment\", \"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 376146,
+      "offset": 297255,
       "length": 40,
       "value": "[\"AutomaticMessageSentSystemAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 380379,
+      "offset": 300652,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 387598,
+      "offset": 306192,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 393897,
+      "offset": 310795,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 400176,
+      "offset": 315378,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 406454,
+      "offset": 319960,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 412688,
+      "offset": 324498,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 418928,
+      "offset": 329042,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 425247,
+      "offset": 333699,
       "length": 38,
       "value": "[\"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 429067,
-      "length": 486,
+      "offset": 336774,
+      "length": 410,
       "value": "\"fragment ParticipantConversationMessage on ParticipantConversationMessage {\n  __typename\n  messageId\n  text\n  author {\n    __typename\n    ...ConversationParticipant\n  }\n  sentAs {\n    __typename\n    ...ConversationParticipant\n  }\n  createdAt\n  attachments {\n    __typename\n    ...ParticipantConversationMessageAttachment\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 429596,
+      "offset": 337225,
       "length": 34,
       "value": "[\"ParticipantConversationMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 432816,
+      "offset": 340193,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 438379,
+      "offset": 344863,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 443286,
+      "offset": 348770,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 448173,
+      "offset": 352657,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 453059,
+      "offset": 356543,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 457901,
+      "offset": 360385,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 462749,
+      "offset": 364233,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 467238,
+      "offset": 367788,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 472789,
+      "offset": 372446,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 477696,
+      "offset": 376353,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 482583,
+      "offset": 380240,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 487469,
+      "offset": 384126,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 492311,
+      "offset": 387968,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 497159,
+      "offset": 391816,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 501653,
-      "length": 887,
-      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"UnsupportedAttachment\"]"
+      "offset": 395376,
+      "length": 919,
+      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"LiveAgentRequestedAttachment\", \"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 520342,
+      "offset": 412443,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 532739,
+      "offset": 422530,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 535615,
+      "offset": 424805,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 538377,
+      "offset": 426966,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 542504,
+      "offset": 430365,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 546889,
+      "offset": 433769,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 550656,
+      "offset": 436706,
       "length": 24,
       "value": "[\"CardBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 561721,
+      "offset": 445680,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 566775,
+      "offset": 449763,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 569915,
+      "offset": 452170,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 572941,
+      "offset": 454463,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 577356,
+      "offset": 458010,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 582085,
+      "offset": 461586,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 586096,
+      "offset": 464631,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 597169,
+      "offset": 473549,
       "length": 24,
       "value": "[\"FileBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 607300,
+      "offset": 481735,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 610891,
+      "offset": 484568,
       "length": 19,
       "value": "[\"ImageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 621938,
+      "offset": 493460,
       "length": 18,
       "value": "[\"LinkAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 632548,
+      "offset": 501988,
       "length": 19,
       "value": "[\"OfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 644022,
+      "offset": 511234,
       "length": 21,
       "value": "[\"ProductAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 656489,
+      "offset": 521327,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 669305,
+      "offset": 531760,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 672182,
+      "offset": 534036,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 675544,
+      "offset": 536794,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 679117,
+      "offset": 539568,
       "length": 32,
       "value": "[\"ProductOfferBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 689294,
+      "offset": 547800,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 694839,
+      "offset": 552281,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 697980,
+      "offset": 554689,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 701590,
+      "offset": 557575,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 705417,
+      "offset": 560467,
       "length": 28,
       "value": "[\"QuickReplyMenuAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 716213,
+      "offset": 569181,
       "length": 38,
       "value": "[\"EscalationInvitationSentAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 727061,
+      "offset": 577947,
       "length": 29,
       "value": "[\"EscalationEndedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 738379,
+      "offset": 587110,
       "length": 32,
       "value": "[\"EscalationAcceptedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 749201,
+      "offset": 595850,
       "length": 25,
       "value": "[\"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 759267,
-      "length": 252,
+      "offset": 603971,
+      "length": 212,
       "value": "\"fragment SystemMessage on SystemMessage {\n  __typename\n  systemMessageId\n  createdAt\n  attachments {\n    __typename\n    ...SystemConversationMessageAttachment\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 759562,
+      "offset": 604224,
       "length": 17,
       "value": "[\"SystemMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 761560,
+      "offset": 606069,
       "length": 829,
       "value": "[\"EngagementRuleTriggeredSystemAttachment\", \"TransferredToUserSystemAttachment\", \"TransferredToRoutingRuleSystemAttachment\", \"VisitorBlockedSystemAttachment\", \"VisitorLeftSystemAttachment\", \"VisitorReturnedSystemAttachment\", \"NavigationChangedSystemAttachment\", \"SupervisorCommentSentSystemAttachment\", \"AutomaticMessageSentSystemAttachment\", \"ConversationClosedSystemAttachment\", \"ConversationPushedSystemAttachment\", \"ConversationSnoozedSystemAttachment\", \"ConversationReleasedSystemAttachment\", \"VisitorNotificationSettingsRequestedSystemAttachment\", \"VisitorNotificationSettingsSetSystemAttachment\", \"ResumeMessageSentSystemAttachment\", \"SurveyMultiChoiceQuestionSystemAttachment\", \"SurveyMessageSystemAttachment\", \"SurveyQuestionSystemAttachment\", \"OutboundMessageSentSystemAttachment\", \"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 769918,
+      "offset": 613765,
       "length": 40,
       "value": "[\"AutomaticMessageSentSystemAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 773811,
+      "offset": 616992,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 780498,
+      "offset": 622262,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 786333,
+      "offset": 626633,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 792148,
+      "offset": 630984,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 797962,
+      "offset": 635334,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 803732,
+      "offset": 639640,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 809508,
+      "offset": 643952,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/ConversationMessage.graphql.swift",
       "kind": "Array",
-      "offset": 815355,
+      "offset": 648373,
       "length": 38,
       "value": "[\"UnsupportedSystemMessageAttachment\"]"
     },
@@ -63699,6 +63978,48 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/GraphQL\/Interceptors\/AuthErrorInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2885,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/GraphQL\/Interceptors\/AuthErrorInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2980,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/GraphQL\/Interceptors\/AuthErrorInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2885,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/GraphQL\/Interceptors\/AuthErrorInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2980,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/GraphQL\/Interceptors\/AuthErrorInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2885,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/GraphQL\/Interceptors\/AuthErrorInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2980,
+      "length": 4,
+      "value": "1001"
+    },
+    {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/Extensions\/URLRequest\/URLRequest+URLConvertibleInit.swift",
       "kind": "StringLiteral",
       "offset": 328,
@@ -63862,35 +64183,35 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchProjectSettings.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 270,
-      "length": 267,
+      "offset": 262,
+      "length": 227,
       "value": "\"query FetchProjectSettings($projectId: LegacyId!) {\n  project(projectId: $projectId) {\n    __typename\n    settings {\n      __typename\n      isSatisfactionSurveyEnabled\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchProjectSettings.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 571,
+      "offset": 521,
       "length": 22,
       "value": "\"FetchProjectSettings\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchProjectSettings.graphql.swift",
       "kind": "Array",
-      "offset": 855,
+      "offset": 788,
       "length": 9,
       "value": "[\"Query\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchProjectSettings.graphql.swift",
       "kind": "Array",
-      "offset": 1831,
+      "offset": 1662,
       "length": 11,
       "value": "[\"Project\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchProjectSettings.graphql.swift",
       "kind": "Array",
-      "offset": 3199,
+      "offset": 2815,
       "length": 19,
       "value": "[\"ProjectSettings\"]"
     },
@@ -63960,7 +64281,7 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/Conversation\/XMPP\/MucSubMessagesManager.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 641,
       "length": 21,
       "value": "\"IAdvizeConversationSDK.MucSubMessagesManager\""
     },
@@ -64177,35 +64498,35 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/TargetingRuleTrigger.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 276,
-      "length": 391,
+      "offset": 268,
+      "length": 351,
       "value": "\"mutation TargetingRuleTrigger($targetingRuleId: UUID!, $visitorContext: VisitorContext!, $channel: Channel) {\n  targetingRuleTrigger(input: {targetingRuleId: $targetingRuleId, visitorContext: $visitorContext, channel: $channel}) {\n    __typename\n    targetingRule {\n      __typename\n      id\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/TargetingRuleTrigger.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 701,
+      "offset": 651,
       "length": 22,
       "value": "\"TargetingRuleTrigger\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/TargetingRuleTrigger.graphql.swift",
       "kind": "Array",
-      "offset": 1265,
+      "offset": 1186,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/TargetingRuleTrigger.graphql.swift",
       "kind": "Array",
-      "offset": 2550,
+      "offset": 2369,
       "length": 31,
       "value": "[\"TargetingRuleTriggerPayload\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/TargetingRuleTrigger.graphql.swift",
       "kind": "Array",
-      "offset": 4066,
+      "offset": 3670,
       "length": 17,
       "value": "[\"TargetingRule\"]"
     },
@@ -64303,945 +64624,945 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 275,
-      "length": 1304,
+      "offset": 267,
+      "length": 1120,
       "value": "\"query FetchConversationMessages($pageCount: Int!, $after: String, $input: ConversationsVisitorMessagesInput) {\n  conversationsVisitorMessages(conversationsVisitorMessagesInput: $input) {\n    __typename\n    ongoingConversation {\n      __typename\n      id\n    }\n    messages(first: $pageCount, after: $after) {\n      __typename\n      pageInfo {\n        __typename\n        hasNextPage\n        hasPreviousPage\n        startCursor\n        endCursor\n      }\n      edges {\n        __typename\n        cursor\n        node {\n          __typename\n          ...ConversationMessage\n        }\n      }\n    }\n    proactiveBotMessages(first: $pageCount) {\n      __typename\n      pageInfo {\n        __typename\n        hasNextPage\n        hasPreviousPage\n        startCursor\n        endCursor\n      }\n      edges {\n        __typename\n        cursor\n        node {\n          __typename\n          ...ConversationMessage\n        }\n      }\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 1613,
+      "offset": 1419,
       "length": 27,
       "value": "\"FetchConversationMessages\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 4161,
+      "offset": 3943,
       "length": 9,
       "value": "[\"Query\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 5439,
+      "offset": 5119,
       "length": 32,
       "value": "[\"ConversationsVisitorMessages\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 8403,
+      "offset": 7722,
       "length": 16,
       "value": "[\"Conversation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 9747,
+      "offset": 8785,
       "length": 33,
       "value": "[\"ConversationMessageConnection\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 12180,
+      "offset": 10846,
       "length": 12,
       "value": "[\"PageInfo\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 15374,
+      "offset": 13354,
       "length": 27,
       "value": "[\"ConversationMessageEdge\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 17431,
+      "offset": 14955,
       "length": 51,
       "value": "[\"ParticipantConversationMessage\", \"SystemMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 23591,
+      "offset": 19805,
       "length": 34,
       "value": "[\"ParticipantConversationMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 31521,
+      "offset": 25741,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 40276,
+      "offset": 32031,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 47967,
+      "offset": 37330,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 55638,
+      "offset": 42609,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 63308,
+      "offset": 47887,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 70934,
+      "offset": 53121,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 78566,
+      "offset": 58361,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 85623,
+      "offset": 63200,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 94366,
+      "offset": 69478,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 102057,
+      "offset": 74777,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 109728,
+      "offset": 80056,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 117398,
+      "offset": 85334,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 125024,
+      "offset": 90568,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 132656,
+      "offset": 95808,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 139718,
-      "length": 887,
-      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"UnsupportedAttachment\"]"
+      "offset": 100652,
+      "length": 919,
+      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"LiveAgentRequestedAttachment\", \"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 165487,
+      "offset": 121319,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 184004,
+      "offset": 134466,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 188464,
+      "offset": 137533,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 192810,
+      "offset": 140486,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 198665,
+      "offset": 144773,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 205114,
+      "offset": 149209,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 210753,
+      "offset": 153082,
       "length": 24,
       "value": "[\"CardBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 227218,
+      "offset": 164756,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 234792,
+      "offset": 170099,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 239516,
+      "offset": 173298,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 244126,
+      "offset": 176383,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 250269,
+      "offset": 180818,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 257062,
+      "offset": 185426,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 262969,
+      "offset": 189419,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 279706,
+      "offset": 201169,
       "length": 24,
       "value": "[\"FileBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 294757,
+      "offset": 211815,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 300436,
+      "offset": 215692,
       "length": 19,
       "value": "[\"ImageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 317147,
+      "offset": 227416,
       "length": 18,
       "value": "[\"LinkAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 333181,
+      "offset": 238656,
       "length": 19,
       "value": "[\"OfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 350559,
+      "offset": 250854,
       "length": 21,
       "value": "[\"ProductAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 369410,
+      "offset": 264139,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 388586,
+      "offset": 277752,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 393047,
+      "offset": 280820,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 397897,
+      "offset": 284346,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 403342,
+      "offset": 288056,
       "length": 32,
       "value": "[\"ProductOfferBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 418439,
+      "offset": 298748,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 426744,
+      "offset": 304609,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 431469,
+      "offset": 307809,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 436567,
+      "offset": 311463,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 442290,
+      "offset": 315303,
       "length": 28,
       "value": "[\"QuickReplyMenuAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 458510,
+      "offset": 326729,
       "length": 38,
       "value": "[\"EscalationInvitationSentAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 474782,
+      "offset": 338207,
       "length": 29,
       "value": "[\"EscalationEndedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 491764,
+      "offset": 350202,
       "length": 32,
       "value": "[\"EscalationAcceptedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 508010,
+      "offset": 361654,
       "length": 25,
       "value": "[\"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 523555,
+      "offset": 372620,
       "length": 17,
       "value": "[\"SystemMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 529560,
+      "offset": 377090,
       "length": 829,
       "value": "[\"EngagementRuleTriggeredSystemAttachment\", \"TransferredToUserSystemAttachment\", \"TransferredToRoutingRuleSystemAttachment\", \"VisitorBlockedSystemAttachment\", \"VisitorLeftSystemAttachment\", \"VisitorReturnedSystemAttachment\", \"NavigationChangedSystemAttachment\", \"SupervisorCommentSentSystemAttachment\", \"AutomaticMessageSentSystemAttachment\", \"ConversationClosedSystemAttachment\", \"ConversationPushedSystemAttachment\", \"ConversationSnoozedSystemAttachment\", \"ConversationReleasedSystemAttachment\", \"VisitorNotificationSettingsRequestedSystemAttachment\", \"VisitorNotificationSettingsSetSystemAttachment\", \"ResumeMessageSentSystemAttachment\", \"SurveyMultiChoiceQuestionSystemAttachment\", \"SurveyMessageSystemAttachment\", \"SurveyQuestionSystemAttachment\", \"OutboundMessageSentSystemAttachment\", \"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 541230,
+      "offset": 386466,
       "length": 40,
       "value": "[\"AutomaticMessageSentSystemAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 547163,
+      "offset": 390713,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 557042,
+      "offset": 397603,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 565661,
+      "offset": 403366,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 574260,
+      "offset": 409109,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 582858,
+      "offset": 414851,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 591412,
+      "offset": 420549,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 599972,
+      "offset": 426253,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 608651,
+      "offset": 432090,
       "length": 38,
       "value": "[\"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 613996,
+      "offset": 435900,
       "length": 33,
       "value": "[\"ConversationMessageConnection\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 616429,
+      "offset": 437961,
       "length": 12,
       "value": "[\"PageInfo\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 619623,
+      "offset": 440469,
       "length": 27,
       "value": "[\"ConversationMessageEdge\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 621680,
+      "offset": 442070,
       "length": 51,
       "value": "[\"ParticipantConversationMessage\", \"SystemMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 627840,
+      "offset": 446920,
       "length": 34,
       "value": "[\"ParticipantConversationMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 635770,
+      "offset": 452856,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 644525,
+      "offset": 459146,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 652216,
+      "offset": 464445,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 659887,
+      "offset": 469724,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 667557,
+      "offset": 475002,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 675183,
+      "offset": 480236,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 682815,
+      "offset": 485476,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 689872,
+      "offset": 490315,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 698615,
+      "offset": 496593,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 706306,
+      "offset": 501892,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 713977,
+      "offset": 507171,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 721647,
+      "offset": 512449,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 729273,
+      "offset": 517683,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 736905,
+      "offset": 522923,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 743967,
-      "length": 887,
-      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"UnsupportedAttachment\"]"
+      "offset": 527767,
+      "length": 919,
+      "value": "[\"ImageAttachment\", \"OfferAttachment\", \"LinkAttachment\", \"ProductAttachment\", \"FileAttachment\", \"QuickReplyMenuAttachment\", \"ProductOfferAttachment\", \"CardBundleAttachment\", \"CardAttachment\", \"ProductOfferBundleAttachment\", \"FileBundleAttachment\", \"ContextualInfosAttachment\", \"ListPickerAttachment\", \"ListPickerResponseAttachment\", \"TimePickerAttachment\", \"TimePickerResponseAttachment\", \"AuthenticationRequestedAttachment\", \"FailedAuthenticationResponseAttachment\", \"SuccessfulAuthenticationResponseAttachment\", \"ApplePayPaymentRequestedAttachment\", \"FailedApplePayPaymentResponseAttachment\", \"SuccessfulApplePayPaymentResponseAttachment\", \"AppleBusinessChatMessageExtensionAttachment\", \"ConversationBlockedAttachment\", \"EscalationAcceptedAttachment\", \"EscalationInvitationSentAttachment\", \"EscalationEndedAttachment\", \"PickedUpAttachment\", \"HungUpAttachment\", \"LiveAgentRequestedAttachment\", \"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 769736,
+      "offset": 548434,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 788253,
+      "offset": 561581,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 792713,
+      "offset": 564648,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 797059,
+      "offset": 567601,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 802914,
+      "offset": 571888,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 809363,
+      "offset": 576324,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 815002,
+      "offset": 580197,
       "length": 24,
       "value": "[\"CardBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 831467,
+      "offset": 591871,
       "length": 18,
       "value": "[\"CardAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 839041,
+      "offset": 597214,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 843765,
+      "offset": 600413,
       "length": 19,
       "value": "[\"VideoAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 848375,
+      "offset": 603498,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 854518,
+      "offset": 607933,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 861311,
+      "offset": 612541,
       "length": 45,
       "value": "[\"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 867218,
+      "offset": 616534,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 883955,
+      "offset": 628284,
       "length": 24,
       "value": "[\"FileBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 899006,
+      "offset": 638930,
       "length": 18,
       "value": "[\"FileAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 904685,
+      "offset": 642807,
       "length": 19,
       "value": "[\"ImageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 921396,
+      "offset": 654531,
       "length": 18,
       "value": "[\"LinkAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 937430,
+      "offset": 665771,
       "length": 19,
       "value": "[\"OfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 954808,
+      "offset": 677969,
       "length": 21,
       "value": "[\"ProductAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 973659,
+      "offset": 691254,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 992835,
+      "offset": 704867,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 997296,
+      "offset": 707935,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1002146,
+      "offset": 711461,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1007591,
+      "offset": 715171,
       "length": 32,
       "value": "[\"ProductOfferBundleAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1022688,
+      "offset": 725863,
       "length": 26,
       "value": "[\"ProductOfferAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1030993,
+      "offset": 731724,
       "length": 42,
       "value": "[\"ConversationMessageAttachmentImageLink\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1035718,
+      "offset": 734924,
       "length": 88,
       "value": "[\"ConversationMessageAttachmentLinkAction\", \"ConversationMessageAttachmentSelectAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1040816,
+      "offset": 738578,
       "length": 43,
       "value": "[\"ConversationMessageAttachmentLinkAction\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1046539,
+      "offset": 742418,
       "length": 28,
       "value": "[\"QuickReplyMenuAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1062759,
+      "offset": 753844,
       "length": 38,
       "value": "[\"EscalationInvitationSentAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1079031,
+      "offset": 765322,
       "length": 29,
       "value": "[\"EscalationEndedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1096013,
+      "offset": 777317,
       "length": 32,
       "value": "[\"EscalationAcceptedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1112259,
+      "offset": 788769,
       "length": 25,
       "value": "[\"UnsupportedAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1127804,
+      "offset": 799735,
       "length": 17,
       "value": "[\"SystemMessage\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1133809,
+      "offset": 804205,
       "length": 829,
       "value": "[\"EngagementRuleTriggeredSystemAttachment\", \"TransferredToUserSystemAttachment\", \"TransferredToRoutingRuleSystemAttachment\", \"VisitorBlockedSystemAttachment\", \"VisitorLeftSystemAttachment\", \"VisitorReturnedSystemAttachment\", \"NavigationChangedSystemAttachment\", \"SupervisorCommentSentSystemAttachment\", \"AutomaticMessageSentSystemAttachment\", \"ConversationClosedSystemAttachment\", \"ConversationPushedSystemAttachment\", \"ConversationSnoozedSystemAttachment\", \"ConversationReleasedSystemAttachment\", \"VisitorNotificationSettingsRequestedSystemAttachment\", \"VisitorNotificationSettingsSetSystemAttachment\", \"ResumeMessageSentSystemAttachment\", \"SurveyMultiChoiceQuestionSystemAttachment\", \"SurveyMessageSystemAttachment\", \"SurveyQuestionSystemAttachment\", \"OutboundMessageSentSystemAttachment\", \"UnsupportedSystemMessageAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1145479,
+      "offset": 813581,
       "length": 40,
       "value": "[\"AutomaticMessageSentSystemAttachment\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1151412,
+      "offset": 817828,
       "length": 80,
       "value": "[\"Visitor\", \"ThirdPartyAccount\", \"IbbuManager\", \"Professional\", \"Bot\", \"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1161291,
+      "offset": 824718,
       "length": 11,
       "value": "[\"Visitor\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1169910,
+      "offset": 830481,
       "length": 21,
       "value": "[\"ThirdPartyAccount\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1178509,
+      "offset": 836224,
       "length": 15,
       "value": "[\"IbbuManager\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1187107,
+      "offset": 841966,
       "length": 16,
       "value": "[\"Professional\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1195661,
+      "offset": 847664,
       "length": 7,
       "value": "[\"Bot\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1204221,
+      "offset": 853368,
       "length": 10,
       "value": "[\"Expert\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/FetchConversationMessages.graphql.swift",
       "kind": "Array",
-      "offset": 1212900,
+      "offset": 859205,
       "length": 38,
       "value": "[\"UnsupportedSystemMessageAttachment\"]"
     },
@@ -65255,28 +65576,28 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorVideoToken.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 273,
-      "length": 157,
+      "offset": 265,
+      "length": 129,
       "value": "\"mutation visitorVideoToken {\n  visitorVideoToken {\n    __typename\n    visitorVideoToken\n  }\n}\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorVideoToken.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 426,
       "length": 19,
       "value": "\"visitorVideoToken\""
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorVideoToken.graphql.swift",
       "kind": "Array",
-      "offset": 584,
+      "offset": 541,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Resources\/GraphQL\/Queries\/VisitorVideoToken.graphql.swift",
       "kind": "Array",
-      "offset": 1721,
+      "offset": 1576,
       "length": 28,
       "value": "[\"VisitorVideoTokenPayload\"]"
     },
@@ -66375,28 +66696,28 @@
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/Conversation\/ConversationViewModel\/ConversationViewModel.swift",
       "kind": "Array",
-      "offset": 1121,
+      "offset": 1147,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/Conversation\/ConversationViewModel\/ConversationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1368,
+      "offset": 1394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/Conversation\/ConversationViewModel\/ConversationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1416,
+      "offset": 1442,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/julestrehorel\/Workspace\/sdk-ios\/IAdvizeConversationSDK\/Sources\/Conversation\/ConversationViewModel\/ConversationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2780,
+      "offset": 2806,
       "length": 5,
       "value": "false"
     },

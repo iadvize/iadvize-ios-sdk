@@ -1037,6 +1037,7 @@ public enum Currency : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, 
   case uyu
   case uzs
   case veb
+  case ved
   case vef
   case ves
   case vnd
@@ -1355,6 +1356,10 @@ extension IAdvizeConversationSDK.IAdvizeSDK {
 }
 public protocol JWEProvider : AnyObject {
   func willRequestJWE(completion: @escaping (_ result: Swift.Result<IAdvizeConversationSDK.JWE, Swift.Error>) -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers open class AuthErrorInterceptor : Apollo.ApolloInterceptor {
+  public func interceptAsync<Operation>(chain: Apollo.RequestChain, request: Apollo.HTTPRequest<Operation>, response: Apollo.HTTPResponse<Operation>?, completion: @escaping (Swift.Result<Apollo.GraphQLResult<Operation.Data>, Swift.Error>) -> Swift.Void) where Operation : Apollo.GraphQLOperation
+  @objc deinit
 }
 extension IAdvizeConversationSDK.TargetingController {
   @available(swift, obsoleted: 1.0)

@@ -8,6 +8,9 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/IAdvizeSDK" class="dashAnchor"></a>
@@ -15,13 +18,18 @@
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">iAdvize iOS SDK</a></p>
-        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">IAdvizeConversationSDK Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         IAdvizeSDK Class Reference
       </p>
     </div>
@@ -47,10 +55,10 @@
                 <a href="../Protocols/GDPRDelegate.html">GDPRDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/Logger.html">Logger</a>
+                <a href="../Enums/Logger.html">Logger</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/Logger/LogLevel.html">– LogLevel</a>
+                <a href="../Enums/Logger/LogLevel.html">– LogLevel</a>
               </li>
             </ul>
           </li>
@@ -121,6 +129,110 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthErrorInterceptor.html">AuthErrorInterceptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Button.html">Button</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientView.html">GradientView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JWE.html">JWE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyboardObserver.html">KeyboardObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Label.html">Label</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OngoingConversation.html">OngoingConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TargetingRule.html">TargetingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VisitorController.html">VisitorController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/XibView.html">XibView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ActivationStatus.html">ActivationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AppFont.html">AppFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CardBundleAttachmentActionType.html">CardBundleAttachmentActionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConversationChannel.html">ConversationChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CustomData.html">CustomData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EscalationEndReason.html">EscalationEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EscalationType.html">EscalationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavigationOption.html">NavigationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKEnvironment.html">SDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Source.html">Source</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont/TextStyle.html">– TextStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatboxControllerDelegate.html">ChatboxControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IAdvizeSDKEnvironmentDataSource.html">IAdvizeSDKEnvironmentDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JWEProvider.html">JWEProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/KeyboardObserverDelegate.html">KeyboardObserverDelegate</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -129,6 +241,7 @@
             <h1>IAdvizeSDK</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">@objc</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">IAdvizeSDK</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -155,6 +268,60 @@ experience:</p>
           <section class="section task-group-section">
             <div class="task-group">
               <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK0aC0C10dataSourceAA0a18SDKEnvironmentDataE0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/dataSource" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK0aC0C10dataSourceAA0a18SDKEnvironmentDataE0_pSgvp">dataSource</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">dataSource</span><span class="p">:</span> <span class="kt"><a href="../Protocols/IAdvizeSDKEnvironmentDataSource.html">IAdvizeSDKEnvironmentDataSource</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK0aC0C16activationStatusAA010ActivationE0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/activationStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK0aC0C16activationStatusAA010ActivationE0Ovp">activationStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">activationStatus</span><span class="p">:</span> <span class="kt"><a href="../Enums/ActivationStatus.html">ActivationStatus</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -326,9 +493,37 @@ experience:</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:22IAdvizeConversationSDK0aC0C8logLevelAA6LoggerV03LogE0Ovp"></a>
+                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)IAdvizeSDK(py)visitorController"></a>
+                    <a name="//apple_ref/swift/Property/visitorController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)IAdvizeSDK(py)visitorController">visitorController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">private(set)</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">visitorController</span><span class="p">:</span> <span class="kt"><a href="../Classes/VisitorController.html">VisitorController</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK0aC0C8logLevelAA6LoggerO03LogE0Ovp"></a>
                     <a name="//apple_ref/swift/Property/logLevel" class="dashAnchor"></a>
-                    <a class="token" href="#/s:22IAdvizeConversationSDK0aC0C8logLevelAA6LoggerV03LogE0Ovp">logLevel</a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK0aC0C8logLevelAA6LoggerO03LogE0Ovp">logLevel</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -346,7 +541,7 @@ this value to have more feedbacks on the iAdvize SDK activity.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">logLevel</span><span class="p">:</span> <span class="kt"><a href="../Structs/Logger.html">Logger</a></span><span class="o">.</span><span class="kt">LogLevel</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">logLevel</span><span class="p">:</span> <span class="kt"><a href="../Enums/Logger.html">Logger</a></span><span class="o">.</span><span class="kt">LogLevel</span></code></pre>
 
                         </div>
                       </div>
@@ -443,9 +638,9 @@ if the activation process was successful.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)IAdvizeSDK(im)logout"></a>
-                    <a name="//apple_ref/swift/Method/logout()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)IAdvizeSDK(im)logout">logout()</a>
+                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)IAdvizeSDK(im)logoutWithCompletion:"></a>
+                    <a name="//apple_ref/swift/Method/logout(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)IAdvizeSDK(im)logoutWithCompletion:">logout(completion:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -464,7 +659,7 @@ You will need to call activate again if the user needs to start a new conversati
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">logout</span><span class="p">()</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">logout</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -476,11 +671,10 @@ You will need to call activate again if the user needs to start a new conversati
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external">iAdvize</a>. All rights reserved. (Last updated: 2021-07-01)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2022 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2022-12-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

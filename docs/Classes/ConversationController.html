@@ -8,6 +8,9 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Class/ConversationController" class="dashAnchor"></a>
@@ -15,13 +18,18 @@
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">iAdvize iOS SDK</a></p>
-        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">IAdvizeConversationSDK Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         ConversationController Class Reference
       </p>
     </div>
@@ -47,10 +55,10 @@
                 <a href="../Protocols/GDPRDelegate.html">GDPRDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/Logger.html">Logger</a>
+                <a href="../Enums/Logger.html">Logger</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/Logger/LogLevel.html">– LogLevel</a>
+                <a href="../Enums/Logger/LogLevel.html">– LogLevel</a>
               </li>
             </ul>
           </li>
@@ -121,6 +129,110 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthErrorInterceptor.html">AuthErrorInterceptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Button.html">Button</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientView.html">GradientView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JWE.html">JWE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyboardObserver.html">KeyboardObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Label.html">Label</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OngoingConversation.html">OngoingConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TargetingRule.html">TargetingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VisitorController.html">VisitorController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/XibView.html">XibView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ActivationStatus.html">ActivationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AppFont.html">AppFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CardBundleAttachmentActionType.html">CardBundleAttachmentActionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConversationChannel.html">ConversationChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CustomData.html">CustomData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EscalationEndReason.html">EscalationEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EscalationType.html">EscalationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavigationOption.html">NavigationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKEnvironment.html">SDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Source.html">Source</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont/TextStyle.html">– TextStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatboxControllerDelegate.html">ChatboxControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IAdvizeSDKEnvironmentDataSource.html">IAdvizeSDKEnvironmentDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JWEProvider.html">JWEProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/KeyboardObserverDelegate.html">KeyboardObserverDelegate</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -129,9 +241,9 @@
             <h1>ConversationController</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ConversationController</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
-<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ConversationController</span><span class="p">:</span> <span class="kt"><a href="../Protocols/TargetingControllerDelegate.html">TargetingControllerDelegate</a></span></code></pre>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ConversationController</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">ConversationManagerDelegate</span></code></pre>
 
                 </div>
               </div>
@@ -172,9 +284,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(py)hasOngoingConversation"></a>
-                    <a name="//apple_ref/swift/Property/hasOngoingConversation" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(py)hasOngoingConversation">hasOngoingConversation</a>
+                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(im)ongoingConversation"></a>
+                    <a name="//apple_ref/swift/Method/ongoingConversation()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(im)ongoingConversation">ongoingConversation()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -182,7 +294,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A boolean to track if there is an ongoing conversation.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
@@ -190,178 +302,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">hasOngoingConversation</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(im)presentChatboxWithAnimated:presentingViewController:completion:"></a>
-                    <a name="//apple_ref/swift/Method/presentChatbox(animated:presentingViewController:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(im)presentChatboxWithAnimated:presentingViewController:completion:">presentChatbox(animated:<wbr>presentingViewController:<wbr>completion:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Manually present the chatbox as a modal view controller.</p>
-
-<p>If you use the default chat button, the iAdvize SDK automatically takes care of presenting the chatbox when the
-user taps on it. But if you use a custom chat button, you can use this method to present the chatbox when the
-button is tapped.</p>
-
-<p>By default, the chatbox will be presented by the key window root view controller. If you specify a
-<code>presentingViewController</code>, it will be used to present the chatbox.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">presentChatbox</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
-                           <span class="nv">presentingViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
-                           <span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>animated</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Pass <code>true</code> to animate the transition.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>presentingViewController</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The controller that will perform the presentation.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>completion</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The block to execute after the presentation finishes.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(im)dismissChatboxWithAnimated:completion:"></a>
-                    <a name="//apple_ref/swift/Method/dismissChatbox(animated:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(im)dismissChatboxWithAnimated:completion:">dismissChatbox(animated:<wbr>completion:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Manually dismiss the chatbox.</p>
-
-<p>The visitor can dismiss the chatbox themselves by touching the dedicated button in the navigation bar.</p>
-
-<p>You can use this method to manually dismiss the chatbox.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">dismissChatbox</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>animated</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>Pass <code>true</code> to animate the transition.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>completion</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The block to execute after the chatbox is dismissed.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(im)isChatboxPresented"></a>
-                    <a name="//apple_ref/swift/Method/isChatboxPresented()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@objc(cs)ConversationController(im)isChatboxPresented">isChatboxPresented()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Return <code>true</code> if the chatbox is currently presented.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isChatboxPresented</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">ongoingConversation</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/OngoingConversation.html">OngoingConversation</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -373,11 +314,10 @@ button is tapped.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external">iAdvize</a>. All rights reserved. (Last updated: 2021-07-01)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2022 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2022-12-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

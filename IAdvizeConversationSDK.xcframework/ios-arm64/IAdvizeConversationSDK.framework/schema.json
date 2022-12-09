@@ -799,6 +799,30 @@
             "deprecationReason": null
           },
           {
+            "name": "isDeleted",
+            "description": "Indicates if bot has been deleted",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "deletedAt",
+            "description": "User deletion datetime",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "DateTime",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "skills",
             "description": "Skills of the user.\nThe user's skills can be used to determine which routing group the user will be a member of.\nFor more information regarding how to create and use skills, please see the following documentation: https://help.iadvize.com/hc/en-gb/articles/203444283-Use-the-skills.",
             "args": [],
@@ -1436,6 +1460,11 @@
           {
             "kind": "OBJECT",
             "name": "HungUpAttachment",
+            "ofType": null
+          },
+          {
+            "kind": "OBJECT",
+            "name": "LiveAgentRequestedAttachment",
             "ofType": null
           },
           {
@@ -2246,6 +2275,30 @@
             "deprecationReason": null
           },
           {
+            "name": "isDeleted",
+            "description": "Indicates if expert has been deleted",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "deletedAt",
+            "description": "User deletion datetime",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "DateTime",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "skills",
             "description": "Skills of the user.\nThe user's skills can be used to determine which routing group the user will be a member of.\nFor more information regarding how to create and use skills, please see the following documentation: https://help.iadvize.com/hc/en-gb/articles/203444283-Use-the-skills.",
             "args": [],
@@ -2838,6 +2891,30 @@
             "type": {
               "kind": "ENUM",
               "name": "Locale",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "isDeleted",
+            "description": "Indicates if Ibbu manager has been deleted",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "deletedAt",
+            "description": "User deletion datetime",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "DateTime",
               "ofType": null
             },
             "isDeprecated": false,
@@ -4066,6 +4143,33 @@
                     "ofType": null
                   }
                 }
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "LiveAgentRequestedAttachment",
+        "description": "Request a live agent",
+        "fields": [
+          {
+            "name": "routingRuleId",
+            "description": "Routing rule to transfer the conversation",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "UUID",
+                "ofType": null
               }
             },
             "isDeprecated": false,
@@ -6622,12 +6726,36 @@
             "deprecationReason": null
           },
           {
+            "name": "isDeleted",
+            "description": "Indicates if Professional has been deleted",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "Boolean",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "group",
             "description": "Group this user is a member of.\nFor more information, see https://help.iadvize.com/hc/en-gb/articles/203280696-Use-the-user-groups.",
             "args": [],
             "type": {
               "kind": "OBJECT",
               "name": "UserGroup",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "deletedAt",
+            "description": "User deletion datetime",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "DateTime",
               "ofType": null
             },
             "isDeprecated": false,
@@ -14778,7 +14906,7 @@
           },
           {
             "name": "AFA",
-            "description": "Afghan Afghani (1927-2002) (AFA AFA)",
+            "description": "Afghan Afghani (1927–2002) (AFA AFA)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -14826,7 +14954,7 @@
           },
           {
             "name": "AUD",
-            "description": "Australian Dollar (AUD AUD)",
+            "description": "Australian Dollar (AUD A$)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -14844,13 +14972,13 @@
           },
           {
             "name": "AZM",
-            "description": "Azerbaijani Manat (1993-2006) (AZM AZM)",
+            "description": "Azerbaijani Manat (1993–2006) (AZM AZM)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "AZN",
-            "description": "Azerbaijan Manat (AZN AZN)",
+            "description": "Azerbaijani Manat (AZN AZN)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -14928,7 +15056,7 @@
           },
           {
             "name": "BRL",
-            "description": "Brazilian Real (BRL BRL)",
+            "description": "Brazilian Real (BRL R$)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -14952,7 +15080,7 @@
           },
           {
             "name": "BYB",
-            "description": "Belarusian Ruble (1994-1999) (BYB BYB)",
+            "description": "Belarusian Ruble (1994–1999) (BYB BYB)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -14964,7 +15092,7 @@
           },
           {
             "name": "BYR",
-            "description": "Belarusian Ruble (2000-2016) (BYR BYR)",
+            "description": "Belarusian Ruble (2000–2016) (BYR BYR)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -14976,7 +15104,7 @@
           },
           {
             "name": "CAD",
-            "description": "Canadian Dollar (CAD CAD)",
+            "description": "Canadian Dollar (CAD CA$)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -14988,7 +15116,7 @@
           },
           {
             "name": "CHE",
-            "description": "CHE (CHE CHE)",
+            "description": "WIR Euro (CHE CHE)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15000,7 +15128,7 @@
           },
           {
             "name": "CHW",
-            "description": "CHW (CHW CHW)",
+            "description": "WIR Franc (CHW CHW)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15018,7 +15146,7 @@
           },
           {
             "name": "CNY",
-            "description": "Chinese Yuan (CNY CNY)",
+            "description": "Chinese Yuan (CNY CN¥)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15030,7 +15158,7 @@
           },
           {
             "name": "COU",
-            "description": "COU (COU COU)",
+            "description": "Colombian Real Value Unit (COU COU)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15042,7 +15170,7 @@
           },
           {
             "name": "CSD",
-            "description": "Serbian Dinar (2002-2006) (CSD CSD)",
+            "description": "Serbian Dinar (2002–2006) (CSD CSD)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15072,7 +15200,7 @@
           },
           {
             "name": "CZK",
-            "description": "Czech Republic Koruna (CZK CZK)",
+            "description": "Czech Koruna (CZK CZK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15138,7 +15266,7 @@
           },
           {
             "name": "EUR",
-            "description": "Euro (EUR EUR)",
+            "description": "Euro (EUR €)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15168,7 +15296,7 @@
           },
           {
             "name": "GBP",
-            "description": "British Pound Sterling (GBP GBP)",
+            "description": "British Pound (GBP £)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15180,7 +15308,7 @@
           },
           {
             "name": "GHC",
-            "description": "Ghanaian Cedi (1979-2007) (GHC GHC)",
+            "description": "Ghanaian Cedi (1979–2007) (GHC GHC)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15234,7 +15362,7 @@
           },
           {
             "name": "HKD",
-            "description": "Hong Kong Dollar (HKD HKD)",
+            "description": "Hong Kong Dollar (HKD HK$)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15246,7 +15374,7 @@
           },
           {
             "name": "HRK",
-            "description": "Kuna (HRK HRK)",
+            "description": "Croatian Kuna (HRK HRK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15276,13 +15404,13 @@
           },
           {
             "name": "ILS",
-            "description": "Israeli New Sheqel (ILS ILS)",
+            "description": "Israeli New Shekel (ILS ₪)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "INR",
-            "description": "Indian Rupee (INR INR)",
+            "description": "Indian Rupee (INR ₹)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15324,7 +15452,7 @@
           },
           {
             "name": "JPY",
-            "description": "Japanese Yen (JPY JPY)",
+            "description": "Japanese Yen (JPY ¥)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15360,7 +15488,7 @@
           },
           {
             "name": "KRW",
-            "description": "South Korean Won (KRW KRW)",
+            "description": "South Korean Won (KRW ₩)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15384,7 +15512,7 @@
           },
           {
             "name": "LAK",
-            "description": "Lao Kip (LAK LAK)",
+            "description": "Laotian Kip (LAK LAK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15468,7 +15596,7 @@
           },
           {
             "name": "MMK",
-            "description": "Myanma Kyat (MMK MMK)",
+            "description": "Myanmar Kyat (MMK MMK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15486,7 +15614,7 @@
           },
           {
             "name": "MRO",
-            "description": "Mauritanian Ouguiya (MRO MRO)",
+            "description": "Mauritanian Ouguiya (1973–2017) (MRO MRO)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15516,13 +15644,13 @@
           },
           {
             "name": "MWK",
-            "description": "Malawian Malawi Kwacha (MWK MWK)",
+            "description": "Malawian Kwacha (MWK MWK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "MXN",
-            "description": "Mexican Peso (MXN MXN)",
+            "description": "Mexican Peso (MXN MX$)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15540,7 +15668,7 @@
           },
           {
             "name": "MZM",
-            "description": "Mozambican Metical (1980-2006) (MZM MZM)",
+            "description": "Mozambican Metical (1980–2006) (MZM MZM)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15588,7 +15716,7 @@
           },
           {
             "name": "NZD",
-            "description": "New Zealand Dollar (NZD NZD)",
+            "description": "New Zealand Dollar (NZD NZ$)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15618,7 +15746,7 @@
           },
           {
             "name": "PHP",
-            "description": "Philippine Peso (PHP PHP)",
+            "description": "Philippine Piso (PHP PHP)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15654,7 +15782,7 @@
           },
           {
             "name": "ROL",
-            "description": "Romanian Leu (1952-2006) (ROL ROL)",
+            "description": "Romanian Leu (1952–2006) (ROL ROL)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15678,7 +15806,7 @@
           },
           {
             "name": "RUR",
-            "description": "Russian Ruble (1991-1998) (RUR RUR)",
+            "description": "Russian Ruble (1991–1998) (RUR RUR)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15708,7 +15836,7 @@
           },
           {
             "name": "SDD",
-            "description": "Sudanese Dinar (1992-2007) (SDD SDD)",
+            "description": "Sudanese Dinar (1992–2007) (SDD SDD)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15732,7 +15860,7 @@
           },
           {
             "name": "SHP",
-            "description": "Saint Helena Pound (SHP SHP)",
+            "description": "St. Helena Pound (SHP SHP)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15780,13 +15908,13 @@
           },
           {
             "name": "STD",
-            "description": "São Tomé and Príncipe Dobra (STD STD)",
+            "description": "São Tomé & Príncipe Dobra (1977–2017) (STD STD)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "STN",
-            "description": "São Tomé and Príncipe Dobra (STN STN)",
+            "description": "São Tomé & Príncipe Dobra (STN STN)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15822,7 +15950,7 @@
           },
           {
             "name": "TMM",
-            "description": "Turkmenistani Manat (1993-2009) (TMM TMM)",
+            "description": "Turkmenistani Manat (1993–2009) (TMM TMM)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15852,7 +15980,7 @@
           },
           {
             "name": "TRL",
-            "description": "Turkish Lira (1922-2005) (TRL TRL)",
+            "description": "Turkish Lira (1922–2005) (TRL TRL)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15864,13 +15992,13 @@
           },
           {
             "name": "TTD",
-            "description": "Trinidad and Tobago Dollar (TTD TTD)",
+            "description": "Trinidad & Tobago Dollar (TTD TTD)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "TWD",
-            "description": "New Taiwan Dollar (TWD TWD)",
+            "description": "New Taiwan Dollar (TWD NT$)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15912,7 +16040,7 @@
           },
           {
             "name": "UYI",
-            "description": "UYI (UYI UYI)",
+            "description": "Uruguayan Peso (Indexed Units) (UYI UYI)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15924,13 +16052,19 @@
           },
           {
             "name": "UZS",
-            "description": "Uzbekistan Som (UZS UZS)",
+            "description": "Uzbekistani Som (UZS UZS)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "VEB",
-            "description": "Venezuelan Bolívar (1871-2008) (VEB VEB)",
+            "description": "Venezuelan Bolívar (1871–2008) (VEB VEB)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "VED",
+            "description": "Venezuelan Bolívar Soberano (VED VED)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15948,7 +16082,7 @@
           },
           {
             "name": "VND",
-            "description": "Vietnamese Dong (VND VND)",
+            "description": "Vietnamese Dong (VND ₫)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -15966,7 +16100,7 @@
           },
           {
             "name": "XAF",
-            "description": "CFA Franc BEAC (XAF XAF)",
+            "description": "Central African CFA Franc (XAF FCFA)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -16008,7 +16142,7 @@
           },
           {
             "name": "XCD",
-            "description": "East Caribbean Dollar (XCD XCD)",
+            "description": "East Caribbean Dollar (XCD EC$)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -16032,7 +16166,7 @@
           },
           {
             "name": "XOF",
-            "description": "CFA Franc BCEAO (XOF XOF)",
+            "description": "West African CFA Franc (XOF CFA)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -16044,7 +16178,7 @@
           },
           {
             "name": "XPF",
-            "description": "CFP Franc (XPF XPF)",
+            "description": "CFP Franc (XPF CFPF)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -16086,7 +16220,7 @@
           },
           {
             "name": "YUM",
-            "description": "Yugoslavian New Dinar (1994-2002) (YUM YUM)",
+            "description": "Yugoslavian New Dinar (1994–2002) (YUM YUM)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -16098,19 +16232,19 @@
           },
           {
             "name": "ZMK",
-            "description": "Zambian Kwacha (ZMK ZMK)",
+            "description": "Zambian Kwacha (1968–2012) (ZMK ZMK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "ZMW",
-            "description": "ZMW (ZMW ZMW)",
+            "description": "Zambian Kwacha (ZMW ZMW)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "ZWD",
-            "description": "Zimbabwean Dollar (1980-2008) (ZWD ZWD)",
+            "description": "Zimbabwean Dollar (1980–2008) (ZWD ZWD)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17621,8 +17755,68 @@
         "interfaces": null,
         "enumValues": [
           {
+            "name": "af",
+            "description": "Afrikaans (af)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "af_NA",
+            "description": "Afrikaans (Namibia) (af-NA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "af_ZA",
+            "description": "Afrikaans (South Africa) (af-ZA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "agq",
+            "description": "Aghem (agq)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "agq_CM",
+            "description": "Aghem (Cameroon) (agq-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ak",
+            "description": "Akan (ak)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ak_GH",
+            "description": "Akan (Ghana) (ak-GH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "am",
+            "description": "Amharic (am)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "am_ET",
+            "description": "Amharic (Ethiopia) (am-ET)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ar",
             "description": "Arabic (ar)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ar_001",
+            "description": "Arabic (World) (ar-001)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17639,6 +17833,12 @@
             "deprecationReason": null
           },
           {
+            "name": "ar_DJ",
+            "description": "Arabic (Djibouti) (ar-DJ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ar_DZ",
             "description": "Arabic (Algeria) (ar-DZ)",
             "isDeprecated": false,
@@ -17651,6 +17851,24 @@
             "deprecationReason": null
           },
           {
+            "name": "ar_EH",
+            "description": "Arabic (Western Sahara) (ar-EH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ar_ER",
+            "description": "Arabic (Eritrea) (ar-ER)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ar_IL",
+            "description": "Arabic (Israel) (ar-IL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ar_IQ",
             "description": "Arabic (Iraq) (ar-IQ)",
             "isDeprecated": false,
@@ -17659,6 +17877,12 @@
           {
             "name": "ar_JO",
             "description": "Arabic (Jordan) (ar-JO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ar_KM",
+            "description": "Arabic (Comoros) (ar-KM)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17687,8 +17911,20 @@
             "deprecationReason": null
           },
           {
+            "name": "ar_MR",
+            "description": "Arabic (Mauritania) (ar-MR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ar_OM",
             "description": "Arabic (Oman) (ar-OM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ar_PS",
+            "description": "Arabic (Palestinian Territories) (ar-PS)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17711,8 +17947,26 @@
             "deprecationReason": null
           },
           {
+            "name": "ar_SO",
+            "description": "Arabic (Somalia) (ar-SO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ar_SS",
+            "description": "Arabic (South Sudan) (ar-SS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ar_SY",
             "description": "Arabic (Syria) (ar-SY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ar_TD",
+            "description": "Arabic (Chad) (ar-TD)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17729,6 +17983,84 @@
             "deprecationReason": null
           },
           {
+            "name": "as",
+            "description": "Assamese (as)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "as_IN",
+            "description": "Assamese (India) (as-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "asa",
+            "description": "Asu (asa)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "asa_TZ",
+            "description": "Asu (Tanzania) (asa-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ast",
+            "description": "Asturian (ast)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ast_ES",
+            "description": "Asturian (Spain) (ast-ES)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "az",
+            "description": "Azerbaijani (az)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "az_Cyrl",
+            "description": "Azerbaijani (Cyrillic) (az-Cyrl)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "az_Cyrl_AZ",
+            "description": "Azerbaijani (Cyrillic, Azerbaijan) (az-Cyrl-AZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "az_Latn",
+            "description": "Azerbaijani (Latin) (az-Latn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "az_Latn_AZ",
+            "description": "Azerbaijani (Latin, Azerbaijan) (az-Latn-AZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bas",
+            "description": "Basaa (bas)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bas_CM",
+            "description": "Basaa (Cameroon) (bas-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "be",
             "description": "Belarusian (be)",
             "isDeprecated": false,
@@ -17737,6 +18069,30 @@
           {
             "name": "be_BY",
             "description": "Belarusian (Belarus) (be-BY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bem",
+            "description": "Bemba (bem)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bem_ZM",
+            "description": "Bemba (Zambia) (bem-ZM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bez",
+            "description": "Bena (bez)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bez_TZ",
+            "description": "Bena (Tanzania) (bez-TZ)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17753,14 +18109,212 @@
             "deprecationReason": null
           },
           {
+            "name": "bm",
+            "description": "Bambara (bm)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bm_ML",
+            "description": "Bambara (Mali) (bm-ML)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bn",
+            "description": "Bangla (bn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bn_BD",
+            "description": "Bangla (Bangladesh) (bn-BD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bn_IN",
+            "description": "Bangla (India) (bn-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bo",
+            "description": "Tibetan (bo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bo_CN",
+            "description": "Tibetan (China) (bo-CN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bo_IN",
+            "description": "Tibetan (India) (bo-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "br",
+            "description": "Breton (br)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "br_FR",
+            "description": "Breton (France) (br-FR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "brx",
+            "description": "Bodo (brx)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "brx_IN",
+            "description": "Bodo (India) (brx-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bs",
+            "description": "Bosnian (bs)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bs_Cyrl",
+            "description": "Bosnian (Cyrillic) (bs-Cyrl)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bs_Cyrl_BA",
+            "description": "Bosnian (Cyrillic, Bosnia & Herzegovina) (bs-Cyrl-BA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bs_Latn",
+            "description": "Bosnian (Latin) (bs-Latn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "bs_Latn_BA",
+            "description": "Bosnian (Latin, Bosnia & Herzegovina) (bs-Latn-BA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ca",
             "description": "Catalan (ca)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
+            "name": "ca_AD",
+            "description": "Catalan (Andorra) (ca-AD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ca_ES",
             "description": "Catalan (Spain) (ca-ES)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ca_ES_VALENCIA",
+            "description": "Catalan (Spain, Valencian) (ca-ES-VALENCIA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ca_FR",
+            "description": "Catalan (France) (ca-FR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ca_IT",
+            "description": "Catalan (Italy) (ca-IT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ccp",
+            "description": "Chakma (ccp)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ccp_BD",
+            "description": "Chakma (Bangladesh) (ccp-BD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ccp_IN",
+            "description": "Chakma (India) (ccp-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ce",
+            "description": "Chechen (ce)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ce_RU",
+            "description": "Chechen (Russia) (ce-RU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "cgg",
+            "description": "Chiga (cgg)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "cgg_UG",
+            "description": "Chiga (Uganda) (cgg-UG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "chr",
+            "description": "Cherokee (chr)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "chr_US",
+            "description": "Cherokee (United States) (chr-US)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ckb",
+            "description": "Central Kurdish (ckb)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ckb_IQ",
+            "description": "Central Kurdish (Iraq) (ckb-IQ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ckb_IR",
+            "description": "Central Kurdish (Iran) (ckb-IR)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17777,6 +18331,30 @@
             "deprecationReason": null
           },
           {
+            "name": "cu",
+            "description": "Church Slavic (cu)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "cu_RU",
+            "description": "Church Slavic (Russia) (cu-RU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "cy",
+            "description": "Welsh (cy)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "cy_GB",
+            "description": "Welsh (United Kingdom) (cy-GB)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "da",
             "description": "Danish (da)",
             "isDeprecated": false,
@@ -17785,6 +18363,24 @@
           {
             "name": "da_DK",
             "description": "Danish (Denmark) (da-DK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "da_GL",
+            "description": "Danish (Greenland) (da-GL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dav",
+            "description": "Taita (dav)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dav_KE",
+            "description": "Taita (Kenya) (dav-KE)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17801,6 +18397,12 @@
             "deprecationReason": null
           },
           {
+            "name": "de_BE",
+            "description": "German (Belgium) (de-BE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "de_CH",
             "description": "German (Switzerland) (de-CH)",
             "isDeprecated": false,
@@ -17813,14 +18415,110 @@
             "deprecationReason": null
           },
           {
-            "name": "de_GR",
-            "description": "German (Greece) (de-GR)",
+            "name": "de_IT",
+            "description": "German (Italy) (de-IT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "de_LI",
+            "description": "German (Liechtenstein) (de-LI)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "de_LU",
             "description": "German (Luxembourg) (de-LU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dje",
+            "description": "Zarma (dje)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dje_NE",
+            "description": "Zarma (Niger) (dje-NE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dsb",
+            "description": "Lower Sorbian (dsb)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dsb_DE",
+            "description": "Lower Sorbian (Germany) (dsb-DE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dua",
+            "description": "Duala (dua)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dua_CM",
+            "description": "Duala (Cameroon) (dua-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dyo",
+            "description": "Jola-Fonyi (dyo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dyo_SN",
+            "description": "Jola-Fonyi (Senegal) (dyo-SN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dz",
+            "description": "Dzongkha (dz)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "dz_BT",
+            "description": "Dzongkha (Bhutan) (dz-BT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ebu",
+            "description": "Embu (ebu)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ebu_KE",
+            "description": "Embu (Kenya) (ebu-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ee",
+            "description": "Ewe (ee)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ee_GH",
+            "description": "Ewe (Ghana) (ee-GH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ee_TG",
+            "description": "Ewe (Togo) (ee-TG)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17849,8 +18547,86 @@
             "deprecationReason": null
           },
           {
+            "name": "en_001",
+            "description": "English (World) (en-001)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_150",
+            "description": "English (Europe) (en-150)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_AG",
+            "description": "English (Antigua & Barbuda) (en-AG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_AI",
+            "description": "English (Anguilla) (en-AI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_AS",
+            "description": "English (American Samoa) (en-AS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_AT",
+            "description": "English (Austria) (en-AT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "en_AU",
             "description": "English (Australia) (en-AU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_BB",
+            "description": "English (Barbados) (en-BB)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_BE",
+            "description": "English (Belgium) (en-BE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_BI",
+            "description": "English (Burundi) (en-BI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_BM",
+            "description": "English (Bermuda) (en-BM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_BS",
+            "description": "English (Bahamas) (en-BS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_BW",
+            "description": "English (Botswana) (en-BW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_BZ",
+            "description": "English (Belize) (en-BZ)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17861,8 +18637,146 @@
             "deprecationReason": null
           },
           {
+            "name": "en_CC",
+            "description": "English (Cocos (Keeling) Islands) (en-CC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_CH",
+            "description": "English (Switzerland) (en-CH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_CK",
+            "description": "English (Cook Islands) (en-CK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_CM",
+            "description": "English (Cameroon) (en-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_CX",
+            "description": "English (Christmas Island) (en-CX)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_CY",
+            "description": "English (Cyprus) (en-CY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_DE",
+            "description": "English (Germany) (en-DE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_DG",
+            "description": "English (Diego Garcia) (en-DG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_DK",
+            "description": "English (Denmark) (en-DK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_DM",
+            "description": "English (Dominica) (en-DM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_ER",
+            "description": "English (Eritrea) (en-ER)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_FI",
+            "description": "English (Finland) (en-FI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_FJ",
+            "description": "English (Fiji) (en-FJ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_FK",
+            "description": "English (Falkland Islands) (en-FK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_FM",
+            "description": "English (Micronesia) (en-FM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "en_GB",
             "description": "English (United Kingdom) (en-GB)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_GD",
+            "description": "English (Grenada) (en-GD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_GG",
+            "description": "English (Guernsey) (en-GG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_GH",
+            "description": "English (Ghana) (en-GH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_GI",
+            "description": "English (Gibraltar) (en-GI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_GM",
+            "description": "English (Gambia) (en-GM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_GU",
+            "description": "English (Guam) (en-GU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_GY",
+            "description": "English (Guyana) (en-GY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_HK",
+            "description": "English (Hong Kong SAR China) (en-HK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17873,8 +18787,110 @@
             "deprecationReason": null
           },
           {
+            "name": "en_IL",
+            "description": "English (Israel) (en-IL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_IM",
+            "description": "English (Isle of Man) (en-IM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "en_IN",
             "description": "English (India) (en-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_IO",
+            "description": "English (British Indian Ocean Territory) (en-IO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_JE",
+            "description": "English (Jersey) (en-JE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_JM",
+            "description": "English (Jamaica) (en-JM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_KE",
+            "description": "English (Kenya) (en-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_KI",
+            "description": "English (Kiribati) (en-KI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_KN",
+            "description": "English (St. Kitts & Nevis) (en-KN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_KY",
+            "description": "English (Cayman Islands) (en-KY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_LC",
+            "description": "English (St. Lucia) (en-LC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_LR",
+            "description": "English (Liberia) (en-LR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_LS",
+            "description": "English (Lesotho) (en-LS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_MG",
+            "description": "English (Madagascar) (en-MG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_MH",
+            "description": "English (Marshall Islands) (en-MH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_MO",
+            "description": "English (Macau SAR China) (en-MO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_MP",
+            "description": "English (Northern Mariana Islands) (en-MP)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_MS",
+            "description": "English (Montserrat) (en-MS)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17885,8 +18901,68 @@
             "deprecationReason": null
           },
           {
+            "name": "en_MU",
+            "description": "English (Mauritius) (en-MU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_MW",
+            "description": "English (Malawi) (en-MW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_MY",
+            "description": "English (Malaysia) (en-MY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_NA",
+            "description": "English (Namibia) (en-NA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_NF",
+            "description": "English (Norfolk Island) (en-NF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_NG",
+            "description": "English (Nigeria) (en-NG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_NL",
+            "description": "English (Netherlands) (en-NL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_NR",
+            "description": "English (Nauru) (en-NR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_NU",
+            "description": "English (Niue) (en-NU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "en_NZ",
             "description": "English (New Zealand) (en-NZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_PG",
+            "description": "English (Papua New Guinea) (en-PG)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17897,8 +18973,146 @@
             "deprecationReason": null
           },
           {
+            "name": "en_PK",
+            "description": "English (Pakistan) (en-PK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_PN",
+            "description": "English (Pitcairn Islands) (en-PN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_PR",
+            "description": "English (Puerto Rico) (en-PR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_PW",
+            "description": "English (Palau) (en-PW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_RW",
+            "description": "English (Rwanda) (en-RW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SB",
+            "description": "English (Solomon Islands) (en-SB)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SC",
+            "description": "English (Seychelles) (en-SC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SD",
+            "description": "English (Sudan) (en-SD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SE",
+            "description": "English (Sweden) (en-SE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "en_SG",
             "description": "English (Singapore) (en-SG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SH",
+            "description": "English (St. Helena) (en-SH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SI",
+            "description": "English (Slovenia) (en-SI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SL",
+            "description": "English (Sierra Leone) (en-SL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SS",
+            "description": "English (South Sudan) (en-SS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SX",
+            "description": "English (Sint Maarten) (en-SX)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_SZ",
+            "description": "English (Swaziland) (en-SZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_TC",
+            "description": "English (Turks & Caicos Islands) (en-TC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_TK",
+            "description": "English (Tokelau) (en-TK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_TO",
+            "description": "English (Tonga) (en-TO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_TT",
+            "description": "English (Trinidad & Tobago) (en-TT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_TV",
+            "description": "English (Tuvalu) (en-TV)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_TZ",
+            "description": "English (Tanzania) (en-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_UG",
+            "description": "English (Uganda) (en-UG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_UM",
+            "description": "English (U.S. Outlying Islands) (en-UM)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17909,14 +19123,80 @@
             "deprecationReason": null
           },
           {
+            "name": "en_US_POSIX",
+            "description": "English (United States, Computer) (en-US-POSIX)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_VC",
+            "description": "English (St. Vincent & Grenadines) (en-VC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_VG",
+            "description": "English (British Virgin Islands) (en-VG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_VI",
+            "description": "English (U.S. Virgin Islands) (en-VI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_VU",
+            "description": "English (Vanuatu) (en-VU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_WS",
+            "description": "English (Samoa) (en-WS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "en_ZA",
             "description": "English (South Africa) (en-ZA)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
+            "name": "en_ZM",
+            "description": "English (Zambia) (en-ZM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "en_ZW",
+            "description": "English (Zimbabwe) (en-ZW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "eo",
+            "description": "Esperanto (eo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "eo_001",
+            "description": "Esperanto (World) (eo-001)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "es",
             "description": "Spanish (es)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "es_419",
+            "description": "Spanish (Latin America) (es-419)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17929,6 +19209,18 @@
           {
             "name": "es_BO",
             "description": "Spanish (Bolivia) (es-BO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "es_BR",
+            "description": "Spanish (Brazil) (es-BR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "es_BZ",
+            "description": "Spanish (Belize) (es-BZ)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -17963,6 +19255,12 @@
             "deprecationReason": null
           },
           {
+            "name": "es_EA",
+            "description": "Spanish (Ceuta & Melilla) (es-EA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "es_EC",
             "description": "Spanish (Ecuador) (es-EC)",
             "isDeprecated": false,
@@ -17975,6 +19273,12 @@
             "deprecationReason": null
           },
           {
+            "name": "es_GQ",
+            "description": "Spanish (Equatorial Guinea) (es-GQ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "es_GT",
             "description": "Spanish (Guatemala) (es-GT)",
             "isDeprecated": false,
@@ -17983,6 +19287,12 @@
           {
             "name": "es_HN",
             "description": "Spanish (Honduras) (es-HN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "es_IC",
+            "description": "Spanish (Canary Islands) (es-IC)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18007,6 +19317,12 @@
           {
             "name": "es_PE",
             "description": "Spanish (Peru) (es-PE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "es_PH",
+            "description": "Spanish (Philippines) (es-PH)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18059,6 +19375,78 @@
             "deprecationReason": null
           },
           {
+            "name": "eu",
+            "description": "Basque (eu)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "eu_ES",
+            "description": "Basque (Spain) (eu-ES)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ewo",
+            "description": "Ewondo (ewo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ewo_CM",
+            "description": "Ewondo (Cameroon) (ewo-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fa",
+            "description": "Persian (fa)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fa_AF",
+            "description": "Persian (Afghanistan) (fa-AF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fa_IR",
+            "description": "Persian (Iran) (fa-IR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ff",
+            "description": "Fulah (ff)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ff_CM",
+            "description": "Fulah (Cameroon) (ff-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ff_GN",
+            "description": "Fulah (Guinea) (ff-GN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ff_MR",
+            "description": "Fulah (Mauritania) (ff-MR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ff_SN",
+            "description": "Fulah (Senegal) (ff-SN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "fi",
             "description": "Finnish (fi)",
             "isDeprecated": false,
@@ -18067,6 +19455,36 @@
           {
             "name": "fi_FI",
             "description": "Finnish (Finland) (fi-FI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fil",
+            "description": "Filipino (fil)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fil_PH",
+            "description": "Filipino (Philippines) (fil-PH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fo",
+            "description": "Faroese (fo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fo_DK",
+            "description": "Faroese (Denmark) (fo-DK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fo_FO",
+            "description": "Faroese (Faroe Islands) (fo-FO)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18083,8 +19501,50 @@
             "deprecationReason": null
           },
           {
+            "name": "fr_BF",
+            "description": "French (Burkina Faso) (fr-BF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_BI",
+            "description": "French (Burundi) (fr-BI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_BJ",
+            "description": "French (Benin) (fr-BJ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_BL",
+            "description": "French (St. Barthélemy) (fr-BL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "fr_CA",
             "description": "French (Canada) (fr-CA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_CD",
+            "description": "French (Congo - Kinshasa) (fr-CD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_CF",
+            "description": "French (Central African Republic) (fr-CF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_CG",
+            "description": "French (Congo - Brazzaville) (fr-CG)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18095,14 +19555,242 @@
             "deprecationReason": null
           },
           {
+            "name": "fr_CI",
+            "description": "French (Côte d’Ivoire) (fr-CI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_CM",
+            "description": "French (Cameroon) (fr-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_DJ",
+            "description": "French (Djibouti) (fr-DJ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_DZ",
+            "description": "French (Algeria) (fr-DZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "fr_FR",
             "description": "French (France) (fr-FR)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
+            "name": "fr_GA",
+            "description": "French (Gabon) (fr-GA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_GF",
+            "description": "French (French Guiana) (fr-GF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_GN",
+            "description": "French (Guinea) (fr-GN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_GP",
+            "description": "French (Guadeloupe) (fr-GP)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_GQ",
+            "description": "French (Equatorial Guinea) (fr-GQ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_HT",
+            "description": "French (Haiti) (fr-HT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_KM",
+            "description": "French (Comoros) (fr-KM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "fr_LU",
             "description": "French (Luxembourg) (fr-LU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_MA",
+            "description": "French (Morocco) (fr-MA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_MC",
+            "description": "French (Monaco) (fr-MC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_MF",
+            "description": "French (St. Martin) (fr-MF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_MG",
+            "description": "French (Madagascar) (fr-MG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_ML",
+            "description": "French (Mali) (fr-ML)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_MQ",
+            "description": "French (Martinique) (fr-MQ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_MR",
+            "description": "French (Mauritania) (fr-MR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_MU",
+            "description": "French (Mauritius) (fr-MU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_NC",
+            "description": "French (New Caledonia) (fr-NC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_NE",
+            "description": "French (Niger) (fr-NE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_PF",
+            "description": "French (French Polynesia) (fr-PF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_PM",
+            "description": "French (St. Pierre & Miquelon) (fr-PM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_RE",
+            "description": "French (Réunion) (fr-RE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_RW",
+            "description": "French (Rwanda) (fr-RW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_SC",
+            "description": "French (Seychelles) (fr-SC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_SN",
+            "description": "French (Senegal) (fr-SN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_SY",
+            "description": "French (Syria) (fr-SY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_TD",
+            "description": "French (Chad) (fr-TD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_TG",
+            "description": "French (Togo) (fr-TG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_TN",
+            "description": "French (Tunisia) (fr-TN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_VU",
+            "description": "French (Vanuatu) (fr-VU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_WF",
+            "description": "French (Wallis & Futuna) (fr-WF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fr_YT",
+            "description": "French (Mayotte) (fr-YT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fur",
+            "description": "Friulian (fur)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fur_IT",
+            "description": "Friulian (Italy) (fur-IT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fy",
+            "description": "Western Frisian (fy)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "fy_NL",
+            "description": "Western Frisian (Netherlands) (fy-NL)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18115,6 +19803,126 @@
           {
             "name": "ga_IE",
             "description": "Irish (Ireland) (ga-IE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gd",
+            "description": "Scottish Gaelic (gd)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gd_GB",
+            "description": "Scottish Gaelic (United Kingdom) (gd-GB)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gl",
+            "description": "Galician (gl)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gl_ES",
+            "description": "Galician (Spain) (gl-ES)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gsw",
+            "description": "Swiss German (gsw)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gsw_CH",
+            "description": "Swiss German (Switzerland) (gsw-CH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gsw_FR",
+            "description": "Swiss German (France) (gsw-FR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gsw_LI",
+            "description": "Swiss German (Liechtenstein) (gsw-LI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gu",
+            "description": "Gujarati (gu)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gu_IN",
+            "description": "Gujarati (India) (gu-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "guz",
+            "description": "Gusii (guz)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "guz_KE",
+            "description": "Gusii (Kenya) (guz-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gv",
+            "description": "Manx (gv)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "gv_IM",
+            "description": "Manx (Isle of Man) (gv-IM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ha",
+            "description": "Hausa (ha)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ha_GH",
+            "description": "Hausa (Ghana) (ha-GH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ha_NE",
+            "description": "Hausa (Niger) (ha-NE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ha_NG",
+            "description": "Hausa (Nigeria) (ha-NG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "haw",
+            "description": "Hawaiian (haw)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "haw_US",
+            "description": "Hawaiian (United States) (haw-US)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18149,8 +19957,26 @@
             "deprecationReason": null
           },
           {
+            "name": "hr_BA",
+            "description": "Croatian (Bosnia & Herzegovina) (hr-BA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "hr_HR",
             "description": "Croatian (Croatia) (hr-HR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "hsb",
+            "description": "Upper Sorbian (hsb)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "hsb_DE",
+            "description": "Upper Sorbian (Germany) (hsb-DE)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18167,6 +19993,18 @@
             "deprecationReason": null
           },
           {
+            "name": "hy",
+            "description": "Armenian (hy)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "hy_AM",
+            "description": "Armenian (Armenia) (hy-AM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "id",
             "description": "Indonesian (id)",
             "isDeprecated": false,
@@ -18175,6 +20013,30 @@
           {
             "name": "id_ID",
             "description": "Indonesian (Indonesia) (id-ID)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ig",
+            "description": "Igbo (ig)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ig_NG",
+            "description": "Igbo (Nigeria) (ig-NG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ii",
+            "description": "Sichuan Yi (ii)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ii_CN",
+            "description": "Sichuan Yi (China) (ii-CN)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18209,6 +20071,18 @@
             "deprecationReason": null
           },
           {
+            "name": "it_SM",
+            "description": "Italian (San Marino) (it-SM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "it_VA",
+            "description": "Italian (Vatican City) (it-VA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ja",
             "description": "Japanese (ja)",
             "isDeprecated": false,
@@ -18222,7 +20096,187 @@
           },
           {
             "name": "ja_JP_u_ca_japanese_x_lvariant_JP",
-            "description": "Japanese (Japan,JP) (ja-JP-u-ca-japanese-x-lvariant-JP)",
+            "description": "Japanese (Japan, JP, Japanese Calendar) (ja-JP-u-ca-japanese-x-lvariant-JP)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "jgo",
+            "description": "Ngomba (jgo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "jgo_CM",
+            "description": "Ngomba (Cameroon) (jgo-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "jmc",
+            "description": "Machame (jmc)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "jmc_TZ",
+            "description": "Machame (Tanzania) (jmc-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ka",
+            "description": "Georgian (ka)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ka_GE",
+            "description": "Georgian (Georgia) (ka-GE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kab",
+            "description": "Kabyle (kab)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kab_DZ",
+            "description": "Kabyle (Algeria) (kab-DZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kam",
+            "description": "Kamba (kam)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kam_KE",
+            "description": "Kamba (Kenya) (kam-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kde",
+            "description": "Makonde (kde)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kde_TZ",
+            "description": "Makonde (Tanzania) (kde-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kea",
+            "description": "Kabuverdianu (kea)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kea_CV",
+            "description": "Kabuverdianu (Cape Verde) (kea-CV)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "khq",
+            "description": "Koyra Chiini (khq)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "khq_ML",
+            "description": "Koyra Chiini (Mali) (khq-ML)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ki",
+            "description": "Kikuyu (ki)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ki_KE",
+            "description": "Kikuyu (Kenya) (ki-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kk",
+            "description": "Kazakh (kk)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kk_KZ",
+            "description": "Kazakh (Kazakhstan) (kk-KZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kkj",
+            "description": "Kako (kkj)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kkj_CM",
+            "description": "Kako (Cameroon) (kkj-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kl",
+            "description": "Kalaallisut (kl)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kl_GL",
+            "description": "Kalaallisut (Greenland) (kl-GL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kln",
+            "description": "Kalenjin (kln)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kln_KE",
+            "description": "Kalenjin (Kenya) (kln-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "km",
+            "description": "Khmer (km)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "km_KH",
+            "description": "Khmer (Cambodia) (km-KH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kn",
+            "description": "Kannada (kn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kn_IN",
+            "description": "Kannada (India) (kn-IN)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18233,8 +20287,206 @@
             "deprecationReason": null
           },
           {
+            "name": "ko_KP",
+            "description": "Korean (North Korea) (ko-KP)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ko_KR",
             "description": "Korean (South Korea) (ko-KR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kok",
+            "description": "Konkani (kok)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kok_IN",
+            "description": "Konkani (India) (kok-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ks",
+            "description": "Kashmiri (ks)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ks_IN",
+            "description": "Kashmiri (India) (ks-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ksb",
+            "description": "Shambala (ksb)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ksb_TZ",
+            "description": "Shambala (Tanzania) (ksb-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ksf",
+            "description": "Bafia (ksf)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ksf_CM",
+            "description": "Bafia (Cameroon) (ksf-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ksh",
+            "description": "Colognian (ksh)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ksh_DE",
+            "description": "Colognian (Germany) (ksh-DE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kw",
+            "description": "Cornish (kw)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "kw_GB",
+            "description": "Cornish (United Kingdom) (kw-GB)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ky",
+            "description": "Kyrgyz (ky)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ky_KG",
+            "description": "Kyrgyz (Kyrgyzstan) (ky-KG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lag",
+            "description": "Langi (lag)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lag_TZ",
+            "description": "Langi (Tanzania) (lag-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lb",
+            "description": "Luxembourgish (lb)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lb_LU",
+            "description": "Luxembourgish (Luxembourg) (lb-LU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lg",
+            "description": "Ganda (lg)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lg_UG",
+            "description": "Ganda (Uganda) (lg-UG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lkt",
+            "description": "Lakota (lkt)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lkt_US",
+            "description": "Lakota (United States) (lkt-US)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ln",
+            "description": "Lingala (ln)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ln_AO",
+            "description": "Lingala (Angola) (ln-AO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ln_CD",
+            "description": "Lingala (Congo - Kinshasa) (ln-CD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ln_CF",
+            "description": "Lingala (Central African Republic) (ln-CF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ln_CG",
+            "description": "Lingala (Congo - Brazzaville) (ln-CG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lo",
+            "description": "Lao (lo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lo_LA",
+            "description": "Lao (Laos) (lo-LA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lrc",
+            "description": "Northern Luri (lrc)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lrc_IQ",
+            "description": "Northern Luri (Iraq) (lrc-IQ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lrc_IR",
+            "description": "Northern Luri (Iran) (lrc-IR)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18251,6 +20503,42 @@
             "deprecationReason": null
           },
           {
+            "name": "lu",
+            "description": "Luba-Katanga (lu)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "lu_CD",
+            "description": "Luba-Katanga (Congo - Kinshasa) (lu-CD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "luo",
+            "description": "Luo (luo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "luo_KE",
+            "description": "Luo (Kenya) (luo-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "luy",
+            "description": "Luyia (luy)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "luy_KE",
+            "description": "Luyia (Kenya) (luy-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "lv",
             "description": "Latvian (lv)",
             "isDeprecated": false,
@@ -18263,6 +20551,84 @@
             "deprecationReason": null
           },
           {
+            "name": "mas",
+            "description": "Masai (mas)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mas_KE",
+            "description": "Masai (Kenya) (mas-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mas_TZ",
+            "description": "Masai (Tanzania) (mas-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mer",
+            "description": "Meru (mer)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mer_KE",
+            "description": "Meru (Kenya) (mer-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mfe",
+            "description": "Morisyen (mfe)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mfe_MU",
+            "description": "Morisyen (Mauritius) (mfe-MU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mg",
+            "description": "Malagasy (mg)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mg_MG",
+            "description": "Malagasy (Madagascar) (mg-MG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mgh",
+            "description": "Makhuwa-Meetto (mgh)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mgh_MZ",
+            "description": "Makhuwa-Meetto (Mozambique) (mgh-MZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mgo",
+            "description": "Metaʼ (mgo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mgo_CM",
+            "description": "Metaʼ (Cameroon) (mgo-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "mk",
             "description": "Macedonian (mk)",
             "isDeprecated": false,
@@ -18270,7 +20636,43 @@
           },
           {
             "name": "mk_MK",
-            "description": "Macedonian (North Macedonia) (mk-MK)",
+            "description": "Macedonian (Macedonia) (mk-MK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ml",
+            "description": "Malayalam (ml)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ml_IN",
+            "description": "Malayalam (India) (ml-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mn",
+            "description": "Mongolian (mn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mn_MN",
+            "description": "Mongolian (Mongolia) (mn-MN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mr",
+            "description": "Marathi (mr)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mr_IN",
+            "description": "Marathi (India) (mr-IN)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18281,8 +20683,20 @@
             "deprecationReason": null
           },
           {
+            "name": "ms_BN",
+            "description": "Malay (Brunei) (ms-BN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ms_MY",
             "description": "Malay (Malaysia) (ms-MY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ms_SG",
+            "description": "Malay (Singapore) (ms-SG)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18299,8 +20713,128 @@
             "deprecationReason": null
           },
           {
+            "name": "mua",
+            "description": "Mundang (mua)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mua_CM",
+            "description": "Mundang (Cameroon) (mua-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "my",
+            "description": "Burmese (my)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "my_MM",
+            "description": "Burmese (Myanmar (Burma)) (my-MM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mzn",
+            "description": "Mazanderani (mzn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "mzn_IR",
+            "description": "Mazanderani (Iran) (mzn-IR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "naq",
+            "description": "Nama (naq)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "naq_NA",
+            "description": "Nama (Namibia) (naq-NA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nb",
+            "description": "Norwegian Bokmål (nb)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nb_NO",
+            "description": "Norwegian Bokmål (Norway) (nb-NO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nb_SJ",
+            "description": "Norwegian Bokmål (Svalbard & Jan Mayen) (nb-SJ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nd",
+            "description": "North Ndebele (nd)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nd_ZW",
+            "description": "North Ndebele (Zimbabwe) (nd-ZW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nds",
+            "description": "Low German (nds)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nds_DE",
+            "description": "Low German (Germany) (nds-DE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nds_NL",
+            "description": "Low German (Netherlands) (nds-NL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ne",
+            "description": "Nepali (ne)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ne_IN",
+            "description": "Nepali (India) (ne-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ne_NP",
+            "description": "Nepali (Nepal) (ne-NP)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "nl",
             "description": "Dutch (nl)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nl_AW",
+            "description": "Dutch (Aruba) (nl-AW)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18311,8 +20845,68 @@
             "deprecationReason": null
           },
           {
+            "name": "nl_BQ",
+            "description": "Dutch (Caribbean Netherlands) (nl-BQ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nl_CW",
+            "description": "Dutch (Curaçao) (nl-CW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "nl_NL",
             "description": "Dutch (Netherlands) (nl-NL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nl_SR",
+            "description": "Dutch (Suriname) (nl-SR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nl_SX",
+            "description": "Dutch (Sint Maarten) (nl-SX)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nmg",
+            "description": "Kwasio (nmg)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nmg_CM",
+            "description": "Kwasio (Cameroon) (nmg-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nn",
+            "description": "Norwegian Nynorsk (nn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nn_NO",
+            "description": "Norwegian Nynorsk (Norway) (nn-NO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nnh",
+            "description": "Ngiemboon (nnh)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nnh_CM",
+            "description": "Ngiemboon (Cameroon) (nnh-CM)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18329,6 +20923,108 @@
             "deprecationReason": null
           },
           {
+            "name": "nus",
+            "description": "Nuer (nus)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nus_SS",
+            "description": "Nuer (South Sudan) (nus-SS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nyn",
+            "description": "Nyankole (nyn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "nyn_UG",
+            "description": "Nyankole (Uganda) (nyn-UG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "om",
+            "description": "Oromo (om)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "om_ET",
+            "description": "Oromo (Ethiopia) (om-ET)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "om_KE",
+            "description": "Oromo (Kenya) (om-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "or",
+            "description": "Odia (or)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "or_IN",
+            "description": "Odia (India) (or-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "os",
+            "description": "Ossetic (os)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "os_GE",
+            "description": "Ossetic (Georgia) (os-GE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "os_RU",
+            "description": "Ossetic (Russia) (os-RU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pa",
+            "description": "Punjabi (pa)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pa_Arab",
+            "description": "Punjabi (Arabic) (pa-Arab)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pa_Arab_PK",
+            "description": "Punjabi (Arabic, Pakistan) (pa-Arab-PK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pa_Guru",
+            "description": "Punjabi (Gurmukhi) (pa-Guru)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pa_Guru_IN",
+            "description": "Punjabi (Gurmukhi, India) (pa-Guru-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "pl",
             "description": "Polish (pl)",
             "isDeprecated": false,
@@ -18341,8 +21037,38 @@
             "deprecationReason": null
           },
           {
+            "name": "prg",
+            "description": "Prussian (prg)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "prg_001",
+            "description": "Prussian (World) (prg-001)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ps",
+            "description": "Pashto (ps)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ps_AF",
+            "description": "Pashto (Afghanistan) (ps-AF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "pt",
             "description": "Portuguese (pt)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_AO",
+            "description": "Portuguese (Angola) (pt-AO)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18353,8 +21079,110 @@
             "deprecationReason": null
           },
           {
+            "name": "pt_CH",
+            "description": "Portuguese (Switzerland) (pt-CH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_CV",
+            "description": "Portuguese (Cape Verde) (pt-CV)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_GQ",
+            "description": "Portuguese (Equatorial Guinea) (pt-GQ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_GW",
+            "description": "Portuguese (Guinea-Bissau) (pt-GW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_LU",
+            "description": "Portuguese (Luxembourg) (pt-LU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_MO",
+            "description": "Portuguese (Macau SAR China) (pt-MO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_MZ",
+            "description": "Portuguese (Mozambique) (pt-MZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "pt_PT",
             "description": "Portuguese (Portugal) (pt-PT)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_ST",
+            "description": "Portuguese (São Tomé & Príncipe) (pt-ST)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "pt_TL",
+            "description": "Portuguese (Timor-Leste) (pt-TL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "qu",
+            "description": "Quechua (qu)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "qu_BO",
+            "description": "Quechua (Bolivia) (qu-BO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "qu_EC",
+            "description": "Quechua (Ecuador) (qu-EC)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "qu_PE",
+            "description": "Quechua (Peru) (qu-PE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rm",
+            "description": "Romansh (rm)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rm_CH",
+            "description": "Romansh (Switzerland) (rm-CH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rn",
+            "description": "Rundi (rn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rn_BI",
+            "description": "Rundi (Burundi) (rn-BI)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18365,8 +21193,26 @@
             "deprecationReason": null
           },
           {
+            "name": "ro_MD",
+            "description": "Romanian (Moldova) (ro-MD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ro_RO",
             "description": "Romanian (Romania) (ro-RO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rof",
+            "description": "Rombo (rof)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rof_TZ",
+            "description": "Rombo (Tanzania) (rof-TZ)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18377,8 +21223,212 @@
             "deprecationReason": null
           },
           {
+            "name": "ru_BY",
+            "description": "Russian (Belarus) (ru-BY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ru_KG",
+            "description": "Russian (Kyrgyzstan) (ru-KG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ru_KZ",
+            "description": "Russian (Kazakhstan) (ru-KZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ru_MD",
+            "description": "Russian (Moldova) (ru-MD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "ru_RU",
             "description": "Russian (Russia) (ru-RU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ru_UA",
+            "description": "Russian (Ukraine) (ru-UA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rw",
+            "description": "Kinyarwanda (rw)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rw_RW",
+            "description": "Kinyarwanda (Rwanda) (rw-RW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rwk",
+            "description": "Rwa (rwk)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "rwk_TZ",
+            "description": "Rwa (Tanzania) (rwk-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sah",
+            "description": "Sakha (sah)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sah_RU",
+            "description": "Sakha (Russia) (sah-RU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "saq",
+            "description": "Samburu (saq)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "saq_KE",
+            "description": "Samburu (Kenya) (saq-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sbp",
+            "description": "Sangu (sbp)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sbp_TZ",
+            "description": "Sangu (Tanzania) (sbp-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sd",
+            "description": "Sindhi (sd)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sd_PK",
+            "description": "Sindhi (Pakistan) (sd-PK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "se",
+            "description": "Northern Sami (se)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "se_FI",
+            "description": "Northern Sami (Finland) (se-FI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "se_NO",
+            "description": "Northern Sami (Norway) (se-NO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "se_SE",
+            "description": "Northern Sami (Sweden) (se-SE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "seh",
+            "description": "Sena (seh)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "seh_MZ",
+            "description": "Sena (Mozambique) (seh-MZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ses",
+            "description": "Koyraboro Senni (ses)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ses_ML",
+            "description": "Koyraboro Senni (Mali) (ses-ML)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sg",
+            "description": "Sango (sg)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sg_CF",
+            "description": "Sango (Central African Republic) (sg-CF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "shi",
+            "description": "Tachelhit (shi)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "shi_Latn",
+            "description": "Tachelhit (Latin) (shi-Latn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "shi_Latn_MA",
+            "description": "Tachelhit (Latin, Morocco) (shi-Latn-MA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "shi_Tfng",
+            "description": "Tachelhit (Tifinagh) (shi-Tfng)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "shi_Tfng_MA",
+            "description": "Tachelhit (Tifinagh, Morocco) (shi-Tfng-MA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "si",
+            "description": "Sinhala (si)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "si_LK",
+            "description": "Sinhala (Sri Lanka) (si-LK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18407,6 +21457,60 @@
             "deprecationReason": null
           },
           {
+            "name": "smn",
+            "description": "Inari Sami (smn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "smn_FI",
+            "description": "Inari Sami (Finland) (smn-FI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sn",
+            "description": "Shona (sn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sn_ZW",
+            "description": "Shona (Zimbabwe) (sn-ZW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "so",
+            "description": "Somali (so)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "so_DJ",
+            "description": "Somali (Djibouti) (so-DJ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "so_ET",
+            "description": "Somali (Ethiopia) (so-ET)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "so_KE",
+            "description": "Somali (Kenya) (so-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "so_SO",
+            "description": "Somali (Somalia) (so-SO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "sq",
             "description": "Albanian (sq)",
             "isDeprecated": false,
@@ -18415,6 +21519,18 @@
           {
             "name": "sq_AL",
             "description": "Albanian (Albania) (sq-AL)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sq_MK",
+            "description": "Albanian (Macedonia) (sq-MK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sq_XK",
+            "description": "Albanian (Kosovo) (sq-XK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18437,6 +21553,36 @@
             "deprecationReason": null
           },
           {
+            "name": "sr_Cyrl",
+            "description": "Serbian (Cyrillic) (sr-Cyrl)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sr_Cyrl_BA",
+            "description": "Serbian (Cyrillic, Bosnia & Herzegovina) (sr-Cyrl-BA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sr_Cyrl_ME",
+            "description": "Serbian (Cyrillic, Montenegro) (sr-Cyrl-ME)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sr_Cyrl_RS",
+            "description": "Serbian (Cyrillic, Serbia) (sr-Cyrl-RS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sr_Cyrl_XK",
+            "description": "Serbian (Cyrillic, Kosovo) (sr-Cyrl-XK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "sr_Latn",
             "description": "Serbian (Latin) (sr-Latn)",
             "isDeprecated": false,
@@ -18444,19 +21590,25 @@
           },
           {
             "name": "sr_Latn_BA",
-            "description": "Serbian (Latin,Bosnia & Herzegovina) (sr-Latn-BA)",
+            "description": "Serbian (Latin, Bosnia & Herzegovina) (sr-Latn-BA)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "sr_Latn_ME",
-            "description": "Serbian (Latin,Montenegro) (sr-Latn-ME)",
+            "description": "Serbian (Latin, Montenegro) (sr-Latn-ME)",
             "isDeprecated": false,
             "deprecationReason": null
           },
           {
             "name": "sr_Latn_RS",
-            "description": "Serbian (Latin,Serbia) (sr-Latn-RS)",
+            "description": "Serbian (Latin, Serbia) (sr-Latn-RS)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sr_Latn_XK",
+            "description": "Serbian (Latin, Kosovo) (sr-Latn-XK)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18479,8 +21631,122 @@
             "deprecationReason": null
           },
           {
+            "name": "sv_AX",
+            "description": "Swedish (Åland Islands) (sv-AX)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sv_FI",
+            "description": "Swedish (Finland) (sv-FI)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "sv_SE",
             "description": "Swedish (Sweden) (sv-SE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sw",
+            "description": "Swahili (sw)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sw_CD",
+            "description": "Swahili (Congo - Kinshasa) (sw-CD)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sw_KE",
+            "description": "Swahili (Kenya) (sw-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sw_TZ",
+            "description": "Swahili (Tanzania) (sw-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "sw_UG",
+            "description": "Swahili (Uganda) (sw-UG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ta",
+            "description": "Tamil (ta)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ta_IN",
+            "description": "Tamil (India) (ta-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ta_LK",
+            "description": "Tamil (Sri Lanka) (ta-LK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ta_MY",
+            "description": "Tamil (Malaysia) (ta-MY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ta_SG",
+            "description": "Tamil (Singapore) (ta-SG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "te",
+            "description": "Telugu (te)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "te_IN",
+            "description": "Telugu (India) (te-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "teo",
+            "description": "Teso (teo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "teo_KE",
+            "description": "Teso (Kenya) (teo-KE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "teo_UG",
+            "description": "Teso (Uganda) (teo-UG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "tg",
+            "description": "Tajik (tg)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "tg_TJ",
+            "description": "Tajik (Tajikistan) (tg-TJ)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18498,7 +21764,49 @@
           },
           {
             "name": "th_TH_u_nu_thai_x_lvariant_TH",
-            "description": "Thai (Thailand,TH) (th-TH-u-nu-thai-x-lvariant-TH)",
+            "description": "Thai (Thailand, TH, Thai Digits) (th-TH-u-nu-thai-x-lvariant-TH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ti",
+            "description": "Tigrinya (ti)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ti_ER",
+            "description": "Tigrinya (Eritrea) (ti-ER)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ti_ET",
+            "description": "Tigrinya (Ethiopia) (ti-ET)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "tk",
+            "description": "Turkmen (tk)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "tk_TM",
+            "description": "Turkmen (Turkmenistan) (tk-TM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "to",
+            "description": "Tongan (to)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "to_TO",
+            "description": "Tongan (Tonga) (to-TO)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18509,8 +21817,62 @@
             "deprecationReason": null
           },
           {
+            "name": "tr_CY",
+            "description": "Turkish (Cyprus) (tr-CY)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "tr_TR",
             "description": "Turkish (Turkey) (tr-TR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "tt",
+            "description": "Tatar (tt)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "tt_RU",
+            "description": "Tatar (Russia) (tt-RU)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "twq",
+            "description": "Tasawaq (twq)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "twq_NE",
+            "description": "Tasawaq (Niger) (twq-NE)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "tzm",
+            "description": "Central Atlas Tamazight (tzm)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "tzm_MA",
+            "description": "Central Atlas Tamazight (Morocco) (tzm-MA)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ug",
+            "description": "Uyghur (ug)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ug_CN",
+            "description": "Uyghur (China) (ug-CN)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18533,6 +21895,96 @@
             "deprecationReason": null
           },
           {
+            "name": "ur",
+            "description": "Urdu (ur)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ur_IN",
+            "description": "Urdu (India) (ur-IN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "ur_PK",
+            "description": "Urdu (Pakistan) (ur-PK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "uz",
+            "description": "Uzbek (uz)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "uz_Arab",
+            "description": "Uzbek (Arabic) (uz-Arab)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "uz_Arab_AF",
+            "description": "Uzbek (Arabic, Afghanistan) (uz-Arab-AF)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "uz_Cyrl",
+            "description": "Uzbek (Cyrillic) (uz-Cyrl)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "uz_Cyrl_UZ",
+            "description": "Uzbek (Cyrillic, Uzbekistan) (uz-Cyrl-UZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "uz_Latn",
+            "description": "Uzbek (Latin) (uz-Latn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "uz_Latn_UZ",
+            "description": "Uzbek (Latin, Uzbekistan) (uz-Latn-UZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vai",
+            "description": "Vai (vai)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vai_Latn",
+            "description": "Vai (Latin) (vai-Latn)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vai_Latn_LR",
+            "description": "Vai (Latin, Liberia) (vai-Latn-LR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vai_Vaii",
+            "description": "Vai (Vai) (vai-Vaii)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vai_Vaii_LR",
+            "description": "Vai (Vai, Liberia) (vai-Vaii-LR)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "vi",
             "description": "Vietnamese (vi)",
             "isDeprecated": false,
@@ -18541,6 +21993,150 @@
           {
             "name": "vi_VN",
             "description": "Vietnamese (Vietnam) (vi-VN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vo",
+            "description": "Volapük (vo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vo_001",
+            "description": "Volapük (World) (vo-001)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vun",
+            "description": "Vunjo (vun)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "vun_TZ",
+            "description": "Vunjo (Tanzania) (vun-TZ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "wae",
+            "description": "Walser (wae)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "wae_CH",
+            "description": "Walser (Switzerland) (wae-CH)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "wo",
+            "description": "Wolof (wo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "wo_SN",
+            "description": "Wolof (Senegal) (wo-SN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "xog",
+            "description": "Soga (xog)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "xog_UG",
+            "description": "Soga (Uganda) (xog-UG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yav",
+            "description": "Yangben (yav)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yav_CM",
+            "description": "Yangben (Cameroon) (yav-CM)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yi",
+            "description": "Yiddish (yi)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yi_001",
+            "description": "Yiddish (World) (yi-001)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yo",
+            "description": "Yoruba (yo)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yo_BJ",
+            "description": "Yoruba (Benin) (yo-BJ)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yo_NG",
+            "description": "Yoruba (Nigeria) (yo-NG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yue",
+            "description": "Cantonese (yue)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yue_Hans",
+            "description": "Cantonese (Simplified) (yue-Hans)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yue_Hans_CN",
+            "description": "Cantonese (Simplified, China) (yue-Hans-CN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yue_Hant",
+            "description": "Cantonese (Traditional) (yue-Hant)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "yue_Hant_HK",
+            "description": "Cantonese (Traditional, Hong Kong SAR China) (yue-Hant-HK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zgh",
+            "description": "Standard Moroccan Tamazight (zgh)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zgh_MA",
+            "description": "Standard Moroccan Tamazight (Morocco) (zgh-MA)",
             "isDeprecated": false,
             "deprecationReason": null
           },
@@ -18563,6 +22159,60 @@
             "deprecationReason": null
           },
           {
+            "name": "zh_Hans",
+            "description": "Chinese (Simplified) (zh-Hans)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zh_Hans_CN",
+            "description": "Chinese (Simplified, China) (zh-Hans-CN)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zh_Hans_HK",
+            "description": "Chinese (Simplified, Hong Kong SAR China) (zh-Hans-HK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zh_Hans_MO",
+            "description": "Chinese (Simplified, Macau SAR China) (zh-Hans-MO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zh_Hans_SG",
+            "description": "Chinese (Simplified, Singapore) (zh-Hans-SG)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zh_Hant",
+            "description": "Chinese (Traditional) (zh-Hant)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zh_Hant_HK",
+            "description": "Chinese (Traditional, Hong Kong SAR China) (zh-Hant-HK)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zh_Hant_MO",
+            "description": "Chinese (Traditional, Macau SAR China) (zh-Hant-MO)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zh_Hant_TW",
+            "description": "Chinese (Traditional, Taiwan) (zh-Hant-TW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "zh_SG",
             "description": "Chinese (Singapore) (zh-SG)",
             "isDeprecated": false,
@@ -18571,6 +22221,18 @@
           {
             "name": "zh_TW",
             "description": "Chinese (Taiwan) (zh-TW)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zu",
+            "description": "Zulu (zu)",
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "zu_ZA",
+            "description": "Zulu (South Africa) (zu-ZA)",
             "isDeprecated": false,
             "deprecationReason": null
           }
@@ -21838,30 +25500,6 @@
             "deprecationReason": null
           },
           {
-            "name": "userIds",
-            "description": "The identifiers of the agents currently matching all segments of the group.",
-            "args": [],
-            "type": {
-              "kind": "NON_NULL",
-              "name": null,
-              "ofType": {
-                "kind": "LIST",
-                "name": null,
-                "ofType": {
-                  "kind": "NON_NULL",
-                  "name": null,
-                  "ofType": {
-                    "kind": "SCALAR",
-                    "name": "LegacyId",
-                    "ofType": null
-                  }
-                }
-              }
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
             "name": "segments",
             "description": "The list of segments defining which agents are included in the group.",
             "args": [],
@@ -21941,6 +25579,26 @@
               "kind": "OBJECT",
               "name": "Project",
               "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "userIds",
+            "description": "The identifiers of the agents currently matching all segments of the group.",
+            "args": [],
+            "type": {
+              "kind": "LIST",
+              "name": null,
+              "ofType": {
+                "kind": "NON_NULL",
+                "name": null,
+                "ofType": {
+                  "kind": "SCALAR",
+                  "name": "Int",
+                  "ofType": null
+                }
+              }
             },
             "isDeprecated": false,
             "deprecationReason": null
@@ -22031,6 +25689,11 @@
           {
             "kind": "OBJECT",
             "name": "RoutingModeDynamic",
+            "ofType": null
+          },
+          {
+            "kind": "OBJECT",
+            "name": "RoutingModeReactive",
             "ofType": null
           }
         ]
@@ -22190,6 +25853,33 @@
               "ofType": {
                 "kind": "SCALAR",
                 "name": "Boolean",
+                "ofType": null
+              }
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          }
+        ],
+        "inputFields": null,
+        "interfaces": [],
+        "enumValues": null,
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "RoutingModeReactive",
+        "description": "When a routing rule is using the reactive mode, conversations are distributed dynamically according to routing groups availabilities",
+        "fields": [
+          {
+            "name": "type",
+            "description": "GraphQL objects must contain at least one field. Returning the type of this routingMode.",
+            "args": [],
+            "type": {
+              "kind": "NON_NULL",
+              "name": null,
+              "ofType": {
+                "kind": "SCALAR",
+                "name": "String",
                 "ofType": null
               }
             },
@@ -24618,6 +28308,18 @@
             "deprecationReason": null
           },
           {
+            "name": "deletedAt",
+            "description": "User deletion datetime",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "DateTime",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
             "name": "interfaceLanguage",
             "description": "Language in which to display the platform interface",
             "args": [],
@@ -25192,6 +28894,30 @@
             "type": {
               "kind": "SCALAR",
               "name": "String",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "username",
+            "description": "The visitor username as provided by third party channels such as WhatsApp",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "String",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "avatarUrl",
+            "description": "Avatar url of the visitor",
+            "args": [],
+            "type": {
+              "kind": "SCALAR",
+              "name": "URL",
               "ofType": null
             },
             "isDeprecated": false,

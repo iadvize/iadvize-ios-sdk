@@ -1,8 +1,17 @@
+# 2.8.3
+
+### Release date 2022/12/09
+
+**Features**
+
+- Add support for visitor blocking
+
 # 2.8.2
 
 ### Release date 2022/11/18
 
 **Bug fixes**
+
 - fix build issue with Framework Bundle
 
 # 2.8.1
@@ -10,9 +19,11 @@
 ### Release date 2022/10/25
 
 **Features**
+
 - expose ongoingConversation attribute
 
 **Bug fixes**
+
 - default floating button wasn't dismiss after logout
 - presentChatbox() has no effect until an active targeting rule is available
 
@@ -21,6 +32,7 @@
 ### Release date 2022/10/04
 
 **Features**
+
 - Users have now access to video invitations which allows them to jump from a chat conversation to a video one
 
 # 2.7.0
@@ -28,9 +40,11 @@
 ### Release date 2022/08/26
 
 **Features**
+
 - Basic Markdown support in messages
 
 **Bug fixes**
+
 - Image were uploaded and sent twice
 
 

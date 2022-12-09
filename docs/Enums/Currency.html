@@ -8,6 +8,9 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Enum/Currency" class="dashAnchor"></a>
@@ -15,13 +18,18 @@
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">iAdvize iOS SDK</a></p>
-        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">IAdvizeConversationSDK Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         Currency Enumeration Reference
       </p>
     </div>
@@ -47,10 +55,10 @@
                 <a href="../Protocols/GDPRDelegate.html">GDPRDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/Logger.html">Logger</a>
+                <a href="../Enums/Logger.html">Logger</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/Logger/LogLevel.html">– LogLevel</a>
+                <a href="../Enums/Logger/LogLevel.html">– LogLevel</a>
               </li>
             </ul>
           </li>
@@ -121,6 +129,110 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthErrorInterceptor.html">AuthErrorInterceptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Button.html">Button</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientView.html">GradientView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JWE.html">JWE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyboardObserver.html">KeyboardObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Label.html">Label</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OngoingConversation.html">OngoingConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TargetingRule.html">TargetingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VisitorController.html">VisitorController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/XibView.html">XibView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ActivationStatus.html">ActivationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AppFont.html">AppFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CardBundleAttachmentActionType.html">CardBundleAttachmentActionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConversationChannel.html">ConversationChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CustomData.html">CustomData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EscalationEndReason.html">EscalationEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EscalationType.html">EscalationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavigationOption.html">NavigationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKEnvironment.html">SDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Source.html">Source</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont/TextStyle.html">– TextStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatboxControllerDelegate.html">ChatboxControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IAdvizeSDKEnvironmentDataSource.html">IAdvizeSDKEnvironmentDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JWEProvider.html">JWEProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/KeyboardObserverDelegate.html">KeyboardObserverDelegate</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -129,6 +241,7 @@
             <h1>Currency</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Currency</span> <span class="p">:</span> <span class="kt">RawRepresentable</span><span class="p">,</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Hashable</span><span class="p">,</span> <span class="kt">CaseIterable</span><span class="p">,</span> <span class="kt">Apollo</span><span class="o">.</span><span class="kt">JSONDecodable</span><span class="p">,</span> <span class="kt">Apollo</span><span class="o">.</span><span class="kt">JSONEncodable</span></code></pre>
 
                 </div>
@@ -232,7 +345,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Afghan Afghani (1927-2002) (AFA AFA)</p>
+                        <p>Afghan Afghani (1927–2002) (AFA AFA)</p>
 
                       </div>
                       <div class="declaration">
@@ -448,7 +561,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Australian Dollar (AUD AUD)</p>
+                        <p>Australian Dollar (AUD A$)</p>
 
                       </div>
                       <div class="declaration">
@@ -529,7 +642,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Azerbaijani Manat (1993-2006) (AZM AZM)</p>
+                        <p>Azerbaijani Manat (1993–2006) (AZM AZM)</p>
 
                       </div>
                       <div class="declaration">
@@ -556,7 +669,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Azerbaijan Manat (AZN AZN)</p>
+                        <p>Azerbaijani Manat (AZN AZN)</p>
 
                       </div>
                       <div class="declaration">
@@ -907,7 +1020,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Brazilian Real (BRL BRL)</p>
+                        <p>Brazilian Real (BRL R$)</p>
 
                       </div>
                       <div class="declaration">
@@ -1015,7 +1128,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Belarusian Ruble (1994-1999) (BYB BYB)</p>
+                        <p>Belarusian Ruble (1994–1999) (BYB BYB)</p>
 
                       </div>
                       <div class="declaration">
@@ -1069,7 +1182,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Belarusian Ruble (2000-2016) (BYR BYR)</p>
+                        <p>Belarusian Ruble (2000–2016) (BYR BYR)</p>
 
                       </div>
                       <div class="declaration">
@@ -1123,7 +1236,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Canadian Dollar (CAD CAD)</p>
+                        <p>Canadian Dollar (CAD CA$)</p>
 
                       </div>
                       <div class="declaration">
@@ -1177,7 +1290,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>CHE (CHE CHE)</p>
+                        <p>WIR Euro (CHE CHE)</p>
 
                       </div>
                       <div class="declaration">
@@ -1231,7 +1344,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>CHW (CHW CHW)</p>
+                        <p>WIR Franc (CHW CHW)</p>
 
                       </div>
                       <div class="declaration">
@@ -1312,7 +1425,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Chinese Yuan (CNY CNY)</p>
+                        <p>Chinese Yuan (CNY CN¥)</p>
 
                       </div>
                       <div class="declaration">
@@ -1366,7 +1479,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>COU (COU COU)</p>
+                        <p>Colombian Real Value Unit (COU COU)</p>
 
                       </div>
                       <div class="declaration">
@@ -1420,7 +1533,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Serbian Dinar (2002-2006) (CSD CSD)</p>
+                        <p>Serbian Dinar (2002–2006) (CSD CSD)</p>
 
                       </div>
                       <div class="declaration">
@@ -1555,7 +1668,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Czech Republic Koruna (CZK CZK)</p>
+                        <p>Czech Koruna (CZK CZK)</p>
 
                       </div>
                       <div class="declaration">
@@ -1852,7 +1965,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Euro (EUR EUR)</p>
+                        <p>Euro (EUR €)</p>
 
                       </div>
                       <div class="declaration">
@@ -1987,7 +2100,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>British Pound Sterling (GBP GBP)</p>
+                        <p>British Pound (GBP £)</p>
 
                       </div>
                       <div class="declaration">
@@ -2041,7 +2154,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Ghanaian Cedi (1979-2007) (GHC GHC)</p>
+                        <p>Ghanaian Cedi (1979–2007) (GHC GHC)</p>
 
                       </div>
                       <div class="declaration">
@@ -2284,7 +2397,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Hong Kong Dollar (HKD HKD)</p>
+                        <p>Hong Kong Dollar (HKD HK$)</p>
 
                       </div>
                       <div class="declaration">
@@ -2338,7 +2451,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Kuna (HRK HRK)</p>
+                        <p>Croatian Kuna (HRK HRK)</p>
 
                       </div>
                       <div class="declaration">
@@ -2473,7 +2586,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Israeli New Sheqel (ILS ILS)</p>
+                        <p>Israeli New Shekel (ILS ₪)</p>
 
                       </div>
                       <div class="declaration">
@@ -2500,7 +2613,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Indian Rupee (INR INR)</p>
+                        <p>Indian Rupee (INR ₹)</p>
 
                       </div>
                       <div class="declaration">
@@ -2689,7 +2802,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Japanese Yen (JPY JPY)</p>
+                        <p>Japanese Yen (JPY ¥)</p>
 
                       </div>
                       <div class="declaration">
@@ -2851,7 +2964,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>South Korean Won (KRW KRW)</p>
+                        <p>South Korean Won (KRW ₩)</p>
 
                       </div>
                       <div class="declaration">
@@ -2959,7 +3072,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Lao Kip (LAK LAK)</p>
+                        <p>Laotian Kip (LAK LAK)</p>
 
                       </div>
                       <div class="declaration">
@@ -3337,7 +3450,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Myanma Kyat (MMK MMK)</p>
+                        <p>Myanmar Kyat (MMK MMK)</p>
 
                       </div>
                       <div class="declaration">
@@ -3418,7 +3531,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Mauritanian Ouguiya (MRO MRO)</p>
+                        <p>Mauritanian Ouguiya (1973–2017) (MRO MRO)</p>
 
                       </div>
                       <div class="declaration">
@@ -3553,7 +3666,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Malawian Malawi Kwacha (MWK MWK)</p>
+                        <p>Malawian Kwacha (MWK MWK)</p>
 
                       </div>
                       <div class="declaration">
@@ -3580,7 +3693,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Mexican Peso (MXN MXN)</p>
+                        <p>Mexican Peso (MXN MX$)</p>
 
                       </div>
                       <div class="declaration">
@@ -3661,7 +3774,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Mozambican Metical (1980-2006) (MZM MZM)</p>
+                        <p>Mozambican Metical (1980–2006) (MZM MZM)</p>
 
                       </div>
                       <div class="declaration">
@@ -3877,7 +3990,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>New Zealand Dollar (NZD NZD)</p>
+                        <p>New Zealand Dollar (NZD NZ$)</p>
 
                       </div>
                       <div class="declaration">
@@ -4012,7 +4125,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Philippine Peso (PHP PHP)</p>
+                        <p>Philippine Piso (PHP PHP)</p>
 
                       </div>
                       <div class="declaration">
@@ -4174,7 +4287,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Romanian Leu (1952-2006) (ROL ROL)</p>
+                        <p>Romanian Leu (1952–2006) (ROL ROL)</p>
 
                       </div>
                       <div class="declaration">
@@ -4282,7 +4395,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Russian Ruble (1991-1998) (RUR RUR)</p>
+                        <p>Russian Ruble (1991–1998) (RUR RUR)</p>
 
                       </div>
                       <div class="declaration">
@@ -4417,7 +4530,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Sudanese Dinar (1992-2007) (SDD SDD)</p>
+                        <p>Sudanese Dinar (1992–2007) (SDD SDD)</p>
 
                       </div>
                       <div class="declaration">
@@ -4525,7 +4638,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Saint Helena Pound (SHP SHP)</p>
+                        <p>St. Helena Pound (SHP SHP)</p>
 
                       </div>
                       <div class="declaration">
@@ -4741,7 +4854,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>São Tomé and Príncipe Dobra (STD STD)</p>
+                        <p>São Tomé &amp; Príncipe Dobra (1977–2017) (STD STD)</p>
 
                       </div>
                       <div class="declaration">
@@ -4768,7 +4881,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>São Tomé and Príncipe Dobra (STN STN)</p>
+                        <p>São Tomé &amp; Príncipe Dobra (STN STN)</p>
 
                       </div>
                       <div class="declaration">
@@ -4930,7 +5043,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Turkmenistani Manat (1993-2009) (TMM TMM)</p>
+                        <p>Turkmenistani Manat (1993–2009) (TMM TMM)</p>
 
                       </div>
                       <div class="declaration">
@@ -5065,7 +5178,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Turkish Lira (1922-2005) (TRL TRL)</p>
+                        <p>Turkish Lira (1922–2005) (TRL TRL)</p>
 
                       </div>
                       <div class="declaration">
@@ -5099,7 +5212,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="err">`</span><span class="k">try</span><span class="err">`</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="p">`</span><span class="nv">try</span><span class="p">`</span></code></pre>
 
                         </div>
                       </div>
@@ -5119,7 +5232,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Trinidad and Tobago Dollar (TTD TTD)</p>
+                        <p>Trinidad &amp; Tobago Dollar (TTD TTD)</p>
 
                       </div>
                       <div class="declaration">
@@ -5146,7 +5259,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>New Taiwan Dollar (TWD TWD)</p>
+                        <p>New Taiwan Dollar (TWD NT$)</p>
 
                       </div>
                       <div class="declaration">
@@ -5335,7 +5448,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>UYI (UYI UYI)</p>
+                        <p>Uruguayan Peso (Indexed Units) (UYI UYI)</p>
 
                       </div>
                       <div class="declaration">
@@ -5389,7 +5502,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Uzbekistan Som (UZS UZS)</p>
+                        <p>Uzbekistani Som (UZS UZS)</p>
 
                       </div>
                       <div class="declaration">
@@ -5416,7 +5529,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Venezuelan Bolívar (1871-2008) (VEB VEB)</p>
+                        <p>Venezuelan Bolívar (1871–2008) (VEB VEB)</p>
 
                       </div>
                       <div class="declaration">
@@ -5424,6 +5537,33 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="k">case</span> <span class="n">veb</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK8CurrencyO3vedyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/ved" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK8CurrencyO3vedyA2CmF">ved</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Venezuelan Bolívar Soberano (VED VED)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">ved</span></code></pre>
 
                         </div>
                       </div>
@@ -5497,7 +5637,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Vietnamese Dong (VND VND)</p>
+                        <p>Vietnamese Dong (VND ₫)</p>
 
                       </div>
                       <div class="declaration">
@@ -5578,7 +5718,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>CFA Franc BEAC (XAF XAF)</p>
+                        <p>Central African CFA Franc (XAF FCFA)</p>
 
                       </div>
                       <div class="declaration">
@@ -5767,7 +5907,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>East Caribbean Dollar (XCD XCD)</p>
+                        <p>East Caribbean Dollar (XCD EC$)</p>
 
                       </div>
                       <div class="declaration">
@@ -5875,7 +6015,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>CFA Franc BCEAO (XOF XOF)</p>
+                        <p>West African CFA Franc (XOF CFA)</p>
 
                       </div>
                       <div class="declaration">
@@ -5929,7 +6069,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>CFP Franc (XPF XPF)</p>
+                        <p>CFP Franc (XPF CFPF)</p>
 
                       </div>
                       <div class="declaration">
@@ -6118,7 +6258,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Yugoslavian New Dinar (1994-2002) (YUM YUM)</p>
+                        <p>Yugoslavian New Dinar (1994–2002) (YUM YUM)</p>
 
                       </div>
                       <div class="declaration">
@@ -6172,7 +6312,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Zambian Kwacha (ZMK ZMK)</p>
+                        <p>Zambian Kwacha (1968–2012) (ZMK ZMK)</p>
 
                       </div>
                       <div class="declaration">
@@ -6199,7 +6339,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>ZMW (ZMW ZMW)</p>
+                        <p>Zambian Kwacha (ZMW ZMW)</p>
 
                       </div>
                       <div class="declaration">
@@ -6226,7 +6366,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Zimbabwean Dollar (1980-2008) (ZWD ZWD)</p>
+                        <p>Zimbabwean Dollar (1980–2008) (ZWD ZWD)</p>
 
                       </div>
                       <div class="declaration">
@@ -6457,11 +6597,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external">iAdvize</a>. All rights reserved. (Last updated: 2021-07-01)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2022 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2022-12-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>

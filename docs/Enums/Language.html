@@ -8,6 +8,9 @@
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
     <a name="//apple_ref/swift/Enum/Language" class="dashAnchor"></a>
@@ -15,13 +18,18 @@
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">iAdvize iOS SDK</a></p>
-        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html">IAdvizeConversationSDK Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         Language Enumeration Reference
       </p>
     </div>
@@ -47,10 +55,10 @@
                 <a href="../Protocols/GDPRDelegate.html">GDPRDelegate</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/Logger.html">Logger</a>
+                <a href="../Enums/Logger.html">Logger</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/Logger/LogLevel.html">– LogLevel</a>
+                <a href="../Enums/Logger/LogLevel.html">– LogLevel</a>
               </li>
             </ul>
           </li>
@@ -121,6 +129,110 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthErrorInterceptor.html">AuthErrorInterceptor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Button.html">Button</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientView.html">GradientView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JWE.html">JWE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyboardObserver.html">KeyboardObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Label.html">Label</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OngoingConversation.html">OngoingConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TargetingRule.html">TargetingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VisitorController.html">VisitorController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/XibView.html">XibView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ActivationStatus.html">ActivationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AppFont.html">AppFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CardBundleAttachmentActionType.html">CardBundleAttachmentActionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConversationChannel.html">ConversationChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CustomData.html">CustomData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EscalationEndReason.html">EscalationEndReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EscalationType.html">EscalationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavigationOption.html">NavigationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKEnvironment.html">SDKEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Source.html">Source</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont/TextStyle.html">– TextStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatboxControllerDelegate.html">ChatboxControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IAdvizeSDKEnvironmentDataSource.html">IAdvizeSDKEnvironmentDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JWEProvider.html">JWEProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/KeyboardObserverDelegate.html">KeyboardObserverDelegate</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -129,6 +241,7 @@
             <h1>Language</h1>
               <div class="declaration">
                 <div class="language">
+                  
                   <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Language</span> <span class="p">:</span> <span class="kt">RawRepresentable</span><span class="p">,</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">Hashable</span><span class="p">,</span> <span class="kt">CaseIterable</span><span class="p">,</span> <span class="kt">Apollo</span><span class="o">.</span><span class="kt">JSONDecodable</span><span class="p">,</span> <span class="kt">Apollo</span><span class="o">.</span><span class="kt">JSONEncodable</span></code></pre>
 
                 </div>
@@ -401,7 +514,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="err">`</span><span class="k">as</span><span class="err">`</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="p">`</span><span class="nv">as</span><span class="p">`</span></code></pre>
 
                         </div>
                       </div>
@@ -664,7 +777,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Bengali (bn)</p>
+                        <p>Bangla (bn)</p>
 
                       </div>
                       <div class="declaration">
@@ -1474,7 +1587,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Frisian (fy)</p>
+                        <p>Western Frisian (fy)</p>
 
                       </div>
                       <div class="declaration">
@@ -1555,7 +1668,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Gallegan (gl)</p>
+                        <p>Galician (gl)</p>
 
                       </div>
                       <div class="declaration">
@@ -1798,7 +1911,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Haitian (ht)</p>
+                        <p>Haitian Creole (ht)</p>
 
                       </div>
                       <div class="declaration">
@@ -2075,7 +2188,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="err">`</span><span class="k">in</span><span class="err">`</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="p">`</span><span class="nv">in</span><span class="p">`</span></code></pre>
 
                         </div>
                       </div>
@@ -2129,7 +2242,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="err">`</span><span class="k">is</span><span class="err">`</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="p">`</span><span class="nv">is</span><span class="p">`</span></code></pre>
 
                         </div>
                       </div>
@@ -2392,7 +2505,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Kwanyama (kj)</p>
+                        <p>Kuanyama (kj)</p>
 
                       </div>
                       <div class="declaration">
@@ -2446,7 +2559,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Greenlandic (kl)</p>
+                        <p>Kalaallisut (kl)</p>
 
                       </div>
                       <div class="declaration">
@@ -2689,7 +2802,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Kirghiz (ky)</p>
+                        <p>Kyrgyz (ky)</p>
 
                       </div>
                       <div class="declaration">
@@ -3634,7 +3747,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Oriya (or)</p>
+                        <p>Odia (or)</p>
 
                       </div>
                       <div class="declaration">
@@ -3661,7 +3774,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Ossetian (os)</p>
+                        <p>Ossetic (os)</p>
 
                       </div>
                       <div class="declaration">
@@ -3688,7 +3801,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Panjabi (pa)</p>
+                        <p>Punjabi (pa)</p>
 
                       </div>
                       <div class="declaration">
@@ -3769,7 +3882,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Pushto (ps)</p>
+                        <p>Pashto (ps)</p>
 
                       </div>
                       <div class="declaration">
@@ -3850,7 +3963,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Raeto-Romance (rm)</p>
+                        <p>Romansh (rm)</p>
 
                       </div>
                       <div class="declaration">
@@ -4120,7 +4233,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Sinhalese (si)</p>
+                        <p>Sinhala (si)</p>
 
                       </div>
                       <div class="declaration">
@@ -4687,7 +4800,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Tonga (to)</p>
+                        <p>Tongan (to)</p>
 
                       </div>
                       <div class="declaration">
@@ -4849,7 +4962,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Uighur (ug)</p>
+                        <p>Uyghur (ug)</p>
 
                       </div>
                       <div class="declaration">
@@ -5377,11 +5490,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external">iAdvize</a>. All rights reserved. (Last updated: 2021-07-01)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2022 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2022-12-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>
