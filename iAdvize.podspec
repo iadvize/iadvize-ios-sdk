@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.authors                  = { 'iAdvize' => 'mobile@iadvize.com' }
   spec.summary                  = 'iAdvize - iOS Conversation SDK'
   spec.description              = 'Embed the iAdvize Conversation SDK in your app and connect your visitors with your professional agents or ibbü experts through a fully customised chat experience.'
-  spec.source                   = { :http => "https://github.com/iadvize/iadvize-ios-sdk/releases/download/#{spec.version}/IAdvizeConversationSDK.cocoapods.zip" }
+  spec.source                   = { :http => "https://github.com/iadvize/iadvize-ios-sdk/releases/download/#{spec.version}/IAdvizeSDK.zip" }
   spec.platform                 = :ios, '12.0'
 
   spec.swift_version            = '5.0'
