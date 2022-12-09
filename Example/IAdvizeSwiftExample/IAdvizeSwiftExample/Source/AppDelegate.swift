@@ -14,8 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    let iAdvizeProjectID: Int = YOUR_PROJECT_ID
-    let iAdvizeTargetingRule = TargetingRule(id: YOUR_TARGETING_RULE_ID, conversationChannel: .chat)
+    let iAdvizeProjectID: Int = -1 // Replace with your project id
+    let iAdvizeTargetingRule = TargetingRule(
+        id: UUID(uuidString: "your-targeting-rule-id") ?? UUID(),
+        conversationChannel: .chat // or .video
+    )
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
