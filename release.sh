@@ -46,7 +46,6 @@ if [ -f "IAdvizeSDK.zip" ]; then
     echo -e "\033[1;42m => Release ${versionName} is now public! This is what remains for you to do: \033[0m"
     echo -e "\033[1;95m - Create a github release from tag ${versionName} : https://github.com/iadvize/iadvize-ios-sdk/releases/new \033[0m"
     echo -e "\033[1;95m - Fill description with changelog info and add IAdvizeSDK.zip as binary to the release \033[0m"
-    echo -e "\033[1;95m - Deploy the pod to cocoapods (pod trunk push iAdvize.podspec --allow-warnings --skip-import-validation)\033[0m"
 
     rm -R tmp
     exit 0
