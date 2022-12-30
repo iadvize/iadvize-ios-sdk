@@ -6,13 +6,13 @@ PODS:
     - Apollo/Core
     - SQLite.swift (~> 0.12.2)
   - CocoaAsyncSocket (7.6.5)
-  - CocoaLumberjack (3.7.4):
-    - CocoaLumberjack/Core (= 3.7.4)
-  - CocoaLumberjack/Core (3.7.4)
-  - CocoaLumberjack/Swift (3.7.4):
+  - CocoaLumberjack (3.8.0):
+    - CocoaLumberjack/Core (= 3.8.0)
+  - CocoaLumberjack/Core (3.8.0)
+  - CocoaLumberjack/Swift (3.8.0):
     - CocoaLumberjack/Core
   - Gifu (3.3.1)
-  - iAdvize (2.8.1):
+  - iAdvize (2.8.4):
     - Apollo (~> 0.36.0)
     - Apollo/SQLite
     - Gifu (~> 3.3.0)
@@ -68,9 +68,9 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
-  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
-  iAdvize: df702bbc066fa854887c69ae3c548ac077af2f4e
+  iAdvize: 8cc856a36726503e3b7785fddfa62ef500b4d709
   JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
