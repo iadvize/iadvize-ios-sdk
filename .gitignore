@@ -72,4 +72,6 @@ fastlane/test_output
 
 !IAdvizeConversationSDK.framework.dSYM
 
-*.zip
+# iAdvize artifacts
+IAdvizeSDK.zip
+tmp/
