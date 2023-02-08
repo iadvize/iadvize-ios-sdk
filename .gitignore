@@ -74,4 +74,5 @@ fastlane/test_output
 
 # iAdvize artifacts
 IAdvizeSDK.zip
+IAdvizeSDK.checksums
 tmp/

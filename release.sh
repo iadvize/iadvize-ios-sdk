@@ -31,21 +31,21 @@ function checkArtifact() {
 }
 
 function updateReleaseFiles() {
-     echo -e "\033[1;42m => Updating framework \033[0m"
-    rm -rf IAdvizeConversationSDK.xcframework
-    mv tmp/IAdvizeConversationSDK.xcframework IAdvizeConversationSDK.xcframework
+  echo -e "\033[1;42m => Updating framework \033[0m"
+  rm -rf IAdvizeConversationSDK.xcframework
+  mv tmp/IAdvizeConversationSDK.xcframework IAdvizeConversationSDK.xcframework
 
-    echo -e "\033[1;42m => Updating podspec \033[0m"
-    cp tmp/iAdvize.podspec iAdvize.podspec
+  echo -e "\033[1;42m => Updating podspec \033[0m"
+  cp tmp/iAdvize.podspec iAdvize.podspec
 
-    echo -e "\033[1;42m => Updating CHANGELOG, UPGRADING & README. \033[0m"
-    mv tmp/CHANGELOG.md CHANGELOG.md
-    mv tmp/UPGRADING.md UPGRADING.md
-    mv tmp/README.md README.md
+  echo -e "\033[1;42m => Updating CHANGELOG, UPGRADING & README. \033[0m"
+  mv tmp/CHANGELOG.md CHANGELOG.md
+  mv tmp/UPGRADING.md UPGRADING.md
+  mv tmp/README.md README.md
 
-    echo -e "\033[1;42m => Updating documentation \033[0m"
-    rm -rf docs
-    mv tmp/docs docs
+  echo -e "\033[1;42m => Updating documentation \033[0m"
+  rm -rf docs
+  mv tmp/docs docs
 }
 
 function printStartSuccess() {
@@ -91,7 +91,7 @@ function cleanRelease() {
 function printFinishSuccess() {
   echo -e "\033[1;42m => Release ${versionName} is now public! This is what remains for you to do: \033[0m"
   echo -e "\033[1;95m - Create a github release from tag ${versionName} : https://github.com/iadvize/iadvize-ios-sdk/releases/new \033[0m"
-  echo -e "\033[1;95m - Fill description with changelog info and add IAdvizeSDK.zip as binary to the release \033[0m"
+  echo -e "\033[1;95m - Fill description with changelog info and add IAdvizeSDK.zip & checksum files to the release \033[0m"
 }
 
 if [[ "$1" == "start" ]]; then
