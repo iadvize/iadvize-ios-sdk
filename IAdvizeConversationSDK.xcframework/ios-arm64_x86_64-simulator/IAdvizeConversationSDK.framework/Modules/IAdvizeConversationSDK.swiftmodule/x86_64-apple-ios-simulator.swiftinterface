@@ -4,20 +4,15 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFAudio
 import AVFoundation
-import Apollo
 import CoreServices
 import Foundation
-import Gifu
 @_exported import IAdvizeConversationSDK
-import JWTDecode
 import MobileCoreServices
 import Photos
 import SafariServices
 import Security
 import Swift
-import SwiftGraylog
 import SwiftUI
-import SwiftyMarkdown
 import SystemConfiguration
 import TwilioVideo
 import UIKit
@@ -25,6 +20,9 @@ import UserNotifications
 import XMPPFramework
 import _Concurrency
 import _StringProcessing
+import iAdvizeApollo
+import iAdvizeJWTDecode
+import iAdvizeSwiftyMarkdown
 extension IAdvizeConversationSDK.Transaction {
   @available(swift, obsoleted: 1.0)
   @objc convenience dynamic public init(externalTransactionId: Swift.String, date: Foundation.Date, amount: Swift.Double, currency: IAdvizeConversationSDK.ObjcGraphQLCurrency)
@@ -577,7 +575,7 @@ public enum GDPROption {
   case enabled(option: IAdvizeConversationSDK.GDPREnabledOption)
   case disabled
 }
-public enum Channel : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum Channel : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case appleBusinessChat
   case call
@@ -602,7 +600,7 @@ public enum Channel : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, S
   }
   public typealias AllCases = [IAdvizeConversationSDK.Channel]
 }
-public enum Language : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum Language : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case aa
   case ab
@@ -803,7 +801,7 @@ public enum Language : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, 
   }
   public typealias AllCases = [IAdvizeConversationSDK.Language]
 }
-public enum Source : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum Source : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case appleBusinessChat
   case facebook
@@ -825,7 +823,7 @@ public enum Source : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Sw
   }
   public typealias AllCases = [IAdvizeConversationSDK.Source]
 }
-public enum ApplicationMode : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum ApplicationMode : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case dev
   case prod
@@ -840,7 +838,7 @@ public enum ApplicationMode : Swift.RawRepresentable, Swift.Equatable, Swift.Has
   }
   public typealias AllCases = [IAdvizeConversationSDK.ApplicationMode]
 }
-public enum Currency : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum Currency : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case adp
   case aed
@@ -1082,7 +1080,7 @@ public enum Currency : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, 
   }
   public typealias AllCases = [IAdvizeConversationSDK.Currency]
 }
-public enum CardBundleAttachmentActionType : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum CardBundleAttachmentActionType : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case link
   case select
@@ -1097,7 +1095,7 @@ public enum CardBundleAttachmentActionType : Swift.RawRepresentable, Swift.Equat
   }
   public typealias AllCases = [IAdvizeConversationSDK.CardBundleAttachmentActionType]
 }
-public enum EscalationType : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum EscalationType : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case video
   case voice
@@ -1112,7 +1110,7 @@ public enum EscalationType : Swift.RawRepresentable, Swift.Equatable, Swift.Hash
   }
   public typealias AllCases = [IAdvizeConversationSDK.EscalationType]
 }
-public enum EscalationEndReason : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, Apollo.JSONDecodable, Apollo.JSONEncodable {
+public enum EscalationEndReason : Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable, iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
   public typealias RawValue = Swift.String
   case declined
   case hungUp
@@ -1237,20 +1235,20 @@ extension UIKit.UIFont.TextStyle {
     get
   }
 }
-extension Foundation.UUID : Apollo.JSONDecodable, Apollo.JSONEncodable {
-  public var jsonValue: Apollo.JSONValue {
+extension Foundation.UUID : iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
+  public var jsonValue: iAdvizeApollo.JSONValue {
     get
   }
-  public init(jsonValue value: Apollo.JSONValue) throws
+  public init(jsonValue value: iAdvizeApollo.JSONValue) throws
   public var lowercasedUUIDString: Swift.String {
     get
   }
 }
-extension Foundation.Date : Apollo.JSONDecodable, Apollo.JSONEncodable {
-  public var jsonValue: Apollo.JSONValue {
+extension Foundation.Date : iAdvizeApollo.JSONDecodable, iAdvizeApollo.JSONEncodable {
+  public var jsonValue: iAdvizeApollo.JSONValue {
     get
   }
-  public init(jsonValue value: Apollo.JSONValue) throws
+  public init(jsonValue value: iAdvizeApollo.JSONValue) throws
 }
 extension IAdvizeConversationSDK.IAdvizeSDK {
   @available(swift, obsoleted: 1.0)
@@ -1357,8 +1355,8 @@ extension IAdvizeConversationSDK.IAdvizeSDK {
 public protocol JWEProvider : AnyObject {
   func willRequestJWE(completion: @escaping (_ result: Swift.Result<IAdvizeConversationSDK.JWE, Swift.Error>) -> Swift.Void)
 }
-@_hasMissingDesignatedInitializers open class AuthErrorInterceptor : Apollo.ApolloInterceptor {
-  public func interceptAsync<Operation>(chain: Apollo.RequestChain, request: Apollo.HTTPRequest<Operation>, response: Apollo.HTTPResponse<Operation>?, completion: @escaping (Swift.Result<Apollo.GraphQLResult<Operation.Data>, Swift.Error>) -> Swift.Void) where Operation : Apollo.GraphQLOperation
+@_hasMissingDesignatedInitializers open class AuthErrorInterceptor : iAdvizeApollo.ApolloInterceptor {
+  public func interceptAsync<Operation>(chain: iAdvizeApollo.RequestChain, request: iAdvizeApollo.HTTPRequest<Operation>, response: iAdvizeApollo.HTTPResponse<Operation>?, completion: @escaping (Swift.Result<iAdvizeApollo.GraphQLResult<Operation.Data>, Swift.Error>) -> Swift.Void) where Operation : iAdvizeApollo.GraphQLOperation
   @objc deinit
 }
 extension IAdvizeConversationSDK.TargetingController {

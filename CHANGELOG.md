@@ -1,3 +1,20 @@
+# 2.9.0
+
+### Release date 2023/02/08
+
+**Features**
+
+- Update our bundle to embed almost all our subdependencies,  only Twilio & XMPPFramework remain as external dependencies. See UPGRADING.md for more informations.
+> This change will allow you to use any version of Apollo you need, whichever version is used in the SDK will not conflict with your app dependency.
+
+**Bug fixes**
+
+- Fix bot conversation starting without user GDPR consent
+
+**Dependencies**
+
+- Apollo `0.36.0` -> `0.52.0`
+
 # 2.8.4
 
 ### Release date 2022/12/30

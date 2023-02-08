@@ -408,28 +408,28 @@
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
-      "line": 6,
+      "line": 5,
       "symbol": "ActivationStatus",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
-      "line": 30,
+      "line": 29,
       "symbol": "IAdvizeSDK.dataSource",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
-      "line": 37,
+      "line": 36,
       "symbol": "IAdvizeSDK.activationStatus",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
-      "line": 117,
+      "line": 116,
       "symbol": "IAdvizeSDK.visitorController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
