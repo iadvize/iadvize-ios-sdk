@@ -1,3 +1,11 @@
+# 2.9.1
+
+### Release date 2023/02/13
+
+**Bug fixes**
+
+- Fix bug in framework generation causing upload issues for integrating app
+
 # 2.9.0
 
 ### Release date 2023/02/08

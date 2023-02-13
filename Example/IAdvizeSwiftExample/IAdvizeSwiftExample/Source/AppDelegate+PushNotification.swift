@@ -26,7 +26,7 @@ extension AppDelegate {
         #if DEBUG
         IAdvizeSDK.shared.notificationController.registerPushToken(pushToken, applicationMode: ApplicationMode.dev)
         #else
-        IAdvizeSDK.shared.notificationController.registerPushToken(pushToken, applicationMode: .prod)
+        IAdvizeSDK.shared.notificationController.registerPushToken(pushToken, applicationMode: ApplicationMode.prod)
         #endif
     }
 
