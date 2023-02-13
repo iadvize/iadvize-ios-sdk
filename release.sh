@@ -31,10 +31,6 @@ function checkArtifact() {
 }
 
 function updateReleaseFiles() {
-  echo -e "\033[1;42m => Updating framework \033[0m"
-  rm -rf IAdvizeConversationSDK.xcframework
-  mv tmp/IAdvizeConversationSDK.xcframework IAdvizeConversationSDK.xcframework
-
   echo -e "\033[1;42m => Updating podspec \033[0m"
   cp tmp/iAdvize.podspec iAdvize.podspec
 
