@@ -15,11 +15,10 @@
 		2D624369215276F300F47451 /* AppDelegate+iAdvize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D624364215276F300F47451 /* AppDelegate+iAdvize.swift */; };
 		2D62436A215276F300F47451 /* ViewController+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D624365215276F300F47451 /* ViewController+Configuration.swift */; };
 		2D62436B215276F300F47451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D624366215276F300F47451 /* AppDelegate.swift */; };
-		43EC1D45EA8F1DFD650AE0DB /* Pods_IAdvizeSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCEBD6275BA864243016B3A /* Pods_IAdvizeSwiftExample.framework */; };
+		C57E819C93A3E94E5DD9089A /* Pods_IAdvizeSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30EB17698EC19E5C1559FA4 /* Pods_IAdvizeSwiftExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2130AA5405E5555B386FA717 /* Pods-IAdvizeSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAdvizeSwiftExample.release.xcconfig"; path = "Target Support Files/Pods-IAdvizeSwiftExample/Pods-IAdvizeSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
 		2D10F0DC2151881600671C76 /* IAdvizeSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAdvizeSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D10F0E42151881600671C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D10F0E92151881800671C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,8 +30,9 @@
 		2D624364215276F300F47451 /* AppDelegate+iAdvize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+iAdvize.swift"; sourceTree = "<group>"; };
 		2D624365215276F300F47451 /* ViewController+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Configuration.swift"; sourceTree = "<group>"; };
 		2D624366215276F300F47451 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBCEBD6275BA864243016B3A /* Pods_IAdvizeSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IAdvizeSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6994E91574C1BFC2ABD331A /* Pods-IAdvizeSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAdvizeSwiftExample.debug.xcconfig"; path = "Target Support Files/Pods-IAdvizeSwiftExample/Pods-IAdvizeSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		3BAE103F8DBC0D43A047107D /* Pods-IAdvizeSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAdvizeSwiftExample.release.xcconfig"; path = "Target Support Files/Pods-IAdvizeSwiftExample/Pods-IAdvizeSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		A73EC081B95F720DFE8D7C6A /* Pods-IAdvizeSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAdvizeSwiftExample.debug.xcconfig"; path = "Target Support Files/Pods-IAdvizeSwiftExample/Pods-IAdvizeSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D30EB17698EC19E5C1559FA4 /* Pods_IAdvizeSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IAdvizeSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,20 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43EC1D45EA8F1DFD650AE0DB /* Pods_IAdvizeSwiftExample.framework in Frameworks */,
+				C57E819C93A3E94E5DD9089A /* Pods_IAdvizeSwiftExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A138AA4B9FC209F3FF0899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30EB17698EC19E5C1559FA4 /* Pods_IAdvizeSwiftExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2D10F0D32151881600671C76 = {
 			isa = PBXGroup;
 			children = (
 				2D10F0DE2151881600671C76 /* IAdvizeSwiftExample */,
 				2D10F0DD2151881600671C76 /* Products */,
 				E4BFA1F19F9D4A1B7C94635B /* Pods */,
-				72FB371B03C61BF879BC73AA /* Frameworks */,
+				18A138AA4B9FC209F3FF0899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,19 +98,11 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		72FB371B03C61BF879BC73AA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CBCEBD6275BA864243016B3A /* Pods_IAdvizeSwiftExample.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E4BFA1F19F9D4A1B7C94635B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F6994E91574C1BFC2ABD331A /* Pods-IAdvizeSwiftExample.debug.xcconfig */,
-				2130AA5405E5555B386FA717 /* Pods-IAdvizeSwiftExample.release.xcconfig */,
+				A73EC081B95F720DFE8D7C6A /* Pods-IAdvizeSwiftExample.debug.xcconfig */,
+				3BAE103F8DBC0D43A047107D /* Pods-IAdvizeSwiftExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -114,11 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D10F0EE2151881800671C76 /* Build configuration list for PBXNativeTarget "IAdvizeSwiftExample" */;
 			buildPhases = (
-				0FF5B94F37EE756A5581B413 /* [CP] Check Pods Manifest.lock */,
+				A2CDC6EBF65989FDA2627AFB /* [CP] Check Pods Manifest.lock */,
 				2D10F0D82151881600671C76 /* Sources */,
 				2D10F0D92151881600671C76 /* Frameworks */,
 				2D10F0DA2151881600671C76 /* Resources */,
-				14FA1A18440C435D07F151D6 /* [CP] Embed Pods Frameworks */,
+				E06F4CA675D16B7CC02D5CED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FF5B94F37EE756A5581B413 /* [CP] Check Pods Manifest.lock */ = {
+		A2CDC6EBF65989FDA2627AFB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,7 +207,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		14FA1A18440C435D07F151D6 /* [CP] Embed Pods Frameworks */ = {
+		E06F4CA675D16B7CC02D5CED /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,7 +379,7 @@
 		};
 		2D10F0EF2151881800671C76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6994E91574C1BFC2ABD331A /* Pods-IAdvizeSwiftExample.debug.xcconfig */;
+			baseConfigurationReference = A73EC081B95F720DFE8D7C6A /* Pods-IAdvizeSwiftExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IAdvizeSwiftExample/IAdvizeSwiftExample.entitlements;
@@ -398,7 +398,7 @@
 		};
 		2D10F0F02151881800671C76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2130AA5405E5555B386FA717 /* Pods-IAdvizeSwiftExample.release.xcconfig */;
+			baseConfigurationReference = 3BAE103F8DBC0D43A047107D /* Pods-IAdvizeSwiftExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IAdvizeSwiftExample/IAdvizeSwiftExample.entitlements;
