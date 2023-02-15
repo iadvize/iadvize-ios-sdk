@@ -1,20 +1,6 @@
 {
   "warnings": [
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Resources/GraphQL/Queries/Types.graphql.swift",
-      "line": 1664,
-      "symbol": "ApplicationMode.dev",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Resources/GraphQL/Queries/Types.graphql.swift",
-      "line": 1665,
-      "symbol": "ApplicationMode.prod",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/ChatboxController.swift",
       "line": 105,
       "symbol": "ChatboxControllerDelegate",

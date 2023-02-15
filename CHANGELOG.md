@@ -1,3 +1,12 @@
+# 2.10.0
+
+### Release date 2023/02/15
+
+**Features**
+
+- Add Swift Package Manager support. See UPGRADING.md for more information on how to integrate via SPM.
+- Embed XMPPFramwork inside XCFramework artifact (Twilio is now the only external SDK dependency)
+
 # 2.9.1
 
 ### Release date 2023/02/13
@@ -12,7 +21,7 @@
 
 **Features**
 
-- Update our bundle to embed almost all our subdependencies,  only Twilio & XMPPFramework remain as external dependencies. See UPGRADING.md for more informations.
+- Update our bundle to embed almost all our subdependencies, only Twilio & XMPPFramework remain as external dependencies. See UPGRADING.md for more informations.
 > This change will allow you to use any version of Apollo you need, whichever version is used in the SDK will not conflict with your app dependency.
 
 **Bug fixes**
