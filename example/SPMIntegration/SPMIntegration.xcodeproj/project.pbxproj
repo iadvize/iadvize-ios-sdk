@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		2D624369215276F300F47451 /* AppDelegate+iAdvize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D624364215276F300F47451 /* AppDelegate+iAdvize.swift */; };
 		2D62436A215276F300F47451 /* ViewController+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D624365215276F300F47451 /* ViewController+Configuration.swift */; };
 		2D62436B215276F300F47451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D624366215276F300F47451 /* AppDelegate.swift */; };
+		F6B902DC299D1750004FFEC8 /* IAdvizeConversationSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F6B902DB299D1750004FFEC8 /* IAdvizeConversationSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B902DC299D1750004FFEC8 /* IAdvizeConversationSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,9 @@
 			dependencies = (
 			);
 			name = SPMIntegration;
+			packageProductDependencies = (
+				F6B902DB299D1750004FFEC8 /* IAdvizeConversationSDK */,
+			);
 			productName = SPMIntegration;
 			productReference = 2D10F0DC2151881600671C76 /* SPMIntegration.app */;
 			productType = "com.apple.product-type.application";
@@ -136,6 +141,9 @@
 				Base,
 			);
 			mainGroup = 2D10F0D32151881600671C76;
+			packageReferences = (
+				F6B902DA299D1750004FFEC8 /* XCRemoteSwiftPackageReference "iadvize-ios-sdk" */,
+			);
 			productRefGroup = 2D10F0DD2151881600671C76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -367,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6B902DA299D1750004FFEC8 /* XCRemoteSwiftPackageReference "iadvize-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iadvize/iadvize-ios-sdk/";
+			requirement = {
+				kind = exactVersion;
+				version = 2.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6B902DB299D1750004FFEC8 /* IAdvizeConversationSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6B902DA299D1750004FFEC8 /* XCRemoteSwiftPackageReference "iadvize-ios-sdk" */;
+			productName = IAdvizeConversationSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D10F0D42151881600671C76 /* Project object */;
 }

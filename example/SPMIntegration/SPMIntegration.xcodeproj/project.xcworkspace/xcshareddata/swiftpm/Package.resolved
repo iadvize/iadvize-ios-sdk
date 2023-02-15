@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "iadvize-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iadvize/iadvize-ios-sdk/",
+      "state" : {
+        "revision" : "65b52caf88ba02e8deee046d40938683e3326ac9",
+        "version" : "2.10.0"
+      }
+    }
+  ],
+  "version" : 2
+}
