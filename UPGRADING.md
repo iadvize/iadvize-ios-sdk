@@ -1,3 +1,7 @@
+## 2.10.0 > 2.11.0
+
+*Nothing to report*
+
 ## 2.9.1 > 2.10.0
 
 Release 2.10.0 bring Swift Package Manager support. You can now add the iAdvize Messenger SDK as a Swift package from Xcode: 

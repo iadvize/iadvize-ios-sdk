@@ -142,155 +142,197 @@
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 141,
+      "line": 148,
       "symbol": "ImageAttachment.imageURL",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 145,
+      "line": 152,
       "symbol": "ImageAttachment.imageName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 169,
+      "line": 176,
       "symbol": "FileAttachment.fileURL",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 175,
+      "line": 182,
       "symbol": "FileAttachment.imageURL",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 179,
+      "line": 186,
       "symbol": "FileAttachment.imageName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 187,
+      "line": 194,
       "symbol": "ConversationMessageAttachmentLinkAction.cardActionType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 193,
+      "line": 200,
       "symbol": "ConversationMessageAttachmentSelectAction.cardActionType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 199,
+      "line": 206,
       "symbol": "ProductOfferAttachment.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 203,
+      "line": 210,
       "symbol": "ProductOfferAttachment.productOfferActions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 207,
+      "line": 214,
       "symbol": "ProductOfferAttachment.imageLink",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 211,
+      "line": 218,
       "symbol": "ProductOfferAttachment.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 215,
+      "line": 222,
       "symbol": "ProductOfferAttachment.price",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 219,
+      "line": 226,
       "symbol": "ProductOfferAttachment.offerPrice",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 223,
+      "line": 230,
       "symbol": "ProductOfferAttachment.productIsAvailable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 229,
+      "line": 236,
       "symbol": "ConversationMessageAttachmentImageLink.cardImageURL",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 233,
+      "line": 240,
       "symbol": "ConversationMessageAttachmentImageLink.cardImageDescription",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 239,
+      "line": 246,
       "symbol": "CardAttachment.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 243,
+      "line": 250,
       "symbol": "CardAttachment.text",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 247,
+      "line": 254,
       "symbol": "CardAttachment.imageLink",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 251,
+      "line": 258,
       "symbol": "CardAttachment.cardActions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 272,
+      "line": 279,
       "symbol": "CardBundleAttachment.cardBundleCards",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 278,
+      "line": 285,
       "symbol": "ProductOfferBundleAttachment.bundleProductOffers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
+      "line": 291,
+      "symbol": "WaitingTimeEstimatedSystemAttachment.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
+      "line": 300,
+      "symbol": "WaitingTimeEstimatedSystemAttachment.replyType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
+      "line": 311,
+      "symbol": "WaitingTimeEstimatedSystemAttachment.estimationType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
+      "line": 326,
+      "symbol": "WaitingTimeExceededSystemAttachment.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
+      "line": 335,
+      "symbol": "WaitingTimeExceededSystemAttachment.replyType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
+      "line": 346,
+      "symbol": "WaitingTimeExceededSystemAttachment.estimationType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },

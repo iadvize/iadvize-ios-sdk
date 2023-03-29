@@ -33,7 +33,6 @@ function checkArtifact() {
 function updateReleaseFiles() {
   echo -e "\033[1;42m => Updating release files \033[0m"
   cp tmp/iAdvize.podspec iAdvize.podspec
-  cp tmp/Package.swift Package.swift
   mv tmp/CHANGELOG.md CHANGELOG.md
   mv tmp/UPGRADING.md UPGRADING.md
   mv tmp/README.md README.md

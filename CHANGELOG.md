@@ -1,3 +1,12 @@
+# 2.11.0
+
+### Release date 2023/03/29
+
+**Features**
+
+- Disable satisfaction survey after failed bot transfer if parametrized in the admin
+- Handle the Estimated Waiting Time messages
+
 # 2.10.0
 
 ### Release date 2023/02/15
