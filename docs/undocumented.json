@@ -8,13 +8,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/ChatboxController.swift",
-      "line": 238,
-      "symbol": "ChatboxController.presentChatbox(animated:presentingViewController:completion:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationChannel.swift",
       "line": 11,
       "symbol": "ConversationChannel",
@@ -450,14 +443,14 @@
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
-      "line": 36,
+      "line": 32,
       "symbol": "IAdvizeSDK.activationStatus",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
-      "line": 116,
+      "line": 112,
       "symbol": "IAdvizeSDK.visitorController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"

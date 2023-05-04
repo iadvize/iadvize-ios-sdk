@@ -1,3 +1,11 @@
+# 2.11.1
+
+### Release date 2023/05/03
+
+**Bug fixes**
+
+- Fix ApplicationMode forcing to .prod even in .dev mode
+
 # 2.11.0
 
 ### Release date 2023/03/29
