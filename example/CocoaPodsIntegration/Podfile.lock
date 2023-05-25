@@ -1,10 +1,10 @@
 PODS:
-  - iAdvize (2.11.0):
+  - iAdvize (2.12.0):
     - TwilioVideo (~> 4.6)
   - TwilioVideo (4.6.3)
 
 DEPENDENCIES:
-  - iAdvize (~> 2.11.0)
+  - iAdvize (~> 2.12.0)
 
 SPEC REPOS:
   trunk:
@@ -12,9 +12,9 @@ SPEC REPOS:
     - TwilioVideo
 
 SPEC CHECKSUMS:
-  iAdvize: 0e1654fc6de3db9cfd86710cf9b1a22fe1aa9f1e
+  iAdvize: 5f2994c8df6303691635694ef1cad36292380005
   TwilioVideo: 4afaac028c5886f2f3b313a9fcc146a6b7ca34e2
 
-PODFILE CHECKSUM: 7939e8c951c593ebe652d33305bfeb3eb40caa44
+PODFILE CHECKSUM: a66edc654a0de2b70a6d34bf28edb1c3b38f683c
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1
