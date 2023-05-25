@@ -33,9 +33,9 @@ function checkArtifact() {
 function updateReleaseFiles() {
   echo -e "\033[1;42m => Updating release files \033[0m"
   cp tmp/iAdvize.podspec iAdvize.podspec
-  mv tmp/CHANGELOG.md CHANGELOG.md
-  mv tmp/UPGRADING.md UPGRADING.md
-  mv tmp/README.md README.md
+
+  echo -e "\033[1;42m => Updating CHANGELOG & UPGRADING & README & SUPPORT. \033[0m"
+  mv tmp/*.md .
 
   echo -e "\033[1;42m => Updating documentation \033[0m"
   rm -rf docs
