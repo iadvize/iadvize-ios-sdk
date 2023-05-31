@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/iadvize/iadvize-ios-sdk/",
       "state" : {
-        "revision" : "d146ecc582a4e27b950824fa64c6f0dceda13c9e",
-        "version" : "2.12.0"
+        "revision" : "72758e0ef1394ef4838ed38e34dbc4a79576b8f2",
+        "version" : "2.12.1"
       }
     }
   ],
