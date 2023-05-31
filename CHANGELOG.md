@@ -1,3 +1,12 @@
+# 2.12.1 (Angelot)
+
+### Release date 2023/05/31
+
+**Bug fixes**
+
+- Fix video conversation flow wrongly changing the conversation channel
+- Fix font update on several message types
+
 # 2.12.0
 
 ### Release date 2023/05/25
