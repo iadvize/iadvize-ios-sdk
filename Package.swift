@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "iAdvize",
     platforms: [
-        .iOS("12.0")
+        .iOS("13.0")
     ],
     products: [
         .library(
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IAdvizeConversationSDK",
-            url: "https://github.com/iadvize/iadvize-ios-sdk/releases/download/2.12.1/IAdvizeSDK.zip",
-            checksum: "ecfa5b99a4c2509c38f1cdbd37b67b2c941920aeabffa8441296d308eab9c14b"
+            url: "https://github.com/iadvize/iadvize-ios-sdk/releases/download/2.13.0/IAdvizeSDK.zip",
+            checksum: "3f0f2c56dbd35a1cdc2651e532f7fb052e8caa54cb5e01d945fb91abb2306266"
         ),
         .binaryTarget(
             name: "TwilioVideo",

@@ -235,7 +235,7 @@
 
 <p>Usage: instantiate a default configuration, set the properties you want, and apply them to the chatbox:</p>
 <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">configuration</span> <span class="o">=</span> <span class="kt">ChatboxConfiguration</span><span class="p">()</span>
-<span class="n">configuration</span><span class="o">.</span><span class="n">mainColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">red</span>
+<span class="n">configuration</span><span class="o">.</span><span class="n">accentColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">red</span>
 <span class="kt">IAdvizeSDK</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">chatboxController</span><span class="o">.</span><span class="nf">setupChatbox</span><span class="p">(</span><span class="nv">configuration</span><span class="p">:</span> <span class="n">configuration</span><span class="p">)</span>
 </code></pre>
 
@@ -279,7 +279,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">mainColor</span><span class="p">:</span> <span class="kt">UIColor</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">deprecated</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"Use `outgoingMessageBackgroundColor` &amp; `accentColor` instead."</span><span class="p">)</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">mainColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -363,9 +364,9 @@
                       <div class="abstract">
                         <p>Font that will be used to display text in all UI elements of the iAdvize SDK.</p>
 
-<p>We will use the font with the same name but adapt the size according to the element in which the font is used.</p>
+<p>The font with the same name will be used but its size will be adapted according to the element in which it is used.</p>
 
-<p>By default, we will use the system font provided by iOS.</p>
+<p>By default, the system font provided by iOS is used.</p>
 
                       </div>
                       <div class="declaration">
@@ -564,6 +565,195 @@ is tapped.</p>
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:22IAdvizeConversationSDK20ChatboxConfigurationV30incomingMessageBackgroundColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/incomingMessageBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK20ChatboxConfigurationV30incomingMessageBackgroundColorSo7UIColorCSgvp">incomingMessageBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color of message bubble for incoming (operator) messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">incomingMessageBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK20ChatboxConfigurationV24incomingMessageTextColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/incomingMessageTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK20ChatboxConfigurationV24incomingMessageTextColorSo7UIColorCSgvp">incomingMessageTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color of message text for incoming (operator) messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">incomingMessageTextColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK20ChatboxConfigurationV26incomingMessageBorderColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/incomingMessageBorderColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK20ChatboxConfigurationV26incomingMessageBorderColorSo7UIColorCSgvp">incomingMessageBorderColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color of message border for incoming (operator) messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">incomingMessageBorderColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK20ChatboxConfigurationV30outgoingMessageBackgroundColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/outgoingMessageBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK20ChatboxConfigurationV30outgoingMessageBackgroundColorSo7UIColorCSgvp">outgoingMessageBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color of message bubble for outgoing (visitor) messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">outgoingMessageBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK20ChatboxConfigurationV24outgoingMessageTextColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/outgoingMessageTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK20ChatboxConfigurationV24outgoingMessageTextColorSo7UIColorCSgvp">outgoingMessageTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color of message text for outgoing (visitor) messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">outgoingMessageTextColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK20ChatboxConfigurationV26outgoingMessageBorderColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/outgoingMessageBorderColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK20ChatboxConfigurationV26outgoingMessageBorderColorSo7UIColorCSgvp">outgoingMessageBorderColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color of message border for outgoing (visitor) messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">outgoingMessageBorderColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK20ChatboxConfigurationV11accentColorSo7UIColorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/accentColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK20ChatboxConfigurationV11accentColorSo7UIColorCSgvp">accentColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used for message controls (quick answers, file messages, send button etc&hellip;)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">accentColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:22IAdvizeConversationSDK20ChatboxConfigurationVACycfc"></a>
                     <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
                     <a class="token" href="#/s:22IAdvizeConversationSDK20ChatboxConfigurationVACycfc">init()</a>
@@ -593,7 +783,7 @@ is tapped.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2023 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2023-05-31)</p>
+          <p>&copy; 2023 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2023-08-08)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

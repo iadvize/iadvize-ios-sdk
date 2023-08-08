@@ -8,6 +8,7 @@
 
 import Foundation
 import IAdvizeConversationSDK
+import UIKit
 
 extension AppDelegate {
     func iAdvizeSetup() {

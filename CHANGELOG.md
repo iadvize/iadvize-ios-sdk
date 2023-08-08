@@ -1,3 +1,20 @@
+# 2.13.0
+
+### Release date 2023/08/08
+
+**Features**
+
+- Allow a more sophisticated message color customization
+- Add a LogLevel mode to remove all logs
+
+**Bug fixes**
+
+- Fix conversation management after various network connection issues (phone sleep / app in bakground)
+
+**Dependencies**
+
+- Updated min supported iOS platform from `12.0` to `13.0`
+
 # 2.12.1 (Angelot)
 
 ### Release date 2023/05/31
