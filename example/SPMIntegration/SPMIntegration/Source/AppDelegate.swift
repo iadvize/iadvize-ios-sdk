@@ -30,7 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
 
         iAdvizeSetup()
-
         pushNotificationsSetup()
 
         return true

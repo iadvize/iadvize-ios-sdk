@@ -27,17 +27,20 @@ extension AppDelegate {
 
         let mainColor = UIColor(red: 0.96, green: 0.49, blue: 0.38, alpha: 1.0)
 
-        configuration.mainColor = mainColor
+        configuration.font = UIFont(name: "HelveticaNeue", size: 11.0)!
+        configuration.accentColor = mainColor
+        configuration.outgoingMessageBackgroundColor = mainColor
+
         configuration.navigationBarBackgroundColor = mainColor
         configuration.navigationBarMainColor = .white
         configuration.navigationBarTitle = NSLocalizedString("Say Hello 👋", comment: "")
-        configuration.font = UIFont(name: "HelveticaNeue", size: 11.0)!
-        configuration.automaticMessage = NSLocalizedString("Any question? Say Hello to Smart and we will answer you as soon as possible! 😊", comment: "")
-        configuration.gdprMessage = NSLocalizedString("As part of the GDPR, we have to ask you to consent to our legal information.", comment: "")
-        // Update avatar for the incoming messages
+
         if let image = UIImage(named: "AppIcon") {
             configuration.incomingMessageAvatar = IncomingMessageAvatar.image(image: image)
         }
+        configuration.automaticMessage = NSLocalizedString("Any question? Say Hello to Smart and we will answer you as soon as possible! 😊", comment: "")
+        configuration.gdprMessage = NSLocalizedString("As part of the GDPR, we have to ask you to consent to our legal information.", comment: "")
+
         configuration.presentationStyle = .fullScreen
 
         IAdvizeSDK.shared.chatboxController.setupChatbox(configuration: configuration)

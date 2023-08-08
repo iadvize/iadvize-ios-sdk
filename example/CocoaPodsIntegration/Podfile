@@ -3,5 +3,5 @@ inhibit_all_warnings!
 
 target 'CocoaPodsIntegration' do
     project 'CocoaPodsIntegration'
-    pod 'iAdvize', '~> 2.12.1'
+    pod 'iAdvize', '~> 2.13.0'
 end
