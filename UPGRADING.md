@@ -1,3 +1,7 @@
+## 2.13.0 > 2.13.1
+
+*Nothing to report*
+
 ## 2.12.1 > 2.13.0
 
 This release deprecates the ChatboxConfiguration.mainColor setting and adds new ways to customize the look and feel of the messages, both the ones from the visitor and the ones from the agent. Please review the new parameters to customize chatbox messages to your liking.

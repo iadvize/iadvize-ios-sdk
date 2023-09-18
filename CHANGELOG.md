@@ -1,3 +1,12 @@
+# 2.13.1
+
+### Release date 2023/09/18
+
+**Bug fixes**
+
+- Force Chatbox APIs computation on main UI thread
+- Fix WaitingTime messages font
+
 # 2.13.0
 
 ### Release date 2023/08/08
