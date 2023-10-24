@@ -1,4 +1,24 @@
-# 2.13.1
+# 2.14.0 (Cantal)
+
+### Release date 2023/10/24
+
+**Features**
+
+- Add automatic auth token refresh management
+- Remove preview image when it is empty (previously used a placeholder)
+- Add `ChatboxControllerDelegate.chatboxDidOpen` API
+
+**Bug fixes**
+
+- Fix web & markdown links display
+- Fix QuickReplies hit detection when no avatar is set
+- Review of Chatbox APIs computation on main UI thread
+
+**Dependencies**
+
+- iOS Target `14.2` -> `15.0`
+
+# 2.13.1 (Beaufort)
 
 ### Release date 2023/09/18
 
@@ -7,7 +27,7 @@
 - Force Chatbox APIs computation on main UI thread
 - Fix WaitingTime messages font
 
-# 2.13.0
+# 2.13.0 (Beaufort)
 
 ### Release date 2023/08/08
 
