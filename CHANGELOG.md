@@ -1,3 +1,17 @@
+# 2.14.1 (Cantal)
+
+### Release date 2023/11/27
+
+**Features**
+
+- Support multiline in QuickReply choices
+
+**Bug fixes**
+
+- Add missing completion call on secured auth activation failure callback
+- Fix conversation closing regression caused by the token refresh strategy
+
+
 # 2.14.0 (Cantal)
 
 ### Release date 2023/10/24
