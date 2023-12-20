@@ -1,3 +1,16 @@
+# 2.14.2 (Cantal)
+
+### Release date 2023/12/20
+
+**Features**
+
+- Support simple Markdown syntax inside QuickReply messages
+- Add some translations for GDPR messages (cs, da, pl, sk, sv)
+
+**Bug fixes**
+
+- Fix GDPR mode not updating after multiple activations
+
 # 2.14.1 (Cantal)
 
 ### Release date 2023/11/27
@@ -10,7 +23,6 @@
 
 - Add missing completion call on secured auth activation failure callback
 - Fix conversation closing regression caused by the token refresh strategy
-
 
 # 2.14.0 (Cantal)
 
