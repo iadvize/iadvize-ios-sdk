@@ -1,3 +1,14 @@
+# 2.14.3 (Cantal)
+
+**Features**
+
+- Clear iAdvize Push Notifications on chatbox opening
+- Add an API for clearing iAdvize Push Notifications on demand
+
+**Bug fixes**
+
+- Fix a UI thread crash when displaying error view
+
 # 2.14.2 (Cantal)
 
 ### Release date 2023/12/20
