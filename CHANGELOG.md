@@ -1,4 +1,15 @@
+# 2.14.4
+
+### Release date 2024/03/19
+
+**Bug fixes**
+
+- Fix markdown links not triggering the SDK click handler
+- Fix deadlock state in case of first XMPP connection error
+
 # 2.14.3 (Cantal)
+
+### Release date 2024/01/15
 
 **Features**
 
