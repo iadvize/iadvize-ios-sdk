@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -382,7 +382,7 @@
 			repositoryURL = "https://github.com/iadvize/iadvize-ios-sdk/";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.10.0;
+				minimumVersion = 2.14.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
