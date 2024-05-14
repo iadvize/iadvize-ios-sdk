@@ -1,4 +1,12 @@
-# 2.14.4
+# 2.14.5 (Cantal)
+
+### Release date 2024/05/14
+
+**Bug fixes**
+
+- Fix line feed escaping breaking markdown syntax in bot messages
+
+# 2.14.4 (Cantal)
 
 ### Release date 2024/03/19
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                     = 'iAdvize'
-  spec.version                  = '2.14.4'
+  spec.version                  = '2.14.5'
   spec.license                  = { :type => 'Proprietary', :file => 'LICENSE.md' }
   spec.homepage                 = 'https://github.com/iadvize/iadvize-ios-sdk'
   spec.authors                  = { 'iAdvize' => 'mobile@iadvize.com' }

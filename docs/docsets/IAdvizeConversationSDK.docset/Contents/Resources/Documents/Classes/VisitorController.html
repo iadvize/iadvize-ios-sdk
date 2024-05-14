@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VisitorController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/VisitorController" class="dashAnchor"></a>
+    <a title="VisitorController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">iAdvize iOS SDK</a></p>
+        <p class="header-right"><a href="https://github.com/iadvize/iadvize-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">IAdvizeConversationSDK</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Other%20Classes.html">Other Classes</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        VisitorController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../iAdvize%20SDK.html">iAdvize SDK</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/IAdvizeSDK.html">IAdvizeSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AuthenticationOption.html">AuthenticationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GDPROption.html">GDPROption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GDPREnabledOption.html">GDPREnabledOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GDPRDelegate.html">GDPRDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Logger/LogLevel.html">– LogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Conversation.html">Conversation</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ConversationController.html">ConversationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConversationControllerDelegate.html">ConversationControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Targeting.html">Targeting</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TargetingController.html">TargetingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TargetingControllerDelegate.html">TargetingControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKLanguageOption.html">SDKLanguageOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Language.html">Language</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Chatbox%20and%20Chat%20button.html">Chatbox and Chat button</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ChatboxController.html">ChatboxController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ChatboxConfiguration.html">ChatboxConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/IncomingMessageAvatar.html">IncomingMessageAvatar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Push%20Notifications.html">Push Notifications</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationController.html">NotificationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ApplicationMode.html">ApplicationMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Transactions.html">Transactions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TransactionController.html">TransactionController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Transaction.html">Transaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Currency.html">Currency</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other%20Classes.html#/s:22IAdvizeConversationSDK18AuthTokenRefresherC">AuthTokenRefresher</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Button.html">Button</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GradientView.html">GradientView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/JWE.html">JWE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KeyboardObserver.html">KeyboardObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Label.html">Label</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OngoingConversation.html">OngoingConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TargetingRule.html">TargetingRule</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VisitorController.html">VisitorController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/XibView.html">XibView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ActivationStatus.html">ActivationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConversationChannel.html">ConversationChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CustomData.html">CustomData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavigationOption.html">NavigationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKEnvironment.html">SDKEnvironment</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other%20Extensions.html#/AppKit">AppKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Other%20Extensions.html#/Graylog">Graylog</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatboxControllerDelegate.html">ChatboxControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IAdvizeSDKEnvironmentDataSource.html">IAdvizeSDKEnvironmentDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/JWEProvider.html">JWEProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/KeyboardObserverDelegate.html">KeyboardObserverDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>VisitorController</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">VisitorController</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22IAdvizeConversationSDK17VisitorControllerC18registerCustomData06customH010completionySDySSAA0gH0OG_ySbcSgtF"></a>
+                    <a name="//apple_ref/swift/Method/registerCustomData(customData:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22IAdvizeConversationSDK17VisitorControllerC18registerCustomData06customH010completionySDySSAA0gH0OG_ySbcSgtF">registerCustomData(customData:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Send a list of Visitor Custom Data.</p>
+
+<p>A visitor custom data is a key value pair linked to a visitor and whose valorization
+is at the initiative of the integrator.</p>
+
+<p>Please visit <a href="https://github.com/iadvize/iadvize-android-sdk">https://github.com/iadvize/iadvize-android-sdk</a> for further information.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">registerCustomData</span><span class="p">(</span><span class="nv">customData</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt"><a href="../Enums/CustomData.html">CustomData</a></span><span class="p">],</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>customData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Map which contains the list of value key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2024-05-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
