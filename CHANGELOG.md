@@ -1,3 +1,11 @@
+# 2.14.6 (Cantal)
+
+### Release date 2024/06/07
+
+**Bug fixes**
+
+- Fix XMPP handling for GenAI product info messages
+
 # 2.14.5 (Cantal)
 
 ### Release date 2024/05/14
