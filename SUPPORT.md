@@ -10,11 +10,10 @@ Here is the list of currently supported versions:
 
 | Version  | Type                        | Status          |
 | -------- | --------------------------- | --------------- |
-| `2.14.6` | Latest release              | Full support    |
-| `2.14.z` | Current MAJOR               | Full support    |
+| `2.15.0` | Latest release              | Full support    |
+| `2.14.z` | Current MAJOR, last 3 MINOR | Partial support |
 | `2.13.z` | Current MAJOR, last 3 MINOR | Partial support |
 | `2.12.z` | Current MAJOR, last 3 MINOR | Partial support |
-| `2.11.z` | Current MAJOR, last 3 MINOR | Partial support |
 
 > *⚠️ All versions that are not listed in the table above are not supported anymore. Please update to a supported version and check your issue again before contacting the iAdvize Help Center.*
 
