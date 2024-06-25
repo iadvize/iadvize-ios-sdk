@@ -1,4 +1,4 @@
-# 2.15.1 (Dauphin)
+# 2.15.2 (Dauphin)
 
 ### Release date 2024/06/25
 
