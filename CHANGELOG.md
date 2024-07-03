@@ -1,3 +1,11 @@
+# 2.15.3
+
+### Release date 2024/07/03
+
+**Features**
+
+- Add a full debug log level (to use with caution, only with iAdvize approval to live debug)
+
 # 2.15.2 (Dauphin)
 
 ### Release date 2024/06/25

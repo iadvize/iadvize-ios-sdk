@@ -1,3 +1,7 @@
+## 2.15.2 > 2.15.3
+
+This release adds a new logger level `.all` to force the logging of all possible logs of the SDK. This must be used with caution as latencies may be noticed in the hosting app, so do not use this feature without iAdvize explicit authorization for live debugging.
+
 ## 2.15.0 > 2.15.2
 
 *Nothing to report*

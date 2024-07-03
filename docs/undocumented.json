@@ -471,14 +471,21 @@
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
-      "line": 222,
+      "line": 221,
+      "symbol": "Logger.LogLevel.all",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "line": 223,
       "symbol": "Logger.LogLevel.intValue()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
-      "line": 239,
+      "line": 242,
       "symbol": "Logger.LogLevel.>=(_:_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
