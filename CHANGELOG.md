@@ -1,4 +1,13 @@
-# 2.15.3
+# 2.15.4 (Dauphin)
+
+### Release date 2024/07/13
+
+**Bug fixes**
+
+- Fix certain cases of authentication deadlock
+- Fix keychain error impacting transactions and video
+
+# 2.15.3 (Dauphin)
 
 ### Release date 2024/07/03
 
