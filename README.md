@@ -10,7 +10,7 @@ Embed the iAdvize Messenger SDK into your app and connect your visitors with you
 
 | Version        | Min iOS | Swift | Xcode  |
 | -------------- | ------- | ----- | ------ |
-| 2.14 - 2.15    | 13.0    | 5     | 15.2.X |
+| 2.14 - 2.16    | 13.0    | 5     | 15.2.X |
 | 2.13           | 13.0    | 5     | 14.2.X |
 | 2.9 -> 2.12    | 12.0    | 5     | 14.2.X |
 | 2.8.2 -> 2.8.4 | 12.0    | 5     | 14.1.X |

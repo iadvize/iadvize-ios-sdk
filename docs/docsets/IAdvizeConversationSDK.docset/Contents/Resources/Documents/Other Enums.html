@@ -182,6 +182,9 @@
               <li class="nav-group-task">
                 <a href="Enums/SDKEnvironment.html">SDKEnvironment</a>
               </li>
+              <li class="nav-group-task">
+                <a href="Enums/TargetingError.html">TargetingError</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -191,7 +194,13 @@
                 <a href="Other%20Extensions.html#/AppKit">AppKit</a>
               </li>
               <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/GraphQL">GraphQL</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Other%20Extensions.html#/Graylog">Graylog</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/NetworkReachabilityManager">NetworkReachabilityManager</a>
               </li>
               <li class="nav-group-task">
                 <a href="Extensions/UIWindow.html">UIWindow</a>
@@ -249,6 +258,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ConversationChannel</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">Sendable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ConversationChannel</span><span class="p">:</span> <span class="kt">Encodable</span></code></pre>
 
                         </div>
                       </div>
@@ -277,6 +287,36 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">NavigationOption</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@IAdvizeConversationSDK@E@TargetingError"></a>
+                    <a name="//apple_ref/swift/Enum/TargetingError" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@IAdvizeConversationSDK@E@TargetingError">TargetingError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>TargetingError</code> is an error that can occur when you try to activate a targeting rule using
+<code><a href="Classes/TargetingController.html#/c:@M@IAdvizeConversationSDK@objc(cs)TargetingController(im)activateTargetingRuleWithTargetingRule:">TargetingController.activateTargetingRule(targetingRule:)</a></code>.</p>
+
+                        <a href="Enums/TargetingError.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TargetingError</span> <span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="kt">Error</span></code></pre>
 
                         </div>
                       </div>
@@ -332,7 +372,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ActivationStatus</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ActivationStatus</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ActivationStatus</span><span class="p">:</span> <span class="kt">Encodable</span></code></pre>
 
                         </div>
                       </div>
@@ -372,7 +413,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2024 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2024-07-13)</p>
+          <p>&copy; 2024 <a class="link" href="https://www.iadvize.com/" target="_blank" rel="external noopener">iAdvize</a>. All rights reserved. (Last updated: 2024-09-17)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

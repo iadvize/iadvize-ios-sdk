@@ -1,684 +1,516 @@
 {
   "warnings": [
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/ChatboxController.swift",
-      "line": 140,
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/ChatboxController.swift",
+      "line": 149,
       "symbol": "ChatboxControllerDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationChannel.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationChannel.swift",
       "line": 11,
       "symbol": "ConversationChannel",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationChannel.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationChannel.swift",
       "line": 12,
       "symbol": "ConversationChannel.chat",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationChannel.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationChannel.swift",
       "line": 13,
       "symbol": "ConversationChannel.video",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationController.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationChannel.swift",
+      "line": 147,
+      "symbol": "ConversationChannel",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/ConversationController.swift",
       "line": 58,
       "symbol": "ConversationController.ongoingConversation()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Conversation/OngoingConversation.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/OngoingConversation.swift",
       "line": 3,
       "symbol": "OngoingConversation",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Conversation/OngoingConversation.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/OngoingConversation.swift",
       "line": 4,
       "symbol": "OngoingConversation.conversationId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Conversation/OngoingConversation.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/OngoingConversation.swift",
       "line": 5,
       "symbol": "OngoingConversation.conversationChannel",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Targeting/NavigationOption.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Conversation/OngoingConversation.swift",
+      "line": 18,
+      "symbol": "OngoingConversation",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Targeting/NavigationOption.swift",
       "line": 11,
       "symbol": "NavigationOption",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Targeting/NavigationOption.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Targeting/NavigationOption.swift",
       "line": 12,
       "symbol": "NavigationOption.clearActiveRule",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Targeting/NavigationOption.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Targeting/NavigationOption.swift",
       "line": 13,
       "symbol": "NavigationOption.keepActiveRule",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Targeting/NavigationOption.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Targeting/NavigationOption.swift",
       "line": 14,
       "symbol": "NavigationOption.activateNewRule(targetingRule:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Targeting/TargetingRule.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Targeting/TargetingRule.swift",
       "line": 11,
       "symbol": "TargetingRule",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Targeting/TargetingRule.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Targeting/TargetingRule.swift",
       "line": 15,
       "symbol": "TargetingRule.init(id:conversationChannel:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Targeting/TargetingRule.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Targeting/TargetingRule.swift",
       "line": 20,
       "symbol": "TargetingRule.init(id:objcConversationChannel:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Controllers/Visitor/VisitorController.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Targeting/TargetingRule.swift",
+      "line": 26,
+      "symbol": "TargetingRule",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Controllers/Visitor/VisitorController.swift",
       "line": 11,
       "symbol": "VisitorController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/ConversationErrorView/ConversationErrorView.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Conversation/ConversationView/ConversationErrorView/ConversationErrorView.swift",
       "line": 91,
       "symbol": "ConversationErrorView.instanceFromNib()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Media/Media Picker/MediaPicker.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Media/Media Picker/MediaPicker.swift",
       "line": 141,
       "symbol": "MediaPicker.imagePickerController(_:didFinishPickingMediaWithInfo:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Media/Media Picker/MediaPicker.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Media/Media Picker/MediaPicker.swift",
       "line": 168,
       "symbol": "MediaPicker.documentPicker(_:didPickDocumentsAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 141,
-      "symbol": "ImageAttachment.imageURL",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 145,
-      "symbol": "ImageAttachment.imageName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 169,
-      "symbol": "FileAttachment.fileURL",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 175,
-      "symbol": "FileAttachment.imageURL",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 179,
-      "symbol": "FileAttachment.imageName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 195,
-      "symbol": "ConversationMessageAttachmentLinkAction.cardActionType",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 201,
-      "symbol": "ConversationMessageAttachmentSelectAction.cardActionType",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 207,
-      "symbol": "ProductOfferAttachment.description",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 211,
-      "symbol": "ProductOfferAttachment.productOfferActions",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 215,
-      "symbol": "ProductOfferAttachment.imageLink",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 219,
-      "symbol": "ProductOfferAttachment.name",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 223,
-      "symbol": "ProductOfferAttachment.price",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 227,
-      "symbol": "ProductOfferAttachment.offerPrice",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 231,
-      "symbol": "ProductOfferAttachment.productIsAvailable",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 237,
-      "symbol": "ConversationMessageAttachmentImageLink.cardImageURL",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 241,
-      "symbol": "ConversationMessageAttachmentImageLink.cardImageDescription",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 247,
-      "symbol": "CardAttachment.title",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 251,
-      "symbol": "CardAttachment.text",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 255,
-      "symbol": "CardAttachment.imageLink",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 259,
-      "symbol": "CardAttachment.cardActions",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 280,
-      "symbol": "CardBundleAttachment.cardBundleCards",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 286,
-      "symbol": "ProductOfferBundleAttachment.bundleProductOffers",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 292,
-      "symbol": "WaitingTimeEstimatedSystemAttachment.label",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 300,
-      "symbol": "WaitingTimeEstimatedSystemAttachment.replyType",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 311,
-      "symbol": "WaitingTimeEstimatedSystemAttachment.estimationType",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 326,
-      "symbol": "WaitingTimeExceededSystemAttachment.label",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 334,
-      "symbol": "WaitingTimeExceededSystemAttachment.replyType",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Conversation/ConversationView/Model+ConversationUI/NewMessage+ConversationUI.swift",
-      "line": 345,
-      "symbol": "WaitingTimeExceededSystemAttachment.estimationType",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
       "line": 12,
       "symbol": "SDKEnvironment",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
       "line": 13,
       "symbol": "SDKEnvironment.ha",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
       "line": 14,
       "symbol": "SDKEnvironment.messaging",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
       "line": 15,
       "symbol": "SDKEnvironment.custom(name:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
       "line": 18,
       "symbol": "IAdvizeSDKEnvironmentDataSource",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Debug-IAdvizeSDK+DataSource.swift",
       "line": 19,
       "symbol": "IAdvizeSDKEnvironmentDataSource.currentEnvironment()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
       "line": 5,
       "symbol": "ActivationStatus",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
       "line": 29,
       "symbol": "IAdvizeSDK.dataSource",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
       "line": 32,
       "symbol": "IAdvizeSDK.activationStatus",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
       "line": 112,
       "symbol": "IAdvizeSDK.visitorController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/JWEProvider.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/IAdvizeSDK.swift",
+      "line": 146,
+      "symbol": "ActivationStatus",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/JWEProvider.swift",
       "line": 11,
       "symbol": "JWE",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/JWEProvider.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/JWEProvider.swift",
       "line": 14,
       "symbol": "JWE.init(value:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/JWEProvider.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/JWEProvider.swift",
       "line": 19,
       "symbol": "JWEProvider",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/JWEProvider.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/JWEProvider.swift",
       "line": 20,
       "symbol": "JWEProvider.willRequestJWE(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 215,
       "symbol": "Logger.LogLevel.verbose",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 216,
       "symbol": "Logger.LogLevel.info",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 217,
       "symbol": "Logger.LogLevel.warning",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 218,
       "symbol": "Logger.LogLevel.error",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 219,
       "symbol": "Logger.LogLevel.success",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 220,
       "symbol": "Logger.LogLevel.none",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 221,
       "symbol": "Logger.LogLevel.all",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 223,
       "symbol": "Logger.LogLevel.intValue()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Logger/Logger.swift",
       "line": 242,
       "symbol": "Logger.LogLevel.>=(_:_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/PushNotificationManager/PushNotificationManager.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/PushNotificationManager/PushNotificationManager.swift",
       "line": 64,
       "symbol": "PushNotificationManager.userNotificationCenter(_:willPresent:withCompletionHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/PushNotificationManager/PushNotificationManager.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/PushNotificationManager/PushNotificationManager.swift",
       "line": 70,
       "symbol": "PushNotificationManager.userNotificationCenter(_:didReceive:withCompletionHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/Button.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/Button.swift",
       "line": 7,
       "symbol": "Button.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/Button.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/Button.swift",
       "line": 12,
       "symbol": "Button.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/Button.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/Button.swift",
       "line": 17,
       "symbol": "Button.setTitle(_:for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
       "line": 18,
       "symbol": "Label.text",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
       "line": 20,
       "symbol": "Label.lineBreakMode",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
       "line": 24,
       "symbol": "Label.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
       "line": 29,
       "symbol": "Label.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/Label.swift",
       "line": 64,
       "symbol": "Label.traitCollectionDidChange(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/XibView.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/XibView.swift",
       "line": 6,
       "symbol": "XibView.contentView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/XibView.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/XibView.swift",
       "line": 8,
       "symbol": "XibView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Common/XibView.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Common/XibView.swift",
       "line": 13,
       "symbol": "XibView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
       "line": 3,
       "symbol": "KeyboardObserverDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
       "line": 6,
       "symbol": "KeyboardObserverDelegate.keyboardObserver(_:keyboardWillShowWith:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
       "line": 7,
       "symbol": "KeyboardObserverDelegate.keyboardObserver(_:keyboardWillHideWith:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
       "line": 10,
       "symbol": "KeyboardObserverDelegate",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
       "line": 12,
       "symbol": "KeyboardObserverDelegate.keyboardObserver(_:keyboardWillShowWith:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
       "line": 13,
       "symbol": "KeyboardObserverDelegate.keyboardObserver(_:keyboardWillHideWith:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Helpers/KeyboardObserver.swift",
       "line": 26,
       "symbol": "KeyboardObserver.init(contextView:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Ongoing Video Call/Full screen/GradientView.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Ongoing Video Call/Full screen/GradientView.swift",
       "line": 6,
       "symbol": "GradientView.colors",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/Video/Ongoing Video Call/Full screen/GradientView.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/Video/Ongoing Video Call/Full screen/GradientView.swift",
       "line": 11,
       "symbol": "GradientView.layerClass",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
       "line": 3,
       "symbol": "CustomData",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
       "line": 4,
       "symbol": "CustomData.customDataInt(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
       "line": 5,
       "symbol": "CustomData.customDataString(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
       "line": 6,
       "symbol": "CustomData.customDataBoolean(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/julestrehorel/Workspace/sdk-ios/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
+      "file": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2/IAdvizeConversationSDK/Sources/VisitorCustomData/CustomData.swift",
       "line": 7,
       "symbol": "CustomData.customDataDouble(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/julestrehorel/Workspace/sdk-ios"
+  "source_directory": "/Users/simonliotier/Developer/mobile-ios-sdk-conversation-library-2"
 }
