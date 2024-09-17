@@ -382,7 +382,7 @@
 			repositoryURL = "https://github.com/iadvize/iadvize-ios-sdk/";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.14.5;
+				minimumVersion = 2.16.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
