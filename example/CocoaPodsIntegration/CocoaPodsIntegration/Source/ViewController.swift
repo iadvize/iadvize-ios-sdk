@@ -64,4 +64,8 @@ extension ViewController: TargetingControllerDelegate {
     func activeTargetingRuleAvailabilityDidUpdate(isActiveTargetingRuleAvailable: Bool) {
         self.isActiveTargetingRuleAvailable = isActiveTargetingRuleAvailable
     }
+
+    func activeTargetingRuleDidFailToUpdate(error: IAdvizeConversationSDK.TargetingError) {
+        print("Active targeting rule update failed")
+    }
 }
