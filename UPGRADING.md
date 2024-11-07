@@ -1,3 +1,8 @@
+## 2.16.0 > 2.16.1
+
+SDK is now built using Xcode 16 / iOS 18.
+Please check your project configuration and functionalities after upgrading.
+
 ## 2.15.4 > 2.16.0
 
 ### Debug Info

@@ -1,3 +1,20 @@
+# 2.16.1 (Epoisses)
+
+### Release date 2024/11/07
+
+**Features**
+
+- Add Privacy Manifest.
+
+**Bug fixes**
+
+- Fix hangs or crashs that could occur when initializing the SDK.
+- Fix rare crash caused by bad date formatting.
+
+**Dependencies**
+
+- Update to iOS 18 / Xcode 16
+
 # 2.16.0 (Epoisses)
 
 ### Release date 2024/09/17
