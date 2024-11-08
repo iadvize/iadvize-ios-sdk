@@ -1,0 +1,4113 @@
+{
+  "abstract" : [
+    {
+      "text" : "ISO639-1 language.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@IAdvizeConversationSDK@E@GraphQLLanguage",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "GraphQLLanguage"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "IAdvizeConversationSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "GraphQLLanguage"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "GraphQLLanguage"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "GraphQLLanguage"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@NSInteger",
+              "text" : "NSInteger"
+            },
+            {
+              "kind" : "text",
+              "text" : ";"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAz",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageDa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageDe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageDv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageDz",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFj",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHz",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageId",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageJa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageJi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageJv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKj",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOj",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageQu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSq",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageUg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageUk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageUr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageUz",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageVe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageVi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageVo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageWa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageWo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageXh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageYi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageYo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageZa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageZh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageZu"
+      ],
+      "title" : "Enumeration Cases"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/graphqllanguage"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
+  "abstract" : [
+    {
+      "text" : "Take your app to the next level and provide a ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "unique conversational experience",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " to your users!",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "IAdvizeConversationSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage": {
+  "abstract" : [
+    {
+      "text" : "ISO639-1 language.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguage"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguage",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAa": {
+  "abstract" : [
+    {
+      "text" : "Afar (aa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageaa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAb": {
+  "abstract" : [
+    {
+      "text" : "Abkhazian (ab)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageab"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAe": {
+  "abstract" : [
+    {
+      "text" : "Avestan (ae)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageae"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAf": {
+  "abstract" : [
+    {
+      "text" : "Afrikaans (af)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageaf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAk": {
+  "abstract" : [
+    {
+      "text" : "Akan (ak)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageak"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAm": {
+  "abstract" : [
+    {
+      "text" : "Amharic (am)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageam"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAn": {
+  "abstract" : [
+    {
+      "text" : "Aragonese (an)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagean"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAr": {
+  "abstract" : [
+    {
+      "text" : "Arabic (ar)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagear"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAs": {
+  "abstract" : [
+    {
+      "text" : "Assamese (as)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageas"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAv": {
+  "abstract" : [
+    {
+      "text" : "Avaric (av)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageav"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAy": {
+  "abstract" : [
+    {
+      "text" : "Aymara (ay)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageay"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageAz": {
+  "abstract" : [
+    {
+      "text" : "Azerbaijani (az)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageAz"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageAz",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageAz",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageaz"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBa": {
+  "abstract" : [
+    {
+      "text" : "Bashkir (ba)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageba"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBe": {
+  "abstract" : [
+    {
+      "text" : "Belarusian (be)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebe"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBg": {
+  "abstract" : [
+    {
+      "text" : "Bulgarian (bg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBh": {
+  "abstract" : [
+    {
+      "text" : "Bihari (bh)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebh"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBi": {
+  "abstract" : [
+    {
+      "text" : "Bislama (bi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBm": {
+  "abstract" : [
+    {
+      "text" : "Bambara (bm)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBn": {
+  "abstract" : [
+    {
+      "text" : "Bengali (bn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBo": {
+  "abstract" : [
+    {
+      "text" : "Tibetan (bo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBr": {
+  "abstract" : [
+    {
+      "text" : "Breton (br)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageBs": {
+  "abstract" : [
+    {
+      "text" : "Bosnian (bs)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageBs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageBs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageBs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCa": {
+  "abstract" : [
+    {
+      "text" : "Catalan (ca)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageca"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCe": {
+  "abstract" : [
+    {
+      "text" : "Chechen (ce)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagece"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCh": {
+  "abstract" : [
+    {
+      "text" : "Chamorro (ch)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagech"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCo": {
+  "abstract" : [
+    {
+      "text" : "Corsican (co)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageco"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCr": {
+  "abstract" : [
+    {
+      "text" : "Cree (cr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCs": {
+  "abstract" : [
+    {
+      "text" : "Czech (cs)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCu": {
+  "abstract" : [
+    {
+      "text" : "Church Slavic (cu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCv": {
+  "abstract" : [
+    {
+      "text" : "Chuvash (cv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageCy": {
+  "abstract" : [
+    {
+      "text" : "Welsh (cy)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageCy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageCy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageCy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageDa": {
+  "abstract" : [
+    {
+      "text" : "Danish (da)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageDa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageDa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageDa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageda"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageDe": {
+  "abstract" : [
+    {
+      "text" : "German (de)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageDe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageDe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageDe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagede"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageDv": {
+  "abstract" : [
+    {
+      "text" : "Divehi (dv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageDv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageDv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageDv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagedv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageDz": {
+  "abstract" : [
+    {
+      "text" : "Dzongkha (dz)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageDz"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageDz",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageDz",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagedz"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageEe": {
+  "abstract" : [
+    {
+      "text" : "Ewe (ee)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageEe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageEe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageee"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageEl": {
+  "abstract" : [
+    {
+      "text" : "Greek (el)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageEl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageEl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageel"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageEn": {
+  "abstract" : [
+    {
+      "text" : "English (en)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageEn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageEn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageen"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageEo": {
+  "abstract" : [
+    {
+      "text" : "Esperanto (eo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageEo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageEo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageeo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageEs": {
+  "abstract" : [
+    {
+      "text" : "Spanish (es)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageEs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageEs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagees"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageEt": {
+  "abstract" : [
+    {
+      "text" : "Estonian (et)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageEt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageEt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageet"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageEu": {
+  "abstract" : [
+    {
+      "text" : "Basque (eu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageEu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageEu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageEu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageeu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageFa": {
+  "abstract" : [
+    {
+      "text" : "Persian (fa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageFa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageFa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageFf": {
+  "abstract" : [
+    {
+      "text" : "Fulah (ff)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageFf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageFf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageff"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageFi": {
+  "abstract" : [
+    {
+      "text" : "Finnish (fi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageFi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageFi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageFj": {
+  "abstract" : [
+    {
+      "text" : "Fijian (fj)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageFj"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageFj",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefj"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageFo": {
+  "abstract" : [
+    {
+      "text" : "Faroese (fo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageFo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageFo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageFr": {
+  "abstract" : [
+    {
+      "text" : "French (fr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageFr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageFr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageFy": {
+  "abstract" : [
+    {
+      "text" : "Frisian (fy)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageFy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageFy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageFy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageGa": {
+  "abstract" : [
+    {
+      "text" : "Irish (ga)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageGa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageGa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagega"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageGd": {
+  "abstract" : [
+    {
+      "text" : "Scottish Gaelic (gd)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageGd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageGd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageGl": {
+  "abstract" : [
+    {
+      "text" : "Gallegan (gl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageGl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageGl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageGn": {
+  "abstract" : [
+    {
+      "text" : "Guarani (gn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageGn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageGn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageGu": {
+  "abstract" : [
+    {
+      "text" : "Gujarati (gu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageGu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageGu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageGv": {
+  "abstract" : [
+    {
+      "text" : "Manx (gv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageGv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageGv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageGv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHa": {
+  "abstract" : [
+    {
+      "text" : "Hausa (ha)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageha"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHe": {
+  "abstract" : [
+    {
+      "text" : "Hebrew (he)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehe"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHi": {
+  "abstract" : [
+    {
+      "text" : "Hindi (hi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHo": {
+  "abstract" : [
+    {
+      "text" : "Hiri Motu (ho)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageho"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHr": {
+  "abstract" : [
+    {
+      "text" : "Croatian (hr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHt": {
+  "abstract" : [
+    {
+      "text" : "Haitian (ht)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageht"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHu": {
+  "abstract" : [
+    {
+      "text" : "Hungarian (hu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHy": {
+  "abstract" : [
+    {
+      "text" : "Armenian (hy)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageHz": {
+  "abstract" : [
+    {
+      "text" : "Herero (hz)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageHz"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageHz",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageHz",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehz"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIa": {
+  "abstract" : [
+    {
+      "text" : "Interlingua (ia)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageia"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageId": {
+  "abstract" : [
+    {
+      "text" : "Indonesian (id)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageId"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageId",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageid"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIe": {
+  "abstract" : [
+    {
+      "text" : "Interlingue (ie)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageie"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIg": {
+  "abstract" : [
+    {
+      "text" : "Igbo (ig)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageig"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIi": {
+  "abstract" : [
+    {
+      "text" : "Sichuan Yi (ii)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageii"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIk": {
+  "abstract" : [
+    {
+      "text" : "Inupiaq (ik)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageik"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIn": {
+  "abstract" : [
+    {
+      "text" : "Indonesian (in)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagein"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIo": {
+  "abstract" : [
+    {
+      "text" : "Ido (io)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageio"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIs": {
+  "abstract" : [
+    {
+      "text" : "Icelandic (is)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageis"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIt": {
+  "abstract" : [
+    {
+      "text" : "Italian (it)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageit"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIu": {
+  "abstract" : [
+    {
+      "text" : "Inuktitut (iu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageiu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageIw": {
+  "abstract" : [
+    {
+      "text" : "Hebrew (iw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageIw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageIw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageIw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageiw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageJa": {
+  "abstract" : [
+    {
+      "text" : "Japanese (ja)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageJa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageJa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageJa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageja"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageJi": {
+  "abstract" : [
+    {
+      "text" : "Yiddish (ji)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageJi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageJi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageJi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageji"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageJv": {
+  "abstract" : [
+    {
+      "text" : "Javanese (jv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageJv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageJv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageJv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagejv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKa": {
+  "abstract" : [
+    {
+      "text" : "Georgian (ka)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageka"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKg": {
+  "abstract" : [
+    {
+      "text" : "Kongo (kg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKi": {
+  "abstract" : [
+    {
+      "text" : "Kikuyu (ki)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageki"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKj": {
+  "abstract" : [
+    {
+      "text" : "Kwanyama (kj)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKj"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKj",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekj"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKk": {
+  "abstract" : [
+    {
+      "text" : "Kazakh (kk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKl": {
+  "abstract" : [
+    {
+      "text" : "Greenlandic (kl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKm": {
+  "abstract" : [
+    {
+      "text" : "Khmer (km)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKn": {
+  "abstract" : [
+    {
+      "text" : "Kannada (kn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKo": {
+  "abstract" : [
+    {
+      "text" : "Korean (ko)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageko"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKr": {
+  "abstract" : [
+    {
+      "text" : "Kanuri (kr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKs": {
+  "abstract" : [
+    {
+      "text" : "Kashmiri (ks)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageks"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKu": {
+  "abstract" : [
+    {
+      "text" : "Kurdish (ku)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageku"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKv": {
+  "abstract" : [
+    {
+      "text" : "Komi (kv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKw": {
+  "abstract" : [
+    {
+      "text" : "Cornish (kw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageKy": {
+  "abstract" : [
+    {
+      "text" : "Kirghiz (ky)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageKy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageKy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageKy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageky"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLa": {
+  "abstract" : [
+    {
+      "text" : "Latin (la)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagela"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLb": {
+  "abstract" : [
+    {
+      "text" : "Luxembourgish (lb)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLg": {
+  "abstract" : [
+    {
+      "text" : "Ganda (lg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLi": {
+  "abstract" : [
+    {
+      "text" : "Limburgish (li)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageli"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLn": {
+  "abstract" : [
+    {
+      "text" : "Lingala (ln)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageln"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLo": {
+  "abstract" : [
+    {
+      "text" : "Lao (lo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLt": {
+  "abstract" : [
+    {
+      "text" : "Lithuanian (lt)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLu": {
+  "abstract" : [
+    {
+      "text" : "Luba-Katanga (lu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageLv": {
+  "abstract" : [
+    {
+      "text" : "Latvian (lv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageLv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageLv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageLv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMg": {
+  "abstract" : [
+    {
+      "text" : "Malagasy (mg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMh": {
+  "abstract" : [
+    {
+      "text" : "Marshallese (mh)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemh"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMi": {
+  "abstract" : [
+    {
+      "text" : "Maori (mi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMk": {
+  "abstract" : [
+    {
+      "text" : "Macedonian (mk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMl": {
+  "abstract" : [
+    {
+      "text" : "Malayalam (ml)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageml"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMn": {
+  "abstract" : [
+    {
+      "text" : "Mongolian (mn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMo": {
+  "abstract" : [
+    {
+      "text" : "Moldavian (mo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMr": {
+  "abstract" : [
+    {
+      "text" : "Marathi (mr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMs": {
+  "abstract" : [
+    {
+      "text" : "Malay (ms)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagems"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMt": {
+  "abstract" : [
+    {
+      "text" : "Maltese (mt)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageMy": {
+  "abstract" : [
+    {
+      "text" : "Burmese (my)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageMy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageMy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageMy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNa": {
+  "abstract" : [
+    {
+      "text" : "Nauru (na)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagena"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNb": {
+  "abstract" : [
+    {
+      "text" : "Norwegian Bokmål (nb)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNd": {
+  "abstract" : [
+    {
+      "text" : "North Ndebele (nd)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagend"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNe": {
+  "abstract" : [
+    {
+      "text" : "Nepali (ne)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagene"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNg": {
+  "abstract" : [
+    {
+      "text" : "Ndonga (ng)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageng"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNl": {
+  "abstract" : [
+    {
+      "text" : "Dutch (nl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNn": {
+  "abstract" : [
+    {
+      "text" : "Norwegian Nynorsk (nn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNo": {
+  "abstract" : [
+    {
+      "text" : "Norwegian (no)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageno"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNr": {
+  "abstract" : [
+    {
+      "text" : "South Ndebele (nr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNv": {
+  "abstract" : [
+    {
+      "text" : "Navajo (nv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageNy": {
+  "abstract" : [
+    {
+      "text" : "Nyanja (ny)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageNy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageNy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageNy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageny"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageOc": {
+  "abstract" : [
+    {
+      "text" : "Occitan (oc)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageOc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageOc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageoc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageOj": {
+  "abstract" : [
+    {
+      "text" : "Ojibwa (oj)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageOj"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageOj",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageoj"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageOm": {
+  "abstract" : [
+    {
+      "text" : "Oromo (om)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageOm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageOm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageom"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageOr": {
+  "abstract" : [
+    {
+      "text" : "Oriya (or)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageOr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageOr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageor"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageOs": {
+  "abstract" : [
+    {
+      "text" : "Ossetian (os)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageOs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageOs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageOs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageos"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguagePa": {
+  "abstract" : [
+    {
+      "text" : "Panjabi (pa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguagePa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguagePa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagepa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguagePi": {
+  "abstract" : [
+    {
+      "text" : "Pali (pi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguagePi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguagePi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagepi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguagePl": {
+  "abstract" : [
+    {
+      "text" : "Polish (pl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguagePl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguagePl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagepl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguagePs": {
+  "abstract" : [
+    {
+      "text" : "Pushto (ps)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguagePs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguagePs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageps"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguagePt": {
+  "abstract" : [
+    {
+      "text" : "Portuguese (pt)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguagePt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguagePt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguagePt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagept"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageQu": {
+  "abstract" : [
+    {
+      "text" : "Quechua (qu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageQu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageQu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageQu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagequ"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageRm": {
+  "abstract" : [
+    {
+      "text" : "Raeto-Romance (rm)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageRm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageRm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagerm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageRn": {
+  "abstract" : [
+    {
+      "text" : "Rundi (rn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageRn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageRn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagern"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageRo": {
+  "abstract" : [
+    {
+      "text" : "Romanian (ro)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageRo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageRo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagero"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageRu": {
+  "abstract" : [
+    {
+      "text" : "Russian (ru)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageRu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageRu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageru"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageRw": {
+  "abstract" : [
+    {
+      "text" : "Kinyarwanda (rw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageRw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageRw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageRw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagerw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSa": {
+  "abstract" : [
+    {
+      "text" : "Sanskrit (sa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSc": {
+  "abstract" : [
+    {
+      "text" : "Sardinian (sc)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSd": {
+  "abstract" : [
+    {
+      "text" : "Sindhi (sd)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSe": {
+  "abstract" : [
+    {
+      "text" : "Northern Sami (se)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagese"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSg": {
+  "abstract" : [
+    {
+      "text" : "Sango (sg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSi": {
+  "abstract" : [
+    {
+      "text" : "Sinhalese (si)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSk": {
+  "abstract" : [
+    {
+      "text" : "Slovak (sk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSl": {
+  "abstract" : [
+    {
+      "text" : "Slovenian (sl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSm": {
+  "abstract" : [
+    {
+      "text" : "Samoan (sm)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSn": {
+  "abstract" : [
+    {
+      "text" : "Shona (sn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSo": {
+  "abstract" : [
+    {
+      "text" : "Somali (so)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageso"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSq": {
+  "abstract" : [
+    {
+      "text" : "Albanian (sq)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSq"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSq",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesq"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSr": {
+  "abstract" : [
+    {
+      "text" : "Serbian (sr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSs": {
+  "abstract" : [
+    {
+      "text" : "Swati (ss)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagess"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSt": {
+  "abstract" : [
+    {
+      "text" : "Southern Sotho (st)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagest"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSu": {
+  "abstract" : [
+    {
+      "text" : "Sundanese (su)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSv": {
+  "abstract" : [
+    {
+      "text" : "Swedish (sv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageSw": {
+  "abstract" : [
+    {
+      "text" : "Swahili (sw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageSw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageSw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageSw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTa": {
+  "abstract" : [
+    {
+      "text" : "Tamil (ta)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageta"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTe": {
+  "abstract" : [
+    {
+      "text" : "Telugu (te)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagete"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTg": {
+  "abstract" : [
+    {
+      "text" : "Tajik (tg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTh": {
+  "abstract" : [
+    {
+      "text" : "Thai (th)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageth"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTi": {
+  "abstract" : [
+    {
+      "text" : "Tigrinya (ti)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageti"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTk": {
+  "abstract" : [
+    {
+      "text" : "Turkmen (tk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTl": {
+  "abstract" : [
+    {
+      "text" : "Tagalog (tl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTn": {
+  "abstract" : [
+    {
+      "text" : "Tswana (tn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTo": {
+  "abstract" : [
+    {
+      "text" : "Tonga (to)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageto"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTr": {
+  "abstract" : [
+    {
+      "text" : "Turkish (tr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTs": {
+  "abstract" : [
+    {
+      "text" : "Tsonga (ts)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagets"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTt": {
+  "abstract" : [
+    {
+      "text" : "Tatar (tt)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagett"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTw": {
+  "abstract" : [
+    {
+      "text" : "Twi (tw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageTy": {
+  "abstract" : [
+    {
+      "text" : "Tahitian (ty)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageTy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageTy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageTy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagety"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageUg": {
+  "abstract" : [
+    {
+      "text" : "Uighur (ug)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageUg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageUg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageUg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageug"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageUk": {
+  "abstract" : [
+    {
+      "text" : "Ukrainian (uk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageUk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageUk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageUk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageuk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageUr": {
+  "abstract" : [
+    {
+      "text" : "Urdu (ur)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageUr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageUr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageUr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageur"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageUz": {
+  "abstract" : [
+    {
+      "text" : "Uzbek (uz)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageUz"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageUz",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageUz",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageuz"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageVe": {
+  "abstract" : [
+    {
+      "text" : "Venda (ve)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageVe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageVe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageVe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageve"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageVi": {
+  "abstract" : [
+    {
+      "text" : "Vietnamese (vi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageVi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageVi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageVi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagevi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageVo": {
+  "abstract" : [
+    {
+      "text" : "Volapük (vo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageVo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageVo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageVo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagevo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageWa": {
+  "abstract" : [
+    {
+      "text" : "Walloon (wa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageWa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageWa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageWa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagewa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageWo": {
+  "abstract" : [
+    {
+      "text" : "Wolof (wo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageWo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageWo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageWo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagewo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageXh": {
+  "abstract" : [
+    {
+      "text" : "Xhosa (xh)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageXh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageXh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageXh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagexh"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageYi": {
+  "abstract" : [
+    {
+      "text" : "Yiddish (yi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageYi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageYi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageYi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageyi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageYo": {
+  "abstract" : [
+    {
+      "text" : "Yoruba (yo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageYo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageYo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageYo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageyo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageZa": {
+  "abstract" : [
+    {
+      "text" : "Zhuang (za)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageZa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageZa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageZa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageza"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageZh": {
+  "abstract" : [
+    {
+      "text" : "Chinese (zh)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageZh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageZh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageZh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagezh"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage/GraphQLLanguageZu": {
+  "abstract" : [
+    {
+      "text" : "Zulu (zu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLLanguageZu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage\/GraphQLLanguageZu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLLanguageZu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagezu"
+}
+}
+}

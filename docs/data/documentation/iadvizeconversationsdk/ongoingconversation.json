@@ -1,0 +1,610 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/OngoingConversation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@IAdvizeConversationSDK@objc(cs)OngoingConversation",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OngoingConversation"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "IAdvizeConversationSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OngoingConversation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OngoingConversation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OngoingConversation"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/objc(cs)NSObject"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/objc(pl)NSObject",
+        "doc:\/\/com.iadvize.conversation.sdk\/s7CVarArgP",
+        "doc:\/\/com.iadvize.conversation.sdk\/s8CopyableP",
+        "doc:\/\/com.iadvize.conversation.sdk\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.iadvize.conversation.sdk\/s23CustomStringConvertibleP",
+        "doc:\/\/com.iadvize.conversation.sdk\/SE",
+        "doc:\/\/com.iadvize.conversation.sdk\/SQ",
+        "doc:\/\/com.iadvize.conversation.sdk\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "anchor" : "Conversation",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate"
+      ],
+      "title" : "Conversation"
+    }
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/OngoingConversation\/conversationChannel",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/OngoingConversation\/conversationId"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/ongoingconversation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/ongoingconversation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.iadvize.conversation.sdk/SE": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/SH": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/SQ": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
+  "abstract" : [
+    {
+      "text" : "Take your app to the next level and provide a ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "unique conversational experience",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " to your users!",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "IAdvizeConversationSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationController": {
+  "abstract" : [
+    {
+      "text" : "An object that allows to monitor the conversation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ConversationController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ConversationController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ConversationController",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "An object that is notified about the ongoing conversation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ConversationControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ConversationControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ConversationControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/OngoingConversation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OngoingConversation"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/OngoingConversation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OngoingConversation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OngoingConversation",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/OngoingConversation/conversationChannel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conversationChannel"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK0B7ChannelO",
+      "text" : "ConversationChannel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/OngoingConversation\/conversationChannel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "conversationChannel",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation\/conversationchannel"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/OngoingConversation/conversationId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conversationId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4UUIDV",
+      "text" : "UUID"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/OngoingConversation\/conversationId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "conversationId",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation\/conversationid"
+},
+"doc://com.iadvize.conversation.sdk/objc(cs)NSObject": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/objc(cs)NSObject",
+  "title" : "NSObject",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s7CVarArgP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s8CopyableP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Class"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "OngoingConversation"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "class"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "OngoingConversation"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "OngoingConversation"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/relationshipsSections",
+        "value" : [
+          {
+            "identifiers" : [
+              "doc:\/\/com.iadvize.conversation.sdk\/objc(cs)NSObject"
+            ],
+            "kind" : "relationships",
+            "title" : "Inherits From",
+            "type" : "inheritsFrom"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/seeAlsoSections",
+        "value" : [
+          {
+            "anchor" : "Conversation",
+            "generated" : true,
+            "identifiers" : [
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController",
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate"
+            ],
+            "title" : "Conversation"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "@interface"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "OngoingConversation"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " : "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:objc(cs)NSObject",
+                  "text" : "NSObject"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController\/title",
+        "value" : "ConversationController"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ConversationController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ConversationController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/title",
+        "value" : "ConversationControllerDelegate"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ConversationControllerDelegate"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ConversationControllerDelegate"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1OngoingConversation\/title",
+        "value" : "OngoingConversation"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1OngoingConversation\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "OngoingConversation"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1OngoingConversation\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "OngoingConversation"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

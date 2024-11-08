@@ -1,0 +1,7104 @@
+{
+  "abstract" : [
+    {
+      "text" : "Currency used in a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Transaction",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:22IAdvizeConversationSDK8CurrencyO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Currency"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "IAdvizeConversationSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Currency"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "Currency"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Currency"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/SQ",
+        "doc:\/\/com.iadvize.conversation.sdk\/SH",
+        "doc:\/\/com.iadvize.conversation.sdk\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "anchor" : "Transactions",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TransactionController",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction"
+      ],
+      "title" : "Transactions"
+    }
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/adp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/aed",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/afa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/afn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/all",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/amd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ang",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/aoa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ars",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ats",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/aud",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/awg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/aym",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/azm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/azn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bam",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bbd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bdt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bef",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bgl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bgn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bhd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bif",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bmd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bnd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bob",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bov",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/brl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bsd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/btn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bwp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/byb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/byn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/byr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bzd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cad",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cdf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/che",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/chf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/chw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/clf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/clp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cny",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cop",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cou",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/crc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/csd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cuc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cup",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cve",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cyp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/czk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/dem",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/djf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/dkk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/dop",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/dzd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/eek",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/egp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ern",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/esp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/etb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/eur",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/fim",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/fjd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/fkp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/frf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gbp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gel",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ghc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ghs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gip",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gmd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gnf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/grd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gtq",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gwp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gyd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/hkd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/hnl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/hrk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/htg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/huf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/idr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/iep",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ils",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/inr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/iqd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/irr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/isk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/itl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/jmd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/jod",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/jpy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kes",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kgs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/khr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kmf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kpw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/krw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kwd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kyd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kzt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lak",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lbp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lkr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lrd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lsl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ltl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/luf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lvl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lyd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mad",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mdl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mga",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mgf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mkd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mmk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mnt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mop",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mro",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mru",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mtl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mur",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mvr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mwk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mxn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mxv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/myr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mzm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mzn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nad",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ngn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nio",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nlg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nok",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/npr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nzd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/omr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pab",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pen",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pgk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/php",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pkr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pln",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pte",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pyg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/qar",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rol",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ron",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rsd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rub",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rur",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rwf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sar",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sbd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/scr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sdd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sdg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sek",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sgd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/shp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sit",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/skk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sle",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sll",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sos",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/srd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/srg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ssp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/std",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/stn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/svc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/syp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/szl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/thb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tjs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tmm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tmt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tnd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/top",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tpe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/trl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/try",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ttd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/twd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tzs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uah",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ugx",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/usd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/usn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uss",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uyi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uyu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uzs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/veb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ved",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/vef",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ves",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/vnd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/vuv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/wst",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xaf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xag",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xau",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xba",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xbb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xbc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xbd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xcd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xdr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xfo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xfu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xof",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xpd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xpf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xpt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xsu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xts",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xua",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xxx",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/yer",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/yum",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zar",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zmk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zmw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwr"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/Equatable-Implementations",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/currency"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.iadvize.conversation.sdk/SH": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/SQ": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/SY": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
+  "abstract" : [
+    {
+      "text" : "Take your app to the next level and provide a ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "unique conversational experience",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " to your users!",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "IAdvizeConversationSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency": {
+  "abstract" : [
+    {
+      "text" : "Currency used in a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Transaction",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Currency",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/equatable-implementations"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/rawrepresentable-implementations"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/adp": {
+  "abstract" : [
+    {
+      "text" : "Andorran Peseta (ADP ADP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/adp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.adp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/adp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/aed": {
+  "abstract" : [
+    {
+      "text" : "United Arab Emirates Dirham (AED AED)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aed"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/aed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.aed",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/aed"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/afa": {
+  "abstract" : [
+    {
+      "text" : "Afghan Afghani (1927–2002) (AFA AFA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "afa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/afa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.afa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/afa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/afn": {
+  "abstract" : [
+    {
+      "text" : "Afghan Afghani (AFN AFN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "afn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/afn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.afn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/afn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/all": {
+  "abstract" : [
+    {
+      "text" : "Albanian Lek (ALL ALL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "all"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/all",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.all",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/all"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/amd": {
+  "abstract" : [
+    {
+      "text" : "Armenian Dram (AMD AMD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "amd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/amd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.amd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/amd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ang": {
+  "abstract" : [
+    {
+      "text" : "Netherlands Antillean Guilder (ANG ANG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ang"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ang",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ang",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ang"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/aoa": {
+  "abstract" : [
+    {
+      "text" : "Angolan Kwanza (AOA AOA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aoa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/aoa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.aoa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/aoa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ars": {
+  "abstract" : [
+    {
+      "text" : "Argentine Peso (ARS ARS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ars"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ars",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ars",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ars"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ats": {
+  "abstract" : [
+    {
+      "text" : "Austrian Schilling (ATS ATS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ats"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ats",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ats",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ats"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/aud": {
+  "abstract" : [
+    {
+      "text" : "Australian Dollar (AUD A$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aud"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/aud",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.aud",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/aud"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/awg": {
+  "abstract" : [
+    {
+      "text" : "Aruban Florin (AWG AWG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "awg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/awg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.awg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/awg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/aym": {
+  "abstract" : [
+    {
+      "text" : "AYM (AYM AYM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aym"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/aym",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.aym",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/aym"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/azm": {
+  "abstract" : [
+    {
+      "text" : "Azerbaijani Manat (1993–2006) (AZM AZM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "azm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/azm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.azm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/azm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/azn": {
+  "abstract" : [
+    {
+      "text" : "Azerbaijani Manat (AZN AZN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "azn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/azn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.azn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/azn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bam": {
+  "abstract" : [
+    {
+      "text" : "Bosnia-Herzegovina Convertible Mark (BAM BAM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bam"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bam",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bam",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bam"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bbd": {
+  "abstract" : [
+    {
+      "text" : "Barbadian Dollar (BBD BBD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bbd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bbd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bbd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bbd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bdt": {
+  "abstract" : [
+    {
+      "text" : "Bangladeshi Taka (BDT BDT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bdt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bdt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bdt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bdt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bef": {
+  "abstract" : [
+    {
+      "text" : "Belgian Franc (BEF BEF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bef"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bef",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bef",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bef"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bgl": {
+  "abstract" : [
+    {
+      "text" : "Bulgarian Hard Lev (BGL BGL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bgl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bgl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bgl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bgl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bgn": {
+  "abstract" : [
+    {
+      "text" : "Bulgarian Lev (BGN BGN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bgn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bgn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bgn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bgn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bhd": {
+  "abstract" : [
+    {
+      "text" : "Bahraini Dinar (BHD BHD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bhd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bhd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bhd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bhd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bif": {
+  "abstract" : [
+    {
+      "text" : "Burundian Franc (BIF BIF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bif"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bif",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bif",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bif"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bmd": {
+  "abstract" : [
+    {
+      "text" : "Bermudan Dollar (BMD BMD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bmd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bmd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bmd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bnd": {
+  "abstract" : [
+    {
+      "text" : "Brunei Dollar (BND BND)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bnd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bnd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bnd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bob": {
+  "abstract" : [
+    {
+      "text" : "Bolivian Boliviano (BOB BOB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bob"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bob",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bob",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bob"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bov": {
+  "abstract" : [
+    {
+      "text" : "Bolivian Mvdol (BOV BOV)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bov"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bov",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bov",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bov"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/brl": {
+  "abstract" : [
+    {
+      "text" : "Brazilian Real (BRL R$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "brl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/brl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.brl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/brl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bsd": {
+  "abstract" : [
+    {
+      "text" : "Bahamian Dollar (BSD BSD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bsd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bsd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bsd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bsd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/btn": {
+  "abstract" : [
+    {
+      "text" : "Bhutanese Ngultrum (BTN BTN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "btn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/btn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.btn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/btn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bwp": {
+  "abstract" : [
+    {
+      "text" : "Botswanan Pula (BWP BWP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bwp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bwp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bwp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bwp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/byb": {
+  "abstract" : [
+    {
+      "text" : "Belarusian Ruble (1994–1999) (BYB BYB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "byb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/byb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.byb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/byb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/byn": {
+  "abstract" : [
+    {
+      "text" : "Belarusian Ruble (BYN BYN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "byn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/byn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.byn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/byn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/byr": {
+  "abstract" : [
+    {
+      "text" : "Belarusian Ruble (2000–2016) (BYR BYR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "byr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/byr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.byr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/byr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/bzd": {
+  "abstract" : [
+    {
+      "text" : "Belize Dollar (BZD BZD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bzd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/bzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bzd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/bzd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cad": {
+  "abstract" : [
+    {
+      "text" : "Canadian Dollar (CAD CA$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cad"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cad",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cad"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cdf": {
+  "abstract" : [
+    {
+      "text" : "Congolese Franc (CDF CDF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cdf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cdf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cdf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cdf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/che": {
+  "abstract" : [
+    {
+      "text" : "WIR Euro (CHE CHE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "che"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/che",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.che",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/che"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/chf": {
+  "abstract" : [
+    {
+      "text" : "Swiss Franc (CHF CHF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "chf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/chf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.chf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/chf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/chw": {
+  "abstract" : [
+    {
+      "text" : "WIR Franc (CHW CHW)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "chw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/chw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.chw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/chw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/clf": {
+  "abstract" : [
+    {
+      "text" : "Chilean Unit of Account (UF) (CLF CLF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/clf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.clf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/clf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/clp": {
+  "abstract" : [
+    {
+      "text" : "Chilean Peso (CLP CLP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/clp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.clp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/clp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cny": {
+  "abstract" : [
+    {
+      "text" : "Chinese Yuan (CNY CN¥)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cny"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cny",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cny",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cny"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cop": {
+  "abstract" : [
+    {
+      "text" : "Colombian Peso (COP COP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cop"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cop",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cop"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cou": {
+  "abstract" : [
+    {
+      "text" : "Colombian Real Value Unit (COU COU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cou"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cou",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cou",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cou"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/crc": {
+  "abstract" : [
+    {
+      "text" : "Costa Rican Colón (CRC CRC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "crc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/crc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.crc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/crc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/csd": {
+  "abstract" : [
+    {
+      "text" : "Serbian Dinar (2002–2006) (CSD CSD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "csd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/csd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.csd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/csd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cuc": {
+  "abstract" : [
+    {
+      "text" : "Cuban Convertible Peso (CUC CUC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cuc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cuc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cuc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cuc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cup": {
+  "abstract" : [
+    {
+      "text" : "Cuban Peso (CUP CUP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cup"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cup",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cup",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cup"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cve": {
+  "abstract" : [
+    {
+      "text" : "Cape Verdean Escudo (CVE CVE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cve"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cve",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cve",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cve"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/cyp": {
+  "abstract" : [
+    {
+      "text" : "Cypriot Pound (CYP CYP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cyp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/cyp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cyp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/cyp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/czk": {
+  "abstract" : [
+    {
+      "text" : "Czech Koruna (CZK CZK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "czk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/czk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.czk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/czk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/dem": {
+  "abstract" : [
+    {
+      "text" : "German Mark (DEM DEM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dem"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/dem",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.dem",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/dem"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/djf": {
+  "abstract" : [
+    {
+      "text" : "Djiboutian Franc (DJF DJF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "djf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/djf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.djf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/djf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/dkk": {
+  "abstract" : [
+    {
+      "text" : "Danish Krone (DKK DKK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dkk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/dkk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.dkk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/dkk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/dop": {
+  "abstract" : [
+    {
+      "text" : "Dominican Peso (DOP DOP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dop"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/dop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.dop",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/dop"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/dzd": {
+  "abstract" : [
+    {
+      "text" : "Algerian Dinar (DZD DZD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dzd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/dzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.dzd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/dzd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/eek": {
+  "abstract" : [
+    {
+      "text" : "Estonian Kroon (EEK EEK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "eek"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/eek",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.eek",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/eek"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/egp": {
+  "abstract" : [
+    {
+      "text" : "Egyptian Pound (EGP EGP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "egp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/egp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.egp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/egp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ern": {
+  "abstract" : [
+    {
+      "text" : "Eritrean Nakfa (ERN ERN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ern"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ern",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ern",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ern"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/esp": {
+  "abstract" : [
+    {
+      "text" : "Spanish Peseta (ESP ESP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "esp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/esp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.esp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/esp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/etb": {
+  "abstract" : [
+    {
+      "text" : "Ethiopian Birr (ETB ETB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "etb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/etb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.etb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/etb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/eur": {
+  "abstract" : [
+    {
+      "text" : "Euro (EUR €)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "eur"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/eur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.eur",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/eur"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/fim": {
+  "abstract" : [
+    {
+      "text" : "Finnish Markka (FIM FIM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fim"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/fim",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.fim",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/fim"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/fjd": {
+  "abstract" : [
+    {
+      "text" : "Fijian Dollar (FJD FJD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fjd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/fjd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.fjd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/fjd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/fkp": {
+  "abstract" : [
+    {
+      "text" : "Falkland Islands Pound (FKP FKP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fkp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/fkp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.fkp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/fkp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/frf": {
+  "abstract" : [
+    {
+      "text" : "French Franc (FRF FRF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "frf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/frf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.frf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/frf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/gbp": {
+  "abstract" : [
+    {
+      "text" : "British Pound (GBP £)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gbp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gbp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gbp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/gbp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/gel": {
+  "abstract" : [
+    {
+      "text" : "Georgian Lari (GEL GEL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gel",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/gel"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ghc": {
+  "abstract" : [
+    {
+      "text" : "Ghanaian Cedi (1979–2007) (GHC GHC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ghc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ghc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ghc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ghc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ghs": {
+  "abstract" : [
+    {
+      "text" : "Ghanaian Cedi (GHS GHS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ghs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ghs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ghs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ghs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/gip": {
+  "abstract" : [
+    {
+      "text" : "Gibraltar Pound (GIP GIP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gip"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gip",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gip",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/gip"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/gmd": {
+  "abstract" : [
+    {
+      "text" : "Gambian Dalasi (GMD GMD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gmd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gmd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/gmd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/gnf": {
+  "abstract" : [
+    {
+      "text" : "Guinean Franc (GNF GNF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gnf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gnf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gnf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/gnf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/grd": {
+  "abstract" : [
+    {
+      "text" : "Greek Drachma (GRD GRD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "grd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/grd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.grd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/grd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/gtq": {
+  "abstract" : [
+    {
+      "text" : "Guatemalan Quetzal (GTQ GTQ)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gtq"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gtq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gtq",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/gtq"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/gwp": {
+  "abstract" : [
+    {
+      "text" : "Guinea-Bissau Peso (GWP GWP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gwp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gwp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gwp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/gwp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/gyd": {
+  "abstract" : [
+    {
+      "text" : "Guyanaese Dollar (GYD GYD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gyd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/gyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gyd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/gyd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/hkd": {
+  "abstract" : [
+    {
+      "text" : "Hong Kong Dollar (HKD HK$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hkd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/hkd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.hkd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/hkd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/hnl": {
+  "abstract" : [
+    {
+      "text" : "Honduran Lempira (HNL HNL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hnl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/hnl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.hnl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/hnl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/hrk": {
+  "abstract" : [
+    {
+      "text" : "Croatian Kuna (HRK HRK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hrk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/hrk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.hrk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/hrk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/htg": {
+  "abstract" : [
+    {
+      "text" : "Haitian Gourde (HTG HTG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "htg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/htg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.htg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/htg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/huf": {
+  "abstract" : [
+    {
+      "text" : "Hungarian Forint (HUF HUF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "huf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/huf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.huf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/huf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/idr": {
+  "abstract" : [
+    {
+      "text" : "Indonesian Rupiah (IDR IDR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "idr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/idr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.idr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/idr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/iep": {
+  "abstract" : [
+    {
+      "text" : "Irish Pound (IEP IEP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "iep"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/iep",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.iep",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/iep"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ils": {
+  "abstract" : [
+    {
+      "text" : "Israeli New Shekel (ILS ₪)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ils"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ils",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ils",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ils"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/init(rawvalue:)"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/inr": {
+  "abstract" : [
+    {
+      "text" : "Indian Rupee (INR ₹)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "inr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/inr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.inr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/inr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/iqd": {
+  "abstract" : [
+    {
+      "text" : "Iraqi Dinar (IQD IQD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "iqd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/iqd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.iqd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/iqd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/irr": {
+  "abstract" : [
+    {
+      "text" : "Iranian Rial (IRR IRR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "irr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/irr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.irr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/irr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/isk": {
+  "abstract" : [
+    {
+      "text" : "Icelandic Króna (ISK ISK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/isk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.isk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/isk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/itl": {
+  "abstract" : [
+    {
+      "text" : "Italian Lira (ITL ITL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "itl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/itl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.itl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/itl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/jmd": {
+  "abstract" : [
+    {
+      "text" : "Jamaican Dollar (JMD JMD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jmd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/jmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.jmd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/jmd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/jod": {
+  "abstract" : [
+    {
+      "text" : "Jordanian Dinar (JOD JOD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jod"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/jod",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.jod",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/jod"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/jpy": {
+  "abstract" : [
+    {
+      "text" : "Japanese Yen (JPY ¥)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jpy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/jpy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.jpy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/jpy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/kes": {
+  "abstract" : [
+    {
+      "text" : "Kenyan Shilling (KES KES)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kes"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kes",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/kes"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/kgs": {
+  "abstract" : [
+    {
+      "text" : "Kyrgystani Som (KGS KGS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kgs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kgs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kgs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/kgs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/khr": {
+  "abstract" : [
+    {
+      "text" : "Cambodian Riel (KHR KHR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "khr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/khr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.khr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/khr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/kmf": {
+  "abstract" : [
+    {
+      "text" : "Comorian Franc (KMF KMF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kmf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kmf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kmf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/kmf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/kpw": {
+  "abstract" : [
+    {
+      "text" : "North Korean Won (KPW KPW)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kpw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kpw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kpw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/kpw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/krw": {
+  "abstract" : [
+    {
+      "text" : "South Korean Won (KRW ₩)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "krw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/krw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.krw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/krw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/kwd": {
+  "abstract" : [
+    {
+      "text" : "Kuwaiti Dinar (KWD KWD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kwd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kwd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kwd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/kwd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/kyd": {
+  "abstract" : [
+    {
+      "text" : "Cayman Islands Dollar (KYD KYD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kyd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kyd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/kyd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/kzt": {
+  "abstract" : [
+    {
+      "text" : "Kazakhstani Tenge (KZT KZT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kzt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/kzt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kzt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/kzt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/lak": {
+  "abstract" : [
+    {
+      "text" : "Laotian Kip (LAK LAK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lak"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lak",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lak",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/lak"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/lbp": {
+  "abstract" : [
+    {
+      "text" : "Lebanese Pound (LBP LBP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lbp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lbp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lbp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/lbp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/lkr": {
+  "abstract" : [
+    {
+      "text" : "Sri Lankan Rupee (LKR LKR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lkr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lkr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lkr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/lkr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/lrd": {
+  "abstract" : [
+    {
+      "text" : "Liberian Dollar (LRD LRD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lrd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lrd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lrd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/lrd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/lsl": {
+  "abstract" : [
+    {
+      "text" : "Lesotho Loti (LSL LSL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lsl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lsl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lsl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/lsl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ltl": {
+  "abstract" : [
+    {
+      "text" : "Lithuanian Litas (LTL LTL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ltl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ltl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ltl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ltl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/luf": {
+  "abstract" : [
+    {
+      "text" : "Luxembourgian Franc (LUF LUF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "luf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/luf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.luf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/luf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/lvl": {
+  "abstract" : [
+    {
+      "text" : "Latvian Lats (LVL LVL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lvl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lvl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lvl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/lvl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/lyd": {
+  "abstract" : [
+    {
+      "text" : "Libyan Dinar (LYD LYD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lyd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/lyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lyd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/lyd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mad": {
+  "abstract" : [
+    {
+      "text" : "Moroccan Dirham (MAD MAD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mad"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mad",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mad"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mdl": {
+  "abstract" : [
+    {
+      "text" : "Moldovan Leu (MDL MDL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mdl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mdl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mdl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mdl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mga": {
+  "abstract" : [
+    {
+      "text" : "Malagasy Ariary (MGA MGA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mga"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mga",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mga",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mga"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mgf": {
+  "abstract" : [
+    {
+      "text" : "Malagasy Franc (MGF MGF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mgf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mgf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mgf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mgf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mkd": {
+  "abstract" : [
+    {
+      "text" : "Macedonian Denar (MKD MKD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mkd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mkd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mkd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mkd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mmk": {
+  "abstract" : [
+    {
+      "text" : "Myanmar Kyat (MMK MMK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mmk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mmk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mmk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mmk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mnt": {
+  "abstract" : [
+    {
+      "text" : "Mongolian Tugrik (MNT MNT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mnt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mnt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mnt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mnt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mop": {
+  "abstract" : [
+    {
+      "text" : "Macanese Pataca (MOP MOP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mop"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mop",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mop"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mro": {
+  "abstract" : [
+    {
+      "text" : "Mauritanian Ouguiya (1973–2017) (MRO MRO)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mro"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mro",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mro",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mro"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mru": {
+  "abstract" : [
+    {
+      "text" : "Mauritanian Ouguiya (MRU MRU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mru"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mru",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mru",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mru"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mtl": {
+  "abstract" : [
+    {
+      "text" : "Maltese Lira (MTL MTL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mtl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mtl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mtl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mtl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mur": {
+  "abstract" : [
+    {
+      "text" : "Mauritian Rupee (MUR MUR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mur"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mur",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mur"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mvr": {
+  "abstract" : [
+    {
+      "text" : "Maldivian Rufiyaa (MVR MVR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mvr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mvr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mvr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mvr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mwk": {
+  "abstract" : [
+    {
+      "text" : "Malawian Kwacha (MWK MWK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mwk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mwk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mwk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mwk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mxn": {
+  "abstract" : [
+    {
+      "text" : "Mexican Peso (MXN MX$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mxn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mxn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mxn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mxn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mxv": {
+  "abstract" : [
+    {
+      "text" : "Mexican Investment Unit (MXV MXV)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mxv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mxv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mxv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mxv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/myr": {
+  "abstract" : [
+    {
+      "text" : "Malaysian Ringgit (MYR MYR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "myr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/myr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.myr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/myr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mzm": {
+  "abstract" : [
+    {
+      "text" : "Mozambican Metical (1980–2006) (MZM MZM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mzm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mzm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mzm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mzm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/mzn": {
+  "abstract" : [
+    {
+      "text" : "Mozambican Metical (MZN MZN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mzn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/mzn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mzn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/mzn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/nad": {
+  "abstract" : [
+    {
+      "text" : "Namibian Dollar (NAD NAD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nad"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nad",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/nad"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ngn": {
+  "abstract" : [
+    {
+      "text" : "Nigerian Naira (NGN NGN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ngn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ngn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ngn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ngn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/nio": {
+  "abstract" : [
+    {
+      "text" : "Nicaraguan Córdoba (NIO NIO)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nio"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nio",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nio",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/nio"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/nlg": {
+  "abstract" : [
+    {
+      "text" : "Dutch Guilder (NLG NLG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nlg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nlg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nlg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/nlg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/nok": {
+  "abstract" : [
+    {
+      "text" : "Norwegian Krone (NOK NOK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nok"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nok",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nok",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/nok"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/npr": {
+  "abstract" : [
+    {
+      "text" : "Nepalese Rupee (NPR NPR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "npr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/npr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.npr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/npr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/nzd": {
+  "abstract" : [
+    {
+      "text" : "New Zealand Dollar (NZD NZ$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nzd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/nzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nzd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/nzd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/omr": {
+  "abstract" : [
+    {
+      "text" : "Omani Rial (OMR OMR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "omr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/omr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.omr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/omr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/pab": {
+  "abstract" : [
+    {
+      "text" : "Panamanian Balboa (PAB PAB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pab"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pab",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pab",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/pab"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/pen": {
+  "abstract" : [
+    {
+      "text" : "Peruvian Sol (PEN PEN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pen"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pen",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/pen"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/pgk": {
+  "abstract" : [
+    {
+      "text" : "Papua New Guinean Kina (PGK PGK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pgk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pgk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pgk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/pgk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/php": {
+  "abstract" : [
+    {
+      "text" : "Philippine Piso (PHP ₱)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "php"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/php",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.php",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/php"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/pkr": {
+  "abstract" : [
+    {
+      "text" : "Pakistani Rupee (PKR PKR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pkr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pkr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pkr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/pkr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/pln": {
+  "abstract" : [
+    {
+      "text" : "Polish Zloty (PLN PLN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pln"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pln",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pln",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/pln"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/pte": {
+  "abstract" : [
+    {
+      "text" : "Portuguese Escudo (PTE PTE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pte"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pte",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pte",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/pte"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/pyg": {
+  "abstract" : [
+    {
+      "text" : "Paraguayan Guarani (PYG PYG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pyg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/pyg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pyg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/pyg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/qar": {
+  "abstract" : [
+    {
+      "text" : "Qatari Rial (QAR QAR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "qar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/qar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.qar",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/qar"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/rol": {
+  "abstract" : [
+    {
+      "text" : "Romanian Leu (1952–2006) (ROL ROL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rol",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.rol",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/rol"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ron": {
+  "abstract" : [
+    {
+      "text" : "Romanian Leu (RON RON)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ron"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ron",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ron",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ron"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/rsd": {
+  "abstract" : [
+    {
+      "text" : "Serbian Dinar (RSD RSD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rsd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rsd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.rsd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/rsd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/rub": {
+  "abstract" : [
+    {
+      "text" : "Russian Ruble (RUB RUB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.rub",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/rub"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/rur": {
+  "abstract" : [
+    {
+      "text" : "Russian Ruble (1991–1998) (RUR RUR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rur"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.rur",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/rur"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/rwf": {
+  "abstract" : [
+    {
+      "text" : "Rwandan Franc (RWF RWF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rwf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/rwf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.rwf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/rwf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sar": {
+  "abstract" : [
+    {
+      "text" : "Saudi Riyal (SAR SAR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sar",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sar"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sbd": {
+  "abstract" : [
+    {
+      "text" : "Solomon Islands Dollar (SBD SBD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sbd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sbd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sbd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sbd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/scr": {
+  "abstract" : [
+    {
+      "text" : "Seychellois Rupee (SCR SCR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/scr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.scr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/scr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sdd": {
+  "abstract" : [
+    {
+      "text" : "Sudanese Dinar (1992–2007) (SDD SDD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sdd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sdd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sdd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sdd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sdg": {
+  "abstract" : [
+    {
+      "text" : "Sudanese Pound (SDG SDG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sdg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sdg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sdg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sdg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sek": {
+  "abstract" : [
+    {
+      "text" : "Swedish Krona (SEK SEK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sek"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sek",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sek",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sek"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sgd": {
+  "abstract" : [
+    {
+      "text" : "Singapore Dollar (SGD SGD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sgd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sgd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sgd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sgd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/shp": {
+  "abstract" : [
+    {
+      "text" : "St. Helena Pound (SHP SHP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/shp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.shp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/shp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sit": {
+  "abstract" : [
+    {
+      "text" : "Slovenian Tolar (SIT SIT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sit"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sit",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sit"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/skk": {
+  "abstract" : [
+    {
+      "text" : "Slovak Koruna (SKK SKK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "skk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/skk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.skk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/skk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sle": {
+  "abstract" : [
+    {
+      "text" : "Sierra Leonean Leone (SLE SLE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sle",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sle"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sll": {
+  "abstract" : [
+    {
+      "text" : "Sierra Leonean Leone (SLL SLL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sll"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sll",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sll",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sll"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/sos": {
+  "abstract" : [
+    {
+      "text" : "Somali Shilling (SOS SOS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/sos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sos",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/sos"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/srd": {
+  "abstract" : [
+    {
+      "text" : "Surinamese Dollar (SRD SRD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "srd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/srd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.srd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/srd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/srg": {
+  "abstract" : [
+    {
+      "text" : "Surinamese Guilder (SRG SRG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "srg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/srg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.srg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/srg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ssp": {
+  "abstract" : [
+    {
+      "text" : "South Sudanese Pound (SSP SSP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ssp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ssp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ssp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ssp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/std": {
+  "abstract" : [
+    {
+      "text" : "São Tomé & Príncipe Dobra (1977–2017) (STD STD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "std"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/std",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.std",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/std"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/stn": {
+  "abstract" : [
+    {
+      "text" : "São Tomé & Príncipe Dobra (STN STN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/stn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.stn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/stn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/svc": {
+  "abstract" : [
+    {
+      "text" : "Salvadoran Colón (SVC SVC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "svc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/svc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.svc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/svc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/syp": {
+  "abstract" : [
+    {
+      "text" : "Syrian Pound (SYP SYP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "syp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/syp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.syp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/syp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/szl": {
+  "abstract" : [
+    {
+      "text" : "Swazi Lilangeni (SZL SZL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "szl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/szl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.szl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/szl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/thb": {
+  "abstract" : [
+    {
+      "text" : "Thai Baht (THB THB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "thb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/thb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.thb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/thb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/tjs": {
+  "abstract" : [
+    {
+      "text" : "Tajikistani Somoni (TJS TJS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tjs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tjs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tjs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/tjs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/tmm": {
+  "abstract" : [
+    {
+      "text" : "Turkmenistani Manat (1993–2009) (TMM TMM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tmm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tmm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tmm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/tmm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/tmt": {
+  "abstract" : [
+    {
+      "text" : "Turkmenistani Manat (TMT TMT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tmt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tmt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tmt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/tmt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/tnd": {
+  "abstract" : [
+    {
+      "text" : "Tunisian Dinar (TND TND)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tnd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tnd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/tnd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/top": {
+  "abstract" : [
+    {
+      "text" : "Tongan Paʻanga (TOP TOP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "top"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/top",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.top",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/top"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/tpe": {
+  "abstract" : [
+    {
+      "text" : "Timorese Escudo (TPE TPE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tpe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tpe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tpe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/tpe"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/trl": {
+  "abstract" : [
+    {
+      "text" : "Turkish Lira (1922–2005) (TRL TRL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "trl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/trl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.trl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/trl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/try": {
+  "abstract" : [
+    {
+      "text" : "Turkish Lira (TRY TRY)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "`try`"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/try",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.try",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/try"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ttd": {
+  "abstract" : [
+    {
+      "text" : "Trinidad & Tobago Dollar (TTD TTD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ttd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ttd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ttd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ttd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/twd": {
+  "abstract" : [
+    {
+      "text" : "New Taiwan Dollar (TWD NT$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "twd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/twd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.twd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/twd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/tzs": {
+  "abstract" : [
+    {
+      "text" : "Tanzanian Shilling (TZS TZS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tzs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/tzs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tzs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/tzs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/uah": {
+  "abstract" : [
+    {
+      "text" : "Ukrainian Hryvnia (UAH UAH)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uah"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uah",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.uah",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/uah"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ugx": {
+  "abstract" : [
+    {
+      "text" : "Ugandan Shilling (UGX UGX)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ugx"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ugx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ugx",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ugx"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/usd": {
+  "abstract" : [
+    {
+      "text" : "US Dollar (USD $)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "usd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/usd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.usd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/usd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/usn": {
+  "abstract" : [
+    {
+      "text" : "US Dollar (Next day) (USN USN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "usn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/usn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.usn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/usn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/uss": {
+  "abstract" : [
+    {
+      "text" : "US Dollar (Same day) (USS USS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uss"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uss",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.uss",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/uss"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/uyi": {
+  "abstract" : [
+    {
+      "text" : "Uruguayan Peso (Indexed Units) (UYI UYI)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uyi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uyi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.uyi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/uyi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/uyu": {
+  "abstract" : [
+    {
+      "text" : "Uruguayan Peso (UYU UYU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uyu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uyu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.uyu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/uyu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/uzs": {
+  "abstract" : [
+    {
+      "text" : "Uzbekistani Som (UZS UZS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uzs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/uzs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.uzs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/uzs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/veb": {
+  "abstract" : [
+    {
+      "text" : "Venezuelan Bolívar (1871–2008) (VEB VEB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "veb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/veb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.veb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/veb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ved": {
+  "abstract" : [
+    {
+      "text" : "Venezuelan Bolívar Soberano (VED VED)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ved"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ved",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ved",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ved"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/vef": {
+  "abstract" : [
+    {
+      "text" : "Venezuelan Bolívar (2008–2018) (VEF VEF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "vef"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/vef",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.vef",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/vef"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/ves": {
+  "abstract" : [
+    {
+      "text" : "Venezuelan Bolívar (VES VES)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ves"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/ves",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ves",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/ves"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/vnd": {
+  "abstract" : [
+    {
+      "text" : "Vietnamese Dong (VND ₫)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "vnd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/vnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.vnd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/vnd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/vuv": {
+  "abstract" : [
+    {
+      "text" : "Vanuatu Vatu (VUV VUV)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "vuv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/vuv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.vuv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/vuv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/wst": {
+  "abstract" : [
+    {
+      "text" : "Samoan Tala (WST WST)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wst"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/wst",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.wst",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/wst"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xaf": {
+  "abstract" : [
+    {
+      "text" : "Central African CFA Franc (XAF FCFA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xaf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xaf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xaf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xaf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xag": {
+  "abstract" : [
+    {
+      "text" : "Silver (XAG XAG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xag"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xag",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xag",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xag"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xau": {
+  "abstract" : [
+    {
+      "text" : "Gold (XAU XAU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xau"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xau",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xau",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xau"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xba": {
+  "abstract" : [
+    {
+      "text" : "European Composite Unit (XBA XBA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xba"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xba",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xba",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xba"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xbb": {
+  "abstract" : [
+    {
+      "text" : "European Monetary Unit (XBB XBB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xbb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xbb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xbb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xbb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xbc": {
+  "abstract" : [
+    {
+      "text" : "European Unit of Account (XBC) (XBC XBC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xbc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xbc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xbc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xbc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xbd": {
+  "abstract" : [
+    {
+      "text" : "European Unit of Account (XBD) (XBD XBD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xbd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xbd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xbd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xbd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xcd": {
+  "abstract" : [
+    {
+      "text" : "East Caribbean Dollar (XCD EC$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xcd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xcd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xcd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xcd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xdr": {
+  "abstract" : [
+    {
+      "text" : "Special Drawing Rights (XDR XDR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xdr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xdr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xdr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xdr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xfo": {
+  "abstract" : [
+    {
+      "text" : "French Gold Franc (XFO XFO)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xfo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xfo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xfo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xfu": {
+  "abstract" : [
+    {
+      "text" : "French UIC-Franc (XFU XFU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xfu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xfu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xfu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xfu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xof": {
+  "abstract" : [
+    {
+      "text" : "West African CFA Franc (XOF F CFA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xof",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xof",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xof"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xpd": {
+  "abstract" : [
+    {
+      "text" : "Palladium (XPD XPD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xpd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xpd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xpd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xpd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xpf": {
+  "abstract" : [
+    {
+      "text" : "CFP Franc (XPF CFPF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xpf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xpf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xpf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xpf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xpt": {
+  "abstract" : [
+    {
+      "text" : "Platinum (XPT XPT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xpt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xpt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xpt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xpt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xsu": {
+  "abstract" : [
+    {
+      "text" : "Sucre (XSU XSU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xsu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xsu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xsu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xsu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xts": {
+  "abstract" : [
+    {
+      "text" : "Testing Currency Code (XTS XTS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xts",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xts"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xua": {
+  "abstract" : [
+    {
+      "text" : "ADB Unit of Account (XUA XUA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xua"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xua",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xua",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xua"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xxx": {
+  "abstract" : [
+    {
+      "text" : "Unknown Currency (XXX ¤)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xxx"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xxx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xxx",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xxx"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/yer": {
+  "abstract" : [
+    {
+      "text" : "Yemeni Rial (YER YER)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/yer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.yer",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/yer"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/yum": {
+  "abstract" : [
+    {
+      "text" : "Yugoslavian New Dinar (1994–2002) (YUM YUM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yum"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/yum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.yum",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/yum"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zar": {
+  "abstract" : [
+    {
+      "text" : "South African Rand (ZAR ZAR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zar",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zar"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zmk": {
+  "abstract" : [
+    {
+      "text" : "Zambian Kwacha (1968–2012) (ZMK ZMK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zmk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zmk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zmk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zmk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zmw": {
+  "abstract" : [
+    {
+      "text" : "Zambian Kwacha (ZMW ZMW)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zmw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zmw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zmw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zmw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zwd": {
+  "abstract" : [
+    {
+      "text" : "Zimbabwean Dollar (1980–2008) (ZWD ZWD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zwd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zwd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zwd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zwl": {
+  "abstract" : [
+    {
+      "text" : "Zimbabwean Dollar (2009) (ZWL ZWL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zwl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zwl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zwl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zwn": {
+  "abstract" : [
+    {
+      "text" : "ZWN (ZWN ZWN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zwn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zwn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zwn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zwr": {
+  "abstract" : [
+    {
+      "text" : "Zimbabwean Dollar (2008) (ZWR ZWR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zwr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zwr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zwr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Transaction": {
+  "abstract" : [
+    {
+      "text" : "Describes a visitor transaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Transaction"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Transaction"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Transaction",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/transaction"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TransactionController": {
+  "abstract" : [
+    {
+      "text" : "An object that allows to register transactions.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TransactionController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TransactionController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TransactionController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TransactionController",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1Transaction\/title",
+        "value" : "Transaction"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1Transaction\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Transaction"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1Transaction\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Transaction"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TransactionController\/title",
+        "value" : "TransactionController"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TransactionController\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TransactionController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TransactionController\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TransactionController"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

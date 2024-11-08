@@ -1,0 +1,282 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@IAdvizeConversationSDK@E@LoggerLogLevel",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "LoggerLogLevel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "IAdvizeConversationSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LoggerLogLevel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "LoggerLogLevel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LoggerLogLevel"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@NSInteger",
+              "text" : "NSInteger"
+            },
+            {
+              "kind" : "text",
+              "text" : ";"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelAll",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelError",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelInfo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelNone",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelSuccess",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelVerbose",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelWarning"
+      ],
+      "title" : "Enumeration Cases"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/loggerloglevel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
+  "abstract" : [
+    {
+      "text" : "Take your app to the next level and provide a ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "unique conversational experience",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " to your users!",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "IAdvizeConversationSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "LoggerLogLevel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LoggerLogLevel",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel/LoggerLogLevelAll": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "LoggerLogLevelAll"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelAll",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LoggerLogLevelAll",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelall"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel/LoggerLogLevelError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "LoggerLogLevelError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelError",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LoggerLogLevelError",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelerror"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel/LoggerLogLevelInfo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "LoggerLogLevelInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LoggerLogLevelInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelinfo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel/LoggerLogLevelNone": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "LoggerLogLevelNone"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelNone",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LoggerLogLevelNone",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelnone"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel/LoggerLogLevelSuccess": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "LoggerLogLevelSuccess"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelSuccess",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LoggerLogLevelSuccess",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelsuccess"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel/LoggerLogLevelVerbose": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "LoggerLogLevelVerbose"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelVerbose",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LoggerLogLevelVerbose",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelverbose"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel/LoggerLogLevelWarning": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "LoggerLogLevelWarning"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel\/LoggerLogLevelWarning",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LoggerLogLevelWarning",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelwarning"
+}
+}
+}

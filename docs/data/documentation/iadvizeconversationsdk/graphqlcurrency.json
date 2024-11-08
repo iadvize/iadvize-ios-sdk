@@ -1,0 +1,4995 @@
+{
+  "abstract" : [
+    {
+      "text" : "ISO4217 currency code.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@IAdvizeConversationSDK@E@GraphQLCurrency",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "GraphQLCurrency"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "IAdvizeConversationSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "GraphQLCurrency"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "GraphQLCurrency"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "GraphQLCurrency"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@NSInteger",
+              "text" : "NSInteger"
+            },
+            {
+              "kind" : "text",
+              "text" : ";"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAdp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAed",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAfa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAfn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAll",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAmd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAng",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAoa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyArs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAts",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAud",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAwg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAym",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAzm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAzn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBam",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBbd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBdt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBef",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBgl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBgn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBhd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBif",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBmd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBnd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBob",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBov",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBrl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBsd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBtn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBwp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyByb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyByn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyByr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBzd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCad",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCdf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyChe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyChf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyChw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyClf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyClp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCny",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCop",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCou",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCrc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCsd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCuc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCup",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCve",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCyp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCzk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDem",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDjf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDkk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDop",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDzd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEek",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEgp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyErn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEsp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEtb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEur",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyFim",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyFjd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyFkp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyFrf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGbp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGel",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGhc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGhs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGip",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGmd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGnf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGrd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGtq",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGwp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGyd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHkd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHnl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHrk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHtg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHuf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIdr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIep",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIls",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyInr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIqd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIrr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIsk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyItl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyJmd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyJod",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyJpy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKes",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKgs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKhr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKmf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKpw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKrw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKwd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKyd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKzt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLak",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLbp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLkr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLrd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLsl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLtl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLuf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLvl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLyd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMad",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMdl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMga",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMgf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMkd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMmk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMnt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMop",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMro",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMru",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMtl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMur",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMvr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMwk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMxn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMxv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMyr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMzm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMzn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNad",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNgn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNio",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNlg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNok",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNpr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNzd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyOmr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPab",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPen",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPgk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPhp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPkr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPln",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPte",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPyg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyQar",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRol",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRon",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRsd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRub",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRur",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRwf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySar",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySbd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyScr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySdd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySdg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySek",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySgd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyShp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySit",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySkk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySle",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySll",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySos",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySrd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySrg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySsp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyStd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyStn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySvc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySyp",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySzl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyThb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTjs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTmm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTmt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTnd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTop",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTpe",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTrl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTry",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTtd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTwd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTzs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUah",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUgx",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUsd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUsn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUss",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUyi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUyu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUzs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVeb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVed",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVef",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVes",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVnd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVuv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyWst",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXaf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXag",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXau",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXba",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXbb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXbc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXbd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXcd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXdr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXfo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXfu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXof",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXpd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXpf",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXpt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXsu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXts",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXua",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXxx",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyYer",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyYum",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZar",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZmk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZmw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZwd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZwl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZwn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZwr"
+      ],
+      "title" : "Enumeration Cases"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/graphqlcurrency"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
+  "abstract" : [
+    {
+      "text" : "Take your app to the next level and provide a ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "unique conversational experience",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " to your users!",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "IAdvizeConversationSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency": {
+  "abstract" : [
+    {
+      "text" : "ISO4217 currency code.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrency"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrency",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAdp": {
+  "abstract" : [
+    {
+      "text" : "Andorran Peseta (ADP ADP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAdp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAdp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAdp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyadp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAed": {
+  "abstract" : [
+    {
+      "text" : "United Arab Emirates Dirham (AED AED)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAed"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAed",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyaed"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAfa": {
+  "abstract" : [
+    {
+      "text" : "Afghan Afghani (1927–2002) (AFA AFA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAfa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAfa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAfa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyafa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAfn": {
+  "abstract" : [
+    {
+      "text" : "Afghan Afghani (AFN AFN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAfn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAfn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAfn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyafn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAll": {
+  "abstract" : [
+    {
+      "text" : "Albanian Lek (ALL ALL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAll"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAll",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAll",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyall"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAmd": {
+  "abstract" : [
+    {
+      "text" : "Armenian Dram (AMD AMD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAmd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAmd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyamd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAng": {
+  "abstract" : [
+    {
+      "text" : "Netherlands Antillean Guilder (ANG ANG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAng"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAng",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAng",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyang"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAoa": {
+  "abstract" : [
+    {
+      "text" : "Angolan Kwanza (AOA AOA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAoa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAoa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAoa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyaoa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyArs": {
+  "abstract" : [
+    {
+      "text" : "Argentine Peso (ARS ARS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyArs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyArs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyArs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyars"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAts": {
+  "abstract" : [
+    {
+      "text" : "Austrian Schilling (ATS ATS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAts",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyats"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAud": {
+  "abstract" : [
+    {
+      "text" : "Australian Dollar (AUD A$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAud"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAud",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAud",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyaud"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAwg": {
+  "abstract" : [
+    {
+      "text" : "Aruban Florin (AWG AWG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAwg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAwg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAwg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyawg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAym": {
+  "abstract" : [
+    {
+      "text" : "AYM (AYM AYM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAym"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAym",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAym",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyaym"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAzm": {
+  "abstract" : [
+    {
+      "text" : "Azerbaijani Manat (1993–2006) (AZM AZM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAzm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAzm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAzm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyazm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyAzn": {
+  "abstract" : [
+    {
+      "text" : "Azerbaijani Manat (AZN AZN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyAzn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyAzn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyAzn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyazn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBam": {
+  "abstract" : [
+    {
+      "text" : "Bosnia-Herzegovina Convertible Mark (BAM BAM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBam"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBam",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBam",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybam"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBbd": {
+  "abstract" : [
+    {
+      "text" : "Barbadian Dollar (BBD BBD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBbd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBbd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBbd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybbd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBdt": {
+  "abstract" : [
+    {
+      "text" : "Bangladeshi Taka (BDT BDT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBdt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBdt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBdt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybdt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBef": {
+  "abstract" : [
+    {
+      "text" : "Belgian Franc (BEF BEF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBef"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBef",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBef",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybef"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBgl": {
+  "abstract" : [
+    {
+      "text" : "Bulgarian Hard Lev (BGL BGL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBgl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBgl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBgl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybgl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBgn": {
+  "abstract" : [
+    {
+      "text" : "Bulgarian Lev (BGN BGN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBgn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBgn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBgn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybgn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBhd": {
+  "abstract" : [
+    {
+      "text" : "Bahraini Dinar (BHD BHD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBhd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBhd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBhd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybhd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBif": {
+  "abstract" : [
+    {
+      "text" : "Burundian Franc (BIF BIF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBif"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBif",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBif",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybif"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBmd": {
+  "abstract" : [
+    {
+      "text" : "Bermudan Dollar (BMD BMD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBmd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBmd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybmd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBnd": {
+  "abstract" : [
+    {
+      "text" : "Brunei Dollar (BND BND)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBnd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBnd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybnd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBob": {
+  "abstract" : [
+    {
+      "text" : "Bolivian Boliviano (BOB BOB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBob"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBob",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBob",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybob"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBov": {
+  "abstract" : [
+    {
+      "text" : "Bolivian Mvdol (BOV BOV)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBov"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBov",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBov",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybov"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBrl": {
+  "abstract" : [
+    {
+      "text" : "Brazilian Real (BRL R$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBrl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBrl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBrl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybrl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBsd": {
+  "abstract" : [
+    {
+      "text" : "Bahamian Dollar (BSD BSD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBsd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBsd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBsd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybsd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBtn": {
+  "abstract" : [
+    {
+      "text" : "Bhutanese Ngultrum (BTN BTN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBtn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBtn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBtn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybtn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBwp": {
+  "abstract" : [
+    {
+      "text" : "Botswanan Pula (BWP BWP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBwp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBwp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBwp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybwp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyByb": {
+  "abstract" : [
+    {
+      "text" : "Belarusian Ruble (1994–1999) (BYB BYB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyByb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyByb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyByb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybyb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyByn": {
+  "abstract" : [
+    {
+      "text" : "Belarusian Ruble (BYN BYN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyByn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyByn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyByn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybyn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyByr": {
+  "abstract" : [
+    {
+      "text" : "Belarusian Ruble (2000–2016) (BYR BYR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyByr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyByr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyByr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybyr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyBzd": {
+  "abstract" : [
+    {
+      "text" : "Belize Dollar (BZD BZD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyBzd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyBzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyBzd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybzd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCad": {
+  "abstract" : [
+    {
+      "text" : "Canadian Dollar (CAD CA$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCad"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCad",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycad"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCdf": {
+  "abstract" : [
+    {
+      "text" : "Congolese Franc (CDF CDF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCdf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCdf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCdf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycdf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyChe": {
+  "abstract" : [
+    {
+      "text" : "WIR Euro (CHE CHE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyChe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyChe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyChe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyche"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyChf": {
+  "abstract" : [
+    {
+      "text" : "Swiss Franc (CHF CHF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyChf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyChf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyChf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencychf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyChw": {
+  "abstract" : [
+    {
+      "text" : "WIR Franc (CHW CHW)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyChw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyChw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyChw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencychw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyClf": {
+  "abstract" : [
+    {
+      "text" : "Chilean Unit of Account (UF) (CLF CLF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyClf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyClf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyClf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyclf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyClp": {
+  "abstract" : [
+    {
+      "text" : "Chilean Peso (CLP CLP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyClp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyClp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyClp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyclp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCny": {
+  "abstract" : [
+    {
+      "text" : "Chinese Yuan (CNY CN¥)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCny"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCny",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCny",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycny"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCop": {
+  "abstract" : [
+    {
+      "text" : "Colombian Peso (COP COP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCop"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCop",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycop"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCou": {
+  "abstract" : [
+    {
+      "text" : "Colombian Real Value Unit (COU COU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCou"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCou",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCou",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycou"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCrc": {
+  "abstract" : [
+    {
+      "text" : "Costa Rican Colón (CRC CRC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCrc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCrc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCrc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycrc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCsd": {
+  "abstract" : [
+    {
+      "text" : "Serbian Dinar (2002–2006) (CSD CSD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCsd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCsd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCsd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycsd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCuc": {
+  "abstract" : [
+    {
+      "text" : "Cuban Convertible Peso (CUC CUC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCuc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCuc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCuc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycuc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCup": {
+  "abstract" : [
+    {
+      "text" : "Cuban Peso (CUP CUP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCup"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCup",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCup",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycup"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCve": {
+  "abstract" : [
+    {
+      "text" : "Cape Verdean Escudo (CVE CVE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCve"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCve",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCve",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycve"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCyp": {
+  "abstract" : [
+    {
+      "text" : "Cypriot Pound (CYP CYP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCyp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCyp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCyp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycyp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyCzk": {
+  "abstract" : [
+    {
+      "text" : "Czech Koruna (CZK CZK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyCzk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyCzk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyCzk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyczk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyDem": {
+  "abstract" : [
+    {
+      "text" : "German Mark (DEM DEM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyDem"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDem",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyDem",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydem"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyDjf": {
+  "abstract" : [
+    {
+      "text" : "Djiboutian Franc (DJF DJF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyDjf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDjf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyDjf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydjf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyDkk": {
+  "abstract" : [
+    {
+      "text" : "Danish Krone (DKK DKK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyDkk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDkk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyDkk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydkk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyDop": {
+  "abstract" : [
+    {
+      "text" : "Dominican Peso (DOP DOP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyDop"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyDop",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydop"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyDzd": {
+  "abstract" : [
+    {
+      "text" : "Algerian Dinar (DZD DZD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyDzd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyDzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyDzd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydzd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyEek": {
+  "abstract" : [
+    {
+      "text" : "Estonian Kroon (EEK EEK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyEek"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEek",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyEek",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyeek"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyEgp": {
+  "abstract" : [
+    {
+      "text" : "Egyptian Pound (EGP EGP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyEgp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEgp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyEgp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyegp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyErn": {
+  "abstract" : [
+    {
+      "text" : "Eritrean Nakfa (ERN ERN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyErn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyErn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyErn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyern"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyEsp": {
+  "abstract" : [
+    {
+      "text" : "Spanish Peseta (ESP ESP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyEsp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEsp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyEsp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyesp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyEtb": {
+  "abstract" : [
+    {
+      "text" : "Ethiopian Birr (ETB ETB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyEtb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEtb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyEtb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyetb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyEur": {
+  "abstract" : [
+    {
+      "text" : "Euro (EUR €)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyEur"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyEur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyEur",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyeur"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyFim": {
+  "abstract" : [
+    {
+      "text" : "Finnish Markka (FIM FIM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyFim"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyFim",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyFim",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyfim"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyFjd": {
+  "abstract" : [
+    {
+      "text" : "Fijian Dollar (FJD FJD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyFjd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyFjd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyFjd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyfjd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyFkp": {
+  "abstract" : [
+    {
+      "text" : "Falkland Islands Pound (FKP FKP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyFkp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyFkp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyFkp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyfkp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyFrf": {
+  "abstract" : [
+    {
+      "text" : "French Franc (FRF FRF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyFrf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyFrf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyFrf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyfrf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGbp": {
+  "abstract" : [
+    {
+      "text" : "British Pound (GBP £)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGbp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGbp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGbp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygbp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGel": {
+  "abstract" : [
+    {
+      "text" : "Georgian Lari (GEL GEL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGel",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygel"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGhc": {
+  "abstract" : [
+    {
+      "text" : "Ghanaian Cedi (1979–2007) (GHC GHC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGhc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGhc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGhc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyghc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGhs": {
+  "abstract" : [
+    {
+      "text" : "Ghanaian Cedi (GHS GHS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGhs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGhs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGhs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyghs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGip": {
+  "abstract" : [
+    {
+      "text" : "Gibraltar Pound (GIP GIP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGip"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGip",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGip",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygip"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGmd": {
+  "abstract" : [
+    {
+      "text" : "Gambian Dalasi (GMD GMD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGmd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGmd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygmd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGnf": {
+  "abstract" : [
+    {
+      "text" : "Guinean Franc (GNF GNF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGnf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGnf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGnf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygnf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGrd": {
+  "abstract" : [
+    {
+      "text" : "Greek Drachma (GRD GRD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGrd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGrd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGrd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygrd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGtq": {
+  "abstract" : [
+    {
+      "text" : "Guatemalan Quetzal (GTQ GTQ)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGtq"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGtq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGtq",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygtq"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGwp": {
+  "abstract" : [
+    {
+      "text" : "Guinea-Bissau Peso (GWP GWP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGwp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGwp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGwp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygwp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyGyd": {
+  "abstract" : [
+    {
+      "text" : "Guyanaese Dollar (GYD GYD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyGyd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyGyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyGyd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygyd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyHkd": {
+  "abstract" : [
+    {
+      "text" : "Hong Kong Dollar (HKD HK$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyHkd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHkd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyHkd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhkd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyHnl": {
+  "abstract" : [
+    {
+      "text" : "Honduran Lempira (HNL HNL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyHnl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHnl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyHnl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhnl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyHrk": {
+  "abstract" : [
+    {
+      "text" : "Croatian Kuna (HRK HRK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyHrk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHrk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyHrk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhrk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyHtg": {
+  "abstract" : [
+    {
+      "text" : "Haitian Gourde (HTG HTG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyHtg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHtg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyHtg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhtg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyHuf": {
+  "abstract" : [
+    {
+      "text" : "Hungarian Forint (HUF HUF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyHuf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyHuf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyHuf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhuf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyIdr": {
+  "abstract" : [
+    {
+      "text" : "Indonesian Rupiah (IDR IDR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyIdr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIdr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyIdr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyidr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyIep": {
+  "abstract" : [
+    {
+      "text" : "Irish Pound (IEP IEP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyIep"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIep",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyIep",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyiep"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyIls": {
+  "abstract" : [
+    {
+      "text" : "Israeli New Shekel (ILS ₪)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyIls"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIls",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyIls",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyils"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyInr": {
+  "abstract" : [
+    {
+      "text" : "Indian Rupee (INR ₹)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyInr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyInr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyInr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyinr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyIqd": {
+  "abstract" : [
+    {
+      "text" : "Iraqi Dinar (IQD IQD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyIqd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIqd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyIqd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyiqd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyIrr": {
+  "abstract" : [
+    {
+      "text" : "Iranian Rial (IRR IRR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyIrr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIrr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyIrr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyirr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyIsk": {
+  "abstract" : [
+    {
+      "text" : "Icelandic Króna (ISK ISK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyIsk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyIsk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyIsk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyisk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyItl": {
+  "abstract" : [
+    {
+      "text" : "Italian Lira (ITL ITL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyItl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyItl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyItl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyitl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyJmd": {
+  "abstract" : [
+    {
+      "text" : "Jamaican Dollar (JMD JMD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyJmd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyJmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyJmd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyjmd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyJod": {
+  "abstract" : [
+    {
+      "text" : "Jordanian Dinar (JOD JOD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyJod"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyJod",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyJod",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyjod"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyJpy": {
+  "abstract" : [
+    {
+      "text" : "Japanese Yen (JPY ¥)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyJpy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyJpy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyJpy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyjpy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKes": {
+  "abstract" : [
+    {
+      "text" : "Kenyan Shilling (KES KES)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKes"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKes",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykes"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKgs": {
+  "abstract" : [
+    {
+      "text" : "Kyrgystani Som (KGS KGS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKgs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKgs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKgs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykgs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKhr": {
+  "abstract" : [
+    {
+      "text" : "Cambodian Riel (KHR KHR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKhr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKhr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKhr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykhr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKmf": {
+  "abstract" : [
+    {
+      "text" : "Comorian Franc (KMF KMF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKmf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKmf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKmf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykmf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKpw": {
+  "abstract" : [
+    {
+      "text" : "North Korean Won (KPW KPW)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKpw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKpw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKpw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykpw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKrw": {
+  "abstract" : [
+    {
+      "text" : "South Korean Won (KRW ₩)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKrw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKrw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKrw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykrw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKwd": {
+  "abstract" : [
+    {
+      "text" : "Kuwaiti Dinar (KWD KWD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKwd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKwd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKwd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykwd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKyd": {
+  "abstract" : [
+    {
+      "text" : "Cayman Islands Dollar (KYD KYD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKyd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKyd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykyd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyKzt": {
+  "abstract" : [
+    {
+      "text" : "Kazakhstani Tenge (KZT KZT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyKzt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyKzt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyKzt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykzt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLak": {
+  "abstract" : [
+    {
+      "text" : "Laotian Kip (LAK LAK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLak"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLak",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLak",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylak"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLbp": {
+  "abstract" : [
+    {
+      "text" : "Lebanese Pound (LBP LBP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLbp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLbp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLbp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylbp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLkr": {
+  "abstract" : [
+    {
+      "text" : "Sri Lankan Rupee (LKR LKR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLkr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLkr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLkr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylkr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLrd": {
+  "abstract" : [
+    {
+      "text" : "Liberian Dollar (LRD LRD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLrd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLrd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLrd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylrd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLsl": {
+  "abstract" : [
+    {
+      "text" : "Lesotho Loti (LSL LSL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLsl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLsl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLsl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylsl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLtl": {
+  "abstract" : [
+    {
+      "text" : "Lithuanian Litas (LTL LTL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLtl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLtl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLtl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyltl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLuf": {
+  "abstract" : [
+    {
+      "text" : "Luxembourgian Franc (LUF LUF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLuf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLuf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLuf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyluf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLvl": {
+  "abstract" : [
+    {
+      "text" : "Latvian Lats (LVL LVL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLvl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLvl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLvl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylvl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyLyd": {
+  "abstract" : [
+    {
+      "text" : "Libyan Dinar (LYD LYD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyLyd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyLyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyLyd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylyd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMad": {
+  "abstract" : [
+    {
+      "text" : "Moroccan Dirham (MAD MAD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMad"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMad",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymad"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMdl": {
+  "abstract" : [
+    {
+      "text" : "Moldovan Leu (MDL MDL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMdl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMdl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMdl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymdl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMga": {
+  "abstract" : [
+    {
+      "text" : "Malagasy Ariary (MGA MGA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMga"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMga",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMga",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymga"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMgf": {
+  "abstract" : [
+    {
+      "text" : "Malagasy Franc (MGF MGF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMgf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMgf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMgf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymgf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMkd": {
+  "abstract" : [
+    {
+      "text" : "Macedonian Denar (MKD MKD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMkd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMkd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMkd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymkd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMmk": {
+  "abstract" : [
+    {
+      "text" : "Myanmar Kyat (MMK MMK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMmk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMmk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMmk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymmk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMnt": {
+  "abstract" : [
+    {
+      "text" : "Mongolian Tugrik (MNT MNT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMnt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMnt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMnt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymnt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMop": {
+  "abstract" : [
+    {
+      "text" : "Macanese Pataca (MOP MOP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMop"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMop",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymop"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMro": {
+  "abstract" : [
+    {
+      "text" : "Mauritanian Ouguiya (1973–2017) (MRO MRO)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMro"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMro",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMro",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymro"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMru": {
+  "abstract" : [
+    {
+      "text" : "Mauritanian Ouguiya (MRU MRU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMru"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMru",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMru",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymru"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMtl": {
+  "abstract" : [
+    {
+      "text" : "Maltese Lira (MTL MTL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMtl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMtl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMtl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymtl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMur": {
+  "abstract" : [
+    {
+      "text" : "Mauritian Rupee (MUR MUR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMur"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMur",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymur"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMvr": {
+  "abstract" : [
+    {
+      "text" : "Maldivian Rufiyaa (MVR MVR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMvr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMvr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMvr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymvr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMwk": {
+  "abstract" : [
+    {
+      "text" : "Malawian Kwacha (MWK MWK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMwk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMwk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMwk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymwk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMxn": {
+  "abstract" : [
+    {
+      "text" : "Mexican Peso (MXN MX$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMxn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMxn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMxn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymxn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMxv": {
+  "abstract" : [
+    {
+      "text" : "Mexican Investment Unit (MXV MXV)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMxv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMxv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMxv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymxv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMyr": {
+  "abstract" : [
+    {
+      "text" : "Malaysian Ringgit (MYR MYR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMyr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMyr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMyr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymyr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMzm": {
+  "abstract" : [
+    {
+      "text" : "Mozambican Metical (1980–2006) (MZM MZM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMzm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMzm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMzm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymzm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyMzn": {
+  "abstract" : [
+    {
+      "text" : "Mozambican Metical (MZN MZN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyMzn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyMzn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyMzn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymzn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyNad": {
+  "abstract" : [
+    {
+      "text" : "Namibian Dollar (NAD NAD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyNad"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyNad",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynad"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyNgn": {
+  "abstract" : [
+    {
+      "text" : "Nigerian Naira (NGN NGN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyNgn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNgn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyNgn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyngn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyNio": {
+  "abstract" : [
+    {
+      "text" : "Nicaraguan Córdoba (NIO NIO)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyNio"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNio",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyNio",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynio"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyNlg": {
+  "abstract" : [
+    {
+      "text" : "Dutch Guilder (NLG NLG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyNlg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNlg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyNlg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynlg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyNok": {
+  "abstract" : [
+    {
+      "text" : "Norwegian Krone (NOK NOK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyNok"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNok",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyNok",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynok"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyNpr": {
+  "abstract" : [
+    {
+      "text" : "Nepalese Rupee (NPR NPR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyNpr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNpr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyNpr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynpr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyNzd": {
+  "abstract" : [
+    {
+      "text" : "New Zealand Dollar (NZD NZ$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyNzd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyNzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyNzd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynzd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyOmr": {
+  "abstract" : [
+    {
+      "text" : "Omani Rial (OMR OMR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyOmr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyOmr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyOmr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyomr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyPab": {
+  "abstract" : [
+    {
+      "text" : "Panamanian Balboa (PAB PAB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyPab"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPab",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyPab",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypab"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyPen": {
+  "abstract" : [
+    {
+      "text" : "Peruvian Sol (PEN PEN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyPen"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyPen",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypen"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyPgk": {
+  "abstract" : [
+    {
+      "text" : "Papua New Guinean Kina (PGK PGK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyPgk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPgk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyPgk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypgk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyPhp": {
+  "abstract" : [
+    {
+      "text" : "Philippine Piso (PHP ₱)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyPhp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPhp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyPhp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyphp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyPkr": {
+  "abstract" : [
+    {
+      "text" : "Pakistani Rupee (PKR PKR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyPkr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPkr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyPkr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypkr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyPln": {
+  "abstract" : [
+    {
+      "text" : "Polish Zloty (PLN PLN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyPln"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPln",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyPln",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypln"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyPte": {
+  "abstract" : [
+    {
+      "text" : "Portuguese Escudo (PTE PTE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyPte"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPte",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyPte",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypte"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyPyg": {
+  "abstract" : [
+    {
+      "text" : "Paraguayan Guarani (PYG PYG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyPyg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyPyg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyPyg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypyg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyQar": {
+  "abstract" : [
+    {
+      "text" : "Qatari Rial (QAR QAR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyQar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyQar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyQar",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyqar"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyRol": {
+  "abstract" : [
+    {
+      "text" : "Romanian Leu (1952–2006) (ROL ROL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyRol"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRol",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyRol",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrol"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyRon": {
+  "abstract" : [
+    {
+      "text" : "Romanian Leu (RON RON)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyRon"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyRon",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyron"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyRsd": {
+  "abstract" : [
+    {
+      "text" : "Serbian Dinar (RSD RSD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyRsd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRsd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyRsd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrsd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyRub": {
+  "abstract" : [
+    {
+      "text" : "Russian Ruble (RUB RUB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyRub"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyRub",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrub"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyRur": {
+  "abstract" : [
+    {
+      "text" : "Russian Ruble (1991–1998) (RUR RUR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyRur"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyRur",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrur"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyRwf": {
+  "abstract" : [
+    {
+      "text" : "Rwandan Franc (RWF RWF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyRwf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyRwf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyRwf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrwf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySar": {
+  "abstract" : [
+    {
+      "text" : "Saudi Riyal (SAR SAR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySar",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysar"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySbd": {
+  "abstract" : [
+    {
+      "text" : "Solomon Islands Dollar (SBD SBD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySbd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySbd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySbd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysbd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyScr": {
+  "abstract" : [
+    {
+      "text" : "Seychellois Rupee (SCR SCR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyScr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyScr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyScr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyscr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySdd": {
+  "abstract" : [
+    {
+      "text" : "Sudanese Dinar (1992–2007) (SDD SDD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySdd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySdd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySdd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysdd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySdg": {
+  "abstract" : [
+    {
+      "text" : "Sudanese Pound (SDG SDG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySdg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySdg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySdg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysdg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySek": {
+  "abstract" : [
+    {
+      "text" : "Swedish Krona (SEK SEK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySek"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySek",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySek",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysek"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySgd": {
+  "abstract" : [
+    {
+      "text" : "Singapore Dollar (SGD SGD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySgd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySgd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySgd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysgd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyShp": {
+  "abstract" : [
+    {
+      "text" : "St. Helena Pound (SHP SHP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyShp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyShp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyShp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyshp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySit": {
+  "abstract" : [
+    {
+      "text" : "Slovenian Tolar (SIT SIT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySit"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySit",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysit"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySkk": {
+  "abstract" : [
+    {
+      "text" : "Slovak Koruna (SKK SKK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySkk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySkk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySkk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyskk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySle": {
+  "abstract" : [
+    {
+      "text" : "Sierra Leonean Leone (SLE SLE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySle"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySle",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysle"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySll": {
+  "abstract" : [
+    {
+      "text" : "Sierra Leonean Leone (SLL SLL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySll"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySll",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySll",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysll"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySos": {
+  "abstract" : [
+    {
+      "text" : "Somali Shilling (SOS SOS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySos"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySos",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysos"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySrd": {
+  "abstract" : [
+    {
+      "text" : "Surinamese Dollar (SRD SRD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySrd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySrd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySrd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysrd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySrg": {
+  "abstract" : [
+    {
+      "text" : "Surinamese Guilder (SRG SRG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySrg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySrg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySrg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysrg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySsp": {
+  "abstract" : [
+    {
+      "text" : "South Sudanese Pound (SSP SSP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySsp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySsp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySsp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyssp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyStd": {
+  "abstract" : [
+    {
+      "text" : "São Tomé & Príncipe Dobra (1977–2017) (STD STD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyStd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyStd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyStd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencystd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyStn": {
+  "abstract" : [
+    {
+      "text" : "São Tomé & Príncipe Dobra (STN STN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyStn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyStn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyStn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencystn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySvc": {
+  "abstract" : [
+    {
+      "text" : "Salvadoran Colón (SVC SVC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySvc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySvc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySvc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysvc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySyp": {
+  "abstract" : [
+    {
+      "text" : "Syrian Pound (SYP SYP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySyp"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySyp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySyp",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysyp"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencySzl": {
+  "abstract" : [
+    {
+      "text" : "Swazi Lilangeni (SZL SZL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencySzl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencySzl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencySzl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyszl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyThb": {
+  "abstract" : [
+    {
+      "text" : "Thai Baht (THB THB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyThb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyThb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyThb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencythb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTjs": {
+  "abstract" : [
+    {
+      "text" : "Tajikistani Somoni (TJS TJS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTjs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTjs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTjs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytjs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTmm": {
+  "abstract" : [
+    {
+      "text" : "Turkmenistani Manat (1993–2009) (TMM TMM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTmm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTmm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTmm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytmm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTmt": {
+  "abstract" : [
+    {
+      "text" : "Turkmenistani Manat (TMT TMT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTmt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTmt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTmt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytmt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTnd": {
+  "abstract" : [
+    {
+      "text" : "Tunisian Dinar (TND TND)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTnd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTnd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytnd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTop": {
+  "abstract" : [
+    {
+      "text" : "Tongan Paʻanga (TOP TOP)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTop"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTop",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytop"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTpe": {
+  "abstract" : [
+    {
+      "text" : "Timorese Escudo (TPE TPE)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTpe"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTpe",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTpe",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytpe"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTrl": {
+  "abstract" : [
+    {
+      "text" : "Turkish Lira (1922–2005) (TRL TRL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTrl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTrl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTrl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytrl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTry": {
+  "abstract" : [
+    {
+      "text" : "Turkish Lira (TRY TRY)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTry"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTry",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTry",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytry"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTtd": {
+  "abstract" : [
+    {
+      "text" : "Trinidad & Tobago Dollar (TTD TTD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTtd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTtd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTtd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyttd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTwd": {
+  "abstract" : [
+    {
+      "text" : "New Taiwan Dollar (TWD NT$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTwd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTwd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTwd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytwd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyTzs": {
+  "abstract" : [
+    {
+      "text" : "Tanzanian Shilling (TZS TZS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyTzs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyTzs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyTzs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytzs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyUah": {
+  "abstract" : [
+    {
+      "text" : "Ukrainian Hryvnia (UAH UAH)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyUah"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUah",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyUah",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuah"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyUgx": {
+  "abstract" : [
+    {
+      "text" : "Ugandan Shilling (UGX UGX)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyUgx"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUgx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyUgx",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyugx"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyUsd": {
+  "abstract" : [
+    {
+      "text" : "US Dollar (USD $)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyUsd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUsd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyUsd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyusd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyUsn": {
+  "abstract" : [
+    {
+      "text" : "US Dollar (Next day) (USN USN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyUsn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUsn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyUsn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyusn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyUss": {
+  "abstract" : [
+    {
+      "text" : "US Dollar (Same day) (USS USS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyUss"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUss",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyUss",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuss"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyUyi": {
+  "abstract" : [
+    {
+      "text" : "Uruguayan Peso (Indexed Units) (UYI UYI)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyUyi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUyi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyUyi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuyi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyUyu": {
+  "abstract" : [
+    {
+      "text" : "Uruguayan Peso (UYU UYU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyUyu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUyu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyUyu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuyu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyUzs": {
+  "abstract" : [
+    {
+      "text" : "Uzbekistani Som (UZS UZS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyUzs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyUzs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyUzs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuzs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyVeb": {
+  "abstract" : [
+    {
+      "text" : "Venezuelan Bolívar (1871–2008) (VEB VEB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyVeb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVeb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyVeb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyveb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyVed": {
+  "abstract" : [
+    {
+      "text" : "Venezuelan Bolívar Soberano (VED VED)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyVed"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyVed",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyved"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyVef": {
+  "abstract" : [
+    {
+      "text" : "Venezuelan Bolívar (2008–2018) (VEF VEF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyVef"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVef",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyVef",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyvef"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyVes": {
+  "abstract" : [
+    {
+      "text" : "Venezuelan Bolívar (VES VES)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyVes"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyVes",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyves"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyVnd": {
+  "abstract" : [
+    {
+      "text" : "Vietnamese Dong (VND ₫)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyVnd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyVnd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyvnd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyVuv": {
+  "abstract" : [
+    {
+      "text" : "Vanuatu Vatu (VUV VUV)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyVuv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyVuv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyVuv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyvuv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyWst": {
+  "abstract" : [
+    {
+      "text" : "Samoan Tala (WST WST)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyWst"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyWst",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyWst",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencywst"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXaf": {
+  "abstract" : [
+    {
+      "text" : "Central African CFA Franc (XAF FCFA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXaf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXaf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXaf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxaf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXag": {
+  "abstract" : [
+    {
+      "text" : "Silver (XAG XAG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXag"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXag",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXag",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxag"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXau": {
+  "abstract" : [
+    {
+      "text" : "Gold (XAU XAU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXau"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXau",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXau",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxau"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXba": {
+  "abstract" : [
+    {
+      "text" : "European Composite Unit (XBA XBA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXba"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXba",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXba",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxba"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXbb": {
+  "abstract" : [
+    {
+      "text" : "European Monetary Unit (XBB XBB)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXbb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXbb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXbb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxbb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXbc": {
+  "abstract" : [
+    {
+      "text" : "European Unit of Account (XBC) (XBC XBC)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXbc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXbc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXbc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxbc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXbd": {
+  "abstract" : [
+    {
+      "text" : "European Unit of Account (XBD) (XBD XBD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXbd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXbd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXbd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxbd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXcd": {
+  "abstract" : [
+    {
+      "text" : "East Caribbean Dollar (XCD EC$)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXcd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXcd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXcd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxcd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXdr": {
+  "abstract" : [
+    {
+      "text" : "Special Drawing Rights (XDR XDR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXdr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXdr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXdr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxdr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXfo": {
+  "abstract" : [
+    {
+      "text" : "French Gold Franc (XFO XFO)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXfo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXfo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxfo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXfu": {
+  "abstract" : [
+    {
+      "text" : "French UIC-Franc (XFU XFU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXfu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXfu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXfu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxfu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXof": {
+  "abstract" : [
+    {
+      "text" : "West African CFA Franc (XOF F CFA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXof"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXof",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXof",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxof"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXpd": {
+  "abstract" : [
+    {
+      "text" : "Palladium (XPD XPD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXpd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXpd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXpd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxpd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXpf": {
+  "abstract" : [
+    {
+      "text" : "CFP Franc (XPF CFPF)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXpf"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXpf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXpf",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxpf"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXpt": {
+  "abstract" : [
+    {
+      "text" : "Platinum (XPT XPT)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXpt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXpt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXpt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxpt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXsu": {
+  "abstract" : [
+    {
+      "text" : "Sucre (XSU XSU)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXsu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXsu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXsu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxsu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXts": {
+  "abstract" : [
+    {
+      "text" : "Testing Currency Code (XTS XTS)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXts",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxts"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXua": {
+  "abstract" : [
+    {
+      "text" : "ADB Unit of Account (XUA XUA)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXua"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXua",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXua",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxua"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyXxx": {
+  "abstract" : [
+    {
+      "text" : "Unknown Currency (XXX ¤)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyXxx"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyXxx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyXxx",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxxx"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyYer": {
+  "abstract" : [
+    {
+      "text" : "Yemeni Rial (YER YER)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyYer"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyYer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyYer",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyyer"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyYum": {
+  "abstract" : [
+    {
+      "text" : "Yugoslavian New Dinar (1994–2002) (YUM YUM)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyYum"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyYum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyYum",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyyum"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyZar": {
+  "abstract" : [
+    {
+      "text" : "South African Rand (ZAR ZAR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyZar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyZar",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzar"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyZmk": {
+  "abstract" : [
+    {
+      "text" : "Zambian Kwacha (1968–2012) (ZMK ZMK)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyZmk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZmk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyZmk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzmk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyZmw": {
+  "abstract" : [
+    {
+      "text" : "Zambian Kwacha (ZMW ZMW)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyZmw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZmw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyZmw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzmw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyZwd": {
+  "abstract" : [
+    {
+      "text" : "Zimbabwean Dollar (1980–2008) (ZWD ZWD)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyZwd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZwd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyZwd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzwd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyZwl": {
+  "abstract" : [
+    {
+      "text" : "Zimbabwean Dollar (2009) (ZWL ZWL)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyZwl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZwl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyZwl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzwl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyZwn": {
+  "abstract" : [
+    {
+      "text" : "ZWN (ZWN ZWN)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyZwn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZwn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyZwn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzwn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency/GraphQLCurrencyZwr": {
+  "abstract" : [
+    {
+      "text" : "Zimbabwean Dollar (2008) (ZWR ZWR)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "GraphQLCurrencyZwr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency\/GraphQLCurrencyZwr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GraphQLCurrencyZwr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzwr"
+}
+}
+}

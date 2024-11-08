@@ -1,0 +1,6108 @@
+{
+  "abstract" : [
+    {
+      "text" : "ISO639-1 language.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:22IAdvizeConversationSDK8LanguageO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Language"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "IAdvizeConversationSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Language"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "Language"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Language"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/s12CaseIterableP",
+        "doc:\/\/com.iadvize.conversation.sdk\/SQ",
+        "doc:\/\/com.iadvize.conversation.sdk\/SH",
+        "doc:\/\/com.iadvize.conversation.sdk\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "anchor" : "Targeting",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum"
+      ],
+      "title" : "Targeting"
+    }
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/aa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ab",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ae",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/af",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ak",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/am",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/an",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ar",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/as",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/av",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ay",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/az",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ba",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/be",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/br",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ca",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ce",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ch",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/co",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cs",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/da",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/de",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/dv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/dz",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ee",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/el",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/en",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/eo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/es",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/et",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/eu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ff",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fj",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ga",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ha",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/he",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ho",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ht",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hy",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hz",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ia",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/id",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ie",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ig",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ii",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ik",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/in",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/io",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/is",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/it",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/iu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/iw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ja",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ji",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/jv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ka",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ki",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kj",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/km",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ko",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ks",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ku",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ky",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/la",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/li",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ln",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ml",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ms",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/my",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/na",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nb",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ne",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ng",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/no",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ny",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/oc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/oj",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/om",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/or",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/os",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/pa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/pi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/pl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ps",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/pt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/qu",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/rm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/rn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ro",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ru",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/rw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sc",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/se",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/si",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sm",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/so",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sq",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ss",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/st",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/su",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sv",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ta",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/te",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tg",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/th",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ti",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tl",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tn",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/to",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tr",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ts",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tt",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tw",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ty",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ug",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/uk",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ur",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/uz",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ve",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/vi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/vo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/wa",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/wo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/xh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/yi",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/yo",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/za",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/zh",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/zu"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/Equatable-Implementations",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/language"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.iadvize.conversation.sdk/SH": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/SQ": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/SY": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
+  "abstract" : [
+    {
+      "text" : "Take your app to the next level and provide a ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "unique conversational experience",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " to your users!",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "IAdvizeConversationSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationChannel-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ConversationChannel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ConversationChannel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ConversationChannel",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language": {
+  "abstract" : [
+    {
+      "text" : "ISO639-1 language.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Language"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Language"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Language",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/equatable-implementations"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/rawrepresentable-implementations"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/aa": {
+  "abstract" : [
+    {
+      "text" : "Afar (aa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/aa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.aa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/aa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ab": {
+  "abstract" : [
+    {
+      "text" : "Abkhazian (ab)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ab"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ab",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ab",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ab"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ae": {
+  "abstract" : [
+    {
+      "text" : "Avestan (ae)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ae"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ae",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ae",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ae"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/af": {
+  "abstract" : [
+    {
+      "text" : "Afrikaans (af)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "af"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/af",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.af",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/af"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ak": {
+  "abstract" : [
+    {
+      "text" : "Akan (ak)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ak"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ak",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ak",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ak"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/am": {
+  "abstract" : [
+    {
+      "text" : "Amharic (am)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "am"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/am",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.am",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/am"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/an": {
+  "abstract" : [
+    {
+      "text" : "Aragonese (an)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "an"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/an",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.an",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/an"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ar": {
+  "abstract" : [
+    {
+      "text" : "Arabic (ar)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ar"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ar",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ar"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/as": {
+  "abstract" : [
+    {
+      "text" : "Assamese (as)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "`as`"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/as",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.as",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/as"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/av": {
+  "abstract" : [
+    {
+      "text" : "Avaric (av)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "av"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/av",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.av",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/av"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ay": {
+  "abstract" : [
+    {
+      "text" : "Aymara (ay)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ay"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ay",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ay",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ay"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/az": {
+  "abstract" : [
+    {
+      "text" : "Azerbaijani (az)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "az"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/az",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.az",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/az"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ba": {
+  "abstract" : [
+    {
+      "text" : "Bashkir (ba)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ba"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ba",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ba",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ba"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/be": {
+  "abstract" : [
+    {
+      "text" : "Belarusian (be)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "be"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/be",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.be",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/be"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/bg": {
+  "abstract" : [
+    {
+      "text" : "Bulgarian (bg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.bg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/bg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/bh": {
+  "abstract" : [
+    {
+      "text" : "Bihari (bh)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.bh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/bh"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/bi": {
+  "abstract" : [
+    {
+      "text" : "Bislama (bi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.bi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/bi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/bm": {
+  "abstract" : [
+    {
+      "text" : "Bambara (bm)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.bm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/bm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/bn": {
+  "abstract" : [
+    {
+      "text" : "Bangla (bn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.bn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/bn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/bo": {
+  "abstract" : [
+    {
+      "text" : "Tibetan (bo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.bo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/bo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/br": {
+  "abstract" : [
+    {
+      "text" : "Breton (br)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "br"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/br",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.br",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/br"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/bs": {
+  "abstract" : [
+    {
+      "text" : "Bosnian (bs)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/bs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.bs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/bs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ca": {
+  "abstract" : [
+    {
+      "text" : "Catalan (ca)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ca"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ca",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ca",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ca"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ce": {
+  "abstract" : [
+    {
+      "text" : "Chechen (ce)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ce"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ce",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ce",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ce"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ch": {
+  "abstract" : [
+    {
+      "text" : "Chamorro (ch)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ch"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ch",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ch",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ch"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/co": {
+  "abstract" : [
+    {
+      "text" : "Corsican (co)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "co"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/co",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.co",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/co"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/cr": {
+  "abstract" : [
+    {
+      "text" : "Cree (cr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.cr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/cr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/cs": {
+  "abstract" : [
+    {
+      "text" : "Czech (cs)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cs"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.cs",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/cs"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/cu": {
+  "abstract" : [
+    {
+      "text" : "Church Slavic (cu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.cu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/cu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/cv": {
+  "abstract" : [
+    {
+      "text" : "Chuvash (cv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.cv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/cv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/cy": {
+  "abstract" : [
+    {
+      "text" : "Welsh (cy)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/cy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.cy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/cy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/da": {
+  "abstract" : [
+    {
+      "text" : "Danish (da)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "da"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/da",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.da",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/da"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/de": {
+  "abstract" : [
+    {
+      "text" : "German (de)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "de"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/de",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.de",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/de"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/dv": {
+  "abstract" : [
+    {
+      "text" : "Divehi (dv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/dv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.dv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/dv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/dz": {
+  "abstract" : [
+    {
+      "text" : "Dzongkha (dz)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dz"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/dz",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.dz",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/dz"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ee": {
+  "abstract" : [
+    {
+      "text" : "Ewe (ee)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ee"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ee",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ee",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ee"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/el": {
+  "abstract" : [
+    {
+      "text" : "Greek (el)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "el"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/el",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.el",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/el"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/en": {
+  "abstract" : [
+    {
+      "text" : "English (en)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "en"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/en",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.en",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/en"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/eo": {
+  "abstract" : [
+    {
+      "text" : "Esperanto (eo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "eo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/eo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.eo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/eo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/es": {
+  "abstract" : [
+    {
+      "text" : "Spanish (es)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "es"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/es",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.es",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/es"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/et": {
+  "abstract" : [
+    {
+      "text" : "Estonian (et)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "et"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/et",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.et",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/et"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/eu": {
+  "abstract" : [
+    {
+      "text" : "Basque (eu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "eu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/eu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.eu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/eu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/fa": {
+  "abstract" : [
+    {
+      "text" : "Persian (fa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.fa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/fa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ff": {
+  "abstract" : [
+    {
+      "text" : "Fulah (ff)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ff"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ff",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ff",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ff"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/fi": {
+  "abstract" : [
+    {
+      "text" : "Finnish (fi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.fi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/fi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/fj": {
+  "abstract" : [
+    {
+      "text" : "Fijian (fj)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fj"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.fj",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/fj"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/fo": {
+  "abstract" : [
+    {
+      "text" : "Faroese (fo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.fo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/fo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/fr": {
+  "abstract" : [
+    {
+      "text" : "French (fr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.fr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/fr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/fy": {
+  "abstract" : [
+    {
+      "text" : "Western Frisian (fy)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/fy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.fy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/fy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ga": {
+  "abstract" : [
+    {
+      "text" : "Irish (ga)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ga"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ga",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ga",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ga"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/gd": {
+  "abstract" : [
+    {
+      "text" : "Scottish Gaelic (gd)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.gd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/gd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/gl": {
+  "abstract" : [
+    {
+      "text" : "Galician (gl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.gl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/gl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/gn": {
+  "abstract" : [
+    {
+      "text" : "Guarani (gn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.gn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/gn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/gu": {
+  "abstract" : [
+    {
+      "text" : "Gujarati (gu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.gu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/gu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/gv": {
+  "abstract" : [
+    {
+      "text" : "Manx (gv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/gv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.gv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/gv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ha": {
+  "abstract" : [
+    {
+      "text" : "Hausa (ha)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ha"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ha",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ha",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ha"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/he": {
+  "abstract" : [
+    {
+      "text" : "Hebrew (he)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "he"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/he",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.he",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/he"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/hi": {
+  "abstract" : [
+    {
+      "text" : "Hindi (hi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.hi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/hi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ho": {
+  "abstract" : [
+    {
+      "text" : "Hiri Motu (ho)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ho"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ho",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ho",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ho"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/hr": {
+  "abstract" : [
+    {
+      "text" : "Croatian (hr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.hr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/hr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ht": {
+  "abstract" : [
+    {
+      "text" : "Haitian Creole (ht)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ht"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ht",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ht",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ht"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/hu": {
+  "abstract" : [
+    {
+      "text" : "Hungarian (hu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.hu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/hu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/hy": {
+  "abstract" : [
+    {
+      "text" : "Armenian (hy)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hy"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.hy",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/hy"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/hz": {
+  "abstract" : [
+    {
+      "text" : "Herero (hz)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hz"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/hz",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.hz",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/hz"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ia": {
+  "abstract" : [
+    {
+      "text" : "Interlingua (ia)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ia"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ia",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ia",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ia"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/id": {
+  "abstract" : [
+    {
+      "text" : "Indonesian (id)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.id",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/id"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ie": {
+  "abstract" : [
+    {
+      "text" : "Interlingue (ie)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ie"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ie",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ie",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ie"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ig": {
+  "abstract" : [
+    {
+      "text" : "Igbo (ig)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ig"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ig",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ig",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ig"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ii": {
+  "abstract" : [
+    {
+      "text" : "Sichuan Yi (ii)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ii"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ii",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ii",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ii"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ik": {
+  "abstract" : [
+    {
+      "text" : "Inupiaq (ik)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ik"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ik",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ik",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ik"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/in": {
+  "abstract" : [
+    {
+      "text" : "Indonesian (in)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "`in`"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/in",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.in",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/in"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/init(rawvalue:)"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/io": {
+  "abstract" : [
+    {
+      "text" : "Ido (io)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "io"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/io",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.io",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/io"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/is": {
+  "abstract" : [
+    {
+      "text" : "Icelandic (is)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "`is`"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/is",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.is",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/is"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/it": {
+  "abstract" : [
+    {
+      "text" : "Italian (it)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "it"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/it",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.it",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/it"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/iu": {
+  "abstract" : [
+    {
+      "text" : "Inuktitut (iu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "iu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/iu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.iu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/iu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/iw": {
+  "abstract" : [
+    {
+      "text" : "Hebrew (iw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "iw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/iw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.iw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/iw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ja": {
+  "abstract" : [
+    {
+      "text" : "Japanese (ja)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ja"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ja",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ja",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ja"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ji": {
+  "abstract" : [
+    {
+      "text" : "Yiddish (ji)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ji"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ji",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ji",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ji"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/jv": {
+  "abstract" : [
+    {
+      "text" : "Javanese (jv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/jv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.jv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/jv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ka": {
+  "abstract" : [
+    {
+      "text" : "Georgian (ka)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ka"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ka",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ka",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ka"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/kg": {
+  "abstract" : [
+    {
+      "text" : "Kongo (kg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.kg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/kg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ki": {
+  "abstract" : [
+    {
+      "text" : "Kikuyu (ki)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ki"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ki",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ki",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ki"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/kj": {
+  "abstract" : [
+    {
+      "text" : "Kuanyama (kj)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kj"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.kj",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/kj"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/kk": {
+  "abstract" : [
+    {
+      "text" : "Kazakh (kk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.kk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/kk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/kl": {
+  "abstract" : [
+    {
+      "text" : "Kalaallisut (kl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.kl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/kl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/km": {
+  "abstract" : [
+    {
+      "text" : "Khmer (km)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "km"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/km",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.km",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/km"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/kn": {
+  "abstract" : [
+    {
+      "text" : "Kannada (kn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.kn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/kn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ko": {
+  "abstract" : [
+    {
+      "text" : "Korean (ko)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ko"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ko",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ko",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ko"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/kr": {
+  "abstract" : [
+    {
+      "text" : "Kanuri (kr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.kr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/kr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ks": {
+  "abstract" : [
+    {
+      "text" : "Kashmiri (ks)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ks"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ks",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ks",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ks"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ku": {
+  "abstract" : [
+    {
+      "text" : "Kurdish (ku)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ku"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ku",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ku",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ku"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/kv": {
+  "abstract" : [
+    {
+      "text" : "Komi (kv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.kv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/kv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/kw": {
+  "abstract" : [
+    {
+      "text" : "Cornish (kw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/kw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.kw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/kw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ky": {
+  "abstract" : [
+    {
+      "text" : "Kyrgyz (ky)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ky"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ky",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ky",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ky"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/la": {
+  "abstract" : [
+    {
+      "text" : "Latin (la)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "la"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/la",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.la",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/la"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/lb": {
+  "abstract" : [
+    {
+      "text" : "Luxembourgish (lb)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.lb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/lb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/lg": {
+  "abstract" : [
+    {
+      "text" : "Ganda (lg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.lg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/lg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/li": {
+  "abstract" : [
+    {
+      "text" : "Limburgish (li)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "li"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/li",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.li",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/li"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ln": {
+  "abstract" : [
+    {
+      "text" : "Lingala (ln)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ln"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ln",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ln",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ln"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/lo": {
+  "abstract" : [
+    {
+      "text" : "Lao (lo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.lo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/lo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/lt": {
+  "abstract" : [
+    {
+      "text" : "Lithuanian (lt)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.lt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/lt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/lu": {
+  "abstract" : [
+    {
+      "text" : "Luba-Katanga (lu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.lu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/lu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/lv": {
+  "abstract" : [
+    {
+      "text" : "Latvian (lv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/lv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.lv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/lv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/mg": {
+  "abstract" : [
+    {
+      "text" : "Malagasy (mg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.mg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/mg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/mh": {
+  "abstract" : [
+    {
+      "text" : "Marshallese (mh)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.mh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/mh"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/mi": {
+  "abstract" : [
+    {
+      "text" : "Maori (mi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.mi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/mi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/mk": {
+  "abstract" : [
+    {
+      "text" : "Macedonian (mk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.mk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/mk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ml": {
+  "abstract" : [
+    {
+      "text" : "Malayalam (ml)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ml"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ml",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ml",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ml"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/mn": {
+  "abstract" : [
+    {
+      "text" : "Mongolian (mn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.mn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/mn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/mo": {
+  "abstract" : [
+    {
+      "text" : "Moldavian (mo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.mo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/mo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/mr": {
+  "abstract" : [
+    {
+      "text" : "Marathi (mr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.mr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/mr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ms": {
+  "abstract" : [
+    {
+      "text" : "Malay (ms)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ms"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ms",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ms",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ms"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/mt": {
+  "abstract" : [
+    {
+      "text" : "Maltese (mt)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/mt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.mt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/mt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/my": {
+  "abstract" : [
+    {
+      "text" : "Burmese (my)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "my"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/my",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.my",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/my"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/na": {
+  "abstract" : [
+    {
+      "text" : "Nauru (na)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "na"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/na",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.na",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/na"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/nb": {
+  "abstract" : [
+    {
+      "text" : "Norwegian Bokmål (nb)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nb"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.nb",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/nb"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/nd": {
+  "abstract" : [
+    {
+      "text" : "North Ndebele (nd)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.nd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/nd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ne": {
+  "abstract" : [
+    {
+      "text" : "Nepali (ne)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ne"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ne",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ne",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ne"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ng": {
+  "abstract" : [
+    {
+      "text" : "Ndonga (ng)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ng"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ng",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ng",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ng"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/nl": {
+  "abstract" : [
+    {
+      "text" : "Dutch (nl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.nl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/nl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/nn": {
+  "abstract" : [
+    {
+      "text" : "Norwegian Nynorsk (nn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.nn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/nn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/no": {
+  "abstract" : [
+    {
+      "text" : "Norwegian (no)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "no"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/no",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.no",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/no"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/nr": {
+  "abstract" : [
+    {
+      "text" : "South Ndebele (nr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.nr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/nr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/nv": {
+  "abstract" : [
+    {
+      "text" : "Navajo (nv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/nv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.nv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/nv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ny": {
+  "abstract" : [
+    {
+      "text" : "Nyanja (ny)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ny"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ny",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ny",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ny"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/oc": {
+  "abstract" : [
+    {
+      "text" : "Occitan (oc)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "oc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/oc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.oc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/oc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/oj": {
+  "abstract" : [
+    {
+      "text" : "Ojibwa (oj)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "oj"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/oj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.oj",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/oj"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/om": {
+  "abstract" : [
+    {
+      "text" : "Oromo (om)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "om"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/om",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.om",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/om"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/or": {
+  "abstract" : [
+    {
+      "text" : "Odia (or)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "or"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/or",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.or",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/or"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/os": {
+  "abstract" : [
+    {
+      "text" : "Ossetic (os)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "os"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/os",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.os",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/os"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/pa": {
+  "abstract" : [
+    {
+      "text" : "Punjabi (pa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/pa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.pa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/pa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/pi": {
+  "abstract" : [
+    {
+      "text" : "Pali (pi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/pi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.pi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/pi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/pl": {
+  "abstract" : [
+    {
+      "text" : "Polish (pl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/pl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.pl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/pl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ps": {
+  "abstract" : [
+    {
+      "text" : "Pashto (ps)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ps"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ps",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ps",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ps"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/pt": {
+  "abstract" : [
+    {
+      "text" : "Portuguese (pt)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/pt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.pt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/pt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/qu": {
+  "abstract" : [
+    {
+      "text" : "Quechua (qu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "qu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/qu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.qu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/qu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/rm": {
+  "abstract" : [
+    {
+      "text" : "Romansh (rm)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/rm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.rm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/rm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/rn": {
+  "abstract" : [
+    {
+      "text" : "Rundi (rn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/rn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.rn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/rn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ro": {
+  "abstract" : [
+    {
+      "text" : "Romanian (ro)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ro"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ro",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ro",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ro"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ru": {
+  "abstract" : [
+    {
+      "text" : "Russian (ru)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ru"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ru",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ru",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ru"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/rw": {
+  "abstract" : [
+    {
+      "text" : "Kinyarwanda (rw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/rw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.rw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/rw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sa": {
+  "abstract" : [
+    {
+      "text" : "Sanskrit (sa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sc": {
+  "abstract" : [
+    {
+      "text" : "Sardinian (sc)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sc"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sc",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sc"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sd": {
+  "abstract" : [
+    {
+      "text" : "Sindhi (sd)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sd"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sd",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/se": {
+  "abstract" : [
+    {
+      "text" : "Northern Sami (se)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "se"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/se",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.se",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/se"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sg": {
+  "abstract" : [
+    {
+      "text" : "Sango (sg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/si": {
+  "abstract" : [
+    {
+      "text" : "Sinhala (si)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "si"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/si",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.si",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/si"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sk": {
+  "abstract" : [
+    {
+      "text" : "Slovak (sk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sl": {
+  "abstract" : [
+    {
+      "text" : "Slovenian (sl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sm": {
+  "abstract" : [
+    {
+      "text" : "Samoan (sm)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sm"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sm",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sm"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sn": {
+  "abstract" : [
+    {
+      "text" : "Shona (sn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/so": {
+  "abstract" : [
+    {
+      "text" : "Somali (so)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "so"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/so",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.so",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/so"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sq": {
+  "abstract" : [
+    {
+      "text" : "Albanian (sq)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sq"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sq",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sq"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sr": {
+  "abstract" : [
+    {
+      "text" : "Serbian (sr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ss": {
+  "abstract" : [
+    {
+      "text" : "Swati (ss)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ss"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ss",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ss",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ss"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/st": {
+  "abstract" : [
+    {
+      "text" : "Southern Sotho (st)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "st"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/st",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.st",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/st"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/su": {
+  "abstract" : [
+    {
+      "text" : "Sundanese (su)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "su"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/su",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.su",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/su"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sv": {
+  "abstract" : [
+    {
+      "text" : "Swedish (sv)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sv"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sv",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sv"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/sw": {
+  "abstract" : [
+    {
+      "text" : "Swahili (sw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/sw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.sw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/sw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ta": {
+  "abstract" : [
+    {
+      "text" : "Tamil (ta)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ta"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ta",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ta",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ta"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/te": {
+  "abstract" : [
+    {
+      "text" : "Telugu (te)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "te"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/te",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.te",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/te"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/tg": {
+  "abstract" : [
+    {
+      "text" : "Tajik (tg)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.tg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/tg"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/th": {
+  "abstract" : [
+    {
+      "text" : "Thai (th)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "th"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/th",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.th",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/th"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ti": {
+  "abstract" : [
+    {
+      "text" : "Tigrinya (ti)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ti"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ti",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ti",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ti"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/tk": {
+  "abstract" : [
+    {
+      "text" : "Turkmen (tk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.tk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/tk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/tl": {
+  "abstract" : [
+    {
+      "text" : "Tagalog (tl)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tl"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.tl",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/tl"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/tn": {
+  "abstract" : [
+    {
+      "text" : "Tswana (tn)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tn"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.tn",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/tn"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/to": {
+  "abstract" : [
+    {
+      "text" : "Tongan (to)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "to"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/to",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.to",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/to"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/tr": {
+  "abstract" : [
+    {
+      "text" : "Turkish (tr)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tr"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.tr",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/tr"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ts": {
+  "abstract" : [
+    {
+      "text" : "Tsonga (ts)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ts"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ts",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ts"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/tt": {
+  "abstract" : [
+    {
+      "text" : "Tatar (tt)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.tt",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/tt"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/tw": {
+  "abstract" : [
+    {
+      "text" : "Twi (tw)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tw"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/tw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.tw",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/tw"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ty": {
+  "abstract" : [
+    {
+      "text" : "Tahitian (ty)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ty"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ty",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ty",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ty"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ug": {
+  "abstract" : [
+    {
+      "text" : "Uyghur (ug)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ug"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ug",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ug",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ug"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/uk": {
+  "abstract" : [
+    {
+      "text" : "Ukrainian (uk)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uk"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/uk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.uk",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/uk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ur": {
+  "abstract" : [
+    {
+      "text" : "Urdu (ur)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ur"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ur",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ur"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/uz": {
+  "abstract" : [
+    {
+      "text" : "Uzbek (uz)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uz"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/uz",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.uz",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/uz"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/ve": {
+  "abstract" : [
+    {
+      "text" : "Venda (ve)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ve"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/ve",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.ve",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/ve"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/vi": {
+  "abstract" : [
+    {
+      "text" : "Vietnamese (vi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "vi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/vi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.vi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/vi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/vo": {
+  "abstract" : [
+    {
+      "text" : "Volapük (vo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "vo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/vo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.vo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/vo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/wa": {
+  "abstract" : [
+    {
+      "text" : "Walloon (wa)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wa"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/wa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.wa",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/wa"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/wo": {
+  "abstract" : [
+    {
+      "text" : "Wolof (wo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/wo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.wo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/wo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/xh": {
+  "abstract" : [
+    {
+      "text" : "Xhosa (xh)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/xh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.xh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/xh"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/yi": {
+  "abstract" : [
+    {
+      "text" : "Yiddish (yi)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yi"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/yi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.yi",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/yi"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/yo": {
+  "abstract" : [
+    {
+      "text" : "Yoruba (yo)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/yo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.yo",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/yo"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/za": {
+  "abstract" : [
+    {
+      "text" : "Zhuang (za)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "za"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/za",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.za",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/za"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/zh": {
+  "abstract" : [
+    {
+      "text" : "Chinese (zh)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zh"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/zh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.zh",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/zh"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/zu": {
+  "abstract" : [
+    {
+      "text" : "Zulu (zu)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zu"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/zu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Language.zu",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/language\/zu"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NavigationOption-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NavigationOption"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NavigationOption"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NavigationOption",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "Option to specify the language to use for the targeting.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SDKLanguageOption"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SDKLanguageOption"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SDKLanguageOption",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController": {
+  "abstract" : [
+    {
+      "text" : "An object that controls the targeting process, i.e. the workflow leading to the display or not of the chat button.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TargetingController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TargetingController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TargetingController",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "An object that is notified about the targeting process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TargetingControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TargetingControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TargetingControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontrollerdelegate"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError": {
+  "abstract" : [
+    {
+      "code" : "TargetingError",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is an error that can occur when you try to activate a targeting rule using",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "code" : "TargetingController.activateTargetingRule(targetingRule:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TargetingError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TargetingError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TargetingError",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingRule": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TargetingRule"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TargetingRule"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TargetingRule",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingrule"
+},
+"doc://com.iadvize.conversation.sdk/s12CaseIterableP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController\/title",
+        "value" : "TargetingController"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TargetingController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TargetingController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/title",
+        "value" : "TargetingControllerDelegate"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TargetingControllerDelegate"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TargetingControllerDelegate"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
+        "value" : "TargetingError"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TargetingError"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TargetingError"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingRule\/title",
+        "value" : "TargetingRule"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingRule\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TargetingRule"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingRule\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "TargetingRule"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}
