@@ -355,7 +355,6 @@
       "text" : "didReceiveNewMessageWithContent:"
     }
   ],
-  "required" : true,
   "role" : "symbol",
   "title" : "didReceiveNewMessage(content:)",
   "type" : "topic",

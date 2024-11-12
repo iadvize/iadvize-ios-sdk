@@ -1,3 +1,11 @@
+# 2.16.2 (Epoisses)
+
+### Release date 2024/11/12
+
+**Bug fixes**
+
+- Fix `Asset validation failed (Invalid CFBundleSupportedPlatforms value)` issue preventing app submission.
+
 # 2.16.1 (Epoisses)
 
 ### Release date 2024/11/07
