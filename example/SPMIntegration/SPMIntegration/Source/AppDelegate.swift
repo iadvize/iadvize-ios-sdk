@@ -14,10 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    let iAdvizeProjectID: Int = -1 // Replace with your project id
-    let iAdvizeSimpleUserId: String = "your-user-unique-id" // Replace with your user id
+    let iAdvizeProjectID: Int = 7260 // Replace with your project id
+    let iAdvizeSimpleUserId: String = "SLI-25-08-2368454" // Replace with your user id
     let iAdvizeTargetingRule = TargetingRule(
-        id: UUID(uuidString: "your-targeting-rule-uuid") ?? UUID(),  // Replace with your targeting rule id
+        id: UUID(uuidString: "d8821ad6-e0a2-4cb9-bf45-b2d8a3cf4f8d") ?? UUID(),  // Replace with your targeting rule id
         conversationChannel: .chat // or .video
     )
 
@@ -29,8 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // it at app launch, in the AppDelegate).
         window?.makeKeyAndVisible()
 
+
         iAdvizeSetup()
         pushNotificationsSetup()
+
+
 
         return true
     }
@@ -46,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        iAdvizeSetup()
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {

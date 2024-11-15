@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             }
         }
     }
-    
+
     var isActiveTargetingRuleAvailable: Bool = false {
         didSet {
             needHelpButton.isEnabled = isActiveTargetingRuleAvailable

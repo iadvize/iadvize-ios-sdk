@@ -1,3 +1,12 @@
+# 2.16.3 (Epoisses)
+
+### Release date 2024/11/15
+
+**Bug fixes**
+
+- Fix watchdog terminations caused by main thread being blocked by XMPP.
+- Fix wrong availability displayed in product card when a new message is received.
+
 # 2.16.2 (Epoisses)
 
 ### Release date 2024/11/12
