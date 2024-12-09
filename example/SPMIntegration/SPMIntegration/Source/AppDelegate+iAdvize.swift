@@ -32,7 +32,6 @@ extension AppDelegate {
 
         let mainColor = UIColor(red: 0.96, green: 0.49, blue: 0.38, alpha: 1.0)
 
-        configuration.font = UIFont(name: "HelveticaNeue", size: 11.0)!
         configuration.accentColor = mainColor
         configuration.outgoingMessageBackgroundColor = mainColor
 
