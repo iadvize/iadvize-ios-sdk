@@ -60,7 +60,16 @@
       },
       {
         "kind" : "text",
-        "text" : ": (() -> "
+        "text" : ": (@"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:ScM",
+        "text" : "MainActor"
+      },
+      {
+        "kind" : "text",
+        "text" : " () -> "
       },
       {
         "kind" : "typeIdentifier",
@@ -146,7 +155,16 @@
             },
             {
               "kind" : "text",
-              "text" : ": (() -> "
+              "text" : ": (@"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " () -> "
             },
             {
               "kind" : "typeIdentifier",
@@ -192,7 +210,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The block to execute after the chatbox is dismissed.",
+                  "text" : "The block to execute after the chatbox is dismissed. It will be executed on the main thread.",
                   "type" : "text"
                 }
               ],
@@ -373,7 +391,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (() -> "
+      "text" : ": (@"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:ScM",
+      "text" : "MainActor"
+    },
+    {
+      "kind" : "text",
+      "text" : " () -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -570,7 +597,7 @@
                 {
                   "inlineContent" : [
                     {
-                      "text" : "The block to execute after the chatbox is dismissed.",
+                      "text" : "The block to execute after the chatbox is dismissed. It will be executed on the main thread.",
                       "type" : "text"
                     }
                   ],

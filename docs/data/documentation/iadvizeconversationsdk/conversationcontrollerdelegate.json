@@ -62,6 +62,19 @@
           "tokens" : [
             {
               "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
               "text" : "@objc"
             },
             {
@@ -355,6 +368,7 @@
       "text" : "didReceiveNewMessageWithContent:"
     }
   ],
+  "required" : true,
   "role" : "symbol",
   "title" : "didReceiveNewMessage(content:)",
   "type" : "topic",

@@ -43,7 +43,16 @@
       },
       {
         "kind" : "text",
-        "text" : ": (("
+        "text" : ": (@"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:ScM",
+        "text" : "MainActor"
+      },
+      {
+        "kind" : "text",
+        "text" : " ("
       },
       {
         "kind" : "typeIdentifier",
@@ -121,7 +130,16 @@
             },
             {
               "kind" : "text",
-              "text" : ": (("
+              "text" : ": (@"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " ("
             },
             {
               "kind" : "typeIdentifier",
@@ -145,6 +163,33 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The completion handler called at the end of the process. The value indicates if the push",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "notifications were successfully disabled. It is always executed on the main thread.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "completion"
+        }
+      ]
     },
     {
       "content" : [
@@ -290,7 +335,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (("
+      "text" : ": (@"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:ScM",
+      "text" : "MainActor"
+    },
+    {
+      "kind" : "text",
+      "text" : " ("
     },
     {
       "kind" : "typeIdentifier",
@@ -453,6 +507,37 @@
             }
           ],
           "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/1",
+        "value" : {
+          "kind" : "parameters",
+          "parameters" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "The completion handler called at the end of the process. The value indicates if the push",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : " ",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : "notifications were successfully disabled. It is always executed on the main thread.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ],
+              "name" : "completion"
+            }
+          ]
         }
       },
       {

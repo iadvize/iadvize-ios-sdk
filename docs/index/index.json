@@ -3050,7 +3050,7 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/activate(projectid:authenticationoption:gdproption:completion:)",
-                "title" : "func activate(projectId: Int, authenticationOption: AuthenticationOption, gdprOption: GDPROption, completion: ((_ success: Bool) -> Void)?)",
+                "title" : "func activate(projectId: Int, authenticationOption: AuthenticationOption, gdprOption: GDPROption, completion: (@MainActor (_ success: Bool) -> Void)?)",
                 "type" : "method"
               },
               {
@@ -3060,7 +3060,7 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/logout(completion:)",
-                "title" : "func logout(completion: (() -> Void)?)",
+                "title" : "func logout(completion: (@MainActor () -> Void)?)",
                 "type" : "method"
               },
               {
@@ -3146,6 +3146,15 @@
                     "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/init(rawvalue:)",
                     "title" : "init?(rawValue: String)",
                     "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/id",
+                    "title" : "var id: `Self`",
+                    "type" : "property"
                   },
                   {
                     "title" : "Instance Methods",
@@ -4847,7 +4856,7 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/dismisschatbox(animated:completion:)",
-                "title" : "func dismissChatbox(animated: Bool, completion: (() -> Void)?)",
+                "title" : "func dismissChatbox(animated: Bool, completion: (@MainActor () -> Void)?)",
                 "type" : "method"
               },
               {
@@ -4857,7 +4866,7 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/presentchatbox(animated:presentingviewcontroller:completion:)",
-                "title" : "func presentChatbox(animated: Bool, presentingViewController: UIViewController?, completion: (() -> Void)?)",
+                "title" : "func presentChatbox(animated: Bool, presentingViewController: UIViewController?, completion: (@MainActor () -> Void)?)",
                 "type" : "method"
               },
               {
@@ -5039,12 +5048,12 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/disablepushnotifications(completion:)",
-                "title" : "func disablePushNotifications(completion: ((Bool) -> Void)?)",
+                "title" : "func disablePushNotifications(completion: (@MainActor (Bool) -> Void)?)",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/enablepushnotifications(completion:)",
-                "title" : "func enablePushNotifications(completion: ((Bool) -> Void)?)",
+                "title" : "func enablePushNotifications(completion: (@MainActor (Bool) -> Void)?)",
                 "type" : "method"
               },
               {
@@ -6443,7 +6452,7 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/registercustomdata(customdata:completion:)",
-                "title" : "func registerCustomData(customData: [String : CustomData], completion: ((Bool) -> Void)?)",
+                "title" : "func registerCustomData(customData: [String : CustomData], completion: (@MainActor (Bool) -> Void)?)",
                 "type" : "method"
               }
             ],

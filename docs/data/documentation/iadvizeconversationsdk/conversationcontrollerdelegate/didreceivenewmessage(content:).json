@@ -66,6 +66,7 @@
         "text" : "didReceiveNewMessageWithContent:"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -85,6 +86,19 @@
             {
               "kind" : "attribute",
               "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
             },
             {
               "kind" : "text",
@@ -167,6 +181,14 @@
           "inlineContent" : [
             {
               "text" : "Text content of the message is available if you want to display it in your custom chat button view for example.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "This method is always called on the main thread.",
               "type" : "text"
             }
           ],
@@ -319,6 +341,7 @@
       "text" : "didReceiveNewMessageWithContent:"
     }
   ],
+  "required" : true,
   "role" : "symbol",
   "title" : "didReceiveNewMessage(content:)",
   "type" : "topic",

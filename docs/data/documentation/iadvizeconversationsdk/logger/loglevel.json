@@ -82,8 +82,10 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/s12CaseIterableP",
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
+        "doc:\/\/com.iadvize.conversation.sdk\/s12IdentifiableP",
         "doc:\/\/com.iadvize.conversation.sdk\/SY"
       ],
       "kind" : "relationships",
@@ -130,6 +132,14 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/init(rawValue:)"
       ],
       "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/id"
+      ],
+      "title" : "Instance Properties"
     },
     {
       "anchor" : "Instance-Methods",
@@ -473,6 +483,35 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/error"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger/LogLevel/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": `Self`"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/id"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger/LogLevel/info": {
   "abstract" : [
 
@@ -669,6 +708,16 @@
   "title" : "Logger.LogLevel.warning",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/warning"
+},
+"doc://com.iadvize.conversation.sdk/s12CaseIterableP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s12IdentifiableP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s12IdentifiableP",
+  "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
 }
 }
 }

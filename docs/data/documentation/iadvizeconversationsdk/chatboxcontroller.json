@@ -383,7 +383,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (() -> "
+      "text" : ": (@"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:ScM",
+      "text" : "MainActor"
+    },
+    {
+      "kind" : "text",
+      "text" : " () -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -550,7 +559,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (() -> "
+      "text" : ": (@"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:ScM",
+      "text" : "MainActor"
+    },
+    {
+      "kind" : "text",
+      "text" : " () -> "
     },
     {
       "kind" : "typeIdentifier",

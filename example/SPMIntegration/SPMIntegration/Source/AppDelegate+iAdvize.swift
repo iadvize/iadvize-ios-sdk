@@ -13,8 +13,6 @@ import UIKit
 extension AppDelegate {
     func iAdvizeSetup() {
 
-        IAdvizeSDK.shared.logout()
-
         // Choose the log level of the SDK from `.verbose` to `.success`.
         IAdvizeSDK.shared.logLevel = .verbose
 

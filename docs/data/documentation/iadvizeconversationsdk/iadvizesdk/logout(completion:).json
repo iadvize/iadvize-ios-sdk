@@ -43,7 +43,16 @@
       },
       {
         "kind" : "text",
-        "text" : ": (() -> "
+        "text" : ": (@"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:ScM",
+        "text" : "MainActor"
+      },
+      {
+        "kind" : "text",
+        "text" : " () -> "
       },
       {
         "kind" : "typeIdentifier",
@@ -112,7 +121,16 @@
             },
             {
               "kind" : "text",
-              "text" : ": (() -> "
+              "text" : ": (@"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " () -> "
             },
             {
               "kind" : "typeIdentifier",
@@ -127,6 +145,33 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The completion handler called when the logout process is done. It will be executed on",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "the main thread.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "completion"
+        }
+      ]
     },
     {
       "content" : [
@@ -280,7 +325,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (() -> "
+      "text" : ": (@"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:ScM",
+      "text" : "MainActor"
+    },
+    {
+      "kind" : "text",
+      "text" : " () -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -417,6 +471,37 @@
             }
           ],
           "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/1",
+        "value" : {
+          "kind" : "parameters",
+          "parameters" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "The completion handler called when the logout process is done. It will be executed on",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : " ",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : "the main thread.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ],
+              "name" : "completion"
+            }
+          ]
         }
       },
       {

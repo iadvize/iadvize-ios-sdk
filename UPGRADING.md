@@ -1,3 +1,19 @@
+## 2.16.3 > 2.16.4
+
+- Main Thread Execution for Callbacks
+
+To simplify integration and ensure consistency, all delegate methods and completion blocks are now guaranteed to execute on the **main thread**. This means you no longer need to manually switch to the main thread when updating your UI from these callbacks. All relevant delegate methods and completion blocks have been explicitly annotated with `@MainActor`.
+
+- Automatic Push Notifications Handling
+
+Push notifications are now **automatically enabled** every time a visitor is activated using `IAdvizeSDK.activate(projectId:authenticationOption:gdprOption:completion:)`.
+
+​	- Previously, push notifications were only enabled during the first activation. After logout, they were disabled, requiring manual re-enablement on subsequent activations.
+
+​	- Now, push notifications will automatically re-enable during every activation, regardless of whether it’s the visitor’s first or a subsequent activation.
+
+You only need to call `NotificationController.enablePushNotifications(completion:)` if you previously disabled them using `NotificationController.disablePushNotifications(completion:)`.
+
 ## 2.16.2 > 2.16.3
 
 *Nothing to report*

@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:22IAdvizeConversationSDK17VisitorControllerC18registerCustomData06customH010completionySDySSAA0gH0OG_ySbcSgtF",
+    "externalID" : "s:22IAdvizeConversationSDK17VisitorControllerC18registerCustomData06customH010completionySDySSAA0gH0OG_ySbScMYccSgtF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -69,7 +69,16 @@
       },
       {
         "kind" : "text",
-        "text" : ": (("
+        "text" : ": (@"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:ScM",
+        "text" : "MainActor"
+      },
+      {
+        "kind" : "text",
+        "text" : " ("
       },
       {
         "kind" : "typeIdentifier",
@@ -160,7 +169,16 @@
             },
             {
               "kind" : "text",
-              "text" : ": (("
+              "text" : ": (@"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " ("
             },
             {
               "kind" : "typeIdentifier",
@@ -207,7 +225,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The block to execute when after the custom data have been sent.",
+                  "text" : "The block to execute when after the custom data have been sent. It is always executed on",
                   "type" : "text"
                 },
                 {
@@ -215,7 +233,7 @@
                   "type" : "text"
                 },
                 {
-                  "text" : "Please visit https:\/\/github.com\/iadvize\/iadvize-android-sdk for further information.",
+                  "text" : "the main thread.",
                   "type" : "text"
                 }
               ],
@@ -422,7 +440,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (("
+      "text" : ": (@"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:ScM",
+      "text" : "MainActor"
+    },
+    {
+      "kind" : "text",
+      "text" : " ("
     },
     {
       "kind" : "typeIdentifier",
