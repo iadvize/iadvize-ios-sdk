@@ -49,6 +49,7 @@
         "text" : "chatboxDidOpen"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -259,6 +260,7 @@
       "text" : "chatboxDidOpen"
     }
   ],
+  "required" : true,
   "role" : "symbol",
   "title" : "chatboxDidOpen()",
   "type" : "topic",

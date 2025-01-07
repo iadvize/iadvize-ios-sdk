@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let iAdvizeSimpleUserId: String = "your-user-unique-id" // Replace with your user id
     let iAdvizeTargetingRule = TargetingRule(
         id: UUID(uuidString: "your-targeting-rule-uuid") ?? UUID(),  // Replace with your targeting rule id
-        conversationChannel: .chat // or .video
+        conversationChannel: .chat
     )
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

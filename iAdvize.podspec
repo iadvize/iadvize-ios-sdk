@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                     = 'iAdvize'
-  spec.version                  = '2.16.4'
+  spec.version                  = '2.16.5'
   spec.license                  = { :type => 'Proprietary', :file => 'LICENSE.md' }
   spec.homepage                 = 'https://github.com/iadvize/iadvize-ios-sdk'
   spec.authors                  = { 'iAdvize' => 'mobile@iadvize.com' }
@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks  = 'IAdvizeConversationSDK.xcframework'
 
-  spec.dependency 'TwilioVideo', '~> 4.6'
+  spec.dependency 'TwilioVideo', '~> 5.8'
 end
