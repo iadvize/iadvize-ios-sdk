@@ -313,7 +313,6 @@
       "text" : "conversationController:shouldOpen:"
     }
   ],
-  "required" : true,
   "role" : "symbol",
   "title" : "conversationController(_:shouldOpen:)",
   "type" : "topic",
@@ -369,7 +368,6 @@
       "text" : "didReceiveNewMessageWithContent:"
     }
   ],
-  "required" : true,
   "role" : "symbol",
   "title" : "didReceiveNewMessage(content:)",
   "type" : "topic",

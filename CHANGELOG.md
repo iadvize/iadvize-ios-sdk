@@ -1,3 +1,11 @@
+# 2.16.6 (Epoisses)
+
+### Release date 2025/01/08
+
+**Bug fixes**
+
+Add missing LICENSE.md file in iAdvizeSDK.zip artifact, as requested by CocoaPods.
+
 # 2.16.5 (Epoisses)
 
 ### Release date 2025/01/07

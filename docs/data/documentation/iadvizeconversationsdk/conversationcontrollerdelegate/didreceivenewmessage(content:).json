@@ -66,7 +66,6 @@
         "text" : "didReceiveNewMessageWithContent:"
       }
     ],
-    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -341,7 +340,6 @@
       "text" : "didReceiveNewMessageWithContent:"
     }
   ],
-  "required" : true,
   "role" : "symbol",
   "title" : "didReceiveNewMessage(content:)",
   "type" : "topic",
