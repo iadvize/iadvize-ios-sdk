@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:22IAdvizeConversationSDK0aC0C8logLevelAA6LoggerO03LogE0Ovp",
+    "externalID" : "s:22IAdvizeConversationSDK0aC0C8logLevelAA6LoggerC03LogE0Ovp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -39,7 +39,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerO",
+        "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC",
         "text" : "Logger"
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerO8LogLevelO",
+        "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO",
         "text" : "LogLevel"
       }
     ],
@@ -92,7 +92,7 @@
             {
               "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerO",
+              "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC",
               "text" : "Logger"
             },
             {
@@ -102,7 +102,7 @@
             {
               "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerO8LogLevelO",
+              "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO",
               "text" : "LogLevel"
             }
           ]
@@ -264,7 +264,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerO",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC",
       "text" : "Logger"
     },
     {
@@ -273,7 +273,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerO8LogLevelO",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO",
       "text" : "LogLevel"
     }
   ],
@@ -287,14 +287,14 @@
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger": {
   "abstract" : [
     {
-      "text" : "Main structure that is used to log all messages.",
+      "text" : "Entry point for logging.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "enum"
+      "text" : "class"
     },
     {
       "kind" : "text",

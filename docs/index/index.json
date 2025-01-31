@@ -3166,6 +3166,15 @@
                     "type" : "method"
                   },
                   {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/allcases",
+                    "title" : "static var allCases: [Logger.LogLevel]",
+                    "type" : "property"
+                  },
+                  {
                     "title" : "Default Implementations",
                     "type" : "groupMarker"
                   },
@@ -3218,7 +3227,7 @@
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/logger",
             "title" : "Logger",
-            "type" : "enum"
+            "type" : "class"
           },
           {
             "title" : "Activation",

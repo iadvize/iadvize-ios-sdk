@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "CaseIterable.allCases",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -10,11 +24,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/_=(_:_:)"
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/allCases"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO2geoiySbAE_AEtFZ",
+    "externalID" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO8allCasesSayAEGvpZ",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -26,7 +40,7 @@
       },
       {
         "kind" : "keyword",
-        "text" : "func"
+        "text" : "var"
       },
       {
         "kind" : "text",
@@ -34,15 +48,20 @@
       },
       {
         "kind" : "identifier",
-        "text" : ">="
+        "text" : "allCases"
       },
       {
         "kind" : "text",
-        "text" : " "
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC",
+        "text" : "Logger"
       },
       {
         "kind" : "text",
-        "text" : "("
+        "text" : "."
       },
       {
         "kind" : "typeIdentifier",
@@ -51,21 +70,7 @@
       },
       {
         "kind" : "text",
-        "text" : ", "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO",
-        "text" : "LogLevel"
-      },
-      {
-        "kind" : "text",
-        "text" : ") -> "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sb",
-        "text" : "Bool"
+        "text" : "]"
       }
     ],
     "modules" : [
@@ -74,9 +79,9 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Operator",
-    "symbolKind" : "op",
-    "title" : ">=(_:_:)"
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "allCases"
   },
   "primaryContentSections" : [
     {
@@ -99,7 +104,7 @@
             },
             {
               "kind" : "keyword",
-              "text" : "func"
+              "text" : "var"
             },
             {
               "kind" : "text",
@@ -107,23 +112,21 @@
             },
             {
               "kind" : "identifier",
-              "text" : ">="
+              "text" : "allCases"
             },
             {
               "kind" : "text",
-              "text" : " "
+              "text" : ": ["
+            },
+            {
+              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC",
+              "text" : "Logger"
             },
             {
               "kind" : "text",
-              "text" : "("
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "lhs"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
+              "text" : "."
             },
             {
               "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel",
@@ -133,30 +136,7 @@
             },
             {
               "kind" : "text",
-              "text" : ", "
-            },
-            {
-              "kind" : "internalParam",
-              "text" : "rhs"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO",
-              "text" : "LogLevel"
-            },
-            {
-              "kind" : "text",
-              "text" : ") -> "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sb",
-              "text" : "Bool"
+              "text" : "]"
             }
           ]
         }
@@ -175,7 +155,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/_=(_:_:)"
+        "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/allcases"
       ],
       "traits" : [
         {
@@ -281,7 +261,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger/LogLevel/_=(_:_:)": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger/LogLevel/allCases": {
   "abstract" : [
 
   ],
@@ -296,7 +276,7 @@
     },
     {
       "kind" : "keyword",
-      "text" : "func"
+      "text" : "var"
     },
     {
       "kind" : "text",
@@ -304,15 +284,20 @@
     },
     {
       "kind" : "identifier",
-      "text" : ">="
+      "text" : "allCases"
     },
     {
       "kind" : "text",
-      "text" : " "
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC",
+      "text" : "Logger"
     },
     {
       "kind" : "text",
-      "text" : "("
+      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -321,29 +306,15 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO",
-      "text" : "LogLevel"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
+      "text" : "]"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/_=(_:_:)",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/allCases",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : ">=(_:_:)",
+  "title" : "allCases",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/_=(_:_:)"
+  "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/allcases"
 }
 }
 }

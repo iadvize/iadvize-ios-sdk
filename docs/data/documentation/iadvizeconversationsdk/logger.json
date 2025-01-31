@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Main structure that is used to log all messages.",
+      "text" : "Entry point for logging.",
       "type" : "text"
     }
   ],
@@ -18,11 +18,11 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:22IAdvizeConversationSDK6LoggerO",
+    "externalID" : "s:22IAdvizeConversationSDK6LoggerC",
     "fragments" : [
       {
         "kind" : "keyword",
-        "text" : "enum"
+        "text" : "class"
       },
       {
         "kind" : "text",
@@ -45,8 +45,8 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Enumeration",
-    "symbolKind" : "enum",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
     "title" : "Logger"
   },
   "primaryContentSections" : [
@@ -62,7 +62,7 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "enum"
+              "text" : "class"
             },
             {
               "kind" : "text",
@@ -184,14 +184,14 @@
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger": {
   "abstract" : [
     {
-      "text" : "Main structure that is used to log all messages.",
+      "text" : "Entry point for logging.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "enum"
+      "text" : "class"
     },
     {
       "kind" : "text",

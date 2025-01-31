@@ -14,7 +14,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:22IAdvizeConversationSDK6LoggerO8LogLevelO7successyA2EmF",
+    "externalID" : "s:22IAdvizeConversationSDK6LoggerC8LogLevelO7successyA2EmF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -33,6 +33,9 @@
       {
         "name" : "IAdvizeConversationSDK"
       }
+    ],
+    "platforms" : [
+
     ],
     "role" : "symbol",
     "roleHeading" : "Case",
@@ -120,14 +123,14 @@
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger": {
   "abstract" : [
     {
-      "text" : "Main structure that is used to log all messages.",
+      "text" : "Entry point for logging.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "enum"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -189,6 +192,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",

@@ -30,7 +30,7 @@
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:22IAdvizeConversationSDK6LoggerO8LogLevelO",
+    "externalID" : "s:SQsE2neoiySbx_xtFZ::SYNTHESIZED::s:22IAdvizeConversationSDK6LoggerC8LogLevelO",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -229,14 +229,14 @@
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger": {
   "abstract" : [
     {
-      "text" : "Main structure that is used to log all messages.",
+      "text" : "Entry point for logging.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "enum"
+      "text" : "class"
     },
     {
       "kind" : "text",
