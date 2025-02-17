@@ -554,6 +554,11 @@
                 "type" : "property"
               },
               {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/issmallerchatboxenabled",
+                "title" : "isSmallerChatboxEnabled",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/maincolor",
                 "title" : "mainColor",
                 "type" : "property"
@@ -4967,6 +4972,11 @@
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/incomingmessagetextcolor",
                 "title" : "var incomingMessageTextColor: UIColor?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/issmallerchatboxenabled",
+                "title" : "var isSmallerChatboxEnabled: Bool",
                 "type" : "property"
               },
               {

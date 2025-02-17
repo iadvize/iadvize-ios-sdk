@@ -80,6 +80,7 @@
         "text" : "conversationController:shouldOpen:"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -503,6 +504,7 @@
       "text" : "conversationController:shouldOpen:"
     }
   ],
+  "required" : true,
   "role" : "symbol",
   "title" : "conversationController(_:shouldOpen:)",
   "type" : "topic",

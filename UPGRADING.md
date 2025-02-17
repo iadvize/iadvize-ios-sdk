@@ -1,3 +1,17 @@
+## 2.16.7 > 2.17.0
+
+**Smaller Chatbox**
+
+The Chatbox can now be presented in a compact mode. The visitor can then expand the chatbox manually. The chatbox is automatically expanded when the keyboard appears.
+
+This compact mode can be enabled by using the new property of `ChatboxConfiguration`:
+
+```swift
+var configuration = ChatboxConfiguration()
+configuration.isSmallerChatboxEnabled = true // Default is false.
+IAdvizeSDK.shared.chatboxController.setupChatbox(configuration: configuration)
+```
+
 ## 2.16.6 > 2.16.7
 
 *Nothing to report*

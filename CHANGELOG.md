@@ -1,3 +1,19 @@
+# 2.17.0 (Fourme)
+
+### Release date 2025/02/17
+
+**Features**
+
+- Add `ChatboxConfiguration.isSmallerChatboxEnabled` API to present the Chatbox in compact mode. 
+
+**Updated**
+
+- The Chatbox now always respects the specified `presentationStyle`. Previously, on iPad, this property was ignored and the Chatbox was always displayed in full screen. If you want to keep the Chatbox in full screen on iPad, specify a `fullScreen` presentation style for the `ChatboxConfiguration.presentationStyle` property.
+
+**Bug fixes**
+
+- Fix Auto Layout warnings displayed in the console.
+
 # 2.16.7 (Epoisses)
 
 ### Release date 2025/01/31

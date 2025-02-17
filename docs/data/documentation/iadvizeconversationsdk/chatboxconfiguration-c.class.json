@@ -100,6 +100,7 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class\/font",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class\/gdprMessage",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class\/incomingMessageAvatar",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class\/isSmallerChatboxEnabled",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class\/mainColor",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class\/navigationBarBackgroundColor",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class\/navigationBarMainColor",
@@ -270,6 +271,23 @@
   "title" : "init",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/init"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-c.class/isSmallerChatboxEnabled": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "isSmallerChatboxEnabled"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class\/isSmallerChatboxEnabled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isSmallerChatboxEnabled",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/issmallerchatboxenabled"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-c.class/mainColor": {
   "abstract" : [

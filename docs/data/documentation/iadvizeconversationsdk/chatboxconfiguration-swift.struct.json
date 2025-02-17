@@ -148,6 +148,7 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct\/incomingMessageBackgroundColor",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct\/incomingMessageBorderColor",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct\/incomingMessageTextColor",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct\/isSmallerChatboxEnabled",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct\/mainColor",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct\/navigationBarBackgroundColor",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct\/navigationBarMainColor",
@@ -595,6 +596,43 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/init()"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-swift.struct/isSmallerChatboxEnabled": {
+  "abstract" : [
+    {
+      "text" : "When enabled, the Chatbox will appear in compact mode.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isSmallerChatboxEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct\/isSmallerChatboxEnabled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isSmallerChatboxEnabled",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/issmallerchatboxenabled"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-swift.struct/mainColor": {
   "abstract" : [
