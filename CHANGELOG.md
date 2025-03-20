@@ -1,3 +1,15 @@
+# 2.17.1 (Fourme)
+
+### Release date 2025/03/18
+
+**Bug fixes**
+
+- Fix wrong input area size when typing text.
+- Fix issue allowing to start a conversation without accepting GDPR.
+- Fix rare crash when loading messages (`Index out of range`).
+- Fix auth token request management to avoid successive call on token expiration.
+- Fix Voice Over losing focus when reloading messages.
+
 # 2.17.0 (Fourme)
 
 ### Release date 2025/02/17
