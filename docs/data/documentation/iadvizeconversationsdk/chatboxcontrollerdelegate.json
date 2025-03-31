@@ -345,6 +345,7 @@
       "text" : "chatboxDidOpen"
     }
   ],
+  "required" : true,
   "role" : "symbol",
   "title" : "chatboxDidOpen()",
   "type" : "topic",

@@ -64,6 +64,14 @@
             },
             {
               "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
               "text" : "class"
             },
             {
@@ -98,7 +106,8 @@
         "doc:\/\/com.iadvize.conversation.sdk\/s23CustomStringConvertibleP",
         "doc:\/\/com.iadvize.conversation.sdk\/SE",
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
-        "doc:\/\/com.iadvize.conversation.sdk\/SH"
+        "doc:\/\/com.iadvize.conversation.sdk\/SH",
+        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -594,6 +603,11 @@
 "doc://com.iadvize.conversation.sdk/s8CopyableP": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s8CopyableP",
   "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s8SendableP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
+  "title" : "Swift.Sendable",
   "type" : "unresolvable"
 }
 }, 

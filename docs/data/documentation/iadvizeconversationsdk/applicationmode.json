@@ -83,7 +83,8 @@
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
-        "doc:\/\/com.iadvize.conversation.sdk\/SY"
+        "doc:\/\/com.iadvize.conversation.sdk\/SY",
+        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -375,6 +376,11 @@
   "title" : "NotificationController",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller"
+},
+"doc://com.iadvize.conversation.sdk/s8SendableP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }, 
 "variantOverrides":[

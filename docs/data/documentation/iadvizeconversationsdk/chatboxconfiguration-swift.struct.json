@@ -107,6 +107,16 @@
       "kind" : "content"
     }
   ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -1098,6 +1108,11 @@
   "title" : "IncomingMessageAvatar",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-swift.enum"
+},
+"doc://com.iadvize.conversation.sdk/s8SendableP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }, 
 "variantOverrides":[

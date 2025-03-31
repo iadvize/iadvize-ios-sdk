@@ -3531,12 +3531,12 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation\/conversationchannel",
-                "title" : "var conversationChannel: ConversationChannel",
+                "title" : "let conversationChannel: ConversationChannel",
                 "type" : "property"
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation\/conversationid",
-                "title" : "var conversationId: UUID",
+                "title" : "let conversationId: UUID",
                 "type" : "property"
               }
             ],

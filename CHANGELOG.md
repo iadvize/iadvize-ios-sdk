@@ -1,3 +1,17 @@
+# 2.17.2 (Fourme)
+
+### Release date 2025/03/28
+
+**Updated**
+
+- Add `Sendable` conformance to several public types.
+- Improve layout update of messages including a link preview.
+
+**Bug fixes**
+
+- Fix rare crash in `isRunningUnitTests()`.
+- Fix error log: *"Unable to create a conversation manager: no visitor JWT..."*.
+
 # 2.17.1 (Fourme)
 
 ### Release date 2025/03/18
