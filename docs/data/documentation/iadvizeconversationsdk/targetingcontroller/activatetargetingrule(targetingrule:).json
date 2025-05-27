@@ -182,6 +182,30 @@
           "type" : "paragraph"
         },
         {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Once you activate a targeting rule, the iAdvize SDK will automatically update this targeting rule",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "availability (every 30 seconds) and will update the chat button accordingly.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Note",
+          "style" : "note",
+          "type" : "aside"
+        },
+        {
           "inlineContent" : [
             {
               "text" : "You can retrieve your targeting rule IDs in the “Engagement” section in the iAdvize administration.",

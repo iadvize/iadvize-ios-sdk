@@ -1,4 +1,58 @@
 {
+  "abstract" : [
+    {
+      "text" : "important:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method is deprecated. You do not need to register the visitor navigation anymore.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Simply activate the targeting rule you want to use, using ",
+      "type" : "text"
+    },
+    {
+      "text" : "activateTargetingRule(targetingRule:)",
+      "type" : "text"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The iAdvize SDK takes care of keeping the targeting rule availability up to date.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "To stop the targeting, call ",
+      "type" : "text"
+    },
+    {
+      "text" : "deactivateTargetingRule()",
+      "type" : "text"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -34,6 +88,9 @@
         "kind" : "identifier",
         "text" : "registerUserNavigationWithNavigationOption:"
       }
+    ],
+    "platforms" : [
+
     ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -198,7 +255,58 @@
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/registerUserNavigationWithNavigationOption:": {
   "abstract" : [
-
+    {
+      "text" : "important:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method is deprecated. You do not need to register the visitor navigation anymore.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Simply activate the targeting rule you want to use, using ",
+      "type" : "text"
+    },
+    {
+      "text" : "activateTargetingRule(targetingRule:)",
+      "type" : "text"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The iAdvize SDK takes care of keeping the targeting rule availability up to date.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "To stop the targeting, call ",
+      "type" : "text"
+    },
+    {
+      "text" : "deactivateTargetingRule()",
+      "type" : "text"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

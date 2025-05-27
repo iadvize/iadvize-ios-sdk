@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "The request failed because of a network error. You must retry the targeting rule activation later.",
+      "text" : "The request failed because of a network error. The iAdvize SDK will automatically retry to activate the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "targeting rule.",
       "type" : "text"
     }
   ],
@@ -191,7 +199,15 @@
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/networkError": {
   "abstract" : [
     {
-      "text" : "The request failed because of a network error. You must retry the targeting rule activation later.",
+      "text" : "The request failed because of a network error. The iAdvize SDK will automatically retry to activate the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "targeting rule.",
       "type" : "text"
     }
   ],

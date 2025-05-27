@@ -49,6 +49,7 @@
         "text" : "chatboxDidClose"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -259,6 +260,7 @@
       "text" : "chatboxDidClose"
     }
   ],
+  "required" : true,
   "role" : "symbol",
   "title" : "chatboxDidClose()",
   "type" : "topic",

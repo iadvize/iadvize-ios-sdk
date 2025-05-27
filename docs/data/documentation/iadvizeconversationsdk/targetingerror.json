@@ -105,6 +105,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/10Foundation14LocalizedErrorP",
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
         "doc:\/\/com.iadvize.conversation.sdk\/s5ErrorP",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
@@ -160,11 +161,20 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/errorDescription"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
       "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Equatable-Implementations",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Error-Implementations",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/LocalizedError-Implementations",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/RawRepresentable-Implementations"
       ],
       "title" : "Default Implementations"
@@ -194,6 +204,11 @@
   ]
 , 
 "references": {
+"doc://com.iadvize.conversation.sdk/10Foundation14LocalizedErrorP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/10Foundation14LocalizedErrorP",
+  "title" : "Foundation.LocalizedError",
+  "type" : "unresolvable"
+},
 "doc://com.iadvize.conversation.sdk/SH": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SH",
   "title" : "Swift.Hashable",
@@ -305,6 +320,7 @@
   "abstract" : [
 
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -506,6 +522,17 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/error-implementations"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/LocalizedError-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/LocalizedError-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "LocalizedError Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/localizederror-implementations"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/RawRepresentable-Implementations": {
   "abstract" : [
 
@@ -516,6 +543,44 @@
   "title" : "RawRepresentable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/rawrepresentable-implementations"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/errorDescription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/errorDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "errorDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/errordescription"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/init(rawValue:)": {
   "abstract" : [
@@ -558,7 +623,15 @@
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/networkError": {
   "abstract" : [
     {
-      "text" : "The request failed because of a network error. You must retry the targeting rule activation later.",
+      "text" : "The request failed because of a network error. The iAdvize SDK will automatically retry to activate the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "targeting rule.",
       "type" : "text"
     }
   ],
@@ -592,7 +665,15 @@
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/otherError": {
   "abstract" : [
     {
-      "text" : "The request failed because of a technical error. You must retry the targeting rule activation later.",
+      "text" : "The request failed because of a technical error. The iAdvize SDK will automatically retry to activate the",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "targeting rule.",
       "type" : "text"
     }
   ],

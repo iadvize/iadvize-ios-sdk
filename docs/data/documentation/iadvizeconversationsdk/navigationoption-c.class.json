@@ -30,6 +30,9 @@
         "text" : "NavigationOption"
       }
     ],
+    "platforms" : [
+
+    ],
     "role" : "symbol",
     "roleHeading" : "Class",
     "symbolKind" : "class",

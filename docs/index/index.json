@@ -214,6 +214,11 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/deactivatetargetingrule()",
+                "title" : "deactivateTargetingRule",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/getlanguage",
                 "title" : "getLanguage",
                 "type" : "method"
@@ -3579,6 +3584,11 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/deactivatetargetingrule()",
+                "title" : "func deactivateTargetingRule()",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/registerusernavigation(navigationoption:)",
                 "title" : "func registerUserNavigation(navigationOption: NavigationOption)",
                 "type" : "method"
@@ -3656,6 +3666,15 @@
                 "type" : "init"
               },
               {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/errordescription",
+                "title" : "var errorDescription: String?",
+                "type" : "property"
+              },
+              {
                 "title" : "Default Implementations",
                 "type" : "groupMarker"
               },
@@ -3689,6 +3708,32 @@
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/error-implementations",
                 "title" : "Error Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/failurereason",
+                    "title" : "var failureReason: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/helpanchor",
+                    "title" : "var helpAnchor: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/recoverysuggestion",
+                    "title" : "var recoverySuggestion: String?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/localizederror-implementations",
+                "title" : "LocalizedError Implementations",
                 "type" : "symbol"
               },
               {

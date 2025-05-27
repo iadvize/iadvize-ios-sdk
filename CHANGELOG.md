@@ -1,3 +1,44 @@
+# 2.18.0 (Gaperon)
+
+### Release date 2025/05/26
+
+**Features**
+
+The visitor targeting workflow has been simplified. You do not need to register the visitor navigation anymore.
+
+Thus, the method `registerUserNavigation(navigationOption: NavigationOption)` is now deprecated.
+
+Now, you manage targeting using only these 2 methods:
+
+- To engage the visitor, call `activateTargetingRule(targetingRule: TargetingRule)` (as you already do).
+- To stop engaging the visitor, calls `deactivateTargetingRule()` (this is new).
+
+Between these 2 calls, the iAdvize SDK automatically updates the targeting rule availability (every 30 seconds) and updates the chat button accordingly. If the update fails (e.g.: if there is no connection), you do not need to perform any special actions. The iAdvize SDK will try to update it again 30 seconds later.
+
+```swift
+// Activating a new rule.
+// - Before:
+IAdvizeSDK.shared.targetingController.registerUserNavigation(navigationOption: .activateNewRule(targetingRule: yourOtherTargetingRule))
+// - After (if there is already a targeting rule activated, it is replaced):
+IAdvizeSDK.shared.targetingController.activateTargetingRule(targetingRule: yourOtherTargetingRule)
+
+// Deactivating the rule.
+// - Before:
+IAdvizeSDK.shared.targetingController.registerUserNavigation(navigationOption: .clearActiveRule)
+// - After:
+IAdvizeSDK.shared.targetingController.deactivateTargetingRule()
+
+// Register new screen.
+// - Before:
+IAdvizeSDK.shared.targetingController.registerUserNavigation(navigationOption: .keepActiveRule)
+// - After:
+// Nothing to do.
+```
+
+**Bug fixes**
+
+- Fix rare crash in conversation (`ConversationViewController.previewController(_:previewItemAt:)`).
+
 # 2.17.2 (Fourme)
 
 ### Release date 2025/03/28
