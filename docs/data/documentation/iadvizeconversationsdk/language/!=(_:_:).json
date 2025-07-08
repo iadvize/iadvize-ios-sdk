@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/Equatable-Implementations"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language"
       ]
     ]
   },
@@ -320,17 +319,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/language\/!=(_:_:)"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/language\/equatable-implementations"
 }
 }
 }

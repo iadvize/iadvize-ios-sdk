@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum\/Equatable-Implementations"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum"
       ]
     ]
   },
@@ -317,17 +316,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/!=(_:_:)"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationChannel-swift.enum/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/equatable-implementations"
 }
 }
 }

@@ -31,7 +31,11 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "unavailable" : false
+      }
     ],
     "role" : "symbol",
     "roleHeading" : "Class",

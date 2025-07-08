@@ -280,6 +280,11 @@
         "value" : "occ"
       },
       {
+        "op" : "add",
+        "path" : "\/metadata\/platforms",
+        "value" : null
+      },
+      {
         "op" : "replace",
         "path" : "\/metadata\/roleHeading",
         "value" : "Instance Method"

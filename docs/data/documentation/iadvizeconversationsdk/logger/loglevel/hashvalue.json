@@ -18,8 +18,7 @@
       [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/RawRepresentable-Implementations"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel"
       ]
     ]
   },
@@ -281,17 +280,6 @@
   "title" : "Logger.LogLevel",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger/LogLevel/RawRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/RawRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "RawRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/rawrepresentable-implementations"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger/LogLevel/hashValue": {
   "abstract" : [

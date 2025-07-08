@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/Equatable-Implementations"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency"
       ]
     ]
   },
@@ -328,17 +327,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/currency\/!=(_:_:)"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/equatable-implementations"
 }
 }
 }

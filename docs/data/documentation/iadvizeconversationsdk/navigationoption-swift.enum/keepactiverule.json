@@ -45,7 +45,12 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "\n               You no longer need to register user navigation.\n               See `TargetingController.registerUserNavigation(navigationOption:)` documentation.\n               ",
+        "unavailable" : false
+      }
     ],
     "role" : "symbol",
     "roleHeading" : "Case",

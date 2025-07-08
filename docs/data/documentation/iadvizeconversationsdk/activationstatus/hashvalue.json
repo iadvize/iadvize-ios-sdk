@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ActivationStatus",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ActivationStatus\/RawRepresentable-Implementations"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ActivationStatus"
       ]
     ]
   },
@@ -243,17 +242,6 @@
   "title" : "ActivationStatus",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/activationstatus"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ActivationStatus/RawRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ActivationStatus\/RawRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "RawRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/activationstatus\/rawrepresentable-implementations"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ActivationStatus/hashValue": {
   "abstract" : [

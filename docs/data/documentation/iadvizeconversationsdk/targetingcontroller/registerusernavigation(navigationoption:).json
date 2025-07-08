@@ -72,7 +72,12 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "See the documentation for more information.",
+        "unavailable" : false
+      }
     ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -160,6 +165,48 @@
               "inlineContent" : [
                 {
                   "text" : "This method is deprecated. You do not need to register the visitor navigation anymore.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            },
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Simply activate the targeting rule you want to use, using ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "activateTargetingRule(targetingRule:)",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "The iAdvize SDK takes care of keeping the targeting rule availability up to date.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            },
+            {
+              "inlineContent" : [
+                {
+                  "text" : "To stop the targeting, call ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "deactivateTargetingRule()",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
                   "type" : "text"
                 }
               ],

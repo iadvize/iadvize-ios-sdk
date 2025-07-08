@@ -50,7 +50,12 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "\n           You do not need to register the visitor navigation anymore.\n           See `TargetingController.registerUserNavigation(navigationOption:)` documentation.\n           ",
+        "unavailable" : false
+      }
     ],
     "role" : "symbol",
     "roleHeading" : "Enumeration",

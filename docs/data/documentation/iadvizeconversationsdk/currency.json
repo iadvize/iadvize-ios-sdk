@@ -333,6 +333,7 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xbc",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xbd",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xcd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xcg",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xdr",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xfo",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xfu",
@@ -350,6 +351,7 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zmk",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zmw",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwd",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwg",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwl",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwn",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwr"
@@ -6412,6 +6414,34 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xcd"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xcg": {
+  "abstract" : [
+    {
+      "text" : "Caribbean Guilder (XCG XCG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xcg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/xcg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xcg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/xcg"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/xdr": {
   "abstract" : [
     {
@@ -6887,6 +6917,34 @@
   "title" : "Currency.zwd",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zwd"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zwg": {
+  "abstract" : [
+    {
+      "text" : "Zimbabwe Gold (ZWG ZWG)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zwg"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Currency\/zwg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zwg",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/currency\/zwg"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Currency/zwl": {
   "abstract" : [

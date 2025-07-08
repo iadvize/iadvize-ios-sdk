@@ -1,3 +1,7 @@
+## 2.18.0 > 2.18.1
+
+*Nothing to report*
+
 ## 2.17.2 > 2.18.0
 
 The visitor targeting workflow has been simplified. You do not need to register the visitor navigation anymore.

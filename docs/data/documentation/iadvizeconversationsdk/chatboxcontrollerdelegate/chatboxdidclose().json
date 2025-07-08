@@ -49,7 +49,6 @@
         "text" : "chatboxDidClose"
       }
     ],
-    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -260,7 +259,6 @@
       "text" : "chatboxDidClose"
     }
   ],
-  "required" : true,
   "role" : "symbol",
   "title" : "chatboxDidClose()",
   "type" : "topic",
@@ -274,6 +272,11 @@
         "op" : "replace",
         "path" : "\/identifier\/interfaceLanguage",
         "value" : "occ"
+      },
+      {
+        "op" : "add",
+        "path" : "\/metadata\/platforms",
+        "value" : null
       },
       {
         "op" : "replace",

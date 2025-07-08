@@ -156,11 +156,7 @@
             },
             {
               "kind" : "text",
-              "text" : " (^"
-            },
-            {
-              "kind" : "text",
-              "text" : ")("
+              "text" : " (^)("
             },
             {
               "kind" : "typeIdentifier",

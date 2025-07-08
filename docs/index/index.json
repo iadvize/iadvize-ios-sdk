@@ -3713,6 +3713,22 @@
               {
                 "children" : [
                   {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/hashable-implementations",
+                "title" : "Hashable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
                     "title" : "Instance Properties",
                     "type" : "groupMarker"
                   },
@@ -6346,6 +6362,11 @@
                 "type" : "case"
               },
               {
+                "path" : "\/documentation\/iadvizeconversationsdk\/currency\/xcg",
+                "title" : "case xcg",
+                "type" : "case"
+              },
+              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/currency\/xdr",
                 "title" : "case xdr",
                 "type" : "case"
@@ -6428,6 +6449,11 @@
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/currency\/zwd",
                 "title" : "case zwd",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/currency\/zwg",
+                "title" : "case zwg",
                 "type" : "case"
               },
               {

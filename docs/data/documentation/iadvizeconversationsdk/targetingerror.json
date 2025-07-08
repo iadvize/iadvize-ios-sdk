@@ -174,6 +174,7 @@
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Equatable-Implementations",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Error-Implementations",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Hashable-Implementations",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/LocalizedError-Implementations",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/RawRepresentable-Implementations"
       ],
@@ -522,6 +523,17 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/error-implementations"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/Hashable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Hashable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Hashable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/hashable-implementations"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/LocalizedError-Implementations": {
   "abstract" : [
 
@@ -797,6 +809,11 @@
         "value" : "occ"
       },
       {
+        "op" : "add",
+        "path" : "\/metadata\/platforms",
+        "value" : null
+      },
+      {
         "op" : "replace",
         "path" : "\/metadata\/roleHeading",
         "value" : "Enumeration"
@@ -895,7 +912,7 @@
                 },
                 {
                   "kind" : "text",
-                  "text" : ": "
+                  "text" : " : "
                 },
                 {
                   "kind" : "typeIdentifier",

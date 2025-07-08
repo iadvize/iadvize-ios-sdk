@@ -64,6 +64,14 @@
               "text" : " * "
             },
             {
+              "kind" : "keyword",
+              "text" : "const"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
               "kind" : "identifier",
               "text" : "TargetingErrorDomain"
             },

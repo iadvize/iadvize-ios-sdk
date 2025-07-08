@@ -1,6 +1,6 @@
 {
   "bundleDisplayName" : "IAdvizeConversationSDK",
-  "bundleIdentifier" : "com.iadvize.conversation.sdk",
+  "bundleID" : "com.iadvize.conversation.sdk",
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,

@@ -1,3 +1,15 @@
+# 2.18.1 (__CHEESE NAME GOES HERE__)
+
+### Release date 2025/07/08
+
+**Features**
+
+- Add support for AI Quick Replies.
+
+**Bug fixes**
+
+- Fix targeting polling not being disabled during conversation.
+
 # 2.18.0 (Gaperon)
 
 ### Release date 2025/05/26

@@ -45,7 +45,12 @@
       }
     ],
     "platforms" : [
-
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "\n               Use `TargetingController.deactivateTargetingRule()` instead.\n               See `TargetingController.registerUserNavigation(navigationOption:)` documentation.\n               ",
+        "unavailable" : false
+      }
     ],
     "role" : "symbol",
     "roleHeading" : "Case",

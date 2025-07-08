@@ -35,6 +35,13 @@
         "text" : "initWithNewTargetingRuleId:"
       }
     ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "unavailable" : false
+      }
+    ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -56,9 +63,8 @@
               "text" : "- ("
             },
             {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "c:*Qo",
-              "text" : "id"
+              "kind" : "keyword",
+              "text" : "instancetype"
             },
             {
               "kind" : "text",

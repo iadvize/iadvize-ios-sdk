@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/RawRepresentable-Implementations"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language"
       ]
     ]
   },
@@ -246,17 +245,6 @@
   "title" : "Language",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/language"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/RawRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language\/RawRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "RawRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/language\/rawrepresentable-implementations"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language/hashValue": {
   "abstract" : [
