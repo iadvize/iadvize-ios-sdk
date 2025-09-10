@@ -1,3 +1,17 @@
+# 2.18.2 (Gaperon)
+
+### Release date 2025/09/09
+
+**Bug fixes**
+
+- Accessibility
+	- Improved message grouping and accessibility labels.
+	- Added missing accessibility labels to buttons.
+	- Fixed Dynamic Type text-scaling issues.
+	- VoiceOver now announces incoming messages.
+
+- Fix crash caused by concurrent access on visitor custom data.
+
 # 2.18.1 (Gaperon)
 
 ### Release date 2025/07/08

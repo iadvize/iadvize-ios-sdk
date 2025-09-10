@@ -6,8 +6,8 @@
 //  Copyright © 2018 iAdvize. All rights reserved.
 //
 
-import UIKit
 import IAdvizeConversationSDK
+import UIKit
 
 extension AppDelegate {
     func pushNotificationsSetup() {

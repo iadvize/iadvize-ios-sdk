@@ -15,13 +15,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IAdvizeConversationSDK",
-            url: "https://github.com/iadvize/iadvize-ios-sdk/releases/download/2.18.1/IAdvizeSDK.zip",
-            checksum: "a46b85a74b93b74d6058fab41bb0b8ba7d6c9eec02fbb7eecd408ff4fbe43163"
+            url: "https://github.com/iadvize/iadvize-ios-sdk/releases/download/2.18.2/IAdvizeSDK.zip",
+            checksum: "142dbfe0fa39a09947fe0a7659c1b89f645700b1138ebf80b0864ab4bbd04f1a"
         ),
         .binaryTarget(
             name: "TwilioVideo",
-            url: "https://github.com/twilio/twilio-video-ios/releases/download/5.8.3/TwilioVideo.xcframework.zip",
-            checksum: "748818a981846612cdef64ac1fe3b8593e75f002116a16421eb5d589540fcfa8"
+            url: "https://github.com/twilio/twilio-video-ios/releases/download/5.10.1/TwilioVideo.xcframework.zip",
+            checksum: "cada84190cf33254e3cf1e094a704d6987f7f8c3ec1c04b205aaa89c70a74b17"
         )
     ]
 )

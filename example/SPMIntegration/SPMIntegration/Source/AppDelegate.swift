@@ -6,18 +6,17 @@
 //  Copyright © 2018 iAdvize. All rights reserved.
 //
 
-import UIKit
 import IAdvizeConversationSDK
+import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
     let iAdvizeProjectID: Int = -1 // Replace with your project id
     let iAdvizeSimpleUserId: String = "your-user-unique-id" // Replace with your user id
     let iAdvizeTargetingRule = TargetingRule(
-        id: UUID(uuidString: "your-targeting-rule-uuid") ?? UUID(),  // Replace with your targeting rule id
+        id: UUID(uuidString: "your-targeting-rule-uuid") ?? UUID(), // Replace with your targeting rule id
         conversationChannel: .chat
     )
 
@@ -29,11 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // it at app launch, in the AppDelegate).
         window?.makeKeyAndVisible()
 
-
         iAdvizeSetup()
         pushNotificationsSetup()
-
-
 
         return true
     }

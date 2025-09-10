@@ -6,8 +6,8 @@
 //  Copyright © 2018 iAdvize. All rights reserved.
 //
 
-import UIKit
 import IAdvizeConversationSDK
+import UIKit
 
 enum ChatButtonType: Int {
     case `default` = 0
@@ -15,13 +15,13 @@ enum ChatButtonType: Int {
 }
 
 class ViewController: UIViewController {
-    @IBOutlet weak var productImageView: UIImageView!
-    @IBOutlet weak var chatButtonSegmentedControl: UISegmentedControl!
+    @IBOutlet var productImageView: UIImageView!
+    @IBOutlet var chatButtonSegmentedControl: UISegmentedControl!
 
     var chatButtonType: ChatButtonType = .default {
         didSet {
             switch chatButtonType {
-            case .`default`:
+            case .default:
                 IAdvizeSDK.shared.chatboxController.useDefaultFloatingButton = true
                 needHelpButton.isHidden = true
             case .custom:
@@ -36,9 +36,9 @@ class ViewController: UIViewController {
             needHelpButton.isEnabled = isActiveTargetingRuleAvailable
         }
     }
-    
-    @IBOutlet weak var needHelpButton: UIButton!
-    
+
+    @IBOutlet var needHelpButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
