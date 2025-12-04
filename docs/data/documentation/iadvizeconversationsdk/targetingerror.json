@@ -110,7 +110,8 @@
         "doc:\/\/com.iadvize.conversation.sdk\/s5ErrorP",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
         "doc:\/\/com.iadvize.conversation.sdk\/SY",
-        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP"
+        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
+        "doc:\/\/com.iadvize.conversation.sdk\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -174,7 +175,6 @@
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Equatable-Implementations",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Error-Implementations",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Hashable-Implementations",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/LocalizedError-Implementations",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/RawRepresentable-Implementations"
       ],
@@ -523,17 +523,6 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/error-implementations"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/Hashable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/Hashable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Hashable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/hashable-implementations"
-},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingError/LocalizedError-Implementations": {
   "abstract" : [
 
@@ -788,6 +777,11 @@
   "title" : "TargetingRule",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingrule"
+},
+"doc://com.iadvize.conversation.sdk/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://com.iadvize.conversation.sdk/s5ErrorP": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s5ErrorP",

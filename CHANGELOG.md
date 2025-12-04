@@ -1,3 +1,16 @@
+# 2.18.3 (Gaperon)
+
+### Release date 2025/12/04
+
+**Features**
+
+- Add Romanian localization.
+- The chatbox is now automatically dismissed at the end of the satisfaction survey.
+
+**Bug fixes**
+
+- Fix missing "0" choice for NPS in satisfaction survey.
+
 # 2.18.2 (Gaperon)
 
 ### Release date 2025/09/09

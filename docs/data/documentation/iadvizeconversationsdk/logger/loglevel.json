@@ -87,7 +87,8 @@
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
         "doc:\/\/com.iadvize.conversation.sdk\/s12IdentifiableP",
         "doc:\/\/com.iadvize.conversation.sdk\/SY",
-        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP"
+        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
+        "doc:\/\/com.iadvize.conversation.sdk\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -782,6 +783,11 @@
 "doc://com.iadvize.conversation.sdk/s12IdentifiableP": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s12IdentifiableP",
   "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
   "type" : "unresolvable"
 },
 "doc://com.iadvize.conversation.sdk/s8SendableP": {

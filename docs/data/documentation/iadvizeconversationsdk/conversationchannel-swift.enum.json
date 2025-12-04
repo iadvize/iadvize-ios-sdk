@@ -80,7 +80,8 @@
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
         "doc:\/\/com.iadvize.conversation.sdk\/SY",
-        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP"
+        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
+        "doc:\/\/com.iadvize.conversation.sdk\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -589,6 +590,11 @@
   "title" : "TargetingRule",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingrule"
+},
+"doc://com.iadvize.conversation.sdk/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://com.iadvize.conversation.sdk/s8CopyableP": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s8CopyableP",

@@ -112,7 +112,8 @@
         "doc:\/\/com.iadvize.conversation.sdk\/s23CustomStringConvertibleP",
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
-        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP"
+        "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
+        "doc:\/\/com.iadvize.conversation.sdk\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -773,6 +774,11 @@
 "doc://com.iadvize.conversation.sdk/objc(pl)NSObject": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/objc(pl)NSObject",
   "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
   "type" : "unresolvable"
 },
 "doc://com.iadvize.conversation.sdk/s23CustomStringConvertibleP": {
