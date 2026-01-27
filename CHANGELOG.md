@@ -1,3 +1,11 @@
+# 2.18.4 (Gaperon)
+
+### Release date 2026/01/27
+
+**Bug fixes**
+
+- Improve Romanian localizations in satisfaction survey. 
+
 # 2.18.3 (Gaperon)
 
 ### Release date 2025/12/04
