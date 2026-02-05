@@ -1,3 +1,12 @@
+# 2.18.5 (Gaperon)
+
+### Release date 2026/02/05
+
+**Bug fixes**
+
+- Fix ignored tap in card, preventing the bot workflow from continuing.
+- Fix rare crash in `InternalOngoingConversation`.
+
 # 2.18.4 (Gaperon)
 
 ### Release date 2026/01/27
