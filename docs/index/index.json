@@ -13,81 +13,13 @@
           {
             "children" : [
               {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/chatboxcontroller",
-                "title" : "chatboxController",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/conversationcontroller",
-                "title" : "conversationController",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/notificationcontroller",
-                "title" : "notificationController",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/targetingcontroller",
-                "title" : "targetingController",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/transactioncontroller",
-                "title" : "transactionController",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/visitorcontroller",
-                "title" : "visitorController",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/activatewithprojectid:authenticationoption:gdproption:completion:",
-                "title" : "activateWithProjectId:authenticationOption:gdprOption:completion:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/debuginfo()",
-                "title" : "debugInfo",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/getloglevel",
-                "title" : "getLogLevel",
-                "type" : "method"
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/init",
                 "title" : "init",
                 "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/logout(completion:)",
-                "title" : "logoutWithCompletion:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/setloglevel:",
-                "title" : "setLogLevel:",
-                "type" : "method"
-              },
-              {
-                "title" : "Type Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/shared",
-                "title" : "shared",
-                "type" : "property"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk",
@@ -97,22 +29,6 @@
           {
             "title" : "Activation",
             "type" : "groupMarker"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdprdelegate\/didtapmoreinformation()",
-                "title" : "didTapMoreInformation",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/gdprdelegate",
-            "title" : "GDPRDelegate",
-            "type" : "protocol"
           },
           {
             "path" : "\/documentation\/iadvizeconversationsdk\/jwe",
@@ -126,15 +42,6 @@
           {
             "children" : [
               {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/delegate",
-                "title" : "delegate",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -142,42 +49,11 @@
                 "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/init",
                 "title" : "init",
                 "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/ongoingconversation()",
-                "title" : "ongoingConversation",
-                "type" : "method"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller",
             "title" : "ConversationController",
             "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontroller(_:shouldopen:)",
-                "title" : "conversationController:shouldOpen:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/didreceivenewmessage(content:)",
-                "title" : "didReceiveNewMessageWithContent:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/ongoingconversationupdated(ongoingconversation:)",
-                "title" : "ongoingConversationUpdatedWithOngoingConversation:",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate",
-            "title" : "ConversationControllerDelegate",
-            "type" : "protocol"
           },
           {
             "path" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation",
@@ -191,51 +67,12 @@
           {
             "children" : [
               {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/delegate",
-                "title" : "delegate",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/isactivetargetingruleavailable",
-                "title" : "isActiveTargetingRuleAvailable",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/activatetargetingrule(targetingrule:)",
-                "title" : "activateTargetingRuleWithTargetingRule:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/deactivatetargetingrule()",
-                "title" : "deactivateTargetingRule",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/getlanguage",
-                "title" : "getLanguage",
-                "type" : "method"
-              },
-              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/init",
                 "title" : "init",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/registerusernavigationwithnavigationoption:",
-                "title" : "registerUserNavigationWithNavigationOption:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/setlanguage:",
-                "title" : "setLanguage:",
                 "type" : "method"
               }
             ],
@@ -244,67 +81,9 @@
             "type" : "class"
           },
           {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontrollerdelegate\/activetargetingruleavailabilitydidupdate(isactivetargetingruleavailable:)",
-                "title" : "activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontrollerdelegate\/activetargetingruledidfailtoupdate(error:)",
-                "title" : "activeTargetingRuleDidFailToUpdateWithError:",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontrollerdelegate",
-            "title" : "TargetingControllerDelegate",
-            "type" : "protocol"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingrule\/initwithid:objcconversationchannel:",
-                "title" : "initWithId:objcConversationChannel:",
-                "type" : "method"
-              }
-            ],
             "path" : "\/documentation\/iadvizeconversationsdk\/targetingrule",
             "title" : "TargetingRule",
             "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Enumeration Cases",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/networkerror",
-                "title" : "TargetingErrorNetworkError",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/othererror",
-                "title" : "TargetingErrorOtherError",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/sdknotactivated",
-                "title" : "TargetingErrorSdkNotActivated",
-                "type" : "case"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror",
-            "title" : "TargetingError",
-            "type" : "enum"
           },
           {
             "title" : "Chatbox and Chat button",
@@ -313,78 +92,18 @@
           {
             "children" : [
               {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/delegate",
-                "title" : "delegate",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/usedefaultfloatingbutton",
-                "title" : "useDefaultFloatingButton",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/dismisschatbox(animated:completion:)",
-                "title" : "dismissChatboxWithAnimated:completion:",
-                "type" : "method"
-              },
-              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/init",
                 "title" : "init",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/ischatboxpresented()",
-                "title" : "isChatboxPresented",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/presentchatbox(animated:presentingviewcontroller:completion:)",
-                "title" : "presentChatboxWithAnimated:presentingViewController:completion:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/setfloatingbuttonposition(leftmargin:bottommargin:)",
-                "title" : "setFloatingButtonPositionWithLeftMargin:bottomMargin:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/setupchatboxwithconfiguration:",
-                "title" : "setupChatboxWithConfiguration:",
                 "type" : "method"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller",
             "title" : "ChatboxController",
             "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontrollerdelegate\/chatboxdidclose()",
-                "title" : "chatboxDidClose",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontrollerdelegate\/chatboxdidopen()",
-                "title" : "chatboxDidOpen",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontrollerdelegate",
-            "title" : "ChatboxControllerDelegate",
-            "type" : "protocol"
           },
           {
             "title" : "Push Notifications",
@@ -397,33 +116,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/cleariadvizepushnotifications()",
-                "title" : "clearIAdvizePushNotifications",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/disablepushnotifications(completion:)",
-                "title" : "disablePushNotificationsWithCompletion:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/enablepushnotifications(completion:)",
-                "title" : "enablePushNotificationsWithCompletion:",
-                "type" : "method"
-              },
-              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/init",
                 "title" : "init",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/isiadvizepushnotification(with:)",
-                "title" : "isIAdvizePushNotificationWith:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/registerpushtoken:applicationmode:",
-                "title" : "registerPushToken:applicationMode:",
                 "type" : "method"
               }
             ],
@@ -445,11 +139,6 @@
                 "path" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller\/init",
                 "title" : "init",
                 "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller\/registertransaction(_:)",
-                "title" : "registerTransaction:",
-                "type" : "method"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller",
@@ -461,21 +150,6 @@
               {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/transaction\/encode(with:)",
-                "title" : "encodeWithCoder:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/transaction\/init(coder:)",
-                "title" : "initWithCoder:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/transaction\/initwithexternaltransactionid:date:amount:currency:",
-                "title" : "initWithExternalTransactionId:date:amount:currency:",
-                "type" : "method"
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/transaction\/isequal(_:)",
@@ -508,292 +182,6 @@
             "type" : "class"
           },
           {
-            "title" : "Classes",
-            "type" : "groupMarker"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-c.class\/initwithanonymous",
-                "title" : "initWithAnonymous",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-c.class\/initwithsimple:",
-                "title" : "initWithSimple:",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-c.class",
-            "title" : "AuthenticationOption",
-            "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/automaticmessage",
-                "title" : "automaticMessage",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/font",
-                "title" : "font",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/gdprmessage",
-                "title" : "gdprMessage",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/incomingmessageavatar",
-                "title" : "incomingMessageAvatar",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/issmallerchatboxenabled",
-                "title" : "isSmallerChatboxEnabled",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/maincolor",
-                "title" : "mainColor",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/navigationbarbackgroundcolor",
-                "title" : "navigationBarBackgroundColor",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/navigationbarmaincolor",
-                "title" : "navigationBarMainColor",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/navigationbartitle",
-                "title" : "navigationBarTitle",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/presentationstyle",
-                "title" : "presentationStyle",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/presentingviewcontroller",
-                "title" : "presentingViewController",
-                "type" : "property"
-              },
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class\/init",
-                "title" : "init",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class",
-            "title" : "ChatboxConfiguration",
-            "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-c.class\/init",
-                "title" : "init",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-c.class\/initwithchat",
-                "title" : "initWithChat",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-c.class\/initwithconversationchannel:",
-                "title" : "initWithConversationChannel:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-c.class\/initwithvideo",
-                "title" : "initWithVideo",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-c.class",
-            "title" : "ConversationChannel",
-            "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-c.class\/initwithdelegate:",
-                "title" : "initWithDelegate:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-c.class\/initwithlegalinformationurl:",
-                "title" : "initWithLegalInformationURL:",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-c.class",
-            "title" : "GDPREnabledOption",
-            "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdproption-c.class\/initwithgdprenabledoption:",
-                "title" : "initWithGdprEnabledOption:",
-                "type" : "method"
-              },
-              {
-                "title" : "Type Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdproption-c.class\/disabled",
-                "title" : "disabled",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/gdproption-c.class",
-            "title" : "GDPROption",
-            "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-c.class\/initwithimage:",
-                "title" : "initWithImage:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-c.class\/initwithurl:",
-                "title" : "initWithUrl:",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-c.class",
-            "title" : "IncomingMessageAvatar",
-            "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-c.class\/init",
-                "title" : "init",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-c.class\/initwithclearactiverule",
-                "title" : "initWithClearActiveRule",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-c.class\/initwithkeepactiverule",
-                "title" : "initWithKeepActiveRule",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-c.class\/initwithnavigationoption:",
-                "title" : "initWithNavigationOption:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-c.class\/initwithnewtargetingruleid:",
-                "title" : "initWithNewTargetingRuleId:",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-c.class",
-            "title" : "NavigationOption",
-            "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Type Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-c.class\/customwithvalue:",
-                "title" : "customWithValue:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-c.class\/default",
-                "title" : "default",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-c.class",
-            "title" : "SDKLanguageOption",
-            "type" : "class"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/visitorcustomdata\/initwithboolean:",
-                "title" : "initWithBoolean:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/visitorcustomdata\/initwithdouble:",
-                "title" : "initWithDouble:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/visitorcustomdata\/initwithint:",
-                "title" : "initWithInt:",
-                "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/visitorcustomdata\/initwithstring:",
-                "title" : "initWithString:",
-                "type" : "method"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/visitorcustomdata",
-            "title" : "VisitorCustomData",
-            "type" : "class"
-          },
-          {
             "title" : "Variables",
             "type" : "groupMarker"
           },
@@ -806,2194 +194,6 @@
             "path" : "\/documentation\/iadvizeconversationsdk\/iadvizeconversationsdkversionstring",
             "title" : "IAdvizeConversationSDKVersionString",
             "type" : "var"
-          },
-          {
-            "path" : "\/documentation\/iadvizeconversationsdk\/targetingerrordomain",
-            "title" : "TargetingErrorDomain",
-            "type" : "var"
-          },
-          {
-            "title" : "Enumerations",
-            "type" : "groupMarker"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Enumeration Cases",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlapplicationmode\/graphqlapplicationmodedev",
-                "title" : "GraphQLApplicationModeDev",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlapplicationmode\/graphqlapplicationmodeprod",
-                "title" : "GraphQLApplicationModeProd",
-                "type" : "case"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/graphqlapplicationmode",
-            "title" : "GraphQLApplicationMode",
-            "type" : "enum"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Enumeration Cases",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyadp",
-                "title" : "GraphQLCurrencyAdp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyaed",
-                "title" : "GraphQLCurrencyAed",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyafa",
-                "title" : "GraphQLCurrencyAfa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyafn",
-                "title" : "GraphQLCurrencyAfn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyall",
-                "title" : "GraphQLCurrencyAll",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyamd",
-                "title" : "GraphQLCurrencyAmd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyang",
-                "title" : "GraphQLCurrencyAng",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyaoa",
-                "title" : "GraphQLCurrencyAoa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyars",
-                "title" : "GraphQLCurrencyArs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyats",
-                "title" : "GraphQLCurrencyAts",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyaud",
-                "title" : "GraphQLCurrencyAud",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyawg",
-                "title" : "GraphQLCurrencyAwg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyaym",
-                "title" : "GraphQLCurrencyAym",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyazm",
-                "title" : "GraphQLCurrencyAzm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyazn",
-                "title" : "GraphQLCurrencyAzn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybam",
-                "title" : "GraphQLCurrencyBam",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybbd",
-                "title" : "GraphQLCurrencyBbd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybdt",
-                "title" : "GraphQLCurrencyBdt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybef",
-                "title" : "GraphQLCurrencyBef",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybgl",
-                "title" : "GraphQLCurrencyBgl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybgn",
-                "title" : "GraphQLCurrencyBgn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybhd",
-                "title" : "GraphQLCurrencyBhd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybif",
-                "title" : "GraphQLCurrencyBif",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybmd",
-                "title" : "GraphQLCurrencyBmd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybnd",
-                "title" : "GraphQLCurrencyBnd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybob",
-                "title" : "GraphQLCurrencyBob",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybov",
-                "title" : "GraphQLCurrencyBov",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybrl",
-                "title" : "GraphQLCurrencyBrl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybsd",
-                "title" : "GraphQLCurrencyBsd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybtn",
-                "title" : "GraphQLCurrencyBtn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybwp",
-                "title" : "GraphQLCurrencyBwp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybyb",
-                "title" : "GraphQLCurrencyByb",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybyn",
-                "title" : "GraphQLCurrencyByn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybyr",
-                "title" : "GraphQLCurrencyByr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencybzd",
-                "title" : "GraphQLCurrencyBzd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycad",
-                "title" : "GraphQLCurrencyCad",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycdf",
-                "title" : "GraphQLCurrencyCdf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyche",
-                "title" : "GraphQLCurrencyChe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencychf",
-                "title" : "GraphQLCurrencyChf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencychw",
-                "title" : "GraphQLCurrencyChw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyclf",
-                "title" : "GraphQLCurrencyClf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyclp",
-                "title" : "GraphQLCurrencyClp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycny",
-                "title" : "GraphQLCurrencyCny",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycop",
-                "title" : "GraphQLCurrencyCop",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycou",
-                "title" : "GraphQLCurrencyCou",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycrc",
-                "title" : "GraphQLCurrencyCrc",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycsd",
-                "title" : "GraphQLCurrencyCsd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycuc",
-                "title" : "GraphQLCurrencyCuc",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycup",
-                "title" : "GraphQLCurrencyCup",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycve",
-                "title" : "GraphQLCurrencyCve",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencycyp",
-                "title" : "GraphQLCurrencyCyp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyczk",
-                "title" : "GraphQLCurrencyCzk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydem",
-                "title" : "GraphQLCurrencyDem",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydjf",
-                "title" : "GraphQLCurrencyDjf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydkk",
-                "title" : "GraphQLCurrencyDkk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydop",
-                "title" : "GraphQLCurrencyDop",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencydzd",
-                "title" : "GraphQLCurrencyDzd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyeek",
-                "title" : "GraphQLCurrencyEek",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyegp",
-                "title" : "GraphQLCurrencyEgp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyern",
-                "title" : "GraphQLCurrencyErn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyesp",
-                "title" : "GraphQLCurrencyEsp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyetb",
-                "title" : "GraphQLCurrencyEtb",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyeur",
-                "title" : "GraphQLCurrencyEur",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyfim",
-                "title" : "GraphQLCurrencyFim",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyfjd",
-                "title" : "GraphQLCurrencyFjd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyfkp",
-                "title" : "GraphQLCurrencyFkp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyfrf",
-                "title" : "GraphQLCurrencyFrf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygbp",
-                "title" : "GraphQLCurrencyGbp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygel",
-                "title" : "GraphQLCurrencyGel",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyghc",
-                "title" : "GraphQLCurrencyGhc",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyghs",
-                "title" : "GraphQLCurrencyGhs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygip",
-                "title" : "GraphQLCurrencyGip",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygmd",
-                "title" : "GraphQLCurrencyGmd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygnf",
-                "title" : "GraphQLCurrencyGnf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygrd",
-                "title" : "GraphQLCurrencyGrd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygtq",
-                "title" : "GraphQLCurrencyGtq",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygwp",
-                "title" : "GraphQLCurrencyGwp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencygyd",
-                "title" : "GraphQLCurrencyGyd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhkd",
-                "title" : "GraphQLCurrencyHkd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhnl",
-                "title" : "GraphQLCurrencyHnl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhrk",
-                "title" : "GraphQLCurrencyHrk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhtg",
-                "title" : "GraphQLCurrencyHtg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyhuf",
-                "title" : "GraphQLCurrencyHuf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyidr",
-                "title" : "GraphQLCurrencyIdr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyiep",
-                "title" : "GraphQLCurrencyIep",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyils",
-                "title" : "GraphQLCurrencyIls",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyinr",
-                "title" : "GraphQLCurrencyInr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyiqd",
-                "title" : "GraphQLCurrencyIqd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyirr",
-                "title" : "GraphQLCurrencyIrr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyisk",
-                "title" : "GraphQLCurrencyIsk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyitl",
-                "title" : "GraphQLCurrencyItl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyjmd",
-                "title" : "GraphQLCurrencyJmd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyjod",
-                "title" : "GraphQLCurrencyJod",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyjpy",
-                "title" : "GraphQLCurrencyJpy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykes",
-                "title" : "GraphQLCurrencyKes",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykgs",
-                "title" : "GraphQLCurrencyKgs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykhr",
-                "title" : "GraphQLCurrencyKhr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykmf",
-                "title" : "GraphQLCurrencyKmf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykpw",
-                "title" : "GraphQLCurrencyKpw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykrw",
-                "title" : "GraphQLCurrencyKrw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykwd",
-                "title" : "GraphQLCurrencyKwd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykyd",
-                "title" : "GraphQLCurrencyKyd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencykzt",
-                "title" : "GraphQLCurrencyKzt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylak",
-                "title" : "GraphQLCurrencyLak",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylbp",
-                "title" : "GraphQLCurrencyLbp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylkr",
-                "title" : "GraphQLCurrencyLkr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylrd",
-                "title" : "GraphQLCurrencyLrd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylsl",
-                "title" : "GraphQLCurrencyLsl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyltl",
-                "title" : "GraphQLCurrencyLtl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyluf",
-                "title" : "GraphQLCurrencyLuf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylvl",
-                "title" : "GraphQLCurrencyLvl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencylyd",
-                "title" : "GraphQLCurrencyLyd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymad",
-                "title" : "GraphQLCurrencyMad",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymdl",
-                "title" : "GraphQLCurrencyMdl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymga",
-                "title" : "GraphQLCurrencyMga",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymgf",
-                "title" : "GraphQLCurrencyMgf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymkd",
-                "title" : "GraphQLCurrencyMkd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymmk",
-                "title" : "GraphQLCurrencyMmk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymnt",
-                "title" : "GraphQLCurrencyMnt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymop",
-                "title" : "GraphQLCurrencyMop",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymro",
-                "title" : "GraphQLCurrencyMro",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymru",
-                "title" : "GraphQLCurrencyMru",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymtl",
-                "title" : "GraphQLCurrencyMtl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymur",
-                "title" : "GraphQLCurrencyMur",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymvr",
-                "title" : "GraphQLCurrencyMvr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymwk",
-                "title" : "GraphQLCurrencyMwk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymxn",
-                "title" : "GraphQLCurrencyMxn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymxv",
-                "title" : "GraphQLCurrencyMxv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymyr",
-                "title" : "GraphQLCurrencyMyr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymzm",
-                "title" : "GraphQLCurrencyMzm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencymzn",
-                "title" : "GraphQLCurrencyMzn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynad",
-                "title" : "GraphQLCurrencyNad",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyngn",
-                "title" : "GraphQLCurrencyNgn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynio",
-                "title" : "GraphQLCurrencyNio",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynlg",
-                "title" : "GraphQLCurrencyNlg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynok",
-                "title" : "GraphQLCurrencyNok",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynpr",
-                "title" : "GraphQLCurrencyNpr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencynzd",
-                "title" : "GraphQLCurrencyNzd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyomr",
-                "title" : "GraphQLCurrencyOmr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypab",
-                "title" : "GraphQLCurrencyPab",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypen",
-                "title" : "GraphQLCurrencyPen",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypgk",
-                "title" : "GraphQLCurrencyPgk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyphp",
-                "title" : "GraphQLCurrencyPhp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypkr",
-                "title" : "GraphQLCurrencyPkr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypln",
-                "title" : "GraphQLCurrencyPln",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypte",
-                "title" : "GraphQLCurrencyPte",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencypyg",
-                "title" : "GraphQLCurrencyPyg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyqar",
-                "title" : "GraphQLCurrencyQar",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrol",
-                "title" : "GraphQLCurrencyRol",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyron",
-                "title" : "GraphQLCurrencyRon",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrsd",
-                "title" : "GraphQLCurrencyRsd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrub",
-                "title" : "GraphQLCurrencyRub",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrur",
-                "title" : "GraphQLCurrencyRur",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyrwf",
-                "title" : "GraphQLCurrencyRwf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysar",
-                "title" : "GraphQLCurrencySar",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysbd",
-                "title" : "GraphQLCurrencySbd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyscr",
-                "title" : "GraphQLCurrencyScr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysdd",
-                "title" : "GraphQLCurrencySdd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysdg",
-                "title" : "GraphQLCurrencySdg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysek",
-                "title" : "GraphQLCurrencySek",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysgd",
-                "title" : "GraphQLCurrencySgd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyshp",
-                "title" : "GraphQLCurrencyShp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysit",
-                "title" : "GraphQLCurrencySit",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyskk",
-                "title" : "GraphQLCurrencySkk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysle",
-                "title" : "GraphQLCurrencySle",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysll",
-                "title" : "GraphQLCurrencySll",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysos",
-                "title" : "GraphQLCurrencySos",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysrd",
-                "title" : "GraphQLCurrencySrd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysrg",
-                "title" : "GraphQLCurrencySrg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyssp",
-                "title" : "GraphQLCurrencySsp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencystd",
-                "title" : "GraphQLCurrencyStd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencystn",
-                "title" : "GraphQLCurrencyStn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysvc",
-                "title" : "GraphQLCurrencySvc",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencysyp",
-                "title" : "GraphQLCurrencySyp",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyszl",
-                "title" : "GraphQLCurrencySzl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencythb",
-                "title" : "GraphQLCurrencyThb",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytjs",
-                "title" : "GraphQLCurrencyTjs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytmm",
-                "title" : "GraphQLCurrencyTmm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytmt",
-                "title" : "GraphQLCurrencyTmt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytnd",
-                "title" : "GraphQLCurrencyTnd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytop",
-                "title" : "GraphQLCurrencyTop",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytpe",
-                "title" : "GraphQLCurrencyTpe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytrl",
-                "title" : "GraphQLCurrencyTrl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytry",
-                "title" : "GraphQLCurrencyTry",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyttd",
-                "title" : "GraphQLCurrencyTtd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytwd",
-                "title" : "GraphQLCurrencyTwd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencytzs",
-                "title" : "GraphQLCurrencyTzs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuah",
-                "title" : "GraphQLCurrencyUah",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyugx",
-                "title" : "GraphQLCurrencyUgx",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyusd",
-                "title" : "GraphQLCurrencyUsd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyusn",
-                "title" : "GraphQLCurrencyUsn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuss",
-                "title" : "GraphQLCurrencyUss",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuyi",
-                "title" : "GraphQLCurrencyUyi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuyu",
-                "title" : "GraphQLCurrencyUyu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyuzs",
-                "title" : "GraphQLCurrencyUzs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyveb",
-                "title" : "GraphQLCurrencyVeb",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyved",
-                "title" : "GraphQLCurrencyVed",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyvef",
-                "title" : "GraphQLCurrencyVef",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyves",
-                "title" : "GraphQLCurrencyVes",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyvnd",
-                "title" : "GraphQLCurrencyVnd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyvuv",
-                "title" : "GraphQLCurrencyVuv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencywst",
-                "title" : "GraphQLCurrencyWst",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxaf",
-                "title" : "GraphQLCurrencyXaf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxag",
-                "title" : "GraphQLCurrencyXag",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxau",
-                "title" : "GraphQLCurrencyXau",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxba",
-                "title" : "GraphQLCurrencyXba",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxbb",
-                "title" : "GraphQLCurrencyXbb",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxbc",
-                "title" : "GraphQLCurrencyXbc",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxbd",
-                "title" : "GraphQLCurrencyXbd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxcd",
-                "title" : "GraphQLCurrencyXcd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxdr",
-                "title" : "GraphQLCurrencyXdr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxfo",
-                "title" : "GraphQLCurrencyXfo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxfu",
-                "title" : "GraphQLCurrencyXfu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxof",
-                "title" : "GraphQLCurrencyXof",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxpd",
-                "title" : "GraphQLCurrencyXpd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxpf",
-                "title" : "GraphQLCurrencyXpf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxpt",
-                "title" : "GraphQLCurrencyXpt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxsu",
-                "title" : "GraphQLCurrencyXsu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxts",
-                "title" : "GraphQLCurrencyXts",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxua",
-                "title" : "GraphQLCurrencyXua",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyxxx",
-                "title" : "GraphQLCurrencyXxx",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyyer",
-                "title" : "GraphQLCurrencyYer",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyyum",
-                "title" : "GraphQLCurrencyYum",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzar",
-                "title" : "GraphQLCurrencyZar",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzmk",
-                "title" : "GraphQLCurrencyZmk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzmw",
-                "title" : "GraphQLCurrencyZmw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzwd",
-                "title" : "GraphQLCurrencyZwd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzwl",
-                "title" : "GraphQLCurrencyZwl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzwn",
-                "title" : "GraphQLCurrencyZwn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency\/graphqlcurrencyzwr",
-                "title" : "GraphQLCurrencyZwr",
-                "type" : "case"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency",
-            "title" : "GraphQLCurrency",
-            "type" : "enum"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Enumeration Cases",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageaa",
-                "title" : "GraphQLLanguageAa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageab",
-                "title" : "GraphQLLanguageAb",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageae",
-                "title" : "GraphQLLanguageAe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageaf",
-                "title" : "GraphQLLanguageAf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageak",
-                "title" : "GraphQLLanguageAk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageam",
-                "title" : "GraphQLLanguageAm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagean",
-                "title" : "GraphQLLanguageAn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagear",
-                "title" : "GraphQLLanguageAr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageas",
-                "title" : "GraphQLLanguageAs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageav",
-                "title" : "GraphQLLanguageAv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageay",
-                "title" : "GraphQLLanguageAy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageaz",
-                "title" : "GraphQLLanguageAz",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageba",
-                "title" : "GraphQLLanguageBa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebe",
-                "title" : "GraphQLLanguageBe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebg",
-                "title" : "GraphQLLanguageBg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebh",
-                "title" : "GraphQLLanguageBh",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebi",
-                "title" : "GraphQLLanguageBi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebm",
-                "title" : "GraphQLLanguageBm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebn",
-                "title" : "GraphQLLanguageBn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebo",
-                "title" : "GraphQLLanguageBo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebr",
-                "title" : "GraphQLLanguageBr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagebs",
-                "title" : "GraphQLLanguageBs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageca",
-                "title" : "GraphQLLanguageCa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagece",
-                "title" : "GraphQLLanguageCe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagech",
-                "title" : "GraphQLLanguageCh",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageco",
-                "title" : "GraphQLLanguageCo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecr",
-                "title" : "GraphQLLanguageCr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecs",
-                "title" : "GraphQLLanguageCs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecu",
-                "title" : "GraphQLLanguageCu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecv",
-                "title" : "GraphQLLanguageCv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagecy",
-                "title" : "GraphQLLanguageCy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageda",
-                "title" : "GraphQLLanguageDa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagede",
-                "title" : "GraphQLLanguageDe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagedv",
-                "title" : "GraphQLLanguageDv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagedz",
-                "title" : "GraphQLLanguageDz",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageee",
-                "title" : "GraphQLLanguageEe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageel",
-                "title" : "GraphQLLanguageEl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageen",
-                "title" : "GraphQLLanguageEn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageeo",
-                "title" : "GraphQLLanguageEo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagees",
-                "title" : "GraphQLLanguageEs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageet",
-                "title" : "GraphQLLanguageEt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageeu",
-                "title" : "GraphQLLanguageEu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefa",
-                "title" : "GraphQLLanguageFa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageff",
-                "title" : "GraphQLLanguageFf",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefi",
-                "title" : "GraphQLLanguageFi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefj",
-                "title" : "GraphQLLanguageFj",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefo",
-                "title" : "GraphQLLanguageFo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefr",
-                "title" : "GraphQLLanguageFr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagefy",
-                "title" : "GraphQLLanguageFy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagega",
-                "title" : "GraphQLLanguageGa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegd",
-                "title" : "GraphQLLanguageGd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegl",
-                "title" : "GraphQLLanguageGl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegn",
-                "title" : "GraphQLLanguageGn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegu",
-                "title" : "GraphQLLanguageGu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagegv",
-                "title" : "GraphQLLanguageGv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageha",
-                "title" : "GraphQLLanguageHa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehe",
-                "title" : "GraphQLLanguageHe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehi",
-                "title" : "GraphQLLanguageHi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageho",
-                "title" : "GraphQLLanguageHo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehr",
-                "title" : "GraphQLLanguageHr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageht",
-                "title" : "GraphQLLanguageHt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehu",
-                "title" : "GraphQLLanguageHu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehy",
-                "title" : "GraphQLLanguageHy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagehz",
-                "title" : "GraphQLLanguageHz",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageia",
-                "title" : "GraphQLLanguageIa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageid",
-                "title" : "GraphQLLanguageId",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageie",
-                "title" : "GraphQLLanguageIe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageig",
-                "title" : "GraphQLLanguageIg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageii",
-                "title" : "GraphQLLanguageIi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageik",
-                "title" : "GraphQLLanguageIk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagein",
-                "title" : "GraphQLLanguageIn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageio",
-                "title" : "GraphQLLanguageIo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageis",
-                "title" : "GraphQLLanguageIs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageit",
-                "title" : "GraphQLLanguageIt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageiu",
-                "title" : "GraphQLLanguageIu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageiw",
-                "title" : "GraphQLLanguageIw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageja",
-                "title" : "GraphQLLanguageJa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageji",
-                "title" : "GraphQLLanguageJi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagejv",
-                "title" : "GraphQLLanguageJv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageka",
-                "title" : "GraphQLLanguageKa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekg",
-                "title" : "GraphQLLanguageKg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageki",
-                "title" : "GraphQLLanguageKi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekj",
-                "title" : "GraphQLLanguageKj",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekk",
-                "title" : "GraphQLLanguageKk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekl",
-                "title" : "GraphQLLanguageKl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekm",
-                "title" : "GraphQLLanguageKm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekn",
-                "title" : "GraphQLLanguageKn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageko",
-                "title" : "GraphQLLanguageKo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekr",
-                "title" : "GraphQLLanguageKr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageks",
-                "title" : "GraphQLLanguageKs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageku",
-                "title" : "GraphQLLanguageKu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekv",
-                "title" : "GraphQLLanguageKv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagekw",
-                "title" : "GraphQLLanguageKw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageky",
-                "title" : "GraphQLLanguageKy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagela",
-                "title" : "GraphQLLanguageLa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelb",
-                "title" : "GraphQLLanguageLb",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelg",
-                "title" : "GraphQLLanguageLg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageli",
-                "title" : "GraphQLLanguageLi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageln",
-                "title" : "GraphQLLanguageLn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelo",
-                "title" : "GraphQLLanguageLo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelt",
-                "title" : "GraphQLLanguageLt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelu",
-                "title" : "GraphQLLanguageLu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagelv",
-                "title" : "GraphQLLanguageLv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemg",
-                "title" : "GraphQLLanguageMg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemh",
-                "title" : "GraphQLLanguageMh",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemi",
-                "title" : "GraphQLLanguageMi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemk",
-                "title" : "GraphQLLanguageMk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageml",
-                "title" : "GraphQLLanguageMl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemn",
-                "title" : "GraphQLLanguageMn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemo",
-                "title" : "GraphQLLanguageMo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemr",
-                "title" : "GraphQLLanguageMr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagems",
-                "title" : "GraphQLLanguageMs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemt",
-                "title" : "GraphQLLanguageMt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagemy",
-                "title" : "GraphQLLanguageMy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagena",
-                "title" : "GraphQLLanguageNa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenb",
-                "title" : "GraphQLLanguageNb",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagend",
-                "title" : "GraphQLLanguageNd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagene",
-                "title" : "GraphQLLanguageNe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageng",
-                "title" : "GraphQLLanguageNg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenl",
-                "title" : "GraphQLLanguageNl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenn",
-                "title" : "GraphQLLanguageNn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageno",
-                "title" : "GraphQLLanguageNo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenr",
-                "title" : "GraphQLLanguageNr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagenv",
-                "title" : "GraphQLLanguageNv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageny",
-                "title" : "GraphQLLanguageNy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageoc",
-                "title" : "GraphQLLanguageOc",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageoj",
-                "title" : "GraphQLLanguageOj",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageom",
-                "title" : "GraphQLLanguageOm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageor",
-                "title" : "GraphQLLanguageOr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageos",
-                "title" : "GraphQLLanguageOs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagepa",
-                "title" : "GraphQLLanguagePa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagepi",
-                "title" : "GraphQLLanguagePi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagepl",
-                "title" : "GraphQLLanguagePl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageps",
-                "title" : "GraphQLLanguagePs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagept",
-                "title" : "GraphQLLanguagePt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagequ",
-                "title" : "GraphQLLanguageQu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagerm",
-                "title" : "GraphQLLanguageRm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagern",
-                "title" : "GraphQLLanguageRn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagero",
-                "title" : "GraphQLLanguageRo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageru",
-                "title" : "GraphQLLanguageRu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagerw",
-                "title" : "GraphQLLanguageRw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesa",
-                "title" : "GraphQLLanguageSa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesc",
-                "title" : "GraphQLLanguageSc",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesd",
-                "title" : "GraphQLLanguageSd",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagese",
-                "title" : "GraphQLLanguageSe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesg",
-                "title" : "GraphQLLanguageSg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesi",
-                "title" : "GraphQLLanguageSi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesk",
-                "title" : "GraphQLLanguageSk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesl",
-                "title" : "GraphQLLanguageSl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesm",
-                "title" : "GraphQLLanguageSm",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesn",
-                "title" : "GraphQLLanguageSn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageso",
-                "title" : "GraphQLLanguageSo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesq",
-                "title" : "GraphQLLanguageSq",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesr",
-                "title" : "GraphQLLanguageSr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagess",
-                "title" : "GraphQLLanguageSs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagest",
-                "title" : "GraphQLLanguageSt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesu",
-                "title" : "GraphQLLanguageSu",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesv",
-                "title" : "GraphQLLanguageSv",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagesw",
-                "title" : "GraphQLLanguageSw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageta",
-                "title" : "GraphQLLanguageTa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagete",
-                "title" : "GraphQLLanguageTe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetg",
-                "title" : "GraphQLLanguageTg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageth",
-                "title" : "GraphQLLanguageTh",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageti",
-                "title" : "GraphQLLanguageTi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetk",
-                "title" : "GraphQLLanguageTk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetl",
-                "title" : "GraphQLLanguageTl",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetn",
-                "title" : "GraphQLLanguageTn",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageto",
-                "title" : "GraphQLLanguageTo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetr",
-                "title" : "GraphQLLanguageTr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagets",
-                "title" : "GraphQLLanguageTs",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagett",
-                "title" : "GraphQLLanguageTt",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagetw",
-                "title" : "GraphQLLanguageTw",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagety",
-                "title" : "GraphQLLanguageTy",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageug",
-                "title" : "GraphQLLanguageUg",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageuk",
-                "title" : "GraphQLLanguageUk",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageur",
-                "title" : "GraphQLLanguageUr",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageuz",
-                "title" : "GraphQLLanguageUz",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageve",
-                "title" : "GraphQLLanguageVe",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagevi",
-                "title" : "GraphQLLanguageVi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagevo",
-                "title" : "GraphQLLanguageVo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagewa",
-                "title" : "GraphQLLanguageWa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagewo",
-                "title" : "GraphQLLanguageWo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagexh",
-                "title" : "GraphQLLanguageXh",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageyi",
-                "title" : "GraphQLLanguageYi",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageyo",
-                "title" : "GraphQLLanguageYo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguageza",
-                "title" : "GraphQLLanguageZa",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagezh",
-                "title" : "GraphQLLanguageZh",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage\/graphqllanguagezu",
-                "title" : "GraphQLLanguageZu",
-                "type" : "case"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage",
-            "title" : "GraphQLLanguage",
-            "type" : "enum"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Enumeration Cases",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelall",
-                "title" : "LoggerLogLevelAll",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelerror",
-                "title" : "LoggerLogLevelError",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelinfo",
-                "title" : "LoggerLogLevelInfo",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelnone",
-                "title" : "LoggerLogLevelNone",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelsuccess",
-                "title" : "LoggerLogLevelSuccess",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelverbose",
-                "title" : "LoggerLogLevelVerbose",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel\/loggerloglevelwarning",
-                "title" : "LoggerLogLevelWarning",
-                "type" : "case"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel",
-            "title" : "LoggerLogLevel",
-            "type" : "enum"
           }
         ],
         "path" : "\/documentation\/iadvizeconversationsdk",
@@ -3131,11 +331,6 @@
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/none",
                     "title" : "case none",
-                    "type" : "case"
-                  },
-                  {
-                    "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/success",
-                    "title" : "case success",
                     "type" : "case"
                   },
                   {
@@ -3335,7 +530,7 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum\/==(_:_:)",
+                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption\/==(_:_:)",
                 "title" : "static func == (AuthenticationOption, AuthenticationOption) -> Bool",
                 "type" : "op"
               },
@@ -3344,17 +539,17 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum\/anonymous",
+                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption\/anonymous",
                 "title" : "case anonymous",
                 "type" : "case"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum\/secured(jweprovider:)",
+                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption\/secured(jweprovider:)",
                 "title" : "case secured(jweProvider: JWEProvider)",
                 "type" : "case"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum\/simple(userid:)",
+                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption\/simple(userid:)",
                 "title" : "case simple(userId: String)",
                 "type" : "case"
               },
@@ -3369,17 +564,17 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum\/!=(_:_:)",
+                    "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption\/!=(_:_:)",
                     "title" : "static func != (Self, Self) -> Bool",
                     "type" : "op"
                   }
                 ],
-                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum\/equatable-implementations",
+                "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption\/equatable-implementations",
                 "title" : "Equatable Implementations",
                 "type" : "symbol"
               }
             ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum",
+            "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption",
             "title" : "AuthenticationOption",
             "type" : "enum"
           },
@@ -3390,17 +585,17 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdproption-swift.enum\/disabled",
+                "path" : "\/documentation\/iadvizeconversationsdk\/gdproption\/disabled",
                 "title" : "case disabled",
                 "type" : "case"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdproption-swift.enum\/enabled(option:)",
+                "path" : "\/documentation\/iadvizeconversationsdk\/gdproption\/enabled(option:)",
                 "title" : "case enabled(option: GDPREnabledOption)",
                 "type" : "case"
               }
             ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/gdproption-swift.enum",
+            "path" : "\/documentation\/iadvizeconversationsdk\/gdproption",
             "title" : "GDPROption",
             "type" : "enum"
           },
@@ -3411,17 +606,17 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-swift.enum\/delegate(delegate:)",
+                "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption\/delegate(delegate:)",
                 "title" : "case delegate(delegate: GDPRDelegate)",
                 "type" : "case"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-swift.enum\/legalinformation(url:)",
+                "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption\/legalinformation(url:)",
                 "title" : "case legalInformation(url: URL)",
                 "type" : "case"
               }
             ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-swift.enum",
+            "path" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption",
             "title" : "GDPREnabledOption",
             "type" : "enum"
           },
@@ -3535,11 +730,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation\/conversationchannel",
-                "title" : "let conversationChannel: ConversationChannel",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation\/conversationid",
                 "title" : "let conversationId: UUID",
                 "type" : "property"
@@ -3587,11 +777,6 @@
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/deactivatetargetingrule()",
                 "title" : "func deactivateTargetingRule()",
                 "type" : "method"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/registerusernavigation(navigationoption:)",
-                "title" : "func registerUserNavigation(navigationOption: NavigationOption)",
-                "type" : "method"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller",
@@ -3626,8 +811,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingrule\/init(id:conversationchannel:)",
-                "title" : "init(id: UUID, conversationChannel: ConversationChannel)",
+                "path" : "\/documentation\/iadvizeconversationsdk\/targetingrule\/init(id:)",
+                "title" : "init(id: UUID)",
                 "type" : "init"
               }
             ],
@@ -3746,6 +931,15 @@
                     "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/hashvalue",
                     "title" : "var hashValue: Int",
                     "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/rawrepresentable-implementations",
@@ -3764,17 +958,17 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum\/custom(value:)",
+                "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption\/custom(value:)",
                 "title" : "case custom(value: Language)",
                 "type" : "case"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum\/default",
+                "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption\/default",
                 "title" : "case `default`",
                 "type" : "case"
               }
             ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum",
+            "path" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption",
             "title" : "SDKLanguageOption",
             "type" : "enum"
           },
@@ -4784,112 +1978,6 @@
             "type" : "enum"
           },
           {
-            "children" : [
-              {
-                "title" : "Enumeration Cases",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/chat",
-                "title" : "case chat",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/video",
-                "title" : "case video",
-                "type" : "case"
-              },
-              {
-                "title" : "Initializers",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/init(rawvalue:)",
-                "title" : "init?(rawValue: String)",
-                "type" : "init"
-              },
-              {
-                "title" : "Default Implementations",
-                "type" : "groupMarker"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Operators",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/!=(_:_:)",
-                    "title" : "static func != (Self, Self) -> Bool",
-                    "type" : "op"
-                  }
-                ],
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/equatable-implementations",
-                "title" : "Equatable Implementations",
-                "type" : "symbol"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Instance Properties",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/hashvalue",
-                    "title" : "var hashValue: Int",
-                    "type" : "property"
-                  },
-                  {
-                    "title" : "Instance Methods",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/encode(to:)",
-                    "title" : "func encode(to: any Encoder) throws",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/hash(into:)",
-                    "title" : "func hash(into: inout Hasher)",
-                    "type" : "method"
-                  }
-                ],
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum\/rawrepresentable-implementations",
-                "title" : "RawRepresentable Implementations",
-                "type" : "symbol"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum",
-            "title" : "ConversationChannel",
-            "type" : "enum"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Enumeration Cases",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum\/activatenewrule(targetingrule:)",
-                "title" : "case activateNewRule(targetingRule: TargetingRule)",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum\/clearactiverule",
-                "title" : "case clearActiveRule",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum\/keepactiverule",
-                "title" : "case keepActiveRule",
-                "type" : "case"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum",
-            "title" : "NavigationOption",
-            "type" : "enum"
-          },
-          {
             "title" : "Chatbox and Chat button",
             "type" : "groupMarker"
           },
@@ -4971,7 +2059,7 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/init()",
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/init()",
                 "title" : "init()",
                 "type" : "init"
               },
@@ -4980,120 +2068,69 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/accentcolor",
-                "title" : "var accentColor: UIColor?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/automaticmessage",
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/automaticmessage",
                 "title" : "var automaticMessage: String?",
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/font",
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/avatar",
+                "title" : "var avatar: UIImage?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/font",
                 "title" : "var font: UIFont?",
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/gdprmessage",
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/gdprmessage",
                 "title" : "var gdprMessage: String?",
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/incomingmessageavatar",
-                "title" : "var incomingMessageAvatar: IncomingMessageAvatar?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/incomingmessagebackgroundcolor",
-                "title" : "var incomingMessageBackgroundColor: UIColor?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/incomingmessagebordercolor",
-                "title" : "var incomingMessageBorderColor: UIColor?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/incomingmessagetextcolor",
-                "title" : "var incomingMessageTextColor: UIColor?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/issmallerchatboxenabled",
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/issmallerchatboxenabled",
                 "title" : "var isSmallerChatboxEnabled: Bool",
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/maincolor",
-                "title" : "var mainColor: UIColor",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/navigationbarbackgroundcolor",
-                "title" : "var navigationBarBackgroundColor: UIColor",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/navigationbarmaincolor",
-                "title" : "var navigationBarMainColor: UIColor",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/navigationbartitle",
-                "title" : "var navigationBarTitle: String?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/outgoingmessagebackgroundcolor",
-                "title" : "var outgoingMessageBackgroundColor: UIColor?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/outgoingmessagebordercolor",
-                "title" : "var outgoingMessageBorderColor: UIColor?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/outgoingmessagetextcolor",
-                "title" : "var outgoingMessageTextColor: UIColor?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/presentationstyle",
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/presentationstyle",
                 "title" : "var presentationStyle: UIModalPresentationStyle?",
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct\/presentingviewcontroller",
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/presentingviewcontroller",
                 "title" : "var presentingViewController: UIViewController?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/primarycolor",
+                "title" : "var primaryColor: UIColor",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/primarytextcolor",
+                "title" : "var primaryTextColor: UIColor",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/secondarycolor",
+                "title" : "var secondaryColor: UIColor",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/secondarytextcolor",
+                "title" : "var secondaryTextColor: UIColor",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration\/title",
+                "title" : "var title: String?",
                 "type" : "property"
               }
             ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct",
+            "path" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration",
             "title" : "ChatboxConfiguration",
             "type" : "struct"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Enumeration Cases",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-swift.enum\/image(image:)",
-                "title" : "case image(image: UIImage)",
-                "type" : "case"
-              },
-              {
-                "path" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-swift.enum\/url(url:)",
-                "title" : "case url(url: URL)",
-                "type" : "case"
-              }
-            ],
-            "path" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-swift.enum",
-            "title" : "IncomingMessageAvatar",
-            "type" : "enum"
           },
           {
             "title" : "Push Notifications",
@@ -5244,6 +2281,11 @@
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/transaction\/init(externaltransactionid:date:amount:currency:)",
                 "title" : "init(externalTransactionId: String, date: Date, amount: Double, currency: Currency)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/transaction\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -6487,6 +3529,15 @@
               {
                 "children" : [
                   {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/currency\/init(from:)",
+                    "title" : "init(from: any Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
                     "title" : "Instance Properties",
                     "type" : "groupMarker"
                   },
@@ -6498,6 +3549,11 @@
                   {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/currency\/encode(to:)",
+                    "title" : "func encode(to: any Encoder) throws",
+                    "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/currency\/hash(into:)",

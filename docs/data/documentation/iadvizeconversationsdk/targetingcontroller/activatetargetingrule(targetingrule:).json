@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "c:@M@IAdvizeConversationSDK@objc(cs)TargetingController(im)activateTargetingRuleWithTargetingRule:",
+    "externalID" : "s:22IAdvizeConversationSDK19TargetingControllerC08activateD4Rule09targetingG0yAA0dG0C_tF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -60,12 +60,6 @@
         "name" : "IAdvizeConversationSDK"
       }
     ],
-    "navigatorTitle" : [
-      {
-        "kind" : "identifier",
-        "text" : "activateTargetingRuleWithTargetingRule:"
-      }
-    ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -82,14 +76,6 @@
             "iOS"
           ],
           "tokens" : [
-            {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
             {
               "kind" : "keyword",
               "text" : "func"
@@ -236,16 +222,6 @@
           "interfaceLanguage" : "swift"
         }
       ]
-    },
-    {
-      "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/activatetargetingrule(targetingrule:)"
-      ],
-      "traits" : [
-        {
-          "interfaceLanguage" : "occ"
-        }
-      ]
     }
   ]
 , 
@@ -355,12 +331,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/activateTargetingRule(targetingRule:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "activateTargetingRuleWithTargetingRule:"
-    }
-  ],
   "role" : "symbol",
   "title" : "activateTargetingRule(targetingRule:)",
   "type" : "topic",
@@ -403,141 +373,6 @@
     "patch" : [
       {
         "op" : "replace",
-        "path" : "\/identifier\/interfaceLanguage",
-        "value" : "occ"
-      },
-      {
-        "op" : "add",
-        "path" : "\/metadata\/platforms",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/roleHeading",
-        "value" : "Instance Method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/title",
-        "value" : "activateTargetingRuleWithTargetingRule:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/symbolKind",
-        "value" : "method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "activateTargetingRuleWithTargetingRule:"
-          }
-        ]
-      },
-      {
-        "op" : "add",
-        "path" : "\/topicSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/relationshipsSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/seeAlsoSections",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/0",
-        "value" : {
-          "declarations" : [
-            {
-              "languages" : [
-                "occ"
-              ],
-              "platforms" : [
-                "iOS"
-              ],
-              "tokens" : [
-                {
-                  "kind" : "text",
-                  "text" : "- ("
-                },
-                {
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:v",
-                  "text" : "void"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ") "
-                },
-                {
-                  "kind" : "identifier",
-                  "text" : "activateTargetingRuleWithTargetingRule:"
-                },
-                {
-                  "kind" : "text",
-                  "text" : "("
-                },
-                {
-                  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule",
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)TargetingRule",
-                  "text" : "TargetingRule"
-                },
-                {
-                  "kind" : "text",
-                  "text" : " *) "
-                },
-                {
-                  "kind" : "internalParam",
-                  "text" : "targetingRule"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ";"
-                }
-              ]
-            }
-          ],
-          "kind" : "declarations"
-        }
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/1",
-        "value" : {
-          "kind" : "parameters",
-          "parameters" : [
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "The targeting rule to activate.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ],
-              "name" : "targetingRule"
-            }
-          ]
-        }
-      },
-      {
-        "op" : "replace",
         "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController\/title",
         "value" : "TargetingController"
       },
@@ -558,25 +393,6 @@
           {
             "kind" : "identifier",
             "text" : "TargetingController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1activateTargetingRule(targetingRule:)\/title",
-        "value" : "activateTargetingRuleWithTargetingRule:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1activateTargetingRule(targetingRule:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "activateTargetingRuleWithTargetingRule:"
           }
         ]
       },

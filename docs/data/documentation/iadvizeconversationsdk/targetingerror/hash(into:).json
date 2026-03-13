@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "RawRepresentable.hash(into:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -13,8 +27,56 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "Foundation",
-    "externalID" : "s:10Foundation15_BridgedNSErrorPAAE4hash4intoys6HasherVz_tF::SYNTHESIZED::c:@M@IAdvizeConversationSDK@E@TargetingError",
+    "conformance" : {
+      "availabilityPrefix" : [
+        {
+          "text" : "Available when",
+          "type" : "text"
+        }
+      ],
+      "conformancePrefix" : [
+        {
+          "text" : "Conforms when",
+          "type" : "text"
+        }
+      ],
+      "constraints" : [
+        {
+          "code" : "Self",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : " conforms to ",
+          "type" : "text"
+        },
+        {
+          "code" : "Hashable",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : " and ",
+          "type" : "text"
+        },
+        {
+          "code" : "RawValue",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : " conforms to ",
+          "type" : "text"
+        },
+        {
+          "code" : "Hashable",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : ".",
+          "type" : "text"
+        }
+      ]
+    },
+    "extendedModule" : "Swift",
+    "externalID" : "s:SYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF::SYNTHESIZED::s:22IAdvizeConversationSDK14TargetingErrorO",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -62,52 +124,8 @@
       {
         "name" : "IAdvizeConversationSDK",
         "relatedModules" : [
-          "Foundation"
+          "Swift"
         ]
-      }
-    ],
-    "platforms" : [
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "8.0",
-        "name" : "iOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "8.0",
-        "name" : "iPadOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "8.0",
-        "name" : "Mac Catalyst",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "10.10",
-        "name" : "macOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "9.0",
-        "name" : "tvOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "2.0",
-        "name" : "watchOS",
-        "unavailable" : false
       }
     ],
     "role" : "symbol",
@@ -284,6 +302,54 @@
   "abstract" : [
 
   ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Self",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Hashable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " and ",
+        "type" : "text"
+      },
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Hashable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
   "fragments" : [
     {
       "kind" : "keyword",
@@ -334,41 +400,5 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/hash(into:)"
 }
-}, 
-"variantOverrides":[
-  {
-    "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
-        "value" : "TargetingError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      }
-    ],
-    "traits" : [
-      {
-        "interfaceLanguage" : "occ"
-      }
-    ]
-  }
-]
+}
 }

@@ -28,7 +28,7 @@
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::c:@M@IAdvizeConversationSDK@E@TargetingError",
+    "externalID" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:22IAdvizeConversationSDK14TargetingErrorO",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -292,41 +292,5 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/localizeddescription"
 }
-}, 
-"variantOverrides":[
-  {
-    "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
-        "value" : "TargetingError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      }
-    ],
-    "traits" : [
-      {
-        "interfaceLanguage" : "occ"
-      }
-    ]
-  }
-]
+}
 }

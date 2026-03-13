@@ -89,6 +89,8 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/Se",
+        "doc:\/\/com.iadvize.conversation.sdk\/SE",
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
         "doc:\/\/com.iadvize.conversation.sdk\/SY",
@@ -391,6 +393,11 @@
   ]
 , 
 "references": {
+"doc://com.iadvize.conversation.sdk/SE": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
 "doc://com.iadvize.conversation.sdk/SH": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SH",
   "title" : "Swift.Hashable",
@@ -404,6 +411,11 @@
 "doc://com.iadvize.conversation.sdk/SY": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SY",
   "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/Se": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/Se",
+  "title" : "Swift.Decodable",
   "type" : "unresolvable"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {

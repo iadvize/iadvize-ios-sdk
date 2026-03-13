@@ -55,14 +55,6 @@
           ],
           "tokens" : [
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "final"
             },

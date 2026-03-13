@@ -27,7 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "c:@M@IAdvizeConversationSDK@objc(cs)ChatboxController(im)isChatboxPresented",
+    "externalID" : "s:22IAdvizeConversationSDK17ChatboxControllerC02isD9PresentedSbyF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -56,12 +56,6 @@
         "name" : "IAdvizeConversationSDK"
       }
     ],
-    "navigatorTitle" : [
-      {
-        "kind" : "identifier",
-        "text" : "isChatboxPresented"
-      }
-    ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -86,14 +80,6 @@
               "kind" : "attribute",
               "preciseIdentifier" : "s:ScM",
               "text" : "MainActor"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "attribute",
-              "text" : "@objc"
             },
             {
               "kind" : "text",
@@ -142,16 +128,6 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
-        }
-      ]
-    },
-    {
-      "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/ischatboxpresented()"
-      ],
-      "traits" : [
-        {
-          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -259,12 +235,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/isChatboxPresented()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "isChatboxPresented"
-    }
-  ],
   "role" : "symbol",
   "title" : "isChatboxPresented()",
   "type" : "topic",
@@ -274,100 +244,6 @@
 "variantOverrides":[
   {
     "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/identifier\/interfaceLanguage",
-        "value" : "occ"
-      },
-      {
-        "op" : "add",
-        "path" : "\/metadata\/platforms",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/roleHeading",
-        "value" : "Instance Method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/title",
-        "value" : "isChatboxPresented"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/symbolKind",
-        "value" : "method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "isChatboxPresented"
-          }
-        ]
-      },
-      {
-        "op" : "add",
-        "path" : "\/topicSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/relationshipsSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/seeAlsoSections",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/0",
-        "value" : {
-          "declarations" : [
-            {
-              "languages" : [
-                "occ"
-              ],
-              "platforms" : [
-                "iOS"
-              ],
-              "tokens" : [
-                {
-                  "kind" : "text",
-                  "text" : "- ("
-                },
-                {
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:@T@BOOL",
-                  "text" : "BOOL"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ") "
-                },
-                {
-                  "kind" : "identifier",
-                  "text" : "isChatboxPresented"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ";"
-                }
-              ]
-            }
-          ],
-          "kind" : "declarations"
-        }
-      },
       {
         "op" : "replace",
         "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController\/title",
@@ -390,25 +266,6 @@
           {
             "kind" : "identifier",
             "text" : "ChatboxController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1isChatboxPresented()\/title",
-        "value" : "isChatboxPresented"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1isChatboxPresented()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "isChatboxPresented"
           }
         ]
       }

@@ -11,7 +11,7 @@ import UIKit
 
 extension AppDelegate {
     func pushNotificationsSetup() {
-        /// Activate push notifications by registering user notifications settings.
+        // Activate push notifications by registering user notifications settings.
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { _, _ in
             DispatchQueue.main.async {
                 UIApplication.shared.registerForRemoteNotifications()

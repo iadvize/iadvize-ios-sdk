@@ -61,14 +61,6 @@
           ],
           "tokens" : [
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "final"
             },
@@ -277,7 +269,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(pl)ConversationControllerDelegate",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK0B18ControllerDelegateP",
       "text" : "ConversationControllerDelegate"
     },
     {
@@ -287,12 +279,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/delegate",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "delegate"
-    }
-  ],
   "role" : "symbol",
   "title" : "delegate",
   "type" : "topic",
@@ -358,12 +344,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/ongoingConversation()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "ongoingConversation"
-    }
-  ],
   "role" : "symbol",
   "title" : "ongoingConversation()",
   "type" : "topic",
@@ -523,19 +503,10 @@
         "path" : "\/topicSections",
         "value" : [
           {
-            "anchor" : "Instance-Properties",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/delegate"
-            ],
-            "title" : "Instance Properties"
-          },
-          {
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/init",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/ongoingConversation()"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/init"
             ],
             "title" : "Instance Methods"
           }
@@ -563,7 +534,6 @@
             "anchor" : "Conversation",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate",
               "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/OngoingConversation"
             ],
             "title" : "Conversation"
@@ -632,65 +602,6 @@
           {
             "kind" : "identifier",
             "text" : "ConversationController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController~1delegate\/title",
-        "value" : "delegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController~1delegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "delegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController~1ongoingConversation()\/title",
-        "value" : "ongoingConversation"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController~1ongoingConversation()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "ongoingConversation"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/title",
-        "value" : "ConversationControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ConversationControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ConversationControllerDelegate"
           }
         ]
       },

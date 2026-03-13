@@ -55,14 +55,6 @@
           ],
           "tokens" : [
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "final"
             },
@@ -131,10 +123,8 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language"
       ],
       "title" : "Targeting"
     }
@@ -144,7 +134,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule\/init(id:conversationChannel:)"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule\/init(id:)"
       ],
       "title" : "Initializers"
     }
@@ -215,37 +205,6 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationChannel-swift.enum": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "ConversationChannel",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum"
-},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language": {
   "abstract" : [
     {
@@ -280,39 +239,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/language"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NavigationOption-swift.enum": {
-  "abstract" : [
-
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "NavigationOption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption": {
   "abstract" : [
     {
       "text" : "Option to specify the language to use for the targeting.",
@@ -333,7 +260,7 @@
       "text" : "SDKLanguageOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -344,7 +271,7 @@
   "role" : "symbol",
   "title" : "SDKLanguageOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController": {
   "abstract" : [
@@ -495,7 +422,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingrule"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingRule/init(id:conversationChannel:)": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingRule/init(id:)": {
   "abstract" : [
 
   ],
@@ -523,59 +450,15 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "conversationChannel"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:22IAdvizeConversationSDK0B7ChannelO",
-      "text" : "ConversationChannel"
-    },
-    {
-      "kind" : "text",
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule\/init(id:conversationChannel:)",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule\/init(id:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(id:conversationChannel:)",
+  "title" : "init(id:)",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingrule\/init(id:conversationchannel:)"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingRule/initWithId:objcConversationChannel:": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "initWithId:objcConversationChannel:"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule\/initWithId:objcConversationChannel:",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "initWithId:objcConversationChannel:"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "initWithId:objcConversationChannel:",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingrule\/initwithid:objcconversationchannel:"
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingrule\/init(id:)"
 },
 "doc://com.iadvize.conversation.sdk/objc(cs)NSObject": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/objc(cs)NSObject",
@@ -669,16 +552,7 @@
       {
         "op" : "replace",
         "path" : "\/topicSections",
-        "value" : [
-          {
-            "anchor" : "Instance-Methods",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule\/initWithId:objcConversationChannel:"
-            ],
-            "title" : "Instance Methods"
-          }
-        ]
+        "value" : null
       },
       {
         "op" : "replace",
@@ -702,9 +576,7 @@
             "anchor" : "Targeting",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController"
             ],
             "title" : "Targeting"
           }
@@ -772,56 +644,6 @@
           {
             "kind" : "identifier",
             "text" : "TargetingController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/title",
-        "value" : "TargetingControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
-        "value" : "TargetingError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
           }
         ]
       },

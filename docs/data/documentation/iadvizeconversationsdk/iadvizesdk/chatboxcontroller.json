@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "c:@M@IAdvizeConversationSDK@objc(cs)IAdvizeSDK(py)chatboxController",
+    "externalID" : "s:22IAdvizeConversationSDK0aC0C17chatboxControllerAA07ChatboxE0Cvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -48,12 +48,6 @@
         "name" : "IAdvizeConversationSDK"
       }
     ],
-    "navigatorTitle" : [
-      {
-        "kind" : "identifier",
-        "text" : "chatboxController"
-      }
-    ],
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
@@ -70,14 +64,6 @@
             "iOS"
           ],
           "tokens" : [
-            {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
             {
               "kind" : "keyword",
               "text" : "lazy"
@@ -150,16 +136,6 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
-        }
-      ]
-    },
-    {
-      "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/chatboxcontroller"
-      ],
-      "traits" : [
-        {
-          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -293,12 +269,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/chatboxController",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "chatboxController"
-    }
-  ],
   "role" : "symbol",
   "title" : "chatboxController",
   "type" : "topic",
@@ -308,125 +278,6 @@
 "variantOverrides":[
   {
     "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/identifier\/interfaceLanguage",
-        "value" : "occ"
-      },
-      {
-        "op" : "add",
-        "path" : "\/metadata\/platforms",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/roleHeading",
-        "value" : "Instance Property"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/title",
-        "value" : "chatboxController"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/symbolKind",
-        "value" : "property"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "chatboxController"
-          }
-        ]
-      },
-      {
-        "op" : "add",
-        "path" : "\/topicSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/relationshipsSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/seeAlsoSections",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/0",
-        "value" : {
-          "declarations" : [
-            {
-              "languages" : [
-                "occ"
-              ],
-              "platforms" : [
-                "iOS"
-              ],
-              "tokens" : [
-                {
-                  "kind" : "keyword",
-                  "text" : "@property"
-                },
-                {
-                  "kind" : "text",
-                  "text" : " ("
-                },
-                {
-                  "kind" : "keyword",
-                  "text" : "nonatomic"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ", "
-                },
-                {
-                  "kind" : "keyword",
-                  "text" : "strong"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ", "
-                },
-                {
-                  "kind" : "keyword",
-                  "text" : "readonly"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ") "
-                },
-                {
-                  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController",
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)ChatboxController",
-                  "text" : "ChatboxController"
-                },
-                {
-                  "kind" : "text",
-                  "text" : " * "
-                },
-                {
-                  "kind" : "identifier",
-                  "text" : "chatboxController"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ";"
-                }
-              ]
-            }
-          ],
-          "kind" : "declarations"
-        }
-      },
       {
         "op" : "replace",
         "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController\/title",
@@ -474,21 +325,6 @@
           {
             "kind" : "identifier",
             "text" : "IAdvizeSDK"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1chatboxController\/title",
-        "value" : "chatboxController"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1chatboxController\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "chatboxController"
           }
         ]
       }

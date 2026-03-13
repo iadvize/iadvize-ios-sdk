@@ -51,7 +51,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func actionSwapChatButton(_ sender: Any) {
-        guard let chatButtonType = ChatButtonType(rawValue: chatButtonSegmentedControl.selectedSegmentIndex) else { return }
+        guard let chatButtonType = ChatButtonType(rawValue: chatButtonSegmentedControl.selectedSegmentIndex)
+        else { return }
         self.chatButtonType = chatButtonType
     }
 

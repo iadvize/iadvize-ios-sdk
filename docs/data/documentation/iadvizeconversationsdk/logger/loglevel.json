@@ -121,7 +121,6 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/error",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/info",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/none",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/success",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/verbose",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/warning"
       ],
@@ -698,32 +697,6 @@
   "title" : "Logger.LogLevel.none",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/none"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger/LogLevel/success": {
-  "abstract" : [
-
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "case"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "success"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Logger\/LogLevel\/success",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "Logger.LogLevel.success",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/success"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Logger/LogLevel/verbose": {
   "abstract" : [

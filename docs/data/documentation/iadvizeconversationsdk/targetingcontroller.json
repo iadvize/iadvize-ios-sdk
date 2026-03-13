@@ -61,14 +61,6 @@
           ],
           "tokens" : [
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "final"
             },
@@ -133,10 +125,8 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language"
       ],
       "title" : "Targeting"
     }
@@ -157,8 +147,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/activateTargetingRule(targetingRule:)",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/deactivateTargetingRule()",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/registerUserNavigation(navigationOption:)"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/deactivateTargetingRule()"
       ],
       "title" : "Instance Methods"
     }
@@ -224,37 +213,6 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationChannel-swift.enum": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "ConversationChannel",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum"
-},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language": {
   "abstract" : [
     {
@@ -289,39 +247,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/language"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NavigationOption-swift.enum": {
-  "abstract" : [
-
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "NavigationOption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption": {
   "abstract" : [
     {
       "text" : "Option to specify the language to use for the targeting.",
@@ -342,7 +268,7 @@
       "text" : "SDKLanguageOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -353,7 +279,7 @@
   "role" : "symbol",
   "title" : "SDKLanguageOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController": {
   "abstract" : [
@@ -433,12 +359,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/activateTargetingRule(targetingRule:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "activateTargetingRuleWithTargetingRule:"
-    }
-  ],
   "role" : "symbol",
   "title" : "activateTargetingRule(targetingRule:)",
   "type" : "topic",
@@ -471,12 +391,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/deactivateTargetingRule()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "deactivateTargetingRule"
-    }
-  ],
   "role" : "symbol",
   "title" : "deactivateTargetingRule()",
   "type" : "topic",
@@ -508,7 +422,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(pl)TargetingControllerDelegate",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK27TargetingControllerDelegateP",
       "text" : "TargetingControllerDelegate"
     },
     {
@@ -518,43 +432,10 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/delegate",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "delegate"
-    }
-  ],
   "role" : "symbol",
   "title" : "delegate",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/delegate"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/getLanguage": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "getLanguage"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/getLanguage",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "getLanguage"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "getLanguage",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/getlanguage"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/init": {
   "abstract" : [
@@ -623,12 +504,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/isActiveTargetingRuleAvailable",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "isActiveTargetingRuleAvailable"
-    }
-  ],
   "role" : "symbol",
   "title" : "isActiveTargetingRuleAvailable",
   "type" : "topic",
@@ -670,161 +545,6 @@
   "title" : "language",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/language"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/registerUserNavigation(navigationOption:)": {
-  "abstract" : [
-    {
-      "text" : "Register the visitor navigation through the app.",
-      "type" : "text"
-    }
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "registerUserNavigation"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "navigationOption"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:22IAdvizeConversationSDK16NavigationOptionO",
-      "text" : "NavigationOption"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/registerUserNavigation(navigationOption:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "registerUserNavigation(navigationOption:)",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/registerusernavigation(navigationoption:)"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/registerUserNavigationWithNavigationOption:": {
-  "abstract" : [
-    {
-      "text" : "important:",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This method is deprecated. You do not need to register the visitor navigation anymore.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "Simply activate the targeting rule you want to use, using ",
-      "type" : "text"
-    },
-    {
-      "text" : "activateTargetingRule(targetingRule:)",
-      "type" : "text"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "The iAdvize SDK takes care of keeping the targeting rule availability up to date.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "To stop the targeting, call ",
-      "type" : "text"
-    },
-    {
-      "text" : "deactivateTargetingRule()",
-      "type" : "text"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "registerUserNavigationWithNavigationOption:"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/registerUserNavigationWithNavigationOption:",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "registerUserNavigationWithNavigationOption:"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "registerUserNavigationWithNavigationOption:",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/registerusernavigationwithnavigationoption:"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/setLanguage:": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "setLanguage:"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/setLanguage:",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "setLanguage:"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "setLanguage:",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/setlanguage:"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingControllerDelegate": {
   "abstract" : [
@@ -1020,24 +740,10 @@
         "path" : "\/topicSections",
         "value" : [
           {
-            "anchor" : "Instance-Properties",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/delegate",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/isActiveTargetingRuleAvailable"
-            ],
-            "title" : "Instance Properties"
-          },
-          {
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/activateTargetingRule(targetingRule:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/deactivateTargetingRule()",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/getLanguage",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/init",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/registerUserNavigationWithNavigationOption:",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/setLanguage:"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/init"
             ],
             "title" : "Instance Methods"
           }
@@ -1065,9 +771,7 @@
             "anchor" : "Targeting",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule"
             ],
             "title" : "Targeting"
           }
@@ -1135,124 +839,6 @@
           {
             "kind" : "identifier",
             "text" : "TargetingController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1activateTargetingRule(targetingRule:)\/title",
-        "value" : "activateTargetingRuleWithTargetingRule:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1activateTargetingRule(targetingRule:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "activateTargetingRuleWithTargetingRule:"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1deactivateTargetingRule()\/title",
-        "value" : "deactivateTargetingRule"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1deactivateTargetingRule()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "deactivateTargetingRule"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1delegate\/title",
-        "value" : "delegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1delegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "delegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1isActiveTargetingRuleAvailable\/title",
-        "value" : "isActiveTargetingRuleAvailable"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1isActiveTargetingRuleAvailable\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "isActiveTargetingRuleAvailable"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/title",
-        "value" : "TargetingControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
-        "value" : "TargetingError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
           }
         ]
       },

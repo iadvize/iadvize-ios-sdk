@@ -54,7 +54,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "Embed the iAdvize iOS SDK into your app and connect your visitors with your professional agents or ibbü experts through a ",
+              "text" : "Embed the iAdvize iOS SDK into your app and connect your visitors with our AI Shopping Assistant or your professional agents through a ",
               "type" : "text"
             },
             {
@@ -98,9 +98,9 @@
       "anchor" : "Activation",
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ActivationStatus",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption-swift.enum",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPRDelegate",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWE",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider"
@@ -123,10 +123,8 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Language"
       ],
       "title" : "Targeting"
     },
@@ -135,8 +133,7 @@
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxControllerDelegate",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IncomingMessageAvatar-swift.enum"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration"
       ],
       "title" : "Chatbox and Chat button"
     },
@@ -282,24 +279,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/applicationmode"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AuthenticationOption-c.class": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "AuthenticationOption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption-c.class",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "AuthenticationOption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-c.class"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AuthenticationOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AuthenticationOption": {
   "abstract" : [
     {
       "text" : "The option to authenticate the visitor.",
@@ -320,7 +300,7 @@
       "text" : "AuthenticationOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -331,26 +311,9 @@
   "role" : "symbol",
   "title" : "AuthenticationOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/authenticationoption"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-c.class": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "ChatboxConfiguration"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "ChatboxConfiguration",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-c.class"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-swift.struct": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration": {
   "abstract" : [
     {
       "text" : "Encapsulate all the configuration options that can be applied to the chatbox.",
@@ -371,7 +334,7 @@
       "text" : "ChatboxConfiguration"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -382,7 +345,7 @@
   "role" : "symbol",
   "title" : "ChatboxConfiguration",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct"
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController": {
   "abstract" : [
@@ -448,54 +411,6 @@
   "title" : "ChatboxControllerDelegate",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontrollerdelegate"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationChannel-c.class": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-c.class",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "ConversationChannel",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-c.class"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationChannel-swift.enum": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "ConversationChannel",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationController": {
   "abstract" : [
@@ -672,24 +587,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/gdprdelegate"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPREnabledOption-c.class": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "GDPREnabledOption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption-c.class",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "GDPREnabledOption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-c.class"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPREnabledOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPREnabledOption": {
   "abstract" : [
     {
       "text" : "The option to configure the behavior when the visitor touches the “More information” button in the GDPR message.",
@@ -710,7 +608,7 @@
       "text" : "GDPREnabledOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -721,26 +619,9 @@
   "role" : "symbol",
   "title" : "GDPREnabledOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPROption-c.class": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "GDPROption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption-c.class",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "GDPROption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/gdproption-c.class"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPROption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPROption": {
   "abstract" : [
     {
       "text" : "The option to configure the GDPR message at the beginning of the conversation.",
@@ -761,7 +642,7 @@
       "text" : "GDPROption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -772,64 +653,7 @@
   "role" : "symbol",
   "title" : "GDPROption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/gdproption-swift.enum"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLApplicationMode": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "GraphQLApplicationMode"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLApplicationMode",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "GraphQLApplicationMode",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlapplicationmode"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLCurrency": {
-  "abstract" : [
-    {
-      "text" : "ISO4217 currency code.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "GraphQLCurrency"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "GraphQLCurrency",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/graphqlcurrency"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GraphQLLanguage": {
-  "abstract" : [
-    {
-      "text" : "ISO639-1 language.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "GraphQLLanguage"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "GraphQLLanguage",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/graphqllanguage"
+  "url" : "\/documentation\/iadvizeconversationsdk\/gdproption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeConversationSDKVersionNumber": {
   "abstract" : [
@@ -904,57 +728,6 @@
   "title" : "IAdvizeSDK",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IncomingMessageAvatar-c.class": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "IncomingMessageAvatar"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IncomingMessageAvatar-c.class",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "IncomingMessageAvatar",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-c.class"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IncomingMessageAvatar-swift.enum": {
-  "abstract" : [
-    {
-      "text" : "The image used for the incoming message avatar.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "IncomingMessageAvatar"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IncomingMessageAvatar-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "IncomingMessageAvatar"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "IncomingMessageAvatar",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-swift.enum"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/JWE": {
   "abstract" : [
@@ -1086,72 +859,6 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/logger"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/LoggerLogLevel": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "LoggerLogLevel"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "LoggerLogLevel",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/loggerloglevel"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NavigationOption-c.class": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-c.class",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "NavigationOption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/navigationoption-c.class"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NavigationOption-swift.enum": {
-  "abstract" : [
-
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "NavigationOption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum"
-},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController": {
   "abstract" : [
     {
@@ -1217,24 +924,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/ongoingconversation"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption-c.class": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "SDKLanguageOption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-c.class",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "SDKLanguageOption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-c.class"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption": {
   "abstract" : [
     {
       "text" : "Option to specify the language to use for the targeting.",
@@ -1255,7 +945,7 @@
       "text" : "SDKLanguageOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -1266,7 +956,7 @@
   "role" : "symbol",
   "title" : "SDKLanguageOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController": {
   "abstract" : [
@@ -1385,23 +1075,6 @@
   "title" : "TargetingError",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingErrorDomain": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "TargetingErrorDomain"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingErrorDomain",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "TargetingErrorDomain",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingerrordomain"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingRule": {
   "abstract" : [
@@ -1532,23 +1205,6 @@
   "title" : "VisitorController",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/VisitorCustomData": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "VisitorCustomData"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorCustomData",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "VisitorCustomData",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/visitorcustomdata"
 }
 }, 
 "variantOverrides":[
@@ -1573,7 +1229,6 @@
           {
             "anchor" : "Activation",
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPRDelegate",
               "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWE"
             ],
             "title" : "Activation"
@@ -1582,7 +1237,6 @@
             "anchor" : "Conversation",
             "identifiers" : [
               "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate",
               "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/OngoingConversation"
             ],
             "title" : "Conversation"
@@ -1591,17 +1245,14 @@
             "anchor" : "Targeting",
             "identifiers" : [
               "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule"
             ],
             "title" : "Targeting"
           },
           {
             "anchor" : "Chatbox-and-Chat-button",
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxControllerDelegate"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController"
             ],
             "title" : "Chatbox and Chat button"
           },
@@ -1628,41 +1279,13 @@
             "title" : "Visitor"
           },
           {
-            "anchor" : "Classes",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption-c.class",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-c.class",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-c.class",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption-c.class",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption-c.class",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IncomingMessageAvatar-c.class",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-c.class",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-c.class",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorCustomData"
-            ],
-            "title" : "Classes"
-          },
-          {
             "anchor" : "Variables",
             "generated" : true,
             "identifiers" : [
               "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeConversationSDKVersionNumber",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeConversationSDKVersionString",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingErrorDomain"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeConversationSDKVersionString"
             ],
             "title" : "Variables"
-          },
-          {
-            "anchor" : "Enumerations",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLApplicationMode",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLCurrency",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GraphQLLanguage",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/LoggerLogLevel"
-            ],
-            "title" : "Enumerations"
           }
         ]
       },
@@ -1703,31 +1326,6 @@
       },
       {
         "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/title",
-        "value" : "ChatboxControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ChatboxControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ChatboxControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
         "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController\/title",
         "value" : "ConversationController"
       },
@@ -1748,56 +1346,6 @@
           {
             "kind" : "identifier",
             "text" : "ConversationController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/title",
-        "value" : "ConversationControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ConversationControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ConversationControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1GDPRDelegate\/title",
-        "value" : "GDPRDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1GDPRDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "GDPRDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1GDPRDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "GDPRDelegate"
           }
         ]
       },
@@ -1923,56 +1471,6 @@
           {
             "kind" : "identifier",
             "text" : "TargetingController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/title",
-        "value" : "TargetingControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
-        "value" : "TargetingError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
           }
         ]
       },

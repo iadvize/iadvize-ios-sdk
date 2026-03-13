@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "c:@M@IAdvizeConversationSDK@objc(cs)NotificationController(im)clearIAdvizePushNotifications",
+    "externalID" : "s:22IAdvizeConversationSDK22NotificationControllerC05clearA17PushNotificationsyyF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -43,12 +43,6 @@
         "name" : "IAdvizeConversationSDK"
       }
     ],
-    "navigatorTitle" : [
-      {
-        "kind" : "identifier",
-        "text" : "clearIAdvizePushNotifications"
-      }
-    ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -65,14 +59,6 @@
             "iOS"
           ],
           "tokens" : [
-            {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
             {
               "kind" : "keyword",
               "text" : "func"
@@ -111,16 +97,6 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
-        }
-      ]
-    },
-    {
-      "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/cleariadvizepushnotifications()"
-      ],
-      "traits" : [
-        {
-          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -215,12 +191,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/clearIAdvizePushNotifications()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "clearIAdvizePushNotifications"
-    }
-  ],
   "role" : "symbol",
   "title" : "clearIAdvizePushNotifications()",
   "type" : "topic",
@@ -230,100 +200,6 @@
 "variantOverrides":[
   {
     "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/identifier\/interfaceLanguage",
-        "value" : "occ"
-      },
-      {
-        "op" : "add",
-        "path" : "\/metadata\/platforms",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/roleHeading",
-        "value" : "Instance Method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/title",
-        "value" : "clearIAdvizePushNotifications"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/symbolKind",
-        "value" : "method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "clearIAdvizePushNotifications"
-          }
-        ]
-      },
-      {
-        "op" : "add",
-        "path" : "\/topicSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/relationshipsSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/seeAlsoSections",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/0",
-        "value" : {
-          "declarations" : [
-            {
-              "languages" : [
-                "occ"
-              ],
-              "platforms" : [
-                "iOS"
-              ],
-              "tokens" : [
-                {
-                  "kind" : "text",
-                  "text" : "- ("
-                },
-                {
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:v",
-                  "text" : "void"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ") "
-                },
-                {
-                  "kind" : "identifier",
-                  "text" : "clearIAdvizePushNotifications"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ";"
-                }
-              ]
-            }
-          ],
-          "kind" : "declarations"
-        }
-      },
       {
         "op" : "replace",
         "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController\/title",
@@ -346,25 +222,6 @@
           {
             "kind" : "identifier",
             "text" : "NotificationController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1clearIAdvizePushNotifications()\/title",
-        "value" : "clearIAdvizePushNotifications"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1clearIAdvizePushNotifications()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "clearIAdvizePushNotifications"
           }
         ]
       }

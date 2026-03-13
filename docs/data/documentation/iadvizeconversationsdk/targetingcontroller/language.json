@@ -81,7 +81,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
+              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:22IAdvizeConversationSDK17SDKLanguageOptionO",
               "text" : "SDKLanguageOption"
@@ -169,7 +169,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption": {
   "abstract" : [
     {
       "text" : "Option to specify the language to use for the targeting.",
@@ -190,7 +190,7 @@
       "text" : "SDKLanguageOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -201,7 +201,7 @@
   "role" : "symbol",
   "title" : "SDKLanguageOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController": {
   "abstract" : [

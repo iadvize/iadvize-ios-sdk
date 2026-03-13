@@ -12,7 +12,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "c:@M@IAdvizeConversationSDK@objc(pl)ChatboxControllerDelegate",
+    "externalID" : "s:22IAdvizeConversationSDK25ChatboxControllerDelegateP",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -68,14 +68,6 @@
               "text" : " "
             },
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "protocol"
             },
@@ -86,6 +78,10 @@
             {
               "kind" : "identifier",
               "text" : "ChatboxControllerDelegate"
+            },
+            {
+              "kind" : "text",
+              "text" : " : AnyObject"
             }
           ]
         }
@@ -107,8 +103,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IncomingMessageAvatar-swift.enum"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration"
       ],
       "title" : "Chatbox and Chat button"
     }
@@ -132,16 +127,6 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
-        }
-      ]
-    },
-    {
-      "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/chatboxcontrollerdelegate"
-      ],
-      "traits" : [
-        {
-          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -175,7 +160,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-swift.struct": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration": {
   "abstract" : [
     {
       "text" : "Encapsulate all the configuration options that can be applied to the chatbox.",
@@ -196,7 +181,7 @@
       "text" : "ChatboxConfiguration"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -207,7 +192,7 @@
   "role" : "symbol",
   "title" : "ChatboxConfiguration",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct"
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController": {
   "abstract" : [
@@ -301,12 +286,7 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxControllerDelegate\/chatboxDidClose()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "chatboxDidClose"
-    }
-  ],
+  "required" : true,
   "role" : "symbol",
   "title" : "chatboxDidClose()",
   "type" : "topic",
@@ -339,165 +319,16 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxControllerDelegate\/chatboxDidOpen()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "chatboxDidOpen"
-    }
-  ],
+  "required" : true,
   "role" : "symbol",
   "title" : "chatboxDidOpen()",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontrollerdelegate\/chatboxdidopen()"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IncomingMessageAvatar-swift.enum": {
-  "abstract" : [
-    {
-      "text" : "The image used for the incoming message avatar.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "IncomingMessageAvatar"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IncomingMessageAvatar-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "IncomingMessageAvatar"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "IncomingMessageAvatar",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-swift.enum"
 }
 }, 
 "variantOverrides":[
   {
     "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/identifier\/interfaceLanguage",
-        "value" : "occ"
-      },
-      {
-        "op" : "add",
-        "path" : "\/metadata\/platforms",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/roleHeading",
-        "value" : "Protocol"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/title",
-        "value" : "ChatboxControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/symbolKind",
-        "value" : "protocol"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ChatboxControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ChatboxControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/topicSections",
-        "value" : [
-          {
-            "anchor" : "Instance-Methods",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxControllerDelegate\/chatboxDidClose()",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxControllerDelegate\/chatboxDidOpen()"
-            ],
-            "title" : "Instance Methods"
-          }
-        ]
-      },
-      {
-        "op" : "add",
-        "path" : "\/relationshipsSections",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/seeAlsoSections",
-        "value" : [
-          {
-            "anchor" : "Chatbox-and-Chat-button",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController"
-            ],
-            "title" : "Chatbox and Chat button"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/0",
-        "value" : {
-          "declarations" : [
-            {
-              "languages" : [
-                "occ"
-              ],
-              "platforms" : [
-                "iOS"
-              ],
-              "tokens" : [
-                {
-                  "kind" : "keyword",
-                  "text" : "@protocol"
-                },
-                {
-                  "kind" : "text",
-                  "text" : " "
-                },
-                {
-                  "kind" : "identifier",
-                  "text" : "ChatboxControllerDelegate"
-                }
-              ]
-            }
-          ],
-          "kind" : "declarations"
-        }
-      },
       {
         "op" : "replace",
         "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController\/title",
@@ -520,69 +351,6 @@
           {
             "kind" : "identifier",
             "text" : "ChatboxController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/title",
-        "value" : "ChatboxControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ChatboxControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ChatboxControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate~1chatboxDidClose()\/title",
-        "value" : "chatboxDidClose"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate~1chatboxDidClose()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "chatboxDidClose"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate~1chatboxDidOpen()\/title",
-        "value" : "chatboxDidOpen"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate~1chatboxDidOpen()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "chatboxDidOpen"
           }
         ]
       }

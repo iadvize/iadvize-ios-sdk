@@ -101,7 +101,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct",
+              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:22IAdvizeConversationSDK20ChatboxConfigurationV",
               "text" : "ChatboxConfiguration"
@@ -204,7 +204,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-swift.struct": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration": {
   "abstract" : [
     {
       "text" : "Encapsulate all the configuration options that can be applied to the chatbox.",
@@ -225,7 +225,7 @@
       "text" : "ChatboxConfiguration"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -236,7 +236,7 @@
   "role" : "symbol",
   "title" : "ChatboxConfiguration",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct"
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController": {
   "abstract" : [

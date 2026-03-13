@@ -27,7 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "c:@M@IAdvizeConversationSDK@E@TargetingError@TargetingErrorOtherError",
+    "externalID" : "s:22IAdvizeConversationSDK14TargetingErrorO05otherE0yA2CmF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -45,12 +45,6 @@
     "modules" : [
       {
         "name" : "IAdvizeConversationSDK"
-      }
-    ],
-    "navigatorTitle" : [
-      {
-        "kind" : "identifier",
-        "text" : "TargetingErrorOtherError"
       }
     ],
     "role" : "symbol",
@@ -103,16 +97,6 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
-        }
-      ]
-    },
-    {
-      "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/targetingerror\/othererror"
-      ],
-      "traits" : [
-        {
-          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -227,140 +211,10 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError\/otherError",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "TargetingErrorOtherError"
-    }
-  ],
   "role" : "symbol",
   "title" : "TargetingError.otherError",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/othererror"
 }
-}, 
-"variantOverrides":[
-  {
-    "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/identifier\/interfaceLanguage",
-        "value" : "occ"
-      },
-      {
-        "op" : "add",
-        "path" : "\/metadata\/platforms",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/roleHeading",
-        "value" : "Enumeration Case"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/title",
-        "value" : "TargetingErrorOtherError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/symbolKind",
-        "value" : "case"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingErrorOtherError"
-          }
-        ]
-      },
-      {
-        "op" : "add",
-        "path" : "\/topicSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/relationshipsSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/seeAlsoSections",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/0",
-        "value" : {
-          "declarations" : [
-            {
-              "languages" : [
-                "occ"
-              ],
-              "platforms" : [
-                "iOS"
-              ],
-              "tokens" : [
-                {
-                  "kind" : "identifier",
-                  "text" : "TargetingErrorOtherError"
-                }
-              ]
-            }
-          ],
-          "kind" : "declarations"
-        }
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
-        "value" : "TargetingError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError~1otherError\/title",
-        "value" : "TargetingErrorOtherError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError~1otherError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingErrorOtherError"
-          }
-        ]
-      }
-    ],
-    "traits" : [
-      {
-        "interfaceLanguage" : "occ"
-      }
-    ]
-  }
-]
+}
 }

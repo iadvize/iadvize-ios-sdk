@@ -193,41 +193,5 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/!=(_:_:)"
 }
-}, 
-"variantOverrides":[
-  {
-    "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
-        "value" : "TargetingError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      }
-    ],
-    "traits" : [
-      {
-        "interfaceLanguage" : "occ"
-      }
-    ]
-  }
-]
+}
 }

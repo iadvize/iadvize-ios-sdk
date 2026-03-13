@@ -203,7 +203,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption-swift.enum",
+              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:22IAdvizeConversationSDK20AuthenticationOptionO",
               "text" : "AuthenticationOption"
@@ -221,7 +221,7 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption-swift.enum",
+              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption",
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:22IAdvizeConversationSDK10GDPROptionO",
               "text" : "GDPROption"
@@ -465,7 +465,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AuthenticationOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AuthenticationOption": {
   "abstract" : [
     {
       "text" : "The option to authenticate the visitor.",
@@ -486,7 +486,7 @@
       "text" : "AuthenticationOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -497,9 +497,9 @@
   "role" : "symbol",
   "title" : "AuthenticationOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/authenticationoption"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPROption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPROption": {
   "abstract" : [
     {
       "text" : "The option to configure the GDPR message at the beginning of the conversation.",
@@ -520,7 +520,7 @@
       "text" : "GDPROption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -531,7 +531,7 @@
   "role" : "symbol",
   "title" : "GDPROption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/gdproption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/gdproption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK": {
   "abstract" : [

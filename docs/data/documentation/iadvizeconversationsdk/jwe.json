@@ -119,9 +119,9 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ActivationStatus",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption-swift.enum",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPRDelegate",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider"
       ],
@@ -230,7 +230,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/activationstatus"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AuthenticationOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AuthenticationOption": {
   "abstract" : [
     {
       "text" : "The option to authenticate the visitor.",
@@ -251,7 +251,7 @@
       "text" : "AuthenticationOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AuthenticationOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -262,7 +262,7 @@
   "role" : "symbol",
   "title" : "AuthenticationOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/authenticationoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/authenticationoption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPRDelegate": {
   "abstract" : [
@@ -298,7 +298,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/gdprdelegate"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPREnabledOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPREnabledOption": {
   "abstract" : [
     {
       "text" : "The option to configure the behavior when the visitor touches the “More information” button in the GDPR message.",
@@ -319,7 +319,7 @@
       "text" : "GDPREnabledOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPREnabledOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -330,9 +330,9 @@
   "role" : "symbol",
   "title" : "GDPREnabledOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/gdprenabledoption"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPROption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/GDPROption": {
   "abstract" : [
     {
       "text" : "The option to configure the GDPR message at the beginning of the conversation.",
@@ -353,7 +353,7 @@
       "text" : "GDPROption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPROption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -364,7 +364,7 @@
   "role" : "symbol",
   "title" : "GDPROption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/gdproption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/gdproption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/JWE": {
   "abstract" : [
@@ -572,16 +572,7 @@
       {
         "op" : "replace",
         "path" : "\/seeAlsoSections",
-        "value" : [
-          {
-            "anchor" : "Activation",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/GDPRDelegate"
-            ],
-            "title" : "Activation"
-          }
-        ]
+        "value" : null
       },
       {
         "op" : "replace",
@@ -622,31 +613,6 @@
           ],
           "kind" : "declarations"
         }
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1GDPRDelegate\/title",
-        "value" : "GDPRDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1GDPRDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "GDPRDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1GDPRDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "GDPRDelegate"
-          }
-        ]
       },
       {
         "op" : "replace",

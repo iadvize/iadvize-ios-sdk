@@ -61,14 +61,6 @@
           ],
           "tokens" : [
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "final"
             },
@@ -105,11 +97,12 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/com.iadvize.conversation.sdk\/objc(pl)NSCoding",
         "doc:\/\/com.iadvize.conversation.sdk\/objc(pl)NSObject",
         "doc:\/\/com.iadvize.conversation.sdk\/s7CVarArgP",
         "doc:\/\/com.iadvize.conversation.sdk\/s28CustomDebugStringConvertibleP",
         "doc:\/\/com.iadvize.conversation.sdk\/s23CustomStringConvertibleP",
+        "doc:\/\/com.iadvize.conversation.sdk\/Se",
+        "doc:\/\/com.iadvize.conversation.sdk\/SE",
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
         "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
@@ -145,7 +138,8 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/init(coder:)",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/init(externalTransactionId:date:amount:currency:)"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/init(externalTransactionId:date:amount:currency:)",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/init(from:)"
       ],
       "title" : "Initializers"
     },
@@ -194,6 +188,11 @@
   ]
 , 
 "references": {
+"doc://com.iadvize.conversation.sdk/SE": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
 "doc://com.iadvize.conversation.sdk/SH": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SH",
   "title" : "Swift.Hashable",
@@ -202,6 +201,11 @@
 "doc://com.iadvize.conversation.sdk/SQ": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/SQ",
   "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/Se": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/Se",
+  "title" : "Swift.Decodable",
   "type" : "unresolvable"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
@@ -462,12 +466,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/encode(with:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "encodeWithCoder:"
-    }
-  ],
   "role" : "symbol",
   "title" : "encode(with:)",
   "type" : "topic",
@@ -546,12 +544,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/init(coder:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "initWithCoder:"
-    }
-  ],
   "role" : "symbol",
   "title" : "init(coder:)",
   "type" : "topic",
@@ -649,32 +641,47 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/transaction\/init(externaltransactionid:date:amount:currency:)"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Transaction/initWithExternalTransactionId:date:amount:currency:": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Transaction/init(from:)": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
-      "kind" : "text",
-      "text" : "- "
+      "kind" : "identifier",
+      "text" : "init"
     },
     {
-      "kind" : "identifier",
-      "text" : "initWithExternalTransactionId:date:amount:currency:"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/initWithExternalTransactionId:date:amount:currency:",
-  "kind" : "symbol",
-  "navigatorTitle" : [
+      "kind" : "text",
+      "text" : "("
+    },
     {
-      "kind" : "identifier",
-      "text" : "initWithExternalTransactionId:date:amount:currency:"
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
     }
   ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/init(from:)",
+  "kind" : "symbol",
   "role" : "symbol",
-  "title" : "initWithExternalTransactionId:date:amount:currency:",
+  "title" : "init(from:)",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/transaction\/initwithexternaltransactionid:date:amount:currency:"
+  "url" : "\/documentation\/iadvizeconversationsdk\/transaction\/init(from:)"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Transaction/isEqual(_:)": {
   "abstract" : [
@@ -766,11 +773,6 @@
   "title" : "NSObject",
   "type" : "unresolvable"
 },
-"doc://com.iadvize.conversation.sdk/objc(pl)NSCoding": {
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/objc(pl)NSCoding",
-  "title" : "NSCoding",
-  "type" : "unresolvable"
-},
 "doc://com.iadvize.conversation.sdk/objc(pl)NSObject": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/objc(pl)NSObject",
   "title" : "ObjectiveC.NSObjectProtocol",
@@ -858,9 +860,6 @@
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/encode(with:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/init(coder:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/initWithExternalTransactionId:date:amount:currency:",
               "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction\/isEqual(_:)"
             ],
             "title" : "Instance Methods"
@@ -878,14 +877,6 @@
             "kind" : "relationships",
             "title" : "Inherits From",
             "type" : "inheritsFrom"
-          },
-          {
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/objc(pl)NSCoding"
-            ],
-            "kind" : "relationships",
-            "title" : "Conforms To",
-            "type" : "conformsTo"
           }
         ]
       },
@@ -965,44 +956,6 @@
           {
             "kind" : "identifier",
             "text" : "Transaction"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1Transaction~1encode(with:)\/title",
-        "value" : "encodeWithCoder:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1Transaction~1encode(with:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "encodeWithCoder:"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1Transaction~1init(coder:)\/title",
-        "value" : "initWithCoder:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1Transaction~1init(coder:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "initWithCoder:"
           }
         ]
       },

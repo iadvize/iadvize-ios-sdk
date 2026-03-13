@@ -61,14 +61,6 @@
           ],
           "tokens" : [
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "final"
             },
@@ -305,12 +297,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/clearIAdvizePushNotifications()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "clearIAdvizePushNotifications"
-    }
-  ],
   "role" : "symbol",
   "title" : "clearIAdvizePushNotifications()",
   "type" : "topic",
@@ -378,12 +364,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/disablePushNotifications(completion:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "disablePushNotificationsWithCompletion:"
-    }
-  ],
   "role" : "symbol",
   "title" : "disablePushNotifications(completion:)",
   "type" : "topic",
@@ -451,12 +431,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/enablePushNotifications(completion:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "enablePushNotificationsWithCompletion:"
-    }
-  ],
   "role" : "symbol",
   "title" : "enablePushNotifications(completion:)",
   "type" : "topic",
@@ -546,12 +520,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/isIAdvizePushNotification(with:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "isIAdvizePushNotificationWith:"
-    }
-  ],
   "role" : "symbol",
   "title" : "isIAdvizePushNotification(with:)",
   "type" : "topic",
@@ -622,33 +590,6 @@
   "title" : "registerPushToken(_:applicationMode:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/registerpushtoken(_:applicationmode:)"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/registerPushToken:applicationMode:": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "registerPushToken:applicationMode:"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/registerPushToken:applicationMode:",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "registerPushToken:applicationMode:"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "registerPushToken:applicationMode:",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/registerpushtoken:applicationmode:"
 },
 "doc://com.iadvize.conversation.sdk/objc(cs)NSObject": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/objc(cs)NSObject",
@@ -732,12 +673,7 @@
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/clearIAdvizePushNotifications()",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/disablePushNotifications(completion:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/enablePushNotifications(completion:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/init",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/isIAdvizePushNotification(with:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/registerPushToken:applicationMode:"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/init"
             ],
             "title" : "Instance Methods"
           }
@@ -824,82 +760,6 @@
           {
             "kind" : "identifier",
             "text" : "NotificationController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1clearIAdvizePushNotifications()\/title",
-        "value" : "clearIAdvizePushNotifications"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1clearIAdvizePushNotifications()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "clearIAdvizePushNotifications"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1disablePushNotifications(completion:)\/title",
-        "value" : "disablePushNotificationsWithCompletion:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1disablePushNotifications(completion:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "disablePushNotificationsWithCompletion:"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1enablePushNotifications(completion:)\/title",
-        "value" : "enablePushNotificationsWithCompletion:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1enablePushNotifications(completion:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "enablePushNotificationsWithCompletion:"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1isIAdvizePushNotification(with:)\/title",
-        "value" : "isIAdvizePushNotificationWith:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1isIAdvizePushNotification(with:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "isIAdvizePushNotificationWith:"
           }
         ]
       }

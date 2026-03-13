@@ -110,9 +110,7 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingRule",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingError",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption"
       ],
       "title" : "Targeting"
     }
@@ -386,37 +384,6 @@
   "title" : "IAdvizeConversationSDK",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationChannel-swift.enum": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationChannel-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "ConversationChannel"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "ConversationChannel",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/conversationchannel-swift.enum"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/Language": {
   "abstract" : [
@@ -5776,39 +5743,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/language\/zu"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NavigationOption-swift.enum": {
-  "abstract" : [
-
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NavigationOption-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "NavigationOption"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "NavigationOption",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/navigationoption-swift.enum"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption-swift.enum": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/SDKLanguageOption": {
   "abstract" : [
     {
       "text" : "Option to specify the language to use for the targeting.",
@@ -5829,7 +5764,7 @@
       "text" : "SDKLanguageOption"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption-swift.enum",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/SDKLanguageOption",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -5840,7 +5775,7 @@
   "role" : "symbol",
   "title" : "SDKLanguageOption",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption-swift.enum"
+  "url" : "\/documentation\/iadvizeconversationsdk\/sdklanguageoption"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController": {
   "abstract" : [
@@ -6032,56 +5967,6 @@
           {
             "kind" : "identifier",
             "text" : "TargetingController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/title",
-        "value" : "TargetingControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/title",
-        "value" : "TargetingError"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingError\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingError"
           }
         ]
       },

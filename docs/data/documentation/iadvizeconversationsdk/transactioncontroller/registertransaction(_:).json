@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "c:@M@IAdvizeConversationSDK@objc(cs)TransactionController(im)registerTransaction:",
+    "externalID" : "s:22IAdvizeConversationSDK21TransactionControllerC08registerD0yyAA0D0CF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -52,12 +52,6 @@
         "name" : "IAdvizeConversationSDK"
       }
     ],
-    "navigatorTitle" : [
-      {
-        "kind" : "identifier",
-        "text" : "registerTransaction:"
-      }
-    ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
@@ -74,14 +68,6 @@
             "iOS"
           ],
           "tokens" : [
-            {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
             {
               "kind" : "keyword",
               "text" : "func"
@@ -165,16 +151,6 @@
       "traits" : [
         {
           "interfaceLanguage" : "swift"
-        }
-      ]
-    },
-    {
-      "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/transactioncontroller\/registertransaction(_:)"
-      ],
-      "traits" : [
-        {
-          "interfaceLanguage" : "occ"
         }
       ]
     }
@@ -312,12 +288,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TransactionController\/registerTransaction(_:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "registerTransaction:"
-    }
-  ],
   "role" : "symbol",
   "title" : "registerTransaction(_:)",
   "type" : "topic",
@@ -327,141 +297,6 @@
 "variantOverrides":[
   {
     "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/identifier\/interfaceLanguage",
-        "value" : "occ"
-      },
-      {
-        "op" : "add",
-        "path" : "\/metadata\/platforms",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/roleHeading",
-        "value" : "Instance Method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/title",
-        "value" : "registerTransaction:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/symbolKind",
-        "value" : "method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "registerTransaction:"
-          }
-        ]
-      },
-      {
-        "op" : "add",
-        "path" : "\/topicSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/relationshipsSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/seeAlsoSections",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/0",
-        "value" : {
-          "declarations" : [
-            {
-              "languages" : [
-                "occ"
-              ],
-              "platforms" : [
-                "iOS"
-              ],
-              "tokens" : [
-                {
-                  "kind" : "text",
-                  "text" : "- ("
-                },
-                {
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:v",
-                  "text" : "void"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ") "
-                },
-                {
-                  "kind" : "identifier",
-                  "text" : "registerTransaction:"
-                },
-                {
-                  "kind" : "text",
-                  "text" : "("
-                },
-                {
-                  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/Transaction",
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)Transaction",
-                  "text" : "Transaction"
-                },
-                {
-                  "kind" : "text",
-                  "text" : " *) "
-                },
-                {
-                  "kind" : "internalParam",
-                  "text" : "transaction"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ";"
-                }
-              ]
-            }
-          ],
-          "kind" : "declarations"
-        }
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/1",
-        "value" : {
-          "kind" : "parameters",
-          "parameters" : [
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "The transaction to register.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ],
-              "name" : "transaction"
-            }
-          ]
-        }
-      },
       {
         "op" : "replace",
         "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1Transaction\/title",
@@ -509,25 +344,6 @@
           {
             "kind" : "identifier",
             "text" : "TransactionController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TransactionController~1registerTransaction(_:)\/title",
-        "value" : "registerTransaction:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TransactionController~1registerTransaction(_:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "registerTransaction:"
           }
         ]
       }

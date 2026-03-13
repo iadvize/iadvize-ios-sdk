@@ -61,14 +61,6 @@
           ],
           "tokens" : [
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "final"
             },
@@ -571,33 +563,6 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/activate(projectid:authenticationoption:gdproption:completion:)"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/activateWithProjectId:authenticationOption:gdprOption:completion:": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "activateWithProjectId:authenticationOption:gdprOption:completion:"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/activateWithProjectId:authenticationOption:gdprOption:completion:",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "activateWithProjectId:authenticationOption:gdprOption:completion:"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "activateWithProjectId:authenticationOption:gdprOption:completion:",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/activatewithprojectid:authenticationoption:gdproption:completion:"
-},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/activationStatus": {
   "abstract" : [
 
@@ -664,12 +629,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/chatboxController",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "chatboxController"
-    }
-  ],
   "role" : "symbol",
   "title" : "chatboxController",
   "type" : "topic",
@@ -707,12 +666,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/conversationController",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "conversationController"
-    }
-  ],
   "role" : "symbol",
   "title" : "conversationController",
   "type" : "topic",
@@ -758,43 +711,10 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/debugInfo()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "debugInfo"
-    }
-  ],
   "role" : "symbol",
   "title" : "debugInfo()",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/debuginfo()"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/getLogLevel": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "getLogLevel"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/getLogLevel",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "getLogLevel"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "getLogLevel",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/getloglevel"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/init": {
   "abstract" : [
@@ -922,12 +842,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/logout(completion:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "logoutWithCompletion:"
-    }
-  ],
   "role" : "symbol",
   "title" : "logout(completion:)",
   "type" : "topic",
@@ -965,43 +879,10 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/notificationController",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "notificationController"
-    }
-  ],
   "role" : "symbol",
   "title" : "notificationController",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/notificationcontroller"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/setLogLevel:": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "setLogLevel:"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/setLogLevel:",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "setLogLevel:"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "setLogLevel:",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/setloglevel:"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/shared": {
   "abstract" : [
@@ -1051,12 +932,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/shared",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "shared"
-    }
-  ],
   "role" : "symbol",
   "title" : "shared",
   "type" : "topic",
@@ -1094,12 +969,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/targetingController",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "targetingController"
-    }
-  ],
   "role" : "symbol",
   "title" : "targetingController",
   "type" : "topic",
@@ -1137,12 +1006,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/transactionController",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "transactionController"
-    }
-  ],
   "role" : "symbol",
   "title" : "transactionController",
   "type" : "topic",
@@ -1177,12 +1040,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/visitorController",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "visitorController"
-    }
-  ],
   "role" : "symbol",
   "title" : "visitorController",
   "type" : "topic",
@@ -1301,38 +1158,12 @@
         "path" : "\/topicSections",
         "value" : [
           {
-            "anchor" : "Instance-Properties",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/chatboxController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/conversationController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/notificationController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/targetingController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/transactionController",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/visitorController"
-            ],
-            "title" : "Instance Properties"
-          },
-          {
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/activateWithProjectId:authenticationOption:gdprOption:completion:",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/debugInfo()",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/getLogLevel",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/init",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/logout(completion:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/setLogLevel:"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/init"
             ],
             "title" : "Instance Methods"
-          },
-          {
-            "anchor" : "Type-Properties",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/shared"
-            ],
-            "title" : "Type Properties"
           }
         ]
       },
@@ -1417,149 +1248,6 @@
           {
             "kind" : "identifier",
             "text" : "IAdvizeSDK"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1chatboxController\/title",
-        "value" : "chatboxController"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1chatboxController\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "chatboxController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1conversationController\/title",
-        "value" : "conversationController"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1conversationController\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "conversationController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1debugInfo()\/title",
-        "value" : "debugInfo"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1debugInfo()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "debugInfo"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1logout(completion:)\/title",
-        "value" : "logoutWithCompletion:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1logout(completion:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "logoutWithCompletion:"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1notificationController\/title",
-        "value" : "notificationController"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1notificationController\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "notificationController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1shared\/title",
-        "value" : "shared"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1shared\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "shared"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1targetingController\/title",
-        "value" : "targetingController"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1targetingController\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "targetingController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1transactionController\/title",
-        "value" : "transactionController"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1transactionController\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "transactionController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1visitorController\/title",
-        "value" : "visitorController"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1IAdvizeSDK~1visitorController\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "visitorController"
           }
         ]
       }

@@ -61,14 +61,6 @@
           ],
           "tokens" : [
             {
-              "kind" : "attribute",
-              "text" : "@objc"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
               "kind" : "keyword",
               "text" : "final"
             },
@@ -131,8 +123,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxControllerDelegate",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct",
-        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IncomingMessageAvatar-swift.enum"
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration"
       ],
       "title" : "Chatbox and Chat button"
     }
@@ -221,7 +212,7 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration-swift.struct": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxConfiguration": {
   "abstract" : [
     {
       "text" : "Encapsulate all the configuration options that can be applied to the chatbox.",
@@ -242,7 +233,7 @@
       "text" : "ChatboxConfiguration"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration-swift.struct",
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxConfiguration",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
@@ -253,7 +244,7 @@
   "role" : "symbol",
   "title" : "ChatboxConfiguration",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration-swift.struct"
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxconfiguration"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController": {
   "abstract" : [
@@ -315,7 +306,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(pl)ChatboxControllerDelegate",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK25ChatboxControllerDelegateP",
       "text" : "ChatboxControllerDelegate"
     },
     {
@@ -325,12 +316,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/delegate",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "delegate"
-    }
-  ],
   "role" : "symbol",
   "title" : "delegate",
   "type" : "topic",
@@ -406,12 +391,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/dismissChatbox(animated:completion:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "dismissChatboxWithAnimated:completion:"
-    }
-  ],
   "role" : "symbol",
   "title" : "dismissChatbox(animated:completion:)",
   "type" : "topic",
@@ -484,12 +463,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/isChatboxPresented()",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "isChatboxPresented"
-    }
-  ],
   "role" : "symbol",
   "title" : "isChatboxPresented()",
   "type" : "topic",
@@ -582,12 +555,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/presentChatbox(animated:presentingViewController:completion:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "presentChatboxWithAnimated:presentingViewController:completion:"
-    }
-  ],
   "role" : "symbol",
   "title" : "presentChatbox(animated:presentingViewController:completion:)",
   "type" : "topic",
@@ -678,12 +645,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/setFloatingButtonPosition(leftMargin:bottomMargin:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "setFloatingButtonPositionWithLeftMargin:bottomMargin:"
-    }
-  ],
   "role" : "symbol",
   "title" : "setFloatingButtonPosition(leftMargin:bottomMargin:)",
   "type" : "topic",
@@ -738,33 +699,6 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/setupchatbox(configuration:)"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/setupChatboxWithConfiguration:": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "text",
-      "text" : "- "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "setupChatboxWithConfiguration:"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/setupChatboxWithConfiguration:",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "setupChatboxWithConfiguration:"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "setupChatboxWithConfiguration:",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/setupchatboxwithconfiguration:"
-},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/useDefaultFloatingButton": {
   "abstract" : [
     {
@@ -797,12 +731,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/useDefaultFloatingButton",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "useDefaultFloatingButton"
-    }
-  ],
   "role" : "symbol",
   "title" : "useDefaultFloatingButton",
   "type" : "topic",
@@ -838,40 +766,6 @@
   "title" : "ChatboxControllerDelegate",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontrollerdelegate"
-},
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IncomingMessageAvatar-swift.enum": {
-  "abstract" : [
-    {
-      "text" : "The image used for the incoming message avatar.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "IncomingMessageAvatar"
-    }
-  ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IncomingMessageAvatar-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "IncomingMessageAvatar"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "IncomingMessageAvatar",
-  "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/incomingmessageavatar-swift.enum"
 },
 "doc://com.iadvize.conversation.sdk/objc(cs)NSObject": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/objc(cs)NSObject",
@@ -952,24 +846,10 @@
         "path" : "\/topicSections",
         "value" : [
           {
-            "anchor" : "Instance-Properties",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/delegate",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/useDefaultFloatingButton"
-            ],
-            "title" : "Instance Properties"
-          },
-          {
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/dismissChatbox(animated:completion:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/init",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/isChatboxPresented()",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/presentChatbox(animated:presentingViewController:completion:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/setFloatingButtonPosition(leftMargin:bottomMargin:)",
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/setupChatboxWithConfiguration:"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/init"
             ],
             "title" : "Instance Methods"
           }
@@ -992,16 +872,7 @@
       {
         "op" : "replace",
         "path" : "\/seeAlsoSections",
-        "value" : [
-          {
-            "anchor" : "Chatbox-and-Chat-button",
-            "generated" : true,
-            "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxControllerDelegate"
-            ],
-            "title" : "Chatbox and Chat button"
-          }
-        ]
+        "value" : null
       },
       {
         "op" : "replace",
@@ -1065,137 +936,6 @@
           {
             "kind" : "identifier",
             "text" : "ChatboxController"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1delegate\/title",
-        "value" : "delegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1delegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "delegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1dismissChatbox(animated:completion:)\/title",
-        "value" : "dismissChatboxWithAnimated:completion:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1dismissChatbox(animated:completion:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "dismissChatboxWithAnimated:completion:"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1isChatboxPresented()\/title",
-        "value" : "isChatboxPresented"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1isChatboxPresented()\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "isChatboxPresented"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1presentChatbox(animated:presentingViewController:completion:)\/title",
-        "value" : "presentChatboxWithAnimated:presentingViewController:completion:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1presentChatbox(animated:presentingViewController:completion:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "presentChatboxWithAnimated:presentingViewController:completion:"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1setFloatingButtonPosition(leftMargin:bottomMargin:)\/title",
-        "value" : "setFloatingButtonPositionWithLeftMargin:bottomMargin:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1setFloatingButtonPosition(leftMargin:bottomMargin:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "setFloatingButtonPositionWithLeftMargin:bottomMargin:"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1useDefaultFloatingButton\/title",
-        "value" : "useDefaultFloatingButton"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1useDefaultFloatingButton\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "useDefaultFloatingButton"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/title",
-        "value" : "ChatboxControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ChatboxControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "ChatboxControllerDelegate"
           }
         ]
       }

@@ -19,7 +19,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "c:@M@IAdvizeConversationSDK@objc(pl)TargetingControllerDelegate(im)activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:",
+    "externalID" : "s:22IAdvizeConversationSDK27TargetingControllerDelegateP06activeD25RuleAvailabilityDidUpdate08isActivedH9AvailableySb_tF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -58,12 +58,6 @@
     "modules" : [
       {
         "name" : "IAdvizeConversationSDK"
-      }
-    ],
-    "navigatorTitle" : [
-      {
-        "kind" : "identifier",
-        "text" : "activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:"
       }
     ],
     "required" : true,
@@ -192,16 +186,6 @@
           "interfaceLanguage" : "swift"
         }
       ]
-    },
-    {
-      "paths" : [
-        "\/documentation\/iadvizeconversationsdk\/targetingcontrollerdelegate\/activetargetingruleavailabilitydidupdate(isactivetargetingruleavailable:)"
-      ],
-      "traits" : [
-        {
-          "interfaceLanguage" : "occ"
-        }
-      ]
     }
   ]
 , 
@@ -311,206 +295,11 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingControllerDelegate\/activeTargetingRuleAvailabilityDidUpdate(isActiveTargetingRuleAvailable:)",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:"
-    }
-  ],
   "required" : true,
   "role" : "symbol",
   "title" : "activeTargetingRuleAvailabilityDidUpdate(isActiveTargetingRuleAvailable:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontrollerdelegate\/activetargetingruleavailabilitydidupdate(isactivetargetingruleavailable:)"
 }
-}, 
-"variantOverrides":[
-  {
-    "patch" : [
-      {
-        "op" : "replace",
-        "path" : "\/identifier\/interfaceLanguage",
-        "value" : "occ"
-      },
-      {
-        "op" : "add",
-        "path" : "\/metadata\/platforms",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/roleHeading",
-        "value" : "Instance Method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/title",
-        "value" : "activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/symbolKind",
-        "value" : "method"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/metadata\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:"
-          }
-        ]
-      },
-      {
-        "op" : "add",
-        "path" : "\/topicSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/relationshipsSections",
-        "value" : null
-      },
-      {
-        "op" : "add",
-        "path" : "\/seeAlsoSections",
-        "value" : null
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/0",
-        "value" : {
-          "declarations" : [
-            {
-              "languages" : [
-                "occ"
-              ],
-              "platforms" : [
-                "iOS"
-              ],
-              "tokens" : [
-                {
-                  "kind" : "text",
-                  "text" : "- ("
-                },
-                {
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:v",
-                  "text" : "void"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ") "
-                },
-                {
-                  "kind" : "identifier",
-                  "text" : "activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:"
-                },
-                {
-                  "kind" : "text",
-                  "text" : "("
-                },
-                {
-                  "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:@T@BOOL",
-                  "text" : "BOOL"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ") "
-                },
-                {
-                  "kind" : "internalParam",
-                  "text" : "isActiveTargetingRuleAvailable"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ";"
-                }
-              ]
-            }
-          ],
-          "kind" : "declarations"
-        }
-      },
-      {
-        "op" : "replace",
-        "path" : "\/primaryContentSections\/1",
-        "value" : {
-          "kind" : "parameters",
-          "parameters" : [
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "A boolean indicating if the targeting rule is available.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ],
-              "name" : "isActiveTargetingRuleAvailable"
-            }
-          ]
-        }
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/title",
-        "value" : "TargetingControllerDelegate"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/fragments",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate\/navigatorTitle",
-        "value" : [
-          {
-            "kind" : "identifier",
-            "text" : "TargetingControllerDelegate"
-          }
-        ]
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate~1activeTargetingRuleAvailabilityDidUpdate(isActiveTargetingRuleAvailable:)\/title",
-        "value" : "activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:"
-      },
-      {
-        "op" : "replace",
-        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingControllerDelegate~1activeTargetingRuleAvailabilityDidUpdate(isActiveTargetingRuleAvailable:)\/fragments",
-        "value" : [
-          {
-            "kind" : "text",
-            "text" : "- "
-          },
-          {
-            "kind" : "identifier",
-            "text" : "activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable:"
-          }
-        ]
-      }
-    ],
-    "traits" : [
-      {
-        "interfaceLanguage" : "occ"
-      }
-    ]
-  }
-]
+}
 }
