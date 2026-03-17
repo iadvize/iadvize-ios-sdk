@@ -1,3 +1,12 @@
+# 3.0.0-beta2 (Herbillette)
+
+### Release date 2026/03/16
+
+**Bug fixes**
+
+- Fix crash caused by missing `Localizations` bundle.
+- Fix wrong minimum iOS version in podspec.
+
 # 3.0.0-beta1 (Herbillette)
 
 ### Release date 2026/03/09
