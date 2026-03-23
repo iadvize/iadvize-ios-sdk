@@ -1,16 +1,4 @@
-## 3.0.0-beta3 > 3.0.0-beta4
-
-*Nothing to report*
-
-## 3.0.0-beta2 > 3.0.0-beta3
-
-*Nothing to report*
-
-## 3.0.0-beta1 > 3.0.0-beta2
-
-*Nothing to report*
-
-## 2.18.5 > 3.0.0-beta1
+## 2.18.5 > 3.0.0
 
 ### New `ChatboxConfiguration` APIs
 

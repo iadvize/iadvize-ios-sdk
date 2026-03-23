@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "iAdvize",
     platforms: [
-        .iOS("15.0")
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IAdvizeConversationSDK",
-            url: "https://github.com/iadvize/iadvize-ios-sdk/releases/download/3.0.0-beta4/IAdvizeSDK.zip",
-            checksum: "d3227e6dc8015f706e54ade4ec3915b370329df9a601bf482379470936884b5c"
+            url: "https://github.com/iadvize/iadvize-ios-sdk/releases/download/3.0.0/IAdvizeSDK.zip",
+            checksum: "74e55c4bee1b37900a772bce175bad326caf00e5e1c8128dc694b8095a7804eb"
         )
     ]
 )

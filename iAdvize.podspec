@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                     = 'iAdvize'
-  spec.version                  = '3.0.0-beta4'
+  spec.version                  = '3.0.0'
   spec.license                  = { :type => 'Proprietary', :file => 'LICENSE.md' }
   spec.homepage                 = 'https://github.com/iadvize/iadvize-ios-sdk'
   spec.authors                  = { 'iAdvize' => 'mobile@iadvize.com' }
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.source                   = { :http => "https://github.com/iadvize/iadvize-ios-sdk/releases/download/#{spec.version}/IAdvizeSDK.zip" }
 
   spec.platform                 = :ios, '15.0'
-  spec.swift_version            = '5.0'
+  spec.swift_version            = '5.9'
 
   spec.ios.vendored_frameworks  = 'IAdvizeConversationSDK.xcframework'
 end
