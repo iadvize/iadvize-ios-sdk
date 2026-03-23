@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IAdvizeConversationSDK",
-            url: "https://github.com/iadvize/iadvize-ios-sdk/releases/download/3.0.0-beta2/IAdvizeSDK.zip",
-            checksum: "749e9dc425b4f6d3535810b81bdeb70598ff6ee6fae0eee82f12073d84fc3909"
+            url: "https://github.com/iadvize/iadvize-ios-sdk/releases/download/3.0.0-beta4/IAdvizeSDK.zip",
+            checksum: "d3227e6dc8015f706e54ade4ec3915b370329df9a601bf482379470936884b5c"
         )
     ]
 )

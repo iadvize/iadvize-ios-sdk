@@ -1,13 +1,6 @@
-//
-//  AppDelegate+iAdvize.swift
-//  CocoaPodsIntegration
-//
-//  Created by Alexandre Karst on 19/09/2018.
-//  Copyright © 2018 iAdvize. All rights reserved.
-//
-
 import Foundation
 import IAdvizeConversationSDK
+import UIKit
 
 extension AppDelegate {
     func iAdvizeSetup() {
@@ -16,27 +9,18 @@ extension AppDelegate {
 
         customiseIAdvizeUI()
 
-        // By default, the iAdvize Conversation SDK take the device language
-        IAdvizeSDK.shared.targetingController.language = SDKLanguageOption.custom(value: .en)
-
         iAdvizeActivate()
     }
 
     func customiseIAdvizeUI() {
         var configuration = ChatboxConfiguration()
 
-        let mainColor = UIColor(red: 0.96, green: 0.49, blue: 0.38, alpha: 1.0)
+        configuration.primaryColor = UIColor(red: 0.96, green: 0.49, blue: 0.38, alpha: 1.0)
 
-        configuration.accentColor = mainColor
-        configuration.outgoingMessageBackgroundColor = mainColor
+        configuration.title = NSLocalizedString("Say Hello 👋", comment: "")
 
-        configuration.navigationBarBackgroundColor = mainColor
-        configuration.navigationBarMainColor = .white
-        configuration.navigationBarTitle = NSLocalizedString("Say Hello 👋", comment: "")
+        configuration.avatar = UIImage(named: "AppIcon")
 
-        if let image = UIImage(named: "AppIcon") {
-            configuration.incomingMessageAvatar = IncomingMessageAvatar.image(image: image)
-        }
         configuration.automaticMessage = NSLocalizedString(
             "Any question? Say Hello to Smart and we will answer you as soon as possible! 😊",
             comment: ""

@@ -1,11 +1,3 @@
-//
-//  ViewController+Configuration.swift
-//  SPMIntegration
-//
-//  Created by Alexandre Karst on 19/09/2018.
-//  Copyright © 2018 iAdvize. All rights reserved.
-//
-
 import UIKit
 
 extension ViewController {

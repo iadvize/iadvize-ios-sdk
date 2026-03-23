@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Dependencies",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/iadvize/iadvize-ios-sdk", .upToNextMajor(from: "2.0.0"))
+        .package(url: "https://github.com/iadvize/iadvize-ios-sdk", .upToNextMajor(from: "3.0.0"))
     ],
     targets: [
         .target(

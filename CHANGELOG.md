@@ -1,3 +1,21 @@
+# 3.0.0-beta4 (Herbillette)
+
+### Release date 2026/03/23
+
+**Bug fixes**
+
+- Internal fix for release process.
+
+# 3.0.0-beta3 (Herbillette)
+
+### Release date 2026/03/20
+
+*This version was not published because of a bug in our release process.*
+
+**Bug fixes**
+
+- Update sample projects.
+
 # 3.0.0-beta2 (Herbillette)
 
 ### Release date 2026/03/16

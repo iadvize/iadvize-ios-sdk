@@ -1,3 +1,11 @@
+## 3.0.0-beta3 > 3.0.0-beta4
+
+*Nothing to report*
+
+## 3.0.0-beta2 > 3.0.0-beta3
+
+*Nothing to report*
+
 ## 3.0.0-beta1 > 3.0.0-beta2
 
 *Nothing to report*
@@ -35,7 +43,7 @@ The following APIs were deprecated in previous versions. This version completely
 - `TargetingController.registerUserNavigation(navigationOption:)` is removed.
 - `NavigationOption` is removed. 
 
-Check [2.17.2 > 2.18.0](#2.17.2 > 2.18.0) below for guidance on how to replace these APIs.
+Check [2.17.2 > 2.18.0](#2.17.2->-2.18.0) below for guidance on how to replace these APIs.
 
 ## 2.18.4 > 2.18.5
 

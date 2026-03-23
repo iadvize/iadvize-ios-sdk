@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; configuration.title = "Need help?"; ObjectID = "b7E-2c-DXc"; */
+"b7E-2c-DXc.configuration.title" = "Need help?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "b7E-2c-DXc"; */
+"b7E-2c-DXc.normalTitle" = "Button";
+
+/* Class = "UISegmentedControl"; vFB-Rb-7I7.segmentTitles[0] = "Default Chat Button"; ObjectID = "vFB-Rb-7I7"; */
+"vFB-Rb-7I7.segmentTitles[0]" = "Default Chat Button";
+
+/* Class = "UISegmentedControl"; vFB-Rb-7I7.segmentTitles[1] = "Custom Chat Button"; ObjectID = "vFB-Rb-7I7"; */
+"vFB-Rb-7I7.segmentTitles[1]" = "Custom Chat Button";

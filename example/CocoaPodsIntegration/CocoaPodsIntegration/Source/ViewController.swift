@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  CocoaPodsIntegration
-//
-//  Created by Alexandre Karst on 18/09/2018.
-//  Copyright © 2018 iAdvize. All rights reserved.
-//
-
 import IAdvizeConversationSDK
 import UIKit
 

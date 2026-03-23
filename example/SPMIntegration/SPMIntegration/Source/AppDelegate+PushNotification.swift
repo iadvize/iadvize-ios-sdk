@@ -1,11 +1,3 @@
-//
-//  AppDelegate+PushNotification.swift
-//  SPMIntegration
-//
-//  Created by Alexandre Karst on 19/09/2018.
-//  Copyright © 2018 iAdvize. All rights reserved.
-//
-
 import IAdvizeConversationSDK
 import UIKit
 
