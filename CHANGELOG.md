@@ -1,3 +1,11 @@
+# 3.1.1 (Immanente)
+
+### Release date 2026/06/02
+
+**Bug fixes**
+
+- Fixed a build issue introduced in 3.1.0 (`Unable to resolve module dependency: 'KissXML'`).
+
 # 3.1.0 (Immanente)
 
 ### Release date 2026/06/02
