@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -120,6 +122,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationController(_:shouldOpen:)",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationControllerAddToCartHandler(_:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/didReceiveNewMessage(content:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/ongoingConversationUpdated(ongoingConversation:)"
       ],
@@ -242,6 +245,7 @@
       "type" : "text"
     }
   ],
+  "defaultImplementations" : 1,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -299,6 +303,58 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontroller(_:shouldopen:)"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationControllerDelegate/conversationControllerAddToCartHandler(_:)": {
+  "abstract" : [
+    {
+      "text" : "Called to retrieve the handler used when the visitor taps “Add to cart” on a product.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conversationControllerAddToCartHandler"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)ConversationController",
+      "text" : "ConversationController"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK16AddToCartHandlera",
+      "text" : "AddToCartHandler"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationControllerAddToCartHandler(_:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "conversationControllerAddToCartHandler(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontrolleraddtocarthandler(_:)"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationControllerDelegate/didReceiveNewMessage(content:)": {
   "abstract" : [
     {
@@ -306,6 +362,7 @@
       "type" : "text"
     }
   ],
+  "defaultImplementations" : 1,
   "fragments" : [
     {
       "kind" : "keyword",

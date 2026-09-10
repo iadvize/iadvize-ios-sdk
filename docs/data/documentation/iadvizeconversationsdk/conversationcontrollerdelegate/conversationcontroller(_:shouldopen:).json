@@ -5,6 +5,15 @@
       "type" : "text"
     }
   ],
+  "defaultImplementationsSections" : [
+    {
+      "anchor" : "ConversationControllerDelegate-Implementations",
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationController(_:shouldOpen:)-3ibn7"
+      ],
+      "title" : "ConversationControllerDelegate Implementations"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -88,7 +97,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -423,6 +434,7 @@
       "type" : "text"
     }
   ],
+  "defaultImplementations" : 1,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -479,6 +491,66 @@
   "title" : "conversationController(_:shouldOpen:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontroller(_:shouldopen:)"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationControllerDelegate/conversationController(_:shouldOpen:)-3ibn7": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conversationController"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)ConversationController",
+      "text" : "ConversationController"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "shouldOpen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationController(_:shouldOpen:)-3ibn7",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "conversationController(_:shouldOpen:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontroller(_:shouldopen:)-3ibn7"
 }
 }, 
 "variantOverrides":[

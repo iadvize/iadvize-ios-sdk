@@ -114,7 +114,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -302,13 +304,13 @@
             "               |                                  |",
             "               |                                  |",
             "               |                                  |",
-            "               |         notificationButtonView   |",
-            "      leftMargin = 10   +----+                    |",
+            "               |         notificationButton       |",
+            "      leftMargin = 16   +----+                    |",
             "               <------> |    |                    |",
             "               |        |    |                    |",
             "               |        +--^-+                    |",
             "               |            |                     |",
-            "               |            | bottomMargin = 10   |",
+            "               |            | bottomMargin = 16   |",
             "               +------------v---------------------+"
           ],
           "syntax" : null,

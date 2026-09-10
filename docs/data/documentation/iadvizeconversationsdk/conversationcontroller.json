@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -131,6 +133,14 @@
     }
   ],
   "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/init()"
+      ],
+      "title" : "Initializers"
+    },
     {
       "anchor" : "Instance-Properties",
       "generated" : true,
@@ -284,11 +294,34 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/delegate"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationController/init": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationController/init()": {
   "abstract" : [
-
+    {
+      "text" : "Preserve the parameterless public initializer previously inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
   "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/init()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
     {
       "kind" : "text",
       "text" : "- "
@@ -298,18 +331,10 @@
       "text" : "init"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/init",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    }
-  ],
   "role" : "symbol",
-  "title" : "init",
+  "title" : "init()",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/init"
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/init()"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationController/ongoingConversation()": {
   "abstract" : [
@@ -506,7 +531,7 @@
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/init"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController\/init()"
             ],
             "title" : "Instance Methods"
           }
@@ -550,7 +575,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
@@ -602,6 +629,25 @@
           {
             "kind" : "identifier",
             "text" : "ConversationController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController~1init()\/title",
+        "value" : "init"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController~1init()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "- "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "init"
           }
         ]
       },

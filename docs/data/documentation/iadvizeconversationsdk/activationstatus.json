@@ -51,7 +51,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -78,6 +80,7 @@
         "doc:\/\/com.iadvize.conversation.sdk\/s8CopyableP",
         "doc:\/\/com.iadvize.conversation.sdk\/SE",
         "doc:\/\/com.iadvize.conversation.sdk\/SQ",
+        "doc:\/\/com.iadvize.conversation.sdk\/s9EscapableP",
         "doc:\/\/com.iadvize.conversation.sdk\/SH",
         "doc:\/\/com.iadvize.conversation.sdk\/SY",
         "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
@@ -587,6 +590,11 @@
 "doc://com.iadvize.conversation.sdk/s8SendableP": {
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s8SendableP",
   "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://com.iadvize.conversation.sdk/s9EscapableP": {
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/s9EscapableP",
+  "title" : "Swift.Escapable",
   "type" : "unresolvable"
 }
 }, 

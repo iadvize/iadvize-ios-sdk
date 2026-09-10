@@ -1,0 +1,323 @@
+{
+  "abstract" : [
+    {
+      "text" : "Disable push notifications for the current visitor on this device.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/disablePushNotifications()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:22IAdvizeConversationSDK22NotificationControllerC24disablePushNotificationsyyYaKF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "disablePushNotifications"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "IAdvizeConversationSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "disablePushNotifications()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "disablePushNotifications"
+            },
+            {
+              "kind" : "text",
+              "text" : "() "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The user will not be able to receive push notifications from new incoming messages anymore.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An error if the push notifications could not be disabled.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Throws",
+          "style" : "note",
+          "type" : "aside"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/disablepushnotifications()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
+  "abstract" : [
+    {
+      "text" : "Take your app to the next level and provide a ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "unique conversational experience",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " to your users!",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "IAdvizeConversationSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController": {
+  "abstract" : [
+    {
+      "text" : "An object that allows to configure push notifications.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NotificationController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NotificationController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NotificationController",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/disablePushNotifications()": {
+  "abstract" : [
+    {
+      "text" : "Disable push notifications for the current visitor on this device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "disablePushNotifications"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/disablePushNotifications()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "disablePushNotifications()",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/disablepushnotifications()"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController\/title",
+        "value" : "NotificationController"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "NotificationController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "NotificationController"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

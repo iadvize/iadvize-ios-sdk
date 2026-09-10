@@ -18,7 +18,7 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/init",
-                "title" : "init",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -46,8 +46,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/init",
-                "title" : "init",
+                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/init()",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -71,8 +71,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/init",
-                "title" : "init",
+                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/init()",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -96,8 +96,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/init",
-                "title" : "init",
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/init()",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -116,8 +116,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/init",
-                "title" : "init",
+                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/init()",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -136,8 +136,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller\/init",
-                "title" : "init",
+                "path" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller\/init()",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -153,7 +153,7 @@
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/transaction\/isequal(_:)",
-                "title" : "isEqual:",
+                "title" : "- isEqual:",
                 "type" : "method"
               }
             ],
@@ -172,8 +172,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/init",
-                "title" : "init",
+                "path" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/init()",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -259,6 +259,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/activate(projectid:authenticationoption:gdproption:)",
+                "title" : "func activate(projectId: Int, authenticationOption: AuthenticationOption, gdprOption: GDPROption) async throws",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/activate(projectid:authenticationoption:gdproption:completion:)",
                 "title" : "func activate(projectId: Int, authenticationOption: AuthenticationOption, gdprOption: GDPROption, completion: (@MainActor (_ success: Bool) -> Void)?)",
                 "type" : "method"
@@ -266,6 +271,11 @@
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/debuginfo()",
                 "title" : "func debugInfo() -> String",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/logout()",
+                "title" : "func logout() async",
                 "type" : "method"
               },
               {
@@ -391,13 +401,13 @@
                       },
                       {
                         "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/!=(_:_:)",
-                        "title" : "static func != (Self, Self) -> Bool",
+                        "title" : "static func != (borrowing Self, borrowing Self) -> Bool",
                         "type" : "op"
                       }
                     ],
                     "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/equatable-implementations",
                     "title" : "Equatable Implementations",
-                    "type" : "symbol"
+                    "type" : "collection"
                   },
                   {
                     "children" : [
@@ -411,6 +421,11 @@
                         "type" : "property"
                       },
                       {
+                        "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/rawattachmentvaluerepresentation",
+                        "title" : "var rawAttachmentValueRepresentation: CVAttachmentRawValue",
+                        "type" : "property"
+                      },
+                      {
                         "title" : "Instance Methods",
                         "type" : "groupMarker"
                       },
@@ -418,11 +433,20 @@
                         "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/hash(into:)",
                         "title" : "func hash(into: inout Hasher)",
                         "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/makefromrawattachmentvalue(_:)",
+                        "title" : "static func makeFromRawAttachmentValue(CVAttachmentRawValue) -> Self?",
+                        "type" : "method"
                       }
                     ],
                     "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel\/rawrepresentable-implementations",
                     "title" : "RawRepresentable Implementations",
-                    "type" : "symbol"
+                    "type" : "collection"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/logger\/loglevel",
@@ -480,13 +504,13 @@
                   },
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/activationstatus\/!=(_:_:)",
-                    "title" : "static func != (Self, Self) -> Bool",
+                    "title" : "static func != (borrowing Self, borrowing Self) -> Bool",
                     "type" : "op"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/activationstatus\/equatable-implementations",
                 "title" : "Equatable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               },
               {
                 "children" : [
@@ -497,6 +521,11 @@
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/activationstatus\/hashvalue",
                     "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/activationstatus\/rawattachmentvaluerepresentation",
+                    "title" : "var rawAttachmentValueRepresentation: CVAttachmentRawValue",
                     "type" : "property"
                   },
                   {
@@ -512,11 +541,20 @@
                     "path" : "\/documentation\/iadvizeconversationsdk\/activationstatus\/hash(into:)",
                     "title" : "func hash(into: inout Hasher)",
                     "type" : "method"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/activationstatus\/makefromrawattachmentvalue(_:)",
+                    "title" : "static func makeFromRawAttachmentValue(CVAttachmentRawValue) -> Self?",
+                    "type" : "method"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/activationstatus\/rawrepresentable-implementations",
                 "title" : "RawRepresentable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/activationstatus",
@@ -565,13 +603,13 @@
                   },
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption\/!=(_:_:)",
-                    "title" : "static func != (Self, Self) -> Bool",
+                    "title" : "static func != (borrowing Self, borrowing Self) -> Bool",
                     "type" : "op"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption\/equatable-implementations",
                 "title" : "Equatable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/authenticationoption",
@@ -659,6 +697,33 @@
                 "type" : "groupMarker"
               },
               {
+                "children" : [
+                  {
+                    "title" : "JWEProvider Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/jweprovider\/providejwe()-4tl4i",
+                    "title" : "func provideJWE() async throws -> JWE",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/iadvizeconversationsdk\/jweprovider\/providejwe()",
+                "title" : "func provideJWE() async throws -> JWE",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "JWEProvider Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/jweprovider\/willrequestjwe(completion:)-40tg4",
+                    "title" : "func willRequestJWE(completion: (Result<JWE, Error>) -> Void)",
+                    "type" : "method"
+                  }
+                ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/jweprovider\/willrequestjwe(completion:)",
                 "title" : "func willRequestJWE(completion: (_ result: Result<JWE, Error>) -> Void)",
                 "type" : "method"
@@ -674,6 +739,15 @@
           },
           {
             "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
@@ -704,11 +778,49 @@
                 "type" : "groupMarker"
               },
               {
+                "children" : [
+                  {
+                    "title" : "ConversationControllerDelegate Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontroller(_:shouldopen:)-3ibn7",
+                    "title" : "func conversationController(ConversationController, shouldOpen: URL) -> Bool",
+                    "type" : "method"
+                  }
+                ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontroller(_:shouldopen:)",
                 "title" : "func conversationController(ConversationController, shouldOpen: URL) -> Bool",
                 "type" : "method"
               },
               {
+                "children" : [
+                  {
+                    "title" : "ConversationControllerDelegate Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontrolleraddtocarthandler(_:)-1t5t3",
+                    "title" : "func conversationControllerAddToCartHandler(ConversationController) -> AddToCartHandler?",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontrolleraddtocarthandler(_:)",
+                "title" : "func conversationControllerAddToCartHandler(ConversationController) -> AddToCartHandler?",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "ConversationControllerDelegate Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/didreceivenewmessage(content:)-117cu",
+                    "title" : "func didReceiveNewMessage(content: String)",
+                    "type" : "method"
+                  }
+                ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/didreceivenewmessage(content:)",
                 "title" : "func didReceiveNewMessage(content: String)",
                 "type" : "method"
@@ -745,6 +857,15 @@
           },
           {
             "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
@@ -871,13 +992,13 @@
                   },
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/!=(_:_:)",
-                    "title" : "static func != (Self, Self) -> Bool",
+                    "title" : "static func != (borrowing Self, borrowing Self) -> Bool",
                     "type" : "op"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/equatable-implementations",
                 "title" : "Equatable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               },
               {
                 "children" : [
@@ -893,7 +1014,7 @@
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/error-implementations",
                 "title" : "Error Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               },
               {
                 "children" : [
@@ -919,7 +1040,7 @@
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/localizederror-implementations",
                 "title" : "LocalizedError Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               },
               {
                 "children" : [
@@ -933,6 +1054,11 @@
                     "type" : "property"
                   },
                   {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/rawattachmentvaluerepresentation",
+                    "title" : "var rawAttachmentValueRepresentation: CVAttachmentRawValue",
+                    "type" : "property"
+                  },
+                  {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
                   },
@@ -940,11 +1066,20 @@
                     "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/hash(into:)",
                     "title" : "func hash(into: inout Hasher)",
                     "type" : "method"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/makefromrawattachmentvalue(_:)",
+                    "title" : "static func makeFromRawAttachmentValue(CVAttachmentRawValue) -> Self?",
+                    "type" : "method"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror\/rawrepresentable-implementations",
                 "title" : "RawRepresentable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/targetingerror",
@@ -1939,13 +2074,13 @@
                   },
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/language\/!=(_:_:)",
-                    "title" : "static func != (Self, Self) -> Bool",
+                    "title" : "static func != (borrowing Self, borrowing Self) -> Bool",
                     "type" : "op"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/language\/equatable-implementations",
                 "title" : "Equatable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               },
               {
                 "children" : [
@@ -1959,6 +2094,11 @@
                     "type" : "property"
                   },
                   {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/language\/rawattachmentvaluerepresentation",
+                    "title" : "var rawAttachmentValueRepresentation: CVAttachmentRawValue",
+                    "type" : "property"
+                  },
+                  {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
                   },
@@ -1966,11 +2106,20 @@
                     "path" : "\/documentation\/iadvizeconversationsdk\/language\/hash(into:)",
                     "title" : "func hash(into: inout Hasher)",
                     "type" : "method"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/language\/makefromrawattachmentvalue(_:)",
+                    "title" : "static func makeFromRawAttachmentValue(CVAttachmentRawValue) -> Self?",
+                    "type" : "method"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/language\/rawrepresentable-implementations",
                 "title" : "RawRepresentable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/language",
@@ -1983,6 +2132,15 @@
           },
           {
             "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
@@ -2002,6 +2160,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/dismisschatbox(animated:)",
+                "title" : "func dismissChatbox(animated: Bool) async",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/dismisschatbox(animated:completion:)",
                 "title" : "func dismissChatbox(animated: Bool, completion: (@MainActor () -> Void)?)",
                 "type" : "method"
@@ -2009,6 +2172,11 @@
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/ischatboxpresented()",
                 "title" : "func isChatboxPresented() -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/presentchatbox(animated:presentingviewcontroller:)",
+                "title" : "func presentChatbox(animated: Bool, presentingViewController: UIViewController?) async",
                 "type" : "method"
               },
               {
@@ -2139,6 +2307,15 @@
           {
             "children" : [
               {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -2148,8 +2325,18 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/disablepushnotifications()",
+                "title" : "func disablePushNotifications() async throws",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/disablepushnotifications(completion:)",
                 "title" : "func disablePushNotifications(completion: (@MainActor (Bool) -> Void)?)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/enablepushnotifications()",
+                "title" : "func enablePushNotifications() async throws",
                 "type" : "method"
               },
               {
@@ -2209,13 +2396,13 @@
                   },
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/applicationmode\/!=(_:_:)",
-                    "title" : "static func != (Self, Self) -> Bool",
+                    "title" : "static func != (borrowing Self, borrowing Self) -> Bool",
                     "type" : "op"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/applicationmode\/equatable-implementations",
                 "title" : "Equatable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               },
               {
                 "children" : [
@@ -2229,6 +2416,11 @@
                     "type" : "property"
                   },
                   {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/applicationmode\/rawattachmentvaluerepresentation",
+                    "title" : "var rawAttachmentValueRepresentation: CVAttachmentRawValue",
+                    "type" : "property"
+                  },
+                  {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
                   },
@@ -2236,11 +2428,20 @@
                     "path" : "\/documentation\/iadvizeconversationsdk\/applicationmode\/hash(into:)",
                     "title" : "func hash(into: inout Hasher)",
                     "type" : "method"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/applicationmode\/makefromrawattachmentvalue(_:)",
+                    "title" : "static func makeFromRawAttachmentValue(CVAttachmentRawValue) -> Self?",
+                    "type" : "method"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/applicationmode\/rawrepresentable-implementations",
                 "title" : "RawRepresentable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/applicationmode",
@@ -2253,6 +2454,15 @@
           },
           {
             "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
               {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
@@ -3518,13 +3728,13 @@
                   },
                   {
                     "path" : "\/documentation\/iadvizeconversationsdk\/currency\/!=(_:_:)",
-                    "title" : "static func != (Self, Self) -> Bool",
+                    "title" : "static func != (borrowing Self, borrowing Self) -> Bool",
                     "type" : "op"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/currency\/equatable-implementations",
                 "title" : "Equatable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               },
               {
                 "children" : [
@@ -3547,6 +3757,11 @@
                     "type" : "property"
                   },
                   {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/currency\/rawattachmentvaluerepresentation",
+                    "title" : "var rawAttachmentValueRepresentation: CVAttachmentRawValue",
+                    "type" : "property"
+                  },
+                  {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
                   },
@@ -3559,11 +3774,20 @@
                     "path" : "\/documentation\/iadvizeconversationsdk\/currency\/hash(into:)",
                     "title" : "func hash(into: inout Hasher)",
                     "type" : "method"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/iadvizeconversationsdk\/currency\/makefromrawattachmentvalue(_:)",
+                    "title" : "static func makeFromRawAttachmentValue(CVAttachmentRawValue) -> Self?",
+                    "type" : "method"
                   }
                 ],
                 "path" : "\/documentation\/iadvizeconversationsdk\/currency\/rawrepresentable-implementations",
                 "title" : "RawRepresentable Implementations",
-                "type" : "symbol"
+                "type" : "collection"
               }
             ],
             "path" : "\/documentation\/iadvizeconversationsdk\/currency",
@@ -3577,8 +3801,22 @@
           {
             "children" : [
               {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/registercustomdata(customdata:)",
+                "title" : "func registerCustomData(customData: [String : CustomData]) async throws",
+                "type" : "method"
               },
               {
                 "path" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/registercustomdata(customdata:completion:)",
@@ -3620,6 +3858,15 @@
             "path" : "\/documentation\/iadvizeconversationsdk\/customdata",
             "title" : "CustomData",
             "type" : "enum"
+          },
+          {
+            "title" : "Type Aliases",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/iadvizeconversationsdk\/addtocarthandler",
+            "title" : "AddToCartHandler",
+            "type" : "typealias"
           }
         ],
         "path" : "\/documentation\/iadvizeconversationsdk",

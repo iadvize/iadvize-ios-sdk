@@ -1,0 +1,541 @@
+{
+  "abstract" : [
+    {
+      "text" : "Called to retrieve the handler used when the visitor taps “Add to cart” on a product.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementationsSections" : [
+    {
+      "anchor" : "ConversationControllerDelegate-Implementations",
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationControllerAddToCartHandler(_:)-1t5t3"
+      ],
+      "title" : "ConversationControllerDelegate Implementations"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationControllerAddToCartHandler(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:22IAdvizeConversationSDK0B18ControllerDelegateP012conversationD16AddToCartHandleryySSYaKcSgAA0bD0CF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "conversationControllerAddToCartHandler"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)ConversationController",
+        "text" : "ConversationController"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:22IAdvizeConversationSDK16AddToCartHandlera",
+        "text" : "AddToCartHandler"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "IAdvizeConversationSDK"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "conversationControllerAddToCartHandler(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "conversationControllerAddToCartHandler"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "controller"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)ConversationController",
+              "text" : "ConversationController"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AddToCartHandler",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:22IAdvizeConversationSDK16AddToCartHandlera",
+              "text" : "AddToCartHandler"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The object managing the conversation.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "controller"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "An ",
+              "type" : "text"
+            },
+            {
+              "code" : "AddToCartHandler",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", or ",
+              "type" : "text"
+            },
+            {
+              "code" : "nil",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " to keep the default behavior.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Return a non-nil handler to enable the add-to-cart feature. When ",
+              "type" : "text"
+            },
+            {
+              "code" : "nil",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " (the default), the",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "“Add to cart” button is not displayed.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontrolleraddtocarthandler(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK": {
+  "abstract" : [
+    {
+      "text" : "Take your app to the next level and provide a ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "unique conversational experience",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " to your users!",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "IAdvizeConversationSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AddToCartHandler": {
+  "abstract" : [
+    {
+      "text" : "A handler called when the visitor taps “Add to cart” on a product.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AddToCartHandler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AddToCartHandler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AddToCartHandler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AddToCartHandler",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/addtocarthandler"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationController": {
+  "abstract" : [
+    {
+      "text" : "An object that allows to monitor the conversation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ConversationController"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationController",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ConversationController"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ConversationController",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontroller"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationControllerDelegate": {
+  "abstract" : [
+    {
+      "text" : "An object that is notified about the ongoing conversation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ConversationControllerDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ConversationControllerDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ConversationControllerDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationControllerDelegate/conversationControllerAddToCartHandler(_:)": {
+  "abstract" : [
+    {
+      "text" : "Called to retrieve the handler used when the visitor taps “Add to cart” on a product.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conversationControllerAddToCartHandler"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)ConversationController",
+      "text" : "ConversationController"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK16AddToCartHandlera",
+      "text" : "AddToCartHandler"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationControllerAddToCartHandler(_:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "conversationControllerAddToCartHandler(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontrolleraddtocarthandler(_:)"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationControllerDelegate/conversationControllerAddToCartHandler(_:)-1t5t3": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conversationControllerAddToCartHandler"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)ConversationController",
+      "text" : "ConversationController"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK16AddToCartHandlera",
+      "text" : "AddToCartHandler"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/conversationControllerAddToCartHandler(_:)-1t5t3",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "conversationControllerAddToCartHandler(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/conversationcontrolleraddtocarthandler(_:)-1t5t3"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController\/title",
+        "value" : "ConversationController"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ConversationController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ConversationController\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ConversationController"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

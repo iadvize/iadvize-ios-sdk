@@ -31,6 +31,10 @@
     ],
     "navigatorTitle" : [
       {
+        "kind" : "text",
+        "text" : "- "
+      },
+      {
         "kind" : "identifier",
         "text" : "init"
       }
@@ -48,7 +52,9 @@
             "occ"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -176,12 +182,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/init",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    }
-  ],
   "role" : "symbol",
   "title" : "init",
   "type" : "topic",

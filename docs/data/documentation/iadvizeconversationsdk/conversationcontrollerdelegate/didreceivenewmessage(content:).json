@@ -5,6 +5,15 @@
       "type" : "text"
     }
   ],
+  "defaultImplementationsSections" : [
+    {
+      "anchor" : "ConversationControllerDelegate-Implementations",
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/didReceiveNewMessage(content:)-117cu"
+      ],
+      "title" : "ConversationControllerDelegate Implementations"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -74,7 +83,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -266,6 +277,7 @@
       "type" : "text"
     }
   ],
+  "defaultImplementations" : 1,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -308,6 +320,52 @@
   "title" : "didReceiveNewMessage(content:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/didreceivenewmessage(content:)"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ConversationControllerDelegate/didReceiveNewMessage(content:)-117cu": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "didReceiveNewMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "content"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ConversationControllerDelegate\/didReceiveNewMessage(content:)-117cu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "didReceiveNewMessage(content:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/conversationcontrollerdelegate\/didreceivenewmessage(content:)-117cu"
 }
 }
 }

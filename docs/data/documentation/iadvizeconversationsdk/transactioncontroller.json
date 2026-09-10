@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -129,6 +131,14 @@
     }
   ],
   "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TransactionController\/init()"
+      ],
+      "title" : "Initializers"
+    },
     {
       "anchor" : "Instance-Methods",
       "generated" : true,
@@ -309,11 +319,34 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TransactionController/init": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TransactionController/init()": {
   "abstract" : [
-
+    {
+      "text" : "Preserve the parameterless public initializer previously inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
   "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TransactionController\/init()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
     {
       "kind" : "text",
       "text" : "- "
@@ -323,18 +356,10 @@
       "text" : "init"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TransactionController\/init",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    }
-  ],
   "role" : "symbol",
-  "title" : "init",
+  "title" : "init()",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller\/init"
+  "url" : "\/documentation\/iadvizeconversationsdk\/transactioncontroller\/init()"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TransactionController/registerTransaction(_:)": {
   "abstract" : [
@@ -459,7 +484,7 @@
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TransactionController\/init"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TransactionController\/init()"
             ],
             "title" : "Instance Methods"
           }
@@ -503,7 +528,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
@@ -580,6 +607,25 @@
           {
             "kind" : "identifier",
             "text" : "TransactionController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TransactionController~1init()\/title",
+        "value" : "init"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TransactionController~1init()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "- "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "init"
           }
         ]
       }

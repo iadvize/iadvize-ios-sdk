@@ -1,3 +1,8 @@
+## 3.1.1 > 3.2.0
+
+- Optional: add support for the "Add to cart" button in conversation. Check the [documentation](https://docs.iadvize.dev/technologies/web-and-mobile-sdk/mobile-sdk/jonchee#displaying-the-add-to-cart-button).
+- Optional: migrate to the new `async` APIs. They share the same name as the existing closure-based APIs, excluding the completion parameter.
+
 ## 3.1.0 > 3.1.1
 
 *Nothing to report*

@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -319,8 +321,10 @@
       "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/activate(projectId:authenticationOption:gdprOption:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/activate(projectId:authenticationOption:gdprOption:completion:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/debugInfo()",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/logout()",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/logout(completion:)"
       ],
       "title" : "Instance Methods"
@@ -428,6 +432,101 @@
   "title" : "IAdvizeSDK",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/activate(projectId:authenticationOption:gdprOption:)": {
+  "abstract" : [
+    {
+      "text" : "Activate the iAdvize SDK for the visitor.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "activate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "projectId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "authenticationOption"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK20AuthenticationOptionO",
+      "text" : "AuthenticationOption"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "gdprOption"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK10GDPROptionO",
+      "text" : "GDPROption"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/activate(projectId:authenticationOption:gdprOption:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "activate(projectId:authenticationOption:gdprOption:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/activate(projectid:authenticationoption:gdproption:)"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/activate(projectId:authenticationOption:gdprOption:completion:)": {
   "abstract" : [
@@ -732,12 +831,6 @@
   ],
   "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/init",
   "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    }
-  ],
   "role" : "symbol",
   "title" : "init",
   "type" : "topic",
@@ -788,6 +881,42 @@
   "title" : "logLevel",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/loglevel"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/logout()": {
+  "abstract" : [
+    {
+      "text" : "Logout the visitor from the iAdvize SDK.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logout"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/IAdvizeSDK\/logout()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logout()",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/iadvizesdk\/logout()"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/IAdvizeSDK/logout(completion:)": {
   "abstract" : [
@@ -1196,7 +1325,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {

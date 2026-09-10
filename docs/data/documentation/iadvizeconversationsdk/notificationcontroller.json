@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -129,11 +131,21 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
       "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/clearIAdvizePushNotifications()",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/disablePushNotifications()",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/disablePushNotifications(completion:)",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/enablePushNotifications()",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/enablePushNotifications(completion:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/isIAdvizePushNotification(with:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/registerPushToken(_:applicationMode:)"
@@ -302,6 +314,50 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/cleariadvizepushnotifications()"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/disablePushNotifications()": {
+  "abstract" : [
+    {
+      "text" : "Disable push notifications for the current visitor on this device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "disablePushNotifications"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/disablePushNotifications()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "disablePushNotifications()",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/disablepushnotifications()"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/disablePushNotifications(completion:)": {
   "abstract" : [
     {
@@ -368,6 +424,50 @@
   "title" : "disablePushNotifications(completion:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/disablepushnotifications(completion:)"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/enablePushNotifications()": {
+  "abstract" : [
+    {
+      "text" : "Enable push notifications for the current visitor on this device.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enablePushNotifications"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/enablePushNotifications()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enablePushNotifications()",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/enablepushnotifications()"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/enablePushNotifications(completion:)": {
   "abstract" : [
@@ -436,11 +536,34 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/enablepushnotifications(completion:)"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/init": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/init()": {
   "abstract" : [
-
+    {
+      "text" : "Preserve the parameterless public initializer previously inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
   "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/init()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
     {
       "kind" : "text",
       "text" : "- "
@@ -450,18 +573,10 @@
       "text" : "init"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/init",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    }
-  ],
   "role" : "symbol",
-  "title" : "init",
+  "title" : "init()",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/init"
+  "url" : "\/documentation\/iadvizeconversationsdk\/notificationcontroller\/init()"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/NotificationController/isIAdvizePushNotification(with:)": {
   "abstract" : [
@@ -673,7 +788,7 @@
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/init"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/NotificationController\/init()"
             ],
             "title" : "Instance Methods"
           }
@@ -708,7 +823,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
@@ -760,6 +877,25 @@
           {
             "kind" : "identifier",
             "text" : "NotificationController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1init()\/title",
+        "value" : "init"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1NotificationController~1init()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "- "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "init"
           }
         ]
       }

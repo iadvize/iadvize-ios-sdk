@@ -1,4 +1,19 @@
 {
+  "abstract" : [
+    {
+      "text" : "Provide a valid JWE to authenticate the visitor, using a completion handler.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementationsSections" : [
+    {
+      "anchor" : "JWEProvider-Implementations",
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/willRequestJWE(completion:)-40tg4"
+      ],
+      "title" : "JWEProvider Implementations"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -111,7 +126,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -203,6 +220,78 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The block to call with the JWE, or an error if it could not be provided.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "completion"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Conforming types must implement either this method or ",
+                  "type" : "text"
+                },
+                {
+                  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/provideJWE()",
+                  "isActive" : true,
+                  "type" : "reference"
+                },
+                {
+                  "text" : ". Prefer ",
+                  "type" : "text"
+                },
+                {
+                  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/provideJWE()",
+                  "isActive" : true,
+                  "type" : "reference"
+                },
+                {
+                  "text" : " in a",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "Swift Concurrency context.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Note",
+          "style" : "note",
+          "type" : "aside"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -316,10 +405,69 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/jweprovider"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/JWEProvider/provideJWE()": {
+  "abstract" : [
+    {
+      "text" : "Provide a valid JWE to authenticate the visitor.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "provideJWE"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)JWE",
+      "text" : "JWE"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/provideJWE()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "provideJWE()",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/jweprovider\/providejwe()"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/JWEProvider/willRequestJWE(completion:)": {
   "abstract" : [
-
+    {
+      "text" : "Provide a valid JWE to authenticate the visitor, using a completion handler.",
+      "type" : "text"
+    }
   ],
+  "defaultImplementations" : 1,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -405,6 +553,117 @@
   "title" : "willRequestJWE(completion:)",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/jweprovider\/willrequestjwe(completion:)"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/JWEProvider/willRequestJWE(completion:)-40tg4": {
+  "abstract" : [
+    {
+      "text" : "Default implementation for integrators who only implement ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/provideJWE()",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ". It is never called by the SDK,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "which always goes through ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/provideJWE()",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ". It only exists to make ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/willRequestJWE(completion:)-40tg4",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " optional.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "willRequestJWE"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6ResultO",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)JWE",
+      "text" : "JWE"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/willRequestJWE(completion:)-40tg4",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "willRequestJWE(completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/jweprovider\/willrequestjwe(completion:)-40tg4"
 }
 }, 
 "variantOverrides":[

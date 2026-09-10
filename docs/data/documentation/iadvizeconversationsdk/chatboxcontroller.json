@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -130,6 +132,14 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
       "anchor" : "Instance-Properties",
       "generated" : true,
       "identifiers" : [
@@ -142,8 +152,10 @@
       "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/dismissChatbox(animated:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/dismissChatbox(animated:completion:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/isChatboxPresented()",
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/presentChatbox(animated:presentingViewController:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/presentChatbox(animated:presentingViewController:completion:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/setFloatingButtonPosition(leftMargin:bottomMargin:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/setupChatbox(configuration:)"
@@ -321,6 +333,59 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/delegate"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/dismissChatbox(animated:)": {
+  "abstract" : [
+    {
+      "text" : "Manually dismiss the chatbox.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dismissChatbox"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "animated"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/dismissChatbox(animated:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dismissChatbox(animated:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/dismisschatbox(animated:)"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/dismissChatbox(animated:completion:)": {
   "abstract" : [
     {
@@ -396,11 +461,34 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/dismisschatbox(animated:completion:)"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/init": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/init()": {
   "abstract" : [
-
+    {
+      "text" : "Preserve the parameterless public initializer previously inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
   "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/init()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
     {
       "kind" : "text",
       "text" : "- "
@@ -410,18 +498,10 @@
       "text" : "init"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/init",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    }
-  ],
   "role" : "symbol",
-  "title" : "init",
+  "title" : "init()",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/init"
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/init()"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/isChatboxPresented()": {
   "abstract" : [
@@ -467,6 +547,76 @@
   "title" : "isChatboxPresented()",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/ischatboxpresented()"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/presentChatbox(animated:presentingViewController:)": {
+  "abstract" : [
+    {
+      "text" : "Manually present the chatbox as a modal view controller.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "presentChatbox"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "animated"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "presentingViewController"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIViewController",
+      "text" : "UIViewController"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/presentChatbox(animated:presentingViewController:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "presentChatbox(animated:presentingViewController:)",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/chatboxcontroller\/presentchatbox(animated:presentingviewcontroller:)"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ChatboxController/presentChatbox(animated:presentingViewController:completion:)": {
   "abstract" : [
@@ -849,7 +999,7 @@
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/init"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/ChatboxController\/init()"
             ],
             "title" : "Instance Methods"
           }
@@ -884,7 +1034,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
@@ -936,6 +1088,25 @@
           {
             "kind" : "identifier",
             "text" : "ChatboxController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1init()\/title",
+        "value" : "init"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1ChatboxController~1init()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "- "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "init"
           }
         ]
       }

@@ -51,7 +51,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -104,6 +106,7 @@
       "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/provideJWE()",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/willRequestJWE(completion:)"
       ],
       "title" : "Instance Methods"
@@ -379,10 +382,69 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/jweprovider"
 },
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/JWEProvider/provideJWE()": {
+  "abstract" : [
+    {
+      "text" : "Provide a valid JWE to authenticate the visitor.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "provideJWE"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@IAdvizeConversationSDK@objc(cs)JWE",
+      "text" : "JWE"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/JWEProvider\/provideJWE()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "provideJWE()",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/jweprovider\/providejwe()"
+},
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/JWEProvider/willRequestJWE(completion:)": {
   "abstract" : [
-
+    {
+      "text" : "Provide a valid JWE to authenticate the visitor, using a completion handler.",
+      "type" : "text"
+    }
   ],
+  "defaultImplementations" : 1,
   "fragments" : [
     {
       "kind" : "keyword",

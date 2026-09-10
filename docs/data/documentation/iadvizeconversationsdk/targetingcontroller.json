@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -132,6 +134,14 @@
     }
   ],
   "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/init()"
+      ],
+      "title" : "Initializers"
+    },
     {
       "anchor" : "Instance-Properties",
       "generated" : true,
@@ -437,11 +447,34 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/delegate"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/init": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/init()": {
   "abstract" : [
-
+    {
+      "text" : "Preserve the parameterless public initializer previously inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
   "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/init()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
     {
       "kind" : "text",
       "text" : "- "
@@ -451,18 +484,10 @@
       "text" : "init"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/init",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    }
-  ],
   "role" : "symbol",
-  "title" : "init",
+  "title" : "init()",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/init"
+  "url" : "\/documentation\/iadvizeconversationsdk\/targetingcontroller\/init()"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/TargetingController/isActiveTargetingRuleAvailable": {
   "abstract" : [
@@ -743,7 +768,7 @@
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/init"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/TargetingController\/init()"
             ],
             "title" : "Instance Methods"
           }
@@ -787,7 +812,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
@@ -839,6 +866,25 @@
           {
             "kind" : "identifier",
             "text" : "TargetingController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1init()\/title",
+        "value" : "init"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1TargetingController~1init()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "- "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "init"
           }
         ]
       },

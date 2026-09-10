@@ -161,6 +161,14 @@
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/CustomData"
       ],
       "title" : "Visitor"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AddToCartHandler"
+      ],
+      "title" : "Type Aliases"
     }
   ],
   "variants" : [
@@ -244,6 +252,40 @@
   "title" : "ActivationStatus",
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/activationstatus"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/AddToCartHandler": {
+  "abstract" : [
+    {
+      "text" : "A handler called when the visitor taps “Add to cart” on a product.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AddToCartHandler"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/AddToCartHandler",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AddToCartHandler"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AddToCartHandler",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/addtocarthandler"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/ApplicationMode": {
   "abstract" : [

@@ -51,7 +51,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -123,9 +125,18 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorController\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
       "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorController\/registerCustomData(customData:)",
         "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorController\/registerCustomData(customData:completion:)"
       ],
       "title" : "Instance Methods"
@@ -254,11 +265,34 @@
   "type" : "topic",
   "url" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller"
 },
-"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/VisitorController/init": {
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/VisitorController/init()": {
   "abstract" : [
-
+    {
+      "text" : "Preserve the parameterless public initializer previously inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
   ],
   "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorController\/init()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
     {
       "kind" : "text",
       "text" : "- "
@@ -268,18 +302,80 @@
       "text" : "init"
     }
   ],
-  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorController\/init",
-  "kind" : "symbol",
-  "navigatorTitle" : [
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/init()"
+},
+"doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/VisitorController/registerCustomData(customData:)": {
+  "abstract" : [
     {
-      "kind" : "identifier",
-      "text" : "init"
+      "text" : "Send a list of Visitor Custom Data.",
+      "type" : "text"
     }
   ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "registerCustomData"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customData"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22IAdvizeConversationSDK10CustomDataO",
+      "text" : "CustomData"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorController\/registerCustomData(customData:)",
+  "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init",
+  "title" : "registerCustomData(customData:)",
   "type" : "topic",
-  "url" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/init"
+  "url" : "\/documentation\/iadvizeconversationsdk\/visitorcontroller\/registercustomdata(customdata:)"
 },
 "doc://com.iadvize.conversation.sdk/documentation/IAdvizeConversationSDK/VisitorController/registerCustomData(customData:completion:)": {
   "abstract" : [
@@ -456,7 +552,7 @@
             "anchor" : "Instance-Methods",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorController\/init"
+              "doc:\/\/com.iadvize.conversation.sdk\/documentation\/IAdvizeConversationSDK\/VisitorController\/init()"
             ],
             "title" : "Instance Methods"
           }
@@ -491,7 +587,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
@@ -543,6 +641,25 @@
           {
             "kind" : "identifier",
             "text" : "VisitorController"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1VisitorController~1init()\/title",
+        "value" : "init"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1com.iadvize.conversation.sdk~1documentation~1IAdvizeConversationSDK~1VisitorController~1init()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "- "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "init"
           }
         ]
       }
